@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const routes = [
   '/',
+  '/collections/',
   '/our-story/',
   '/trade/',
   '/enquire/',

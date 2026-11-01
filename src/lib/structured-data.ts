@@ -17,6 +17,12 @@ export function getOrganizationSchema() {
     'address': {
       '@type': 'PostalAddress',
       'addressCountry': 'GB'
+    },
+    'founder': {
+      '@type': 'Person',
+      'name': 'Baris Bagirlar',
+      'jobTitle': 'Managing Director & Founder',
+      'sameAs': siteConfig.linkedinUrl
     }
   };
 }

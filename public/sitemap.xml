@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://cabivella.co.uk/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/kitchens/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/bathrooms/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/pantry-larder/</loc><changefreq>monthly</changefreq></url>

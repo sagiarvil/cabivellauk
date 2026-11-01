@@ -10,6 +10,7 @@ if (!fs.existsSync(distDir)) {
 
 const requiredPages = [
   '',
+  'collections',
   'our-story',
   'trade',
   'enquire',
