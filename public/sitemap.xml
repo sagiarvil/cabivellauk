@@ -241,7 +241,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/belgravia-executive-kitchen-310/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/belgravia-grand-380/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/belgravia-island-olive-240/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/chelsea-dualtone-highgloss-410/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -261,7 +276,27 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/cotswold-fullheight-suite-400/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/hampstead-contemporary-suite-400/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/kensington-culinary-suite-310/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/kensington-linear-240/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/knightsbridge-tall-larder-410/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -281,7 +316,17 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/mayfair-monolith-highgloss-410/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/mayfair-pantry-320/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/richmond-dualtower-kitchen-400/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -292,6 +337,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchens/shaker-kitchens/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/st-james-integrated-tower-410/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -307,6 +357,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchens/vera-architectural-kitchen/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/westminster-chef-suite-310/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -2130,5 +2130,393 @@ export const modelsData: Record<string, ModelDetail> = {
       "Dual soft-close drawers providing organised storage for guest toiletries",
       "Factory-applied hydrophobic perimeter seals preventing water droplet swelling"
     ]
+  },
+  "westminster-chef-suite-310": {
+    "slug": "westminster-chef-suite-310",
+    "category": "kitchens",
+    "title": "Westminster 310cm Chef's Linear Kitchen",
+    "metaTitle": "Westminster 310cm Chef's Linear Kitchen | Cabivella UK",
+    "metaDescription": "Luxury 310cm made-to-measure culinary kitchen layout featuring moisture-resistant MDF fronts, seamless integrated worktop, deep pot drawers, and matching wall units.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "125.998 TL",
+    "dimensionsMm": "3100mm width, 600mm base carcass depth (350mm wall depth), 2150mm standard installed height",
+    "materials": [
+      "High-density moisture-resistant MR-MDF core",
+      "Seamless acrylic stone-composite worktop deck",
+      "Concealed heavy-load undermount runners with hydraulic damping",
+      "Factory-baked multi-layer polyurethane enamel"
+    ],
+    "finishOptions": [
+      "Pure Architectural Chalk",
+      "Warm Stone Greige",
+      "Smoked Slate",
+      "Natural Oiled Oak interior"
+    ],
+    "installationScope": "Supplied rigid in bespoke protective timber crating with laser-levelled wall hanging gear and plumbing service voids.",
+    "image": "/assets/img/models/real_kitchens/5002886738_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002886738_1.webp",
+      "/assets/img/models/real_kitchens/5002886738_2.webp",
+      "/assets/img/models/real_kitchens/5002886738_3.webp"
+    ],
+    "description": "An expansive 310cm linear culinary workstation engineered for British homes demanding generous preparation space. Includes dedicated sink module, hob housing, high-capacity pan drawers, and full-width overhead storage with integrated extraction housing.",
+    "keyFeatures": [
+      "3100mm continuous preparation run incorporating integrated worktop and sink cutaway",
+      "Triple-tier heavy-duty pan drawer bank tested to 50kg dynamic loads",
+      "Dedicated tall utility column and appliance housings with heat-deflector lining",
+      "Moisture-sealed service cavity allowing clean pipework runs behind rear carcasses"
+    ]
+  },
+  "kensington-culinary-suite-310": {
+    "slug": "kensington-culinary-suite-310",
+    "category": "kitchens",
+    "title": "Kensington 310cm Architectural Culinary Suite",
+    "metaTitle": "Kensington 310cm Culinary Suite | Bespoke Kitchens | Cabivella UK",
+    "metaDescription": "Grand 310cm made-to-measure kitchen suite featuring precision-milled cabinetry, full-extension dovetail drawers, and integrated prep worktop.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "125.998 TL",
+    "dimensionsMm": "3100mm width, 600mm worktop depth, 2200mm ceiling-line height",
+    "materials": [
+      "Moisture-resistant high-density timber composite",
+      "Durable heat-resistant work surface",
+      "Synchronised full-extension drawer glides",
+      "Concealed soft-close buffer hinges"
+    ],
+    "finishOptions": [
+      "Satin Oyster White",
+      "Basalt Grey Silk",
+      "Heritage Olive",
+      "Smoked Walnut interior"
+    ],
+    "installationScope": "Factory pre-assembled rigid units complete with adjustable steel levelling feet.",
+    "image": "/assets/img/models/real_kitchens/5002886726_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002886726_1.webp",
+      "/assets/img/models/real_kitchens/5002886726_2.webp",
+      "/assets/img/models/real_kitchens/5002886726_3.webp"
+    ],
+    "description": "Designed for open-plan living and serious culinary preparation. Balances symmetry with ergonomic flow, integrating sink, cooking, and extensive larder storage within a monolithic 310cm elevation.",
+    "keyFeatures": [
+      "Precision 3100mm layout with balanced symmetry around central cooking zone",
+      "Overhead lift-up flap cabinets providing clear line of sight while preparing meals",
+      "Full internal organiser inserts for spices, cutlery, and kitchen linens",
+      "Factory-applied hydrophobic sealing protecting against cooking steam and water spills"
+    ]
+  },
+  "belgravia-executive-kitchen-310": {
+    "slug": "belgravia-executive-kitchen-310",
+    "category": "kitchens",
+    "title": "Belgravia 310cm Executive Integrated Kitchen",
+    "metaTitle": "Belgravia 310cm Executive Kitchen | Luxury Joinery | Cabivella UK",
+    "metaDescription": "Sophisticated 310cm bespoke kitchen layout featuring high-specification cabinetry, integrated breakfast preparation zone, and durable work surfaces.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "125.998 TL",
+    "dimensionsMm": "3100mm width, 600mm base depth (350mm wall depth), 2150mm height",
+    "materials": [
+      "18mm structural MR-MDF substrate",
+      "Scratch-resistant satin lacquer finish",
+      "Heavy-duty 40kg soft-close glides",
+      "Stainless steel internal mounting fittings"
+    ],
+    "finishOptions": [
+      "Cashmere Warm Taupe",
+      "Alabaster White",
+      "Deep Navy",
+      "Natural Oak accents"
+    ],
+    "installationScope": "Supplied rigid with integrated service ducting and wall hanging brackets.",
+    "image": "/assets/img/models/real_kitchens/5002886596_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002886596_1.webp",
+      "/assets/img/models/real_kitchens/5002886596_2.webp",
+      "/assets/img/models/real_kitchens/5002886596_3.webp"
+    ],
+    "description": "A refined expression of contemporary British domestic joinery. Generous 310cm footprint accommodates high-capacity recycling systems, deep stockpot drawers, and discrete appliance housings.",
+    "keyFeatures": [
+      "3100mm made-to-measure run with integrated waste recycling pull-out",
+      "Deep lower pan drawers engineered for cast iron cookware and Dutch ovens",
+      "Concealed extractor hood housing with moisture-shield baffle",
+      "Continuous worktop surface with pre-cut sink and hob apertures"
+    ]
+  },
+  "mayfair-monolith-highgloss-410": {
+    "slug": "mayfair-monolith-highgloss-410",
+    "category": "kitchens",
+    "title": "Mayfair 410cm Monolith High-Gloss Suite",
+    "metaTitle": "Mayfair 410cm High-Gloss Kitchen | Architectural Suites | Cabivella UK",
+    "metaDescription": "Commanding 410cm x 240cm architectural kitchen suite featuring mirror-finish high-gloss lacquered fronts, dual full-height towers, and expansive central preparation run.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "71.650 TL",
+    "dimensionsMm": "4100mm width, 2400mm full ceiling height, 600mm depth",
+    "materials": [
+      "High-gloss mirror acrylic lacquered MDF",
+      "Moisture-sealed structural carcass",
+      "Heavy-duty tall tower slide mechanisms",
+      "Integrated aluminium finger-grip rails"
+    ],
+    "finishOptions": [
+      "Mirror Pure White",
+      "Deep Gloss Anthracite",
+      "Cashmere Silk Gloss"
+    ],
+    "installationScope": "Modular numbered delivery with ceiling scribing infills and heavy appliance tower bracings.",
+    "image": "/assets/img/models/real_kitchens/5002600107_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002600107_1.webp",
+      "/assets/img/models/real_kitchens/5002600107_2.webp",
+      "/assets/img/models/real_kitchens/5002600107_3.webp"
+    ],
+    "description": "Grand architectural presence spanning 4.10 metres. Dual full-height 240cm towers flank an expansive central cooking and prep workstation, finished in pristine mirror high-gloss lacquer.",
+    "keyFeatures": [
+      "Massive 4100mm x 2400mm elevation providing floor-to-ceiling storage capacity",
+      "Dual full-height appliance towers accommodating integrated fridge, freezer, and eye-level ovens",
+      "Mirror high-gloss finish amplifying natural light in expansive open-plan UK extensions",
+      "Concealed soft-close motion hardware with 50kg load ratings on lower drawers"
+    ]
+  },
+  "chelsea-dualtone-highgloss-410": {
+    "slug": "chelsea-dualtone-highgloss-410",
+    "category": "kitchens",
+    "title": "Chelsea 410cm Dual-Tone High-Gloss Suite",
+    "metaTitle": "Chelsea 410cm Dual-Tone Kitchen | High-Gloss Joinery | Cabivella UK",
+    "metaDescription": "Striking 410cm x 240cm contemporary kitchen combining chalk white overhead cabinetry with deep anthracite base towers and seamless work surfaces.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "71.470 TL",
+    "dimensionsMm": "4100mm width, 2400mm ceiling height, 600mm depth",
+    "materials": [
+      "Dual-tone high-gloss acrylic MDF panels",
+      "Water-resistant sealed carcasses",
+      "Heavy-load tandem pantry slides",
+      "Laser-welded ABS edge banding"
+    ],
+    "finishOptions": [
+      "Chalk White & Anthracite Gloss",
+      "Pure White & Basalt Grey",
+      "Ivory & Smoked Slate"
+    ],
+    "installationScope": "Delivered rigid in modular sections with adjustable steel feet and wall suspension kits.",
+    "image": "/assets/img/models/real_kitchens/5002600116_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002600116_1.webp",
+      "/assets/img/models/real_kitchens/5002600116_2.webp",
+      "/assets/img/models/real_kitchens/5002600116_3.webp"
+    ],
+    "description": "A striking dual-tone aesthetic uniting light reflective upper units with grounded dark base cabinetry. Designed for modern architectural residences seeking bold visual contrast.",
+    "keyFeatures": [
+      "Contrast dual-tone elevation with white upper units and anthracite base banks",
+      "Full 4100mm linear span incorporating sink, cooking, and refrigeration zones",
+      "Integrated tall larder tower with multi-tier pull-out storage baskets",
+      "Impermeable laser-applied edge sealing preventing moisture ingress from dishwasher steam"
+    ]
+  },
+  "knightsbridge-tall-larder-410": {
+    "slug": "knightsbridge-tall-larder-410",
+    "category": "kitchens",
+    "title": "Knightsbridge 410cm Tall Larder Kitchen",
+    "metaTitle": "Knightsbridge 410cm Larder Kitchen | Bespoke Joinery | Cabivella UK",
+    "metaDescription": "Expansive 410cm made-to-measure kitchen suite featuring dedicated walk-in tall larder capacity, integrated appliance banks, and high-gloss lacquer.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "71.340 TL",
+    "dimensionsMm": "4100mm width, 2400mm height, 600mm depth",
+    "materials": [
+      "High-gloss lacquered moisture-resistant core",
+      "Heavy-duty Blum motion slides",
+      "Structural Birch plywood reinforcements",
+      "Internal LED light integration profiles"
+    ],
+    "finishOptions": [
+      "Pure Architectural White",
+      "Basalt Silk Gloss",
+      "Cashmere Gloss"
+    ],
+    "installationScope": "Pre-assembled rigid carcasses with dedicated joinery numbering system.",
+    "image": "/assets/img/models/real_kitchens/5002599734_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002599734_1.webp",
+      "/assets/img/models/real_kitchens/5002599734_2.webp",
+      "/assets/img/models/real_kitchens/5002599734_3.webp"
+    ],
+    "description": "Engineered for generous UK family homes. High-volume tall cabinetry houses provisions, small appliances, and cooking essentials, keeping countertops completely pristine.",
+    "keyFeatures": [
+      "4100mm wide layout featuring integrated full-height pantry storage tower",
+      "Central culinary prep zone with heavy-duty cooking appliance integration",
+      "Full soft-close damping across every door and drawer front",
+      "Scribed top infill panels allowing tailored fit to out-of-level British ceilings"
+    ]
+  },
+  "st-james-integrated-tower-410": {
+    "slug": "st-james-integrated-tower-410",
+    "category": "kitchens",
+    "title": "St James 410cm Integrated Tower Kitchen",
+    "metaTitle": "St James 410cm Integrated Kitchen | Luxury Suites | Cabivella UK",
+    "metaDescription": "Contemporary 410cm kitchen layout featuring dual appliance towers in contrasting anthracite and white high-gloss finishes.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "71.150 TL",
+    "dimensionsMm": "4100mm width, 2400mm height, 600mm depth",
+    "materials": [
+      "Moisture-resistant MR-MDF substrate",
+      "High-gloss polyurethane enamel",
+      "Concealed 3D adjustable steel hinges",
+      "Synchronised full-extension glides"
+    ],
+    "finishOptions": [
+      "Anthracite Base & White Wall Units",
+      "Monochrome Basalt",
+      "Satin Pumice"
+    ],
+    "installationScope": "Factory rigid assembly with pre-machined internal wiring conduits.",
+    "image": "/assets/img/models/real_kitchens/5002599731_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002599731_1.webp",
+      "/assets/img/models/real_kitchens/5002599731_2.webp",
+      "/assets/img/models/real_kitchens/5002599731_3.webp"
+    ],
+    "description": "Architectural balance meets high-capacity domestic utility. Features integrated tower cabinetry flanking a functional culinary bank with extensive pan drawer storage.",
+    "keyFeatures": [
+      "Dual appliance towers with dedicated heat dissipation chimneys",
+      "Wide 4100mm run with ergonomic spacing between water and cooking points",
+      "High-gloss surfaces resistant to grease and cooking heat",
+      "Plumbing service void pre-cut to standard British waste line requirements"
+    ]
+  },
+  "cotswold-fullheight-suite-400": {
+    "slug": "cotswold-fullheight-suite-400",
+    "category": "kitchens",
+    "title": "Cotswold 400cm Full-Height Architectural Suite",
+    "metaTitle": "Cotswold 400cm Full-Height Kitchen | Grand Suites | Cabivella UK",
+    "metaDescription": "Magnificent 400cm x 240cm kitchen suite with dual full-height storage towers, integrated appliances, and pristine white high-gloss finish.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "70.710 TL",
+    "dimensionsMm": "4000mm width, 2400mm ceiling height, 600mm depth",
+    "materials": [
+      "18mm high-gloss lacquer core",
+      "Waterproof carcass resin bonding",
+      "Heavy-load undermount drawer runners",
+      "Concealed handleless bevel profiles"
+    ],
+    "finishOptions": [
+      "Pure Architectural White Gloss",
+      "Warm Alabaster",
+      "Cashmere Gloss"
+    ],
+    "installationScope": "Supplied rigid in protective wooden crates with bespoke ceiling infill fillets.",
+    "image": "/assets/img/models/real_kitchens/5002598452_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002598452_1.webp",
+      "/assets/img/models/real_kitchens/5002598452_2.webp",
+      "/assets/img/models/real_kitchens/5002598452_3.webp"
+    ],
+    "description": "Four continuous metres of architectural cabinetry designed for grand British kitchen renovations. Features twin full-height larder towers and an uninterrupted prep bank.",
+    "keyFeatures": [
+      "4000mm x 2400mm monolithic elevation offering immense dry food and cookware storage",
+      "Twin tall larder columns providing dedicated breakfast station and dry storage capacity",
+      "Heavy-gauge drawer slides carrying up to 50kg per pan drawer",
+      "Seamless edge sealing protecting against everyday cooking vapour"
+    ]
+  },
+  "richmond-dualtower-kitchen-400": {
+    "slug": "richmond-dualtower-kitchen-400",
+    "category": "kitchens",
+    "title": "Richmond 400cm Dual Tower Kitchen Run",
+    "metaTitle": "Richmond 400cm Dual Tower Kitchen | Luxury Joinery | Cabivella UK",
+    "metaDescription": "400cm bespoke kitchen layout featuring dual tall refrigeration and oven columns flanking a central prep workstation in pure white gloss.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "70.540 TL",
+    "dimensionsMm": "4000mm width, 2400mm height, 600mm depth",
+    "materials": [
+      "High-density moisture-resistant MR substrate",
+      "High-gloss baked lacquer finish",
+      "Concealed hydraulic damping hardware",
+      "Aluminium heat-deflection plates"
+    ],
+    "finishOptions": [
+      "Pure White Gloss",
+      "Porcelain Chalk",
+      "Basalt Grey"
+    ],
+    "installationScope": "Factory assembled with pre-fitted levelling feet and transit braces.",
+    "image": "/assets/img/models/real_kitchens/5002600636_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002600636_1.webp",
+      "/assets/img/models/real_kitchens/5002600636_2.webp",
+      "/assets/img/models/real_kitchens/5002600636_3.webp"
+    ],
+    "description": "Bespoke architectural symmetry. Dual 240cm towers house cooking appliances and cold storage at ergonomic heights, creating a balanced, clutter-free culinary environment.",
+    "keyFeatures": [
+      "Ergonomic dual-tower format keeping eye-level ovens and refrigeration within easy reach",
+      "Extensive central preparation surface with integrated hob and extraction provisions",
+      "Soft-close damping throughout ensuring quiet, effortless operation",
+      "Engineered for rapid, accurate levelling in period and modern UK properties"
+    ]
+  },
+  "hampstead-contemporary-suite-400": {
+    "slug": "hampstead-contemporary-suite-400",
+    "category": "kitchens",
+    "title": "Hampstead 400cm Contemporary High-Gloss Suite",
+    "metaTitle": "Hampstead 400cm Contemporary Suite | Made-to-Measure | Cabivella UK",
+    "metaDescription": "Modern 400cm kitchen suite combining white high-gloss overhead cabinets with anthracite base towers and seamless prep surfaces.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "70.500 TL",
+    "dimensionsMm": "4000mm width, 2400mm height, 600mm depth",
+    "materials": [
+      "Dual-tone high-gloss acrylic MDF",
+      "Water-resistant interior carcasses",
+      "Heavy-load drawer slides",
+      "Laser-applied ABS edge sealing"
+    ],
+    "finishOptions": [
+      "White Gloss & Anthracite",
+      "Full Gloss Anthracite",
+      "Basalt Silk"
+    ],
+    "installationScope": "Delivered rigid with dedicated joinery numbering and installation templates.",
+    "image": "/assets/img/models/real_kitchens/5002598757_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002598757_1.webp",
+      "/assets/img/models/real_kitchens/5002598757_2.webp",
+      "/assets/img/models/real_kitchens/5002598757_3.webp"
+    ],
+    "description": "Sophisticated contemporary proportions spanning 400cm. Unites crisp white overhead reflection with dark architectural base cabinetry, ideal for light-filled UK kitchen extensions.",
+    "keyFeatures": [
+      "4-metre linear span with dual-tone high-gloss cabinetry elevations",
+      "Triple-stack pan drawers with internal dividers for cutlery and cooking tools",
+      "Integrated tall tower capacity housing built-in refrigeration and double ovens",
+      "Durable high-gloss surface resistant to grease and everyday household scuffs"
+    ]
+  },
+  "belgravia-island-olive-240": {
+    "slug": "belgravia-island-olive-240",
+    "category": "kitchens",
+    "title": "Belgravia 240cm Island Olive Shaker Kitchen",
+    "metaTitle": "Belgravia 240cm Island Olive Kitchen | Shaker Joinery | Cabivella UK",
+    "metaDescription": "Heritage 240cm Shaker kitchen cabinetry in refined island olive green, featuring 80cm sink base, 60cm oven module, and matching wall units.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "referencePriceTl": "19.889 TL",
+    "dimensionsMm": "2400mm width, 600mm base depth (340mm wall depth), 2150mm height",
+    "materials": [
+      "Solid timber Shaker stiles",
+      "High-density moisture-resistant MR core panel",
+      "Concealed soft-close buffer hinges",
+      "Smooth satin polyurethane lacquer"
+    ],
+    "finishOptions": [
+      "Island Olive Green",
+      "Heritage Sage",
+      "Chalk White",
+      "Oxford Navy"
+    ],
+    "installationScope": "Factory pre-assembled rigid units with plumbing service voids.",
+    "image": "/assets/img/models/real_kitchens/5002571266_1.webp",
+    "gallery": [
+      "/assets/img/models/real_kitchens/5002571266_1.webp",
+      "/assets/img/models/shaker-kitchens.webp"
+    ],
+    "description": "Authentic British Shaker styling finished in an earthy island olive hue. Proportioned for standard 2.4-metre runs in terraced extensions, uniting classic five-piece framing with contemporary soft-close motion hardware.",
+    "keyFeatures": [
+      "2400mm standard modular run with dedicated sink, cooking, and drawer zones",
+      "Authentic five-piece Shaker stiles with smooth wipe-clean satin finish",
+      "Soft-close runners and hinges preventing door slamming in busy households",
+      "Engineered service space behind rear backboard for clean pipe and wire integration"
+    ]
   }
 };

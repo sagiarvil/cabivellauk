@@ -36,7 +36,18 @@ export const collectionsData: Record<string, CollectionCategory> = {
       "belgravia-grand-380",
       "mayfair-pantry-320",
       "cotswold-classic-280",
-      "richmond-studio-200"
+      "richmond-studio-200",
+      "westminster-chef-suite-310",
+      "kensington-culinary-suite-310",
+      "belgravia-executive-kitchen-310",
+      "mayfair-monolith-highgloss-410",
+      "chelsea-dualtone-highgloss-410",
+      "knightsbridge-tall-larder-410",
+      "st-james-integrated-tower-410",
+      "cotswold-fullheight-suite-400",
+      "richmond-dualtower-kitchen-400",
+      "hampstead-contemporary-suite-400",
+      "belgravia-island-olive-240"
     ]
   },
   "bathrooms": {
