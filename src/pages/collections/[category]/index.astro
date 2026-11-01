@@ -62,12 +62,12 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
       {categoryModels.map((model, idx) => (
         <article class="v6-category-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
           <a href={`/collections/${category.slug}/${model.slug}/`} style="display: flex; flex-direction: column; height: 100%;">
-            <div class="v6-card-photo" style="aspect-ratio: 16 / 10;">
+            <div class="v6-card-photo model-card-photo">
               <img 
                 src={model.image} 
                 alt={`${model.title} cabinetry`} 
                 width="640" 
-                height="400" 
+                height="480" 
                 loading="lazy" 
                 decoding="async" 
               />
@@ -106,3 +106,30 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
     </div>
   </section>
 </SiteLayout>
+
+<style>
+  .model-card-photo {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #fbf9f5;
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0 4px 16px rgba(22, 30, 24, 0.03);
+  }
+
+  .model-card-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s var(--ease);
+  }
+
+  .v6-category-card:hover .model-card-photo img {
+    transform: scale(1.04);
+  }
+</style>

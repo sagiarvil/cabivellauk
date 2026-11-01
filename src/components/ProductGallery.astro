@@ -46,19 +46,59 @@ const { images, title } = Astro.props;
   .gallery-main {
     border-radius: 4px;
     overflow: hidden;
-    background: #e8e5dc;
-    aspect-ratio: 16 / 10;
+    background: #fbf9f5;
+    border: 1px solid var(--line);
+    height: clamp(380px, 45vw, 560px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 12px 32px rgba(22, 30, 24, 0.05);
+    padding: 12px;
+  }
+  .gallery-main :global(.responsive-picture) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-main :global(.responsive-picture img) {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 2px;
   }
   .gallery-thumbs {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
     gap: 12px;
   }
   .thumb-item {
     border-radius: 3px;
     overflow: hidden;
-    aspect-ratio: 4 / 3;
-    background: #e8e5dc;
+    aspect-ratio: 1 / 1;
+    background: #fbf9f5;
     border: 1px solid var(--line);
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+  }
+  .thumb-item:hover {
+    border-color: var(--gold);
+    box-shadow: 0 4px 12px rgba(22, 30, 24, 0.08);
+  }
+  .thumb-item :global(.responsive-picture) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .thumb-item :global(.responsive-picture img) {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 </style>
