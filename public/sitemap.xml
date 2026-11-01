@@ -8,20 +8,46 @@
   <url><loc>https://cabivella.co.uk/collections/coffee-stations/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/fitted-storage/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/kitchen-doors/</loc><changefreq>monthly</changefreq></url>
+  
+  <!-- Kitchen Models -->
   <url><loc>https://cabivella.co.uk/collections/kitchens/shaker-kitchens/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/kitchens/contemporary-kitchens/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/kitchens/compact-kitchens/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/kitchens/slim-frame-shaker-kitchens/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/kitchens/island-suite-kitchens/</loc><changefreq>monthly</changefreq></url>
+
+  <!-- Bathroom Models -->
   <url><loc>https://cabivella.co.uk/collections/bathrooms/wall-hung-vanities/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/bathrooms/fluted-vanities/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/bathrooms/tall-bathroom-storage/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/bathrooms/double-basin-vanities/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/bathrooms/slim-mirror-storage-cabinets/</loc><changefreq>monthly</changefreq></url>
+
+  <!-- Pantry Models -->
   <url><loc>https://cabivella.co.uk/collections/pantry-larder/tall-larder-cupboards/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/pantry-larder/corner-pantry-storage/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/pantry-larder/chefs-double-larder/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/pantry-larder/pullout-larder-tower/</loc><changefreq>monthly</changefreq></url>
+
+  <!-- Coffee Station Models -->
   <url><loc>https://cabivella.co.uk/collections/coffee-stations/pocket-door-coffee-stations/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/coffee-stations/open-shelf-coffee-cabinets/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/coffee-stations/breakfast-armoire-coffee-stations/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/coffee-stations/illuminated-beverage-stations/</loc><changefreq>monthly</changefreq></url>
+
+  <!-- Fitted Storage Models -->
   <url><loc>https://cabivella.co.uk/collections/fitted-storage/alcove-cupboards/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/fitted-storage/utility-room-cabinets/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/fitted-storage/boot-room-cabinetry/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/fitted-storage/dressing-room-wardrobes/</loc><changefreq>monthly</changefreq></url>
+
+  <!-- Kitchen Doors Models -->
   <url><loc>https://cabivella.co.uk/collections/kitchen-doors/shaker-replacement-doors/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/collections/kitchen-doors/handleless-cabinet-fronts/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/kitchen-doors/slimline-micro-shaker-fronts/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://cabivella.co.uk/collections/kitchen-doors/fluted-reeded-fronts/</loc><changefreq>monthly</changefreq></url>
+
+  <!-- Institutional Pages -->
   <url><loc>https://cabivella.co.uk/our-story/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/trade/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://cabivella.co.uk/enquire/</loc><changefreq>monthly</changefreq></url>

@@ -10,26 +10,50 @@ const routes = [
   '/cookies/',
   '/image-credits/',
   '/materials/',
+
+  // Kitchens
   '/collections/kitchens/',
   '/collections/kitchens/shaker-kitchens/',
   '/collections/kitchens/contemporary-kitchens/',
   '/collections/kitchens/compact-kitchens/',
-  '/collections/kitchen-doors/',
-  '/collections/kitchen-doors/shaker-replacement-doors/',
-  '/collections/kitchen-doors/handleless-cabinet-fronts/',
+  '/collections/kitchens/slim-frame-shaker-kitchens/',
+  '/collections/kitchens/island-suite-kitchens/',
+
+  // Bathrooms
   '/collections/bathrooms/',
   '/collections/bathrooms/wall-hung-vanities/',
   '/collections/bathrooms/fluted-vanities/',
   '/collections/bathrooms/tall-bathroom-storage/',
-  '/collections/coffee-stations/',
-  '/collections/coffee-stations/pocket-door-coffee-stations/',
-  '/collections/coffee-stations/open-shelf-coffee-cabinets/',
+  '/collections/bathrooms/double-basin-vanities/',
+  '/collections/bathrooms/slim-mirror-storage-cabinets/',
+
+  // Pantry & Larder
   '/collections/pantry-larder/',
   '/collections/pantry-larder/tall-larder-cupboards/',
   '/collections/pantry-larder/corner-pantry-storage/',
+  '/collections/pantry-larder/chefs-double-larder/',
+  '/collections/pantry-larder/pullout-larder-tower/',
+
+  // Coffee Stations
+  '/collections/coffee-stations/',
+  '/collections/coffee-stations/pocket-door-coffee-stations/',
+  '/collections/coffee-stations/open-shelf-coffee-cabinets/',
+  '/collections/coffee-stations/breakfast-armoire-coffee-stations/',
+  '/collections/coffee-stations/illuminated-beverage-stations/',
+
+  // Fitted Storage
   '/collections/fitted-storage/',
   '/collections/fitted-storage/alcove-cupboards/',
-  '/collections/fitted-storage/utility-room-cabinets/'
+  '/collections/fitted-storage/utility-room-cabinets/',
+  '/collections/fitted-storage/boot-room-cabinetry/',
+  '/collections/fitted-storage/dressing-room-wardrobes/',
+
+  // Kitchen Doors
+  '/collections/kitchen-doors/',
+  '/collections/kitchen-doors/shaker-replacement-doors/',
+  '/collections/kitchen-doors/handleless-cabinet-fronts/',
+  '/collections/kitchen-doors/slimline-micro-shaker-fronts/',
+  '/collections/kitchen-doors/fluted-reeded-fronts/'
 ];
 
 test.describe('Cabivella UK Routes Verification', () => {

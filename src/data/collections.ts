@@ -20,7 +20,13 @@ export const collectionsData: Record<string, CollectionCategory> = {
     shortCopy: 'Timeless kitchens, designed around the way you live.',
     description: 'A kitchen is the heart of everyday life. Our cabinetry unites durable joinery, balanced proportions and tactile finishes tailored to your architectural space.',
     image: '/assets/img/models/shaker-kitchens.webp',
-    modelSlugs: ['shaker-kitchens', 'contemporary-kitchens', 'compact-kitchens']
+    modelSlugs: [
+      'shaker-kitchens',
+      'contemporary-kitchens',
+      'compact-kitchens',
+      'slim-frame-shaker-kitchens',
+      'island-suite-kitchens'
+    ]
   },
   'bathrooms': {
     slug: 'bathrooms',
@@ -31,7 +37,13 @@ export const collectionsData: Record<string, CollectionCategory> = {
     shortCopy: 'Elegant, functional spaces for everyday luxury.',
     description: 'Transform daily routines into rituals of calm with bespoke vanity units, moisture-resistant timbers and thoughtfully detailed fluted storage.',
     image: '/assets/img/models/wall-hung-vanities.webp',
-    modelSlugs: ['wall-hung-vanities', 'fluted-vanities', 'tall-bathroom-storage']
+    modelSlugs: [
+      'wall-hung-vanities',
+      'fluted-vanities',
+      'tall-bathroom-storage',
+      'double-basin-vanities',
+      'slim-mirror-storage-cabinets'
+    ]
   },
   'pantry-larder': {
     slug: 'pantry-larder',
@@ -42,7 +54,12 @@ export const collectionsData: Record<string, CollectionCategory> = {
     shortCopy: 'Smart, beautifully organised storage solutions.',
     description: 'From deep spice racks to integrated spice carousels and soft-close oak drawers, our larder cupboards bring effortless order to modern culinary living.',
     image: '/assets/img/models/tall-larder-cupboards.webp',
-    modelSlugs: ['tall-larder-cupboards', 'corner-pantry-storage']
+    modelSlugs: [
+      'tall-larder-cupboards',
+      'corner-pantry-storage',
+      'chefs-double-larder',
+      'pullout-larder-tower'
+    ]
   },
   'coffee-stations': {
     slug: 'coffee-stations',
@@ -53,7 +70,12 @@ export const collectionsData: Record<string, CollectionCategory> = {
     shortCopy: 'A dedicated space for your daily rituals.',
     description: 'Conceal appliances behind smooth bi-fold pocket doors or display artisanal ceramics on illuminated fluted shelving tailored to your daily cadence.',
     image: '/assets/img/models/pocket-door-coffee-stations.webp',
-    modelSlugs: ['pocket-door-coffee-stations', 'open-shelf-coffee-cabinets']
+    modelSlugs: [
+      'pocket-door-coffee-stations',
+      'open-shelf-coffee-cabinets',
+      'breakfast-armoire-coffee-stations',
+      'illuminated-beverage-stations'
+    ]
   },
   'fitted-storage': {
     slug: 'fitted-storage',
@@ -64,7 +86,12 @@ export const collectionsData: Record<string, CollectionCategory> = {
     shortCopy: 'Bespoke cabinetry for a calm and organised home.',
     description: 'Maximise characterful chimney alcoves and busy utility spaces with precision-dimensioned joinery that respects the architectural heritage of British rooms.',
     image: '/assets/img/models/alcove-cupboards.webp',
-    modelSlugs: ['alcove-cupboards', 'utility-room-cabinets']
+    modelSlugs: [
+      'alcove-cupboards',
+      'utility-room-cabinets',
+      'boot-room-cabinetry',
+      'dressing-room-wardrobes'
+    ]
   },
   'kitchen-doors': {
     slug: 'kitchen-doors',
@@ -75,6 +102,11 @@ export const collectionsData: Record<string, CollectionCategory> = {
     shortCopy: 'A curated range of styles, finishes and colours.',
     description: 'Transform existing kitchen layouts sustainably with precision-milled replacement door fronts, bespoke spray-lacquered paint and solid wood veneers.',
     image: '/assets/img/models/shaker-replacement-doors.webp',
-    modelSlugs: ['shaker-replacement-doors', 'handleless-cabinet-fronts']
+    modelSlugs: [
+      'shaker-replacement-doors',
+      'handleless-cabinet-fronts',
+      'slimline-micro-shaker-fronts',
+      'fluted-reeded-fronts'
+    ]
   }
 };
