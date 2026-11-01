@@ -8,6 +8,7 @@ const breadcrumbItems = [
   { name: 'Cookie Policy', url: '/cookies/' }
 ];
 const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+import DynamicWatermark from '../../components/DynamicWatermark.astro';
 ---
 
 <SiteLayout
@@ -19,11 +20,7 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Ghost Watermark Header -->
-  <div class="ghost-watermark-container" aria-hidden="true">
-    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="82">COOKIE POLICY</text>
-    </svg>
-  </div>
+  <DynamicWatermark text="COOKIE POLICY" />
 
   <section class="wrap" style="padding-bottom: 70px; max-width: 860px; font-size: 15px; line-height: 1.8; color: #373f38;">
     <div data-reveal>

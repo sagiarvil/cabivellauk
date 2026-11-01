@@ -4,6 +4,7 @@ import { collectionsData } from '../data/collections';
 import { siteConfig } from '../data/navigation';
 
 const collections = Object.values(collectionsData);
+import DynamicWatermark from '../components/DynamicWatermark.astro';
 ---
 
 <SiteLayout 
@@ -56,11 +57,7 @@ const collections = Object.values(collectionsData);
   </section>
 
   <!-- Ghost Watermark Dynamic Header (Compliant with Soft Neutral & Zero-Collision Stacking) -->
-  <div class="ghost-watermark-container" aria-hidden="true">
-    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="94">CABIVELLA</text>
-    </svg>
-  </div>
+  <DynamicWatermark text="CABIVELLA" />
 
   <!-- Collections Section -->
   <section class="v6-category-section" id="collections" aria-labelledby="collections-title">

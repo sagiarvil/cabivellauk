@@ -19,7 +19,7 @@ test.describe('SEO & Structured Data Verification', () => {
   });
 
   test('Model page has Product schema and Breadcrumbs', async ({ page }) => {
-    await page.goto('/collections/kitchens/shaker-kitchens/');
+    await page.goto('/collections/kitchens/mayfair-executive-suite-310/');
 
     const jsonLdScripts = page.locator('script[type="application/ld+json"]');
     const count = await jsonLdScripts.count();

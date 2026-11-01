@@ -1,0 +1,38 @@
+---
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+const cleanText = text.trim().toUpperCase();
+const len = cleanText.length;
+
+// Her karakter icin dinamik genislik bütçesi (harf aralığı dahil)
+// Metin ne kadar uzun olursa olsun, viewBox genisligi dinamik olarak acilir.
+const charWidth = 62;
+const safePadding = 140;
+const viewBoxWidth = Math.max(1200, Math.round(len * charWidth + safePadding));
+const viewBoxHeight = 120;
+const centerX = Math.round(viewBoxWidth / 2);
+const centerY = 68;
+const targetTextLength = Math.round(viewBoxWidth * 0.92);
+---
+
+<div class="ghost-watermark-container" aria-hidden="true">
+  <svg 
+    viewBox={`0 0 ${viewBoxWidth} ${viewBoxHeight}`} 
+    class="ghost-watermark-svg" 
+    preserveAspectRatio="xMidYMid meet"
+  >
+    <text 
+      x={centerX} 
+      y={centerY} 
+      class="ghost-watermark-text" 
+      font-size="78"
+      textLength={targetTextLength}
+      lengthAdjust="spacing"
+    >
+      {cleanText}
+    </text>
+  </svg>
+</div>

@@ -42,30 +42,35 @@ html.motion-ready [data-reveal].is-revealed {
    ========================================================================== */
 .ghost-watermark-container {
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
   overflow: hidden;
   user-select: none;
   pointer-events: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem 0 0.5rem;
+  padding: clamp(1.25rem, 2.5vw, 2.5rem) clamp(0.75rem, 2vw, 2rem) 0.5rem;
+  box-sizing: border-box;
 }
 
 .ghost-watermark-svg {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   height: auto;
-  max-height: 110px;
+  max-height: clamp(85px, 12vw, 175px);
+  display: block;
+  overflow: visible;
 }
 
 .ghost-watermark-text {
   font-family: var(--font-heading);
-  font-weight: 800;
+  font-weight: 900;
   fill: var(--watermark-color);
   text-anchor: middle;
   dominant-baseline: central;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* ==========================================================================

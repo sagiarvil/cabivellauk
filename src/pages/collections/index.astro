@@ -12,6 +12,7 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
 
 const collections = Object.values(collectionsData);
 const models = Object.values(modelsData);
+import DynamicWatermark from '../../components/DynamicWatermark.astro';
 ---
 
 <SiteLayout
@@ -24,11 +25,7 @@ const models = Object.values(modelsData);
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Ghost Watermark Header -->
-  <div class="ghost-watermark-container" aria-hidden="true">
-    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="82">COLLECTIONS</text>
-    </svg>
-  </div>
+  <DynamicWatermark text="COLLECTIONS" />
 
   <!-- Page Header -->
   <section class="wrap collections-header-section">

@@ -42,6 +42,7 @@ const breadcrumbItems = [
 const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
 const productSchema = getProductSchema(model, `https://cabivella.co.uk${canonicalPath}`);
 const schemas = [breadcrumbSchema, productSchema];
+import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
 ---
 
 <SiteLayout 
@@ -55,11 +56,7 @@ const schemas = [breadcrumbSchema, productSchema];
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Ghost Watermark Header -->
-  <div class="ghost-watermark-container" aria-hidden="true">
-    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="70">{model.title.toUpperCase()}</text>
-    </svg>
-  </div>
+  <DynamicWatermark text={model.title} />
 
   <article class="wrap model-article-wrap">
     <!-- Top Details Grid -->

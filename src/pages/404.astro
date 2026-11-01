@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 const breadcrumbItems = [
   { name: 'Page Not Found', url: '/404.html' }
 ];
+import DynamicWatermark from '../components/DynamicWatermark.astro';
 ---
 
 <SiteLayout
@@ -16,11 +17,7 @@ const breadcrumbItems = [
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Ghost Watermark Header -->
-  <div class="ghost-watermark-container" aria-hidden="true">
-    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="88">PAGE NOT FOUND</text>
-    </svg>
-  </div>
+  <DynamicWatermark text="PAGE NOT FOUND" />
 
   <section class="wrap" style="padding: 50px var(--edge) 100px; text-align: center; max-width: 640px;">
     <div data-reveal>

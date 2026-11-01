@@ -9,6 +9,7 @@ const breadcrumbItems = [
   { name: 'Enquire', url: '/enquire/' }
 ];
 const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+import DynamicWatermark from '../../components/DynamicWatermark.astro';
 ---
 
 <SiteLayout
@@ -20,11 +21,7 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Ghost Watermark Header -->
-  <div class="ghost-watermark-container" aria-hidden="true">
-    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="88">ENQUIRE A PROJECT</text>
-    </svg>
-  </div>
+  <DynamicWatermark text="ENQUIRE A PROJECT" />
 
   <section class="wrap" style="padding-bottom: 80px; max-width: 1040px;">
     <div style="text-align: center; margin-bottom: 40px;" data-reveal>

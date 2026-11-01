@@ -3133,5 +3133,2496 @@ export const modelsData: Record<string, ModelDetail> = {
           "Includes frameless matching 650mm polished-edge plate glass wall mirror",
           "Vitreous ceramic basin with integrated overflow and tap-hole platform"
       ]
+  },
+  "mayfair-barista-armoire-154": {
+      "slug": "mayfair-barista-armoire-154",
+      "category": "coffee-stations",
+      "title": "Mayfair Barista Armoire 154cm",
+      "metaTitle": "Mayfair Barista Armoire 154cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1540mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "9.999 TL",
+      "dimensionsMm": "1540mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Mayfair Barista Armoire 154cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "belgravia-grand-beverage-247": {
+      "slug": "belgravia-grand-beverage-247",
+      "category": "coffee-stations",
+      "title": "Belgravia Grand Beverage Suite 247cm",
+      "metaTitle": "Belgravia Grand Beverage Suite 247cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 2470mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "16.152 TL",
+      "dimensionsMm": "2470mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_02.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_02.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Belgravia Grand Beverage Suite 247cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "kensington-larder-coffee-184": {
+      "slug": "kensington-larder-coffee-184",
+      "category": "coffee-stations",
+      "title": "Kensington Larder & Coffee Station 184cm",
+      "metaTitle": "Kensington Larder & Coffee Station 184cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1840mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "11.537 TL",
+      "dimensionsMm": "1840mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_03.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_03.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Kensington Larder & Coffee Station 184cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "cotswold-dualtower-pantry-217": {
+      "slug": "cotswold-dualtower-pantry-217",
+      "category": "coffee-stations",
+      "title": "Cotswold Dual-Tower Breakfast Pantry 217cm",
+      "metaTitle": "Cotswold Dual-Tower Breakfast Pantry 217cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 2170mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "14.614 TL",
+      "dimensionsMm": "2170mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_04.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_04.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Cotswold Dual-Tower Breakfast Pantry 217cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "st-james-fluted-glass-station": {
+      "slug": "st-james-fluted-glass-station",
+      "category": "coffee-stations",
+      "title": "St James Fluted Glass Coffee Credenza",
+      "metaTitle": "St James Fluted Glass Coffee Credenza | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1400mm width, 420mm depth, 1820mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "16.973 TL",
+      "dimensionsMm": "1400mm width, 420mm depth, 1820mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_05.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_05.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the St James Fluted Glass Coffee Credenza integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "richmond-vitrine-barista-niche": {
+      "slug": "richmond-vitrine-barista-niche",
+      "category": "coffee-stations",
+      "title": "Richmond Vitrine Barista Niche",
+      "metaTitle": "Richmond Vitrine Barista Niche | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "11.537 TL",
+      "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_06.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_06.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Richmond Vitrine Barista Niche integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "chelsea-illuminated-coffee-armoire": {
+      "slug": "chelsea-illuminated-coffee-armoire",
+      "category": "coffee-stations",
+      "title": "Chelsea Illuminated Coffee Armoire",
+      "metaTitle": "Chelsea Illuminated Coffee Armoire | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1500mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "15.127 TL",
+      "dimensionsMm": "1500mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_07.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_07.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Chelsea Illuminated Coffee Armoire integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "westminster-fluted-display-larder": {
+      "slug": "westminster-fluted-display-larder",
+      "category": "coffee-stations",
+      "title": "Westminster Fluted Display Larder",
+      "metaTitle": "Westminster Fluted Display Larder | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 600mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "5.589 TL",
+      "dimensionsMm": "600mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_08.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_08.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Westminster Fluted Display Larder integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "knightsbridge-drawer-stack-station": {
+      "slug": "knightsbridge-drawer-stack-station",
+      "category": "coffee-stations",
+      "title": "Knightsbridge Drawer Stack Coffee Station",
+      "metaTitle": "Knightsbridge Drawer Stack Coffee Station | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "11.024 TL",
+      "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_09.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_09.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Knightsbridge Drawer Stack Coffee Station integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "marylebone-tridoor-coffee-cabinet": {
+      "slug": "marylebone-tridoor-coffee-cabinet",
+      "category": "coffee-stations",
+      "title": "Marylebone Tri-Door Coffee Cabinet",
+      "metaTitle": "Marylebone Tri-Door Coffee Cabinet | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "6.922 TL",
+      "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_10.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_10.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Marylebone Tri-Door Coffee Cabinet integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "hampstead-linear-barista-90": {
+      "slug": "hampstead-linear-barista-90",
+      "category": "coffee-stations",
+      "title": "Hampstead Linear Barista Station 90cm",
+      "metaTitle": "Hampstead Linear Barista Station 90cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "7.435 TL",
+      "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_11.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_11.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Hampstead Linear Barista Station 90cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "fitzrovia-compact-credenza-90": {
+      "slug": "fitzrovia-compact-credenza-90",
+      "category": "coffee-stations",
+      "title": "Fitzrovia Compact Coffee Credenza 90cm",
+      "metaTitle": "Fitzrovia Compact Coffee Credenza 90cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "6.512 TL",
+      "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_12.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_12.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Fitzrovia Compact Coffee Credenza 90cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "bloomsbury-quaddoor-pantry-120": {
+      "slug": "bloomsbury-quaddoor-pantry-120",
+      "category": "coffee-stations",
+      "title": "Bloomsbury Quad-Door Coffee Pantry 120cm",
+      "metaTitle": "Bloomsbury Quad-Door Coffee Pantry 120cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "7.742 TL",
+      "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_13.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_13.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Bloomsbury Quad-Door Coffee Pantry 120cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "pimlico-grand-culinary-210": {
+      "slug": "pimlico-grand-culinary-210",
+      "category": "coffee-stations",
+      "title": "Pimlico Grand Culinary Station 210cm",
+      "metaTitle": "Pimlico Grand Culinary Station 210cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 2100mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "13.588 TL",
+      "dimensionsMm": "2100mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_14.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_14.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Pimlico Grand Culinary Station 210cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "greenwich-twindoor-breakfast-cabinet": {
+      "slug": "greenwich-twindoor-breakfast-cabinet",
+      "category": "coffee-stations",
+      "title": "Greenwich Twin-Door Breakfast Cabinet",
+      "metaTitle": "Greenwich Twin-Door Breakfast Cabinet | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 800mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "7.435 TL",
+      "dimensionsMm": "800mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_15.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_15.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Greenwich Twin-Door Breakfast Cabinet integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "chiswick-utility-beverage-120": {
+      "slug": "chiswick-utility-beverage-120",
+      "category": "coffee-stations",
+      "title": "Chiswick Utility Beverage Larder 120cm",
+      "metaTitle": "Chiswick Utility Beverage Larder 120cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "5.691 TL",
+      "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_16.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_16.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Chiswick Utility Beverage Larder 120cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "wimbledon-petite-coffee-90": {
+      "slug": "wimbledon-petite-coffee-90",
+      "category": "coffee-stations",
+      "title": "Wimbledon Petite Coffee Niche 90cm",
+      "metaTitle": "Wimbledon Petite Coffee Niche 90cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "4.358 TL",
+      "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_17.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_17.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Wimbledon Petite Coffee Niche 90cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "dulwich-multimodule-pantry": {
+      "slug": "dulwich-multimodule-pantry",
+      "category": "coffee-stations",
+      "title": "Dulwich Multi-Module Breakfast Pantry",
+      "metaTitle": "Dulwich Multi-Module Breakfast Pantry | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1600mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "14.922 TL",
+      "dimensionsMm": "1600mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_18.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_18.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Dulwich Multi-Module Breakfast Pantry integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "battersea-integrated-larder-unit": {
+      "slug": "battersea-integrated-larder-unit",
+      "category": "coffee-stations",
+      "title": "Battersea Integrated Larder & Coffee Unit",
+      "metaTitle": "Battersea Integrated Larder & Coffee Unit | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1750mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "17.691 TL",
+      "dimensionsMm": "1750mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_19.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_19.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Battersea Integrated Larder & Coffee Unit integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "highgate-dualsection-credenza-180": {
+      "slug": "highgate-dualsection-credenza-180",
+      "category": "coffee-stations",
+      "title": "Highgate Dual-Section Beverage Credenza 180cm",
+      "metaTitle": "Highgate Dual-Section Beverage Credenza 180cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1800mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "15.947 TL",
+      "dimensionsMm": "1800mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_20.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_20.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Highgate Dual-Section Beverage Credenza 180cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "islington-grand-vitrine-suite": {
+      "slug": "islington-grand-vitrine-suite",
+      "category": "coffee-stations",
+      "title": "Islington Grand Vitrine Coffee Suite",
+      "metaTitle": "Islington Grand Vitrine Coffee Suite | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "17.434 TL",
+      "dimensionsMm": "1900mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_21.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_21.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Islington Grand Vitrine Coffee Suite integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "putney-ambient-beverage-armoire": {
+      "slug": "putney-ambient-beverage-armoire",
+      "category": "coffee-stations",
+      "title": "Putney Ambient Beverage Armoire",
+      "metaTitle": "Putney Ambient Beverage Armoire | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1300mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "11.845 TL",
+      "dimensionsMm": "1300mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_22.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_22.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Putney Ambient Beverage Armoire integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "barnes-radiator-coffee-console-130": {
+      "slug": "barnes-radiator-coffee-console-130",
+      "category": "coffee-stations",
+      "title": "Barnes Radiator Cover Coffee Console 130cm",
+      "metaTitle": "Barnes Radiator Cover Coffee Console 130cm | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1300mm width, 220mm depth, 850mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "3.332 TL",
+      "dimensionsMm": "1300mm width, 220mm depth, 850mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_23.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_23.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Barnes Radiator Cover Coffee Console 130cm integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "clapham-tripledoor-morning-station": {
+      "slug": "clapham-tripledoor-morning-station",
+      "category": "coffee-stations",
+      "title": "Clapham Triple-Door Morning Station",
+      "metaTitle": "Clapham Triple-Door Morning Station | Luxury Coffee Stations | Cabivella UK",
+      "metaDescription": "Bespoke 1400mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "11.537 TL",
+      "dimensionsMm": "1400mm width, 400mm depth, 1800mm height",
+      "materials": [
+          "Melamine-faced moisture resistant timber core",
+          "Thermal foil sealed exterior fascia",
+          "Integrated diffused warm-white LED channel",
+          "Heavy-duty nickel-plated hinges and soft-close slides"
+      ],
+      "finishOptions": [
+          "Alpine Matte White",
+          "Warm Cashmere",
+          "Nordic White & Oak Niche"
+      ],
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_24.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_24.webp"
+      ],
+      "description": "Engineered for dedicated domestic barista rituals, the Clapham Triple-Door Morning Station integrates spacious espresso machine clearance, dedicated glassware shelving, and generous closed pantry storage.",
+      "keyFeatures": [
+          "Recessed warm-white LED illumination spotlighting beverage preparation",
+          "High-capacity lower cupboards accommodating cups, beans, syrups, and appliances",
+          "Durable wipe-clean laminated preparation surfaces resistant to steam and heat",
+          "Pre-routed service channels for unobtrusive coffee machine and grinder power cables"
+      ]
+  },
+  "kensington-4door-wardrobe": {
+      "slug": "kensington-4door-wardrobe",
+      "category": "fitted-storage",
+      "title": "Kensington 4-Door Fitted Wardrobe",
+      "metaTitle": "Kensington 4-Door Fitted Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 1800mm width, 600mm depth, 2200mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "40.490 TL",
+      "dimensionsMm": "1800mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_01_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_01_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_01_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_01_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_01_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Kensington 4-Door Fitted Wardrobe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 4 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "belgravia-5door-wardrobe": {
+      "slug": "belgravia-5door-wardrobe",
+      "category": "fitted-storage",
+      "title": "Belgravia 5-Door Architectural Robe",
+      "metaTitle": "Belgravia 5-Door Architectural Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "51.749 TL",
+      "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_02_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_02_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_02_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_02_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_02_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Belgravia 5-Door Architectural Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "mayfair-6door-wardrobe": {
+      "slug": "mayfair-6door-wardrobe",
+      "category": "fitted-storage",
+      "title": "Mayfair 6-Door Master Dressing Suite",
+      "metaTitle": "Mayfair 6-Door Master Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "62.538 TL",
+      "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_03_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_03_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_03_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_03_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_03_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Mayfair 6-Door Master Dressing Suite pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "cotswold-6door-mirrored-robe": {
+      "slug": "cotswold-6door-mirrored-robe",
+      "category": "fitted-storage",
+      "title": "Cotswold 6-Door Mirrored Armoire",
+      "metaTitle": "Cotswold 6-Door Mirrored Armoire | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "60.451 TL",
+      "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_04_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_04_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_04_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_04_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_04_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Cotswold 6-Door Mirrored Armoire pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "chelsea-5door-wardrobe": {
+      "slug": "chelsea-5door-wardrobe",
+      "category": "fitted-storage",
+      "title": "Chelsea 5-Door Contemporary Robe",
+      "metaTitle": "Chelsea 5-Door Contemporary Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "51.841 TL",
+      "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_05_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_05_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_05_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_05_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_05_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Chelsea 5-Door Contemporary Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "st-james-6door-wardrobe": {
+      "slug": "st-james-6door-wardrobe",
+      "category": "fitted-storage",
+      "title": "St James 6-Door Linear Wardrobe",
+      "metaTitle": "St James 6-Door Linear Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2600mm width, 580mm depth, 2180mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "35.429 TL",
+      "dimensionsMm": "2600mm width, 580mm depth, 2180mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_06_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_06_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_06_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_06_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_06_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the St James 6-Door Linear Wardrobe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "richmond-5door-wardrobe": {
+      "slug": "richmond-5door-wardrobe",
+      "category": "fitted-storage",
+      "title": "Richmond 5-Door Classic Wardrobe",
+      "metaTitle": "Richmond 5-Door Classic Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2150mm width, 580mm depth, 2180mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "32.107 TL",
+      "dimensionsMm": "2150mm width, 580mm depth, 2180mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_07_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_07_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_07_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_07_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_07_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Richmond 5-Door Classic Wardrobe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "westminster-4door-wardrobe": {
+      "slug": "westminster-4door-wardrobe",
+      "category": "fitted-storage",
+      "title": "Westminster 4-Door Compact Robe",
+      "metaTitle": "Westminster 4-Door Compact Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 1750mm width, 580mm depth, 2180mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "26.039 TL",
+      "dimensionsMm": "1750mm width, 580mm depth, 2180mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_08_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_08_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_08_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_08_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_08_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Westminster 4-Door Compact Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 4 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "knightsbridge-5door-robe": {
+      "slug": "knightsbridge-5door-robe",
+      "category": "fitted-storage",
+      "title": "Knightsbridge 5-Door Fluted Wardrobe",
+      "metaTitle": "Knightsbridge 5-Door Fluted Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2200mm width, 590mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "29.399 TL",
+      "dimensionsMm": "2200mm width, 590mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_09_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_09_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_09_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_09_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_09_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Knightsbridge 5-Door Fluted Wardrobe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "marylebone-6door-robe": {
+      "slug": "marylebone-6door-robe",
+      "category": "fitted-storage",
+      "title": "Marylebone 6-Door Fluted Master Robe",
+      "metaTitle": "Marylebone 6-Door Fluted Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2650mm width, 590mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "33.352 TL",
+      "dimensionsMm": "2650mm width, 590mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_10_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_10_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_10_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_10_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_10_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Marylebone 6-Door Fluted Master Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "hampstead-5door-artisan-robe": {
+      "slug": "hampstead-5door-artisan-robe",
+      "category": "fitted-storage",
+      "title": "Hampstead 5-Door Artisan Wardrobe",
+      "metaTitle": "Hampstead 5-Door Artisan Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "33.756 TL",
+      "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_11_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_11_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_11_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_11_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_11_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Hampstead 5-Door Artisan Wardrobe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "fitzrovia-6door-artisan-robe": {
+      "slug": "fitzrovia-6door-artisan-robe",
+      "category": "fitted-storage",
+      "title": "Fitzrovia 6-Door Artisan Wardrobe",
+      "metaTitle": "Fitzrovia 6-Door Artisan Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "37.024 TL",
+      "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_12_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_12_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_12_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_12_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_12_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Fitzrovia 6-Door Artisan Wardrobe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "bloomsbury-5door-armoire": {
+      "slug": "bloomsbury-5door-armoire",
+      "category": "fitted-storage",
+      "title": "Bloomsbury 5-Door Porcelain Armoire",
+      "metaTitle": "Bloomsbury 5-Door Porcelain Armoire | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2200mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "41.352 TL",
+      "dimensionsMm": "2200mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_13_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_13_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_13_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_13_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_13_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Bloomsbury 5-Door Porcelain Armoire pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "pimlico-6door-master-robe": {
+      "slug": "pimlico-6door-master-robe",
+      "category": "fitted-storage",
+      "title": "Pimlico 6-Door Porcelain Master Robe",
+      "metaTitle": "Pimlico 6-Door Porcelain Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2650mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "47.456 TL",
+      "dimensionsMm": "2650mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_14_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_14_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_14_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_14_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_14_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Pimlico 6-Door Porcelain Master Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "greenwich-6door-minimalist-robe": {
+      "slug": "greenwich-6door-minimalist-robe",
+      "category": "fitted-storage",
+      "title": "Greenwich 6-Door Minimalist Robe",
+      "metaTitle": "Greenwich 6-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2600mm width, 580mm depth, 2150mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "33.019 TL",
+      "dimensionsMm": "2600mm width, 580mm depth, 2150mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_15_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_15_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_15_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_15_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_15_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Greenwich 6-Door Minimalist Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "chiswick-5door-minimalist-robe": {
+      "slug": "chiswick-5door-minimalist-robe",
+      "category": "fitted-storage",
+      "title": "Chiswick 5-Door Minimalist Robe",
+      "metaTitle": "Chiswick 5-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2150mm width, 580mm depth, 2150mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "28.453 TL",
+      "dimensionsMm": "2150mm width, 580mm depth, 2150mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_16_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_16_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_16_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_16_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_16_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Chiswick 5-Door Minimalist Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "wimbledon-4door-minimalist-robe": {
+      "slug": "wimbledon-4door-minimalist-robe",
+      "category": "fitted-storage",
+      "title": "Wimbledon 4-Door Minimalist Robe",
+      "metaTitle": "Wimbledon 4-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 1720mm width, 580mm depth, 2150mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "23.230 TL",
+      "dimensionsMm": "1720mm width, 580mm depth, 2150mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_17_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_17_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_17_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_17_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_17_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Wimbledon 4-Door Minimalist Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 4 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "dulwich-6door-boheme-suite": {
+      "slug": "dulwich-6door-boheme-suite",
+      "category": "fitted-storage",
+      "title": "Dulwich 6-Door Boheme Dressing Suite",
+      "metaTitle": "Dulwich 6-Door Boheme Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2700mm width, 600mm depth, 2220mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "49.815 TL",
+      "dimensionsMm": "2700mm width, 600mm depth, 2220mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_18_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_18_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_18_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_18_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_18_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Dulwich 6-Door Boheme Dressing Suite pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "battersea-5door-boheme-suite": {
+      "slug": "battersea-5door-boheme-suite",
+      "category": "fitted-storage",
+      "title": "Battersea 5-Door Boheme Dressing Suite",
+      "metaTitle": "Battersea 5-Door Boheme Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2250mm width, 600mm depth, 2220mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "41.898 TL",
+      "dimensionsMm": "2250mm width, 600mm depth, 2220mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_19_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_19_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_19_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_19_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_19_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Battersea 5-Door Boheme Dressing Suite pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "highgate-6door-acoustic-robe": {
+      "slug": "highgate-6door-acoustic-robe",
+      "category": "fitted-storage",
+      "title": "Highgate 6-Door Grand Acoustic Robe",
+      "metaTitle": "Highgate 6-Door Grand Acoustic Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2700mm width, 620mm depth, 2250mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "52.367 TL",
+      "dimensionsMm": "2700mm width, 620mm depth, 2250mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_20_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_20_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_20_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_20_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_20_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Highgate 6-Door Grand Acoustic Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "islington-5door-acoustic-robe": {
+      "slug": "islington-5door-acoustic-robe",
+      "category": "fitted-storage",
+      "title": "Islington 5-Door Grand Acoustic Robe",
+      "metaTitle": "Islington 5-Door Grand Acoustic Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2250mm width, 620mm depth, 2250mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "43.555 TL",
+      "dimensionsMm": "2250mm width, 620mm depth, 2250mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_21_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_21_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_21_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_21_img3.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_21_img4.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Islington 5-Door Grand Acoustic Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "putney-sliding-wardrobe": {
+      "slug": "putney-sliding-wardrobe",
+      "category": "fitted-storage",
+      "title": "Putney Full-Length Sliding Wardrobe",
+      "metaTitle": "Putney Full-Length Sliding Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2400mm width, 680mm depth, 2220mm height fitted wardrobe featuring Sliding doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "60.860 TL",
+      "dimensionsMm": "2400mm width, 680mm depth, 2220mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_22_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_22_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_22_img2.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Putney Full-Length Sliding Wardrobe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with Sliding doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "barnes-6door-integrated-robe": {
+      "slug": "barnes-6door-integrated-robe",
+      "category": "fitted-storage",
+      "title": "Barnes 6-Door Integrated Master Robe",
+      "metaTitle": "Barnes 6-Door Integrated Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "56.969 TL",
+      "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_23_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_23_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_23_img2.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_23_img3.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Barnes 6-Door Integrated Master Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 6 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "clapham-5door-integrated-robe": {
+      "slug": "clapham-5door-integrated-robe",
+      "category": "fitted-storage",
+      "title": "Clapham 5-Door Integrated Master Robe",
+      "metaTitle": "Clapham 5-Door Integrated Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
+      "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "47.435 TL",
+      "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
+      "materials": [
+          "Heavy-duty moisture-resistant engineered timber carcass",
+          "Matte polyurethane lacquered door fascias",
+          "Concealed 110-degree soft-close clip hinges",
+          "Anodised aluminium integrated hanging rails and shelf supports"
+      ],
+      "finishOptions": [
+          "Warm Putty & Fluted Glass",
+          "Smoked Oak & Champagne Mirror",
+          "Pure Matte Chalk"
+      ],
+      "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_24_img1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/wardrobe_24_img1.webp",
+          "/assets/img/models/real_fitted_storage/wardrobe_24_img2.webp"
+      ],
+      "description": "Designed for generous bedroom storage, the Clapham 5-Door Integrated Master Robe pairs architectural exterior lines with versatile internal hanging, shelf, and drawer configurations.",
+      "keyFeatures": [
+          "Configured with 5 doors for comprehensive bedroom garment organisation",
+          "Internal drawer chests with soft-closing undermount runners",
+          "Full-length integrated mirrored door option for dressing convenience",
+          "Zero-VOC durable surface finishes resistant to scratches and everyday wear"
+      ]
+  },
+  "mayfair-executive-suite-310": {
+      "slug": "mayfair-executive-suite-310",
+      "category": "kitchens",
+      "title": "Mayfair 310cm Executive Culinary Suite",
+      "metaTitle": "Mayfair 310cm Executive Culinary Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "125.998,20TL",
+      "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002886738_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002886738_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002886738_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002886738_3.webp"
+      ],
+      "description": "The Mayfair 310cm Executive Culinary Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "belgravia-chef-monolith-310": {
+      "slug": "belgravia-chef-monolith-310",
+      "category": "kitchens",
+      "title": "Belgravia 310cm Chef Monolith Kitchen",
+      "metaTitle": "Belgravia 310cm Chef Monolith Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "125.998,20TL",
+      "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002886726_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002886726_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002886726_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002886726_3.webp"
+      ],
+      "description": "The Belgravia 310cm Chef Monolith Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "kensington-linear-artisan-310": {
+      "slug": "kensington-linear-artisan-310",
+      "category": "kitchens",
+      "title": "Kensington 310cm Linear Artisan Kitchen",
+      "metaTitle": "Kensington 310cm Linear Artisan Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "125.998,20TL",
+      "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002886596_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002886596_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002886596_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002886596_3.webp"
+      ],
+      "description": "The Kensington 310cm Linear Artisan Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "cotswold-highgloss-corner-410": {
+      "slug": "cotswold-highgloss-corner-410",
+      "category": "kitchens",
+      "title": "Cotswold 410x240cm High-Gloss Corner Suite",
+      "metaTitle": "Cotswold 410x240cm High-Gloss Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "71.649,90TL",
+      "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600107_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600107_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600107_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600107_3.webp"
+      ],
+      "description": "The Cotswold 410x240cm High-Gloss Corner Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "richmond-charcoal-corner-410": {
+      "slug": "richmond-charcoal-corner-410",
+      "category": "kitchens",
+      "title": "Richmond 410x240cm Charcoal High-Gloss Kitchen",
+      "metaTitle": "Richmond 410x240cm Charcoal High-Gloss Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "71.469,90TL",
+      "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600116_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600116_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600116_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600116_3.webp"
+      ],
+      "description": "The Richmond 410x240cm Charcoal High-Gloss Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "westminster-alabaster-corner-410": {
+      "slug": "westminster-alabaster-corner-410",
+      "category": "kitchens",
+      "title": "Westminster 410x240cm Alabaster Corner Suite",
+      "metaTitle": "Westminster 410x240cm Alabaster Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "71.339,90TL",
+      "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002599734_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002599734_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599734_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599734_3.webp"
+      ],
+      "description": "The Westminster 410x240cm Alabaster Corner Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "knightsbridge-slate-corner-410": {
+      "slug": "knightsbridge-slate-corner-410",
+      "category": "kitchens",
+      "title": "Knightsbridge 410x240cm Slate Corner Suite",
+      "metaTitle": "Knightsbridge 410x240cm Slate Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "71.149,90TL",
+      "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002599731_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002599731_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599731_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599731_3.webp"
+      ],
+      "description": "The Knightsbridge 410x240cm Slate Corner Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "chelsea-master-corner-400": {
+      "slug": "chelsea-master-corner-400",
+      "category": "kitchens",
+      "title": "Chelsea 400x240cm Master Corner Kitchen",
+      "metaTitle": "Chelsea 400x240cm Master Corner Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.709,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002598452_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002598452_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598452_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598452_3.webp"
+      ],
+      "description": "The Chelsea 400x240cm Master Corner Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "st-james-corner-kitchen-400": {
+      "slug": "st-james-corner-kitchen-400",
+      "category": "kitchens",
+      "title": "St James 400x240cm Architectural Corner Kitchen",
+      "metaTitle": "St James 400x240cm Architectural Corner Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.539,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600636_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600636_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600636_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600636_3.webp"
+      ],
+      "description": "The St James 400x240cm Architectural Corner Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "marylebone-dualtone-corner-400": {
+      "slug": "marylebone-dualtone-corner-400",
+      "category": "kitchens",
+      "title": "Marylebone 400x240cm Dual-Tone Corner Suite",
+      "metaTitle": "Marylebone 400x240cm Dual-Tone Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.529,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002598446_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002598446_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598446_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598446_3.webp"
+      ],
+      "description": "The Marylebone 400x240cm Dual-Tone Corner Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "hampstead-tower-pantry-400": {
+      "slug": "hampstead-tower-pantry-400",
+      "category": "kitchens",
+      "title": "Hampstead 400x240cm Tower Pantry Kitchen",
+      "metaTitle": "Hampstead 400x240cm Tower Pantry Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.499,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002598757_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002598757_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598757_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598757_3.webp"
+      ],
+      "description": "The Hampstead 400x240cm Tower Pantry Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "fitzrovia-linear-tower-400": {
+      "slug": "fitzrovia-linear-tower-400",
+      "category": "kitchens",
+      "title": "Fitzrovia 400x240cm Linear Tower Suite",
+      "metaTitle": "Fitzrovia 400x240cm Linear Tower Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.499,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002598748_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002598748_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598748_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598748_3.webp"
+      ],
+      "description": "The Fitzrovia 400x240cm Linear Tower Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "bloomsbury-deepdrawer-kitchen-400": {
+      "slug": "bloomsbury-deepdrawer-kitchen-400",
+      "category": "kitchens",
+      "title": "Bloomsbury 400x240cm Deep Drawer Kitchen",
+      "metaTitle": "Bloomsbury 400x240cm Deep Drawer Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.449,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600457_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600457_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600457_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600457_3.webp"
+      ],
+      "description": "The Bloomsbury 400x240cm Deep Drawer Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "pimlico-anthracite-accent-400": {
+      "slug": "pimlico-anthracite-accent-400",
+      "category": "kitchens",
+      "title": "Pimlico 400x240cm Anthracite Accent Kitchen",
+      "metaTitle": "Pimlico 400x240cm Anthracite Accent Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.359,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600644_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600644_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600644_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600644_3.webp"
+      ],
+      "description": "The Pimlico 400x240cm Anthracite Accent Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "greenwich-tallappliance-suite-410": {
+      "slug": "greenwich-tallappliance-suite-410",
+      "category": "kitchens",
+      "title": "Greenwich 410x240cm Tall Appliance Suite",
+      "metaTitle": "Greenwich 410x240cm Tall Appliance Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.269,90TL",
+      "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002601192_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002601192_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002601192_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002601192_3.webp"
+      ],
+      "description": "The Greenwich 410x240cm Tall Appliance Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "chiswick-ergonomic-corner-400": {
+      "slug": "chiswick-ergonomic-corner-400",
+      "category": "kitchens",
+      "title": "Chiswick 400x240cm Ergonomic L-Kitchen",
+      "metaTitle": "Chiswick 400x240cm Ergonomic L-Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.269,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600467_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600467_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600467_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600467_3.webp"
+      ],
+      "description": "The Chiswick 400x240cm Ergonomic L-Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "wimbledon-purewhite-gloss-400": {
+      "slug": "wimbledon-purewhite-gloss-400",
+      "category": "kitchens",
+      "title": "Wimbledon 400x240cm Pure White Gloss Kitchen",
+      "metaTitle": "Wimbledon 400x240cm Pure White Gloss Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.189,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600283_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600283_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600283_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600283_3.webp"
+      ],
+      "description": "The Wimbledon 400x240cm Pure White Gloss Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "dulwich-seamless-jpull-400": {
+      "slug": "dulwich-seamless-jpull-400",
+      "category": "kitchens",
+      "title": "Dulwich 400x240cm Seamless J-Pull Kitchen",
+      "metaTitle": "Dulwich 400x240cm Seamless J-Pull Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.189,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002600279_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002600279_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600279_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002600279_3.webp"
+      ],
+      "description": "The Dulwich 400x240cm Seamless J-Pull Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "battersea-compact-corner-395": {
+      "slug": "battersea-compact-corner-395",
+      "category": "kitchens",
+      "title": "Battersea 395x240cm Urban Compact Corner",
+      "metaTitle": "Battersea 395x240cm Urban Compact Corner | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 3950mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.169,90TL",
+      "dimensionsMm": "3950mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002598767_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002598767_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598767_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598767_3.webp"
+      ],
+      "description": "The Battersea 395x240cm Urban Compact Corner represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "highgate-doubletower-kitchen-400": {
+      "slug": "highgate-doubletower-kitchen-400",
+      "category": "kitchens",
+      "title": "Highgate 400x240cm Double Tower Kitchen",
+      "metaTitle": "Highgate 400x240cm Double Tower Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "70.139,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002599490_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002599490_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599490_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599490_3.webp"
+      ],
+      "description": "The Highgate 400x240cm Double Tower Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "islington-fluted-accent-400": {
+      "slug": "islington-fluted-accent-400",
+      "category": "kitchens",
+      "title": "Islington 400x240cm Fluted Accent Suite",
+      "metaTitle": "Islington 400x240cm Fluted Accent Suite | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "69.999,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002598606_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002598606_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598606_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598606_3.webp"
+      ],
+      "description": "The Islington 400x240cm Fluted Accent Suite represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "putney-modernist-handleless-400": {
+      "slug": "putney-modernist-handleless-400",
+      "category": "kitchens",
+      "title": "Putney 400x240cm Modernist Handleless Kitchen",
+      "metaTitle": "Putney 400x240cm Modernist Handleless Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "69.989,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002598781_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002598781_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598781_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002598781_3.webp"
+      ],
+      "description": "The Putney 400x240cm Modernist Handleless Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "barnes-grandhorizon-kitchen-410": {
+      "slug": "barnes-grandhorizon-kitchen-410",
+      "category": "kitchens",
+      "title": "Barnes 410x240cm Grand Horizon Kitchen",
+      "metaTitle": "Barnes 410x240cm Grand Horizon Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "69.959,90TL",
+      "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002601320_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002601320_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002601320_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002601320_3.webp"
+      ],
+      "description": "The Barnes 410x240cm Grand Horizon Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
+  },
+  "clapham-minimalist-pantry-400": {
+      "slug": "clapham-minimalist-pantry-400",
+      "category": "kitchens",
+      "title": "Clapham 400x240cm Minimalist Pantry Kitchen",
+      "metaTitle": "Clapham 400x240cm Minimalist Pantry Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
+      "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
+      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+      "referencePriceTl": "69.959,90TL",
+      "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
+      "materials": [
+          "High-density moisture-resistant MDF carcass",
+          "High-gloss polyurethane mirror finish",
+          "Solid stone worktop compatible substrate",
+          "Heavy-duty concealed undermount drawer runners"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "High-Gloss Anthracite",
+          "Duo-Tone Alabaster & Slate"
+      ],
+      "installationScope": "Supplied with fully assembled carcasses, adjustable plinth feet, Blum soft-close hardware, and pre-machined service voids.",
+      "image": "/assets/img/models/real_kitchens/kitchen_5002599480_1.webp",
+      "gallery": [
+          "/assets/img/models/real_kitchens/kitchen_5002599480_1.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599480_2.webp",
+          "/assets/img/models/real_kitchens/kitchen_5002599480_3.webp"
+      ],
+      "description": "The Clapham 400x240cm Minimalist Pantry Kitchen represents the pinnacle of modern architectural joinery, blending vast continuous preparation runs with full-height pantry towers.",
+      "keyFeatures": [
+          "Continuous handleless profile for sleek architectural minimalism",
+          "Full-extension heavy-load pan drawers tested to 50kg dynamic rating",
+          "Dedicated tall appliance housing and integrated microwave voids",
+          "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
+      ]
   }
 };

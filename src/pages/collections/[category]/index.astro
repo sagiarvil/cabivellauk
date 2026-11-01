@@ -25,6 +25,7 @@ const breadcrumbItems = [
   { name: category.title, url: `/collections/${category.slug}/` }
 ];
 const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+import DynamicWatermark from '../../../components/DynamicWatermark.astro';
 ---
 
 <SiteLayout 
@@ -37,11 +38,7 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Ghost Watermark Header -->
-  <div class="ghost-watermark-container" aria-hidden="true">
-    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="80">{category.title.toUpperCase()}</text>
-    </svg>
-  </div>
+  <DynamicWatermark text={category.title} />
 
   <!-- Category Hero -->
   <section class="wrap" style="padding-bottom: 40px;">
