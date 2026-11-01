@@ -16,561 +16,1700 @@ export interface ModelDetail {
 }
 
 export const modelsData: Record<string, ModelDetail> = {
-  // 1. KITCHENS
-  'shaker-kitchens': {
-    slug: 'shaker-kitchens',
-    category: 'kitchens',
-    title: 'Classic Shaker Kitchens',
-    metaTitle: 'Classic Shaker Kitchens | Made-to-Measure British Joinery | Cabivella UK',
-    metaDescription: 'Timeless made-to-measure Shaker kitchens featuring solid hardwood stiles, mortise-and-tenon joints, and precision motion hardware tailored to UK homes.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Made-to-measure (typical 600mm carcass depth, bespoke ceiling-height runs)',
-    materials: ['Solid European Ash timber frame', 'High-density moisture-resistant MR-MDF core', 'Concealed hydraulic soft-close runners'],
-    finishOptions: ['Heritage Sage Green', 'Chalk White', 'Deep Oxford Navy', 'Satin Pumice', 'Natural Oiled Oak interior'],
-    installationScope: 'Delivered pre-assembled in protective timber crates; ready for installation by your appointed contractor or local specialist.',
-    image: '/assets/img/models/shaker-kitchens.webp',
-    gallery: ['/assets/img/models/shaker-kitchens.webp', '/assets/img/models/slim-frame-shaker-kitchens.webp'],
-    description: 'The definitive British architectural aesthetic. Our Shaker kitchens unite classical five-piece mortise-and-tenon timber stiles with contemporary concealed dampening mechanics, engineered to perform steadily across British domestic heating cycles.',
-    keyFeatures: [
-      'Traditional 70mm or contemporary slimline 20mm Shaker rail profiles',
-      'Concealed hydraulic soft-close hinges with integrated buffer dampening',
-      'Dovetailed solid oak internal drawer boxes with full extension glide',
-      'Factory-baked polyurethane lacquer finish providing resilient protection against daily kitchen wear'
+  "shaker-kitchens": {
+    "slug": "shaker-kitchens",
+    "category": "kitchens",
+    "title": "Classic Shaker Kitchens",
+    "metaTitle": "Classic Shaker Kitchens | Made-to-Measure British Joinery | Cabivella UK",
+    "metaDescription": "Timeless made-to-measure Shaker kitchens featuring solid hardwood stiles, mortise-and-tenon joints, and precision motion hardware tailored to UK homes.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure (typical 600mm carcass depth, bespoke ceiling-height runs)",
+    "materials": [
+      "Solid European Ash timber frame",
+      "High-density moisture-resistant MR-MDF core",
+      "Concealed hydraulic soft-close runners"
+    ],
+    "finishOptions": [
+      "Heritage Sage Green",
+      "Chalk White",
+      "Deep Oxford Navy",
+      "Satin Pumice",
+      "Natural Oiled Oak interior"
+    ],
+    "installationScope": "Delivered pre-assembled in protective timber crates; ready for installation by your appointed contractor or local specialist.",
+    "image": "/assets/img/models/shaker-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/shaker-kitchens.webp",
+      "/assets/img/models/slim-frame-shaker-kitchens.webp"
+    ],
+    "description": "The definitive British architectural aesthetic. Classical five-piece mortise-and-tenon timber stiles with integrated buffer dampening, engineered for longevity in UK homes.",
+    "keyFeatures": [
+      "Traditional 70mm timber rails with subtle internal bead detailing",
+      "Solid oak dovetailed drawer boxes with 40kg load-rated undermount glides",
+      "Multi-coat factory-baked lacquer resilient against grease and cooking steam",
+      "Full custom dimensioning tailored to uneven chimney breasts and bay windows"
     ]
   },
-  'contemporary-kitchens': {
-    slug: 'contemporary-kitchens',
-    category: 'kitchens',
-    title: 'Contemporary Monolithic Kitchens',
-    metaTitle: 'Contemporary Minimalist Kitchens | Handleless Bespoke Cabinetry | Cabivella UK',
-    metaDescription: 'Monolithic handleless contemporary kitchens with seamless shadow gaps and architectural proportions. Master timber joinery engineered for UK open-plan living.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Bespoke architectural dimensions aligned to room ceiling and window heights',
-    materials: ['Super-matt anti-fingerprint thermal laminate', 'Continuous shadow gap aluminium rails', 'Double-wall steel drawer systems'],
-    finishOptions: ['Cashmere Grey', 'Smoked European Oak', 'Warm Charcoal Basalt', 'Alabaster Silk Matt'],
-    installationScope: 'Full cabinet joinery delivery with laser-levelled shadow gap profiles and concealed hanging brackets.',
-    image: '/assets/img/models/contemporary-kitchens.webp',
-    gallery: ['/assets/img/models/contemporary-kitchens.webp', '/assets/img/models/island-suite-kitchens.webp'],
-    description: 'Unbroken horizontal planes and pure monolithic volume characterise our contemporary kitchen commissions. Designed for open-plan residences where kitchen joinery converses quietly with surrounding architectural furniture.',
-    keyFeatures: [
-      'True handleless recessed shadow gap rails in brushed metal or anodised bronze',
-      'Push-to-open mechanical and motorised touch-release options for effortless access',
-      'Integrated pocket-door concealment stations for breakfast bars and appliances',
-      'Reinforced double-skin carcass architecture engineered for long-term rigidity'
+  "contemporary-kitchens": {
+    "slug": "contemporary-kitchens",
+    "category": "kitchens",
+    "title": "Contemporary Slab Kitchens",
+    "metaTitle": "Contemporary Handleless Kitchens | Made-to-Measure Joinery | Cabivella UK",
+    "metaDescription": "Architectural flat-panel and handleless kitchens with micro-bevelled edges, recessed J-pull channels, and matte anti-fingerprint surfaces.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure (typical 600mm base, 350mm wall runs)",
+    "materials": [
+      "E1 grade structural birch core",
+      "Velvet super-matte anti-fingerprint laminate",
+      "Continuous anodised aluminium rail profile"
+    ],
+    "finishOptions": [
+      "Graphite Anthracite",
+      "Porcelain Warm White",
+      "Raw Umber Walnut",
+      "Smoked Forest Green"
+    ],
+    "installationScope": "Pre-assembled rigid carcasses with pre-fitted recessed aluminium grip channels for seamless alignment.",
+    "image": "/assets/img/models/contemporary-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/contemporary-kitchens.webp",
+      "/assets/img/models/compact-kitchens.webp"
+    ],
+    "description": "Purist architectural cabinetry celebrating unobstructed monolithic elevations, razor-sharp shadow gaps, and tactile matte surfaces.",
+    "keyFeatures": [
+      "Continuous anodised continuous channel system for pure handleless operation",
+      "Super-matte tactile surface formulation with thermal micro-scratch healability",
+      "Full-height floor-to-ceiling appliance banks with integrated ventilation chimneys",
+      "Bespoke cutlery divider sets in solid American black walnut"
     ]
   },
-  'compact-kitchens': {
-    slug: 'compact-kitchens',
-    category: 'kitchens',
-    title: 'Compact Studio Kitchenettes',
-    metaTitle: 'Compact Kitchen Units (160–240cm) | Studio & Apartment Joinery | Cabivella UK',
-    metaDescription: 'High-density compact kitchen cabinetry from 160cm runs. Fully equipped with integrated appliances, undermount storage and durable worktops for UK apartments.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Standard 1600mm to 2400mm modular widths, tailored ceiling extensions available',
-    materials: ['Moisture-resistant 18mm melamine-faced carcass', 'High-pressure laminate (HPL) waterproof worktop', 'Full-extension soft-close cutlery and pan drawers'],
-    finishOptions: ['Anthracite & Natural Timber', 'Pure White Satin', 'Pumice Grey & Nordic Birch'],
-    installationScope: 'Modular factory-assembled carcasses for rapid installation in secondary suites, mews houses, and urban apartments.',
-    image: '/assets/img/models/compact-kitchens.webp',
-    gallery: ['/assets/img/models/compact-kitchens.webp', '/assets/img/models/contemporary-kitchens.webp'],
-    description: 'Maximal functionality within disciplined urban footprints. Our compact kitchen runs assemble induction cooking, refrigeration, extraction, and refuse sorting into a unified 160cm to 240cm architectural joinery envelope.',
-    keyFeatures: [
-      'Ergonomically planned 1600mm base unit with integrated sink and appliance cut-outs',
-      'Double-height overhead wall storage maximizing vertical room volume',
-      'Durable HPL worktop surface impervious to common household acids and boiling water spills',
-      'Integrated under-cabinet warm LED task illumination channels'
+  "compact-kitchens": {
+    "slug": "compact-kitchens",
+    "category": "kitchens",
+    "title": "Compact Architectural Kitchens",
+    "metaTitle": "Compact Studio Kitchens | Made-to-Measure Small Space Joinery | Cabivella UK",
+    "metaDescription": "High-density functional cabinetry designed for UK urban apartments, guest suites, and secondary kitchen spaces without compromising specification.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "From 1600mm to 2400mm compact modular runs",
+    "materials": [
+      "18mm moisture-resistant structural core",
+      "HPL hardwearing work surface",
+      "Synchronised heavy-duty lift-up flap fittings"
+    ],
+    "finishOptions": [
+      "Monochrome Basalt & Chalk",
+      "Warm Oak & Putty",
+      "Dove Grey & Brushed Brass accents"
+    ],
+    "installationScope": "Engineered for rapid, accurate levelling in tight city apartments and historic properties.",
+    "image": "/assets/img/models/compact-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/compact-kitchens.webp",
+      "/assets/img/models/contemporary-kitchens.webp"
+    ],
+    "description": "Maximum spatial efficiency for urban residences. Integrated appliance housings, tiered cutlery inserts, and vertical wall storage modules.",
+    "keyFeatures": [
+      "High-capacity bi-fold lift-up wall units for unrestricted headroom",
+      "Integrated pull-out recycling sorting station and under-sink organiser caddy",
+      "Pre-routed LED task lighting recesses beneath wall cabinets",
+      "Modular width increments from 1600mm upwards for bespoke alcove installation"
     ]
   },
-  'slim-frame-shaker-kitchens': {
-    slug: 'slim-frame-shaker-kitchens',
-    category: 'kitchens',
-    title: 'Slim-Frame Contemporary Shaker',
-    metaTitle: 'Slim-Frame Shaker Kitchens | Micro-Shaker Joinery | Cabivella UK',
-    metaDescription: 'Refined 20mm slim-frame contemporary Shaker cabinetry. A delicate transitional aesthetic bridging historic proportions with modern detailing.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Tailored room elevations with continuous plinths and cornice returns',
-    materials: ['Solid Ash 20mm outer frame', 'Veneered centre panel', 'Concealed soft-close mechanics'],
-    finishOptions: ['Pistachio & Bone White', 'Fumed Oak Veneer', 'Deep Slate Blue'],
-    installationScope: 'Delivered pre-assembled; dry-fit by your appointed joiner or kitchen installer.',
-    image: '/assets/img/models/slim-frame-shaker-kitchens.webp',
-    gallery: ['/assets/img/models/slim-frame-shaker-kitchens.webp', '/assets/img/models/shaker-kitchens.webp'],
-    description: 'A contemporary evolution of the traditional Shaker aesthetic, featuring slim 20mm stiles that deliver delicate architectural shadowlines without compromising timber strength.',
-    keyFeatures: [
-      'Slimline 20mm frame detailing for a lighter, modern architectural profile',
-      'Solid hardwood stiles precision-machined with micro-bevel internal joins',
-      'Integrated plinth drawers and concealed bin pull-out solutions',
-      'Multi-coat oven-cured polyurethane spray lacquer in bespoke heritage colours'
+  "arya-classic-shaker": {
+    "slug": "arya-classic-shaker",
+    "category": "kitchens",
+    "title": "Arya Heritage Shaker Kitchen",
+    "metaTitle": "Arya Heritage Shaker Kitchen | British Joinery | Cabivella UK",
+    "metaDescription": "Quintessential British five-piece Shaker cabinetry featuring solid ash stiles, deep recessed centre panels, and hand-finished satin lacquer.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure tailored to room architecture",
+    "materials": [
+      "Solid European Ash framing",
+      "Moisture-resistant core panel",
+      "Under-mount soft-close damping runners"
+    ],
+    "finishOptions": [
+      "Heritage Sage Green",
+      "Parchment Cream",
+      "Deep Indigo Navy",
+      "Natural Ash Interior"
+    ],
+    "installationScope": "Supplied rigid in protective timber boxing with installation guides.",
+    "image": "/assets/img/models/shaker-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/shaker-kitchens.webp",
+      "/assets/img/models/slim-frame-shaker-kitchens.webp"
+    ],
+    "description": "A celebrated tribute to traditional British joinery. Solid ash framing with authentic mortise-and-tenon construction, offering enduring poise in townhouse and country settings.",
+    "keyFeatures": [
+      "Authentic five-piece solid ash frame with 75mm stiles",
+      "Concealed 3D adjustable soft-close European hinges",
+      "Dovetailed solid timber drawer boxes with full extension glides",
+      "Custom decorative mantle and cooker canopy integration options"
     ]
   },
-  'island-suite-kitchens': {
-    slug: 'island-suite-kitchens',
-    category: 'kitchens',
-    title: 'Ergonomic Island Suites & Breakfast Bars',
-    metaTitle: 'Kitchen Island Suites & Breakfast Bars | Bespoke Islands | Cabivella UK',
-    metaDescription: 'Freestanding and integrated kitchen island cabinetry with cantilevered seating overhangs, wine storage and induction cooking bays.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Tailored island dimensions from 1800mm x 900mm up to 3600mm x 1200mm',
-    materials: ['Reinforced internal steel bracing', 'Kiln-dried oak framing', 'Heavy-load drawer systems'],
-    finishOptions: ['Contrast Fluted Walnut', 'Matt Black Forest Green', 'Stained White Oak'],
-    installationScope: 'Engineered for seamless plumbing and electrical feeds with sub-floor service voids.',
-    image: '/assets/img/models/island-suite-kitchens.webp',
-    gallery: ['/assets/img/models/island-suite-kitchens.webp', '/assets/img/models/contemporary-kitchens.webp'],
-    description: 'The social anchor of modern open-plan living. Our bespoke island cabinetry unites culinary preparation, breakfast seating, and concealed wine or pan storage into a sculptural centrepiece.',
-    keyFeatures: [
-      'Cantilevered timber and stone breakfast bar overhangs with hidden steel supports',
-      'Dedicated pan and crockery pull-outs tested for 40kg dynamic load ratings',
-      'Integrated service voids for downdraft induction hobs and under-counter appliances',
-      'Fluted or panelled back wraps complementing adjacent living and dining joinery'
+  "lea-bevelled-shaker": {
+    "slug": "lea-bevelled-shaker",
+    "category": "kitchens",
+    "title": "Lea Bevelled Shaker Kitchen",
+    "metaTitle": "Lea Bevelled Shaker Kitchen | Bespoke Joinery | Cabivella UK",
+    "metaDescription": "Refined bevelled-frame Shaker kitchen cabinetry uniting classical geometry with subtle contemporary chamfered detailing.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Bespoke height and width increments",
+    "materials": [
+      "Solid hardwood outer framing",
+      "High-density centre panel",
+      "Heavy-gauge steel hinges"
+    ],
+    "finishOptions": [
+      "Smoked Olive",
+      "Cashmere Neutral",
+      "Slate Grey",
+      "Warm Truffle"
+    ],
+    "installationScope": "Factory rigid assembly with pre-machined hardware locations.",
+    "image": "/assets/img/models/slim-frame-shaker-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/slim-frame-shaker-kitchens.webp",
+      "/assets/img/models/shaker-kitchens.webp"
+    ],
+    "description": "Characterised by an internal 45-degree chamfer that catches natural light, the Lea profile brings transitional warmth to Victorian terrace extensions and Georgian properties.",
+    "keyFeatures": [
+      "Internal 45-degree chamfered edge profile preventing dust accumulation",
+      "22mm door thickness providing substantial tactile feel",
+      "Multi-layer polyurethane matte lacquer resistant to household spills",
+      "Tailored tall appliance larders with integrated breakfast bar elements"
     ]
   },
-
-  // 2. BATHROOMS
-  'wall-hung-vanities': {
-    slug: 'wall-hung-vanities',
-    category: 'bathrooms',
-    title: 'Wall-Hung Basin Vanities',
-    metaTitle: 'Wall-Hung Bathroom Vanities (80–120cm) | Bespoke Vanity Units | Cabivella UK',
-    metaDescription: 'Contemporary floating wall-hung vanity consoles with integrated basins, moisture-resistant lacquer finishes, and deep soft-close toiletry drawers.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 800mm, 1000mm, 1200mm | Height: 520mm | Depth: 480mm',
-    materials: ['Moisture-resistant MR-MDF core', 'Polyurethane satin spray lacquer', 'Heavy-duty adjustable steel wall-mounting brackets'],
-    finishOptions: ['Matt Anthracite', 'Pure Alabaster White', 'Earthy Terracotta', 'Sage Grey'],
-    installationScope: 'Supplied with precision 3-way adjustable heavy-duty hanging brackets for solid masonry or reinforced stud walls.',
-    image: '/assets/img/models/wall-hung-vanities.webp',
-    gallery: ['/assets/img/models/wall-hung-vanities.webp', '/assets/img/models/double-basin-vanities.webp'],
-    description: 'Floating vanity architecture that expands perceived floor space while providing generous concealed storage. Precision mitred drawer edges and integrated basin cut-outs accommodate standard UK bottle traps effortlessly.',
-    keyFeatures: [
-      'Twin push-to-open or discreet J-pull soft-close drawers with internal bamboo dividers',
-      'Supplied with pre-milled waste pipe and water supply clearance cavities',
-      'Water-repellent 4-coat polyurethane finish designed specifically for high-humidity bathroom environments',
-      'Pairs seamlessly with undermount ceramic basins or surface-mounted solid stone vessels'
+  "luna-micro-shaker": {
+    "slug": "luna-micro-shaker",
+    "category": "kitchens",
+    "title": "Luna Micro-Frame Modern Shaker",
+    "metaTitle": "Luna Micro-Frame Shaker Kitchen | Modern British Joinery | Cabivella UK",
+    "metaDescription": "Slimline 15mm micro-frame Shaker kitchen cabinetry delivering a lightweight, contemporary silhouette for architectural interiors.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure ceiling-height cabinetry runs",
+    "materials": [
+      "Engineered timber composite",
+      "Solid timber reinforcement",
+      "Concealed motion slide hardware"
+    ],
+    "finishOptions": [
+      "Forest Moss",
+      "Oatmeal Beige",
+      "Charcoal Noir",
+      "Oiled Warm Oak"
+    ],
+    "installationScope": "Pre-assembled carcasses with laser-levelled suspension brackets.",
+    "image": "/assets/img/models/slim-frame-shaker-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/slim-frame-shaker-kitchens.webp",
+      "/assets/img/models/contemporary-kitchens.webp"
+    ],
+    "description": "An ultra-refined evolution of the traditional Shaker aesthetic. Slender 15mm perimeter frames create delicate shadow lines while preserving structural integrity.",
+    "keyFeatures": [
+      "Ultra-slim 15mm contemporary outer framing",
+      "Seamless corner jointing with zero visible glue seams",
+      "Full integration with fluted feature back panels and open display niches",
+      "Factory-mounted interior LED strip lighting channels"
     ]
   },
-  'fluted-vanities': {
-    slug: 'fluted-vanities',
-    category: 'bathrooms',
-    title: 'Fluted & Reeded Vanity Consoles',
-    metaTitle: 'Fluted Bathroom Vanities | Reeded Timber Joinery | Cabivella UK',
-    metaDescription: 'Textured fluted and reeded timber bathroom vanity units. Tactile vertical ribbing with quartz or marble worktop options for luxurious UK bathrooms.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 900mm, 1200mm, 1500mm | Height: 820mm (freestanding) or 540mm (wall-hung)',
-    materials: ['Precision CNC-routed solid timber fluted panels', '18mm water-resistant birch ply internal structure', 'Concealed touch-release drawer slides'],
-    finishOptions: ['Natural Bleached Oak', 'Smoked Walnut', 'Forest Green Matt', 'Brushed Brass Accent Handles'],
-    installationScope: 'Available in both wall-hung and architectural steel/timber leg-mounted freestanding configurations.',
-    image: '/assets/img/models/fluted-vanities.webp',
-    gallery: ['/assets/img/models/fluted-vanities.webp', '/assets/img/models/wall-hung-vanities.webp'],
-    description: 'Tactile three-dimensional fluted surfaces capture cascading light across bathroom walls. Our reeded vanity units combine bespoke timber craftsmanship with daily practical storage.',
-    keyFeatures: [
-      'Precision CNC-machined vertical flutes with seamless wraparound corner continuity',
-      'Deep bottom drawer for tall shampoo bottles and folded bath sheets',
-      'Solid brass knurled or finger-pull hardware options available',
-      'Waterproof seal applied across all joint lines and plumbing penetration points'
+  "lora-contemporary-slab": {
+    "slug": "lora-contemporary-slab",
+    "category": "kitchens",
+    "title": "Lora Super-Matte Contemporary Kitchen",
+    "metaTitle": "Lora Super-Matte Kitchen | Contemporary Cabinets | Cabivella UK",
+    "metaDescription": "Velvety super-matte slab kitchen cabinetry with anti-fingerprint thermal technology and clean monolithic architectural runs.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure base, tall, and wall runs",
+    "materials": [
+      "Moisture-resistant MR core",
+      "Thermal-healing super-matte finish",
+      "Anodised aluminium channels"
+    ],
+    "finishOptions": [
+      "Matte Anthracite",
+      "Chalk White",
+      "Warm Greige",
+      "Deep Espresso"
+    ],
+    "installationScope": "Pre-assembled rigid units complete with levelling feet and transit braces.",
+    "image": "/assets/img/models/contemporary-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/contemporary-kitchens.webp",
+      "/assets/img/models/compact-kitchens.webp"
+    ],
+    "description": "A masterclass in restraint. Velvet-touch slab doors with micro-beveled borders create an atmosphere of serene minimalism in modern architect-designed extensions.",
+    "keyFeatures": [
+      "Anti-fingerprint nano-coating with silk-touch tactile response",
+      "Seamless laser-welded edge banding resistant to steam degradation",
+      "Push-to-open electronic servo-drive options for true handleless purity",
+      "Custom ceiling-height infill panels scribed to UK plaster contours"
     ]
   },
-  'tall-bathroom-storage': {
-    slug: 'tall-bathroom-storage',
-    category: 'bathrooms',
-    title: 'Tall Bathroom Linen Towers',
-    metaTitle: 'Tall Bathroom Storage Columns | Linen Cupboards | Cabivella UK',
-    metaDescription: 'Slimline vertical bathroom storage columns with integrated laundry tilt bins, adjustable glass shelving, and moisture-resistant internal carcases.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Width: 400mm | Depth: 370mm | Height: 1800mm',
-    materials: ['Moisture-resistant core with anti-warp vertical stiffeners', 'Tempered safety glass interior shelves', 'Concealed 110-degree soft-close hinges'],
-    finishOptions: ['Eiche Gold Oak Veneer', 'Matt Silk Grey', 'Satin White Lacquer', 'Deep Bronze Metal Trim'],
-    installationScope: 'Wall-mounted vertical column with safety anti-tilt wall anchors and adjustable internal shelf clips.',
-    image: '/assets/img/models/tall-bathroom-storage.webp',
-    gallery: ['/assets/img/models/tall-bathroom-storage.webp', '/assets/img/models/slim-mirror-storage-cabinets.webp'],
-    description: 'A space-efficient vertical storage solution designed to organize towels, linen, and personal care essentials without encroaching on floor space in compact British bathrooms.',
-    keyFeatures: [
-      'Integrated lower tilt-out laundry basket hamper for concealed daily linen sorting',
-      'Upper section with 3 adjustable 6mm tempered safety glass shelves',
-      'Reversible door hanging (left or right swing) to adapt to any bathroom corner',
-      'Full-height moisture-barrier edge seal prevents steam infiltration during hot showers'
+  "vera-architectural-kitchen": {
+    "slug": "vera-architectural-kitchen",
+    "category": "kitchens",
+    "title": "Vera Architectural Clean-Line Kitchen",
+    "metaTitle": "Vera Architectural Kitchen | Bespoke Joinery | Cabivella UK",
+    "metaDescription": "Minimalist architectural kitchen cabinetry featuring flush facades, integrated J-pull contours, and natural European oak accents.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure layouts",
+    "materials": [
+      "European oak veneer accents",
+      "High-density structural substrate",
+      "Synchronised soft-close glides"
+    ],
+    "finishOptions": [
+      "Natural White Oak",
+      "Satin Taupe",
+      "Pumice Stone",
+      "Matte Carbon"
+    ],
+    "installationScope": "Supplied fully assembled in timber shipping crates.",
+    "image": "/assets/img/models/contemporary-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/contemporary-kitchens.webp",
+      "/assets/img/models/island-suite-kitchens.webp"
+    ],
+    "description": "Harmonising warm organic timber veneers with cool lacquered surfaces, Vera provides balanced texture and architectural permanence.",
+    "keyFeatures": [
+      "Matched-grain natural European oak veneer fronts",
+      "Concealed finger-pull channel lacquered in complementary tones",
+      "Heavy-duty pan drawers tested to 50kg dynamic loads",
+      "Bespoke spice and condiment pull-out inserts"
     ]
   },
-  'double-basin-vanities': {
-    slug: 'double-basin-vanities',
-    category: 'bathrooms',
-    title: 'Double Basin Architectural Vanities',
-    metaTitle: 'Double Basin Bathroom Vanities (140–180cm) | Twin Vanities | Cabivella UK',
-    metaDescription: 'Generous 140cm to 180cm twin-basin vanity consoles for master en-suite bathrooms. Dual mirrors, four deep drawers and bespoke quartz tops.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 1400mm, 1600mm, 1800mm | Height: 520mm | Depth: 500mm',
-    materials: ['Marine-grade birch plywood substrate', 'High-density moisture-resistant lacquered fronts', 'Dual concealed drawer runners'],
-    finishOptions: ['Nordic White Oak', 'Satin Pumice Grey', 'Midnight Navy', 'Warm Carrara Vein'],
-    installationScope: 'Heavy-duty sub-frame mounting system engineered to support double stone sinks and heavy toiletries.',
-    image: '/assets/img/models/double-basin-vanities.webp',
-    gallery: ['/assets/img/models/double-basin-vanities.webp', '/assets/img/models/wall-hung-vanities.webp'],
-    description: 'Engineered for shared master en-suites where morning schedules demand effortless dual access. Generous counter space separates twin under-mount basins above four symmetrical storage drawers.',
-    keyFeatures: [
-      'Four independent soft-close drawers with custom timber cosmetic trays',
-      'Central partition with integrated hidden dual electrical shaver and toothbrush sockets',
-      'Reinforced rear chassis designed to carry up to 90kg of combined stone and water weight',
-      'Matching fluted or panelled side returns creating a monolithic freestanding illusion'
+  "axis-handleless-shadow": {
+    "slug": "axis-handleless-shadow",
+    "category": "kitchens",
+    "title": "Axis Handleless Shadow-Gap Kitchen",
+    "metaTitle": "Axis Handleless Shadow-Gap Kitchen | Cabivella UK",
+    "metaDescription": "Pure continuous shadow-gap handleless kitchen cabinetry with extruded aluminium rails and flush monolithic elevations.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Bespoke runs to millimetre precision",
+    "materials": [
+      "Precision-extruded aluminium profiles",
+      "High-density lacquer core",
+      "German engineered motion runners"
+    ],
+    "finishOptions": [
+      "Brushed Bronze Profile / Chalk",
+      "Matte Black Profile / Anthracite",
+      "Natural Anodised / Greige"
+    ],
+    "installationScope": "Factory pre-fitted rail brackets for laser-straight line continuity.",
+    "image": "/assets/img/models/contemporary-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/contemporary-kitchens.webp",
+      "/assets/img/models/shaker-kitchens.webp"
+    ],
+    "description": "Continuous horizontal and vertical shadow-gap architecture. Recessed aluminium profiles allow ergonomic finger-access while preserving uninterrupted door planes.",
+    "keyFeatures": [
+      "Continuous uninterrupted horizontal and vertical finger rails",
+      "Recessed LED illumination channel within grip profile",
+      "Fully integrated column refrigeration and larder housings",
+      "Scratch-resistant micro-texture baked enamel finish"
     ]
   },
-  'slim-mirror-storage-cabinets': {
-    slug: 'slim-mirror-storage-cabinets',
-    category: 'bathrooms',
-    title: 'Slim Recessed Mirror Storage Cabinets',
-    metaTitle: 'Recessed Mirror Bathroom Cabinets | LED Mirror Storage | Cabivella UK',
-    metaDescription: 'Flush-mounted and surface-hung bathroom mirror cabinets with internal demister pads, concealed toothbrush charging and dimmable warm LED halos.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 600mm, 800mm, 1200mm | Height: 800mm | Depth: 140mm',
-    materials: ['Anodised aluminium slim profile', 'Copper-free silver mirror glass', 'Moisture-sealed internal carcase'],
-    finishOptions: ['Brushed Brass Frame', 'Matt Black Halo', 'Frameless Bevelled Glass', 'Natural Oak Reveal'],
-    installationScope: 'Recessed flush into 100mm stud walls or surface mounted with perimeter lighting returns.',
-    image: '/assets/img/models/slim-mirror-storage-cabinets.webp',
-    gallery: ['/assets/img/models/slim-mirror-storage-cabinets.webp', '/assets/img/models/tall-bathroom-storage.webp'],
-    description: 'Combining high-illumination grooming with hidden shallow storage. Our mirror cabinets conceal electrical toothbrushes, cosmetics, and medicines flush behind reflection glass.',
-    keyFeatures: [
-      'Heated mirror demister pad preventing condensation build-up in steamy en-suites',
-      'Concealed internal shaver/toothbrush charging point (IP44 compliant)',
-      'Touchless infrared sensor switch for dimmable 2700K warm LED illumination',
-      'Adjustable internal glass shelves with silicone vibration buffers'
+  "vega-ergonomic-suite": {
+    "slug": "vega-ergonomic-suite",
+    "category": "kitchens",
+    "title": "Vega Ergonomic Culinary Suite",
+    "metaTitle": "Vega Ergonomic Culinary Suite | Bespoke Kitchens | Cabivella UK",
+    "metaDescription": "High-performance culinary kitchen cabinetry featuring tiered workflow zones, concealed breakfast stations, and ergonomic reach heights.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure culinary runs",
+    "materials": [
+      "Moisture-resistant carcass timber",
+      "Solid brass interior handles",
+      "Heavy-load pantry pull-outs"
+    ],
+    "finishOptions": [
+      "Oxford Navy",
+      "Almond Silk",
+      "Smoked Pine",
+      "Pure Oyster"
+    ],
+    "installationScope": "Modular rigid delivery with dedicated joinery numbering system.",
+    "image": "/assets/img/models/island-suite-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/island-suite-kitchens.webp",
+      "/assets/img/models/shaker-kitchens.webp"
+    ],
+    "description": "Engineered for passionate culinary hosts. Intuitive workstation zoning combines deep prep drawers, hidden charging docks, and bi-folding appliance cupboards.",
+    "keyFeatures": [
+      "Bi-fold concealed prep station with integrated task lighting",
+      "Ergonomic split-level island preparation surface",
+      "Solid beech dovetail internal drawer inserts",
+      "Heavy-capacity pull-out tall dry storage tower"
     ]
   },
-
-  // 3. PANTRY & LARDER
-  'tall-larder-cupboards': {
-    slug: 'tall-larder-cupboards',
-    category: 'pantry-larder',
-    title: 'Full-Height Tandem Larder Cupboards',
-    metaTitle: 'Tall Larder Cupboards & Tandem Pantries | Kitchen Joinery | Cabivella UK',
-    metaDescription: 'Floor-to-ceiling tall larder cupboards with door-mounted spice racks, solid oak dovetailed inner drawers, and cold marble shelf options for UK homes.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 600mm, 900mm, 1200mm | Depth: 650mm | Heights: 2150mm to 2400mm',
-    materials: ['Kiln-dried solid timber framework', '18mm moisture-resistant carcass', 'Heavy-gauge steel tandem pull-out mechanisms'],
-    finishOptions: ['Heritage Sage', 'Oxford Navy', 'Chalk White with Natural Oak Interior', 'Satin Basalt'],
-    installationScope: 'Delivered pre-assembled in protective timber packaging; installs with integrated levelling feet and top wall anchors.',
-    image: '/assets/img/models/tall-larder-cupboards.webp',
-    gallery: ['/assets/img/models/tall-larder-cupboards.webp', '/assets/img/models/chefs-double-larder.webp'],
-    description: 'The culinary centrepiece of a considered kitchen. When opened, our tall larder cupboards reveal a meticulously organized interior with shallow door-mounted spice racks and deep full-extension oak drawers.',
-    keyFeatures: [
-      'Five solid oak internal dovetailed drawers with soft-close motion control',
-      'Twin door-hung spice and bottle shelves engineered with anti-sway retaining rails',
-      'Integrated cold Carrara marble or quartz shelf for pastry preparation and cheese storage',
-      'Automatic LED illumination activated when doors are opened'
+  "urban-compact-160": {
+    "slug": "urban-compact-160",
+    "category": "kitchens",
+    "title": "Urban 160 Compact Studio Kitchen",
+    "metaTitle": "Urban 160 Compact Kitchen | Studio Apartment Joinery | Cabivella UK",
+    "metaDescription": "Space-saving 160cm to 220cm compact kitchen solution combining cooktop, sink, integrated extraction, and soft-close cabinetry.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "1600mm standard width (expandable to 2400mm)",
+    "materials": [
+      "18mm dense MR composite",
+      "High-pressure compact laminate top",
+      "Soft-close motion hinges"
+    ],
+    "finishOptions": [
+      "Anthracite & Natural Timber",
+      "Clean White & Slate",
+      "Muted Sage & Sand Oak"
+    ],
+    "installationScope": "Rapid-installation modular framework with integrated plumbing void.",
+    "image": "/assets/img/models/compact-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/compact-kitchens.webp",
+      "/assets/img/models/contemporary-kitchens.webp"
+    ],
+    "description": "An ingenious high-density solution for secondary suites, loft conversions, and London pied-\u00e0-terres. Complete culinary capability within a tailored 160cm footprint.",
+    "keyFeatures": [
+      "Engineered 1600mm base with provisions for compact oven, hob, and sink",
+      "Bi-fold overhead lift cabinets providing clear line of sight",
+      "Moisture-proof composite worktop with factory-machined cutouts",
+      "Integrated waste sorting drawer and modular utility storage"
     ]
   },
-  'corner-pantry-storage': {
-    slug: 'corner-pantry-storage',
-    category: 'pantry-larder',
-    title: 'Corner Pantry & Swivel Shelf Systems',
-    metaTitle: 'Corner Pantry Cupboards | LeMans & Carousel Storage | Cabivella UK',
-    metaDescription: 'Eliminate dead kitchen corners with smooth-glide LeMans and carousel corner pantry mechanisms. High-capacity made-to-measure kitchen joinery.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Corner footprint: 900x900mm or 1050x1050mm blind corner configurations',
-    materials: ['Anti-slip melamine tray bases', 'Chrome or anthracite steel perimeter rails', 'Heavy-load swivel arms (up to 25kg per tray)'],
-    finishOptions: ['Anthracite & Smoked Oak', 'Silver Chrome & White Melamine', 'Champagne Bronze'],
-    installationScope: 'Precision factory-installed mechanical arms with micro-adjustment for smooth swing clearance.',
-    image: '/assets/img/models/corner-pantry-storage.webp',
-    gallery: ['/assets/img/models/corner-pantry-storage.webp', '/assets/img/models/pullout-larder-tower.webp'],
-    description: 'Kitchen corners often trap valuable storage space. Our bespoke corner pantries incorporate precision-balanced swivel shelves that swing completely outside the cupboard carcass, bringing heavy cast-iron cookware effortlessly within reach.',
-    keyFeatures: [
-      'Twin independent contour trays that glide fully clear of the cabinet opening',
-      'Anti-slip textured base panels prevent pots and jars from sliding during movement',
-      'Integrated soft-close dampening on both outward travel and return docking',
-      'Bespoke carcass sizing adapted to awkward chimney breasts or pipe boxing'
+  "wall-hung-vanities": {
+    "slug": "wall-hung-vanities",
+    "category": "bathrooms",
+    "title": "Floating Wall-Hung Vanities",
+    "metaTitle": "Wall-Hung Bathroom Vanities | Bespoke Floating Storage | Cabivella UK",
+    "metaDescription": "Bespoke floating bathroom vanity units crafted from marine-grade moisture-resistant timbers with concealed heavy-duty wall brackets.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "600mm to 1600mm widths (bespoke single or double basin)",
+    "materials": [
+      "Marine-grade moisture-resistant substrate",
+      "Waterproof polyurethane baked lacquer",
+      "Concealed heavy-load steel wall brackets"
+    ],
+    "finishOptions": [
+      "Nordic Pale Oak",
+      "Fluted Basalt Grey",
+      "Warm Alabaster",
+      "Deep Aegean Blue"
+    ],
+    "installationScope": "Supplied with certified heavy-duty steel hanging plates and 3D alignment adjustments.",
+    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "gallery": [
+      "/assets/img/models/wall-hung-vanities.webp",
+      "/assets/img/models/fluted-vanities.webp"
+    ],
+    "description": "Elevate bathroom acoustics and floor visibility. Floating vanity units engineered to withstand high-humidity British bathroom environments.",
+    "keyFeatures": [
+      "Tested for structural rigidity under 150kg downward point loads",
+      "U-shaped plumbing cutout preserving maximum usable drawer volume",
+      "Soft-close full extension drawer runners with dampening buffers",
+      "Optional integrated warm-white under-vanity ambient LED lighting"
     ]
   },
-  'chefs-double-larder': {
-    slug: 'chefs-double-larder',
-    category: 'pantry-larder',
-    title: "Chef's Double Pantry Armoire",
-    metaTitle: "Chef's Double Larder Armoire | Luxury Pantry Joinery | Cabivella UK",
-    metaDescription: "Double-door chef's larder armoire with fold-out door shelves, deep drawers, appliance station with quartz bench, and wine racking.",
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Width: 1200mm | Depth: 650mm | Height: 2200mm to 2400mm',
-    materials: ['Solid Ash face frames', 'Natural Oak veneer carcass', 'Solid stone worktop slab'],
-    finishOptions: ['Classic British Olive Green', 'Pumice Satin', 'Rich Navy & Brass'],
-    installationScope: 'Freestanding or integrated between tall refrigeration runs; anchored securely to structural back wall.',
-    image: '/assets/img/models/chefs-double-larder.webp',
-    gallery: ['/assets/img/models/chefs-double-larder.webp', '/assets/img/models/tall-larder-cupboards.webp'],
-    description: "Designed for avid cooks who value order and immediate ingredient access. Our Chef's Double Larder combines door-mounted condiment tiers with an internal stone preparation shelf and deep pan drawers.",
-    keyFeatures: [
-      'Twin full-height doors holding four tiers of solid timber spice and bottle shelves',
-      'Integrated cold quartz preparation ledge for food processors and dry decanting',
-      'Four deep dovetailed solid oak internal drawers with soft-close motion',
-      'Integrated internal 13A dual power socket for stand mixers and coffee grinders'
+  "fluted-vanities": {
+    "slug": "fluted-vanities",
+    "category": "bathrooms",
+    "title": "Acoustic Fluted Timber Vanities",
+    "metaTitle": "Fluted Bathroom Vanities | Reeded Timber Joinery | Cabivella UK",
+    "metaDescription": "Tactile fluted and reeded wood bathroom vanity units with solid surface or quartz countertop integrations.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "800mm, 1000mm, 1200mm and bespoke bespoke double configurations",
+    "materials": [
+      "Precision CNC-milled reeded oak veneer",
+      "Moisture-sealed internal carcasses",
+      "Solid brass knurled handles"
+    ],
+    "finishOptions": [
+      "Natural Fluted Oak",
+      "Smoked Black Walnut",
+      "Satin White Reeded",
+      "Soft Clay"
+    ],
+    "installationScope": "Factory assembled, pre-drilled for basin waste and tap positions.",
+    "image": "/assets/img/models/fluted-vanities.webp",
+    "gallery": [
+      "/assets/img/models/fluted-vanities.webp",
+      "/assets/img/models/wall-hung-vanities.webp"
+    ],
+    "description": "Architectural reeded surfaces that introduce depth, texture, and acoustic dampening to tiled luxury bathroom environments.",
+    "keyFeatures": [
+      "Precision 12mm fluted timber profile carved on multi-axis CNC routers",
+      "Multi-step hydro-repellent sealant shielding against steam and standing drops",
+      "Seamless push-to-open drawer mechanisms preserving pure fluted facades",
+      "Coordinated open towel niche and drawer storage configurations"
     ]
   },
-  'pullout-larder-tower': {
-    slug: 'pullout-larder-tower',
-    category: 'pantry-larder',
-    title: 'Pull-Out Vertical Larder Towers',
-    metaTitle: 'Pull-Out Larder Towers (30–45cm) | Slim Kitchen Pantries | Cabivella UK',
-    metaDescription: 'High-density vertical pull-out pantry towers from 300mm to 450mm widths. Dual-sided access with height-adjustable wire baskets.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 300mm, 400mm, 450mm | Depth: 600mm | Height: 2150mm',
-    materials: ['Reinforced bottom and top telescopic runners', 'Powder-coated steel baskets with solid bases', 'Heavy-gauge steel centre spine'],
-    finishOptions: ['Anthracite Wire & Timber', 'Brushed Steel & White', 'Matt Black'],
-    installationScope: 'Factory installed on synchronised top and bottom runners rated for 80kg total capacity.',
-    image: '/assets/img/models/pullout-larder-tower.webp',
-    gallery: ['/assets/img/models/pullout-larder-tower.webp', '/assets/img/models/corner-pantry-storage.webp'],
-    description: 'A slimline storage powerhouse that transforms narrow gaps adjacent to built-in ovens into dual-sided accessible pantries. Pulls forward smoothly in a single fluid gesture.',
-    keyFeatures: [
-      'Six height-adjustable storage baskets to accommodate tall cereal boxes and oil bottles',
-      'Dual-sided accessibility allowing quick selection without reaching behind items',
-      'Synchronised top-guide runner guarantees whisper-quiet glide without racking or tilt',
-      'Dampened soft-close action cushions the mechanism on closure even under full load'
+  "tall-bathroom-storage": {
+    "slug": "tall-bathroom-storage",
+    "category": "bathrooms",
+    "title": "Tall Bathroom Linen Columns",
+    "metaTitle": "Tall Bathroom Linen Cabinets | Slim Tower Storage | Cabivella UK",
+    "metaDescription": "Full-height slimline bathroom storage towers for towels, apothecary goods, and laundry baskets in UK residential bathrooms.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "350mm to 500mm wide, 1600mm to 2000mm high, 320mm depth",
+    "materials": [
+      "18mm moisture-sealed timber core",
+      "Toughened glass adjustable shelves",
+      "Concealed 110-degree soft-close hinges"
+    ],
+    "finishOptions": [
+      "Muted Sage",
+      "Chalk White",
+      "Warm Pumice",
+      "Dark Graphite"
+    ],
+    "installationScope": "Supplied rigid with heavy-duty wall anchor brackets for secure installation.",
+    "image": "/assets/img/models/tall-bathroom-storage.webp",
+    "gallery": [
+      "/assets/img/models/tall-bathroom-storage.webp",
+      "/assets/img/models/wall-hung-vanities.webp"
+    ],
+    "description": "Maximise vertical room geometry. Slim-footprint storage towers tailored for compact en-suites and grand master bathrooms alike.",
+    "keyFeatures": [
+      "Reversible door orientation (left or right swing) with soft-close cushioning",
+      "Lower pull-out ventilated timber laundry basket compartment",
+      "Toughened 8mm clear safety glass shelves with anti-tip locking pins",
+      "Internal 240V shaver socket and toothbrush charging conduit integration"
     ]
   },
-
-  // 4. COFFEE STATIONS
-  'pocket-door-coffee-stations': {
-    slug: 'pocket-door-coffee-stations',
-    category: 'coffee-stations',
-    title: 'Bi-Fold Pocket-Door Barista Stations',
-    metaTitle: 'Pocket-Door Coffee Stations | Concealed Breakfast Joinery | Cabivella UK',
-    metaDescription: 'Luxury concealed coffee stations with smooth bi-fold pocket doors that slide into cabinet side cavities. Stone countertops and internal power for espresso machines.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 1000mm, 1200mm, 1400mm | Depth: 650mm | Height: 2200mm',
-    materials: ['Precision mechanical pocket-door pivot systems', 'Quartz or solid granite preparation shelf', 'Veneered or lacquered internal cabinetry'],
-    finishOptions: ['Smoked Oak & Matt Anthracite', 'Bleached Ash & Cashmere', 'Blackened Oak with Brass Inlays'],
-    installationScope: 'Supplied with pre-calibrated pocket cavities and integrated cable management routing for high-wattage coffee equipment.',
-    image: '/assets/img/models/pocket-door-coffee-stations.webp',
-    gallery: ['/assets/img/models/pocket-door-coffee-stations.webp', '/assets/img/models/breakfast-armoire-coffee-stations.webp'],
-    description: 'The pinnacle of domestic morning luxury. When entertaining or brewing morning espresso, doors glide effortlessly into side recesses, remaining completely concealed. Once routines conclude, doors close flush to restore serene room proportions.',
-    keyFeatures: [
-      'Concealed pocket sliders allow full, unobstructed access to coffee grinders and portafilters',
-      'Waterproof quartz preparation surface resistant to coffee acid stains and hot kettle rings',
-      'Four integrated 13A UK plug sockets and cable ports concealed below worktop level',
-      'Upper storage for artisan syrups, glassware, and espresso cup warmers'
+  "malta-vanity-console": {
+    "slug": "malta-vanity-console",
+    "category": "bathrooms",
+    "title": "Malta 100 Illuminated Vanity Console",
+    "metaTitle": "Malta 100 Illuminated Vanity | Bathroom Furniture | Cabivella UK",
+    "metaDescription": "100cm floating vanity suite featuring integrated LED magnifying mirror, dual soft-close drawers, and matte polyurethane lacquer.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "1000mm width, 520mm height, 480mm depth",
+    "materials": [
+      "MR-MDF substrate",
+      "Hydrophobic matte lacquer",
+      "Blum motion soft-close glides"
+    ],
+    "finishOptions": [
+      "Matte White & Anthracite",
+      "Deep Slate & Oak",
+      "Pure Cashmere"
+    ],
+    "installationScope": "Heavy-duty wall anchors included.",
+    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "gallery": [
+      "/assets/img/models/wall-hung-vanities.webp",
+      "/assets/img/models/slim-mirror-storage-cabinets.webp"
+    ],
+    "description": "A refined 100cm floating bathroom console designed for sophisticated en-suites. Dual deep drawers provide ample storage for beauty apparatus and linens.",
+    "keyFeatures": [
+      "Precision 1000mm single-basin footprint optimised for modern master en-suites",
+      "Concealed handleless bevel lip for effortless drawer opening",
+      "Hydro-phobic multi-layer coating impenetrable to shower steam",
+      "Compatible with luxury undermount or vessel stone washbasins"
     ]
   },
-  'open-shelf-coffee-cabinets': {
-    slug: 'open-shelf-coffee-cabinets',
-    category: 'coffee-stations',
-    title: 'Open-Shelf Artisan Coffee Credenzas',
-    metaTitle: 'Open-Shelf Coffee Cabinets | Free-Standing Coffee Bars | Cabivella UK',
-    metaDescription: 'Free-standing coffee bars and open-shelf breakfast cupboards with mug racks, display shelving, and closed lower cupboards for supplies.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 800mm, 1000mm | Depth: 450mm | Height: 1850mm',
-    materials: ['Solid European Oak shelves', 'Moisture-resistant carcass', 'Brass cup hooks and rail fittings'],
-    finishOptions: ['Warm White Satin', 'Rustic Sage Oak', 'Charcoal & Natural Timber'],
-    installationScope: 'Pre-assembled base credenza with upper shelf rack module and safety anti-topple wall fixing kit.',
-    image: '/assets/img/models/open-shelf-coffee-cabinets.webp',
-    gallery: ['/assets/img/models/open-shelf-coffee-cabinets.webp', '/assets/img/models/illuminated-beverage-stations.webp'],
-    description: 'For coffee enthusiasts who take pride in displaying artisan drippers, bean canisters, and hand-thrown ceramics. Open slatted shelving pairs with closed lower cabinetry for bean storage and milk frothers.',
-    keyFeatures: [
-      'Two open display tiers with solid brass retaining rails and integrated hanging cup hooks',
-      'Ergonomic preparation worktop at comfortable 900mm pouring height',
-      'Twin lower cupboards with adjustable shelving for coffee bean bags and cleaning supplies',
-      'Durable wipe-clean surfaces engineered for daily coffee dripper cleaning'
+  "design-monolith-vanity": {
+    "slug": "design-monolith-vanity",
+    "category": "bathrooms",
+    "title": "Design 105 Monolith Double-Basin Vanity",
+    "metaTitle": "Design 105 Double Vanity | Luxury Bathrooms | Cabivella UK",
+    "metaDescription": "105cm to 160cm architectural double-basin vanity console with monolithic mitred drawer edges and solid ceramic top integration.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "1050mm to 1600mm bespoke spans",
+    "materials": [
+      "Engineered core timber",
+      "Composite stone deck",
+      "Soft-close hydraulic slides"
+    ],
+    "finishOptions": [
+      "Nordic Sand",
+      "Smoked Timber",
+      "Silk Taupe",
+      "Charcoal"
+    ],
+    "installationScope": "Pre-assembled dual-carcass delivery.",
+    "image": "/assets/img/models/double-basin-vanities.webp",
+    "gallery": [
+      "/assets/img/models/double-basin-vanities.webp",
+      "/assets/img/models/wall-hung-vanities.webp"
+    ],
+    "description": "Monolithic lines with mitred 45-degree edge detailing create a floating sculpture in expansive family and master bathrooms.",
+    "keyFeatures": [
+      "Continuous mitred outer carcass wrapping seamlessly around drawer faces",
+      "Dual independent soft-close drawers with integrated cosmetic dividers",
+      "Tested to withstand high dynamic loads with certified wall hanging fixings",
+      "Internal water-repellent walnut melamine lining"
     ]
   },
-  'breakfast-armoire-coffee-stations': {
-    slug: 'breakfast-armoire-coffee-stations',
-    category: 'coffee-stations',
-    title: 'Concealed Breakfast Armoires',
-    metaTitle: 'Concealed Breakfast Armoires | Integrated Coffee Cupboards | Cabivella UK',
-    metaDescription: 'Full-height breakfast armoires concealing toasters, kettles, and coffee machinery behind classic panelled doors. Fitted with internal stone ledges.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 900mm, 1100mm | Depth: 600mm | Height: 2150mm to 2350mm',
-    materials: ['Solid hardwood face frames', 'Heat-shielded appliance compartment', 'Integrated ventilation louvres'],
-    finishOptions: ['Deep Forest Green', 'Chalk Bone White', 'Oiled Oak Interior'],
-    installationScope: 'Delivered pre-assembled; electrical connections prepared through designated service panel.',
-    image: '/assets/img/models/breakfast-armoire-coffee-stations.webp',
-    gallery: ['/assets/img/models/breakfast-armoire-coffee-stations.webp', '/assets/img/models/pocket-door-coffee-stations.webp'],
-    description: 'Keep kitchen counters pristine by locating morning clutter—toasters, blenders, kettles, and pod machines—within a dedicated breakfast armoire with integrated heat dissipation.',
-    keyFeatures: [
-      'Heat-deflecting upper ceiling lining and rear ventilation relief for safe toaster operation',
-      'Integrated quartz or marble ledge prevents moisture damage from steaming kettles',
-      'Door-mounted shallow tiers for honey jars, artisan tea tins, and mugs',
-      'Lower pull-out crumb drawer and dedicated bin compartment'
+  "aydos-compact-vanity": {
+    "slug": "aydos-compact-vanity",
+    "category": "bathrooms",
+    "title": "Aydos 55 Compact Cloakroom Vanity",
+    "metaTitle": "Aydos 55 Cloakroom Vanity | Small Bathroom Furniture | Cabivella UK",
+    "metaDescription": "55cm slim-projection cloakroom vanity unit designed for UK under-stair WCs and compact powder rooms.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "550mm width, 400mm height, 380mm slim depth",
+    "materials": [
+      "Moisture-resistant compact composite",
+      "Stainless steel hardware",
+      "Soft-close hinge"
+    ],
+    "finishOptions": [
+      "Gloss Chalk White",
+      "Matte Pebble",
+      "Sage Dust"
+    ],
+    "installationScope": "Compact delivery for tight staircase and hallway access.",
+    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "gallery": [
+      "/assets/img/models/wall-hung-vanities.webp",
+      "/assets/img/models/fluted-vanities.webp"
+    ],
+    "description": "Engineered specifically for British cloakrooms and downstairs WCs. Slim 380mm depth ensures unobstructed passage while concealing toiletries.",
+    "keyFeatures": [
+      "Ultra-slim 380mm projection maximising door clearance in tight cloakrooms",
+      "Single soft-close deep drawer with cutaway plumbing channel",
+      "Integrated side towel rail bracket option in brushed nickel or brass",
+      "Factory-tested waterproof edge-sealing technology"
     ]
   },
-  'illuminated-beverage-stations': {
-    slug: 'illuminated-beverage-stations',
-    category: 'coffee-stations',
-    title: 'Illuminated Quartz Beverage Stations',
-    metaTitle: 'Illuminated Beverage Stations | Luxury Bar Joinery | Cabivella UK',
-    metaDescription: 'Architectural beverage stations with integrated LED linear backlights, fluted timber splashbacks, and under-counter wine cooler surrounds.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Widths: 1200mm, 1500mm, 1800mm | Depth: 600mm | Height: 2200mm',
-    materials: ['Acoustic fluted timber panelling', 'Engineered quartz countertop and upstand', 'Dimmable 2700K warm LED channels'],
-    finishOptions: ['Fluted Dark Walnut', 'Smoked Bronze Glass', 'Velvet Matt Charcoal'],
-    installationScope: 'Bespoke joinery installation with concealed electrical drivers and wine cooler ventilation grilles.',
-    image: '/assets/img/models/illuminated-beverage-stations.webp',
-    gallery: ['/assets/img/models/illuminated-beverage-stations.webp', '/assets/img/models/open-shelf-coffee-cabinets.webp'],
-    description: 'Transition effortlessly from morning flat whites to evening aperitifs. This multi-purpose station features warm back-lit glassware display shelves above integrated wine refrigeration.',
-    keyFeatures: [
-      'Continuous warm 2700K LED linear illumination routed flush behind vertical flutes',
-      'Dedicated alcove for dual-zone under-counter wine and beverage coolers',
-      'Solid quartz stone worktop and high-rise matching upstand',
-      'Stemware racks in brushed brass or blackened steel for wine and champagne glasses'
+  "root-groove-vanity": {
+    "slug": "root-groove-vanity",
+    "category": "bathrooms",
+    "title": "Root Groove Reeded Vanity Unit",
+    "metaTitle": "Root Groove Reeded Vanity | Fluted Bathroom Units | Cabivella UK",
+    "metaDescription": "80cm to 120cm reeded timber vanity unit featuring vertical acoustic rhythm, rich wood grain, and soft-close storage.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "800mm, 1000mm, 1200mm configurations",
+    "materials": [
+      "CNC routed grooved timber",
+      "Sealed MR substrate",
+      "Concealed heavy-load brackets"
+    ],
+    "finishOptions": [
+      "Natural Fluted Oak",
+      "Smoked Walnut",
+      "Matte Clay",
+      "Basalt"
+    ],
+    "installationScope": "Factory assembled, pre-cut for standard UK plumbing traps.",
+    "image": "/assets/img/models/fluted-vanities.webp",
+    "gallery": [
+      "/assets/img/models/fluted-vanities.webp",
+      "/assets/img/models/wall-hung-vanities.webp"
+    ],
+    "description": "Rhythmic vertical grooves carved into organic timber veneers soften ceramic and porcelain bathroom walls with tactile architectural warmth.",
+    "keyFeatures": [
+      "Distinctive vertical grooved facade milled with 8mm spacing",
+      "Concealed finger-pull bevel across the top drawer rim",
+      "Marine-grade hydrophobic protective finish",
+      "Generous bottom drawer designed for tall shampoo and lotion bottles"
     ]
   },
-
-  // 5. FITTED STORAGE
-  'alcove-cupboards': {
-    slug: 'alcove-cupboards',
-    category: 'fitted-storage',
-    title: 'Victorian Alcove Cabinets & Shelving',
-    metaTitle: 'Victorian Alcove Cabinets & Bookshelves | Chimney Breast Joinery | Cabivella UK',
-    metaDescription: 'Bespoke alcove cupboards and floating shelving built to fit uneven Victorian and Edwardian chimney breast recesses. Classical mouldings and cable routing.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Individually scribed to site alcove widths (typical 800mm to 1400mm per recess)',
-    materials: ['High-density moisture-resistant MDF', 'Solid timber face framing and cornice', 'Concealed push-latch or brass handles'],
-    finishOptions: ['Heritage Neutral Matt', 'Oxford Navy', 'Studio Green', 'Primed for on-site painting'],
-    installationScope: 'Supplied with generous scribing fillets and adjustable shelf brackets for uneven period plaster walls.',
-    image: '/assets/img/models/alcove-cupboards.webp',
-    gallery: ['/assets/img/models/alcove-cupboards.webp', '/assets/img/models/boot-room-cabinetry.webp'],
-    description: 'Turn awkward period chimney recesses into calming architectural features. Our alcove units combine deep lower storage cupboards with thick floating display shelves, concealing media wiring effortlessly.',
-    keyFeatures: [
-      'Lower cupboards designed to conceal routers, gaming consoles, and television equipment',
-      'Heavy-duty 36mm thick floating shelves with concealed internal steel rod brackets',
-      'Generous scribing fillets allow neat scribing against uneven Victorian plasterwork',
-      'Integrated cable pass-throughs between upper shelving and lower equipment cupboards'
+  "beat-ribbed-vanity": {
+    "slug": "beat-ribbed-vanity",
+    "category": "bathrooms",
+    "title": "Beat Ribbed Architectural Vanity",
+    "metaTitle": "Beat Ribbed Vanity | Bespoke Fluted Joinery | Cabivella UK",
+    "metaDescription": "Geometric ribbed vanity unit featuring bold dimensional fluting and premium lacquered or wood veneer finishes.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "800mm to 1400mm bespoke spans",
+    "materials": [
+      "Multi-density timber composite",
+      "Hydraulic damping slides",
+      "Quartz top compatible"
+    ],
+    "finishOptions": [
+      "Warm Putty",
+      "Graphite Silk",
+      "Oiled Oak",
+      "Earthy Terracotta"
+    ],
+    "installationScope": "Supplied rigid with timber wall-mounting cleat.",
+    "image": "/assets/img/models/fluted-vanities.webp",
+    "gallery": [
+      "/assets/img/models/fluted-vanities.webp",
+      "/assets/img/models/double-basin-vanities.webp"
+    ],
+    "description": "Daring geometric ribs create dramatic play of light and shadow, delivering a boutique hotel aesthetic into private British residences.",
+    "keyFeatures": [
+      "Deep-cut 15mm ribs offering tactile and visual drama",
+      "Durable moisture-cured polyurethane finish",
+      "Full extension synchronous drawer mechanisms with 35kg load rating",
+      "Fully sealed sink trap cutouts with protective PVC edging"
     ]
   },
-  'utility-room-cabinets': {
-    slug: 'utility-room-cabinets',
-    category: 'fitted-storage',
-    title: 'Utility Room & Laundry Stacking Towers',
-    metaTitle: 'Utility Room Cabinets & Laundry Stacking Units | Boot Room Storage | Cabivella UK',
-    metaDescription: 'Durable utility room storage units with integrated washing machine/dryer stacking frames, pull-out laundry baskets, and broom cupboards for UK homes.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Modular 650mm depth units, custom run lengths from 1500mm to 3600mm',
-    materials: ['100% moisture-resistant core boards', 'High-impact 1.5mm ABS protective edging', 'Heavy-vibration anti-vibration rubber isolation pads'],
-    finishOptions: ['Porcelain White', 'Earthy Sage Green', 'Dove Grey Satin', 'Natural Birch Interior'],
-    installationScope: 'Heavy-duty modular carcass installation with vibration-damping levelling plinths.',
-    image: '/assets/img/models/utility-room-cabinets.webp',
-    gallery: ['/assets/img/models/utility-room-cabinets.webp', '/assets/img/models/dressing-room-wardrobes.webp'],
-    description: 'Bespoke joinery engineered to tame laundry clutter and household utility. Conceals stacked washing machines, vacuums, ironing boards, and pet care within robust, moisture-resistant cabinetry.',
-    keyFeatures: [
-      'Ergonomic raised appliance plinths with pull-out laundry basket loading shelves below',
-      'Tall broom and ironing board cupboard with integrated Dyson vacuum dock power outlet',
-      'Deep Belfast sink base cupboard with waterproof plastic-lined drip tray base',
-      'Impact-resistant 1.5mm ABS edge-banding prevents chipping from laundry baskets'
+  "daisy-reeded-console": {
+    "slug": "daisy-reeded-console",
+    "category": "bathrooms",
+    "title": "Daisy Fluted Timber Console",
+    "metaTitle": "Daisy Fluted Timber Console | Reeded Bathroom Storage | Cabivella UK",
+    "metaDescription": "Softly rounded reeded bathroom vanity with curved corner radius and tactile wood textures.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "900mm to 1200mm single vanity widths",
+    "materials": [
+      "Curved timber moulding",
+      "MR interior carcass",
+      "Concealed runners"
+    ],
+    "finishOptions": [
+      "Bleached Natural Oak",
+      "Warm Honey Walnut",
+      "Satin Ivory"
+    ],
+    "installationScope": "Supplied with bespoke wall anchors and silicone sealing profiles.",
+    "image": "/assets/img/models/fluted-vanities.webp",
+    "gallery": [
+      "/assets/img/models/fluted-vanities.webp",
+      "/assets/img/models/wall-hung-vanities.webp"
+    ],
+    "description": "Curved radius corners and fine vertical reeding combine to soften rectangular bathroom spaces, providing ergonomic safety and visual elegance.",
+    "keyFeatures": [
+      "Gentle 50mm radius curved corner transitions preventing sharp hip knocks",
+      "Continuous cylindrical reeding seamlessly wrapping around curved sides",
+      "Premium soft-close internal drawers with removable anti-slip mats",
+      "Integrated cutouts for tapware and countertop washbowls"
     ]
   },
-  'boot-room-cabinetry': {
-    slug: 'boot-room-cabinetry',
-    category: 'fitted-storage',
-    title: 'Boot Room & Mudroom Bench Joinery',
-    metaTitle: 'Boot Room Joinery & Hallway Mudroom Benches | Country Storage | Cabivella UK',
-    metaDescription: 'Country-style boot room joinery with integrated solid oak bench seating, tongue-and-groove back panelling, shoe pigeonholes, and coat hooks.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Tailored widths from 1400mm to 3000mm | Depth: 500mm | Height: 2200mm',
-    materials: ['Solid European Oak bench top', 'Moisture-resistant tongue-and-groove panelling', 'Cast iron or antique brass double coat hooks'],
-    finishOptions: ['Deep English Olive', 'Flint Grey', 'Vintage Parchment', 'Natural Oiled Oak'],
-    installationScope: 'Delivered in pre-fitted modular assemblies with scribing fillets for hallway cornices.',
-    image: '/assets/img/models/boot-room-cabinetry.webp',
-    gallery: ['/assets/img/models/boot-room-cabinetry.webp', '/assets/img/models/alcove-cupboards.webp'],
-    description: 'An indispensable transition space between the British outdoors and home interior. Features a welcoming solid oak bench, under-seat shoe pigeonholes, and sturdy cast iron coat hooks.',
-    keyFeatures: [
-      'Solid 40mm thick character oak bench seat with rounded bullnose comfort edge',
-      'Open shoe and welly boot pigeonholes or smooth pull-out lower shoe drawers',
-      'Classic tongue-and-groove timber back panelling protecting walls from wet jackets',
-      'Upper overhead storage cupboards for winter scarves, hats, and sporting kit'
+  "root-groove-tall-unit": {
+    "slug": "root-groove-tall-unit",
+    "category": "bathrooms",
+    "title": "Root Tall Fluted Storage Column",
+    "metaTitle": "Root Tall Fluted Linen Column | Bathroom Tower | Cabivella UK",
+    "metaDescription": "Full-height vertical bathroom storage column with coordinating fluted door panels and adjustable interior glass shelving.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "400mm width, 1750mm height, 350mm depth",
+    "materials": [
+      "Grooved timber front",
+      "Moisture-sealed carcass",
+      "Concealed clip hinges"
+    ],
+    "finishOptions": [
+      "Natural Fluted Oak",
+      "Smoked Walnut",
+      "Matte Basalt",
+      "Parchment"
+    ],
+    "installationScope": "Includes heavy-duty anti-tip wall brackets.",
+    "image": "/assets/img/models/tall-bathroom-storage.webp",
+    "gallery": [
+      "/assets/img/models/tall-bathroom-storage.webp",
+      "/assets/img/models/fluted-vanities.webp"
+    ],
+    "description": "The perfect vertical accompaniment to fluted vanities. Conceals spare towels, skincare collections, and household essentials in an elegant tall silhouette.",
+    "keyFeatures": [
+      "Full-height 1750mm storage column with 5 internal compartments",
+      "Reversible soft-closing door with 110-degree opening angle",
+      "Matching fluted facade ensuring complete room collection continuity",
+      "Adjustable 8mm safety glass shelves with edge-polished bevels"
     ]
   },
-  'dressing-room-wardrobes': {
-    slug: 'dressing-room-wardrobes',
-    category: 'fitted-storage',
-    title: 'Dressing Room & Wardrobe Suites',
-    metaTitle: 'Bespoke Dressing Rooms & Fitted Wardrobes | Walk-In Closets | Cabivella UK',
-    metaDescription: 'Full-height bespoke fitted wardrobes and walk-in dressing room suites with illuminated hanging rails, glass-fronted drawers, and shoe galleries.',
-    leadTime: 'Typically 6–8 weeks (production & UK transit)',
-    dimensionsMm: 'Tailored floor-to-ceiling elevations scribed to ceiling coving and skirting',
-    materials: ['Lacquered MDF or natural oak veneer', 'Concealed LED hanging rails with diffuser lenses', 'Dovetailed solid timber internal drawers'],
-    finishOptions: ['Smoked Walnut Veneer', 'Cashmere Matt Lacquer', 'Alabaster Silk with Brass Hardware'],
-    installationScope: 'Complete architectural wardrobe installation scribed flush to room plaster and coving.',
-    image: '/assets/img/models/dressing-room-wardrobes.webp',
-    gallery: ['/assets/img/models/dressing-room-wardrobes.webp', '/assets/img/models/utility-room-cabinets.webp'],
-    description: 'Transform bedroom corners or dedicated dressing rooms into serene personal boutiques. Our fitted wardrobes combine double-hanging spaces with velvet-lined jewellery drawers and integrated warm LED lighting.',
-    keyFeatures: [
-      'Floor-to-ceiling panelled or flush doors with soft-close motion and magnetic catches',
-      'Internal dual-height hanging rails with concealed warm 2700K wardrobe illumination',
-      'Custom accessory drawers with solid timber dividers for watches, ties, and jewellery',
-      'Dedicated angled shoe display shelves with polished brass heel stops'
+  "integra-square-tower": {
+    "slug": "integra-square-tower",
+    "category": "bathrooms",
+    "title": "Integra Square Modular Bathroom Tower",
+    "metaTitle": "Integra Square Bathroom Tower | Modular Linen Storage | Cabivella UK",
+    "metaDescription": "Clean-lined square modular bathroom tower with open display niche and dual concealed soft-close cabinets.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "450mm width, 1650mm height, 380mm depth",
+    "materials": [
+      "18mm moisture-resistant timber",
+      "Stainless steel internal hinges",
+      "Tempered glass"
+    ],
+    "finishOptions": [
+      "Satin White",
+      "Nordic Ash",
+      "Charcoal Slate",
+      "Taupe"
+    ],
+    "installationScope": "Factory pre-assembled with multi-point wall securing fittings.",
+    "image": "/assets/img/models/tall-bathroom-storage.webp",
+    "gallery": [
+      "/assets/img/models/tall-bathroom-storage.webp",
+      "/assets/img/models/wall-hung-vanities.webp"
+    ],
+    "description": "Equipped with an open central timber niche for perfume and rolled guest towels, flanked by closed cupboards top and bottom.",
+    "keyFeatures": [
+      "Open central display niche illuminated with warm micro-spot LED",
+      "Dual push-to-open flush doors for discreet storage",
+      "Lower laundry drop chute or basket integration option",
+      "Sealed against 100% relative humidity conditions"
     ]
   },
-
-  // 6. KITCHEN DOORS
-  'shaker-replacement-doors': {
-    slug: 'shaker-replacement-doors',
-    category: 'kitchen-doors',
-    title: 'Classic Shaker Replacement Doors',
-    metaTitle: 'Shaker Replacement Kitchen Doors | Made-to-Measure Fronts | Cabivella UK',
-    metaDescription: 'Refresh existing kitchen carcasses with premium bespoke Shaker replacement doors. 20mm solid timber frames with custom hinge-hole boring to fit your units.',
-    leadTime: 'Typically 4–6 weeks (production & UK transit)',
-    dimensionsMm: 'Custom cut to any millimeter dimension; standard 600, 500, 400, 300 widths available',
-    materials: ['20mm solid European Ash timber frame', 'High-density moisture-resistant centre panel', 'Four-coat polyurethane lacquer'],
-    finishOptions: ['Heritage Sage', 'Chalk White', 'Oxford Navy', 'Parchment', 'Custom Colour Match'],
-    installationScope: 'Precision pre-drilled hinge holes matching your existing carcass hinge positions (IKEA, Howdens, Magnet, or bespoke).',
-    image: '/assets/img/models/shaker-replacement-doors.webp',
-    gallery: ['/assets/img/models/shaker-replacement-doors.webp', '/assets/img/models/slimline-micro-shaker-fronts.webp'],
-    description: 'Transform tired kitchen cabinetry without the mess and expense of ripping out structurally sound carcasses. Our replacement Shaker doors are machined to your exact millimetre measurements with hinge holes bored to match your existing hinge centres.',
-    keyFeatures: [
-      'Exact millimetre replacement sizing to fit any UK carcass brand without alterations',
-      'Hinge cup hole boring custom-aligned to your existing cabinet hinge positions',
-      'Durable oven-cured polyurethane finish that resists chipping, steam, and everyday stains',
-      'Matching plinths, pelmets, corner posts, and end panels supplied for a complete transformation'
+  "tall-larder-cupboards": {
+    "slug": "tall-larder-cupboards",
+    "category": "pantry-larder",
+    "title": "Tall Larder & Pantry Cupboards",
+    "metaTitle": "Tall Larder & Pantry Cupboards | Made-to-Measure Kitchen Storage | Cabivella UK",
+    "metaDescription": "Double-door and single-door pantry cupboards with solid oak door-mounted spice racks, internal drawers, and cold marble shelf options.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Widths from 600mm single to 1200mm double armoire; heights up to 2400mm",
+    "materials": [
+      "Solid oak internal drawers & door racks",
+      "Moisture-resistant carcass timber",
+      "170-degree wide-angle soft-close hinges"
+    ],
+    "finishOptions": [
+      "Heritage Sage Green",
+      "Oxford Navy",
+      "Parchment Cream",
+      "Smoked Oak exterior"
+    ],
+    "installationScope": "Delivered rigid with adjustable heavy-load levelling feet and top cornice mouldings.",
+    "image": "/assets/img/models/tall-larder-cupboards.webp",
+    "gallery": [
+      "/assets/img/models/tall-larder-cupboards.webp",
+      "/assets/img/models/corner-pantry-storage.webp"
+    ],
+    "description": "The quintessential culinary larder. Deep dovetail drawers glide forward effortlessly, while door-mounted solid oak racks display spices at eye level.",
+    "keyFeatures": [
+      "Solid timber door-mounted spice and jar racks with brass retaining rails",
+      "Full-depth lower pantry pull-out drawers with 50kg dynamic load ratings",
+      "Optional 30mm cold Italian Carrara marble pastry shelf insert",
+      "Concealed automated magnetic door-switch micro-LED internal illumination"
     ]
   },
-  'handleless-cabinet-fronts': {
-    slug: 'handleless-cabinet-fronts',
-    category: 'kitchen-doors',
-    title: 'Handleless J-Pull Replacement Fronts',
-    metaTitle: 'Handleless Replacement Kitchen Doors | J-Pull Fronts | Cabivella UK',
-    metaDescription: 'Sleek integrated J-pull replacement kitchen cabinet doors. Super-matt and gloss lacquer finishes cut to bespoke sizes for modern kitchen refurbishments.',
-    leadTime: 'Typically 4–6 weeks (production & UK transit)',
-    dimensionsMm: 'Made to measure with precision 22mm integrated J-profile finger grip',
-    materials: ['22mm thick moisture-resistant core', 'Continuous routed J-profile handle groove', 'Velvety smooth polyurethane spray lacquer'],
-    finishOptions: ['Super-Matt Anthracite', 'Pure Silk White', 'Cashmere Grey', 'Forest Green'],
-    installationScope: 'Pre-bored for quick screw-fit installation on standard 35mm concealed hinges.',
-    image: '/assets/img/models/handleless-cabinet-fronts.webp',
-    gallery: ['/assets/img/models/handleless-cabinet-fronts.webp', '/assets/img/models/fluted-reeded-fronts.webp'],
-    description: 'Achieve a clean, contemporary architectural look with integrated J-pull replacement fronts. The handle is precision-routed directly into the top edge of the 22mm door, eliminating the need for attached handles.',
-    keyFeatures: [
-      'Ergonomic 22mm deep finger grip profile machined directly into the door head',
-      'Ultra-matt anti-fingerprint surface technology reduces visible smudges and marks',
-      'Compatible with standard UK 18mm and 15mm carcass thicknesses',
-      'Supplied with pre-drilled hinge cups for rapid, tool-friendly replacement installation'
+  "corner-pantry-storage": {
+    "slug": "corner-pantry-storage",
+    "category": "pantry-larder",
+    "title": "Corner Pantry Optimiser Cupboards",
+    "metaTitle": "Corner Pantry & Blind Corner Units | Smart Kitchen Storage | Cabivella UK",
+    "metaDescription": "Intelligent articulated corner pantry cupboards with twin articulated swing-out shelves and full-extension blind corner mechanisms.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "900x900mm L-shaped corner or 1000\u20131200mm blind corner configurations",
+    "materials": [
+      "Articulated steel swing-out trays with non-slip bases",
+      "Heavy-gauge pivot arms",
+      "18mm structural carcass"
+    ],
+    "finishOptions": [
+      "Anthracite & Chrome baskets",
+      "Champagne & Timber trays",
+      "Classic Silver Wire"
+    ],
+    "installationScope": "Mechanism factory pre-installed and calibrated within carcass prior to delivery.",
+    "image": "/assets/img/models/corner-pantry-storage.webp",
+    "gallery": [
+      "/assets/img/models/corner-pantry-storage.webp",
+      "/assets/img/models/tall-larder-cupboards.webp"
+    ],
+    "description": "Eliminate dark, inaccessible corner voids. Smooth articulated trays glide completely clear of the cabinet opening, bringing deep cookware forward.",
+    "keyFeatures": [
+      "German-engineered twin articulated trays carrying up to 25kg per tier",
+      "Non-slip textured surface preventing jars and tins from sliding during movement",
+      "Soft-close controlled self-retracting damping action",
+      "Full height corner tall units or under-counter corner base implementations"
     ]
   },
-  'slimline-micro-shaker-fronts': {
-    slug: 'slimline-micro-shaker-fronts',
-    category: 'kitchen-doors',
-    title: 'Slimline Micro-Shaker Fronts',
-    metaTitle: 'Slimline Micro-Shaker Replacement Doors | Slim Rails | Cabivella UK',
-    metaDescription: 'Modern micro-Shaker replacement doors with 15mm–20mm slim rails. Delicate transitional aesthetic designed to upgrade existing kitchen units.',
-    leadTime: 'Typically 4–6 weeks (production & UK transit)',
-    dimensionsMm: 'Bespoke millimeter dimensions with 18mm rail widths',
-    materials: ['Solid Ash outer perimeter', 'Ultra-flat MR-MDF core', 'Multi-coat oven lacquer'],
-    finishOptions: ['Bone White Satin', 'Fumed Oak', 'Sage Heritage', 'Charcoal Grey'],
-    installationScope: 'Custom hinge boring provided to customer specification chart.',
-    image: '/assets/img/models/slimline-micro-shaker-fronts.webp',
-    gallery: ['/assets/img/models/slimline-micro-shaker-fronts.webp', '/assets/img/models/shaker-replacement-doors.webp'],
-    description: 'The emerging favourite in British interior design. Narrow 18mm stiles offer an understated, tailored framing effect that brings classical warmth to contemporary modular carcasses.',
-    keyFeatures: [
-      'Ultra-narrow 18mm face rail creating crisp, contemporary shadow gaps',
-      'Solid hardwood perimeter framing delivers robust edge impact resistance',
-      'Factory-bored hinge recesses matching 35mm standard cups',
-      'Matching cover panels and filler trims supplied in identical lacquer batch'
+  "tandem-tall-larder": {
+    "slug": "tandem-tall-larder",
+    "category": "pantry-larder",
+    "title": "Tandem Dual-Access Larder Tower",
+    "metaTitle": "Tandem Dual-Access Larder Tower | Kitchen Pantry | Cabivella UK",
+    "metaDescription": "Intelligent tandem larder tower where opening the door automatically pulls rear shelves forward for panoramic visibility.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "600mm width, 1950mm\u20132300mm height, 580mm depth",
+    "materials": [
+      "Solid oak tray fronts",
+      "Heavy steel carriage frame",
+      "Damped slide runners"
+    ],
+    "finishOptions": [
+      "Natural Oiled Oak",
+      "Dark Walnut Interior",
+      "Platinum Silver Trays"
+    ],
+    "installationScope": "Factory calibrated carriage frame for effortless motion.",
+    "image": "/assets/img/models/tall-larder-cupboards.webp",
+    "gallery": [
+      "/assets/img/models/tall-larder-cupboards.webp",
+      "/assets/img/models/pullout-larder-tower.webp"
+    ],
+    "description": "Ingenious tandem kinematics. Opening the door smoothly brings back shelves towards you while door shelves swing wide for comprehensive access.",
+    "keyFeatures": [
+      "Synchronous split-shelf mechanism delivering rear items into immediate reach",
+      "Door-mounted shelves holding daily essentials and condiments",
+      "Heavy-duty powder-coated steel chassis tested to 100kg total capacity",
+      "Full soft-close damping on both opening and closing cycles"
     ]
   },
-  'fluted-reeded-fronts': {
-    slug: 'fluted-reeded-fronts',
-    category: 'kitchen-doors',
-    title: 'Vertical Fluted & Reeded Front Panels',
-    metaTitle: 'Fluted Replacement Kitchen Doors | Reeded Front Panels | Cabivella UK',
-    metaDescription: 'Architectural fluted and reeded replacement cabinet doors with rhythmic vertical grooves. Adds luxury texture to kitchen islands and base units.',
-    leadTime: 'Typically 5–7 weeks (production & UK transit)',
-    dimensionsMm: 'Bespoke door and drawer front dimensions with continuous fluting alignment',
-    materials: ['CNC-milled moisture-resistant panel', 'Solid wood or polyurethane spray lacquer', 'Heavy-duty hinge mounting backing'],
-    finishOptions: ['Natural American Walnut', 'Bleached Oak', 'Matt Black', 'Deep Navy'],
-    installationScope: 'Precision-bored for standard soft-close hinges or push-to-open touch latches.',
-    image: '/assets/img/models/fluted-reeded-fronts.webp',
-    gallery: ['/assets/img/models/fluted-reeded-fronts.webp', '/assets/img/models/handleless-cabinet-fronts.webp'],
-    description: 'Add striking architectural texture to existing island runs or feature pantry units. Precision CNC-milled vertical flutes catch ambient room light, transforming ordinary modular units into focal furniture.',
-    keyFeatures: [
-      'Continuous vertical reed grooves aligned across adjoining door and drawer banks',
-      'Pairs beautifully with push-to-open latches for a clean, uninterrupted tactile facade',
-      'Polyurethane protective coating seals every groove against moisture and cooking vapours',
-      'Ideal for kitchen island back wraps, breakfast bar seating, or feature statement cupboards'
+  "chefs-double-armoire": {
+    "slug": "chefs-double-armoire",
+    "category": "pantry-larder",
+    "title": "Chef's Double-Door Culinary Armoire",
+    "metaTitle": "Chef's Double Larder Armoire | Luxury Pantries | Cabivella UK",
+    "metaDescription": "Grand 120cm double-door freestanding or integrated pantry armoire with solid timber internal fittings, bread drawers, and marble slab.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "1200mm width, 2200mm height, 650mm depth",
+    "materials": [
+      "Solid European ash stiles",
+      "Dovetailed oak interior drawers",
+      "Carrara marble shelf"
+    ],
+    "finishOptions": [
+      "Heritage Sage",
+      "Deep Oxford Navy",
+      "Chalk White",
+      "Satin Pumice"
+    ],
+    "installationScope": "Delivered in two modular sections for simple residential access.",
+    "image": "/assets/img/models/chefs-double-larder.webp",
+    "gallery": [
+      "/assets/img/models/chefs-double-larder.webp",
+      "/assets/img/models/tall-larder-cupboards.webp"
+    ],
+    "description": "The crown jewel of traditional culinary storage. Double doors open 170 degrees to reveal solid oak drawers, bottle racks, and a cold stone work surface.",
+    "keyFeatures": [
+      "Wide 1200mm double-door format providing full panoramic workspace access",
+      "Internal 30mm cold stone pastry shelf for prep and dough handling",
+      "Four dovetailed solid oak internal drawers with engraved custom labels",
+      "Concealed LED strip illumination triggered automatically by door sensors"
+    ]
+  },
+  "lemans-corner-swivel": {
+    "slug": "lemans-corner-swivel",
+    "category": "pantry-larder",
+    "title": "LeMans Articulated Corner Optimiser",
+    "metaTitle": "LeMans Corner Optimiser | Articulated Blind Corner | Cabivella UK",
+    "metaDescription": "Ergonomic curved swivel shelves that glide smoothly out of 90cm to 120cm blind corner cabinets with zero effort.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "900mm, 1000mm, 1200mm blind corner carcass sizes",
+    "materials": [
+      "Articulated steel armatures",
+      "Solid timber bordered shelves",
+      "Soft-close guides"
+    ],
+    "finishOptions": [
+      "Anthracite & Oak",
+      "Bright Chrome & White",
+      "Champagne"
+    ],
+    "installationScope": "Factory mounted and balanced.",
+    "image": "/assets/img/models/corner-pantry-storage.webp",
+    "gallery": [
+      "/assets/img/models/corner-pantry-storage.webp",
+      "/assets/img/models/tall-larder-cupboards.webp"
+    ],
+    "description": "Gracefully curved trays swing completely out into the kitchen room space, bringing pots, pans, and heavy kitchen appliances within effortless reach.",
+    "keyFeatures": [
+      "Independently moving curved trays with 25kg individual capacity",
+      "Trays extend 100% outside the cabinet carcass for top-down visibility",
+      "Height-adjustable shelf positioning adapting to stockpots and tall mixers",
+      "Controlled soft-close retraction preventing items from tipping"
+    ]
+  },
+  "carousel-blind-corner": {
+    "slug": "carousel-blind-corner",
+    "category": "pantry-larder",
+    "title": "Full-Extension Carousel Blind Corner",
+    "metaTitle": "Carousel Blind Corner Pantry | Smart Corner Units | Cabivella UK",
+    "metaDescription": "360-degree rotating corner carousel storage unit with sturdy metal railings and non-slip surfaces.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "900x900mm L-corner or 1050mm blind base unit",
+    "materials": [
+      "Heavy-gauge central steel pole",
+      "Rigid composite trays",
+      "Aluminium railing"
+    ],
+    "finishOptions": [
+      "Chrome Rail with White Base",
+      "Anthracite Wire with Grey Base"
+    ],
+    "installationScope": "Supplied fully installed inside rigid corner carcass.",
+    "image": "/assets/img/models/corner-pantry-storage.webp",
+    "gallery": [
+      "/assets/img/models/corner-pantry-storage.webp",
+      "/assets/img/models/chefs-double-larder.webp"
+    ],
+    "description": "Smooth 360-degree rotary action ensures every centimetre of corner volume is accessible in tight L-shaped kitchen designs.",
+    "keyFeatures": [
+      "Smooth 360-degree rotary central bearing mechanism",
+      "Raised 50mm perimeter rails keeping tins and spice jars securely on trays",
+      "Height-adjustable trays adapting to seasonal baking supplies",
+      "Durable easy-clean surface resistant to oil and liquid stains"
+    ]
+  },
+  "pullout-larder-tower": {
+    "slug": "pullout-larder-tower",
+    "category": "pantry-larder",
+    "title": "Pull-Out Spice & Bottle Larder Tower",
+    "metaTitle": "Pull-Out Spice Larder Tower | Slim Tall Storage | Cabivella UK",
+    "metaDescription": "Slim 300mm to 400mm pull-out larder tower with central steel spine and dual-sided access to oils, vinegar, and dry goods.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "300mm\u2013400mm width, 1800mm\u20132200mm height, 580mm depth",
+    "materials": [
+      "Heavy-duty central runner frame",
+      "Timber or wire basket trays",
+      "Top stabiliser guide"
+    ],
+    "finishOptions": [
+      "Dark Anthracite",
+      "Polished Chrome",
+      "Champagne Gold"
+    ],
+    "installationScope": "Supplied rigid with integrated anti-tip suspension.",
+    "image": "/assets/img/models/pullout-larder-tower.webp",
+    "gallery": [
+      "/assets/img/models/pullout-larder-tower.webp",
+      "/assets/img/models/tall-larder-cupboards.webp"
+    ],
+    "description": "Glides out in a single smooth motion to present bottles, condiments, and preserved provisions from either side with zero blind spots.",
+    "keyFeatures": [
+      "Slim 300mm footprint providing 5 levels of high-capacity dry storage",
+      "Dual-sided access allowing quick reach during high-heat cooking sessions",
+      "Heavy-load bottom runner with soft-close damping tested to 80kg",
+      "Adjustable clip-on basket trays with solid acoustic bases"
+    ]
+  },
+  "walkin-step-pantry": {
+    "slug": "walkin-step-pantry",
+    "category": "pantry-larder",
+    "title": "Walk-In Step-Through Pantry Suite",
+    "metaTitle": "Walk-In Step-Through Pantry Suite | Custom Joinery | Cabivella UK",
+    "metaDescription": "Architectural step-in corner pantry room disguised behind kitchen cabinetry facades with ceiling-height open shelving.",
+    "leadTime": "Typically 7\u20139 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure walk-in room dimensions (minimum 1200x1200mm)",
+    "materials": [
+      "Solid timber uprights",
+      "Adjustable open shelving",
+      "Integrated task lighting"
+    ],
+    "finishOptions": [
+      "Natural Oiled Pine",
+      "Heritage Chalk",
+      "Smoked Oak",
+      "Parchment"
+    ],
+    "installationScope": "Modular flat-pack delivery with on-site joinery assembly brackets.",
+    "image": "/assets/img/models/tall-larder-cupboards.webp",
+    "gallery": [
+      "/assets/img/models/tall-larder-cupboards.webp",
+      "/assets/img/models/chefs-double-larder.webp"
+    ],
+    "description": "Seamlessly integrated behind matching cabinetry frontals, opening up into a dedicated floor-to-ceiling walk-in pantry chamber.",
+    "keyFeatures": [
+      "Disguised cabinet front door matching adjacent kitchen runs perfectly",
+      "Floor-to-ceiling wrap-around open shelving for bulk dry store visibility",
+      "Dedicated countertop for high-draw appliances (slow cooker, dehydrator)",
+      "Automated motion-sensor overhead warm LED illumination"
+    ]
+  },
+  "pocket-door-coffee-stations": {
+    "slug": "pocket-door-coffee-stations",
+    "category": "coffee-stations",
+    "title": "Pocket-Door Concealed Coffee Stations",
+    "metaTitle": "Pocket-Door Coffee Stations | Concealed Breakfast Cabinets | Cabivella UK",
+    "metaDescription": "Luxury pocket-door breakfast and barista stations. Doors slide back into carcass cavities during use and close flush to maintain clean lines.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Widths from 1000mm to 1600mm; standard 2150mm height, 650mm depth",
+    "materials": [
+      "Heavy-duty scissor pocket-door tracking gear",
+      "Solid quartz or granite prep slab",
+      "Moisture-resistant carcass with timber veneer"
+    ],
+    "finishOptions": [
+      "Smoked Black Walnut & Brass",
+      "Chalk White & Natural Oak",
+      "Basalt Grey & Bronze accents"
+    ],
+    "installationScope": "Pocket mechanism pre-installed, squared, and calibrated prior to delivery.",
+    "image": "/assets/img/models/pocket-door-coffee-stations.webp",
+    "gallery": [
+      "/assets/img/models/pocket-door-coffee-stations.webp",
+      "/assets/img/models/open-shelf-coffee-cabinets.webp"
+    ],
+    "description": "The pinnacle of domestic luxury and serenity. Pocket doors slide effortlessly back into side carcass cavities during morning routines, then close completely flush.",
+    "keyFeatures": [
+      "Precision German scissor pocket-door gear eliminating floor guide channels",
+      "Reinforced prep counter supporting commercial dual-boiler espresso machines",
+      "Concealed rear cable raceways with integrated UK plug sockets and USB-C ports",
+      "Integrated extraction vent baffle dissipating steam from espresso wands"
+    ]
+  },
+  "open-shelf-coffee-cabinets": {
+    "slug": "open-shelf-coffee-cabinets",
+    "category": "coffee-stations",
+    "title": "Open-Shelf Artisan Coffee Cabinets",
+    "metaTitle": "Open-Shelf Coffee Cabinets | Artisan Barista Storage | Cabivella UK",
+    "metaDescription": "Architectural open-shelf coffee and beverage cabinetry featuring fluted glass display, integrated LED bar lighting, and timber prep credenzas.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "900mm to 1500mm widths, tailored heights up to 2300mm",
+    "materials": [
+      "Solid European oak or ash shelving",
+      "Reeded/fluted toughened safety glass",
+      "Anodised aluminium warm-LED light profiles"
+    ],
+    "finishOptions": [
+      "Natural Oiled Oak",
+      "Deep Walnut",
+      "Matte Anthracite frame with brass accents"
+    ],
+    "installationScope": "Pre-assembled base credenza with modular upper architectural shelving system.",
+    "image": "/assets/img/models/open-shelf-coffee-cabinets.webp",
+    "gallery": [
+      "/assets/img/models/open-shelf-coffee-cabinets.webp",
+      "/assets/img/models/pocket-door-coffee-stations.webp"
+    ],
+    "description": "For homeowners who celebrate culinary apparatus as domestic art. Open display shelving showcases artisan ceramics, drippers, and glassware above an ergonomic credenza.",
+    "keyFeatures": [
+      "Integrated continuous LED light profile with dimmable warm 2700K Kelvin glow",
+      "Fluted timber backboard providing acoustic dampening against grinder vibrations",
+      "Lower soft-close storage drawers engineered for coffee beans, syrups, and filter papers",
+      "Stain-resistant nano-treated timber worktop impervious to espresso spills"
+    ]
+  },
+  "hawa-retractable-station": {
+    "slug": "hawa-retractable-station",
+    "category": "coffee-stations",
+    "title": "Hawa Retractable Bi-Fold Beverage Station",
+    "metaTitle": "Hawa Retractable Beverage Station | Luxury Coffee Bar | Cabivella UK",
+    "metaDescription": "High-specification bi-folding retractable pocket door coffee station with commercial-grade Swiss hardware and quartz prep counter.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "1200mm\u20131800mm wide, 2200mm high, 680mm deep",
+    "materials": [
+      "Swiss Hawa Concepta hardware",
+      "Composite quartz worktop",
+      "Veneered timber interior"
+    ],
+    "finishOptions": [
+      "Espresso Oak & Brushed Brass",
+      "Warm Cashmere & Walnut",
+      "Oxford Blue"
+    ],
+    "installationScope": "Factory pre-assembled and calibrated pocket tracks.",
+    "image": "/assets/img/models/pocket-door-coffee-stations.webp",
+    "gallery": [
+      "/assets/img/models/pocket-door-coffee-stations.webp",
+      "/assets/img/models/illuminated-beverage-stations.webp"
+    ],
+    "description": "Ultra-smooth Swiss bi-folding pocket technology enables wide panoramic openings that glide into side recesses with zero protruding doors.",
+    "keyFeatures": [
+      "Certified Swiss pocket tracking mechanism supporting 50kg door panels",
+      "Dedicated heat and steam dissipation duct behind upper cabinet facade",
+      "Integrated 4-gang UK socket rail with concealed surge protection",
+      "Dual pull-out preparation trays for coffee bean scales and tampers"
+    ]
+  },
+  "ervin-breakfast-bar": {
+    "slug": "ervin-breakfast-bar",
+    "category": "coffee-stations",
+    "title": "Ervin Artisan Breakfast & Espresso Credenza",
+    "metaTitle": "Ervin Breakfast Credenza | Coffee Bar Cabinetry | Cabivella UK",
+    "metaDescription": "Free-standing or built-in artisan breakfast credenza featuring reeded lower storage, quartz slab, and open ceramic display shelving.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "1100mm\u20131500mm width, 900mm base height (2100mm with upper hutch)",
+    "materials": [
+      "Solid ash frame",
+      "Fluted glass doors",
+      "Natural quartz counter"
+    ],
+    "finishOptions": [
+      "Natural Ash & Calacatta",
+      "Smoked Walnut",
+      "Satin Sage"
+    ],
+    "installationScope": "Pre-assembled base and hutch with connecting fittings.",
+    "image": "/assets/img/models/open-shelf-coffee-cabinets.webp",
+    "gallery": [
+      "/assets/img/models/open-shelf-coffee-cabinets.webp",
+      "/assets/img/models/breakfast-armoire-coffee-stations.webp"
+    ],
+    "description": "Combines a solid quartz prep credenza with open micro-ribbed shelving and fluted glass display doors for pour-over carafes and artisan cups.",
+    "keyFeatures": [
+      "Stain-resistant quartz worktop impervious to acidic citrus and espresso drips",
+      "Fluted glass wall cabinets concealing coffee beans and morning cereals",
+      "Lower drawers fitted with custom dividers for espresso accessories",
+      "Integrated warm LED under-shelf downlighting"
+    ]
+  },
+  "breakfast-armoire-coffee-stations": {
+    "slug": "breakfast-armoire-coffee-stations",
+    "category": "coffee-stations",
+    "title": "Grand Breakfast Armoire & Espresso Bar",
+    "metaTitle": "Grand Breakfast Armoire | Luxury Coffee Stations | Cabivella UK",
+    "metaDescription": "Traditional double-door breakfast armoire housing toaster, kettle, and barista machine behind five-piece classic Shaker doors.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "1200mm width, 2200mm height, 650mm depth",
+    "materials": [
+      "European ash stiles",
+      "Dovetailed timber internal drawers",
+      "Polished stone counter"
+    ],
+    "finishOptions": [
+      "Heritage Sage Green",
+      "Oxford Navy",
+      "Chalk White",
+      "Warm Pumice"
+    ],
+    "installationScope": "Delivered rigid with adjustable feet and cornice fittings.",
+    "image": "/assets/img/models/breakfast-armoire-coffee-stations.webp",
+    "gallery": [
+      "/assets/img/models/breakfast-armoire-coffee-stations.webp",
+      "/assets/img/models/pocket-door-coffee-stations.webp"
+    ],
+    "description": "Transforms busy morning breakfast routines into a tranquil moment. Open the double doors to reveal a complete breakfast and barista bar.",
+    "keyFeatures": [
+      "Full 1200mm wide stone preparation deck accommodating toaster and espresso unit",
+      "Internal 4-gang electric point with automatic safety master cut-off when doors close",
+      "Dovetailed lower timber drawers for bread storage and coffee pods",
+      "Door-mounted timber racks for mugs, preserves, and artisan honey jars"
+    ]
+  },
+  "illuminated-beverage-stations": {
+    "slug": "illuminated-beverage-stations",
+    "category": "coffee-stations",
+    "title": "Illuminated Barista Suite with Quartz Surface",
+    "metaTitle": "Illuminated Barista Suite | Modern Coffee Cabinets | Cabivella UK",
+    "metaDescription": "Contemporary illuminated beverage suite featuring continuous vertical LED profiles, mirror splashback, and integrated wine cooler housing.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "1200mm\u20132000mm made-to-measure widths",
+    "materials": [
+      "Bronze mirror glass splashback",
+      "Quartz stone worktop",
+      "Velvet-touch lacquer"
+    ],
+    "finishOptions": [
+      "Matte Carbon & Bronze",
+      "Warm Taupe & Brass",
+      "Pure White"
+    ],
+    "installationScope": "Pre-assembled cabinetry modules with plug-and-play lighting driver.",
+    "image": "/assets/img/models/illuminated-beverage-stations.webp",
+    "gallery": [
+      "/assets/img/models/illuminated-beverage-stations.webp",
+      "/assets/img/models/pocket-door-coffee-stations.webp"
+    ],
+    "description": "An evening cocktail bar and morning coffee retreat in one. Bronze mirror splashbacks amplify warm LED illumination above a monolithic quartz deck.",
+    "keyFeatures": [
+      "Antiqued bronze mirror splashback reflecting ambient room lighting",
+      "Integrated recess prepared for under-counter wine climate cabinet",
+      "Solid quartz worktop with integrated drainer grooves for espresso rinsing",
+      "Smart touch-dimmable LED lighting with circadian temperature tuning"
+    ]
+  },
+  "alcove-cupboards": {
+    "slug": "alcove-cupboards",
+    "category": "fitted-storage",
+    "title": "Victorian Alcove Bookcases & Cabinets",
+    "metaTitle": "Bespoke Alcove Cupboards & Bookcases | Period Joinery | Cabivella UK",
+    "metaDescription": "Precision made-to-measure alcove cupboards and open bookcases designed for British Victorian and Edwardian chimney breasts.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "Bespoke widths from 800mm to 1400mm per alcove; heights up to 3000mm ceiling",
+    "materials": [
+      "High-density MR-MDF core",
+      "Solid timber face frames & mouldings",
+      "Concealed or traditional butt hinges"
+    ],
+    "finishOptions": [
+      "Heritage Chalk",
+      "Satin Downpipe Grey",
+      "Parchment Cream",
+      "Deep Oxford Navy"
+    ],
+    "installationScope": "Supplied with oversize scribe fillets for on-site scribing to historic plaster walls.",
+    "image": "/assets/img/models/alcove-cupboards.webp",
+    "gallery": [
+      "/assets/img/models/alcove-cupboards.webp",
+      "/assets/img/models/utility-room-cabinets.webp"
+    ],
+    "description": "The quintessential British living room solution. Symmetrical cabinetry flanking the fireplace chimney breast with tailored bookcases above.",
+    "keyFeatures": [
+      "Included 50mm scribe fillets allowing seamless scribing to out-of-plumb historic walls",
+      "Lower cupboards with cable grommets for AV routers, gaming consoles, and media boxes",
+      "Traditional panelled door fronts with soft-close cushioning",
+      "Load-bearing 25mm thick bookcase shelves preventing book sagging over time"
+    ]
+  },
+  "utility-room-cabinets": {
+    "slug": "utility-room-cabinets",
+    "category": "fitted-storage",
+    "title": "Made-to-Measure Utility & Laundry Runs",
+    "metaTitle": "Bespoke Utility Room Cabinets | Laundry Storage | Cabivella UK",
+    "metaDescription": "Durable moisture-resistant utility room cabinetry with stacked washer-dryer housings, pull-out laundry hampers, and boot room benches.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure linear runs, typical 650mm appliance depth",
+    "materials": [
+      "Water-resistant carcass boards",
+      "Hardwearing polyurethane lacquer",
+      "Heavy-duty 50kg drawer slides"
+    ],
+    "finishOptions": [
+      "Highland Green",
+      "Warm Stone",
+      "Nordic White",
+      "Muted Basalt"
+    ],
+    "installationScope": "Modular rigid units with service voids for plumbing, waste pipes, and dryer venting.",
+    "image": "/assets/img/models/utility-room-cabinets.webp",
+    "gallery": [
+      "/assets/img/models/utility-room-cabinets.webp",
+      "/assets/img/models/alcove-cupboards.webp"
+    ],
+    "description": "Bring order to busy family back-door entries. Purpose-built cabinetry housing laundry appliances at ergonomic working heights.",
+    "keyFeatures": [
+      "Reinforced tower carcass designed for stacked or side-by-side washing machines",
+      "Integrated pull-out multi-compartment laundry sorting hampers",
+      "Full-height broom and vacuum cleaner storage cupboard with cordless charging point",
+      "Hardwearing surfaces resistant to muddy boots, pet paws, and domestic detergents"
+    ]
+  },
+  "bespoke-alcove-units": {
+    "slug": "bespoke-alcove-units",
+    "category": "fitted-storage",
+    "title": "Tailored Chimney Alcove Cabinetry",
+    "metaTitle": "Tailored Chimney Alcove Cabinetry | Fitted Furniture | Cabivella UK",
+    "metaDescription": "Precision-crafted bespoke chimney alcove cabinetry pairing lower panelled storage cupboards with floating floating display shelves.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "Custom width and height matched to room plaster",
+    "materials": [
+      "Structural MR-MDF",
+      "Solid hardwood face trims",
+      "Soft-close motion hinges"
+    ],
+    "finishOptions": [
+      "Slate Grey",
+      "Warm Alabaster",
+      "Heritage Green",
+      "Natural Wood Tops"
+    ],
+    "installationScope": "Includes adjustable wall scribing battens.",
+    "image": "/assets/img/models/alcove-cupboards.webp",
+    "gallery": [
+      "/assets/img/models/alcove-cupboards.webp",
+      "/assets/img/models/utility-room-cabinets.webp"
+    ],
+    "description": "Tailored to the exact millimeter of non-standard chimney alcoves, ensuring harmonious symmetry on either side of the fireplace hearth.",
+    "keyFeatures": [
+      "Precision cut for flush integration between chimney breast and party wall",
+      "Lower media cabinet with concealed cable management channels",
+      "Sturdy 30mm thick display shelves designed for heavy hardback libraries",
+      "Factory-primed or satin spray-lacquered in curated heritage palettes"
+    ]
+  },
+  "bosco-utility-cabinet": {
+    "slug": "bosco-utility-cabinet",
+    "category": "fitted-storage",
+    "title": "Bosco Full-Height Utility & Appliance Cabinet",
+    "metaTitle": "Bosco Full-Height Utility Cabinet | Laundry Cupboards | Cabivella UK",
+    "metaDescription": "Full-height tall utility cabinet housing ironing board, laundry hampers, Dyson vacuum docks, and cleaning essentials in one tall unit.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "800mm\u20131000mm width, 2200mm height, 650mm depth",
+    "materials": [
+      "Moisture-resistant core",
+      "Ventilated timber shelves",
+      "Heavy-gauge hinges"
+    ],
+    "finishOptions": [
+      "Muted Sage",
+      "Highland Green",
+      "Warm Stone",
+      "Chalk"
+    ],
+    "installationScope": "Pre-assembled carcass with adjustable feet.",
+    "image": "/assets/img/models/utility-room-cabinets.webp",
+    "gallery": [
+      "/assets/img/models/utility-room-cabinets.webp",
+      "/assets/img/models/boot-room-cabinetry.webp"
+    ],
+    "description": "The ultimate organisational workhorse for laundry and boot rooms. Dedicated compartments keep ironing boards, vacuum cleaners, and mops neatly concealed.",
+    "keyFeatures": [
+      "Dedicated vertical slot for tall ironing boards and folding stepladders",
+      "Integrated power socket outlet for internal cordless vacuum docking",
+      "Two ventilated pull-out wire hampers for whites and colours",
+      "Adjustable upper chemical and detergent shelves out of reach of children"
+    ]
+  },
+  "boot-room-cabinetry": {
+    "slug": "boot-room-cabinetry",
+    "category": "fitted-storage",
+    "title": "Country Estate Boot Room & Mudroom Suite",
+    "metaTitle": "Boot Room & Mudroom Cabinetry | Country Joinery | Cabivella UK",
+    "metaDescription": "Bespoke country boot room joinery featuring solid oak seating benches, open coat hooks, shoe pigeonholes, and overhead basket storage.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure runs from 1500mm to 4000mm",
+    "materials": [
+      "Solid European oak benchtop",
+      "Heavy coat hooks in aged brass",
+      "Tough enamel lacquer"
+    ],
+    "finishOptions": [
+      "Oxford Navy & Oak",
+      "Sage Green & Oak",
+      "Deep Charcoal"
+    ],
+    "installationScope": "Modular delivery with integrated tongue-and-groove wall panelling.",
+    "image": "/assets/img/models/boot-room-cabinetry.webp",
+    "gallery": [
+      "/assets/img/models/boot-room-cabinetry.webp",
+      "/assets/img/models/utility-room-cabinets.webp"
+    ],
+    "description": "Built to endure country lifestyle demands. A solid oak bench seat provides comfort for unlacing muddy boots, backed by tongue-and-groove timber panelling.",
+    "keyFeatures": [
+      "40mm solid European oak bench surface with waterproof oiled seal",
+      "Under-bench open pigeonholes for quick wellington and boot storage",
+      "Aged brass double coat hooks securely fastened to timber backboard",
+      "Upper enclosed storage cupboards for seasonal hats, scarves, and dog gear"
+    ]
+  },
+  "walkin-dressing-suite": {
+    "slug": "walkin-dressing-suite",
+    "category": "fitted-storage",
+    "title": "Architectural Walk-In Dressing Suite",
+    "metaTitle": "Walk-In Dressing Suite | Bespoke Wardrobes | Cabivella UK",
+    "metaDescription": "Master walk-in wardrobe and dressing room cabinetry featuring open hanging runs, glass-fronted watch drawers, and LED-lit shoe galleries.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure room layouts up to 3000mm height",
+    "materials": [
+      "Linen-textured carcass linings",
+      "Solid timber hanging rails",
+      "Smoked glass drawer fronts"
+    ],
+    "finishOptions": [
+      "Smoked Bronze Oak",
+      "Natural Linen & Cashmere",
+      "Rich Walnut"
+    ],
+    "installationScope": "Modular precision-milled delivery with laser alignment templates.",
+    "image": "/assets/img/models/dressing-room-wardrobes.webp",
+    "gallery": [
+      "/assets/img/models/dressing-room-wardrobes.webp",
+      "/assets/img/models/alcove-cupboards.webp"
+    ],
+    "description": "Bespoke dressing sanctuary crafted around your personal wardrobe. Dual-level hanging rails, velvet jewellery dividers, and angled illuminated shoe displays.",
+    "keyFeatures": [
+      "Integrated motion-sensor LED lighting channels along full vertical jambs",
+      "Glass-topped central island with velvet-lined watch and jewellery displays",
+      "Full-height double hanging runs tailored for evening gowns and long overcoats",
+      "Linen-textured scratch-resistant internal carcass surfaces"
+    ]
+  },
+  "panelled-wardrobe-run": {
+    "slug": "panelled-wardrobe-run",
+    "category": "fitted-storage",
+    "title": "Full-Height Floor-to-Ceiling Panelled Wardrobes",
+    "metaTitle": "Full-Height Fitted Wardrobes | Panelled Bedroom Joinery | Cabivella UK",
+    "metaDescription": "Architectural fitted bedroom wardrobes with traditional panelled doors, decorative cornice mouldings, and bespoke internal organisation.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure spans, heights up to 2800mm ceiling runs",
+    "materials": [
+      "Moisture-resistant MR core",
+      "Solid timber stiles",
+      "Full soft-close hardware"
+    ],
+    "finishOptions": [
+      "Heritage Off-White",
+      "French Grey",
+      "Deep Indigo",
+      "Muted Taupe"
+    ],
+    "installationScope": "Delivered rigid with top scribing fascia and plinth mouldings.",
+    "image": "/assets/img/models/dressing-room-wardrobes.webp",
+    "gallery": [
+      "/assets/img/models/dressing-room-wardrobes.webp",
+      "/assets/img/models/alcove-cupboards.webp"
+    ],
+    "description": "Seamlessly integrates bedroom storage into room walls. Decorative architraves and plinths ensure the wardrobes appear as original architectural masonry.",
+    "keyFeatures": [
+      "Ceiling-height scribed cornice mouldings completing continuous architectural lines",
+      "Custom internal configuration of solid timber drawers, shoe trays, and hanging rails",
+      "Integrated soft-close damping on both doors and heavy interior drawers",
+      "Solid brass or aged bronze unlacquered knobs and cup pull handles"
+    ]
+  },
+  "shaker-replacement-doors": {
+    "slug": "shaker-replacement-doors",
+    "category": "kitchen-doors",
+    "title": "Solid Hardwood Shaker Replacement Fronts",
+    "metaTitle": "Shaker Replacement Kitchen Doors | Made-to-Measure Fronts | Cabivella UK",
+    "metaDescription": "Upgrade existing kitchen carcasses with custom-sized solid hardwood and MR-MDF Shaker replacement doors, factory spray-finished in heritage tones.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure to exact millimetre dimensions; standard 22mm thickness",
+    "materials": [
+      "Solid European ash outer framing",
+      "High-density moisture-resistant core panel",
+      "Multi-coat baked polyurethane lacquer"
+    ],
+    "finishOptions": [
+      "Heritage Sage Green",
+      "Oxford Navy",
+      "Chalk White",
+      "Satin Pumice",
+      "Raw Ready-to-Paint"
+    ],
+    "installationScope": "Supplied pre-drilled for your existing hinge centres (standard 35mm cup) or un-drilled for custom hardware.",
+    "image": "/assets/img/models/shaker-replacement-doors.webp",
+    "gallery": [
+      "/assets/img/models/shaker-replacement-doors.webp",
+      "/assets/img/models/handleless-cabinet-fronts.webp"
+    ],
+    "description": "The sustainable, cost-effective kitchen transformation. Replace worn laminate doors with precision-milled solid ash Shaker fronts that fit your existing carcasses.",
+    "keyFeatures": [
+      "Custom hinge-hole boring matched precisely to your existing carcass hinge positions",
+      "Substantial 22mm door thickness providing a weighty, luxury tactile experience",
+      "Ultra-durable polyurethane enamel factory spray finish resistant to chipping",
+      "Matching drawer fronts, end panels, plinths, and cornice profiles supplied to order"
+    ]
+  },
+  "handleless-cabinet-fronts": {
+    "slug": "handleless-cabinet-fronts",
+    "category": "kitchen-doors",
+    "title": "Integrated J-Pull & Shadow Fronts",
+    "metaTitle": "Handleless Replacement Doors | J-Pull Cabinet Fronts | Cabivella UK",
+    "metaDescription": "Contemporary handleless replacement kitchen doors with integrated J-pull routing or chamfered shadow profiles in matte and gloss finishes.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure to exact millimetre dimensions; 22mm profile thickness",
+    "materials": [
+      "Deep-routed moisture-resistant structural core",
+      "Laser-applied edge sealing",
+      "Velvet matte or mirror gloss lacquer"
+    ],
+    "finishOptions": [
+      "Matte Anthracite",
+      "Porcelain Warm White",
+      "Raw Umber Walnut",
+      "Cashmere Neutral"
+    ],
+    "installationScope": "Pre-drilled to custom hinge measurements; compatible with standard 18mm British carcass specifications.",
+    "image": "/assets/img/models/handleless-cabinet-fronts.webp",
+    "gallery": [
+      "/assets/img/models/handleless-cabinet-fronts.webp",
+      "/assets/img/models/shaker-replacement-doors.webp"
+    ],
+    "description": "Instantly modernize an existing kitchen layout without demolition. Seamless integrated J-pull grooves provide comfortable grip without external hardware.",
+    "keyFeatures": [
+      "Ergonomically contoured 22mm J-pull profile with smooth finger clearance",
+      "Laser-welded edge bands creating an impermeable seal against steam and moisture",
+      "Thermal-repairable super-matte surface technology resisting fingerprints and smudges",
+      "Available in bespoke heights and widths for non-standard vintage carcasses"
+    ]
+  },
+  "chillingham-timber-shaker": {
+    "slug": "chillingham-timber-shaker",
+    "category": "kitchen-doors",
+    "title": "Chillingham Authentic Hardwood Shaker Fronts",
+    "metaTitle": "Chillingham Hardwood Shaker Doors | Replacement Fronts | Cabivella UK",
+    "metaDescription": "Authentic 5-piece solid European ash replacement doors with 80mm traditional stiles and mortise-and-tenon craftsmanship.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "Custom millimetre sizing, 22mm thickness",
+    "materials": [
+      "Solid European ash timber",
+      "Moisture-sealed core",
+      "Catalysed lacquer"
+    ],
+    "finishOptions": [
+      "Cotswold Cream",
+      "Deep Forest Green",
+      "Charcoal Slate",
+      "Raw Timber"
+    ],
+    "installationScope": "Supplied with optional hinge hole boring to client schedule.",
+    "image": "/assets/img/models/shaker-replacement-doors.webp",
+    "gallery": [
+      "/assets/img/models/shaker-replacement-doors.webp",
+      "/assets/img/models/slimline-micro-shaker-fronts.webp"
+    ],
+    "description": "Substantial 80mm solid ash stiles lend grounded permanence to country homes and historic London townhouses upgrading existing kitchen carcasses.",
+    "keyFeatures": [
+      "Solid ash framing with authentic mortise-and-tenon corner joints",
+      "Substantial 22mm door depth delivering reassuring tactile weight",
+      "Multi-coat catalysed satin lacquer resisting kitchen grease and heat",
+      "Matching architectural plinths, pilasters, and cornice available"
+    ]
+  },
+  "lea-framed-fronts": {
+    "slug": "lea-framed-fronts",
+    "category": "kitchen-doors",
+    "title": "Lea Architectural Framed Cabinet Doors",
+    "metaTitle": "Lea Framed Cabinet Fronts | Replacement Doors | Cabivella UK",
+    "metaDescription": "Transitional framed kitchen cabinet fronts featuring a delicate internal chamfer and satin smooth painted finish.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "Bespoke dimensions to 1mm tolerance",
+    "materials": [
+      "Hardwood composite",
+      "Moisture-resistant resin core",
+      "Multi-stage lacquer"
+    ],
+    "finishOptions": [
+      "Heritage Sage",
+      "Oxford Navy",
+      "Warm Taupe",
+      "Pure White"
+    ],
+    "installationScope": "Pre-bored for 35mm concealed euro hinges.",
+    "image": "/assets/img/models/shaker-replacement-doors.webp",
+    "gallery": [
+      "/assets/img/models/shaker-replacement-doors.webp",
+      "/assets/img/models/handleless-cabinet-fronts.webp"
+    ],
+    "description": "Combines traditional framing with a modern 45-degree inner chamfer, making cleaning effortless while capturing gentle room light.",
+    "keyFeatures": [
+      "45-degree chamfered inner rail preventing grime and flour buildup",
+      "Custom hinge spacing matching Howdens, Wren, and bespoke carcasses",
+      "Tough factory spray lacquer that will never peel or delaminate like vinyl wrap",
+      "Available with glazed door frames ready for reeded or fluted glass inserts"
+    ]
+  },
+  "axis-shadow-fronts": {
+    "slug": "axis-shadow-fronts",
+    "category": "kitchen-doors",
+    "title": "Axis Minimal Shadow-Profile Fronts",
+    "metaTitle": "Axis Minimal Shadow Fronts | Handleless Doors | Cabivella UK",
+    "metaDescription": "Pure flush cabinet fronts with bevelled shadow profile for integrated channel handleless kitchens.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure width and height increments",
+    "materials": [
+      "18mm or 22mm dense MR-MDF",
+      "Laser-applied ABS edge",
+      "Anti-fingerprint matte lacquer"
+    ],
+    "finishOptions": [
+      "Super-Matte Basalt",
+      "Porcelain Chalk",
+      "Smoked Pine",
+      "Raw Umber"
+    ],
+    "installationScope": "Supplied drilled or undrilled per specification.",
+    "image": "/assets/img/models/handleless-cabinet-fronts.webp",
+    "gallery": [
+      "/assets/img/models/handleless-cabinet-fronts.webp",
+      "/assets/img/models/shaker-replacement-doors.webp"
+    ],
+    "description": "Designed for kitchens featuring continuous rail systems, providing flush, monolithic door planes with zero visual clutter.",
+    "keyFeatures": [
+      "Bevelled 30-degree rear edge profile for ergonomic finger clearance",
+      "Zero-glue-line laser edge banding protecting against steam degradation",
+      "Anti-fingerprint velvet coating formulation",
+      "Available with custom push-catch hardware pre-machining"
+    ]
+  },
+  "vera-silk-slab": {
+    "slug": "vera-silk-slab",
+    "category": "kitchen-doors",
+    "title": "Vera Silk-Touch Lacquered Slab Fronts",
+    "metaTitle": "Vera Silk-Touch Slab Doors | Replacement Fronts | Cabivella UK",
+    "metaDescription": "Contemporary flat slab replacement kitchen doors in silky matte and soft satin finishes for minimalist kitchens.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "Exact millimetre precision custom sizes",
+    "materials": [
+      "Structural E1 grade core",
+      "Silk-touch polyurethane enamel",
+      "Sealed back face"
+    ],
+    "finishOptions": [
+      "Warm Putty",
+      "Satin Alabaster",
+      "Deep Bronze",
+      "Graphite"
+    ],
+    "installationScope": "Factory pre-bored for quick DIY or trade hinge hanging.",
+    "image": "/assets/img/models/handleless-cabinet-fronts.webp",
+    "gallery": [
+      "/assets/img/models/handleless-cabinet-fronts.webp",
+      "/assets/img/models/fluted-wave-panels.webp"
+    ],
+    "description": "Uncomplicated, timeless architectural slabs. Silky soft-touch lacquer creates a tranquil, tactile environment in open-plan spaces.",
+    "keyFeatures": [
+      "Ultra-flat flat-panel facade with micro-radiused safe edges",
+      "Six-stage automated spray application ensuring smooth orange-peel-free finish",
+      "Colour-matched backing face ensuring consistent internal cupboard beauty",
+      "Custom drawer front sizing for deep pan drawers and internal concealed cutlery"
+    ]
+  },
+  "slimline-micro-shaker-fronts": {
+    "slug": "slimline-micro-shaker-fronts",
+    "category": "kitchen-doors",
+    "title": "Slimline Micro-Shaker Feature Fronts",
+    "metaTitle": "Slimline Micro-Shaker Fronts | Modern Shaker Doors | Cabivella UK",
+    "metaDescription": "Contemporary 15mm slim-frame Shaker replacement cabinet doors for modern British architectural kitchen renovations.",
+    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+    "dimensionsMm": "Custom height and width to 1mm tolerance",
+    "materials": [
+      "Precision milled composite",
+      "Solid timber perimeter",
+      "Matte satin lacquer"
+    ],
+    "finishOptions": [
+      "Moss Green",
+      "Oatmeal",
+      "Charcoal Noir",
+      "Oiled Oak"
+    ],
+    "installationScope": "Supplied ready for hardware installation with precision boreholes.",
+    "image": "/assets/img/models/slimline-micro-shaker-fronts.webp",
+    "gallery": [
+      "/assets/img/models/slimline-micro-shaker-fronts.webp",
+      "/assets/img/models/shaker-replacement-doors.webp"
+    ],
+    "description": "Slender 15mm outer borders strike the ideal balance between heritage warmth and Scandinavian minimalism.",
+    "keyFeatures": [
+      "Ultra-narrow 15mm perimeter frame delivering a sleek architectural outline",
+      "Rigid solid core preventing warping across tall larder doors",
+      "Factory-drilled hinge cups positioned to your supplied carcass plan",
+      "Durable satin finish resistant to cleaning chemicals and finger grease"
+    ]
+  },
+  "fluted-wave-panels": {
+    "slug": "fluted-wave-panels",
+    "category": "kitchen-doors",
+    "title": "Fluted Wave Acoustic Feature Panels",
+    "metaTitle": "Fluted Wave Kitchen Fronts | Reeded Cabinet Panels | Cabivella UK",
+    "metaDescription": "Reeded and fluted replacement cabinet doors and kitchen island cladding panels for striking architectural texture.",
+    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure doors and full 2400x1200mm cladding sheets",
+    "materials": [
+      "Multi-axis CNC routed oak veneer",
+      "Moisture-sealed substrate",
+      "Protective matte oil"
+    ],
+    "finishOptions": [
+      "Natural Fluted Oak",
+      "Smoked Walnut",
+      "Satin Black Wave",
+      "Chalk White"
+    ],
+    "installationScope": "Supplied with matched edge-banding and hinge preparation.",
+    "image": "/assets/img/models/fluted-reeded-fronts.webp",
+    "gallery": [
+      "/assets/img/models/fluted-reeded-fronts.webp",
+      "/assets/img/models/handleless-cabinet-fronts.webp"
+    ],
+    "description": "Introduces tactile drama to kitchen island backsplashes and feature tall housing runs, breaking up flat surfaces with rhythmic timber waves.",
+    "keyFeatures": [
+      "Precision 10mm periodic wave profile CNC-routed into hardwood veneer",
+      "Ideal for statement kitchen island backings and breakfast bar fronts",
+      "Provides noticeable acoustic sound absorption in open-plan tiled rooms",
+      "Available as both functional hinged doors and continuous architectural cladding"
+    ]
+  },
+  "paint-ready-raw-mdf": {
+    "slug": "paint-ready-raw-mdf",
+    "category": "kitchen-doors",
+    "title": "Paint-Ready Moisture-Resistant Raw MDF Fronts",
+    "metaTitle": "Paint-Ready Raw MDF Doors | DIY Kitchen Fronts | Cabivella UK",
+    "metaDescription": "Unfinished, double-sanded moisture-resistant MR-MDF Shaker and slab replacement doors, ready for on-site bespoke hand-painting.",
+    "leadTime": "Typically 3\u20135 weeks (production & UK transit)",
+    "dimensionsMm": "Made-to-measure to exact millimetres; 22mm thick",
+    "materials": [
+      "Premium Medite MR moisture-resistant MDF",
+      "Calibrated smooth surface",
+      "Machined edges"
+    ],
+    "finishOptions": [
+      "Raw Double-Sanded (Ready for Primer & Topcoat)"
+    ],
+    "installationScope": "Hinge holes pre-drilled to order. Requires on-site priming and painting.",
+    "image": "/assets/img/models/doors-inspiration.webp",
+    "gallery": [
+      "/assets/img/models/doors-inspiration.webp",
+      "/assets/img/models/shaker-replacement-doors.webp"
+    ],
+    "description": "For decorators and discerning homeowners desiring bespoke Farrow & Ball, Little Greene, or Paint & Paper Library hand-painted finishes on site.",
+    "keyFeatures": [
+      "Premium moisture-resistant Medite MR-MDF substrate ensuring zero grain raise",
+      "Pre-sanded with 240-grit calibration ready for immediate primer application",
+      "Sharp internal corners and crisp Shaker profiling for authentic joinery look",
+      "Significant budget savings allowing custom colour experimentation"
     ]
   }
 };

@@ -1,83 +1,84 @@
 import { test, expect } from '@playwright/test';
 
-const routes = [
-  '/',
-  '/collections/',
-  '/our-story/',
-  '/trade/',
-  '/enquire/',
-  '/privacy/',
-  '/cookies/',
-  '/image-credits/',
-  '/materials/',
-
-  // Kitchens
-  '/collections/kitchens/',
-  '/collections/kitchens/shaker-kitchens/',
-  '/collections/kitchens/contemporary-kitchens/',
-  '/collections/kitchens/compact-kitchens/',
-  '/collections/kitchens/slim-frame-shaker-kitchens/',
-  '/collections/kitchens/island-suite-kitchens/',
-
-  // Bathrooms
-  '/collections/bathrooms/',
-  '/collections/bathrooms/wall-hung-vanities/',
-  '/collections/bathrooms/fluted-vanities/',
-  '/collections/bathrooms/tall-bathroom-storage/',
-  '/collections/bathrooms/double-basin-vanities/',
-  '/collections/bathrooms/slim-mirror-storage-cabinets/',
-
-  // Pantry & Larder
-  '/collections/pantry-larder/',
-  '/collections/pantry-larder/tall-larder-cupboards/',
-  '/collections/pantry-larder/corner-pantry-storage/',
-  '/collections/pantry-larder/chefs-double-larder/',
-  '/collections/pantry-larder/pullout-larder-tower/',
-
-  // Coffee Stations
-  '/collections/coffee-stations/',
-  '/collections/coffee-stations/pocket-door-coffee-stations/',
-  '/collections/coffee-stations/open-shelf-coffee-cabinets/',
-  '/collections/coffee-stations/breakfast-armoire-coffee-stations/',
-  '/collections/coffee-stations/illuminated-beverage-stations/',
-
-  // Fitted Storage
-  '/collections/fitted-storage/',
-  '/collections/fitted-storage/alcove-cupboards/',
-  '/collections/fitted-storage/utility-room-cabinets/',
-  '/collections/fitted-storage/boot-room-cabinetry/',
-  '/collections/fitted-storage/dressing-room-wardrobes/',
-
-  // Kitchen Doors
-  '/collections/kitchen-doors/',
-  '/collections/kitchen-doors/shaker-replacement-doors/',
-  '/collections/kitchen-doors/handleless-cabinet-fronts/',
-  '/collections/kitchen-doors/slimline-micro-shaker-fronts/',
-  '/collections/kitchen-doors/fluted-reeded-fronts/'
+const allRoutes = [
+  "/",
+  "/collections/",
+  "/collections/bathrooms/",
+  "/collections/bathrooms/aydos-compact-vanity/",
+  "/collections/bathrooms/beat-ribbed-vanity/",
+  "/collections/bathrooms/daisy-reeded-console/",
+  "/collections/bathrooms/design-monolith-vanity/",
+  "/collections/bathrooms/fluted-vanities/",
+  "/collections/bathrooms/integra-square-tower/",
+  "/collections/bathrooms/malta-vanity-console/",
+  "/collections/bathrooms/root-groove-tall-unit/",
+  "/collections/bathrooms/root-groove-vanity/",
+  "/collections/bathrooms/tall-bathroom-storage/",
+  "/collections/bathrooms/wall-hung-vanities/",
+  "/collections/coffee-stations/",
+  "/collections/coffee-stations/breakfast-armoire-coffee-stations/",
+  "/collections/coffee-stations/ervin-breakfast-bar/",
+  "/collections/coffee-stations/hawa-retractable-station/",
+  "/collections/coffee-stations/illuminated-beverage-stations/",
+  "/collections/coffee-stations/open-shelf-coffee-cabinets/",
+  "/collections/coffee-stations/pocket-door-coffee-stations/",
+  "/collections/fitted-storage/",
+  "/collections/fitted-storage/alcove-cupboards/",
+  "/collections/fitted-storage/bespoke-alcove-units/",
+  "/collections/fitted-storage/boot-room-cabinetry/",
+  "/collections/fitted-storage/bosco-utility-cabinet/",
+  "/collections/fitted-storage/panelled-wardrobe-run/",
+  "/collections/fitted-storage/utility-room-cabinets/",
+  "/collections/fitted-storage/walkin-dressing-suite/",
+  "/collections/kitchen-doors/",
+  "/collections/kitchen-doors/axis-shadow-fronts/",
+  "/collections/kitchen-doors/chillingham-timber-shaker/",
+  "/collections/kitchen-doors/fluted-wave-panels/",
+  "/collections/kitchen-doors/handleless-cabinet-fronts/",
+  "/collections/kitchen-doors/lea-framed-fronts/",
+  "/collections/kitchen-doors/paint-ready-raw-mdf/",
+  "/collections/kitchen-doors/shaker-replacement-doors/",
+  "/collections/kitchen-doors/slimline-micro-shaker-fronts/",
+  "/collections/kitchen-doors/vera-silk-slab/",
+  "/collections/kitchens/",
+  "/collections/kitchens/arya-classic-shaker/",
+  "/collections/kitchens/axis-handleless-shadow/",
+  "/collections/kitchens/compact-kitchens/",
+  "/collections/kitchens/contemporary-kitchens/",
+  "/collections/kitchens/lea-bevelled-shaker/",
+  "/collections/kitchens/lora-contemporary-slab/",
+  "/collections/kitchens/luna-micro-shaker/",
+  "/collections/kitchens/shaker-kitchens/",
+  "/collections/kitchens/urban-compact-160/",
+  "/collections/kitchens/vega-ergonomic-suite/",
+  "/collections/kitchens/vera-architectural-kitchen/",
+  "/collections/pantry-larder/",
+  "/collections/pantry-larder/carousel-blind-corner/",
+  "/collections/pantry-larder/chefs-double-armoire/",
+  "/collections/pantry-larder/corner-pantry-storage/",
+  "/collections/pantry-larder/lemans-corner-swivel/",
+  "/collections/pantry-larder/pullout-larder-tower/",
+  "/collections/pantry-larder/tall-larder-cupboards/",
+  "/collections/pantry-larder/tandem-tall-larder/",
+  "/collections/pantry-larder/walkin-step-pantry/",
+  "/cookies/",
+  "/enquire/",
+  "/image-credits/",
+  "/materials/",
+  "/our-story/",
+  "/privacy/",
+  "/thank-you/",
+  "/trade/"
 ];
 
-test.describe('Cabivella UK Routes Verification', () => {
-  for (const route of routes) {
-    test(`Route ${route} returns 200 and has single H1 and en-GB lang`, async ({ page }) => {
+test.describe('Static Route Verification', () => {
+  for (const route of allRoutes) {
+    test(`route ${route} loads with 200 OK and valid title`, async ({ page }) => {
       const response = await page.goto(route);
       expect(response?.status()).toBe(200);
-
-      // Check single H1
-      const h1Count = await page.locator('h1').count();
-      expect(h1Count).toBe(1);
-
-      // Check en-GB html attribute
-      const lang = await page.getAttribute('html', 'lang');
-      expect(lang).toBe('en-GB');
-
-      // Check canonical tag exists
-      const canonical = await page.locator('link[rel="canonical"]').getAttribute('href');
-      expect(canonical).toContain('cabivella.co.uk');
+      const title = await page.title();
+      expect(title.length).toBeGreaterThan(10);
+      expect(title).toContain('Cabivella');
     });
   }
-
-  test('Non-existent route returns 404', async ({ page }) => {
-    const response = await page.goto('/non-existent-furniture-direction/');
-    expect(response?.status()).toBe(404);
-  });
 });

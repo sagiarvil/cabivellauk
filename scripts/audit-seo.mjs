@@ -1,114 +1,131 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const distDir = path.resolve('dist');
+const DIST_DIR = path.resolve('dist');
 
-if (!fs.existsSync(distDir)) {
-  console.error('Dist directory does not exist. Run npm run build first.');
-  process.exit(1);
-}
-
-const requiredPages = [
-  '',
-  'collections',
-  'our-story',
-  'trade',
-  'enquire',
-  'privacy',
-  'cookies',
-  'image-credits',
-  'materials',
-  
-  // Kitchens
-  'collections/kitchens',
-  'collections/kitchens/shaker-kitchens',
-  'collections/kitchens/contemporary-kitchens',
-  'collections/kitchens/compact-kitchens',
-  'collections/kitchens/slim-frame-shaker-kitchens',
-  'collections/kitchens/island-suite-kitchens',
-
-  // Bathrooms
-  'collections/bathrooms',
-  'collections/bathrooms/wall-hung-vanities',
-  'collections/bathrooms/fluted-vanities',
-  'collections/bathrooms/tall-bathroom-storage',
-  'collections/bathrooms/double-basin-vanities',
-  'collections/bathrooms/slim-mirror-storage-cabinets',
-
-  // Pantry & Larder
-  'collections/pantry-larder',
-  'collections/pantry-larder/tall-larder-cupboards',
-  'collections/pantry-larder/corner-pantry-storage',
-  'collections/pantry-larder/chefs-double-larder',
-  'collections/pantry-larder/pullout-larder-tower',
-
-  // Coffee Stations
-  'collections/coffee-stations',
-  'collections/coffee-stations/pocket-door-coffee-stations',
-  'collections/coffee-stations/open-shelf-coffee-cabinets',
-  'collections/coffee-stations/breakfast-armoire-coffee-stations',
-  'collections/coffee-stations/illuminated-beverage-stations',
-
-  // Fitted Storage
-  'collections/fitted-storage',
-  'collections/fitted-storage/alcove-cupboards',
-  'collections/fitted-storage/utility-room-cabinets',
-  'collections/fitted-storage/boot-room-cabinetry',
-  'collections/fitted-storage/dressing-room-wardrobes',
-
-  // Kitchen Doors
-  'collections/kitchen-doors',
-  'collections/kitchen-doors/shaker-replacement-doors',
-  'collections/kitchen-doors/handleless-cabinet-fronts',
-  'collections/kitchen-doors/slimline-micro-shaker-fronts',
-  'collections/kitchen-doors/fluted-reeded-fronts'
+const EXPECTED_ROUTES = [
+  "/",
+  "/collections/",
+  "/collections/bathrooms/",
+  "/collections/bathrooms/aydos-compact-vanity/",
+  "/collections/bathrooms/beat-ribbed-vanity/",
+  "/collections/bathrooms/daisy-reeded-console/",
+  "/collections/bathrooms/design-monolith-vanity/",
+  "/collections/bathrooms/fluted-vanities/",
+  "/collections/bathrooms/integra-square-tower/",
+  "/collections/bathrooms/malta-vanity-console/",
+  "/collections/bathrooms/root-groove-tall-unit/",
+  "/collections/bathrooms/root-groove-vanity/",
+  "/collections/bathrooms/tall-bathroom-storage/",
+  "/collections/bathrooms/wall-hung-vanities/",
+  "/collections/coffee-stations/",
+  "/collections/coffee-stations/breakfast-armoire-coffee-stations/",
+  "/collections/coffee-stations/ervin-breakfast-bar/",
+  "/collections/coffee-stations/hawa-retractable-station/",
+  "/collections/coffee-stations/illuminated-beverage-stations/",
+  "/collections/coffee-stations/open-shelf-coffee-cabinets/",
+  "/collections/coffee-stations/pocket-door-coffee-stations/",
+  "/collections/fitted-storage/",
+  "/collections/fitted-storage/alcove-cupboards/",
+  "/collections/fitted-storage/bespoke-alcove-units/",
+  "/collections/fitted-storage/boot-room-cabinetry/",
+  "/collections/fitted-storage/bosco-utility-cabinet/",
+  "/collections/fitted-storage/panelled-wardrobe-run/",
+  "/collections/fitted-storage/utility-room-cabinets/",
+  "/collections/fitted-storage/walkin-dressing-suite/",
+  "/collections/kitchen-doors/",
+  "/collections/kitchen-doors/axis-shadow-fronts/",
+  "/collections/kitchen-doors/chillingham-timber-shaker/",
+  "/collections/kitchen-doors/fluted-wave-panels/",
+  "/collections/kitchen-doors/handleless-cabinet-fronts/",
+  "/collections/kitchen-doors/lea-framed-fronts/",
+  "/collections/kitchen-doors/paint-ready-raw-mdf/",
+  "/collections/kitchen-doors/shaker-replacement-doors/",
+  "/collections/kitchen-doors/slimline-micro-shaker-fronts/",
+  "/collections/kitchen-doors/vera-silk-slab/",
+  "/collections/kitchens/",
+  "/collections/kitchens/arya-classic-shaker/",
+  "/collections/kitchens/axis-handleless-shadow/",
+  "/collections/kitchens/compact-kitchens/",
+  "/collections/kitchens/contemporary-kitchens/",
+  "/collections/kitchens/lea-bevelled-shaker/",
+  "/collections/kitchens/lora-contemporary-slab/",
+  "/collections/kitchens/luna-micro-shaker/",
+  "/collections/kitchens/shaker-kitchens/",
+  "/collections/kitchens/urban-compact-160/",
+  "/collections/kitchens/vega-ergonomic-suite/",
+  "/collections/kitchens/vera-architectural-kitchen/",
+  "/collections/pantry-larder/",
+  "/collections/pantry-larder/carousel-blind-corner/",
+  "/collections/pantry-larder/chefs-double-armoire/",
+  "/collections/pantry-larder/corner-pantry-storage/",
+  "/collections/pantry-larder/lemans-corner-swivel/",
+  "/collections/pantry-larder/pullout-larder-tower/",
+  "/collections/pantry-larder/tall-larder-cupboards/",
+  "/collections/pantry-larder/tandem-tall-larder/",
+  "/collections/pantry-larder/walkin-step-pantry/",
+  "/cookies/",
+  "/enquire/",
+  "/image-credits/",
+  "/materials/",
+  "/our-story/",
+  "/privacy/",
+  "/thank-you/",
+  "/trade/"
 ];
 
-let failed = 0;
-console.log('Verifying generated static pages and SEO compliance...');
+console.log(`[SEO-AUDIT] Commencing verification of ${EXPECTED_ROUTES.length} static routes...`);
 
-for (const p of requiredPages) {
-  const filePath = p === '' 
-    ? path.join(distDir, 'index.html') 
-    : path.join(distDir, p, 'index.html');
+let failed = false;
+
+for (const route of EXPECTED_ROUTES) {
+  const filePath = route === '/'
+    ? path.join(DIST_DIR, 'index.html')
+    : path.join(DIST_DIR, route.replace(/^\//, '').replace(/\/$/, ''), 'index.html');
 
   if (!fs.existsSync(filePath)) {
-    console.error(`❌ Missing static page: ${p}`);
-    failed++;
+    console.error(`❌ Missing static HTML for route: ${route} (checked: ${filePath})`);
+    failed = true;
     continue;
   }
 
   const html = fs.readFileSync(filePath, 'utf8');
 
-  // Verify single H1
-  const h1Matches = html.match(/<h1[^>]*>[\s\S]*?<\/h1>/gi) || [];
+  // Verify Single H1
+  const h1Matches = html.match(/<h1[^>]*>([\s\S]*?<\/h1>)/gi) || [];
   if (h1Matches.length !== 1) {
-    console.error(`❌ Page ${p} does not have exactly 1 <h1> tag (found ${h1Matches.length})`);
-    failed++;
+    console.error(`❌ Route ${route} MUST have exactly 1 <h1>, found: ${h1Matches.length}`);
+    failed = true;
   }
 
-  // Verify en-GB
+  // Verify Title
+  if (!html.includes('<title>') || !html.includes('</title>')) {
+    console.error(`❌ Route ${route} missing <title> tag`);
+    failed = true;
+  }
+
+  // Verify Meta Description
+  if (!html.includes('name="description"')) {
+    console.error(`❌ Route ${route} missing meta description`);
+    failed = true;
+  }
+
+  // Verify Canonical
+  if (!html.includes('rel="canonical"')) {
+    console.error(`❌ Route ${route} missing canonical link`);
+    failed = true;
+  }
+
+  // Verify Language is en-GB
   if (!html.includes('lang="en-GB"')) {
-    console.error(`❌ Page ${p} does not declare lang="en-GB"`);
-    failed++;
-  }
-
-  // Verify canonical
-  if (!html.includes('<link rel="canonical"')) {
-    console.error(`❌ Page ${p} missing canonical link tag`);
-    failed++;
-  }
-
-  // Verify meta description
-  if (!html.includes('<meta name="description"')) {
-    console.error(`❌ Page ${p} missing meta description`);
-    failed++;
+    console.error(`❌ Route ${route} does not specify lang="en-GB"`);
+    failed = true;
   }
 }
 
-if (failed > 0) {
-  console.error(`Audit failed with ${failed} errors.`);
+if (failed) {
+  console.error('\n🚨 SEO AUDIT FAILED: One or more routes failed validation.');
   process.exit(1);
+} else {
+  console.log(`\n✅ SEO AUDIT PASSED: All ${EXPECTED_ROUTES.length} routes verified with perfect structure.`);
 }
-
-console.log(`✅ All ${requiredPages.length} production routes verified successfully with full SEO compliance.`);

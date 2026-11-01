@@ -20,7 +20,7 @@ export function getOrganizationSchema() {
     },
     'founder': {
       '@type': 'Person',
-      'name': 'Baris Bagirlar',
+      'name': 'Barış Bağırlı',
       'jobTitle': 'Managing Director & Founder',
       'sameAs': siteConfig.linkedinUrl
     }
