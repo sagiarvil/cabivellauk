@@ -334,15 +334,15 @@ html.motion-ready [data-reveal].is-revealed {
 }
 
 /* ==========================================================================
-   V6 HERO SECTION
+   V6 HERO SECTION (Dedicated Left Green Content Panel & Uncropped Right Visual)
    ========================================================================== */
 .v6-hero {
   position: relative;
-  min-height: clamp(480px, 44vw, 640px);
+  min-height: clamp(520px, 42vw, 650px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #1b261d;
+  background: #1a1f1b;
   color: #ffffff;
   overflow: hidden;
   isolation: isolate;
@@ -352,48 +352,63 @@ html.motion-ready [data-reveal].is-revealed {
   position: absolute;
   inset: 0;
   z-index: -2;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .v6-hero-image-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: right center;
+  transition: opacity 0.3s ease;
 }
 
 .v6-hero-gradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(16, 26, 19, 0.85) 0%, rgba(20, 32, 24, 0.6) 50%, rgba(16, 26, 19, 0.3) 100%);
+  background: linear-gradient(
+    90deg,
+    #1a1f1b 0%,
+    rgba(26, 31, 27, 0.98) 32%,
+    rgba(26, 31, 27, 0.75) 48%,
+    rgba(26, 31, 27, 0.2) 68%,
+    transparent 100%
+  );
   z-index: -1;
+  pointer-events: none;
 }
 
 .v6-hero-content {
   position: relative;
   width: 100%;
-  padding-top: clamp(48px, 6vw, 90px);
+  padding-top: clamp(48px, 6vw, 92px);
   padding-bottom: 30px;
-  max-width: 680px;
+  max-width: clamp(340px, 38vw, 490px);
+  margin-left: 0;
 }
 
 .v6-hero-eyebrow {
   font-family: var(--font-heading);
-  font-size: 10.5px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.24em;
-  color: #dfd8cb;
-  margin-bottom: 14px;
+  letter-spacing: 0.26em;
+  color: #d8d0c2;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .v6-hero h1 {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: clamp(38px, 5.2vw, 76px);
-  line-height: 1.04;
+  font-size: clamp(38px, 4.8vw, 70px);
+  line-height: 1.03;
   letter-spacing: -0.04em;
-  margin: 0 0 16px;
+  margin: 0 0 18px;
   color: #ffffff;
   word-break: break-word;
+  max-width: 440px;
 }
 
 .v6-hero h1 em {
@@ -405,18 +420,18 @@ html.motion-ready [data-reveal].is-revealed {
 
 .v6-hero-goldline {
   display: block;
-  width: 56px;
-  height: 2px;
+  width: 58px;
+  height: 2.5px;
   background: #c7a050;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .v6-hero-content p {
-  font-size: clamp(15px, 1.3vw, 18px);
-  line-height: 1.55;
-  color: #f1ede5;
-  margin-bottom: 28px;
-  max-width: 460px;
+  font-size: clamp(14.5px, 1.2vw, 17px);
+  line-height: 1.6;
+  color: #f3f0e8;
+  margin-bottom: 30px;
+  max-width: 410px;
 }
 
 .v6-hero-links {
