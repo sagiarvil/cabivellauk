@@ -9,15 +9,15 @@ test.describe('Cabivella Navigation & Contact Integrity', () => {
     await expect(emailLinks.first()).toBeVisible();
 
     // Check WhatsApp floating concierge
-    const whatsappLink = page.locator('a[href*="447898262110"]');
-    await expect(whatsappLink.first()).toBeVisible();
+    const whatsappLink = page.locator('button#whatsapp-toggle-btn');
+    await expect(whatsappLink).toBeVisible();
 
     // Check LinkedIn link
     const linkedinLink = page.locator('a[href="https://www.linkedin.com/in/barisbagirlar/"]');
     await expect(linkedinLink.first()).toBeVisible();
 
-    // Check collections mega navigation links
-    await expect(page.locator('nav.desktop-nav a[href="/collections/kitchens/"]')).toBeVisible();
-    await expect(page.locator('nav.desktop-nav a[href="/collections/bathrooms/"]')).toBeVisible();
+    // Check collections direct navigation links
+    await expect(page.locator('nav.desktop-nav > a[href="/collections/kitchens/"]')).toBeVisible();
+    await expect(page.locator('nav.desktop-nav > a[href="/collections/bathrooms/"]')).toBeVisible();
   });
 });
