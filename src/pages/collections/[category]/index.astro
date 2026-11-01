@@ -1,9 +1,11 @@
 ---
 import SiteLayout from '../../../layouts/SiteLayout.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ResponsivePhoto from '../../../components/ResponsivePhoto.astro';
 import { collectionsData, type CollectionCategory } from '../../../data/collections';
 import { modelsData, type ModelDetail } from '../../../data/models';
 import { getBreadcrumbSchema } from '../../../lib/structured-data';
+import DynamicWatermark from '../../../components/DynamicWatermark.astro';
 
 export async function getStaticPaths() {
   return Object.values(collectionsData).map((category) => ({
@@ -25,14 +27,25 @@ const breadcrumbItems = [
   { name: category.title, url: `/collections/${category.slug}/` }
 ];
 const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
-import DynamicWatermark from '../../../components/DynamicWatermark.astro';
+
+// High-Definition Hero Panorama mapping tailored specifically to each architectural collection
+const categoryHeroImages: Record<string, string> = {
+  "kitchens": "/assets/img/home-category-kitchens.webp",
+  "bathrooms": "/assets/img/home-category-bathrooms.webp",
+  "pantry-larder": "/assets/img/home-category-pantry-larder.webp",
+  "coffee-stations": "/assets/img/home-category-coffee-stations.webp",
+  "fitted-storage": "/assets/img/home-category-fitted-storage.webp",
+  "kitchen-doors": "/assets/img/home-category-kitchen-doors.webp"
+};
+
+const heroImage = categoryHeroImages[category.slug] || category.image;
 ---
 
 <SiteLayout 
   title={category.metaTitle}
   description={category.metaDescription}
   canonicalPath={`/collections/${category.slug}/`}
-  image={category.image}
+  image={heroImage}
   structuredData={breadcrumbSchema}
 >
   <Breadcrumbs items={breadcrumbItems} />
@@ -40,100 +53,336 @@ import DynamicWatermark from '../../../components/DynamicWatermark.astro';
   <!-- Ghost Watermark Header -->
   <DynamicWatermark text={category.title} />
 
-  <!-- Category Hero -->
-  <section class="wrap" style="padding-bottom: 40px;">
-    <div style="max-width: 820px;" data-reveal>
-      <span class="section-eyebrow">{category.heroEyebrow}</span>
-      <h1>{category.title}</h1>
-      <p style="font-size: 18px; line-height: 1.6; color: #434c44; margin-top: 14px;">
-        {category.description}
-      </p>
+  <!-- Immersive Architectural Hero Section -->
+  <section class="wrap category-hero-section" data-reveal>
+    <div class="category-hero-card">
+      <div class="hero-image-container">
+        <ResponsivePhoto 
+          src={heroImage} 
+          alt={`Cabivella ${category.title} Architectural Master Joinery`} 
+          width={1600} 
+          height={750} 
+          eager={true} 
+          className="category-hero-img"
+        />
+        <div class="hero-gradient-overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content-panel">
+        <span class="hero-eyebrow-badge">{category.heroEyebrow}</span>
+        <h1 class="hero-title">{category.title}</h1>
+        <p class="hero-description">
+          {category.description}
+        </p>
+        <div class="hero-meta-strip">
+          <span class="hero-stat-pill">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+              <line x1="3" y1="9" x2="21" y2="9"></line>
+              <line x1="9" y1="21" x2="9" y2="9"></line>
+            </svg>
+            <strong>{categoryModels.length}</strong> Architectural Models
+          </span>
+          <span class="hero-stat-pill">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            Solid Hardwood & MR-MDF
+          </span>
+          <span class="hero-stat-pill">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            UK Made-to-Measure
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Models Section Header -->
+  <section class="wrap models-header-strip" data-reveal>
+    <div class="section-divider-bar">
+      <h2>{category.title} Design Directions</h2>
+      <span class="counter-badge">{categoryModels.length} Specifications Available</span>
     </div>
   </section>
 
   <!-- Models Grid -->
-  <section class="wrap" style="padding-bottom: 80px;" aria-labelledby="models-heading">
+  <section class="wrap" style="padding-bottom: 90px;" aria-labelledby="models-heading">
     <h2 id="models-heading" class="visually-hidden">{category.title} Design Directions</h2>
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px;" data-reveal-group>
+    <div class="models-responsive-grid" data-reveal-group>
       {categoryModels.map((model, idx) => (
         <article class="v6-category-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
-          <a href={`/collections/${category.slug}/${model.slug}/`} style="display: flex; flex-direction: column; height: 100%;">
-            <div class="v6-card-photo model-card-photo">
-              <img 
+          <a href={`/collections/${category.slug}/${model.slug}/`} class="card-visual-link">
+            <div class="card-image-wrapper">
+              <ResponsivePhoto 
                 src={model.image} 
-                alt={`${model.title} cabinetry`} 
-                width="640" 
-                height="480" 
-                loading="lazy" 
-                decoding="async" 
+                alt={`${model.title} - British bespoke cabinetry`} 
+                width={700} 
+                height={550} 
+                className="card-photo"
               />
             </div>
-            <h3 style="font-size: 22px; margin-bottom: 8px;">{model.title}</h3>
-            <p class="v6-card-copy">{model.description}</p>
-            
-            <div style="margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: flex-end; font-size: 12px; color: var(--gold-dark); font-weight: 600;">
-              <div>
-                <span>{model.leadTime}</span>
-                {model.referencePriceTl && (
-                  <span style="display: block; font-size: 13px; color: var(--green); margin-top: 4px; font-weight: 700;">
-                    Ref: {model.referencePriceTl}
-                  </span>
-                )}
-              </div>
-              <span>View Specifications →</span>
-            </div>
           </a>
+          <div class="card-info-body">
+            <span class="card-eyebrow">{category.title.toUpperCase()} SPECIFICATION</span>
+            <h3 class="card-title">
+              <a href={`/collections/${category.slug}/${model.slug}/`}>{model.title}</a>
+            </h3>
+            <p class="card-description">{model.description}</p>
+
+            <div class="card-meta-row">
+              <span class="card-lead-time">{model.leadTime}</span>
+              <span class="card-price-ref">
+                <span class="ref-label">Ref:</span>
+                <strong>{model.materials[0]?.split(' ')[0] || 'Bespoke'}</strong>
+              </span>
+            </div>
+
+            <div class="card-action-bar">
+              <a href={`/collections/${category.slug}/${model.slug}/`} class="card-detail-btn">
+                <span>View Specifications</span>
+                <span aria-hidden="true" class="arrow">→</span>
+              </a>
+            </div>
+          </div>
         </article>
       ))}
-    </div>
-  </section>
-
-  <!-- Consultation Banner -->
-  <section class="cta-band" aria-labelledby="cat-cta">
-    <div class="wrap">
-      <div data-reveal>
-        <span class="section-eyebrow" style="color: #d1b88e;">BESPOKE ADVICE</span>
-        <h2 id="cat-cta">Planning a {category.title.toLowerCase()} project?</h2>
-        <p>Our joinery specialists are ready to discuss your room layout, provide material swatches, or review architectural elevations.</p>
-        <div class="cta-band-actions">
-          <a href="/enquire/" class="solid-btn" style="background: var(--gold-warm); color: #1a241c !important;">
-            <span>Enquire about {category.title}</span>
-            <span aria-hidden="true">→</span>
-          </a>
-          <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366;">
-            <span>WhatsApp Consultation</span>
-            <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </div>
     </div>
   </section>
 </SiteLayout>
 
 <style>
-  .model-card-photo {
+  .category-hero-section {
+    padding-top: 10px;
+    padding-bottom: 36px;
+  }
+  .category-hero-card {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #1c261e;
+    box-shadow: 0 16px 48px rgba(22, 30, 24, 0.12);
+    border: 1px solid var(--line);
+    min-height: 420px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .hero-image-container {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-image-container :global(.responsive-picture) {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-image-container :global(.responsive-picture img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .hero-gradient-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(18, 26, 20, 0.25) 0%,
+      rgba(18, 26, 20, 0.65) 50%,
+      rgba(14, 20, 15, 0.94) 100%
+    );
+  }
+  .hero-content-panel {
+    position: relative;
+    z-index: 10;
+    padding: clamp(24px, 4vw, 48px);
+    max-width: 860px;
+    color: #ffffff;
+  }
+  .hero-eyebrow-badge {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #e5c98f;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 4px 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(229, 201, 143, 0.3);
+  }
+  .hero-title {
+    font-family: var(--font-brand);
+    font-size: clamp(34px, 4.5vw, 54px);
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+  .hero-description {
+    font-size: clamp(15px, 1.2vw, 17px);
+    line-height: 1.65;
+    color: #e0ded6;
+    margin-bottom: 22px;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+  }
+  .hero-meta-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .hero-stat-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #f7f5ed;
+  }
+  .hero-stat-pill strong {
+    color: #e5c98f;
+    font-weight: 700;
+  }
+
+  /* Models Section Header */
+  .models-header-strip {
+    padding-top: 10px;
+    padding-bottom: 24px;
+  }
+  .section-divider-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 12px;
+  }
+  .section-divider-bar h2 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .counter-badge {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gold-dark);
+  }
+
+  /* Grid & Cards */
+  .models-responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 32px;
+  }
+  .card-visual-link {
+    display: block;
+    overflow: hidden;
+  }
+  .card-image-wrapper {
     aspect-ratio: 4 / 3;
     overflow: hidden;
     background: #fbf9f5;
-    border: 1px solid var(--border-subtle);
-    border-radius: 4px;
-    margin-bottom: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    box-shadow: 0 4px 16px rgba(22, 30, 24, 0.03);
+    border-bottom: 1px solid var(--line);
   }
-
-  .model-card-photo img {
+  .card-image-wrapper :global(.responsive-picture) {
+    width: 100%;
+    height: 100%;
+  }
+  .card-image-wrapper :global(.responsive-picture img) {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transition: transform 0.5s var(--ease);
+    transition: transform 0.4s var(--ease);
   }
-
-  .v6-category-card:hover .model-card-photo img {
-    transform: scale(1.04);
+  .v6-category-card:hover .card-image-wrapper :global(.responsive-picture img) {
+    transform: scale(1.03);
+  }
+  .card-info-body {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .card-eyebrow {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--gold-dark);
+    margin-bottom: 6px;
+  }
+  .card-title {
+    font-family: var(--font-heading);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  .card-title a {
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .card-title a:hover {
+    color: var(--gold-dark);
+  }
+  .card-description {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #434c44;
+    margin-bottom: 16px;
+    flex-grow: 1;
+  }
+  .card-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+    margin-bottom: 14px;
+    font-size: 12px;
+  }
+  .card-lead-time {
+    color: #697069;
+  }
+  .card-price-ref {
+    color: var(--text);
+  }
+  .ref-label {
+    color: #8c887e;
+    margin-right: 4px;
+  }
+  .card-action-bar {
+    border-top: 1px solid rgba(0,0,0,0.04);
+    padding-top: 10px;
+  }
+  .card-detail-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--green);
+    text-decoration: none;
+    transition: gap 0.2s ease;
+  }
+  .card-detail-btn:hover {
+    gap: 12px;
+    color: var(--green-hover);
   }
 </style>

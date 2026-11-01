@@ -10,32 +10,128 @@ const { images, title } = Astro.props;
 ---
 
 <div class="product-gallery">
-  <div class="gallery-main">
-    <ResponsivePhoto 
-      src={images[0]} 
-      alt={`${title} - Primary Architectural View`} 
-      width={1200} 
-      height={800} 
-      eager={true} 
-      className="main-view"
-    />
+  <div class="gallery-main" id="gallery-main-stage">
+    <div class="main-image-wrapper" id="main-image-container">
+      <ResponsivePhoto 
+        src={images[0]} 
+        alt={`${title} - Primary Architectural View`} 
+        width={1200} 
+        height={800} 
+        eager={true} 
+        className="main-view"
+      />
+      <!-- Watchmaker Loupe Circle -->
+      <div class="watchmaker-loupe" id="watchmaker-loupe" aria-hidden="true"></div>
+      
+      <!-- Loupe Instruction Badge -->
+      <div class="loupe-hint">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          <line x1="11" y1="8" x2="11" y2="14"></line>
+          <line x1="8" y1="11" x2="14" y2="11"></line>
+        </svg>
+        <span>Hover to Inspect Details</span>
+      </div>
+    </div>
   </div>
 
   {images.length > 1 && (
-    <div class="gallery-thumbs">
+    <div class="gallery-thumbs" id="gallery-thumbs-list">
       {images.map((img, idx) => (
-        <div class="thumb-item">
+        <button 
+          type="button" 
+          class={`thumb-item ${idx === 0 ? 'is-active' : ''}`}
+          data-src={img}
+          aria-label={`View detail ${idx + 1}`}
+        >
           <ResponsivePhoto 
             src={img} 
             alt={`${title} - Detail view ${idx + 1}`} 
             width={400} 
             height={300} 
           />
-        </div>
+        </button>
       ))}
     </div>
   )}
 </div>
+
+<script>
+  function initWatchmakerLoupe() {
+    const container = document.getElementById('main-image-container');
+    const loupe = document.getElementById('watchmaker-loupe');
+    const mainImg = container?.querySelector('.main-view img') as HTMLImageElement;
+    const thumbs = document.querySelectorAll<HTMLButtonElement>('#gallery-thumbs-list .thumb-item');
+
+    if (!container || !loupe || !mainImg) return;
+
+    const zoomFactor = 2.5;
+
+    // Update loupe background on thumbnail click
+    function updateMainImage(src: string) {
+      if (mainImg) {
+        mainImg.src = src;
+        loupe.style.backgroundImage = `url('${src}')`;
+      }
+    }
+
+    // Initialize loupe background
+    loupe.style.backgroundImage = `url('${mainImg.currentSrc || mainImg.src}')`;
+
+    thumbs.forEach(thumb => {
+      thumb.addEventListener('click', () => {
+        thumbs.forEach(t => t.classList.remove('is-active'));
+        thumb.classList.add('is-active');
+        const newSrc = thumb.getAttribute('data-src');
+        if (newSrc) updateMainImage(newSrc);
+      });
+    });
+
+    container.addEventListener('mouseenter', () => {
+      loupe.style.backgroundImage = `url('${mainImg.currentSrc || mainImg.src}')`;
+      loupe.style.opacity = '1';
+    });
+
+    container.addEventListener('mouseleave', () => {
+      loupe.style.opacity = '0';
+    });
+
+    container.addEventListener('mousemove', (e) => {
+      const rect = container.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      // Bound checks
+      if (x < 0 || x > rect.width || y < 0 || y > rect.height) {
+        loupe.style.opacity = '0';
+        return;
+      }
+
+      loupe.style.opacity = '1';
+
+      // Position loupe centered at cursor
+      const loupeRadius = 80; // 160px diameter
+      loupe.style.left = `${x - loupeRadius}px`;
+      loupe.style.top = `${y - loupeRadius}px`;
+
+      // Calculate background position
+      const bgWidth = rect.width * zoomFactor;
+      const bgHeight = rect.height * zoomFactor;
+      loupe.style.backgroundSize = `${bgWidth}px ${bgHeight}px`;
+
+      const bgX = (x * zoomFactor) - loupeRadius;
+      const bgY = (y * zoomFactor) - loupeRadius;
+      loupe.style.backgroundPosition = `-${bgX}px -${bgY}px`;
+    });
+  }
+
+  // Initialize on load and on astro page-load
+  document.addEventListener('DOMContentLoaded', initWatchmakerLoupe);
+  document.addEventListener('astro:page-load', initWatchmakerLoupe);
+  // Also run immediately
+  initWatchmakerLoupe();
+</script>
 
 <style>
   .product-gallery {
@@ -45,7 +141,6 @@ const { images, title } = Astro.props;
   }
   .gallery-main {
     border-radius: 4px;
-    overflow: hidden;
     background: #fbf9f5;
     border: 1px solid var(--line);
     height: clamp(380px, 45vw, 560px);
@@ -54,20 +149,78 @@ const { images, title } = Astro.props;
     align-items: center;
     box-shadow: 0 12px 32px rgba(22, 30, 24, 0.05);
     padding: 12px;
+    position: relative;
+    overflow: hidden;
   }
-  .gallery-main :global(.responsive-picture) {
+  .main-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: crosshair;
+  }
+  .main-image-wrapper :global(.responsive-picture) {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .gallery-main :global(.responsive-picture img) {
+  .main-image-wrapper :global(.responsive-picture img) {
     width: 100%;
     height: 100%;
     object-fit: contain;
     border-radius: 2px;
+    pointer-events: none;
   }
+
+  /* Watchmaker Loupe - Classic Horology Brass/Silver Precision Ring */
+  .watchmaker-loupe {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    border: 3.5px solid #a3824c; /* Architectural Brass Ring */
+    box-shadow: 
+      0 0 0 1.5px rgba(255, 255, 255, 0.9),
+      0 12px 36px rgba(0, 0, 0, 0.35),
+      inset 0 0 16px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    z-index: 50;
+  }
+
+  /* Loupe Hint Badge */
+  .loupe-hint {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-family: var(--font-body);
+    font-weight: 500;
+    color: var(--text-muted);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .main-image-wrapper:hover .loupe-hint {
+    opacity: 0;
+  }
+
   .gallery-thumbs {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
@@ -83,11 +236,13 @@ const { images, title } = Astro.props;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+    transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease), transform 0.2s ease;
+    cursor: pointer;
   }
-  .thumb-item:hover {
-    border-color: var(--gold);
-    box-shadow: 0 4px 12px rgba(22, 30, 24, 0.08);
+  .thumb-item:hover, .thumb-item.is-active {
+    border-color: #a3824c;
+    box-shadow: 0 4px 14px rgba(163, 130, 76, 0.2);
+    transform: translateY(-2px);
   }
   .thumb-item :global(.responsive-picture) {
     width: 100%;
@@ -95,6 +250,7 @@ const { images, title } = Astro.props;
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: none;
   }
   .thumb-item :global(.responsive-picture img) {
     width: 100%;

@@ -6,7 +6,16 @@ import { footerNav, siteConfig } from '../data/navigation';
   <div class="wrap foot-top">
     <!-- Brand Info -->
     <div>
-      <a href="/" class="foot-logo">{siteConfig.name}</a>
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+        <img 
+          src="/assets/img/cabivella-crest-transparent.webp" 
+          alt="Cabivella Crest" 
+          width="48" 
+          height="44" 
+          style="object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06));"
+        />
+        <a href="/" class="foot-logo" style="margin: 0;">{siteConfig.name}</a>
+      </div>
       <p class="foot-tagline">
         Considered cabinetry for kitchens, bathrooms and the spaces in between.
       </p>

@@ -3,15 +3,30 @@
   <url>
     <loc>https://cabivella.co.uk/</loc>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/aydos-compact-vanity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/beat-ribbed-vanity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/belgravia-double-140/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -31,12 +46,27 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/chelsea-monolith-100/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/chiswick-walnut-100/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/cotswold-suite-115/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/daisy-reeded-console/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/design-monolith-vanity/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -51,6 +81,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/fluted-vanities/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/greenwich-cherry-100/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -61,7 +96,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/integra-square-tower/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/kensington-artisan-80/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/kensington-reeded-100/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/knightsbridge-master-160/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -71,7 +121,17 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/malta-vanity-console/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/marylebone-lumiere-80/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/mayfair-cloakroom-65/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -91,7 +151,32 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/root-groove-tall-unit/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/root-groove-vanity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/st-james-reeded-120/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/st-james-trio-100/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/tall-bathroom-storage/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/wall-hung-vanities/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -111,122 +196,382 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/barnes-radiator-coffee-console-130/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/aldwych-artisan-beverage-credenza-36/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/battersea-integrated-larder-unit/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/balham-artisan-beverage-credenza-71/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/belgravia-grand-beverage-247/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/barnes-artisan-beverage-credenza-16/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/bloomsbury-quaddoor-pantry-120/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/barnes-common-artisan-beverage-credenza-75/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/chelsea-illuminated-coffee-armoire/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/battersea-artisan-beverage-credenza-18/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/chiswick-utility-beverage-120/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/bayswater-artisan-beverage-credenza-32/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/clapham-tripledoor-morning-station/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/belgravia-artisan-beverage-credenza-02/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/cotswold-dualtower-pantry-217/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/belsize-artisan-beverage-credenza-28/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/dulwich-multimodule-pantry/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/bermondsey-artisan-beverage-credenza-65/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/fitzrovia-compact-credenza-90/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/blackheath-artisan-beverage-credenza-43/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/greenwich-twindoor-breakfast-cabinet/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/bloomsbury-artisan-beverage-credenza-09/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/hampstead-linear-barista-90/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/borough-artisan-beverage-credenza-56/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/highgate-dualsection-credenza-180/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/brixton-artisan-beverage-credenza-69/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/islington-grand-vitrine-suite/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/camberwell-artisan-beverage-credenza-68/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/kensington-larder-coffee-184/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/canary-artisan-beverage-credenza-42/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/knightsbridge-drawer-stack-station/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/canary-wharf-artisan-beverage-credenza-62/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/marylebone-tridoor-coffee-cabinet/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/chelsea-artisan-beverage-credenza-04/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/mayfair-barista-armoire-154/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/chiswick-artisan-beverage-credenza-14/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/pimlico-grand-culinary-210/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/clapham-artisan-beverage-credenza-19/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/putney-ambient-beverage-armoire/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/clerkenwell-artisan-beverage-credenza-38/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/richmond-vitrine-barista-niche/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/cotswold-artisan-beverage-credenza-24/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/st-james-fluted-glass-station/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/covent-garden-artisan-beverage-credenza-59/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/westminster-fluted-display-larder/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/dulwich-artisan-beverage-credenza-20/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/wimbledon-petite-coffee-90/</loc>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/dulwich-village-artisan-beverage-credenza-50/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/ealing-artisan-beverage-credenza-48/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/fitzrovia-artisan-beverage-credenza-08/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/fulham-artisan-beverage-credenza-45/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/green-park-artisan-beverage-credenza-52/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/greenwich-artisan-beverage-credenza-21/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/greenwich-park-artisan-beverage-credenza-57/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/hampstead-artisan-beverage-credenza-10/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/harrow-artisan-beverage-credenza-49/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/highgate-artisan-beverage-credenza-11/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/holborn-artisan-beverage-credenza-25/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/holland-park-artisan-beverage-credenza-29/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/hyde-park-artisan-beverage-credenza-55/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/islington-artisan-beverage-credenza-12/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/kennington-artisan-beverage-credenza-66/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/kensington-artisan-beverage-credenza-03/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/kew-artisan-beverage-credenza-46/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/kingston-artisan-beverage-credenza-51/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/knights-artisan-beverage-credenza-54/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/knightsbridge-artisan-beverage-credenza-05/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/lambeth-artisan-beverage-credenza-64/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/marylebone-artisan-beverage-credenza-07/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/mayfair-artisan-beverage-credenza-01/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/notting-hill-artisan-beverage-credenza-30/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/paddington-artisan-beverage-credenza-31/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/peckham-artisan-beverage-credenza-67/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/piccadilly-artisan-beverage-credenza-34/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/pimlico-artisan-beverage-credenza-22/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/primrose-artisan-beverage-credenza-27/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/putney-artisan-beverage-credenza-17/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/putney-heath-artisan-beverage-credenza-74/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/regent-artisan-beverage-credenza-33/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/richmond-artisan-beverage-credenza-13/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/roehampton-artisan-beverage-credenza-76/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/shoreditch-artisan-beverage-credenza-39/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/soho-artisan-beverage-credenza-26/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/southwark-artisan-beverage-credenza-60/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/spitalfields-artisan-beverage-credenza-40/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/st-james-artisan-beverage-credenza-23/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/st-pancras-artisan-beverage-credenza-58/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/strand-artisan-beverage-credenza-35/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/streatham-artisan-beverage-credenza-70/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/temple-artisan-beverage-credenza-37/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/tooting-artisan-beverage-credenza-72/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/twickenham-artisan-beverage-credenza-47/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/vauxhall-artisan-beverage-credenza-63/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/victoria-artisan-beverage-credenza-53/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/wandsworth-artisan-beverage-credenza-44/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/wapping-artisan-beverage-credenza-41/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/west-end-artisan-beverage-credenza-61/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/westminster-artisan-beverage-credenza-06/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/wimbledon-artisan-beverage-credenza-15/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/wimbledon-village-artisan-beverage-credenza-73/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -236,122 +581,302 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/barnes-6door-integrated-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/aldwych-architectural-master-wardrobe-36/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/battersea-5door-boheme-suite/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/barnes-5-door-master-wardrobe-16/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/belgravia-5door-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/battersea-6-door-master-wardrobe-18/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/bloomsbury-5door-armoire/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/bayswater-5-door-master-wardrobe-32/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/chelsea-5door-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/belgravia-5-door-master-wardrobe-02/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/chiswick-5door-minimalist-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/belsize-6-door-master-wardrobe-28/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/clapham-5door-integrated-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/blackheath-4-door-master-wardrobe-43/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/cotswold-6door-mirrored-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/bloomsbury-5-door-master-wardrobe-09/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/dulwich-6door-boheme-suite/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/borough-architectural-master-wardrobe-56/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/fitzrovia-6door-artisan-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/canary-4-door-master-wardrobe-42/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/greenwich-6door-minimalist-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/chelsea-6-door-master-wardrobe-04/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/hampstead-5door-artisan-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/chiswick-6-door-master-wardrobe-14/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/highgate-6door-acoustic-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/clapham-5-door-master-wardrobe-19/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/islington-5door-acoustic-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/clerkenwell-6-door-master-wardrobe-38/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/kensington-4door-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/cotswold-5-door-master-wardrobe-24/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/knightsbridge-5door-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/covent-garden-architectural-master-wardrobe-59/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/marylebone-6door-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/dulwich-6-door-master-wardrobe-20/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/mayfair-6door-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/dulwich-village-5-door-master-wardrobe-50/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/pimlico-6door-master-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/ealing-5-door-master-wardrobe-48/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/putney-sliding-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/fitzrovia-4-door-master-wardrobe-08/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/richmond-5door-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/fulham-4-door-master-wardrobe-45/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/st-james-6door-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/green-park-6-door-master-wardrobe-52/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/westminster-4door-wardrobe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/greenwich-5-door-master-wardrobe-21/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/wimbledon-4door-minimalist-robe/</loc>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/greenwich-park-architectural-master-wardrobe-57/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/hampstead-6-door-master-wardrobe-10/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/harrow-5-door-master-wardrobe-49/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/highgate-5-door-master-wardrobe-11/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/holborn-architectural-master-wardrobe-25/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/holland-park-5-door-master-wardrobe-29/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/hyde-park-6-door-master-wardrobe-55/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/islington-6-door-master-wardrobe-12/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/kensington-6-door-master-wardrobe-03/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/kew-4-door-master-wardrobe-46/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/kingston-6-door-master-wardrobe-51/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/knights-6-door-master-wardrobe-54/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/knightsbridge-5-door-master-wardrobe-05/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/marylebone-5-door-master-wardrobe-07/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/mayfair-4-door-master-wardrobe-01/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/notting-hill-5-door-master-wardrobe-30/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/paddington-6-door-master-wardrobe-31/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/piccadilly-6-door-master-wardrobe-34/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/pimlico-architectural-master-wardrobe-22/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/primrose-6-door-master-wardrobe-27/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/putney-4-door-master-wardrobe-17/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/regent-architectural-master-wardrobe-33/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/richmond-5-door-master-wardrobe-13/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/shoreditch-5-door-master-wardrobe-39/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/soho-5-door-master-wardrobe-26/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/southwark-4-door-master-wardrobe-60/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/spitalfields-5-door-master-wardrobe-40/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/st-james-6-door-master-wardrobe-23/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/st-pancras-4-door-master-wardrobe-58/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/strand-5-door-master-wardrobe-35/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/temple-6-door-master-wardrobe-37/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/twickenham-5-door-master-wardrobe-47/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/victoria-6-door-master-wardrobe-53/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/wandsworth-4-door-master-wardrobe-44/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/wapping-architectural-master-wardrobe-41/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/westminster-6-door-master-wardrobe-06/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/wimbledon-6-door-master-wardrobe-15/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -411,6 +936,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/arya-classic-shaker/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/axis-handleless-shadow/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/barnes-grandhorizon-kitchen-410/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -426,7 +961,27 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/belgravia-executive-kitchen-310/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/belgravia-grand-380/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/belgravia-island-olive-240/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/bloomsbury-deepdrawer-kitchen-400/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/chelsea-dualtone-highgloss-410/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -442,6 +997,26 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchens/clapham-minimalist-pantry-400/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/compact-kitchens/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/contemporary-kitchens/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/cotswold-classic-280/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/cotswold-fullheight-suite-400/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -466,6 +1041,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/hampstead-contemporary-suite-400/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/hampstead-tower-pantry-400/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -481,6 +1061,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/kensington-culinary-suite-310/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/kensington-linear-240/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/kensington-linear-artisan-310/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -491,12 +1081,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/knightsbridge-tall-larder-410/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/lea-bevelled-shaker/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/lora-contemporary-slab/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/luna-micro-shaker/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/marylebone-dualtone-corner-400/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchens/mayfair-executive-suite-310/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/mayfair-monolith-highgloss-410/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/mayfair-pantry-320/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -516,12 +1136,52 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/richmond-dualtower-kitchen-400/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/richmond-studio-200/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/shaker-kitchens/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/st-james-corner-kitchen-400/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/st-james-integrated-tower-410/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/urban-compact-160/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/vega-ergonomic-suite/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/vera-architectural-kitchen/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/westminster-alabaster-corner-410/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/westminster-chef-suite-310/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -578,41 +1238,41 @@
   <url>
     <loc>https://cabivella.co.uk/cookies/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/enquire/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/image-credits/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/materials/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/our-story/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/privacy/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/thank-you/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/trade/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>

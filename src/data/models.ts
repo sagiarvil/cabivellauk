@@ -5624,5 +5624,4429 @@ export const modelsData: Record<string, ModelDetail> = {
           "Dedicated tall appliance housing and integrated microwave voids",
           "Anti-bacterial wipe-clean surfaces impervious to kitchen steam and moisture"
       ]
-  }
+  },
+
+  "mayfair-4-door-master-wardrobe-01": {
+      "slug": "mayfair-4-door-master-wardrobe-01",
+      "category": "fitted-storage",
+      "title": "Mayfair 4-Door Integrated Wardrobe",
+      "metaTitle": "Mayfair 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22JUL2004ATAD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2004ATAD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2004ATAD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2004ATAD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2004ATAD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Mayfair 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "belgravia-5-door-master-wardrobe-02": {
+      "slug": "belgravia-5-door-master-wardrobe-02",
+      "category": "fitted-storage",
+      "title": "Belgravia 5-Door Integrated Wardrobe",
+      "metaTitle": "Belgravia 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22VCA2005KGKG_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2005KGKG_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2005KGKG_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2005KGKG_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2005KGKG_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Belgravia 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "kensington-6-door-master-wardrobe-03": {
+      "slug": "kensington-6-door-master-wardrobe-03",
+      "category": "fitted-storage",
+      "title": "Kensington 6-Door Integrated Wardrobe",
+      "metaTitle": "Kensington 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22VCA2006KGKG_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2006KGKG_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2006KGKG_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2006KGKG_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VCA2006KGKG_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kensington 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "chelsea-6-door-master-wardrobe-04": {
+      "slug": "chelsea-6-door-master-wardrobe-04",
+      "category": "fitted-storage",
+      "title": "Chelsea 6-Door Integrated Wardrobe",
+      "metaTitle": "Chelsea 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22OLA2006QFQG_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2006QFQG_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2006QFQG_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2006QFQG_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2006QFQG_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Chelsea 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "knightsbridge-5-door-master-wardrobe-05": {
+      "slug": "knightsbridge-5-door-master-wardrobe-05",
+      "category": "fitted-storage",
+      "title": "Knightsbridge 5-Door Integrated Wardrobe",
+      "metaTitle": "Knightsbridge 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22OLA2005QFQG_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2005QFQG_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2005QFQG_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2005QFQG_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22OLA2005QFQG_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Knightsbridge 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "westminster-6-door-master-wardrobe-06": {
+      "slug": "westminster-6-door-master-wardrobe-06",
+      "category": "fitted-storage",
+      "title": "Westminster 6-Door Integrated Wardrobe",
+      "metaTitle": "Westminster 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22BLO2006FTFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2006FTFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2006FTFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2006FTFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2006FTFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Westminster 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "marylebone-5-door-master-wardrobe-07": {
+      "slug": "marylebone-5-door-master-wardrobe-07",
+      "category": "fitted-storage",
+      "title": "Marylebone 5-Door Integrated Wardrobe",
+      "metaTitle": "Marylebone 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22BLO2005FTFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2005FTFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2005FTFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2005FTFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2005FTFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Marylebone 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "fitzrovia-4-door-master-wardrobe-08": {
+      "slug": "fitzrovia-4-door-master-wardrobe-08",
+      "category": "fitted-storage",
+      "title": "Fitzrovia 4-Door Integrated Wardrobe",
+      "metaTitle": "Fitzrovia 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22BLO2004FTFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2004FTFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2004FTFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2004FTFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BLO2004FTFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Fitzrovia 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "bloomsbury-5-door-master-wardrobe-09": {
+      "slug": "bloomsbury-5-door-master-wardrobe-09",
+      "category": "fitted-storage",
+      "title": "Bloomsbury 5-Door Integrated Wardrobe",
+      "metaTitle": "Bloomsbury 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22VAL2005HZPD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2005HZPD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2005HZPD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2005HZPD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2005HZPD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Bloomsbury 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "hampstead-6-door-master-wardrobe-10": {
+      "slug": "hampstead-6-door-master-wardrobe-10",
+      "category": "fitted-storage",
+      "title": "Hampstead 6-Door Integrated Wardrobe",
+      "metaTitle": "Hampstead 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22VAL2006HZPD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2006HZPD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2006HZPD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2006HZPD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22VAL2006HZPD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Hampstead 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "highgate-5-door-master-wardrobe-11": {
+      "slug": "highgate-5-door-master-wardrobe-11",
+      "category": "fitted-storage",
+      "title": "Highgate 5-Door Integrated Wardrobe",
+      "metaTitle": "Highgate 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22SEM2005SLBP_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2005SLBP_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2005SLBP_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2005SLBP_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2005SLBP_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Highgate 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "islington-6-door-master-wardrobe-12": {
+      "slug": "islington-6-door-master-wardrobe-12",
+      "category": "fitted-storage",
+      "title": "Islington 6-Door Integrated Wardrobe",
+      "metaTitle": "Islington 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22SEM2006SLBP_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2006SLBP_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2006SLBP_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2006SLBP_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22SEM2006SLBP_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Islington 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "richmond-5-door-master-wardrobe-13": {
+      "slug": "richmond-5-door-master-wardrobe-13",
+      "category": "fitted-storage",
+      "title": "Richmond 5-Door Integrated Wardrobe",
+      "metaTitle": "Richmond 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22ROS2005FSFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2005FSFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2005FSFS_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2005FSFS_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2005FSFS_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Richmond 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "chiswick-6-door-master-wardrobe-14": {
+      "slug": "chiswick-6-door-master-wardrobe-14",
+      "category": "fitted-storage",
+      "title": "Chiswick 6-Door Integrated Wardrobe",
+      "metaTitle": "Chiswick 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22ROS2006FSFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2006FSFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2006FSFS_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2006FSFS_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ROS2006FSFS_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Chiswick 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "wimbledon-6-door-master-wardrobe-15": {
+      "slug": "wimbledon-6-door-master-wardrobe-15",
+      "category": "fitted-storage",
+      "title": "Wimbledon 6-Door Integrated Wardrobe",
+      "metaTitle": "Wimbledon 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wimbledon 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "barnes-5-door-master-wardrobe-16": {
+      "slug": "barnes-5-door-master-wardrobe-16",
+      "category": "fitted-storage",
+      "title": "Barnes 5-Door Integrated Wardrobe",
+      "metaTitle": "Barnes 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EWA2005MWMW_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2005MWMW_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2005MWMW_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2005MWMW_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2005MWMW_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Barnes 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "putney-4-door-master-wardrobe-17": {
+      "slug": "putney-4-door-master-wardrobe-17",
+      "category": "fitted-storage",
+      "title": "Putney 4-Door Integrated Wardrobe",
+      "metaTitle": "Putney 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EWA2004MWMW_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2004MWMW_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2004MWMW_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2004MWMW_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EWA2004MWMW_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Putney 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "battersea-6-door-master-wardrobe-18": {
+      "slug": "battersea-6-door-master-wardrobe-18",
+      "category": "fitted-storage",
+      "title": "Battersea 6-Door Integrated Wardrobe",
+      "metaTitle": "Battersea 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22BEM2006FTFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2006FTFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2006FTFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2006FTFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2006FTFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Battersea 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "clapham-5-door-master-wardrobe-19": {
+      "slug": "clapham-5-door-master-wardrobe-19",
+      "category": "fitted-storage",
+      "title": "Clapham 5-Door Integrated Wardrobe",
+      "metaTitle": "Clapham 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22BEM2005FTFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2005FTFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2005FTFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2005FTFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2005FTFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Clapham 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "dulwich-6-door-master-wardrobe-20": {
+      "slug": "dulwich-6-door-master-wardrobe-20",
+      "category": "fitted-storage",
+      "title": "Dulwich 6-Door Integrated Wardrobe",
+      "metaTitle": "Dulwich 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LUC2006BSPG_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2006BSPG_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2006BSPG_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2006BSPG_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2006BSPG_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Dulwich 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "greenwich-5-door-master-wardrobe-21": {
+      "slug": "greenwich-5-door-master-wardrobe-21",
+      "category": "fitted-storage",
+      "title": "Greenwich 5-Door Integrated Wardrobe",
+      "metaTitle": "Greenwich 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LUC2005BSPG_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2005BSPG_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2005BSPG_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2005BSPG_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LUC2005BSPG_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Greenwich 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "pimlico-architectural-master-wardrobe-22": {
+      "slug": "pimlico-architectural-master-wardrobe-22",
+      "category": "fitted-storage",
+      "title": "Pimlico Architectural Integrated Wardrobe",
+      "metaTitle": "Pimlico Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22AES2001GZFY_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22AES2001GZFY_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22AES2001GZFY_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Pimlico Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "st-james-6-door-master-wardrobe-23": {
+      "slug": "st-james-6-door-master-wardrobe-23",
+      "category": "fitted-storage",
+      "title": "St James 6-Door Integrated Wardrobe",
+      "metaTitle": "St James 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22AES2006GZFY_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22AES2006GZFY_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22AES2006GZFY_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22AES2006GZFY_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the St James 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "cotswold-5-door-master-wardrobe-24": {
+      "slug": "cotswold-5-door-master-wardrobe-24",
+      "category": "fitted-storage",
+      "title": "Cotswold 5-Door Integrated Wardrobe",
+      "metaTitle": "Cotswold 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22AES2005GZFY_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22AES2005GZFY_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22AES2005GZFY_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Cotswold 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "holborn-architectural-master-wardrobe-25": {
+      "slug": "holborn-architectural-master-wardrobe-25",
+      "category": "fitted-storage",
+      "title": "Holborn Architectural Integrated Wardrobe",
+      "metaTitle": "Holborn Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22MTD2001TDZA_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2001TDZA_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2001TDZA_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2001TDZA_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Holborn Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "soho-5-door-master-wardrobe-26": {
+      "slug": "soho-5-door-master-wardrobe-26",
+      "category": "fitted-storage",
+      "title": "Soho 5-Door Integrated Wardrobe",
+      "metaTitle": "Soho 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22MTD2005TDZA_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2005TDZA_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2005TDZA_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2005TDZA_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Soho 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "primrose-6-door-master-wardrobe-27": {
+      "slug": "primrose-6-door-master-wardrobe-27",
+      "category": "fitted-storage",
+      "title": "Primrose 6-Door Integrated Wardrobe",
+      "metaTitle": "Primrose 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EKL2062TRFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2062TRFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2062TRFS_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Primrose 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "belsize-6-door-master-wardrobe-28": {
+      "slug": "belsize-6-door-master-wardrobe-28",
+      "category": "fitted-storage",
+      "title": "Belsize 6-Door Integrated Wardrobe",
+      "metaTitle": "Belsize 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EKL2061TRFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2061TRFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2061TRFS_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2061TRFS_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Belsize 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "holland-park-5-door-master-wardrobe-29": {
+      "slug": "holland-park-5-door-master-wardrobe-29",
+      "category": "fitted-storage",
+      "title": "Holland Park 5-Door Integrated Wardrobe",
+      "metaTitle": "Holland Park 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EKL2052TRFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2052TRFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2052TRFS_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2052TRFS_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Holland Park 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "notting-hill-5-door-master-wardrobe-30": {
+      "slug": "notting-hill-5-door-master-wardrobe-30",
+      "category": "fitted-storage",
+      "title": "Notting Hill 5-Door Integrated Wardrobe",
+      "metaTitle": "Notting Hill 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EKL2051TRFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2051TRFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2051TRFS_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2051TRFS_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Notting Hill 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "paddington-6-door-master-wardrobe-31": {
+      "slug": "paddington-6-door-master-wardrobe-31",
+      "category": "fitted-storage",
+      "title": "Paddington 6-Door Integrated Wardrobe",
+      "metaTitle": "Paddington 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LZO2006HZFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2006HZFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2006HZFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2006HZFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2006HZFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Paddington 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "bayswater-5-door-master-wardrobe-32": {
+      "slug": "bayswater-5-door-master-wardrobe-32",
+      "category": "fitted-storage",
+      "title": "Bayswater 5-Door Integrated Wardrobe",
+      "metaTitle": "Bayswater 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LZO2005HZFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2005HZFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2005HZFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2005HZFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2005HZFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Bayswater 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "regent-architectural-master-wardrobe-33": {
+      "slug": "regent-architectural-master-wardrobe-33",
+      "category": "fitted-storage",
+      "title": "Regent Architectural Integrated Wardrobe",
+      "metaTitle": "Regent Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22CCL2001FDQR_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2001FDQR_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2001FDQR_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2001FDQR_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2001FDQR_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Regent Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "piccadilly-6-door-master-wardrobe-34": {
+      "slug": "piccadilly-6-door-master-wardrobe-34",
+      "category": "fitted-storage",
+      "title": "Piccadilly 6-Door Integrated Wardrobe",
+      "metaTitle": "Piccadilly 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22STU2006BMQR_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22STU2006BMQR_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22STU2006BMQR_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22STU2006BMQR_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Piccadilly 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "strand-5-door-master-wardrobe-35": {
+      "slug": "strand-5-door-master-wardrobe-35",
+      "category": "fitted-storage",
+      "title": "Strand 5-Door Integrated Wardrobe",
+      "metaTitle": "Strand 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22STU2005BMQR_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22STU2005BMQR_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22STU2005BMQR_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Strand 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "aldwych-architectural-master-wardrobe-36": {
+      "slug": "aldwych-architectural-master-wardrobe-36",
+      "category": "fitted-storage",
+      "title": "Aldwych Architectural Integrated Wardrobe",
+      "metaTitle": "Aldwych Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSFS_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Aldwych Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "temple-6-door-master-wardrobe-37": {
+      "slug": "temple-6-door-master-wardrobe-37",
+      "category": "fitted-storage",
+      "title": "Temple 6-Door Integrated Wardrobe",
+      "metaTitle": "Temple 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSKJ_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSKJ_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSKJ_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSKJ_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Temple 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "clerkenwell-6-door-master-wardrobe-38": {
+      "slug": "clerkenwell-6-door-master-wardrobe-38",
+      "category": "fitted-storage",
+      "title": "Clerkenwell 6-Door Integrated Wardrobe",
+      "metaTitle": "Clerkenwell 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSFS_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Clerkenwell 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "shoreditch-5-door-master-wardrobe-39": {
+      "slug": "shoreditch-5-door-master-wardrobe-39",
+      "category": "fitted-storage",
+      "title": "Shoreditch 5-Door Integrated Wardrobe",
+      "metaTitle": "Shoreditch 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSFS_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Shoreditch 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "spitalfields-5-door-master-wardrobe-40": {
+      "slug": "spitalfields-5-door-master-wardrobe-40",
+      "category": "fitted-storage",
+      "title": "Spitalfields 5-Door Integrated Wardrobe",
+      "metaTitle": "Spitalfields 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSKJ_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSKJ_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSKJ_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSKJ_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Spitalfields 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "wapping-architectural-master-wardrobe-41": {
+      "slug": "wapping-architectural-master-wardrobe-41",
+      "category": "fitted-storage",
+      "title": "Wapping Architectural Integrated Wardrobe",
+      "metaTitle": "Wapping Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSKJ_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSKJ_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSKJ_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSKJ_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wapping Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "canary-4-door-master-wardrobe-42": {
+      "slug": "canary-4-door-master-wardrobe-42",
+      "category": "fitted-storage",
+      "title": "Canary 4-Door Integrated Wardrobe",
+      "metaTitle": "Canary 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22BEM2004FTFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2004FTFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2004FTFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2004FTFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BEM2004FTFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Canary 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "blackheath-4-door-master-wardrobe-43": {
+      "slug": "blackheath-4-door-master-wardrobe-43",
+      "category": "fitted-storage",
+      "title": "Blackheath 4-Door Integrated Wardrobe",
+      "metaTitle": "Blackheath 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EKL2040TRFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2040TRFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2040TRFS_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2040TRFS_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Blackheath 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "wandsworth-4-door-master-wardrobe-44": {
+      "slug": "wandsworth-4-door-master-wardrobe-44",
+      "category": "fitted-storage",
+      "title": "Wandsworth 4-Door Integrated Wardrobe",
+      "metaTitle": "Wandsworth 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22EKL2004TRFS_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2004TRFS_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22EKL2004TRFS_2.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wandsworth 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "fulham-4-door-master-wardrobe-45": {
+      "slug": "fulham-4-door-master-wardrobe-45",
+      "category": "fitted-storage",
+      "title": "Fulham 4-Door Integrated Wardrobe",
+      "metaTitle": "Fulham 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22BET2004PDNO_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22BET2004PDNO_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BET2004PDNO_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22BET2004PDNO_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Fulham 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "kew-4-door-master-wardrobe-46": {
+      "slug": "kew-4-door-master-wardrobe-46",
+      "category": "fitted-storage",
+      "title": "Kew 4-Door Integrated Wardrobe",
+      "metaTitle": "Kew 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LVB2004FDGF_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LVB2004FDGF_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LVB2004FDGF_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LVB2004FDGF_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kew 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "twickenham-5-door-master-wardrobe-47": {
+      "slug": "twickenham-5-door-master-wardrobe-47",
+      "category": "fitted-storage",
+      "title": "Twickenham 5-Door Integrated Wardrobe",
+      "metaTitle": "Twickenham 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22JUL2005ATAD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2005ATAD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2005ATAD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2005ATAD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2005ATAD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Twickenham 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "ealing-5-door-master-wardrobe-48": {
+      "slug": "ealing-5-door-master-wardrobe-48",
+      "category": "fitted-storage",
+      "title": "Ealing 5-Door Integrated Wardrobe",
+      "metaTitle": "Ealing 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LGN2005AFAD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LGN2005AFAD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LGN2005AFAD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LGN2005AFAD_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Ealing 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "harrow-5-door-master-wardrobe-49": {
+      "slug": "harrow-5-door-master-wardrobe-49",
+      "category": "fitted-storage",
+      "title": "Harrow 5-Door Integrated Wardrobe",
+      "metaTitle": "Harrow 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22ARS20052V2V_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20052V2V_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20052V2V_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20052V2V_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20052V2V_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Harrow 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "dulwich-village-5-door-master-wardrobe-50": {
+      "slug": "dulwich-village-5-door-master-wardrobe-50",
+      "category": "fitted-storage",
+      "title": "Dulwich Village 5-Door Integrated Wardrobe",
+      "metaTitle": "Dulwich Village 5-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22CCL2005FDQR_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2005FDQR_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2005FDQR_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2005FDQR_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2005FDQR_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Dulwich Village 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 5-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "kingston-6-door-master-wardrobe-51": {
+      "slug": "kingston-6-door-master-wardrobe-51",
+      "category": "fitted-storage",
+      "title": "Kingston 6-Door Integrated Wardrobe",
+      "metaTitle": "Kingston 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22JUL2006ATAD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2006ATAD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2006ATAD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2006ATAD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22JUL2006ATAD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kingston 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "green-park-6-door-master-wardrobe-52": {
+      "slug": "green-park-6-door-master-wardrobe-52",
+      "category": "fitted-storage",
+      "title": "Green Park 6-Door Integrated Wardrobe",
+      "metaTitle": "Green Park 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LGN2006AFAD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LGN2006AFAD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LGN2006AFAD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LGN2006AFAD_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Green Park 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "victoria-6-door-master-wardrobe-53": {
+      "slug": "victoria-6-door-master-wardrobe-53",
+      "category": "fitted-storage",
+      "title": "Victoria 6-Door Integrated Wardrobe",
+      "metaTitle": "Victoria 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22ARS20062V2V_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20062V2V_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20062V2V_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20062V2V_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20062V2V_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Victoria 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "knights-6-door-master-wardrobe-54": {
+      "slug": "knights-6-door-master-wardrobe-54",
+      "category": "fitted-storage",
+      "title": "Knights 6-Door Integrated Wardrobe",
+      "metaTitle": "Knights 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22MTD2006TDZA_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2006TDZA_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2006TDZA_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22MTD2006TDZA_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Knights 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "hyde-park-6-door-master-wardrobe-55": {
+      "slug": "hyde-park-6-door-master-wardrobe-55",
+      "category": "fitted-storage",
+      "title": "Hyde Park 6-Door Integrated Wardrobe",
+      "metaTitle": "Hyde Park 6-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22CCL2006FDQR_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2006FDQR_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2006FDQR_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2006FDQR_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22CCL2006FDQR_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Hyde Park 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 6-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "borough-architectural-master-wardrobe-56": {
+      "slug": "borough-architectural-master-wardrobe-56",
+      "category": "fitted-storage",
+      "title": "Borough Architectural Integrated Wardrobe",
+      "metaTitle": "Borough Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22ARS20012V2V_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20012V2V_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20012V2V_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20012V2V_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22ARS20012V2V_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Borough Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "greenwich-park-architectural-master-wardrobe-57": {
+      "slug": "greenwich-park-architectural-master-wardrobe-57",
+      "category": "fitted-storage",
+      "title": "Greenwich Park Architectural Integrated Wardrobe",
+      "metaTitle": "Greenwich Park Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LZO2001HZFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2001HZFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2001HZFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2001HZFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2001HZFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Greenwich Park Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "st-pancras-4-door-master-wardrobe-58": {
+      "slug": "st-pancras-4-door-master-wardrobe-58",
+      "category": "fitted-storage",
+      "title": "St Pancras 4-Door Integrated Wardrobe",
+      "metaTitle": "St Pancras 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LZO2004HZFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2004HZFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2004HZFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2004HZFD_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LZO2004HZFD_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the St Pancras 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "covent-garden-architectural-master-wardrobe-59": {
+      "slug": "covent-garden-architectural-master-wardrobe-59",
+      "category": "fitted-storage",
+      "title": "Covent Garden Architectural Integrated Wardrobe",
+      "metaTitle": "Covent Garden Architectural Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LVB2009FDGF_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LVB2009FDGF_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LVB2009FDGF_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LVB2009FDGF_3.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LVB2009FDGF_4.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Covent Garden Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height architectural configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "southwark-4-door-master-wardrobe-60": {
+      "slug": "southwark-4-door-master-wardrobe-60",
+      "category": "fitted-storage",
+      "title": "Southwark 4-Door Integrated Wardrobe",
+      "metaTitle": "Southwark 4-Door Integrated Wardrobe | Cabivella UK",
+      "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "High-density moisture-resistant MR-MDF core",
+          "Solid European Ash interior drawer components",
+          "Concealed German soft-close hydraulic hinge systems"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Heritage Pumice",
+          "Oxford Midnight Blue",
+          "Natural Smoked Oak",
+          "Muted Sage Lacquer"
+      ],
+      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "image": "/assets/img/models/real_fitted_storage/mondi_22LDA2004FDFD_1.webp",
+      "gallery": [
+          "/assets/img/models/real_fitted_storage/mondi_22LDA2004FDFD_1.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LDA2004FDFD_2.webp",
+          "/assets/img/models/real_fitted_storage/mondi_22LDA2004FDFD_3.webp"
+      ],
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Southwark 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "keyFeatures": [
+          "Full-height 4-door configuration with balanced shadow-gap reveals",
+          "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
+          "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
+      ]
+  },
+  "mayfair-artisan-beverage-credenza-01": {
+      "slug": "mayfair-artisan-beverage-credenza-01",
+      "category": "coffee-stations",
+      "title": "Mayfair 154cm Artisan Beverage Credenza",
+      "metaTitle": "Mayfair 154cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 154cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "154cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_01.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_01.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Mayfair 154cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "belgravia-artisan-beverage-credenza-02": {
+      "slug": "belgravia-artisan-beverage-credenza-02",
+      "category": "coffee-stations",
+      "title": "Belgravia 247cm Artisan Beverage Credenza",
+      "metaTitle": "Belgravia 247cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 247cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "247cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_02.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_02.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belgravia 247cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "kensington-artisan-beverage-credenza-03": {
+      "slug": "kensington-artisan-beverage-credenza-03",
+      "category": "coffee-stations",
+      "title": "Kensington 184cm Artisan Beverage Credenza",
+      "metaTitle": "Kensington 184cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 184cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "184cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_03.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_03.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kensington 184cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "chelsea-artisan-beverage-credenza-04": {
+      "slug": "chelsea-artisan-beverage-credenza-04",
+      "category": "coffee-stations",
+      "title": "Chelsea 217cm Artisan Beverage Credenza",
+      "metaTitle": "Chelsea 217cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 217cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "217cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_04.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_04.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chelsea 217cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "knightsbridge-artisan-beverage-credenza-05": {
+      "slug": "knightsbridge-artisan-beverage-credenza-05",
+      "category": "coffee-stations",
+      "title": "Knightsbridge 120cm Artisan Beverage Credenza",
+      "metaTitle": "Knightsbridge 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_05.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_05.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knightsbridge 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "westminster-artisan-beverage-credenza-06": {
+      "slug": "westminster-artisan-beverage-credenza-06",
+      "category": "coffee-stations",
+      "title": "Westminster 120cm Artisan Beverage Credenza",
+      "metaTitle": "Westminster 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_06.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_06.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Westminster 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "marylebone-artisan-beverage-credenza-07": {
+      "slug": "marylebone-artisan-beverage-credenza-07",
+      "category": "coffee-stations",
+      "title": "Marylebone 120cm Artisan Beverage Credenza",
+      "metaTitle": "Marylebone 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_07.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_07.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Marylebone 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "fitzrovia-artisan-beverage-credenza-08": {
+      "slug": "fitzrovia-artisan-beverage-credenza-08",
+      "category": "coffee-stations",
+      "title": "Fitzrovia 120cm Artisan Beverage Credenza",
+      "metaTitle": "Fitzrovia 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_08.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_08.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fitzrovia 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "bloomsbury-artisan-beverage-credenza-09": {
+      "slug": "bloomsbury-artisan-beverage-credenza-09",
+      "category": "coffee-stations",
+      "title": "Bloomsbury 120cm Artisan Beverage Credenza",
+      "metaTitle": "Bloomsbury 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_09.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_09.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bloomsbury 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "hampstead-artisan-beverage-credenza-10": {
+      "slug": "hampstead-artisan-beverage-credenza-10",
+      "category": "coffee-stations",
+      "title": "Hampstead 120cm Artisan Beverage Credenza",
+      "metaTitle": "Hampstead 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_10.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_10.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hampstead 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "highgate-artisan-beverage-credenza-11": {
+      "slug": "highgate-artisan-beverage-credenza-11",
+      "category": "coffee-stations",
+      "title": "Highgate 90cm Artisan Beverage Credenza",
+      "metaTitle": "Highgate 90cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_11.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_11.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Highgate 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "islington-artisan-beverage-credenza-12": {
+      "slug": "islington-artisan-beverage-credenza-12",
+      "category": "coffee-stations",
+      "title": "Islington 90cm Artisan Beverage Credenza",
+      "metaTitle": "Islington 90cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_12.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_12.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Islington 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "richmond-artisan-beverage-credenza-13": {
+      "slug": "richmond-artisan-beverage-credenza-13",
+      "category": "coffee-stations",
+      "title": "Richmond 120cm Artisan Beverage Credenza",
+      "metaTitle": "Richmond 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_13.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_13.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Richmond 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "chiswick-artisan-beverage-credenza-14": {
+      "slug": "chiswick-artisan-beverage-credenza-14",
+      "category": "coffee-stations",
+      "title": "Chiswick 210cm Artisan Beverage Credenza",
+      "metaTitle": "Chiswick 210cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 210cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "210cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_14.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_14.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chiswick 210cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "wimbledon-artisan-beverage-credenza-15": {
+      "slug": "wimbledon-artisan-beverage-credenza-15",
+      "category": "coffee-stations",
+      "title": "Wimbledon 120cm Artisan Beverage Credenza",
+      "metaTitle": "Wimbledon 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_15.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_15.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "barnes-artisan-beverage-credenza-16": {
+      "slug": "barnes-artisan-beverage-credenza-16",
+      "category": "coffee-stations",
+      "title": "Barnes 120cm Artisan Beverage Credenza",
+      "metaTitle": "Barnes 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_16.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_16.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "putney-artisan-beverage-credenza-17": {
+      "slug": "putney-artisan-beverage-credenza-17",
+      "category": "coffee-stations",
+      "title": "Putney 90cm Artisan Beverage Credenza",
+      "metaTitle": "Putney 90cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_17.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_17.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "battersea-artisan-beverage-credenza-18": {
+      "slug": "battersea-artisan-beverage-credenza-18",
+      "category": "coffee-stations",
+      "title": "Battersea 120cm Artisan Beverage Credenza",
+      "metaTitle": "Battersea 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_18.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_18.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Battersea 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "clapham-artisan-beverage-credenza-19": {
+      "slug": "clapham-artisan-beverage-credenza-19",
+      "category": "coffee-stations",
+      "title": "Clapham 120cm Artisan Beverage Credenza",
+      "metaTitle": "Clapham 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_19.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_19.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clapham 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "dulwich-artisan-beverage-credenza-20": {
+      "slug": "dulwich-artisan-beverage-credenza-20",
+      "category": "coffee-stations",
+      "title": "Dulwich 180cm Artisan Beverage Credenza",
+      "metaTitle": "Dulwich 180cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_20.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_20.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich 180cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "greenwich-artisan-beverage-credenza-21": {
+      "slug": "greenwich-artisan-beverage-credenza-21",
+      "category": "coffee-stations",
+      "title": "Greenwich 120cm Artisan Beverage Credenza",
+      "metaTitle": "Greenwich 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_21.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_21.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "pimlico-artisan-beverage-credenza-22": {
+      "slug": "pimlico-artisan-beverage-credenza-22",
+      "category": "coffee-stations",
+      "title": "Pimlico 120cm Artisan Beverage Credenza",
+      "metaTitle": "Pimlico 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_22.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_22.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Pimlico 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "st-james-artisan-beverage-credenza-23": {
+      "slug": "st-james-artisan-beverage-credenza-23",
+      "category": "coffee-stations",
+      "title": "St James 130cm Artisan Beverage Credenza",
+      "metaTitle": "St James 130cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_23.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_23.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St James 130cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "cotswold-artisan-beverage-credenza-24": {
+      "slug": "cotswold-artisan-beverage-credenza-24",
+      "category": "coffee-stations",
+      "title": "Cotswold 120cm Artisan Beverage Credenza",
+      "metaTitle": "Cotswold 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_24.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_24.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Cotswold 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "holborn-artisan-beverage-credenza-25": {
+      "slug": "holborn-artisan-beverage-credenza-25",
+      "category": "coffee-stations",
+      "title": "Holborn 120cm Artisan Beverage Credenza",
+      "metaTitle": "Holborn 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_25.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_25.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holborn 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "soho-artisan-beverage-credenza-26": {
+      "slug": "soho-artisan-beverage-credenza-26",
+      "category": "coffee-stations",
+      "title": "Soho 120cm Artisan Beverage Credenza",
+      "metaTitle": "Soho 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_26.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_26.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Soho 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "primrose-artisan-beverage-credenza-27": {
+      "slug": "primrose-artisan-beverage-credenza-27",
+      "category": "coffee-stations",
+      "title": "Primrose 120cm Artisan Beverage Credenza",
+      "metaTitle": "Primrose 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_27.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_27.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Primrose 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "belsize-artisan-beverage-credenza-28": {
+      "slug": "belsize-artisan-beverage-credenza-28",
+      "category": "coffee-stations",
+      "title": "Belsize 90cm Artisan Beverage Credenza",
+      "metaTitle": "Belsize 90cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_28.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_28.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belsize 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "holland-park-artisan-beverage-credenza-29": {
+      "slug": "holland-park-artisan-beverage-credenza-29",
+      "category": "coffee-stations",
+      "title": "Holland Park 120cm Artisan Beverage Credenza",
+      "metaTitle": "Holland Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_29.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_29.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holland Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "notting-hill-artisan-beverage-credenza-30": {
+      "slug": "notting-hill-artisan-beverage-credenza-30",
+      "category": "coffee-stations",
+      "title": "Notting Hill 120cm Artisan Beverage Credenza",
+      "metaTitle": "Notting Hill 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_30.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_30.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Notting Hill 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "paddington-artisan-beverage-credenza-31": {
+      "slug": "paddington-artisan-beverage-credenza-31",
+      "category": "coffee-stations",
+      "title": "Paddington 120cm Artisan Beverage Credenza",
+      "metaTitle": "Paddington 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_31.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_31.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Paddington 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "bayswater-artisan-beverage-credenza-32": {
+      "slug": "bayswater-artisan-beverage-credenza-32",
+      "category": "coffee-stations",
+      "title": "Bayswater 180cm Artisan Beverage Credenza",
+      "metaTitle": "Bayswater 180cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_32.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_32.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bayswater 180cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "regent-artisan-beverage-credenza-33": {
+      "slug": "regent-artisan-beverage-credenza-33",
+      "category": "coffee-stations",
+      "title": "Regent 90cm Artisan Beverage Credenza",
+      "metaTitle": "Regent 90cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_33.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_33.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Regent 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "piccadilly-artisan-beverage-credenza-34": {
+      "slug": "piccadilly-artisan-beverage-credenza-34",
+      "category": "coffee-stations",
+      "title": "Piccadilly 60cm Artisan Beverage Credenza",
+      "metaTitle": "Piccadilly 60cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 60cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "60cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_34.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_34.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Piccadilly 60cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "strand-artisan-beverage-credenza-35": {
+      "slug": "strand-artisan-beverage-credenza-35",
+      "category": "coffee-stations",
+      "title": "Strand 120cm Artisan Beverage Credenza",
+      "metaTitle": "Strand 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_35.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_35.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Strand 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "aldwych-artisan-beverage-credenza-36": {
+      "slug": "aldwych-artisan-beverage-credenza-36",
+      "category": "coffee-stations",
+      "title": "Aldwych 120cm Artisan Beverage Credenza",
+      "metaTitle": "Aldwych 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_36.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_36.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Aldwych 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "temple-artisan-beverage-credenza-37": {
+      "slug": "temple-artisan-beverage-credenza-37",
+      "category": "coffee-stations",
+      "title": "Temple 110cm Artisan Beverage Credenza",
+      "metaTitle": "Temple 110cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_37.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_37.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Temple 110cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "clerkenwell-artisan-beverage-credenza-38": {
+      "slug": "clerkenwell-artisan-beverage-credenza-38",
+      "category": "coffee-stations",
+      "title": "Clerkenwell 120cm Artisan Beverage Credenza",
+      "metaTitle": "Clerkenwell 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_38.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_38.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clerkenwell 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "shoreditch-artisan-beverage-credenza-39": {
+      "slug": "shoreditch-artisan-beverage-credenza-39",
+      "category": "coffee-stations",
+      "title": "Shoreditch 120cm Artisan Beverage Credenza",
+      "metaTitle": "Shoreditch 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_39.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_39.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Shoreditch 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "spitalfields-artisan-beverage-credenza-40": {
+      "slug": "spitalfields-artisan-beverage-credenza-40",
+      "category": "coffee-stations",
+      "title": "Spitalfields 120cm Artisan Beverage Credenza",
+      "metaTitle": "Spitalfields 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_40.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_40.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Spitalfields 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "wapping-artisan-beverage-credenza-41": {
+      "slug": "wapping-artisan-beverage-credenza-41",
+      "category": "coffee-stations",
+      "title": "Wapping 120cm Artisan Beverage Credenza",
+      "metaTitle": "Wapping 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_41.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_41.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wapping 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "canary-artisan-beverage-credenza-42": {
+      "slug": "canary-artisan-beverage-credenza-42",
+      "category": "coffee-stations",
+      "title": "Canary 130cm Artisan Beverage Credenza",
+      "metaTitle": "Canary 130cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_42.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_42.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary 130cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "blackheath-artisan-beverage-credenza-43": {
+      "slug": "blackheath-artisan-beverage-credenza-43",
+      "category": "coffee-stations",
+      "title": "Blackheath 110cm Artisan Beverage Credenza",
+      "metaTitle": "Blackheath 110cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_43.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_43.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Blackheath 110cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "wandsworth-artisan-beverage-credenza-44": {
+      "slug": "wandsworth-artisan-beverage-credenza-44",
+      "category": "coffee-stations",
+      "title": "Wandsworth 110cm Artisan Beverage Credenza",
+      "metaTitle": "Wandsworth 110cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_44.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_44.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wandsworth 110cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "fulham-artisan-beverage-credenza-45": {
+      "slug": "fulham-artisan-beverage-credenza-45",
+      "category": "coffee-stations",
+      "title": "Fulham 120cm Artisan Beverage Credenza",
+      "metaTitle": "Fulham 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_45.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_45.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fulham 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "kew-artisan-beverage-credenza-46": {
+      "slug": "kew-artisan-beverage-credenza-46",
+      "category": "coffee-stations",
+      "title": "Kew 120cm Artisan Beverage Credenza",
+      "metaTitle": "Kew 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_46.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_46.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kew 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "twickenham-artisan-beverage-credenza-47": {
+      "slug": "twickenham-artisan-beverage-credenza-47",
+      "category": "coffee-stations",
+      "title": "Twickenham 120cm Artisan Beverage Credenza",
+      "metaTitle": "Twickenham 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_47.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_47.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Twickenham 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "ealing-artisan-beverage-credenza-48": {
+      "slug": "ealing-artisan-beverage-credenza-48",
+      "category": "coffee-stations",
+      "title": "Ealing 120cm Artisan Beverage Credenza",
+      "metaTitle": "Ealing 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Ealing 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "harrow-artisan-beverage-credenza-49": {
+      "slug": "harrow-artisan-beverage-credenza-49",
+      "category": "coffee-stations",
+      "title": "Harrow 120cm Artisan Beverage Credenza",
+      "metaTitle": "Harrow 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Harrow 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "dulwich-village-artisan-beverage-credenza-50": {
+      "slug": "dulwich-village-artisan-beverage-credenza-50",
+      "category": "coffee-stations",
+      "title": "Dulwich Village 120cm Artisan Beverage Credenza",
+      "metaTitle": "Dulwich Village 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_50.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_50.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich Village 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "kingston-artisan-beverage-credenza-51": {
+      "slug": "kingston-artisan-beverage-credenza-51",
+      "category": "coffee-stations",
+      "title": "Kingston 45cm Artisan Beverage Credenza",
+      "metaTitle": "Kingston 45cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 45cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "45cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_51.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_51.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kingston 45cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "green-park-artisan-beverage-credenza-52": {
+      "slug": "green-park-artisan-beverage-credenza-52",
+      "category": "coffee-stations",
+      "title": "Green Park 120cm Artisan Beverage Credenza",
+      "metaTitle": "Green Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_52.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_52.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Green Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "victoria-artisan-beverage-credenza-53": {
+      "slug": "victoria-artisan-beverage-credenza-53",
+      "category": "coffee-stations",
+      "title": "Victoria 120cm Artisan Beverage Credenza",
+      "metaTitle": "Victoria 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_53.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_53.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Victoria 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "knights-artisan-beverage-credenza-54": {
+      "slug": "knights-artisan-beverage-credenza-54",
+      "category": "coffee-stations",
+      "title": "Knights 120cm Artisan Beverage Credenza",
+      "metaTitle": "Knights 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_54.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_54.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knights 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "hyde-park-artisan-beverage-credenza-55": {
+      "slug": "hyde-park-artisan-beverage-credenza-55",
+      "category": "coffee-stations",
+      "title": "Hyde Park 120cm Artisan Beverage Credenza",
+      "metaTitle": "Hyde Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_55.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_55.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hyde Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "borough-artisan-beverage-credenza-56": {
+      "slug": "borough-artisan-beverage-credenza-56",
+      "category": "coffee-stations",
+      "title": "Borough 120cm Artisan Beverage Credenza",
+      "metaTitle": "Borough 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_56.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_56.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Borough 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "greenwich-park-artisan-beverage-credenza-57": {
+      "slug": "greenwich-park-artisan-beverage-credenza-57",
+      "category": "coffee-stations",
+      "title": "Greenwich Park 120cm Artisan Beverage Credenza",
+      "metaTitle": "Greenwich Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_57.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_57.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "st-pancras-artisan-beverage-credenza-58": {
+      "slug": "st-pancras-artisan-beverage-credenza-58",
+      "category": "coffee-stations",
+      "title": "St Pancras 120cm Artisan Beverage Credenza",
+      "metaTitle": "St Pancras 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_58.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_58.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St Pancras 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "covent-garden-artisan-beverage-credenza-59": {
+      "slug": "covent-garden-artisan-beverage-credenza-59",
+      "category": "coffee-stations",
+      "title": "Covent Garden 120cm Artisan Beverage Credenza",
+      "metaTitle": "Covent Garden 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_59.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_59.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Covent Garden 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "southwark-artisan-beverage-credenza-60": {
+      "slug": "southwark-artisan-beverage-credenza-60",
+      "category": "coffee-stations",
+      "title": "Southwark 120cm Artisan Beverage Credenza",
+      "metaTitle": "Southwark 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_60.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_60.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Southwark 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "west-end-artisan-beverage-credenza-61": {
+      "slug": "west-end-artisan-beverage-credenza-61",
+      "category": "coffee-stations",
+      "title": "West End 120cm Artisan Beverage Credenza",
+      "metaTitle": "West End 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_61.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_61.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the West End 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "canary-wharf-artisan-beverage-credenza-62": {
+      "slug": "canary-wharf-artisan-beverage-credenza-62",
+      "category": "coffee-stations",
+      "title": "Canary Wharf 120cm Artisan Beverage Credenza",
+      "metaTitle": "Canary Wharf 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_62.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_62.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary Wharf 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "vauxhall-artisan-beverage-credenza-63": {
+      "slug": "vauxhall-artisan-beverage-credenza-63",
+      "category": "coffee-stations",
+      "title": "Vauxhall 120cm Artisan Beverage Credenza",
+      "metaTitle": "Vauxhall 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_63.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_63.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Vauxhall 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "lambeth-artisan-beverage-credenza-64": {
+      "slug": "lambeth-artisan-beverage-credenza-64",
+      "category": "coffee-stations",
+      "title": "Lambeth 120cm Artisan Beverage Credenza",
+      "metaTitle": "Lambeth 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_64.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_64.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Lambeth 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "bermondsey-artisan-beverage-credenza-65": {
+      "slug": "bermondsey-artisan-beverage-credenza-65",
+      "category": "coffee-stations",
+      "title": "Bermondsey 120cm Artisan Beverage Credenza",
+      "metaTitle": "Bermondsey 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_65.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_65.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bermondsey 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "kennington-artisan-beverage-credenza-66": {
+      "slug": "kennington-artisan-beverage-credenza-66",
+      "category": "coffee-stations",
+      "title": "Kennington 120cm Artisan Beverage Credenza",
+      "metaTitle": "Kennington 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_66.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_66.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kennington 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "peckham-artisan-beverage-credenza-67": {
+      "slug": "peckham-artisan-beverage-credenza-67",
+      "category": "coffee-stations",
+      "title": "Peckham 190cm Artisan Beverage Credenza",
+      "metaTitle": "Peckham 190cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 190cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "190cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_67.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_67.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Peckham 190cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "camberwell-artisan-beverage-credenza-68": {
+      "slug": "camberwell-artisan-beverage-credenza-68",
+      "category": "coffee-stations",
+      "title": "Camberwell 120cm Artisan Beverage Credenza",
+      "metaTitle": "Camberwell 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_68.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_68.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Camberwell 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "brixton-artisan-beverage-credenza-69": {
+      "slug": "brixton-artisan-beverage-credenza-69",
+      "category": "coffee-stations",
+      "title": "Brixton 120cm Artisan Beverage Credenza",
+      "metaTitle": "Brixton 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_69.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_69.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Brixton 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "streatham-artisan-beverage-credenza-70": {
+      "slug": "streatham-artisan-beverage-credenza-70",
+      "category": "coffee-stations",
+      "title": "Streatham 160cm Artisan Beverage Credenza",
+      "metaTitle": "Streatham 160cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_70.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_70.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Streatham 160cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "balham-artisan-beverage-credenza-71": {
+      "slug": "balham-artisan-beverage-credenza-71",
+      "category": "coffee-stations",
+      "title": "Balham 195cm Artisan Beverage Credenza",
+      "metaTitle": "Balham 195cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 195cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "195cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_71.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_71.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Balham 195cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "tooting-artisan-beverage-credenza-72": {
+      "slug": "tooting-artisan-beverage-credenza-72",
+      "category": "coffee-stations",
+      "title": "Tooting 125cm Artisan Beverage Credenza",
+      "metaTitle": "Tooting 125cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_72.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_72.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Tooting 125cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "wimbledon-village-artisan-beverage-credenza-73": {
+      "slug": "wimbledon-village-artisan-beverage-credenza-73",
+      "category": "coffee-stations",
+      "title": "Wimbledon Village 160cm Artisan Beverage Credenza",
+      "metaTitle": "Wimbledon Village 160cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_73.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_73.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon Village 160cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "putney-heath-artisan-beverage-credenza-74": {
+      "slug": "putney-heath-artisan-beverage-credenza-74",
+      "category": "coffee-stations",
+      "title": "Putney Heath 120cm Artisan Beverage Credenza",
+      "metaTitle": "Putney Heath 120cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_74.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_74.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney Heath 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "barnes-common-artisan-beverage-credenza-75": {
+      "slug": "barnes-common-artisan-beverage-credenza-75",
+      "category": "coffee-stations",
+      "title": "Barnes Common 125cm Artisan Beverage Credenza",
+      "metaTitle": "Barnes Common 125cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_75.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_75.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes Common 125cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
+  "roehampton-artisan-beverage-credenza-76": {
+      "slug": "roehampton-artisan-beverage-credenza-76",
+      "category": "coffee-stations",
+      "title": "Roehampton 160cm Artisan Beverage Credenza",
+      "metaTitle": "Roehampton 160cm Artisan Beverage Credenza | Cabivella UK",
+      "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
+      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
+      "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
+      "materials": [
+          "European Oak and Moisture-Resistant Core",
+          "Precision bi-fold pocket-door sliding tracks",
+          "Integrated heat-resistant quartz preparation surface"
+      ],
+      "finishOptions": [
+          "Natural Satin Oak",
+          "Deep Navy Lacquer",
+          "Warm Alabaster",
+          "Smoked Charcoal"
+      ],
+      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
+      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_76.webp",
+      "gallery": [
+          "/assets/img/models/real_coffee_stations/tekzen_coffee_76.webp"
+      ],
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Roehampton 160cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "keyFeatures": [
+          "Retractable pocket-door system with smooth roller dampening",
+          "Integrated heat-dissipation ventilation for high-end espresso machinery",
+          "Dedicated accessory drawer with customizable solid walnut dividers"
+      ]
+  },
 };
