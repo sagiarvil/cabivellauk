@@ -1,0 +1,366 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { collectionsData } from '../../data/collections';
+import { modelsData } from '../../data/models';
+import { getBreadcrumbSchema } from '../../lib/structured-data';
+
+const breadcrumbItems = [
+  { name: 'Collections', url: '/collections/' }
+];
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+
+const collections = Object.values(collectionsData);
+const models = Object.values(modelsData);
+---
+
+<SiteLayout
+  title="Bespoke Cabinetry Collections & Model Directory | Cabivella UK"
+  description="Explore Cabivella bespoke cabinetry across 6 core collections and 14 made-to-measure model directions. Kitchens, bathrooms, pantries, and fitted storage."
+  canonicalPath="/collections/"
+  image="/assets/img/models/shaker-kitchens.webp"
+  structuredData={breadcrumbSchema}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="82">COLLECTIONS</text>
+    </svg>
+  </div>
+
+  <!-- Page Header -->
+  <section class="wrap collections-header-section">
+    <div style="max-width: 840px; margin: 0 auto; text-align: center;" data-reveal>
+      <span class="section-eyebrow">ARCHITECTURAL CABINETRY DIRECTORY</span>
+      <h1>Considered cabinetry,<br /><em>engineered for British living.</em></h1>
+      <p style="font-size: 17px; line-height: 1.7; color: #434c44; margin-top: 16px;">
+        Browse our six core cabinetry collections and fourteen made-to-measure model directions. Every piece is fabricated from kiln-dried European hardwoods, moisture-resistant cores, and precision European motion mechanics.
+      </p>
+    </div>
+  </section>
+
+  <!-- Six Core Collections Grid -->
+  <section class="wrap" style="padding-bottom: 70px;" aria-labelledby="collections-heading">
+    <div class="section-header" style="margin-bottom: 32px;" data-reveal>
+      <span class="section-eyebrow">SIX CORE DISCIPLINES</span>
+      <h2 id="collections-heading" style="font-size: 28px;">Core Room Collections</h2>
+    </div>
+
+    <div class="collections-root-grid" data-reveal-group>
+      {collections.map((cat, idx) => (
+        <article class="collection-root-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
+          <a href={`/collections/${cat.slug}/`} class="root-card-link">
+            <div class="root-card-image-box">
+              <img 
+                src={cat.image} 
+                alt={`${cat.title} cabinetry collection by Cabivella`} 
+                width="600" 
+                height="450" 
+                loading="lazy" 
+                decoding="async" 
+              />
+            </div>
+            <div class="root-card-body">
+              <span class="root-card-eyebrow">{cat.heroEyebrow}</span>
+              <h3>{cat.title}</h3>
+              <p>{cat.shortCopy}</p>
+              <div class="root-card-footer">
+                <span>Explore {cat.title} ({cat.modelSlugs.length} models)</span>
+                <span aria-hidden="true">→</span>
+              </div>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- All 14 Bespoke Models Directory -->
+  <section class="all-models-section" id="all-models" aria-labelledby="all-models-heading">
+    <div class="wrap">
+      <div class="section-header" style="text-align: center; max-width: 760px; margin: 0 auto 48px;" data-reveal>
+        <span class="section-eyebrow">FOURTEEN BESPOKE DIRECTIONS</span>
+        <h2 id="all-models-heading">Complete Model Specification Directory</h2>
+        <p style="color: var(--muted); font-size: 15.5px; margin-top: 8px;">
+          Select any model direction below to explore technical dimensions, materials, drawer tray configurations, and request a tailored room quotation.
+        </p>
+      </div>
+
+      <div class="models-directory-grid" data-reveal-group>
+        {models.map((m, idx) => (
+          <article class="model-dir-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
+            <a href={`/collections/${m.category}/${m.slug}/`} class="model-dir-link">
+              <div class="model-dir-photo">
+                <img 
+                  src={m.image} 
+                  alt={`${m.title} - Cabivella bespoke cabinetry`} 
+                  width="500" 
+                  height="375" 
+                  loading="lazy" 
+                  decoding="async" 
+                />
+              </div>
+              <div class="model-dir-content">
+                <span class="model-dir-category">{m.category.replace('-', ' ').toUpperCase()}</span>
+                <h4>{m.title}</h4>
+                <p class="model-dir-desc">{m.description}</p>
+                
+                <div class="model-dir-meta">
+                  <span class="lead-pill">⏱ {m.leadTime}</span>
+                  <span class="view-pill">View Specs →</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Band -->
+  <section class="cta-band" aria-labelledby="col-cta-title">
+    <div class="wrap">
+      <div data-reveal>
+        <span class="section-eyebrow" style="color: #d1b88e;">BESPOKE JOINERY CONSULTATIONS</span>
+        <h2 id="col-cta-title">Discuss your floorplan with our joinery team.</h2>
+        <p>Whether you require standard 600mm base runs or bespoke room-height alcove units, we provide itemised quotes and physical material samples nationwide.</p>
+        
+        <div class="cta-band-actions">
+          <a href="/enquire/" class="solid-btn" style="background: var(--gold-warm); color: #1a241c !important;">
+            <span>Submit a Project Enquiry</span>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366;">
+            <span>WhatsApp Baris Bagirlar</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</SiteLayout>
+
+<style>
+  .collections-header-section {
+    padding-bottom: 50px;
+  }
+
+  .collections-header-section h1 {
+    font-size: clamp(34px, 4.2vw, 56px);
+    line-height: 1.1;
+    margin: 12px 0 16px;
+  }
+
+  /* Root Collections Grid */
+  .collections-root-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+
+  .collection-root-card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+  }
+
+  .collection-root-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 36px rgba(22, 30, 24, 0.08);
+  }
+
+  .root-card-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: inherit;
+  }
+
+  .root-card-image-box {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #fbf9f5;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+
+  .root-card-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.6s var(--ease);
+  }
+
+  .collection-root-card:hover .root-card-image-box img {
+    transform: scale(1.04);
+  }
+
+  .root-card-body {
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .root-card-eyebrow {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: var(--gold-dark);
+    margin-bottom: 6px;
+  }
+
+  .root-card-body h3 {
+    font-size: 20px;
+    margin: 0 0 8px;
+    color: var(--text);
+  }
+
+  .root-card-body p {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #555f56;
+    margin: 0 0 16px;
+  }
+
+  .root-card-footer {
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--green);
+  }
+
+  /* All Models Directory Section */
+  .all-models-section {
+    background: #f4f0e7;
+    padding: 80px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .models-directory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 28px;
+  }
+
+  .model-dir-card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+  }
+
+  .model-dir-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(22, 30, 24, 0.08);
+  }
+
+  .model-dir-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: inherit;
+  }
+
+  .model-dir-photo {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #fbf9f5;
+    border-bottom: 1px solid var(--line);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .model-dir-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s var(--ease);
+  }
+
+  .model-dir-card:hover .model-dir-photo img {
+    transform: scale(1.04);
+  }
+
+  .model-dir-content {
+    padding: 18px 18px 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .model-dir-category {
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    color: var(--gold-dark);
+    margin-bottom: 4px;
+  }
+
+  .model-dir-content h4 {
+    font-size: 18px;
+    margin: 0 0 8px;
+    color: var(--text);
+  }
+
+  .model-dir-desc {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #4a544c;
+    margin: 0 0 16px;
+  }
+
+  .model-dir-meta {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .lead-pill {
+    color: #555f56;
+    font-weight: 500;
+  }
+
+  .view-pill {
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  /* Responsive Breakpoints */
+  @media (max-width: 960px) {
+    .collections-root-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .collections-root-grid {
+      grid-template-columns: 1fr;
+    }
+    .models-directory-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

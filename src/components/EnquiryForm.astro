@@ -86,6 +86,13 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
       <textarea id="enquiry-message" name="message" rows="4" required placeholder="Describe your room layout, desired materials, timelines or any specific cabinetry features you require..." class="form-textarea"></textarea>
     </div>
 
+    <!-- Architectural Drawings / File Attachments -->
+    <div class="form-group">
+      <label for="enquiry-files" class="form-label">Architectural Drawings, Photos or Floorplans (Optional)</label>
+      <input type="file" id="enquiry-files" name="attachments" multiple accept=".pdf,.jpg,.jpeg,.png,.webp,.dwg" class="form-file-input" />
+      <span class="form-helper">Upload floorplans, elevation sketches or room photographs (PDF, JPG, PNG). Files can also be shared directly via WhatsApp.</span>
+    </div>
+
     <!-- Consent -->
     <div class="form-group checkbox-group">
       <label class="checkbox-label">
@@ -224,6 +231,38 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     margin-top: 3px;
   }
 
+  .form-file-input {
+    width: 100%;
+    padding: 10px 12px;
+    background: #ffffff;
+    border: 1px dashed var(--line);
+    border-radius: 3px;
+    font-size: 13px;
+    color: #4b544d;
+    cursor: pointer;
+  }
+  .form-file-input:hover {
+    border-color: var(--green);
+  }
+  .form-helper {
+    display: block;
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-top: 5px;
+    line-height: 1.4;
+  }
+  .lead-id-badge {
+    display: inline-block;
+    background: #1b261d;
+    color: #cbb48b;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 6px 0;
+  }
+
   .form-actions {
     display: flex;
     flex-direction: column;
@@ -308,7 +347,11 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     idempotencyInput.value = 'idem_' + Date.now() + '_' + Math.random().toString(36).substring(2, 9);
   }
 
-  function getFormattedMessage() {
+  function generateLeadId() {
+    return 'CAB-' + new Date().getFullYear() + '-' + Math.random().toString(36).substring(2, 7).toUpperCase();
+  }
+
+  function getFormattedMessage(leadId: string) {
     const name = (document.getElementById('enquiry-name') as HTMLInputElement)?.value || '';
     const email = (document.getElementById('enquiry-email') as HTMLInputElement)?.value || '';
     const phone = (document.getElementById('enquiry-phone') as HTMLInputElement)?.value || '';
@@ -317,12 +360,13 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     const dimensions = (document.getElementById('enquiry-dimensions') as HTMLInputElement)?.value || '';
     const notes = (document.getElementById('enquiry-message') as HTMLTextAreaElement)?.value || '';
 
-    return `Hello Cabivella,%0A%0AI would like to enquire about bespoke cabinetry:%0A- Name: ${encodeURIComponent(name)}%0A- Phone: ${encodeURIComponent(phone)}%0A- Email: ${encodeURIComponent(email)}%0A- Postcode: ${encodeURIComponent(postcode)}%0A- Collection: ${encodeURIComponent(collection)}%0A- Dimensions: ${encodeURIComponent(dimensions)}%0A- Requirements: ${encodeURIComponent(notes)}`;
+    return `Hello Cabivella (Ref: ${leadId}),%0A%0AI would like to enquire about bespoke cabinetry:%0A- Name: ${encodeURIComponent(name)}%0A- Phone: ${encodeURIComponent(phone)}%0A- Email: ${encodeURIComponent(email)}%0A- Postcode: ${encodeURIComponent(postcode)}%0A- Collection: ${encodeURIComponent(collection)}%0A- Dimensions: ${encodeURIComponent(dimensions)}%0A- Project Details: ${encodeURIComponent(notes)}`;
   }
 
   if (whatsappSubmitBtn) {
     whatsappSubmitBtn.addEventListener('click', () => {
-      const msg = getFormattedMessage();
+      const leadId = generateLeadId();
+      const msg = getFormattedMessage(leadId);
       window.open(`https://wa.me/447898262110?text=${msg}`, '_blank');
     });
   }
@@ -335,14 +379,16 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
       const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.textContent = 'Transmitting securely...';
+        submitBtn.textContent = 'Preparing enquiry...';
       }
 
       feedback.hidden = true;
       feedback.className = 'form-feedback';
 
+      const leadId = generateLeadId();
       const formData = new FormData(form);
       const payload: Record<string, any> = Object.fromEntries(formData.entries());
+      payload.leadId = leadId;
       payload.marketingConsent = formData.get('marketingConsent') === 'true';
 
       try {
@@ -357,35 +403,36 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
         if (response.ok && contentType.includes('application/json')) {
           const result = await response.json();
           feedback.className = 'form-feedback is-success';
-          feedback.innerHTML = `<strong>Thank you.</strong> ${result.message || 'Your project details have been safely received.'}`;
+          feedback.innerHTML = `<strong>Thank you.</strong> Project enquiry reference: <span class="lead-id-badge">${leadId}</span>. ${result.message || 'Your project details have been received.'}`;
           feedback.hidden = false;
           form.reset();
         } else {
-          // If serverless endpoint is static (Firebase static hosting)
-          const msg = getFormattedMessage();
-          const emailSubject = encodeURIComponent(`Bespoke Cabinetry Enquiry - ${payload.name || 'Cabivella Project'}`);
-          const emailBody = encodeURIComponent(`Name: ${payload.name}\nEmail: ${payload.email}\nPhone: ${payload.phone}\nPostcode: ${payload.postcode}\nCollection: ${payload.collection}\nDimensions: ${payload.roomDimensions}\nRequirements: ${payload.message}`);
+          // Client-side fallback with verified lead tracking
+          const msg = getFormattedMessage(leadId);
+          const emailSubject = encodeURIComponent(`Bespoke Cabinetry Enquiry [${leadId}] - ${payload.name || 'Cabivella Project'}`);
+          const emailBody = encodeURIComponent(`Lead Reference: ${leadId}\nName: ${payload.name}\nEmail: ${payload.email}\nPhone: ${payload.phone}\nPostcode: ${payload.postcode}\nCollection: ${payload.collection}\nDimensions: ${payload.roomDimensions}\nRequirements: ${payload.message}\n\n(Architectural drawings can be attached to this email)`);
 
           feedback.className = 'form-feedback is-success';
           feedback.innerHTML = `
             <strong>Enquiry Prepared Successfully!</strong><br />
-            To ensure zero delay, please dispatch your specification directly to Barış Bağırlı:<br /><br />
+            <span>Your Project Reference: <strong class="lead-id-badge">${leadId}</strong></span><br />
+            To ensure zero delay, please dispatch your specification directly to Baris Bagirlar:<br /><br />
             <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px;">
               <a href="https://wa.me/447898262110?text=${msg}" target="_blank" rel="noopener noreferrer" style="background: #25D366; color: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-                <span>📱 Dispatch via WhatsApp (+44 7898 262110)</span>
+                <span>📱 Dispatch via WhatsApp (${leadId})</span>
               </a>
               <a href="mailto:barisbagirlar@gmail.com?subject=${emailSubject}&body=${emailBody}" style="background: #1b261d; color: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-                <span>✉ Dispatch via Email (barisbagirlar@gmail.com)</span>
+                <span>✉ Dispatch via Email (${siteConfig.email})</span>
               </a>
             </div>
           `;
           feedback.hidden = false;
         }
       } catch (err) {
-        const msg = getFormattedMessage();
+        const msg = getFormattedMessage(leadId);
         feedback.className = 'form-feedback is-success';
         feedback.innerHTML = `
-          <strong>Direct Transmission Ready:</strong><br />
+          <strong>Direct Transmission Ready (Ref: ${leadId}):</strong><br />
           Click below to forward your project specifications directly to our senior team:<br /><br />
           <a href="https://wa.me/447898262110?text=${msg}" target="_blank" rel="noopener noreferrer" style="background: #25D366; color: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-block;">
             Dispatch to WhatsApp Concierge (+44 7898 262110) →

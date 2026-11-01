@@ -28,8 +28,8 @@ test.describe('Cabivella Navigation & Contact Integrity', () => {
     const panoramaImg = page.locator('.story-giant-panorama-stage img.giant-panorama-image');
     await expect(panoramaImg).toBeVisible();
 
-    // Check Barış Bağırlı leadership section
-    await expect(page.locator('.leadership-card strong:has-text("Barış Bağırlı")')).toBeVisible();
+    // Check Baris Bagirlar leadership section
+    await expect(page.locator('.leadership-card strong:has-text("Baris Bagirlar")')).toBeVisible();
     await expect(page.locator('.leadership-card a[href^="https://wa.me/447898262110"]')).toBeVisible();
     await expect(page.locator('.leadership-card a[href^="mailto:barisbagirlar@gmail.com"]')).toBeVisible();
     await expect(page.locator('.leadership-card a[href="https://www.linkedin.com/in/barisbagirlar/"]')).toBeVisible();

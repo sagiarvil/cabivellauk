@@ -11,21 +11,21 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
 ---
 
 <SiteLayout
-  title="Our Story & Heritage | Turkish Guilds, British Sensibility | Cabivella UK"
-  description="Discover how Cabivella unites centuries-old Istanbul timber joinery guilds with restrained British architectural cabinetry for considered UK homes."
+  title="Our Story & Workshop Provenance | Turkish Joinery, British Living | Cabivella UK"
+  description="Discover Cabivella: independent bespoke cabinetry founded by Baris Bagirlar, uniting specialized Turkish timber workshops with considered British homes."
   canonicalPath="/our-story/"
   image="/assets/img/istanbul-heritage-panorama@2x.webp"
   structuredData={breadcrumbSchema}
 >
-  <!-- Giant Architectural Panorama Hero (Directly Under Header) -->
-  <section class="story-giant-panorama-stage" aria-label="Istanbul Architectural Timber Lineage">
-    <div class="giant-panorama-inner" data-reveal>
+  <!-- Architectural Panorama Hero (Directly Under Header) -->
+  <section class="story-giant-panorama-stage" aria-label="From Turkey to British Homes">
+    <div class="giant-panorama-inner">
       <div class="giant-panorama-frame">
         <picture>
           <source type="image/webp" srcset="/assets/img/istanbul-heritage-panorama@2x.webp 2048w, /assets/img/istanbul-heritage-panorama.webp 1024w" sizes="(max-width: 1440px) 100vw, 1440px" />
           <img 
             src="/assets/img/istanbul-heritage-panorama@2x.webp" 
-            alt="Panoramic architectural line engraving of Istanbul woodworking heritage, historic minarets, timber mansions and the Galata Tower" 
+            alt="Architectural line illustration of woodworking heritage, timber structures, and craftsmanship" 
             width="2048" 
             height="978" 
             class="giant-panorama-image"
@@ -36,63 +36,66 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
         </picture>
       </div>
       <div class="giant-panorama-meta">
-        <span class="meta-tag">ARCHITECTURAL PEDIGREE & PROVENANCE</span>
-        <p class="meta-desc">The Bosphorus Guilds to the British Terrace &bull; Centuries of master timber shaping engineered for UK homes</p>
+        <span class="meta-tag">WORKSHOP PROVENANCE & ARCHITECTURE</span>
+        <p class="meta-desc">From Turkey to British Homes &bull; Made-to-measure timber joinery tailored for UK living spaces</p>
       </div>
     </div>
   </section>
 
   <Breadcrumbs items={breadcrumbItems} />
 
-  <!-- Ghost Watermark Header (Soft Neutral & Controlled Dynamic Bounds) -->
+  <!-- Ghost Watermark Header -->
   <div class="ghost-watermark-container" aria-hidden="true">
     <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
-      <text x="600" y="65" class="ghost-watermark-text" font-size="86">OUR HERITAGE</text>
+      <text x="600" y="65" class="ghost-watermark-text" font-size="86">OUR STORY</text>
     </svg>
   </div>
 
   <!-- Editorial Hero Section -->
   <section class="wrap story-hero-section">
     <div class="story-hero-header" data-reveal>
-      <span class="section-eyebrow">TWO CENTURIES OF TIMBER MASTERY</span>
+      <span class="section-eyebrow">WORKSHOP-DIRECT CABINETRY</span>
       <h1>
-        Turkish master joinery.<br />
+        Turkish craftsmanship.<br />
         <em>Considered British homes.</em>
       </h1>
       <p class="story-hero-lead">
-        For generations, bespoke cabinetry in the United Kingdom has forced a binary choice: settle for flat-pack compromises that decay in British humidity, or pay exorbitant five-figure markups to subsidise Mayfair and Chelsea showrooms. Cabivella was founded to dismantle that compromise.
+        Cabivella is an independent bespoke cabinetry studio founded by Baris Bagirlar. We connect specialized woodworking facilities in Turkey directly with UK homeowners, architects, and interior designers, providing high-specification made-to-measure joinery without high-street showroom markups.
       </p>
     </div>
   </section>
 
-  <!-- Editorial Narrative: The Bridge Between Two Worlds -->
+  <!-- The Four Honest Pillars: Who We Are & Where It Is Made -->
   <section class="wrap story-narrative-section">
     <div class="narrative-grid">
-      <!-- Left Column: Core Philosophy -->
+      <!-- Left Column: Who We Are & Where Made -->
       <div class="narrative-column" data-reveal>
-        <span class="section-eyebrow">THE CRAFT HERITAGE</span>
-        <h2>Two centuries of timber mastery, engineered for UK living.</h2>
+        <span class="section-eyebrow">SECTION 01 &bull; WHO WE ARE</span>
+        <h2>Bridging dedicated workshops with British domestic architecture.</h2>
         <p>
-          Along the shores of the Golden Horn and the wooded hills of the Bosphorus, Turkish cabinetmakers have guarded an uninterrupted lineage of timber shaping. From imperial palaces requiring intricate mortise-and-tenon joints to grand Levantine waterfront mansions engineered against coastal moisture, wood was never treated as mere commodity—it was an architectural covenant.
+          Bespoke joinery in the United Kingdom has traditionally presented a frustrating choice: mass-manufactured flat-pack units that struggle with seasonal humidity, or high-street retail showrooms with substantial markups.
         </p>
         <p>
-          Yet, British domestic architecture demands something remarkably distinct: quiet restraint. A London Victorian townhouse with its characterful chimney alcoves, a Cotswolds stone cottage with uneven floors, or an Edinburgh tenement flat cannot tolerate ostentation. They demand quiet proportions, timeless Shaker stiles, tactile finishes, and storage that brings serene order to everyday domestic chaos.
+          Cabivella operates on a transparent, workshop-direct model. We design and specify cabinetry tailored to British architectural proportions—Victorian alcoves, Edwardian breakfast rooms, and modern open-plan extensions—and have each component fabricated in our specialized manufacturing facilities in Turkey.
         </p>
-        <blockquote class="story-quote">
-          "We do not build furniture for showroom photographs. We build cabinetry for real British mornings, crowded family suppers, and rooms that must endure decades of daily touch."
-        </blockquote>
+
+        <span class="section-eyebrow" style="margin-top: 36px; display: inline-block;">SECTION 02 &bull; WHERE OUR CABINETRY IS MADE</span>
+        <h3 style="font-size: 22px; margin: 10px 0 14px;">Specialized Turkish Woodworking Facilities</h3>
+        <p>
+          Our cabinetry is manufactured in dedicated, modern facilities in Turkey equipped with 5-axis CNC routing machinery alongside traditional joinery benches. Solid European Ash and Oak are kiln-dried to controlled moisture levels suitable for British central heating, while moisture-resistant carcasses are precision cut and edge-banded before export packing.
+        </p>
       </div>
 
-      <!-- Right Column: The Four Pillars -->
+      <!-- Right Column: Four Operational Commitments -->
       <div class="narrative-column" data-reveal>
-        <span class="section-eyebrow">THE FOUR UNCOMPROMISING TRUTHS</span>
+        <span class="section-eyebrow">THE FOUR OPERATIONAL COMMITMENTS</span>
         
         <div class="truth-card">
           <div class="truth-number">01</div>
           <div class="truth-content">
-            <h3>Kiln-Dried FSC Hardwoods</h3>
+            <h3>Kiln-Dried Hardwoods & Stable Cores</h3>
             <p>
-              British central heating is notoriously unforgiving on timber. We kiln-dry our European Ash and Oak to strict 8–10% equilibrium moisture content, ensuring doors will never bow, twist, or bind through wet English winters.
+              Timber framing is kiln-dried to an 8–10% equilibrium moisture target, reducing the likelihood of bowing or binding across humid British winters and dry centrally heated interiors.
             </p>
           </div>
         </div>
@@ -100,9 +103,9 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
         <div class="truth-card">
           <div class="truth-number">02</div>
           <div class="truth-content">
-            <h3>Austrian Precision Motion Mechanics</h3>
+            <h3>European Precision Motion Mechanics</h3>
             <p>
-              Behind every traditional Shaker rail lies state-of-the-art European engineering. We fit heavy-gauge steel concealed soft-close hinges and drawer runners tested to over 200,000 cycles for whisper-quiet everyday glide.
+              Cabinet doors and drawers are equipped with heavy-gauge concealed hydraulic soft-close hinges and full-extension steel runners engineered for quiet everyday domestic use.
             </p>
           </div>
         </div>
@@ -110,9 +113,9 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
         <div class="truth-card">
           <div class="truth-number">03</div>
           <div class="truth-content">
-            <h3>Zero Showroom Markups</h3>
+            <h3>Workshop-Direct Pricing</h3>
             <p>
-              We do not maintain £400,000/year high-street showrooms in Central London. Every pound you invest goes directly into solid hardwood carcasses, baked polyurethane paint, and master craftsman hours.
+              We operate without prime Central London showroom overheads. Investment goes directly into timber grade, moisture-resistant carcass boards, spray finishes, and skilled joinery hours.
             </p>
           </div>
         </div>
@@ -120,9 +123,9 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
         <div class="truth-card">
           <div class="truth-number">04</div>
           <div class="truth-content">
-            <h3>Direct Workshop-to-Site Logistics</h3>
+            <h3>Tracked Road Logistics to UK Sites</h3>
             <p>
-              Cabinetry is fabricated to the exact millimetre in our dedicated Turkish workshops, packaged in protective reinforced export crates, and delivered nationwide across the UK with dedicated transit tracking.
+              Orders are packaged in reinforced export crates, cleared through UK customs, and delivered directly to your kerbside or site with scheduled transit updates.
             </p>
           </div>
         </div>
@@ -130,61 +133,65 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
     </div>
   </section>
 
-  <!-- Technical Integrity & Craft Process -->
+  <!-- Section 03: How We Work (Process) -->
   <section class="story-process-section">
     <div class="wrap">
       <div class="section-header" style="text-align: center; max-width: 720px; margin: 0 auto 50px;" data-reveal>
-        <span class="section-eyebrow">FROM BRIEF TO INSTALLATION</span>
-        <h2>How your bespoke project unfolds.</h2>
-        <p style="color: var(--muted); font-size: 16px;">A friction-free architectural journey tailored to UK homeowners, architects, and builders.</p>
+        <span class="section-eyebrow">SECTION 03 &bull; HOW WE WORK</span>
+        <h2>From architectural brief to doorstep delivery.</h2>
+        <p style="color: var(--muted); font-size: 16px;">A clear, structured workflow designed for UK homeowners, builders, and specifiers.</p>
       </div>
 
       <div class="process-steps-grid" data-reveal-group>
         <div class="process-step-card" data-reveal data-reveal-delay="1">
           <span class="step-badge">STEP 1</span>
           <h4>Room Brief & Drawings</h4>
-          <p>Share your architectural floorplans, sketches, or rough wall dimensions. We discuss your lifestyle cadence, appliance requirements, and storage priorities.</p>
+          <p>Share your architectural plans, rough sketches, or room measurements. We discuss storage requirements, preferred aesthetics, and budget expectations.</p>
         </div>
 
         <div class="process-step-card" data-reveal data-reveal-delay="2">
           <span class="step-badge">STEP 2</span>
-          <h4>Millimetre 3D Elevation</h4>
-          <p>Our design studio prepares comprehensive architectural elevations, specifying rail widths, internal drawer tray configurations, and service voids.</p>
+          <h4>Technical Elevations & Quote</h4>
+          <p>We prepare detailed elevation drawings with exact millimetre cabinet widths, internal drawer configurations, and a comprehensive, itemised quotation.</p>
         </div>
 
         <div class="process-step-card" data-reveal data-reveal-delay="3">
           <span class="step-badge">STEP 3</span>
-          <h4>Timber & Swatch Approval</h4>
-          <p>We dispatch physical paint swatches, timber sample blocks, and aged brass hardware directly to your address for natural daylight review in your room.</p>
+          <h4>Material Samples & Swatches</h4>
+          <p>Physical timber swatches, paint sample blocks, and hardware finishes are dispatched to your UK address for review in your natural room lighting.</p>
         </div>
 
         <div class="process-step-card" data-reveal data-reveal-delay="4">
           <span class="step-badge">STEP 4</span>
-          <h4>Master Fabrication & UK Delivery</h4>
-          <p>Crafted over 4 to 8 weeks in our specialist workshops, fully dry-fitted, inspected, and delivered directly to your kerbside or room of choice across Great Britain.</p>
+          <h4>Fabrication & Delivery</h4>
+          <p>Cabinetry is manufactured over an estimated 4–8 week window, dry-fitted, inspected, and transported in protective crating to your UK property.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Personal Accountability & Direct Access -->
+  <!-- Section 04: Who Looks After Your Order -->
   <section class="wrap" style="padding: 80px var(--edge) 90px;">
     <div class="leadership-card" data-reveal>
       <div class="leadership-content">
-        <span class="section-eyebrow">DIRECT LEADERSHIP & ACCOUNTABILITY</span>
-        <h2>Personal involvement on every British commission.</h2>
+        <span class="section-eyebrow">SECTION 04 &bull; WHO LOOKS AFTER YOUR ORDER</span>
+        <h2>Direct commercial accountability and oversight.</h2>
         <p>
-          Cabivella operates on old-fashioned personal accountability. When you entrust us with your kitchen, bathroom, or fitted storage project, your enquiry is reviewed personally by company leadership. No call centres, no sales scripts—just direct joinery dialogue.
+          When you commission cabinetry with Cabivella, your project is managed directly by our leadership team. We do not use third-party call centres or commission-based sales staff. Technical consultations, order tracking, and aftercare are overseen personally by Baris Bagirlar.
         </p>
 
         <div class="leadership-credentials">
           <div class="credential-item">
-            <strong>Barış Bağırlı</strong>
+            <strong>Baris Bagirlar</strong>
             <span>Managing Director & Founder</span>
           </div>
           <div class="credential-item">
-            <strong>Nationwide UK Service</strong>
-            <span>London, Home Counties & Regional Deliveries</span>
+            <strong>Direct UK Enquiries</strong>
+            <span>barisbagirlar@gmail.com &bull; +44 7898 262110</span>
+          </div>
+          <div class="credential-item">
+            <strong>Delivery & Installation</strong>
+            <span>Nationwide UK kerbside delivery; dry-fit by your chosen contractor</span>
           </div>
         </div>
 
@@ -193,7 +200,7 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.766-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"/>
             </svg>
-            <span>WhatsApp Barış Bağırlı (+44 7898 262110)</span>
+            <span>WhatsApp Baris Bagirlar (+44 7898 262110)</span>
           </a>
 
           <a href={`mailto:${siteConfig.email}`} class="solid-btn">
@@ -218,11 +225,11 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
       <div data-reveal>
         <span class="section-eyebrow" style="color: #d1b88e;">START YOUR JOURNEY</span>
         <h2 id="story-cta-title">Begin a conversation about your room.</h2>
-        <p>Whether you are in the planning stages of a kitchen redesign or require bespoke cabinetry for a client project, we are here to assist.</p>
+        <p>Whether you are planning a complete kitchen renovation or require bespoke cabinetry for a client project, we are here to assist.</p>
         
         <div class="cta-band-actions">
           <a href="/enquire/" class="solid-btn" style="background: var(--gold-warm); color: #1a241c !important;">
-            <span>Submit a Project Enquiry</span>
+            <span>Enquire About a Project</span>
             <span aria-hidden="true">→</span>
           </a>
           <a href="/collections/kitchens/" class="solid-btn" style="background: transparent; border-color: rgba(255,255,255,0.4); color: #fff !important;">
@@ -236,7 +243,7 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
 </SiteLayout>
 
 <style>
-  /* Giant Architectural Panorama Hero (Directly Under Header) */
+  /* Architectural Panorama Hero */
   .story-giant-panorama-stage {
     width: 100%;
     background: #faf8f4;
@@ -349,19 +356,6 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
     line-height: 1.75;
     color: #404942;
     margin-bottom: 18px;
-  }
-
-  .story-quote {
-    margin: 30px 0 0;
-    padding: 20px 24px;
-    border-left: 3px solid var(--gold);
-    background: #f7f4ed;
-    border-radius: 0 4px 4px 0;
-    font-family: var(--font-serif);
-    font-style: italic;
-    font-size: 17px;
-    line-height: 1.6;
-    color: #2e3830;
   }
 
   /* Truth Cards */
