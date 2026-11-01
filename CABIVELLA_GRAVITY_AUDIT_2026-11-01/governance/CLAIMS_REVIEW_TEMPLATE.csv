@@ -1,0 +1,7 @@
+claim_id,url,claim_text,claim_type,document_url,document_owner,verified_date,reviewer,decision
+C001,https://cabivella.co.uk/our-story/,"4-8 weeks production",delivery,,,,,REVIEW
+C002,https://cabivella.co.uk/materials/,"Kiln dried European hardwoods",materials,,,,,REVIEW
+C003,https://cabivella.co.uk/trade/,"2-3 working days itemised costing",service_level,,,,,REVIEW
+C004,https://cabivella.co.uk/collections/bathrooms/,"35 architectural models",catalogue_count,,,,,REVIEW
+C005,https://cabivella.co.uk/collections/coffee-stations/,"76 architectural models",catalogue_count,,,,,REVIEW
+C006,https://cabivella.co.uk/image-credits/,"Workshop-made product images and licences",copyright,,,,,REVIEW

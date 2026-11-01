@@ -1,0 +1,21 @@
+{
+  "site_name":"Cabivella",
+  "base_url":"https://cabivella.co.uk",
+  "language":"en-GB",
+  "brand_description":"Cabivella presents made-to-measure cabinetry design collections for UK homeowners and trade professionals. Detailed specifications, manufacturing arrangements, delivery and availability are confirmed during each individual enquiry.",
+  "approved_pages":[
+    {"url":"/","title":"Cabivella | Kitchens, Bathrooms & Made-to-Measure Cabinetry","summary":"Explore cabinetry design collections and enquire about kitchens, bathrooms, pantries and fitted storage.","section":"Main"},
+    {"url":"/collections/","title":"Cabinetry Collections","summary":"Browse kitchen, bathroom and storage cabinetry categories.","section":"Collections"},
+    {"url":"/collections/kitchens/","title":"Kitchen Cabinetry","summary":"See kitchen design directions and enquire about layout and finishes.","section":"Collections"},
+    {"url":"/collections/bathrooms/","title":"Bathroom Furniture","summary":"View bathroom vanity and storage design directions.","section":"Collections"},
+    {"url":"/collections/pantry-larder/","title":"Pantry and Larder Cupboards","summary":"Explore kitchen storage and larder cabinetry.","section":"Collections"},
+    {"url":"/collections/coffee-stations/","title":"Coffee Station Cabinets","summary":"Explore coffee storage and breakfast cupboard design options.","section":"Collections"},
+    {"url":"/collections/fitted-storage/","title":"Fitted Storage","summary":"Explore fitted wardrobes and utility storage designs.","section":"Collections"},
+    {"url":"/collections/kitchen-doors/","title":"Replacement Kitchen Doors","summary":"Explore replacement doors and cabinet fronts.","section":"Collections"},
+    {"url":"/trade/","title":"For Trade Professionals","summary":"Cabinetry enquiry route for architects, interior designers and fitters.","section":"Company"},
+    {"url":"/our-story/","title":"Our Story","summary":"Learn about Cabivella's approach to design and cabinetry sourcing.","section":"Company"},
+    {"url":"/enquire/","title":"Enquire About a Project","summary":"Contact Cabivella about a made-to-measure cabinetry project.","section":"Company"},
+    {"url":"/privacy/","title":"Privacy Notice","summary":"How enquiry information is handled.","section":"Policies"}
+  ],
+  "verified_articles": []
+}

@@ -5,7 +5,6 @@ export interface ModelDetail {
   metaTitle: string;
   metaDescription: string;
   leadTime: string;
-  referencePriceTl?: string;
   dimensionsMm: string;
   materials: string[];
   finishOptions: string[];
@@ -50,19 +49,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "Multi-coat factory-baked lacquer resilient against grease and cooking steam",
       "Full custom dimensioning tailored to uneven chimney breasts and bay windows"
     ],
-    "referencePriceTl": "48.000 TL"
   },
   "contemporary-kitchens": {
     "slug": "contemporary-kitchens",
     "category": "kitchens",
     "title": "Contemporary Slab Kitchens",
     "metaTitle": "Contemporary Handleless Kitchens | Made-to-Measure Joinery | Cabivella UK",
-    "metaDescription": "Architectural flat-panel and handleless kitchens with micro-bevelled edges, recessed J-pull channels, and matte anti-fingerprint surfaces.",
+    "metaDescription": "Architectural flat-panel and handleless kitchens with micro-bevelled edges, recessed J-pull channels, and matt anti-fingerprint surfaces.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure (typical 600mm base, 350mm wall runs)",
     "materials": [
       "E1 grade structural birch core",
-      "Velvet super-matte anti-fingerprint laminate",
+      "Velvet super-matt anti-fingerprint laminate",
       "Continuous anodised aluminium rail profile"
     ],
     "finishOptions": [
@@ -77,14 +75,13 @@ export const modelsData: Record<string, ModelDetail> = {
       "/assets/img/models/contemporary-kitchens.webp",
       "/assets/img/models/compact-kitchens.webp"
     ],
-    "description": "Purist architectural cabinetry celebrating unobstructed monolithic elevations, razor-sharp shadow gaps, and tactile matte surfaces.",
+    "description": "Purist architectural cabinetry celebrating unobstructed monolithic elevations, razor-sharp shadow gaps, and tactile matt surfaces.",
     "keyFeatures": [
       "Continuous anodised continuous channel system for pure handleless operation",
-      "Super-matte tactile surface formulation with thermal micro-scratch healability",
+      "Super-matt tactile surface formulation with thermal micro-scratch healability",
       "Full-height floor-to-ceiling appliance banks with integrated ventilation chimneys",
       "Bespoke cutlery divider sets in solid American black walnut"
     ],
-    "referencePriceTl": "46.000 TL"
   },
   "compact-kitchens": {
     "slug": "compact-kitchens",
@@ -117,7 +114,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Pre-routed LED task lighting recesses beneath wall cabinets",
       "Modular width increments from 1600mm upwards for bespoke alcove installation"
     ],
-    "referencePriceTl": "18.900 TL"
   },
   "arya-classic-shaker": {
     "slug": "arya-classic-shaker",
@@ -151,7 +147,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Dovetailed solid timber drawer boxes with full extension glides",
       "Custom decorative mantle and cooker canopy integration options"
     ],
-    "referencePriceTl": "46.500 TL"
   },
   "lea-bevelled-shaker": {
     "slug": "lea-bevelled-shaker",
@@ -182,10 +177,9 @@ export const modelsData: Record<string, ModelDetail> = {
     "keyFeatures": [
       "Internal 45-degree chamfered edge profile preventing dust accumulation",
       "22mm door thickness providing substantial tactile feel",
-      "Multi-layer polyurethane matte lacquer resistant to household spills",
+      "Multi-layer polyurethane matt lacquer resistant to household spills",
       "Tailored tall appliance larders with integrated breakfast bar elements"
     ],
-    "referencePriceTl": "48.200 TL"
   },
   "luna-micro-shaker": {
     "slug": "luna-micro-shaker",
@@ -219,23 +213,22 @@ export const modelsData: Record<string, ModelDetail> = {
       "Full integration with fluted feature back panels and open display niches",
       "Factory-mounted interior LED strip lighting channels"
     ],
-    "referencePriceTl": "43.800 TL"
   },
   "lora-contemporary-slab": {
     "slug": "lora-contemporary-slab",
     "category": "kitchens",
-    "title": "Lora Super-Matte Contemporary Kitchen",
-    "metaTitle": "Lora Super-Matte Kitchen | Contemporary Cabinets | Cabivella UK",
-    "metaDescription": "Velvety super-matte slab kitchen cabinetry with anti-fingerprint thermal technology and clean monolithic architectural runs.",
+    "title": "Lora Super-Matt Contemporary Kitchen",
+    "metaTitle": "Lora Super-Matt Kitchen | Contemporary Cabinets | Cabivella UK",
+    "metaDescription": "Velvety super-matt slab kitchen cabinetry with anti-fingerprint thermal technology and clean monolithic architectural runs.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure base, tall, and wall runs",
     "materials": [
       "Moisture-resistant MR core",
-      "Thermal-healing super-matte finish",
+      "Thermal-healing super-matt finish",
       "Anodised aluminium channels"
     ],
     "finishOptions": [
-      "Matte Anthracite",
+      "Matt Anthracite",
       "Chalk White",
       "Warm Greige",
       "Deep Espresso"
@@ -253,7 +246,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Push-to-open electronic servo-drive options for true handleless purity",
       "Custom ceiling-height infill panels scribed to UK plaster contours"
     ],
-    "referencePriceTl": "45.600 TL"
   },
   "vera-architectural-kitchen": {
     "slug": "vera-architectural-kitchen",
@@ -272,7 +264,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Natural White Oak",
       "Satin Taupe",
       "Pumice Stone",
-      "Matte Carbon"
+      "Matt Carbon"
     ],
     "installationScope": "Supplied fully assembled in timber shipping crates.",
     "image": "/assets/img/models/contemporary-kitchens.webp",
@@ -287,7 +279,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Heavy-duty pan drawers tested to 50kg dynamic loads",
       "Bespoke spice and condiment pull-out inserts"
     ],
-    "referencePriceTl": "47.900 TL"
   },
   "axis-handleless-shadow": {
     "slug": "axis-handleless-shadow",
@@ -304,7 +295,7 @@ export const modelsData: Record<string, ModelDetail> = {
     ],
     "finishOptions": [
       "Brushed Bronze Profile / Chalk",
-      "Matte Black Profile / Anthracite",
+      "Matt Black Profile / Anthracite",
       "Natural Anodised / Greige"
     ],
     "installationScope": "Factory pre-fitted rail brackets for laser-straight line continuity.",
@@ -320,7 +311,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Fully integrated column refrigeration and larder housings",
       "Scratch-resistant micro-texture baked enamel finish"
     ],
-    "referencePriceTl": "49.500 TL"
   },
   "vega-ergonomic-suite": {
     "slug": "vega-ergonomic-suite",
@@ -354,7 +344,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Solid beech dovetail internal drawer inserts",
       "Heavy-capacity pull-out tall dry storage tower"
     ],
-    "referencePriceTl": "52.400 TL"
   },
   "urban-compact-160": {
     "slug": "urban-compact-160",
@@ -387,7 +376,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Moisture-proof composite worktop with factory-machined cutouts",
       "Integrated waste sorting drawer and modular utility storage"
     ],
-    "referencePriceTl": "16.450 TL"
   },
   "wall-hung-vanities": {
     "slug": "wall-hung-vanities",
@@ -422,7 +410,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Soft-close full extension drawer runners with dampening buffers",
       "Optional integrated warm-white under-vanity ambient LED lighting"
     ],
-    "referencePriceTl": "29.990 TL"
   },
   "fluted-vanities": {
     "slug": "fluted-vanities",
@@ -457,7 +444,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Seamless push-to-open drawer mechanisms preserving pure fluted facades",
       "Coordinated open towel niche and drawer storage configurations"
     ],
-    "referencePriceTl": "27.999 TL"
   },
   "tall-bathroom-storage": {
     "slug": "tall-bathroom-storage",
@@ -492,23 +478,22 @@ export const modelsData: Record<string, ModelDetail> = {
       "Toughened 8mm clear safety glass shelves with anti-tip locking pins",
       "Internal 240V shaver socket and toothbrush charging conduit integration"
     ],
-    "referencePriceTl": "54.499 TL"
   },
   "malta-vanity-console": {
     "slug": "malta-vanity-console",
     "category": "bathrooms",
     "title": "Malta 100 Illuminated Vanity Console",
     "metaTitle": "Malta 100 Illuminated Vanity | Bathroom Furniture | Cabivella UK",
-    "metaDescription": "100cm floating vanity suite featuring integrated LED magnifying mirror, dual soft-close drawers, and matte polyurethane lacquer.",
+    "metaDescription": "100cm floating vanity suite featuring integrated LED magnifying mirror, dual soft-close drawers, and matt polyurethane lacquer.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1000mm width, 520mm height, 480mm depth",
     "materials": [
       "MR-MDF substrate",
-      "Hydrophobic matte lacquer",
+      "Hydrophobic matt lacquer",
       "Blum motion soft-close glides"
     ],
     "finishOptions": [
-      "Matte White & Anthracite",
+      "Matt White & Anthracite",
       "Deep Slate & Oak",
       "Pure Cashmere"
     ],
@@ -523,10 +508,9 @@ export const modelsData: Record<string, ModelDetail> = {
     "keyFeatures": [
       "Precision 1000mm single-basin footprint optimised for modern master en-suites",
       "Concealed handleless bevel lip for effortless drawer opening",
-      "Hydro-phobic multi-layer coating impenetrable to shower steam",
+      "Hydro-phobic multi-layer coating moisture-resistant in bathroom environments",
       "Compatible with luxury undermount or vessel stone washbasins"
     ],
-    "referencePriceTl": "25.619 TL"
   },
   "design-monolith-vanity": {
     "slug": "design-monolith-vanity",
@@ -561,7 +545,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Tested to withstand high dynamic loads with certified wall hanging fixings",
       "Internal water-repellent walnut melamine lining"
     ],
-    "referencePriceTl": "27.399 TL"
   },
   "aydos-compact-vanity": {
     "slug": "aydos-compact-vanity",
@@ -578,7 +561,7 @@ export const modelsData: Record<string, ModelDetail> = {
     ],
     "finishOptions": [
       "Gloss Chalk White",
-      "Matte Pebble",
+      "Matt Pebble",
       "Sage Dust"
     ],
     "installationScope": "Compact delivery for tight staircase and hallway access.",
@@ -595,7 +578,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Integrated side towel rail bracket option in brushed nickel or brass",
       "Factory-tested waterproof edge-sealing technology"
     ],
-    "referencePriceTl": "24.795 TL"
   },
   "root-groove-vanity": {
     "slug": "root-groove-vanity",
@@ -613,7 +595,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "finishOptions": [
       "Natural Fluted Oak",
       "Smoked Walnut",
-      "Matte Clay",
+      "Matt Clay",
       "Basalt"
     ],
     "installationScope": "Factory assembled, pre-cut for standard UK plumbing traps.",
@@ -629,7 +611,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Marine-grade hydrophobic protective finish",
       "Generous bottom drawer designed for tall shampoo and lotion bottles"
     ],
-    "referencePriceTl": "29.829 TL"
   },
   "beat-ribbed-vanity": {
     "slug": "beat-ribbed-vanity",
@@ -664,7 +645,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Full extension synchronous drawer mechanisms with 35kg load rating",
       "Fully sealed sink trap cutouts with protective PVC edging"
     ],
-    "referencePriceTl": "28.759 TL"
   },
   "daisy-reeded-console": {
     "slug": "daisy-reeded-console",
@@ -698,7 +678,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Premium soft-close internal drawers with removable anti-slip mats",
       "Integrated cutouts for tapware and countertop washbowls"
     ],
-    "referencePriceTl": "37.730 TL"
   },
   "root-groove-tall-unit": {
     "slug": "root-groove-tall-unit",
@@ -716,7 +695,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "finishOptions": [
       "Natural Fluted Oak",
       "Smoked Walnut",
-      "Matte Basalt",
+      "Matt Basalt",
       "Parchment"
     ],
     "installationScope": "Includes heavy-duty anti-tip wall brackets.",
@@ -733,7 +712,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Matching fluted facade ensuring complete room collection continuity",
       "Adjustable 8mm safety glass shelves with edge-polished bevels"
     ],
-    "referencePriceTl": "29.837,50 TL"
   },
   "integra-square-tower": {
     "slug": "integra-square-tower",
@@ -768,7 +746,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Lower laundry drop chute or basket integration option",
       "Sealed against 100% relative humidity conditions"
     ],
-    "referencePriceTl": "30.077,63 TL"
   },
   "tall-larder-cupboards": {
     "slug": "tall-larder-cupboards",
@@ -1076,7 +1053,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "finishOptions": [
       "Natural Oiled Oak",
       "Deep Walnut",
-      "Matte Anthracite frame with brass accents"
+      "Matt Anthracite frame with brass accents"
     ],
     "installationScope": "Pre-assembled base credenza with modular upper architectural shelving system.",
     "image": "/assets/img/models/open-shelf-coffee-cabinets.webp",
@@ -1203,7 +1180,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Velvet-touch lacquer"
     ],
     "finishOptions": [
-      "Matte Carbon & Bronze",
+      "Matt Carbon & Bronze",
       "Warm Taupe & Brass",
       "Pure White"
     ],
@@ -1489,16 +1466,16 @@ export const modelsData: Record<string, ModelDetail> = {
     "category": "kitchen-doors",
     "title": "Integrated J-Pull & Shadow Fronts",
     "metaTitle": "Handleless Replacement Doors | J-Pull Cabinet Fronts | Cabivella UK",
-    "metaDescription": "Contemporary handleless replacement kitchen doors with integrated J-pull routing or chamfered shadow profiles in matte and gloss finishes.",
+    "metaDescription": "Contemporary handleless replacement kitchen doors with integrated J-pull routing or chamfered shadow profiles in matt and gloss finishes.",
     "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure to exact millimetre dimensions; 22mm profile thickness",
     "materials": [
       "Deep-routed moisture-resistant structural core",
       "Laser-applied edge sealing",
-      "Velvet matte or mirror gloss lacquer"
+      "Velvet matt or mirror gloss lacquer"
     ],
     "finishOptions": [
-      "Matte Anthracite",
+      "Matt Anthracite",
       "Porcelain Warm White",
       "Raw Umber Walnut",
       "Cashmere Neutral"
@@ -1513,7 +1490,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "keyFeatures": [
       "Ergonomically contoured 22mm J-pull profile with smooth finger clearance",
       "Laser-welded edge bands creating an impermeable seal against steam and moisture",
-      "Thermal-repairable super-matte surface technology resisting fingerprints and smudges",
+      "Thermal-repairable super-matt surface technology resisting fingerprints and smudges",
       "Available in bespoke heights and widths for non-standard vintage carcasses"
     ]
   },
@@ -1594,10 +1571,10 @@ export const modelsData: Record<string, ModelDetail> = {
     "materials": [
       "18mm or 22mm dense MR-MDF",
       "Laser-applied ABS edge",
-      "Anti-fingerprint matte lacquer"
+      "Anti-fingerprint matt lacquer"
     ],
     "finishOptions": [
-      "Super-Matte Basalt",
+      "Super-Matt Basalt",
       "Porcelain Chalk",
       "Smoked Pine",
       "Raw Umber"
@@ -1621,7 +1598,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "category": "kitchen-doors",
     "title": "Vera Silk-Touch Lacquered Slab Fronts",
     "metaTitle": "Vera Silk-Touch Slab Doors | Replacement Fronts | Cabivella UK",
-    "metaDescription": "Contemporary flat slab replacement kitchen doors in silky matte and soft satin finishes for minimalist kitchens.",
+    "metaDescription": "Contemporary flat slab replacement kitchen doors in silky matt and soft satin finishes for minimalist kitchens.",
     "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Exact millimetre precision custom sizes",
     "materials": [
@@ -1660,7 +1637,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "materials": [
       "Precision milled composite",
       "Solid timber perimeter",
-      "Matte satin lacquer"
+      "Matt satin lacquer"
     ],
     "finishOptions": [
       "Moss Green",
@@ -1693,7 +1670,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "materials": [
       "Multi-axis CNC routed oak veneer",
       "Moisture-sealed substrate",
-      "Protective matte oil"
+      "Protective matt oil"
     ],
     "finishOptions": [
       "Natural Fluted Oak",
@@ -1755,13 +1732,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "dimensionsMm": "2400mm width, 600mm base carcass depth (340mm wall depth), 2150mm standard installed height",
     "materials": [
       "18mm moisture-resistant structural MR core",
-      "Thermal-healing super-matte anti-fingerprint surface",
+      "Thermal-healing super-matt anti-fingerprint surface",
       "Concealed 35mm European soft-close clip hinges",
       "Synchronised full-extension 40kg undermount drawer runners"
     ],
     "finishOptions": [
       "Chalk White & Oiled Oak",
-      "Matte Basalt Anthracite",
+      "Matt Basalt Anthracite",
       "Cashmere Taupe",
       "Heritage Sage Green"
     ],
@@ -1779,7 +1756,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "400mm 3-tier drawer stack with solid oak cutlery inserts and deep pan storage",
       "2400mm matching wall run with integrated concealed extractor hood housing"
     ],
-    "referencePriceTl": "20.490 TL"
   },
   "belgravia-grand-380": {
     "slug": "belgravia-grand-380",
@@ -1815,7 +1791,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "900mm wide heavy-duty pot and pan drawers beneath central 5-zone cooking hob",
       "600mm integrated concealed dishwasher housing with waterproof floor barrier"
     ],
-    "referencePriceTl": "50.800 TL"
   },
   "mayfair-pantry-320": {
     "slug": "mayfair-pantry-320",
@@ -1851,7 +1826,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "600mm 3-drawer prep bank with solid walnut dovetail cutlery dividers",
       "Continuous overhead wall cabinetry with integrated warm LED task lighting"
     ],
-    "referencePriceTl": "44.900 TL"
   },
   "cotswold-classic-280": {
     "slug": "cotswold-classic-280",
@@ -1887,7 +1861,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "600mm integrated cooking range module with heat-dissipation ventilation grille",
       "800mm sink base unit with integrated plumbing access service void"
     ],
-    "referencePriceTl": "32.850 TL"
   },
   "richmond-studio-200": {
     "slug": "richmond-studio-200",
@@ -1905,7 +1878,7 @@ export const modelsData: Record<string, ModelDetail> = {
     ],
     "finishOptions": [
       "Porcelain White & Warm Ash",
-      "Matte Anthracite",
+      "Matt Anthracite",
       "Nordic Pebble",
       "Smoked Greige"
     ],
@@ -1923,7 +1896,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "Overhead lift-up flap cabinets providing unobstructed head clearance during food prep",
       "Integrated moisture-resistant splashback panel with pre-cut electrical outlet ports"
     ],
-    "referencePriceTl": "19.720 TL"
   },
   "chelsea-monolith-100": {
     "slug": "chelsea-monolith-100",
@@ -1932,7 +1904,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Chelsea 100cm Vanity Suite | Luxury Bathrooms | Cabivella UK",
     "metaDescription": "Refined 100cm floating bathroom vanity suite with vitreous china basin, touchless LED demister mirror cabinet, and coordinating tall linen tower.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "22.999 TL",
     "dimensionsMm": "1000mm vanity width, 520mm height, 480mm depth; optional 350x1600mm linen tower",
     "materials": [
       "Marine-grade moisture-sealed core substrate",
@@ -1941,7 +1912,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Concealed heavy-load steel wall brackets tested to 150kg"
     ],
     "finishOptions": [
-      "Matte Chalk White",
+      "Matt Chalk White",
       "Basalt Grey Silk",
       "Natural Bleached Oak",
       "Deep Oxford Navy"
@@ -1967,7 +1938,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Belgravia 140cm Double Vanity | Master Suite Joinery | Cabivella UK",
     "metaDescription": "Commanding 140cm wall-hung double-basin bathroom console featuring dual ceramic washbowls, four soft-close drawers, and matching dual LED mirrors.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "28.682,50 TL",
     "dimensionsMm": "1400mm width, 540mm height, 500mm depth",
     "materials": [
       "Structural moisture-resistant carcass core",
@@ -1988,7 +1958,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "/assets/img/models/real_bathrooms/bath_5000076563_2.webp",
       "/assets/img/models/real_bathrooms/bath_5000076563_3.webp"
 ],
-    "description": "The quintessential master en-suite centerpiece. 140cm of uninterrupted architectural joinery offering dual independent wash stations and four deep organising drawers for shared morning rituals without friction.",
+    "description": "The quintessential master en-suite centrepiece. 140cm of uninterrupted architectural joinery offering dual independent wash stations and four deep organising drawers for shared morning rituals without friction.",
     "keyFeatures": [
       "Generous 1400mm dual-basin configuration with independent plumbing service ducts",
       "Four soft-close drawers with integrated dividers for skincare, towels, and grooming items",
@@ -2003,7 +1973,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "St James 120cm Reeded Vanity | Fluted Bathroom Units | Cabivella UK",
     "metaDescription": "Tactile 120cm fluted bathroom vanity unit with CNC-milled vertical reeding, quartz stone deck, and twin soft-close storage compartments.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "27.399 TL",
     "dimensionsMm": "1200mm width, 520mm height, 490mm depth",
     "materials": [
       "Multi-axis CNC-routed reeded European oak veneer",
@@ -2014,7 +1983,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "finishOptions": [
       "Natural Fluted Oak",
       "Smoked Walnut",
-      "Matte Clay Reeded",
+      "Matt Clay Reeded",
       "Basalt Wave"
     ],
     "installationScope": "Factory pre-assembled with pre-machined cutouts for undermount or vessel washbasin integration.",
@@ -2039,7 +2008,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Kensington 80cm Fluted Vanity | Compact Luxury Joinery | Cabivella UK",
     "metaDescription": "80cm made-to-measure floating vanity unit with reeded timber detailing, slim ceramic washbasin, and deep double-drawer storage.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "38.999 TL",
     "dimensionsMm": "800mm width, 500mm height, 460mm depth",
     "materials": [
       "Moisture-resistant MR-MDF substrate",
@@ -2074,7 +2042,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Knightsbridge 160cm Master Bathroom Suite | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Grand 160cm double vanity console with bespoke quartz slab, dual undermount ceramic bowls, six soft-close drawers, and matching full-height linen column.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "21.780 TL",
     "dimensionsMm": "1600mm vanity width, 550mm height, 520mm depth; 400x1750mm linen tower",
     "materials": [
       "Structural timber composite with water-cured resin bonding",
@@ -2109,11 +2076,10 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Mayfair 65cm Cloakroom Vanity | Small Space Joinery | Cabivella UK",
     "metaDescription": "Slim 65cm wall-hung cloakroom vanity with ceramic basin, soft-close double drawers, and matching LED backlit mirror for UK powder rooms.",
     "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
-    "referencePriceTl": "23.595 TL",
     "dimensionsMm": "650mm width, 480mm height, 420mm slim projection",
     "materials": [
       "High-density moisture-sealed MR core",
-      "Gloss or matte polyurethane lacquer",
+      "Gloss or matt polyurethane lacquer",
       "Compact vitreous china washbasin",
       "Concealed soft-close buffer hinges"
     ],
@@ -2121,7 +2087,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Porcelain Chalk White",
       "Warm Stone Greige",
       "Sage Mist",
-      "Matte Anthracite"
+      "Matt Anthracite"
     ],
     "installationScope": "Engineered for rapid, accurate mounting in compact under-stair WCs and cloakrooms.",
     "image": "/assets/img/models/real_bathrooms/bath_5003552028_1.webp",
@@ -2144,7 +2110,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Westminster 310cm Chef's Linear Kitchen | Cabivella UK",
     "metaDescription": "Luxury 310cm made-to-measure culinary kitchen layout featuring moisture-resistant MDF fronts, seamless integrated worktop, deep pot drawers, and matching wall units.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "125.998 TL",
     "dimensionsMm": "3100mm width, 600mm base carcass depth (350mm wall depth), 2150mm standard installed height",
     "materials": [
       "High-density moisture-resistant MR-MDF core",
@@ -2180,7 +2145,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Kensington 310cm Culinary Suite | Bespoke Kitchens | Cabivella UK",
     "metaDescription": "Grand 310cm made-to-measure kitchen suite featuring precision-milled cabinetry, full-extension dovetail drawers, and integrated prep worktop.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "125.998 TL",
     "dimensionsMm": "3100mm width, 600mm worktop depth, 2200mm ceiling-line height",
     "materials": [
       "Moisture-resistant high-density timber composite",
@@ -2216,7 +2180,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Belgravia 310cm Executive Kitchen | Luxury Joinery | Cabivella UK",
     "metaDescription": "Sophisticated 310cm bespoke kitchen layout featuring high-specification cabinetry, integrated breakfast preparation zone, and durable work surfaces.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "125.998 TL",
     "dimensionsMm": "3100mm width, 600mm base depth (350mm wall depth), 2150mm height",
     "materials": [
       "18mm structural MR-MDF substrate",
@@ -2252,7 +2215,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Mayfair 410cm High-Gloss Kitchen | Architectural Suites | Cabivella UK",
     "metaDescription": "Commanding 410cm x 240cm architectural kitchen suite featuring mirror-finish high-gloss lacquered fronts, dual full-height towers, and expansive central preparation run.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "71.650 TL",
     "dimensionsMm": "4100mm width, 2400mm full ceiling height, 600mm depth",
     "materials": [
       "High-gloss mirror acrylic lacquered MDF",
@@ -2287,7 +2249,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Chelsea 410cm Dual-Tone Kitchen | High-Gloss Joinery | Cabivella UK",
     "metaDescription": "Striking 410cm x 240cm contemporary kitchen combining chalk white overhead cabinetry with deep anthracite base towers and seamless work surfaces.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "71.470 TL",
     "dimensionsMm": "4100mm width, 2400mm ceiling height, 600mm depth",
     "materials": [
       "Dual-tone high-gloss acrylic MDF panels",
@@ -2322,7 +2283,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Knightsbridge 410cm Larder Kitchen | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Expansive 410cm made-to-measure kitchen suite featuring dedicated walk-in tall larder capacity, integrated appliance banks, and high-gloss lacquer.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "71.340 TL",
     "dimensionsMm": "4100mm width, 2400mm height, 600mm depth",
     "materials": [
       "High-gloss lacquered moisture-resistant core",
@@ -2357,7 +2317,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "St James 410cm Integrated Kitchen | Luxury Suites | Cabivella UK",
     "metaDescription": "Contemporary 410cm kitchen layout featuring dual appliance towers in contrasting anthracite and white high-gloss finishes.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "71.150 TL",
     "dimensionsMm": "4100mm width, 2400mm height, 600mm depth",
     "materials": [
       "Moisture-resistant MR-MDF substrate",
@@ -2392,7 +2351,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Cotswold 400cm Full-Height Kitchen | Grand Suites | Cabivella UK",
     "metaDescription": "Magnificent 400cm x 240cm kitchen suite with dual full-height storage towers, integrated appliances, and pristine white high-gloss finish.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "70.710 TL",
     "dimensionsMm": "4000mm width, 2400mm ceiling height, 600mm depth",
     "materials": [
       "18mm high-gloss lacquer core",
@@ -2427,7 +2385,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Richmond 400cm Dual Tower Kitchen | Luxury Joinery | Cabivella UK",
     "metaDescription": "400cm bespoke kitchen layout featuring dual tall refrigeration and oven columns flanking a central prep workstation in pure white gloss.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "70.540 TL",
     "dimensionsMm": "4000mm width, 2400mm height, 600mm depth",
     "materials": [
       "High-density moisture-resistant MR substrate",
@@ -2462,7 +2419,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Hampstead 400cm Contemporary Suite | Made-to-Measure | Cabivella UK",
     "metaDescription": "Modern 400cm kitchen suite combining white high-gloss overhead cabinets with anthracite base towers and seamless prep surfaces.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "70.500 TL",
     "dimensionsMm": "4000mm width, 2400mm height, 600mm depth",
     "materials": [
       "Dual-tone high-gloss acrylic MDF",
@@ -2497,7 +2453,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Belgravia 240cm Island Olive Kitchen | Shaker Joinery | Cabivella UK",
     "metaDescription": "Heritage 240cm Shaker kitchen cabinetry in refined island olive green, featuring 80cm sink base, 60cm oven module, and matching wall units.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "19.889 TL",
     "dimensionsMm": "2400mm width, 600mm base depth (340mm wall depth), 2150mm height",
     "materials": [
       "Solid timber Shaker stiles",
@@ -2532,7 +2487,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Kensington 100cm Reeded Vanity Unit | Forest Green | Cabivella UK",
       "metaDescription": "1000mm wall-hung vanity in deep botanical green with rhythmic vertical reeding, integrated ceramic basin and mirrored cabinet.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "29.990\u00a0TL",
       "dimensionsMm": "1000mm width, 480mm depth, 520mm height",
       "materials": [
           "High-density MR lacquer panel",
@@ -2540,7 +2494,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "Concealed steel suspension brackets"
       ],
       "finishOptions": [
-          "Matte Forest Green",
+          "Matt Forest Green",
           "Botanical Sage",
           "Deep Moss"
       ],
@@ -2553,7 +2507,7 @@ export const modelsData: Record<string, ModelDetail> = {
       ],
       "description": "1000mm wall-hung vanity in deep botanical green with rhythmic vertical reeding, integrated ceramic basin and mirrored cabinet.",
       "keyFeatures": [
-          "Precision CNC fluted fascia in matte sage-forest lacquer",
+          "Precision CNC fluted fascia in matt sage-forest lacquer",
           "Coordinating double-door mirrored demister cabinet with interior shelving",
           "Integrated glazed vitreous china washbasin with pre-punched brassware hole",
           "Twin soft-close full-extension undermount runners with 35kg dynamic load rating"
@@ -2566,7 +2520,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Belgravia 100cm Gloss Vanity Console | Minimalist | Cabivella UK",
       "metaDescription": "1000mm pristine high-gloss white bathroom console with continuous J-pull profile and wide-format washbasin.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "27.999\u00a0TL",
       "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
       "materials": [
           "Multi-coat gloss lacquer",
@@ -2598,9 +2551,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "category": "bathrooms",
       "title": "Mayfair 80cm Architectural Charcoal Vanity",
       "metaTitle": "Mayfair 80cm Charcoal Floating Vanity | Luxury Suite | Cabivella UK",
-      "metaDescription": "800mm floating vanity console in architectural matte slate with matching demister mirror and recessed ambient illumination.",
+      "metaDescription": "800mm floating vanity console in architectural matt slate with matching demister mirror and recessed ambient illumination.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "54.499\u00a0TL",
       "dimensionsMm": "800mm width, 460mm depth, 520mm height",
       "materials": [
           "Anti-fingerprint thermal foil",
@@ -2608,7 +2560,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "Backlit silvered mirror"
       ],
       "finishOptions": [
-          "Matte Slate Charcoal",
+          "Matt Slate Charcoal",
           "Volcanic Ash",
           "Carbon Silk"
       ],
@@ -2619,9 +2571,9 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_bathrooms/bath_5002572000_2.webp",
           "/assets/img/models/real_bathrooms/bath_5002572000_3.webp"
       ],
-      "description": "800mm floating vanity console in architectural matte slate with matching demister mirror and recessed ambient illumination.",
+      "description": "800mm floating vanity console in architectural matt slate with matching demister mirror and recessed ambient illumination.",
       "keyFeatures": [
-          "Ultra-matte anti-fingerprint slate grey composite finish with silky tactile feel",
+          "Ultra-matt anti-fingerprint slate grey composite finish with silky tactile feel",
           "Frameless architectural backlit LED mirror with touch-dimming and demister pad",
           "Slimline profile ceramic washbasin with generous side deck for amenities",
           "Heavy-duty adjustable steel wall hanger system with acoustic decoupling"
@@ -2634,7 +2586,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Cotswold 115cm Bathroom Suite with Tall Column | Cabivella UK",
       "metaDescription": "Complete 800mm vanity console paired with 350mm full-height linen storage tower in duo-tone graphite and chalk.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "25.619\u00a0TL",
       "dimensionsMm": "800mm vanity + 350mm column (1150mm total width), 450mm depth",
       "materials": [
           "Duo-tone MR engineered timber",
@@ -2664,21 +2615,20 @@ export const modelsData: Record<string, ModelDetail> = {
   "chelsea-compact-85": {
       "slug": "chelsea-compact-85",
       "category": "bathrooms",
-      "title": "Chelsea 85cm Cloakroom Vanity in Matte Anthracite",
-      "metaTitle": "Chelsea 85cm Vanity Console | Matte Anthracite | Cabivella UK",
+      "title": "Chelsea 85cm Cloakroom Vanity in Matt Anthracite",
+      "metaTitle": "Chelsea 85cm Vanity Console | Matt Anthracite | Cabivella UK",
       "metaDescription": "850mm proportioned vanity unit designed for distinguished en-suites and cloakrooms with enclosed mirrored storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "27.399\u00a0TL",
       "dimensionsMm": "850mm width, 450mm depth, 520mm height",
       "materials": [
-          "Matte anthracite polyurethane",
+          "Matt anthracite polyurethane",
           "Sanitary vitreous porcelain",
           "Stainless hardware"
       ],
       "finishOptions": [
-          "Matte Anthracite",
+          "Matt Anthracite",
           "Deep Charcoal",
-          "Cast Iron Matte"
+          "Cast Iron Matt"
       ],
       "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
       "image": "/assets/img/models/real_bathrooms/bath_5002579024_1.webp",
@@ -2702,7 +2652,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "St James 100cm Modular Bathroom Suite | Mirror & Column | Cabivella UK",
       "metaDescription": "Three-piece architectural suite comprising 1000mm base vanity, 350mm vertical linen armoire, and wide mirrored cabinet.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "24.795\u00a0TL",
       "dimensionsMm": "1000mm base + 350mm column, 460mm depth, 1900mm suite height",
       "materials": [
           "Engineered MR composite",
@@ -2736,7 +2685,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Westminster 135cm Grand Duo Bathroom Suite | Cabivella UK",
       "metaDescription": "Commanding 1000mm basin console with companion 350mm floor-mounted column in pure architectural satin white.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "29.829\u00a0TL",
       "dimensionsMm": "1000mm console + 350mm tower, 460mm depth",
       "materials": [
           "High-tensile moisture resistant substrate",
@@ -2746,7 +2694,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "finishOptions": [
           "Satin White",
           "Nordic Alabaster",
-          "Alpine Matte"
+          "Alpine Matt"
       ],
       "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
       "image": "/assets/img/models/real_bathrooms/bath_5000668234_1.webp",
@@ -2769,7 +2717,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Knightsbridge 135cm Noir Bathroom Suite | Black Oak & Ceramic | Cabivella UK",
       "metaDescription": "Dramatic 1000mm base vanity with 350mm storage column in deep architectural obsidian black.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "28.759\u00a0TL",
       "dimensionsMm": "1000mm vanity + 350mm tower, 460mm depth",
       "materials": [
           "Textured black timber composite",
@@ -2779,7 +2726,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "finishOptions": [
           "Obsidian Noir",
           "Blackened Oak",
-          "Midnight Matte"
+          "Midnight Matt"
       ],
       "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
       "image": "/assets/img/models/real_bathrooms/bath_5000580839_1.webp",
@@ -2803,7 +2750,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Marylebone 80cm LED Illuminated Vanity Suite | Cabivella UK",
       "metaDescription": "800mm wall-hung vanity in soft mist grey featuring integrated magnifying LED mirror and companion column.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "37.730\u00a0TL",
       "dimensionsMm": "800mm vanity + 350mm tower, 460mm depth",
       "materials": [
           "Moisture-sealed MR lacquer",
@@ -2837,7 +2783,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Hampstead 100cm Architectural Contrast Vanity | Cabivella UK",
       "metaDescription": "1000mm two-tone vanity unit pairing crisp white porcelain with deep graphite framework and linen tower.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "29.837,50\u00a0TL",
       "dimensionsMm": "1000mm vanity + 350mm tower, 460mm depth",
       "materials": [
           "Duo-tone moisture barrier board",
@@ -2869,9 +2814,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "category": "bathrooms",
       "title": "Fitzrovia 90cm Noir Master Console & Tower",
       "metaTitle": "Fitzrovia 90cm Noir Vanity Suite | Master Suite Storage | Cabivella UK",
-      "metaDescription": "900mm wide vanity console in matte obsidian black with matching wall-mounted storage armoire.",
+      "metaDescription": "900mm wide vanity console in matt obsidian black with matching wall-mounted storage armoire.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "30.077,63\u00a0TL",
       "dimensionsMm": "900mm vanity + 350mm column, 470mm depth",
       "materials": [
           "Deep black textured board",
@@ -2879,7 +2823,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "Brushed metal hardware"
       ],
       "finishOptions": [
-          "Matte Obsidian Noir",
+          "Matt Obsidian Noir",
           "Smoked Carbon",
           "Gunmetal Black"
       ],
@@ -2890,12 +2834,12 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_bathrooms/bath_5000252445_2.webp",
           "/assets/img/models/real_bathrooms/bath_5000252445_3.webp"
       ],
-      "description": "900mm wide vanity console in matte obsidian black with matching wall-mounted storage armoire.",
+      "description": "900mm wide vanity console in matt obsidian black with matching wall-mounted storage armoire.",
       "keyFeatures": [
-          "Tactile matte black exterior impervious to steamy bathroom humidity and cosmetic contact",
+          "Tactile matt black exterior impervious to steamy bathroom humidity and cosmetic contact",
           "Asymmetrical storage architecture combining wide slide-out drawers and dedicated cupboard space",
           "Generous 900mm ceramic basin providing ample perimeter clearance for bathroom rituals",
-          "Solid metal handles finished in brushed matte graphite for unified understated aesthetics"
+          "Solid metal handles finished in brushed matt graphite for unified understated aesthetics"
       ]
   },
   "bloomsbury-minimalist-80": {
@@ -2903,12 +2847,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "category": "bathrooms",
       "title": "Bloomsbury 80cm Minimalist Vanity Unit",
       "metaTitle": "Bloomsbury 80cm Minimalist Bathroom Vanity | Cabivella UK",
-      "metaDescription": "800mm floating single-console vanity in architectural matte charcoal with integrated soft-close drawers.",
+      "metaDescription": "800mm floating single-console vanity in architectural matt charcoal with integrated soft-close drawers.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "28.682,50\u00a0TL",
       "dimensionsMm": "800mm width, 450mm depth, 480mm height",
       "materials": [
-          "Matte architectural lacquer",
+          "Matt architectural lacquer",
           "Sanitary porcelain",
           "Galvanized steel plates"
       ],
@@ -2924,12 +2867,12 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_bathrooms/bath_5000076563_2.webp",
           "/assets/img/models/real_bathrooms/bath_5000076563_3.webp"
       ],
-      "description": "800mm floating single-console vanity in architectural matte charcoal with integrated soft-close drawers.",
+      "description": "800mm floating single-console vanity in architectural matt charcoal with integrated soft-close drawers.",
       "keyFeatures": [
           "Tailored for streamlined en-suites without visual clutter or bulky floor pedestals",
           "Dual horizontal soft-close drawers with precision mitred front edges",
           "Direct plumbing trap relief engineered into the top drawer structure",
-          "Supplied with heavy-gauge galvanized hanging plates and wall fixings"
+          "Supplied with heavy-gauge galvanised hanging plates and wall fixings"
       ]
   },
   "richmond-legnano-100": {
@@ -2939,7 +2882,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Richmond 100cm Legnano Timber Vanity Console | Cabivella UK",
       "metaDescription": "1000mm floating vanity console in natural Legnano warm timber grain with dual deep soft-close drawers.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "20.823\u00a0TL",
       "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
       "materials": [
           "Embossed Legnano timber foil",
@@ -2973,7 +2915,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Pimlico 100cm Navaro Walnut Vanity Console | Cabivella UK",
       "metaDescription": "1000mm rich Navaro walnut vanity console paired with sleek white ceramic mono-basin.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "20.823\u00a0TL",
       "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
       "materials": [
           "Navaro walnut grain laminate",
@@ -3007,7 +2948,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Greenwich 100cm Morgana Cherry Bathroom Suite | Cabivella UK",
       "metaDescription": "1000mm vanity in rich Morgana cherry grain with coordinating LED illuminated mirror.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "36.382,50\u00a0TL",
       "dimensionsMm": "1000mm width, 460mm depth, 520mm height",
       "materials": [
           "Morgana cherry grain veneer",
@@ -3041,7 +2981,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Chiswick 100cm Artisanal Walnut Bathroom Suite | Cabivella UK",
       "metaDescription": "1000mm artisanal walnut timber grain vanity console with companion mirror cabinet.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "44.847\u00a0TL",
       "dimensionsMm": "1000mm width, 460mm depth, 520mm height",
       "materials": [
           "Artisanal walnut composite",
@@ -3075,10 +3014,9 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Wimbledon 80cm Terracotta Clay Bathroom Vanity | Cabivella UK",
       "metaDescription": "800mm designer vanity unit in warm earthy terracotta clay with twin soft-close drawer storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "47.030,50\u00a0TL",
       "dimensionsMm": "800mm width, 460mm depth, 500mm height",
       "materials": [
-          "Terracotta clay matte lacquer",
+          "Terracotta clay matt lacquer",
           "Fine vitreous porcelain",
           "Hydraulic drawer dampeners"
       ],
@@ -3095,7 +3033,7 @@ export const modelsData: Record<string, ModelDetail> = {
       ],
       "description": "800mm designer vanity unit in warm earthy terracotta clay with twin soft-close drawer storage.",
       "keyFeatures": [
-          "Sophisticated warm earthy clay matte tone inspired by Mediterranean ceramic ateliers and British spa retreats",
+          "Sophisticated warm earthy clay matt tone inspired by Mediterranean ceramic ateliers and British spa retreats",
           "Dual tiered drawers featuring concealed handle recesses on the lower drawer edge",
           "Integrated slim-rim porcelain washbasin designed for single-lever mixer taps",
           "Anti-bacterial seal around all exposed carcass edges ensuring lifelong water resistance"
@@ -3108,7 +3046,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Dulwich 65cm Cloakroom Bathroom Suite | Cabivella UK",
       "metaDescription": "650mm compact bathroom console with mirror and ceramic basin tailored for secondary bathrooms.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "21.780\u00a0TL",
       "dimensionsMm": "650mm width, 400mm depth, 480mm height",
       "materials": [
           "Moisture-resistant white gloss board",
@@ -3141,7 +3078,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Mayfair Barista Armoire 154cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1540mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "9.999 TL",
       "dimensionsMm": "1540mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3150,11 +3086,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
@@ -3174,7 +3110,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Belgravia Grand Beverage Suite 247cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 2470mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "16.152 TL",
       "dimensionsMm": "2470mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3183,11 +3118,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_02.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_02.webp"
@@ -3207,7 +3142,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Kensington Larder & Coffee Station 184cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1840mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "11.537 TL",
       "dimensionsMm": "1840mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3216,11 +3150,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_03.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_03.webp"
@@ -3240,7 +3174,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Cotswold Dual-Tower Breakfast Pantry 217cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 2170mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "14.614 TL",
       "dimensionsMm": "2170mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3249,11 +3182,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_04.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_04.webp"
@@ -3273,7 +3206,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "St James Fluted Glass Coffee Credenza | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1400mm width, 420mm depth, 1820mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "16.973 TL",
       "dimensionsMm": "1400mm width, 420mm depth, 1820mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3282,11 +3214,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_05.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_05.webp"
@@ -3306,7 +3238,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Richmond Vitrine Barista Niche | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "11.537 TL",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3315,11 +3246,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_06.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_06.webp"
@@ -3339,7 +3270,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Chelsea Illuminated Coffee Armoire | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1500mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "15.127 TL",
       "dimensionsMm": "1500mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3348,11 +3278,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_07.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_07.webp"
@@ -3372,7 +3302,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Westminster Fluted Display Larder | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 600mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "5.589 TL",
       "dimensionsMm": "600mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3381,11 +3310,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_08.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_08.webp"
@@ -3405,7 +3334,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Knightsbridge Drawer Stack Coffee Station | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "11.024 TL",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3414,11 +3342,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_09.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_09.webp"
@@ -3438,7 +3366,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Marylebone Tri-Door Coffee Cabinet | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "6.922 TL",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3447,11 +3374,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_10.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_10.webp"
@@ -3471,7 +3398,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Hampstead Linear Barista Station 90cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "7.435 TL",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3480,11 +3406,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_11.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_11.webp"
@@ -3504,7 +3430,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Fitzrovia Compact Coffee Credenza 90cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "6.512 TL",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3513,11 +3438,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_12.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_12.webp"
@@ -3537,7 +3462,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Bloomsbury Quad-Door Coffee Pantry 120cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "7.742 TL",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3546,11 +3470,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_13.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_13.webp"
@@ -3570,7 +3494,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Pimlico Grand Culinary Station 210cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 2100mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "13.588 TL",
       "dimensionsMm": "2100mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3579,11 +3502,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_14.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_14.webp"
@@ -3603,7 +3526,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Greenwich Twin-Door Breakfast Cabinet | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 800mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "7.435 TL",
       "dimensionsMm": "800mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3612,11 +3534,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_15.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_15.webp"
@@ -3636,7 +3558,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Chiswick Utility Beverage Larder 120cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "5.691 TL",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3645,11 +3566,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_16.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_16.webp"
@@ -3669,7 +3590,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Wimbledon Petite Coffee Niche 90cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "4.358 TL",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3678,11 +3598,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_17.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_17.webp"
@@ -3702,7 +3622,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Dulwich Multi-Module Breakfast Pantry | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1600mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "14.922 TL",
       "dimensionsMm": "1600mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3711,11 +3630,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_18.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_18.webp"
@@ -3735,7 +3654,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Battersea Integrated Larder & Coffee Unit | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1750mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "17.691 TL",
       "dimensionsMm": "1750mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3744,11 +3662,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_19.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_19.webp"
@@ -3768,7 +3686,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Highgate Dual-Section Beverage Credenza 180cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1800mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "15.947 TL",
       "dimensionsMm": "1800mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3777,11 +3694,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_20.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_20.webp"
@@ -3801,7 +3718,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Islington Grand Vitrine Coffee Suite | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "17.434 TL",
       "dimensionsMm": "1900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3810,11 +3726,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_21.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_21.webp"
@@ -3834,7 +3750,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Putney Ambient Beverage Armoire | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1300mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "11.845 TL",
       "dimensionsMm": "1300mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3843,11 +3758,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_22.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_22.webp"
@@ -3867,7 +3782,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Barnes Radiator Cover Coffee Console 130cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1300mm width, 220mm depth, 850mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "3.332 TL",
       "dimensionsMm": "1300mm width, 220mm depth, 850mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3876,11 +3790,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_23.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_23.webp"
@@ -3900,7 +3814,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Clapham Triple-Door Morning Station | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1400mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "11.537 TL",
       "dimensionsMm": "1400mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3909,11 +3822,11 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heavy-duty nickel-plated hinges and soft-close slides"
       ],
       "finishOptions": [
-          "Alpine Matte White",
+          "Alpine Matt White",
           "Warm Cashmere",
           "Nordic White & Oak Niche"
       ],
-      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable leveling plinths, and integrated low-voltage LED transformer.",
+      "installationScope": "Supplied modular with pre-machined cable grommets, adjustable levelling plinths, and integrated low-voltage LED transformer.",
       "image": "/assets/img/models/real_coffee_stations/coffee_station_24.webp",
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_24.webp"
@@ -3933,18 +3846,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Kensington 4-Door Fitted Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 1800mm width, 600mm depth, 2200mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "40.490 TL",
       "dimensionsMm": "1800mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_01_img1.webp",
@@ -3969,18 +3881,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Belgravia 5-Door Architectural Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "51.749 TL",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_02_img1.webp",
@@ -4005,18 +3916,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Mayfair 6-Door Master Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "62.538 TL",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_03_img1.webp",
@@ -4041,18 +3951,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Cotswold 6-Door Mirrored Armoire | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "60.451 TL",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_04_img1.webp",
@@ -4077,18 +3986,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Chelsea 5-Door Contemporary Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "51.841 TL",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_05_img1.webp",
@@ -4113,18 +4021,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "St James 6-Door Linear Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2600mm width, 580mm depth, 2180mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "35.429 TL",
       "dimensionsMm": "2600mm width, 580mm depth, 2180mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_06_img1.webp",
@@ -4149,18 +4056,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Richmond 5-Door Classic Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2150mm width, 580mm depth, 2180mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "32.107 TL",
       "dimensionsMm": "2150mm width, 580mm depth, 2180mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_07_img1.webp",
@@ -4185,18 +4091,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Westminster 4-Door Compact Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 1750mm width, 580mm depth, 2180mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "26.039 TL",
       "dimensionsMm": "1750mm width, 580mm depth, 2180mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_08_img1.webp",
@@ -4221,18 +4126,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Knightsbridge 5-Door Fluted Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2200mm width, 590mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "29.399 TL",
       "dimensionsMm": "2200mm width, 590mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_09_img1.webp",
@@ -4257,18 +4161,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Marylebone 6-Door Fluted Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2650mm width, 590mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "33.352 TL",
       "dimensionsMm": "2650mm width, 590mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_10_img1.webp",
@@ -4293,18 +4196,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Hampstead 5-Door Artisan Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "33.756 TL",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_11_img1.webp",
@@ -4329,18 +4231,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Fitzrovia 6-Door Artisan Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "37.024 TL",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_12_img1.webp",
@@ -4365,18 +4266,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Bloomsbury 5-Door Porcelain Armoire | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2200mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "41.352 TL",
       "dimensionsMm": "2200mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_13_img1.webp",
@@ -4401,18 +4301,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Pimlico 6-Door Porcelain Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2650mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "47.456 TL",
       "dimensionsMm": "2650mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_14_img1.webp",
@@ -4437,18 +4336,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Greenwich 6-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2600mm width, 580mm depth, 2150mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "33.019 TL",
       "dimensionsMm": "2600mm width, 580mm depth, 2150mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_15_img1.webp",
@@ -4473,18 +4371,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Chiswick 5-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2150mm width, 580mm depth, 2150mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "28.453 TL",
       "dimensionsMm": "2150mm width, 580mm depth, 2150mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_16_img1.webp",
@@ -4509,18 +4406,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Wimbledon 4-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 1720mm width, 580mm depth, 2150mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "23.230 TL",
       "dimensionsMm": "1720mm width, 580mm depth, 2150mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_17_img1.webp",
@@ -4545,18 +4441,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Dulwich 6-Door Boheme Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2220mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "49.815 TL",
       "dimensionsMm": "2700mm width, 600mm depth, 2220mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_18_img1.webp",
@@ -4581,18 +4476,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Battersea 5-Door Boheme Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2220mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "41.898 TL",
       "dimensionsMm": "2250mm width, 600mm depth, 2220mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_19_img1.webp",
@@ -4617,18 +4511,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Highgate 6-Door Grand Acoustic Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 620mm depth, 2250mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "52.367 TL",
       "dimensionsMm": "2700mm width, 620mm depth, 2250mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_20_img1.webp",
@@ -4653,18 +4546,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Islington 5-Door Grand Acoustic Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 620mm depth, 2250mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "43.555 TL",
       "dimensionsMm": "2250mm width, 620mm depth, 2250mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_21_img1.webp",
@@ -4689,18 +4581,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Putney Full-Length Sliding Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2400mm width, 680mm depth, 2220mm height fitted wardrobe featuring Sliding doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "60.860 TL",
       "dimensionsMm": "2400mm width, 680mm depth, 2220mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_22_img1.webp",
@@ -4723,18 +4614,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Barnes 6-Door Integrated Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "56.969 TL",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_23_img1.webp",
@@ -4758,18 +4648,17 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Clapham 5-Door Integrated Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
       "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-      "referencePriceTl": "47.435 TL",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
-          "Matte polyurethane lacquered door fascias",
+          "Matt polyurethane lacquered door fascias",
           "Concealed 110-degree soft-close clip hinges",
           "Anodised aluminium integrated hanging rails and shelf supports"
       ],
       "finishOptions": [
           "Warm Putty & Fluted Glass",
           "Smoked Oak & Champagne Mirror",
-          "Pure Matte Chalk"
+          "Pure Matt Chalk"
       ],
       "installationScope": "Supplied modular with adjustable floor-to-ceiling filler scribes, interior LED downlighting, and heavy-duty concealed hanging tracks.",
       "image": "/assets/img/models/real_fitted_storage/wardrobe_24_img1.webp",
@@ -4792,7 +4681,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Mayfair 310cm Executive Culinary Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "125.998,20TL",
       "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4827,7 +4715,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Belgravia 310cm Chef Monolith Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "125.998,20TL",
       "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4862,7 +4749,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Kensington 310cm Linear Artisan Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "125.998,20TL",
       "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4897,7 +4783,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Cotswold 410x240cm High-Gloss Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "71.649,90TL",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4932,7 +4817,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Richmond 410x240cm Charcoal High-Gloss Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "71.469,90TL",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4967,7 +4851,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Westminster 410x240cm Alabaster Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "71.339,90TL",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5002,7 +4885,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Knightsbridge 410x240cm Slate Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "71.149,90TL",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5037,7 +4919,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Chelsea 400x240cm Master Corner Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.709,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5072,7 +4953,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "St James 400x240cm Architectural Corner Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.539,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5107,7 +4987,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Marylebone 400x240cm Dual-Tone Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.529,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5142,7 +5021,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Hampstead 400x240cm Tower Pantry Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.499,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5177,7 +5055,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Fitzrovia 400x240cm Linear Tower Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.499,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5212,7 +5089,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Bloomsbury 400x240cm Deep Drawer Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.449,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5247,7 +5123,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Pimlico 400x240cm Anthracite Accent Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.359,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5282,7 +5157,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Greenwich 410x240cm Tall Appliance Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.269,90TL",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5317,7 +5191,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Chiswick 400x240cm Ergonomic L-Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.269,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5352,7 +5225,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Wimbledon 400x240cm Pure White Gloss Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.189,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5387,7 +5259,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Dulwich 400x240cm Seamless J-Pull Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.189,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5422,7 +5293,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Battersea 395x240cm Urban Compact Corner | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3950mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.169,90TL",
       "dimensionsMm": "3950mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5457,7 +5327,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Highgate 400x240cm Double Tower Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "70.139,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5492,7 +5361,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Islington 400x240cm Fluted Accent Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "69.999,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5527,7 +5395,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Putney 400x240cm Modernist Handleless Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "69.989,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5562,7 +5429,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Barnes 410x240cm Grand Horizon Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "69.959,90TL",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5597,7 +5463,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "metaTitle": "Clapham 400x240cm Minimalist Pantry Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
       "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-      "referencePriceTl": "69.959,90TL",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -7696,8 +7561,8 @@ export const modelsData: Record<string, ModelDetail> = {
   "mayfair-artisan-beverage-credenza-01": {
       "slug": "mayfair-artisan-beverage-credenza-01",
       "category": "coffee-stations",
-      "title": "Mayfair 154cm Artisan Beverage Credenza",
-      "metaTitle": "Mayfair 154cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Mayfair 154cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Mayfair 154cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 154cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "154cm width, 550mm depth, 1850mm height",
@@ -7717,18 +7582,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_01.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Mayfair 154cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Mayfair 154cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "belgravia-artisan-beverage-credenza-02": {
       "slug": "belgravia-artisan-beverage-credenza-02",
       "category": "coffee-stations",
-      "title": "Belgravia 247cm Artisan Beverage Credenza",
-      "metaTitle": "Belgravia 247cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Belgravia 247cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Belgravia 247cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 247cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "247cm width, 550mm depth, 1850mm height",
@@ -7748,18 +7613,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_02.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belgravia 247cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belgravia 247cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "kensington-artisan-beverage-credenza-03": {
       "slug": "kensington-artisan-beverage-credenza-03",
       "category": "coffee-stations",
-      "title": "Kensington 184cm Artisan Beverage Credenza",
-      "metaTitle": "Kensington 184cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Kensington 184cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Kensington 184cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 184cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "184cm width, 550mm depth, 1850mm height",
@@ -7779,18 +7644,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_03.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kensington 184cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kensington 184cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "chelsea-artisan-beverage-credenza-04": {
       "slug": "chelsea-artisan-beverage-credenza-04",
       "category": "coffee-stations",
-      "title": "Chelsea 217cm Artisan Beverage Credenza",
-      "metaTitle": "Chelsea 217cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Chelsea 217cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Chelsea 217cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 217cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "217cm width, 550mm depth, 1850mm height",
@@ -7810,18 +7675,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_04.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chelsea 217cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chelsea 217cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "knightsbridge-artisan-beverage-credenza-05": {
       "slug": "knightsbridge-artisan-beverage-credenza-05",
       "category": "coffee-stations",
-      "title": "Knightsbridge 120cm Artisan Beverage Credenza",
-      "metaTitle": "Knightsbridge 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Knightsbridge 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Knightsbridge 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -7841,18 +7706,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_05.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knightsbridge 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knightsbridge 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "westminster-artisan-beverage-credenza-06": {
       "slug": "westminster-artisan-beverage-credenza-06",
       "category": "coffee-stations",
-      "title": "Westminster 120cm Artisan Beverage Credenza",
-      "metaTitle": "Westminster 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Westminster 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Westminster 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -7872,18 +7737,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_06.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Westminster 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Westminster 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "marylebone-artisan-beverage-credenza-07": {
       "slug": "marylebone-artisan-beverage-credenza-07",
       "category": "coffee-stations",
-      "title": "Marylebone 120cm Artisan Beverage Credenza",
-      "metaTitle": "Marylebone 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Marylebone 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Marylebone 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -7903,18 +7768,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_07.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Marylebone 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Marylebone 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "fitzrovia-artisan-beverage-credenza-08": {
       "slug": "fitzrovia-artisan-beverage-credenza-08",
       "category": "coffee-stations",
-      "title": "Fitzrovia 120cm Artisan Beverage Credenza",
-      "metaTitle": "Fitzrovia 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Fitzrovia 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Fitzrovia 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -7934,18 +7799,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_08.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fitzrovia 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fitzrovia 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "bloomsbury-artisan-beverage-credenza-09": {
       "slug": "bloomsbury-artisan-beverage-credenza-09",
       "category": "coffee-stations",
-      "title": "Bloomsbury 120cm Artisan Beverage Credenza",
-      "metaTitle": "Bloomsbury 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Bloomsbury 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Bloomsbury 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -7965,18 +7830,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_09.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bloomsbury 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bloomsbury 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "hampstead-artisan-beverage-credenza-10": {
       "slug": "hampstead-artisan-beverage-credenza-10",
       "category": "coffee-stations",
-      "title": "Hampstead 120cm Artisan Beverage Credenza",
-      "metaTitle": "Hampstead 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Hampstead 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Hampstead 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -7996,18 +7861,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_10.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hampstead 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hampstead 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "highgate-artisan-beverage-credenza-11": {
       "slug": "highgate-artisan-beverage-credenza-11",
       "category": "coffee-stations",
-      "title": "Highgate 90cm Artisan Beverage Credenza",
-      "metaTitle": "Highgate 90cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Highgate 90cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Highgate 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
@@ -8027,18 +7892,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_11.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Highgate 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Highgate 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "islington-artisan-beverage-credenza-12": {
       "slug": "islington-artisan-beverage-credenza-12",
       "category": "coffee-stations",
-      "title": "Islington 90cm Artisan Beverage Credenza",
-      "metaTitle": "Islington 90cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Islington 90cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Islington 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
@@ -8058,18 +7923,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_12.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Islington 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Islington 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "richmond-artisan-beverage-credenza-13": {
       "slug": "richmond-artisan-beverage-credenza-13",
       "category": "coffee-stations",
-      "title": "Richmond 120cm Artisan Beverage Credenza",
-      "metaTitle": "Richmond 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Richmond 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Richmond 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8089,18 +7954,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_13.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Richmond 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Richmond 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "chiswick-artisan-beverage-credenza-14": {
       "slug": "chiswick-artisan-beverage-credenza-14",
       "category": "coffee-stations",
-      "title": "Chiswick 210cm Artisan Beverage Credenza",
-      "metaTitle": "Chiswick 210cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Chiswick 210cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Chiswick 210cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 210cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "210cm width, 550mm depth, 1850mm height",
@@ -8120,18 +7985,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_14.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chiswick 210cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chiswick 210cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "wimbledon-artisan-beverage-credenza-15": {
       "slug": "wimbledon-artisan-beverage-credenza-15",
       "category": "coffee-stations",
-      "title": "Wimbledon 120cm Artisan Beverage Credenza",
-      "metaTitle": "Wimbledon 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Wimbledon 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Wimbledon 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8151,18 +8016,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_15.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "barnes-artisan-beverage-credenza-16": {
       "slug": "barnes-artisan-beverage-credenza-16",
       "category": "coffee-stations",
-      "title": "Barnes 120cm Artisan Beverage Credenza",
-      "metaTitle": "Barnes 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Barnes 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Barnes 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8182,18 +8047,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_16.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "putney-artisan-beverage-credenza-17": {
       "slug": "putney-artisan-beverage-credenza-17",
       "category": "coffee-stations",
-      "title": "Putney 90cm Artisan Beverage Credenza",
-      "metaTitle": "Putney 90cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Putney 90cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Putney 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
@@ -8213,18 +8078,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_17.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "battersea-artisan-beverage-credenza-18": {
       "slug": "battersea-artisan-beverage-credenza-18",
       "category": "coffee-stations",
-      "title": "Battersea 120cm Artisan Beverage Credenza",
-      "metaTitle": "Battersea 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Battersea 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Battersea 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8244,18 +8109,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_18.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Battersea 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Battersea 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "clapham-artisan-beverage-credenza-19": {
       "slug": "clapham-artisan-beverage-credenza-19",
       "category": "coffee-stations",
-      "title": "Clapham 120cm Artisan Beverage Credenza",
-      "metaTitle": "Clapham 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Clapham 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Clapham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8275,18 +8140,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_19.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clapham 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clapham 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "dulwich-artisan-beverage-credenza-20": {
       "slug": "dulwich-artisan-beverage-credenza-20",
       "category": "coffee-stations",
-      "title": "Dulwich 180cm Artisan Beverage Credenza",
-      "metaTitle": "Dulwich 180cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Dulwich 180cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Dulwich 180cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
@@ -8306,18 +8171,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_20.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich 180cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich 180cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "greenwich-artisan-beverage-credenza-21": {
       "slug": "greenwich-artisan-beverage-credenza-21",
       "category": "coffee-stations",
-      "title": "Greenwich 120cm Artisan Beverage Credenza",
-      "metaTitle": "Greenwich 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Greenwich 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Greenwich 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8337,18 +8202,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_21.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "pimlico-artisan-beverage-credenza-22": {
       "slug": "pimlico-artisan-beverage-credenza-22",
       "category": "coffee-stations",
-      "title": "Pimlico 120cm Artisan Beverage Credenza",
-      "metaTitle": "Pimlico 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Pimlico 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Pimlico 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8368,18 +8233,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_22.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Pimlico 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Pimlico 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "st-james-artisan-beverage-credenza-23": {
       "slug": "st-james-artisan-beverage-credenza-23",
       "category": "coffee-stations",
-      "title": "St James 130cm Artisan Beverage Credenza",
-      "metaTitle": "St James 130cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "St James 130cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "St James 130cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
@@ -8399,18 +8264,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_23.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St James 130cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St James 130cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "cotswold-artisan-beverage-credenza-24": {
       "slug": "cotswold-artisan-beverage-credenza-24",
       "category": "coffee-stations",
-      "title": "Cotswold 120cm Artisan Beverage Credenza",
-      "metaTitle": "Cotswold 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Cotswold 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Cotswold 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8430,18 +8295,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_24.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Cotswold 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Cotswold 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "holborn-artisan-beverage-credenza-25": {
       "slug": "holborn-artisan-beverage-credenza-25",
       "category": "coffee-stations",
-      "title": "Holborn 120cm Artisan Beverage Credenza",
-      "metaTitle": "Holborn 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Holborn 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Holborn 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8461,18 +8326,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_25.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holborn 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holborn 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "soho-artisan-beverage-credenza-26": {
       "slug": "soho-artisan-beverage-credenza-26",
       "category": "coffee-stations",
-      "title": "Soho 120cm Artisan Beverage Credenza",
-      "metaTitle": "Soho 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Soho 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Soho 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8492,18 +8357,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_26.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Soho 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Soho 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "primrose-artisan-beverage-credenza-27": {
       "slug": "primrose-artisan-beverage-credenza-27",
       "category": "coffee-stations",
-      "title": "Primrose 120cm Artisan Beverage Credenza",
-      "metaTitle": "Primrose 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Primrose 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Primrose 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8523,18 +8388,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_27.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Primrose 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Primrose 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "belsize-artisan-beverage-credenza-28": {
       "slug": "belsize-artisan-beverage-credenza-28",
       "category": "coffee-stations",
-      "title": "Belsize 90cm Artisan Beverage Credenza",
-      "metaTitle": "Belsize 90cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Belsize 90cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Belsize 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
@@ -8554,18 +8419,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_28.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belsize 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belsize 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "holland-park-artisan-beverage-credenza-29": {
       "slug": "holland-park-artisan-beverage-credenza-29",
       "category": "coffee-stations",
-      "title": "Holland Park 120cm Artisan Beverage Credenza",
-      "metaTitle": "Holland Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Holland Park 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Holland Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8585,18 +8450,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_29.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holland Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holland Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "notting-hill-artisan-beverage-credenza-30": {
       "slug": "notting-hill-artisan-beverage-credenza-30",
       "category": "coffee-stations",
-      "title": "Notting Hill 120cm Artisan Beverage Credenza",
-      "metaTitle": "Notting Hill 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Notting Hill 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Notting Hill 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8616,18 +8481,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_30.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Notting Hill 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Notting Hill 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "paddington-artisan-beverage-credenza-31": {
       "slug": "paddington-artisan-beverage-credenza-31",
       "category": "coffee-stations",
-      "title": "Paddington 120cm Artisan Beverage Credenza",
-      "metaTitle": "Paddington 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Paddington 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Paddington 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8647,18 +8512,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_31.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Paddington 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Paddington 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "bayswater-artisan-beverage-credenza-32": {
       "slug": "bayswater-artisan-beverage-credenza-32",
       "category": "coffee-stations",
-      "title": "Bayswater 180cm Artisan Beverage Credenza",
-      "metaTitle": "Bayswater 180cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Bayswater 180cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Bayswater 180cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
@@ -8678,18 +8543,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_32.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bayswater 180cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bayswater 180cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "regent-artisan-beverage-credenza-33": {
       "slug": "regent-artisan-beverage-credenza-33",
       "category": "coffee-stations",
-      "title": "Regent 90cm Artisan Beverage Credenza",
-      "metaTitle": "Regent 90cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Regent 90cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Regent 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
@@ -8709,18 +8574,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_33.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Regent 90cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Regent 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "piccadilly-artisan-beverage-credenza-34": {
       "slug": "piccadilly-artisan-beverage-credenza-34",
       "category": "coffee-stations",
-      "title": "Piccadilly 60cm Artisan Beverage Credenza",
-      "metaTitle": "Piccadilly 60cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Piccadilly 60cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Piccadilly 60cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 60cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "60cm width, 550mm depth, 1850mm height",
@@ -8740,18 +8605,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_34.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Piccadilly 60cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Piccadilly 60cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "strand-artisan-beverage-credenza-35": {
       "slug": "strand-artisan-beverage-credenza-35",
       "category": "coffee-stations",
-      "title": "Strand 120cm Artisan Beverage Credenza",
-      "metaTitle": "Strand 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Strand 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Strand 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8771,18 +8636,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_35.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Strand 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Strand 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "aldwych-artisan-beverage-credenza-36": {
       "slug": "aldwych-artisan-beverage-credenza-36",
       "category": "coffee-stations",
-      "title": "Aldwych 120cm Artisan Beverage Credenza",
-      "metaTitle": "Aldwych 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Aldwych 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Aldwych 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8802,18 +8667,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_36.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Aldwych 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Aldwych 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "temple-artisan-beverage-credenza-37": {
       "slug": "temple-artisan-beverage-credenza-37",
       "category": "coffee-stations",
-      "title": "Temple 110cm Artisan Beverage Credenza",
-      "metaTitle": "Temple 110cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Temple 110cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Temple 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
@@ -8833,18 +8698,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_37.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Temple 110cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Temple 110cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "clerkenwell-artisan-beverage-credenza-38": {
       "slug": "clerkenwell-artisan-beverage-credenza-38",
       "category": "coffee-stations",
-      "title": "Clerkenwell 120cm Artisan Beverage Credenza",
-      "metaTitle": "Clerkenwell 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Clerkenwell 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Clerkenwell 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8864,18 +8729,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_38.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clerkenwell 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clerkenwell 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "shoreditch-artisan-beverage-credenza-39": {
       "slug": "shoreditch-artisan-beverage-credenza-39",
       "category": "coffee-stations",
-      "title": "Shoreditch 120cm Artisan Beverage Credenza",
-      "metaTitle": "Shoreditch 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Shoreditch 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Shoreditch 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8895,18 +8760,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_39.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Shoreditch 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Shoreditch 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "spitalfields-artisan-beverage-credenza-40": {
       "slug": "spitalfields-artisan-beverage-credenza-40",
       "category": "coffee-stations",
-      "title": "Spitalfields 120cm Artisan Beverage Credenza",
-      "metaTitle": "Spitalfields 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Spitalfields 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Spitalfields 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8926,18 +8791,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_40.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Spitalfields 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Spitalfields 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "wapping-artisan-beverage-credenza-41": {
       "slug": "wapping-artisan-beverage-credenza-41",
       "category": "coffee-stations",
-      "title": "Wapping 120cm Artisan Beverage Credenza",
-      "metaTitle": "Wapping 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Wapping 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Wapping 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -8957,18 +8822,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_41.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wapping 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wapping 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "canary-artisan-beverage-credenza-42": {
       "slug": "canary-artisan-beverage-credenza-42",
       "category": "coffee-stations",
-      "title": "Canary 130cm Artisan Beverage Credenza",
-      "metaTitle": "Canary 130cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Canary 130cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Canary 130cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
@@ -8988,18 +8853,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_42.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary 130cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary 130cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "blackheath-artisan-beverage-credenza-43": {
       "slug": "blackheath-artisan-beverage-credenza-43",
       "category": "coffee-stations",
-      "title": "Blackheath 110cm Artisan Beverage Credenza",
-      "metaTitle": "Blackheath 110cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Blackheath 110cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Blackheath 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
@@ -9019,18 +8884,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_43.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Blackheath 110cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Blackheath 110cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "wandsworth-artisan-beverage-credenza-44": {
       "slug": "wandsworth-artisan-beverage-credenza-44",
       "category": "coffee-stations",
-      "title": "Wandsworth 110cm Artisan Beverage Credenza",
-      "metaTitle": "Wandsworth 110cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Wandsworth 110cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Wandsworth 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
@@ -9050,18 +8915,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_44.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wandsworth 110cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wandsworth 110cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "fulham-artisan-beverage-credenza-45": {
       "slug": "fulham-artisan-beverage-credenza-45",
       "category": "coffee-stations",
-      "title": "Fulham 120cm Artisan Beverage Credenza",
-      "metaTitle": "Fulham 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Fulham 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Fulham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9081,18 +8946,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_45.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fulham 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fulham 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "kew-artisan-beverage-credenza-46": {
       "slug": "kew-artisan-beverage-credenza-46",
       "category": "coffee-stations",
-      "title": "Kew 120cm Artisan Beverage Credenza",
-      "metaTitle": "Kew 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Kew 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Kew 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9112,18 +8977,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_46.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kew 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kew 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "twickenham-artisan-beverage-credenza-47": {
       "slug": "twickenham-artisan-beverage-credenza-47",
       "category": "coffee-stations",
-      "title": "Twickenham 120cm Artisan Beverage Credenza",
-      "metaTitle": "Twickenham 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Twickenham 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Twickenham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9143,18 +9008,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_47.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Twickenham 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Twickenham 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "ealing-artisan-beverage-credenza-48": {
       "slug": "ealing-artisan-beverage-credenza-48",
       "category": "coffee-stations",
-      "title": "Ealing 120cm Artisan Beverage Credenza",
-      "metaTitle": "Ealing 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Ealing 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Ealing 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9174,18 +9039,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Ealing 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Ealing 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "harrow-artisan-beverage-credenza-49": {
       "slug": "harrow-artisan-beverage-credenza-49",
       "category": "coffee-stations",
-      "title": "Harrow 120cm Artisan Beverage Credenza",
-      "metaTitle": "Harrow 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Harrow 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Harrow 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9205,18 +9070,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Harrow 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Harrow 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "dulwich-village-artisan-beverage-credenza-50": {
       "slug": "dulwich-village-artisan-beverage-credenza-50",
       "category": "coffee-stations",
-      "title": "Dulwich Village 120cm Artisan Beverage Credenza",
-      "metaTitle": "Dulwich Village 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Dulwich Village 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Dulwich Village 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9236,18 +9101,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_50.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich Village 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich Village 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "kingston-artisan-beverage-credenza-51": {
       "slug": "kingston-artisan-beverage-credenza-51",
       "category": "coffee-stations",
-      "title": "Kingston 45cm Artisan Beverage Credenza",
-      "metaTitle": "Kingston 45cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Kingston 45cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Kingston 45cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 45cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "45cm width, 550mm depth, 1850mm height",
@@ -9267,18 +9132,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_51.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kingston 45cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kingston 45cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "green-park-artisan-beverage-credenza-52": {
       "slug": "green-park-artisan-beverage-credenza-52",
       "category": "coffee-stations",
-      "title": "Green Park 120cm Artisan Beverage Credenza",
-      "metaTitle": "Green Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Green Park 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Green Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9298,18 +9163,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_52.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Green Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Green Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "victoria-artisan-beverage-credenza-53": {
       "slug": "victoria-artisan-beverage-credenza-53",
       "category": "coffee-stations",
-      "title": "Victoria 120cm Artisan Beverage Credenza",
-      "metaTitle": "Victoria 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Victoria 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Victoria 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9329,18 +9194,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_53.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Victoria 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Victoria 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "knights-artisan-beverage-credenza-54": {
       "slug": "knights-artisan-beverage-credenza-54",
       "category": "coffee-stations",
-      "title": "Knights 120cm Artisan Beverage Credenza",
-      "metaTitle": "Knights 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Knights 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Knights 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9360,18 +9225,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_54.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knights 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knights 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "hyde-park-artisan-beverage-credenza-55": {
       "slug": "hyde-park-artisan-beverage-credenza-55",
       "category": "coffee-stations",
-      "title": "Hyde Park 120cm Artisan Beverage Credenza",
-      "metaTitle": "Hyde Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Hyde Park 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Hyde Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9391,18 +9256,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_55.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hyde Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hyde Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "borough-artisan-beverage-credenza-56": {
       "slug": "borough-artisan-beverage-credenza-56",
       "category": "coffee-stations",
-      "title": "Borough 120cm Artisan Beverage Credenza",
-      "metaTitle": "Borough 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Borough 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Borough 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9422,18 +9287,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_56.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Borough 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Borough 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "greenwich-park-artisan-beverage-credenza-57": {
       "slug": "greenwich-park-artisan-beverage-credenza-57",
       "category": "coffee-stations",
-      "title": "Greenwich Park 120cm Artisan Beverage Credenza",
-      "metaTitle": "Greenwich Park 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Greenwich Park 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Greenwich Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9453,18 +9318,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_57.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich Park 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "st-pancras-artisan-beverage-credenza-58": {
       "slug": "st-pancras-artisan-beverage-credenza-58",
       "category": "coffee-stations",
-      "title": "St Pancras 120cm Artisan Beverage Credenza",
-      "metaTitle": "St Pancras 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "St Pancras 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "St Pancras 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9484,18 +9349,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_58.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St Pancras 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St Pancras 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "covent-garden-artisan-beverage-credenza-59": {
       "slug": "covent-garden-artisan-beverage-credenza-59",
       "category": "coffee-stations",
-      "title": "Covent Garden 120cm Artisan Beverage Credenza",
-      "metaTitle": "Covent Garden 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Covent Garden 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Covent Garden 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9515,18 +9380,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_59.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Covent Garden 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Covent Garden 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "southwark-artisan-beverage-credenza-60": {
       "slug": "southwark-artisan-beverage-credenza-60",
       "category": "coffee-stations",
-      "title": "Southwark 120cm Artisan Beverage Credenza",
-      "metaTitle": "Southwark 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Southwark 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Southwark 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9546,18 +9411,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_60.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Southwark 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Southwark 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "west-end-artisan-beverage-credenza-61": {
       "slug": "west-end-artisan-beverage-credenza-61",
       "category": "coffee-stations",
-      "title": "West End 120cm Artisan Beverage Credenza",
-      "metaTitle": "West End 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "West End 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "West End 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9577,18 +9442,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_61.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the West End 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the West End 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "canary-wharf-artisan-beverage-credenza-62": {
       "slug": "canary-wharf-artisan-beverage-credenza-62",
       "category": "coffee-stations",
-      "title": "Canary Wharf 120cm Artisan Beverage Credenza",
-      "metaTitle": "Canary Wharf 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Canary Wharf 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Canary Wharf 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9608,18 +9473,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_62.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary Wharf 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary Wharf 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "vauxhall-artisan-beverage-credenza-63": {
       "slug": "vauxhall-artisan-beverage-credenza-63",
       "category": "coffee-stations",
-      "title": "Vauxhall 120cm Artisan Beverage Credenza",
-      "metaTitle": "Vauxhall 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Vauxhall 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Vauxhall 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9639,18 +9504,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_63.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Vauxhall 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Vauxhall 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "lambeth-artisan-beverage-credenza-64": {
       "slug": "lambeth-artisan-beverage-credenza-64",
       "category": "coffee-stations",
-      "title": "Lambeth 120cm Artisan Beverage Credenza",
-      "metaTitle": "Lambeth 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Lambeth 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Lambeth 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9670,18 +9535,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_64.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Lambeth 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Lambeth 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "bermondsey-artisan-beverage-credenza-65": {
       "slug": "bermondsey-artisan-beverage-credenza-65",
       "category": "coffee-stations",
-      "title": "Bermondsey 120cm Artisan Beverage Credenza",
-      "metaTitle": "Bermondsey 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Bermondsey 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Bermondsey 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9701,18 +9566,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_65.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bermondsey 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bermondsey 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "kennington-artisan-beverage-credenza-66": {
       "slug": "kennington-artisan-beverage-credenza-66",
       "category": "coffee-stations",
-      "title": "Kennington 120cm Artisan Beverage Credenza",
-      "metaTitle": "Kennington 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Kennington 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Kennington 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9732,18 +9597,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_66.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kennington 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kennington 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "peckham-artisan-beverage-credenza-67": {
       "slug": "peckham-artisan-beverage-credenza-67",
       "category": "coffee-stations",
-      "title": "Peckham 190cm Artisan Beverage Credenza",
-      "metaTitle": "Peckham 190cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Peckham 190cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Peckham 190cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 190cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "190cm width, 550mm depth, 1850mm height",
@@ -9763,18 +9628,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_67.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Peckham 190cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Peckham 190cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "camberwell-artisan-beverage-credenza-68": {
       "slug": "camberwell-artisan-beverage-credenza-68",
       "category": "coffee-stations",
-      "title": "Camberwell 120cm Artisan Beverage Credenza",
-      "metaTitle": "Camberwell 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Camberwell 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Camberwell 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9794,18 +9659,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_68.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Camberwell 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Camberwell 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "brixton-artisan-beverage-credenza-69": {
       "slug": "brixton-artisan-beverage-credenza-69",
       "category": "coffee-stations",
-      "title": "Brixton 120cm Artisan Beverage Credenza",
-      "metaTitle": "Brixton 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Brixton 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Brixton 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9825,18 +9690,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_69.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Brixton 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Brixton 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "streatham-artisan-beverage-credenza-70": {
       "slug": "streatham-artisan-beverage-credenza-70",
       "category": "coffee-stations",
-      "title": "Streatham 160cm Artisan Beverage Credenza",
-      "metaTitle": "Streatham 160cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Streatham 160cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Streatham 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
@@ -9856,18 +9721,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_70.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Streatham 160cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Streatham 160cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "balham-artisan-beverage-credenza-71": {
       "slug": "balham-artisan-beverage-credenza-71",
       "category": "coffee-stations",
-      "title": "Balham 195cm Artisan Beverage Credenza",
-      "metaTitle": "Balham 195cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Balham 195cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Balham 195cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 195cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "195cm width, 550mm depth, 1850mm height",
@@ -9887,18 +9752,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_71.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Balham 195cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Balham 195cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "tooting-artisan-beverage-credenza-72": {
       "slug": "tooting-artisan-beverage-credenza-72",
       "category": "coffee-stations",
-      "title": "Tooting 125cm Artisan Beverage Credenza",
-      "metaTitle": "Tooting 125cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Tooting 125cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Tooting 125cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
@@ -9918,18 +9783,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_72.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Tooting 125cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Tooting 125cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "wimbledon-village-artisan-beverage-credenza-73": {
       "slug": "wimbledon-village-artisan-beverage-credenza-73",
       "category": "coffee-stations",
-      "title": "Wimbledon Village 160cm Artisan Beverage Credenza",
-      "metaTitle": "Wimbledon Village 160cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Wimbledon Village 160cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Wimbledon Village 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
@@ -9949,18 +9814,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_73.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon Village 160cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon Village 160cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "putney-heath-artisan-beverage-credenza-74": {
       "slug": "putney-heath-artisan-beverage-credenza-74",
       "category": "coffee-stations",
-      "title": "Putney Heath 120cm Artisan Beverage Credenza",
-      "metaTitle": "Putney Heath 120cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Putney Heath 120cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Putney Heath 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
@@ -9980,18 +9845,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_74.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney Heath 120cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney Heath 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "barnes-common-artisan-beverage-credenza-75": {
       "slug": "barnes-common-artisan-beverage-credenza-75",
       "category": "coffee-stations",
-      "title": "Barnes Common 125cm Artisan Beverage Credenza",
-      "metaTitle": "Barnes Common 125cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Barnes Common 125cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Barnes Common 125cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
@@ -10011,18 +9876,18 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_75.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes Common 125cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes Common 125cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
   "roehampton-artisan-beverage-credenza-76": {
       "slug": "roehampton-artisan-beverage-credenza-76",
       "category": "coffee-stations",
-      "title": "Roehampton 160cm Artisan Beverage Credenza",
-      "metaTitle": "Roehampton 160cm Artisan Beverage Credenza | Cabivella UK",
+      "title": "Roehampton 160cm Bespoke Coffee Station Cabinet",
+      "metaTitle": "Roehampton 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
       "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
@@ -10042,11 +9907,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "gallery": [
           "/assets/img/models/real_coffee_stations/tekzen_coffee_76.webp"
       ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Roehampton 160cm Artisan Beverage Credenza conceals sophisticated appliances behind effortless pocket-door joinery.",
+      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Roehampton 160cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
       "keyFeatures": [
           "Retractable pocket-door system with smooth roller dampening",
           "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customizable solid walnut dividers"
+          "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
 };

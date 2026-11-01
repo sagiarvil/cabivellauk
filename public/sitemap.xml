@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cabivella.co.uk/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cabivella.co.uk/collections/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cabivella.co.uk/collections/bathrooms/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/aydos-compact-vanity/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -92,6 +77,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/hampstead-contrast-100/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -187,11 +177,6 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/wimbledon-clay-80/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cabivella.co.uk/collections/coffee-stations/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -372,6 +357,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/coffee-stations/hyde-park-artisan-beverage-credenza-55/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/coffee-stations/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -576,11 +566,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/fitted-storage/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://cabivella.co.uk/collections/fitted-storage/aldwych-architectural-master-wardrobe-36/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -727,6 +712,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/fitted-storage/hyde-park-6-door-master-wardrobe-55/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/fitted-storage/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -881,7 +871,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/kitchen-doors/</loc>
+    <loc>https://cabivella.co.uk/collections/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -902,6 +892,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchen-doors/handleless-cabinet-fronts/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchen-doors/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -927,11 +922,6 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchen-doors/vera-silk-slab/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cabivella.co.uk/collections/kitchens/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1052,6 +1042,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchens/highgate-doubletower-kitchen-400/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1191,11 +1186,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cabivella.co.uk/collections/pantry-larder/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://cabivella.co.uk/collections/pantry-larder/carousel-blind-corner/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1207,6 +1197,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/pantry-larder/corner-pantry-storage/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/pantry-larder/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1247,6 +1242,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/image-credits/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

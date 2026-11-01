@@ -101,12 +101,7 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
             <dt>Lead Time:</dt>
             <dd class="lead-time-val">{model.leadTime}</dd>
 
-            {model.referencePriceTl && (
-              <>
-                <dt>Reference Price:</dt>
-                <dd style="font-weight: 700; color: var(--green); font-size: 16px;">{model.referencePriceTl} <span style="font-weight: 400; font-size: 12.5px; color: var(--muted);">(Workshop baseline reference &bull; Subject to bespoke UK layout)</span></dd>
-              </>
-            )}
+
 
             <dt>Installation:</dt>
             <dd>{model.installationScope}</dd>
@@ -127,7 +122,7 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
       <div style="text-align: center; margin-bottom: 36px;" data-reveal>
         <span class="section-eyebrow">TAILORED QUOTATION</span>
         <h2 id="form-heading">Enquire about the {model.title}</h2>
-        <p style="color: var(--muted); font-size: 16px; max-width: 580px; margin: 8px auto 0;">
+        <p style="colour: var(--muted); font-size: 16px; max-width: 580px; margin: 8px auto 0;">
           All Cabivella cabinetry is priced strictly upon receipt of your architectural drawings or room dimensions. Tell us your requirements below.
         </p>
       </div>
@@ -160,7 +155,7 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
   .model-description {
     font-size: 16px;
     line-height: 1.7;
-    color: #3c443d;
+    colour: #3c443d;
     margin-bottom: 24px;
   }
 
@@ -178,7 +173,7 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
     margin: 0 0 12px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--gold-dark);
+    colour: var(--gold-dark);
     font-family: var(--font-heading);
     font-weight: 700;
   }
@@ -187,7 +182,7 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
     margin: 0;
     padding-left: 20px;
     font-size: 14px;
-    color: #434c44;
+    colour: #434c44;
     line-height: 1.8;
   }
 
@@ -216,17 +211,17 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
 
   .specs-dl dt {
     font-weight: 600;
-    color: #646b63;
+    colour: #646b63;
   }
 
   .specs-dl dd {
     margin: 0;
-    color: #222923;
+    colour: #222923;
   }
 
   .lead-time-val {
     font-weight: 600;
-    color: var(--green);
+    colour: var(--green);
   }
 
   .model-quote-btn {

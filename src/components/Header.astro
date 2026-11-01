@@ -113,7 +113,7 @@ const { currentPath = '/' } = Astro.props;
         aria-haspopup="dialog"
         aria-controls="site-search-dialog"
       >
-        <svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" width="18">
+        <svg aria-hidden="true" fill="none" height="18" stroke="currentColour" stroke-width="1.8" viewBox="0 0 24 24" width="18">
           <circle cx="10.5" cy="10.5" r="6.5"></circle>
           <path d="m15.5 15.5 5 5"></path>
         </svg>
@@ -138,7 +138,7 @@ const { currentPath = '/' } = Astro.props;
 
       <!-- Primary Enquire CTA -->
       <a href="/enquire/" class="header-contact">
-        <span>Enquire a Project</span>
+        <span>Enquire About a Project</span>
         <span aria-hidden="true">→</span>
       </a>
     </div>
@@ -173,7 +173,7 @@ const { currentPath = '/' } = Astro.props;
       <a href="/materials/">Materials & Finishes</a>
       <a href="/trade/">Trade & Professionals</a>
       <a href="/enquire/" class="header-contact" style="justify-content: center; margin-top: 10px;">
-        Enquire a Project →
+        Enquire About a Project →
       </a>
     </div>
   </nav>
@@ -209,7 +209,7 @@ const { currentPath = '/' } = Astro.props;
     font-family: var(--font-heading);
     font-size: 13px;
     font-weight: 500;
-    color: #384239;
+    colour: #384239;
     padding: 12px 0;
     display: inline-flex;
     align-items: center;
@@ -257,7 +257,7 @@ const { currentPath = '/' } = Astro.props;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.16em;
-    color: var(--gold-dark);
+    colour: var(--gold-dark);
     display: block;
   }
 
@@ -266,12 +266,12 @@ const { currentPath = '/' } = Astro.props;
     font-size: 20px;
     font-weight: 700;
     margin: 8px 0 6px;
-    color: var(--text);
+    colour: var(--text);
   }
 
   .mega-head span {
     font-size: 12px;
-    color: var(--muted);
+    colour: var(--muted);
     line-height: 1.5;
     display: block;
   }
@@ -284,18 +284,18 @@ const { currentPath = '/' } = Astro.props;
 
   .mega-grid a {
     font-size: 13px;
-    color: #404c42;
+    colour: #404c42;
     padding: 4px 0;
     border-bottom: 1px solid #f6f3eb;
-    transition: color 0.15s ease;
+    transition: colour 0.15s ease;
   }
 
   .mega-grid a:hover {
-    color: var(--gold-dark);
+    colour: var(--gold-dark);
   }
 
   .mega-grid a strong {
-    color: var(--green);
+    colour: var(--green);
     font-weight: 600;
   }
 
@@ -309,14 +309,14 @@ const { currentPath = '/' } = Astro.props;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--text);
+    colour: var(--text);
     cursor: pointer;
     transition: all 0.2s ease;
   }
 
   .header-search-btn:hover {
-    border-color: var(--gold);
-    color: var(--gold-dark);
+    border-colour: var(--gold);
+    colour: var(--gold-dark);
   }
 
   .site-search-dialog {
@@ -358,7 +358,7 @@ const { currentPath = '/' } = Astro.props;
     border: 0;
     font-size: 28px;
     line-height: 1;
-    color: #666;
+    colour: #666;
     cursor: pointer;
   }
 
@@ -366,7 +366,7 @@ const { currentPath = '/' } = Astro.props;
     display: block;
     font-size: 12px;
     font-weight: 600;
-    color: var(--muted);
+    colour: var(--muted);
     margin-bottom: 8px;
   }
 
@@ -381,7 +381,7 @@ const { currentPath = '/' } = Astro.props;
 
   #site-search-input:focus {
     outline: none;
-    border-color: var(--gold);
+    border-colour: var(--gold);
     background: #ffffff;
   }
 
@@ -400,12 +400,12 @@ const { currentPath = '/' } = Astro.props;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    color: var(--text);
+    colour: var(--text);
   }
 
   .search-result-item:hover {
     background: #f6f3eb;
-    color: var(--gold-dark);
+    colour: var(--gold-dark);
   }
 </style>
 
@@ -502,7 +502,7 @@ const { currentPath = '/' } = Astro.props;
       );
 
       if (filtered.length === 0) {
-        resultsContainer.innerHTML = '<div style="padding: 12px; color: #888; font-size: 13px;">No matching cabinetry collections found.</div>';
+        resultsContainer.innerHTML = '<div style="padding: 12px; colour: #888; font-size: 13px;">No matching cabinetry collections found.</div>';
         return;
       }
 
@@ -510,7 +510,7 @@ const { currentPath = '/' } = Astro.props;
         const a = document.createElement('a');
         a.href = item.url;
         a.className = 'search-result-item';
-        a.innerHTML = `<span>${item.title}</span><small style="color: #888; font-size: 11px;">${item.category}</small>`;
+        a.innerHTML = `<span>${item.title}</span><small style="colour: #888; font-size: 11px;">${item.category}</small>`;
         resultsContainer.appendChild(a);
       });
     });

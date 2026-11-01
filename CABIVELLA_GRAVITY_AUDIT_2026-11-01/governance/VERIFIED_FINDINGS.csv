@@ -1,0 +1,23 @@
+id,priority,category,verified_live_url,exact_observation,recommendation,evidence_status
+A01,P0,Public price,https://cabivella.co.uk/collections/bathrooms/belgravia-monolith-100/,Reference Price 27.999 TL,Remove public TRY prices at data source,VERIFIED
+A02,P0,Public price,https://cabivella.co.uk/collections/bathrooms/bloomsbury-minimalist-80/,Reference Price 28.68250 TL,Remove public TRY prices at data source,VERIFIED
+A03,P0,Public price,https://cabivella.co.uk/collections/kitchens/arya-classic-shaker/,Reference Price 46.500 TL,Remove public TRY prices at data source,VERIFIED
+A04,P0,Public price,https://cabivella.co.uk/collections/bathrooms/malta-vanity-console/,Reference Price 25.619 TL,Remove public TRY prices at data source,VERIFIED
+A05,P0,Duplicate content,https://cabivella.co.uk/collections/coffee-stations/mayfair-artisan-beverage-credenza-01/,4 sampled coffee models share near-identical highlights materials installation and lead time,Source-level product uniqueness and evidence gate,VERIFIED
+A06,P0,Image provenance,https://cabivella.co.uk/collections/coffee-stations/mayfair-artisan-beverage-credenza-01/,Primary image filename tekzen_coffee_01.webp,Require chain of rights and correct original product identity,RISK_FROM_FILENAME
+A07,P0,Image provenance,https://cabivella.co.uk/collections/fitted-storage/mayfair-4-door-master-wardrobe-01/,Image filename mondi_22JUL2004ATAD_1.webp,Require chain of rights and original product ID,RISK_FROM_FILENAME
+A08,P2,AI discovery,https://cabivella.co.uk/llms.txt,HTTP 404,Create accurate optional machine-reading directory,VERIFIED
+A09,P2,AI discovery,https://cabivella.co.uk/llms-full.txt,HTTP 404,Create accurate optional full machine directory,VERIFIED
+A10,P1,RSS,https://cabivella.co.uk/feed.xml,HTTP 404,Publish RSS only when true dated journal exists,VERIFIED
+A11,P0,Legacy URL,https://cabivella.co.uk/collections/kitchens/shaker-kitchens/,HTTP 404,Review semantic 301 or 404/410 and internal links,VERIFIED
+A12,P0,Legacy URL,https://cabivella.co.uk/collections/bathrooms/wall-hung-vanities/,HTTP 404,Review semantic 301 or 404/410 and internal links,VERIFIED
+A13,P0,Changing sitemap,https://cabivella.co.uk/sitemap.xml,123 URLs observed then 255 URLs observed within audit,Freeze release and evaluate source version and cache,VERIFIED_ACROSS_TWO_READS
+A14,P1,UK English,https://cabivella.co.uk/collections/coffee-stations/mayfair-artisan-beverage-credenza-01/,customizable instead of customisable; unnatural generic copy,Native editor rewrite with evidence,VERIFIED
+A15,P0,Overclaim,https://cabivella.co.uk/collections/bathrooms/malta-vanity-console/,Hydro-phobic coating impenetrable to shower steam,Require test or remove absolute claim,VERIFIED_TEXT_NEEDS_SUBSTANTIATION
+A16,P1,Typographic duplication,https://cabivella.co.uk/collections/bathrooms/,Bathrooms Design Directions shown twice,Remove duplicated heading,VERIFIED
+A17,P1,Typographic duplication,https://cabivella.co.uk/collections/coffee-stations/,Coffee Stations Design Directions shown twice,Remove duplicated heading,VERIFIED
+A18,P1,Commercial responsibilities,https://cabivella.co.uk/our-story/,Claims Turkish workshops UK road logistics physical samples and 4-8 week delivery,Check contracts and supplier documents,CLAIM_NEEDS_DOCUMENTS
+A19,P1,Data controller,https://cabivella.co.uk/privacy/,Named individual as controller and stated 24-month deletion period,Verify lawful identity retention and process consistency,CLAIM_NEEDS_DOCUMENTS
+A20,P1,Enquiry funnel,https://cabivella.co.uk/enquire/,Visible form exists but live successful submission not tested,End-to-end server and CRM test in staging,UI_VERIFIED_BACKEND_UNVERIFIED
+A21,P1,Geo consistency,https://cabivella.co.uk/collections/kitchens/,UK Made-to-Measure category badge could be read as UK manufacturing,Clarify designed for UK homes / manufactured in Turkey if factual,VERIFIED_TEXT_INTERPRETATION
+A22,P2,User preference,https://cabivella.co.uk/,Premium visual aesthetic present but English consumer acceptance not measured,Run UK homeowner and UK trades qualitative usability tests,UNMEASURED

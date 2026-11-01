@@ -25,7 +25,7 @@ const { images, title } = Astro.props;
       
       <!-- Loupe Instruction Badge -->
       <div class="loupe-hint">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColour" stroke-width="2" aria-hidden="true">
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           <line x1="11" y1="8" x2="11" y2="14"></line>
@@ -191,7 +191,7 @@ const { images, title } = Astro.props;
       0 12px 36px rgba(0, 0, 0, 0.35),
       inset 0 0 16px rgba(0, 0, 0, 0.25);
     background-repeat: no-repeat;
-    background-color: #ffffff;
+    background-colour: #ffffff;
     z-index: 50;
   }
 
@@ -212,7 +212,7 @@ const { images, title } = Astro.props;
     font-size: 11px;
     font-family: var(--font-body);
     font-weight: 500;
-    color: var(--text-muted);
+    colour: var(--text-muted);
     pointer-events: none;
     transition: opacity 0.3s ease;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
@@ -236,11 +236,11 @@ const { images, title } = Astro.props;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease), transform 0.2s ease;
+    transition: border-colour 0.25s var(--ease), box-shadow 0.25s var(--ease), transform 0.2s ease;
     cursor: pointer;
   }
   .thumb-item:hover, .thumb-item.is-active {
-    border-color: #a3824c;
+    border-colour: #a3824c;
     box-shadow: 0 4px 14px rgba(163, 130, 76, 0.2);
     transform: translateY(-2px);
   }

@@ -106,6 +106,36 @@
         "source": "/products/",
         "destination": "/collections/kitchens/",
         "type": 301
+      },
+      {
+        "source": "/collections/coffee-stations/barnes-radiator-coffee-console-130",
+        "destination": "/collections/coffee-stations/",
+        "type": 301
+      },
+      {
+        "source": "/collections/coffee-stations/barnes-radiator-coffee-console-130/",
+        "destination": "/collections/coffee-stations/",
+        "type": 301
+      },
+      {
+        "source": "/collections/coffee-stations/chelsea-illuminated-coffee-armoire",
+        "destination": "/collections/coffee-stations/",
+        "type": 301
+      },
+      {
+        "source": "/collections/coffee-stations/chelsea-illuminated-coffee-armoire/",
+        "destination": "/collections/coffee-stations/",
+        "type": 301
+      },
+      {
+        "source": "/collections/fitted-storage/mayfair-6door-wardrobe",
+        "destination": "/collections/fitted-storage/",
+        "type": 301
+      },
+      {
+        "source": "/collections/fitted-storage/mayfair-6door-wardrobe/",
+        "destination": "/collections/fitted-storage/",
+        "type": 301
       }
     ]
   }
