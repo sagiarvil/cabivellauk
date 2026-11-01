@@ -211,12 +211,27 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/belgravia-grand-380/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/kitchens/compact-kitchens/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchens/contemporary-kitchens/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/cotswold-classic-280/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/kensington-linear-240/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -232,6 +247,16 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/kitchens/luna-micro-shaker/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/mayfair-pantry-320/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/kitchens/richmond-studio-200/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -5,6 +5,7 @@ export interface ModelDetail {
   metaTitle: string;
   metaDescription: string;
   leadTime: string;
+  referencePriceTl?: string;
   dimensionsMm: string;
   materials: string[];
   finishOptions: string[];
@@ -48,7 +49,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Solid oak dovetailed drawer boxes with 40kg load-rated undermount glides",
       "Multi-coat factory-baked lacquer resilient against grease and cooking steam",
       "Full custom dimensioning tailored to uneven chimney breasts and bay windows"
-    ]
+    ],
+    "referencePriceTl": "48.000 TL"
   },
   "contemporary-kitchens": {
     "slug": "contemporary-kitchens",
@@ -81,7 +83,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Super-matte tactile surface formulation with thermal micro-scratch healability",
       "Full-height floor-to-ceiling appliance banks with integrated ventilation chimneys",
       "Bespoke cutlery divider sets in solid American black walnut"
-    ]
+    ],
+    "referencePriceTl": "46.000 TL"
   },
   "compact-kitchens": {
     "slug": "compact-kitchens",
@@ -113,7 +116,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Integrated pull-out recycling sorting station and under-sink organiser caddy",
       "Pre-routed LED task lighting recesses beneath wall cabinets",
       "Modular width increments from 1600mm upwards for bespoke alcove installation"
-    ]
+    ],
+    "referencePriceTl": "18.900 TL"
   },
   "arya-classic-shaker": {
     "slug": "arya-classic-shaker",
@@ -146,7 +150,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Concealed 3D adjustable soft-close European hinges",
       "Dovetailed solid timber drawer boxes with full extension glides",
       "Custom decorative mantle and cooker canopy integration options"
-    ]
+    ],
+    "referencePriceTl": "46.500 TL"
   },
   "lea-bevelled-shaker": {
     "slug": "lea-bevelled-shaker",
@@ -179,7 +184,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "22mm door thickness providing substantial tactile feel",
       "Multi-layer polyurethane matte lacquer resistant to household spills",
       "Tailored tall appliance larders with integrated breakfast bar elements"
-    ]
+    ],
+    "referencePriceTl": "48.200 TL"
   },
   "luna-micro-shaker": {
     "slug": "luna-micro-shaker",
@@ -212,7 +218,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Seamless corner jointing with zero visible glue seams",
       "Full integration with fluted feature back panels and open display niches",
       "Factory-mounted interior LED strip lighting channels"
-    ]
+    ],
+    "referencePriceTl": "43.800 TL"
   },
   "lora-contemporary-slab": {
     "slug": "lora-contemporary-slab",
@@ -245,7 +252,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Seamless laser-welded edge banding resistant to steam degradation",
       "Push-to-open electronic servo-drive options for true handleless purity",
       "Custom ceiling-height infill panels scribed to UK plaster contours"
-    ]
+    ],
+    "referencePriceTl": "45.600 TL"
   },
   "vera-architectural-kitchen": {
     "slug": "vera-architectural-kitchen",
@@ -278,7 +286,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Concealed finger-pull channel lacquered in complementary tones",
       "Heavy-duty pan drawers tested to 50kg dynamic loads",
       "Bespoke spice and condiment pull-out inserts"
-    ]
+    ],
+    "referencePriceTl": "47.900 TL"
   },
   "axis-handleless-shadow": {
     "slug": "axis-handleless-shadow",
@@ -310,7 +319,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Recessed LED illumination channel within grip profile",
       "Fully integrated column refrigeration and larder housings",
       "Scratch-resistant micro-texture baked enamel finish"
-    ]
+    ],
+    "referencePriceTl": "49.500 TL"
   },
   "vega-ergonomic-suite": {
     "slug": "vega-ergonomic-suite",
@@ -343,7 +353,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Ergonomic split-level island preparation surface",
       "Solid beech dovetail internal drawer inserts",
       "Heavy-capacity pull-out tall dry storage tower"
-    ]
+    ],
+    "referencePriceTl": "52.400 TL"
   },
   "urban-compact-160": {
     "slug": "urban-compact-160",
@@ -375,7 +386,8 @@ export const modelsData: Record<string, ModelDetail> = {
       "Bi-fold overhead lift cabinets providing clear line of sight",
       "Moisture-proof composite worktop with factory-machined cutouts",
       "Integrated waste sorting drawer and modular utility storage"
-    ]
+    ],
+    "referencePriceTl": "16.450 TL"
   },
   "wall-hung-vanities": {
     "slug": "wall-hung-vanities",
@@ -1711,5 +1723,185 @@ export const modelsData: Record<string, ModelDetail> = {
       "Sharp internal corners and crisp Shaker profiling for authentic joinery look",
       "Significant budget savings allowing custom colour experimentation"
     ]
+  },
+  "kensington-linear-240": {
+    "slug": "kensington-linear-240",
+    "category": "kitchens",
+    "title": "Kensington 240cm Integrated Linear Kitchen",
+    "metaTitle": "Kensington 240cm Linear Kitchen | Made-to-Measure Joinery | Cabivella UK",
+    "metaDescription": "Precision-engineered 240cm made-to-measure kitchen suite featuring 80cm sink base, 60cm oven housing, 3-tier pan drawer stack, and matching wall units.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "2400mm width, 600mm base carcass depth (340mm wall depth), 2150mm standard installed height",
+    "materials": [
+      "18mm moisture-resistant structural MR core",
+      "Thermal-healing super-matte anti-fingerprint surface",
+      "Concealed 35mm European soft-close clip hinges",
+      "Synchronised full-extension 40kg undermount drawer runners"
+    ],
+    "finishOptions": [
+      "Chalk White & Oiled Oak",
+      "Matte Basalt Anthracite",
+      "Cashmere Taupe",
+      "Heritage Sage Green"
+    ],
+    "installationScope": "Supplied rigid in protective wooden crates with pre-fitted levelling feet and plumbing service voids.",
+    "image": "/assets/img/models/contemporary-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/contemporary-kitchens.webp",
+      "/assets/img/concept-kitchen.webp",
+      "/assets/img/models/compact-kitchens.webp"
+    ],
+    "description": "An exquisitely proportioned 240cm linear kitchen layout engineered for British terraced homes and open-plan apartments. Balances continuous preparation surfaces with high-capacity concealed cabinetry, integrating sink, cooking, and storage zones with quiet elegance.",
+    "keyFeatures": [
+      "Dedicated 800mm sink base unit with moisture-shield aluminium drip tray",
+      "600mm integrated oven and induction hob housing with heat-deflector shields",
+      "400mm 3-tier drawer stack with solid oak cutlery inserts and deep pan storage",
+      "2400mm matching wall run with integrated concealed extractor hood housing"
+    ],
+    "referencePriceTl": "20.490 TL"
+  },
+  "belgravia-grand-380": {
+    "slug": "belgravia-grand-380",
+    "category": "kitchens",
+    "title": "Belgravia 380cm Grand Architectural Suite",
+    "metaTitle": "Belgravia 380cm Grand Kitchen Suite | Luxury Cabinetry | Cabivella UK",
+    "metaDescription": "Commanding 380cm bespoke kitchen layout featuring dual full-height appliance towers, 260cm central chef run, 90cm pot drawers, and integrated dishwasher housing.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "3800mm width, 600mm worktop depth, 2250mm ceiling-line height",
+    "materials": [
+      "Solid European ash face framing",
+      "Moisture-resistant high-density carcass core",
+      "Heavy-load undermount runners tested to 50kg dynamic loads",
+      "Integrated acoustic buffer seals"
+    ],
+    "finishOptions": [
+      "Deep Oxford Navy",
+      "Hand-Painted Parchment Cream",
+      "Smoked Forest Green",
+      "Basalt Silk"
+    ],
+    "installationScope": "Delivered in numbered modular rigid units with bespoke ceiling-height scribing infills.",
+    "image": "/assets/img/models/island-suite-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/island-suite-kitchens.webp",
+      "/assets/img/models/shaker-kitchens.webp",
+      "/assets/img/models/contemporary-kitchens.webp"
+    ],
+    "description": "A commanding 380cm architectural kitchen suite designed for expansive UK family residences and country properties. Featuring dual full-height towers flanking a grand culinary workstation, delivering generous storage and seamless appliance integration.",
+    "keyFeatures": [
+      "Dual 600mm full-height appliance towers for integrated refrigeration and dual ovens",
+      "Expansive 2600mm central culinary preparation run with seamless quartz surface",
+      "900mm wide heavy-duty pot and pan drawers beneath central 5-zone cooking hob",
+      "600mm integrated concealed dishwasher housing with waterproof floor barrier"
+    ],
+    "referencePriceTl": "50.800 TL"
+  },
+  "mayfair-pantry-320": {
+    "slug": "mayfair-pantry-320",
+    "category": "kitchens",
+    "title": "Mayfair 320cm Tower & Pantry Run",
+    "metaTitle": "Mayfair 320cm Kitchen & Pantry Run | Bespoke Joinery | Cabivella UK",
+    "metaDescription": "Harmonious 320cm kitchen suite pairing an ergonomic tall food pantry tower with an 80cm sink module, 60cm appliance bay, and walnut dovetailed drawers.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "3200mm width, 600mm base depth (350mm wall depth), 2200mm tall column height",
+    "materials": [
+      "Precision-milled 22mm moisture-sealed timber panels",
+      "Solid walnut dovetailed interior drawers",
+      "Blum motion soft-close dampers",
+      "Heavy-duty adjustable steel levelling legs"
+    ],
+    "finishOptions": [
+      "Satin Pumice",
+      "Alabaster White",
+      "Smoked Walnut accents",
+      "Slate Grey"
+    ],
+    "installationScope": "Factory pre-assembled rigid carcasses with pre-machined internal cable channels.",
+    "image": "/assets/img/models/shaker-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/shaker-kitchens.webp",
+      "/assets/img/models/island-suite-kitchens.webp",
+      "/assets/img/models/slim-frame-shaker-kitchens.webp"
+    ],
+    "description": "A sophisticated 320cm made-to-measure run uniting an ergonomic tall food pantry tower with an expansive preparation zone. Ideal for Victorian townhouses and modern suburban extensions requiring maximum organisation within a single wall plane.",
+    "keyFeatures": [
+      "600mm full-height larder tower with tandem pull-out shelving for instant visibility",
+      "800mm undermount double-bowl sink unit with integrated recycling sorting bins",
+      "600mm 3-drawer prep bank with solid walnut dovetail cutlery dividers",
+      "Continuous overhead wall cabinetry with integrated warm LED task lighting"
+    ],
+    "referencePriceTl": "44.900 TL"
+  },
+  "cotswold-classic-280": {
+    "slug": "cotswold-classic-280",
+    "category": "kitchens",
+    "title": "Cotswold 280cm Chef's Preparation Kitchen",
+    "metaTitle": "Cotswold 280cm Chef's Kitchen | Classic British Joinery | Cabivella UK",
+    "metaDescription": "Traditional 280cm British kitchen layout featuring solid timber stiles, 80cm wide cookware drawers, glazed feature wall cabinets, and durable lacquer finish.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "2800mm width, 600mm base carcass depth, 2150mm standard installed height",
+    "materials": [
+      "Solid timber face frames & mortise-and-tenon joints",
+      "High-density moisture-resistant MR-MDF panels",
+      "Fluted toughened display glass",
+      "Aged unlacquered brass hardware"
+    ],
+    "finishOptions": [
+      "Cotswold Cream",
+      "Heritage Sage",
+      "Deep Indigo",
+      "Muted Truffle"
+    ],
+    "installationScope": "Supplied rigid with integrated service ducting and wall hanging brackets.",
+    "image": "/assets/img/models/slim-frame-shaker-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/slim-frame-shaker-kitchens.webp",
+      "/assets/img/models/shaker-kitchens.webp",
+      "/assets/img/concept-kitchen.webp"
+    ],
+    "description": "Celebrating authentic British kitchen joinery, this 280cm layout provides generous food preparation surface, dedicated deep cookware drawers, and glazed display units, bringing timeless warmth and enduring utility to culinary spaces.",
+    "keyFeatures": [
+      "800mm wide deep drawer chest engineered for cast iron cookware and Dutch ovens",
+      "2800mm upper cabinetry run with 800mm glazed feature cupboards for glassware",
+      "600mm integrated cooking range module with heat-dissipation ventilation grille",
+      "800mm sink base unit with integrated plumbing access service void"
+    ],
+    "referencePriceTl": "32.850 TL"
+  },
+  "richmond-studio-200": {
+    "slug": "richmond-studio-200",
+    "category": "kitchens",
+    "title": "Richmond 200cm Linear Apartment Kitchen",
+    "metaTitle": "Richmond 200cm Studio Kitchen | Compact Joinery | Cabivella UK",
+    "metaDescription": "High-density 200cm linear kitchen solution for London apartments and secondary suites, with bi-fold lift wall units and integrated cooking station.",
+    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
+    "dimensionsMm": "2000mm width, 600mm base depth (320mm wall depth), 2100mm installed height",
+    "materials": [
+      "18mm dense MR structural composite",
+      "Laser-sealed ABS edge banding resistant to steam",
+      "Concealed soft-close buffer hinges",
+      "Bi-fold lift-up flap mechanisms"
+    ],
+    "finishOptions": [
+      "Porcelain White & Warm Ash",
+      "Matte Anthracite",
+      "Nordic Pebble",
+      "Smoked Greige"
+    ],
+    "installationScope": "Modular framework engineered for tight staircase access and rapid on-site levelling.",
+    "image": "/assets/img/models/compact-kitchens.webp",
+    "gallery": [
+      "/assets/img/models/compact-kitchens.webp",
+      "/assets/img/models/contemporary-kitchens.webp",
+      "/assets/img/kitchen-inspiration.webp"
+    ],
+    "description": "High-density functional joinery within an efficient 200cm envelope. Specifically engineered for London apartments, annexes, and studio suites where every millimetre of preparation and storage space must perform with distinction.",
+    "keyFeatures": [
+      "800mm sink module accommodating under-sink water filtration and waste disposal",
+      "600mm compact oven and induction hob station with reinforced base carcass",
+      "Overhead lift-up flap cabinets providing unobstructed head clearance during food prep",
+      "Integrated moisture-resistant splashback panel with pre-cut electrical outlet ports"
+    ],
+    "referencePriceTl": "19.720 TL"
   }
 };

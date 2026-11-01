@@ -31,7 +31,12 @@ export const collectionsData: Record<string, CollectionCategory> = {
       "vera-architectural-kitchen",
       "axis-handleless-shadow",
       "vega-ergonomic-suite",
-      "urban-compact-160"
+      "urban-compact-160",
+      "kensington-linear-240",
+      "belgravia-grand-380",
+      "mayfair-pantry-320",
+      "cotswold-classic-280",
+      "richmond-studio-200"
     ]
   },
   "bathrooms": {
