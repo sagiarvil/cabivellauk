@@ -59,7 +59,13 @@ export const collectionsData: Record<string, CollectionCategory> = {
       "beat-ribbed-vanity",
       "daisy-reeded-console",
       "root-groove-tall-unit",
-      "integra-square-tower"
+      "integra-square-tower",
+      "chelsea-monolith-100",
+      "belgravia-double-140",
+      "st-james-reeded-120",
+      "kensington-artisan-80",
+      "knightsbridge-master-160",
+      "mayfair-cloakroom-65"
     ]
   },
   "pantry-larder": {

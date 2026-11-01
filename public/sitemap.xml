@@ -26,6 +26,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/belgravia-double-140/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/chelsea-monolith-100/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/daisy-reeded-console/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -46,7 +56,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/kensington-artisan-80/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/knightsbridge-master-160/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/malta-vanity-console/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/mayfair-cloakroom-65/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -57,6 +82,11 @@
   </url>
   <url>
     <loc>https://cabivella.co.uk/collections/bathrooms/root-groove-vanity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/collections/bathrooms/st-james-reeded-120/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
