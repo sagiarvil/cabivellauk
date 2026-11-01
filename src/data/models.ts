@@ -4,7 +4,6 @@ export interface ModelDetail {
   title: string;
   metaTitle: string;
   metaDescription: string;
-  leadTime: string;
   dimensionsMm: string;
   materials: string[];
   finishOptions: string[];
@@ -22,7 +21,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Classic Shaker Kitchens",
     "metaTitle": "Classic Shaker Kitchens | Made-to-Measure British Joinery | Cabivella UK",
     "metaDescription": "Timeless made-to-measure Shaker kitchens featuring solid hardwood stiles, mortise-and-tenon joints, and precision motion hardware tailored to UK homes.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure (typical 600mm carcass depth, bespoke ceiling-height runs)",
     "materials": [
       "Solid European Ash timber frame",
@@ -56,7 +54,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Contemporary Slab Kitchens",
     "metaTitle": "Contemporary Handleless Kitchens | Made-to-Measure Joinery | Cabivella UK",
     "metaDescription": "Architectural flat-panel and handleless kitchens with micro-bevelled edges, recessed J-pull channels, and matt anti-fingerprint surfaces.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure (typical 600mm base, 350mm wall runs)",
     "materials": [
       "E1 grade structural birch core",
@@ -89,7 +86,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Compact Architectural Kitchens",
     "metaTitle": "Compact Studio Kitchens | Made-to-Measure Small Space Joinery | Cabivella UK",
     "metaDescription": "High-density functional cabinetry designed for UK urban apartments, guest suites, and secondary kitchen spaces without compromising specification.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "From 1600mm to 2400mm compact modular runs",
     "materials": [
       "18mm moisture-resistant structural core",
@@ -121,7 +117,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Arya Heritage Shaker Kitchen",
     "metaTitle": "Arya Heritage Shaker Kitchen | British Joinery | Cabivella UK",
     "metaDescription": "Quintessential British five-piece Shaker cabinetry featuring solid ash stiles, deep recessed centre panels, and hand-finished satin lacquer.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure tailored to room architecture",
     "materials": [
       "Solid European Ash framing",
@@ -154,7 +149,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Lea Bevelled Shaker Kitchen",
     "metaTitle": "Lea Bevelled Shaker Kitchen | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Refined bevelled-frame Shaker kitchen cabinetry uniting classical geometry with subtle contemporary chamfered detailing.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Bespoke height and width increments",
     "materials": [
       "Solid hardwood outer framing",
@@ -187,7 +181,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Luna Micro-Frame Modern Shaker",
     "metaTitle": "Luna Micro-Frame Shaker Kitchen | Modern British Joinery | Cabivella UK",
     "metaDescription": "Slimline 15mm micro-frame Shaker kitchen cabinetry delivering a lightweight, contemporary silhouette for architectural interiors.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure ceiling-height cabinetry runs",
     "materials": [
       "Engineered timber composite",
@@ -220,7 +213,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Lora Super-Matt Contemporary Kitchen",
     "metaTitle": "Lora Super-Matt Kitchen | Contemporary Cabinets | Cabivella UK",
     "metaDescription": "Velvety super-matt slab kitchen cabinetry with anti-fingerprint thermal technology and clean monolithic architectural runs.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure base, tall, and wall runs",
     "materials": [
       "Moisture-resistant MR core",
@@ -253,7 +245,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Vera Architectural Clean-Line Kitchen",
     "metaTitle": "Vera Architectural Kitchen | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Minimalist architectural kitchen cabinetry featuring flush facades, integrated J-pull contours, and natural European oak accents.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure layouts",
     "materials": [
       "European oak veneer accents",
@@ -286,7 +277,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Axis Handleless Shadow-Gap Kitchen",
     "metaTitle": "Axis Handleless Shadow-Gap Kitchen | Cabivella UK",
     "metaDescription": "Pure continuous shadow-gap handleless kitchen cabinetry with extruded aluminium rails and flush monolithic elevations.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Bespoke runs to millimetre precision",
     "materials": [
       "Precision-extruded aluminium profiles",
@@ -318,7 +308,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Vega Ergonomic Culinary Suite",
     "metaTitle": "Vega Ergonomic Culinary Suite | Bespoke Kitchens | Cabivella UK",
     "metaDescription": "High-performance culinary kitchen cabinetry featuring tiered workflow zones, concealed breakfast stations, and ergonomic reach heights.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure culinary runs",
     "materials": [
       "Moisture-resistant carcass timber",
@@ -351,7 +340,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Urban 160 Compact Studio Kitchen",
     "metaTitle": "Urban 160 Compact Kitchen | Studio Apartment Joinery | Cabivella UK",
     "metaDescription": "Space-saving 160cm to 220cm compact kitchen solution combining cooktop, sink, integrated extraction, and soft-close cabinetry.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1600mm standard width (expandable to 2400mm)",
     "materials": [
       "18mm dense MR composite",
@@ -383,7 +371,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Floating Wall-Hung Vanities",
     "metaTitle": "Wall-Hung Bathroom Vanities | Bespoke Floating Storage | Cabivella UK",
     "metaDescription": "Bespoke floating bathroom vanity units crafted from marine-grade moisture-resistant timbers with concealed heavy-duty wall brackets.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "600mm to 1600mm widths (bespoke single or double basin)",
     "materials": [
       "Marine-grade moisture-resistant substrate",
@@ -417,7 +404,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Acoustic Fluted Timber Vanities",
     "metaTitle": "Fluted Bathroom Vanities | Reeded Timber Joinery | Cabivella UK",
     "metaDescription": "Tactile fluted and reeded wood bathroom vanity units with solid surface or quartz countertop integrations.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "800mm, 1000mm, 1200mm and bespoke bespoke double configurations",
     "materials": [
       "Precision CNC-milled reeded oak veneer",
@@ -451,7 +437,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Tall Bathroom Linen Columns",
     "metaTitle": "Tall Bathroom Linen Cabinets | Slim Tower Storage | Cabivella UK",
     "metaDescription": "Full-height slimline bathroom storage towers for towels, apothecary goods, and laundry baskets in UK residential bathrooms.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "350mm to 500mm wide, 1600mm to 2000mm high, 320mm depth",
     "materials": [
       "18mm moisture-sealed timber core",
@@ -485,7 +470,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Malta 100 Illuminated Vanity Console",
     "metaTitle": "Malta 100 Illuminated Vanity | Bathroom Furniture | Cabivella UK",
     "metaDescription": "100cm floating vanity suite featuring integrated LED magnifying mirror, dual soft-close drawers, and matt polyurethane lacquer.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1000mm width, 520mm height, 480mm depth",
     "materials": [
       "MR-MDF substrate",
@@ -518,7 +502,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Design 105 Monolith Double-Basin Vanity",
     "metaTitle": "Design 105 Double Vanity | Luxury Bathrooms | Cabivella UK",
     "metaDescription": "105cm to 160cm architectural double-basin vanity console with monolithic mitred drawer edges and solid ceramic top integration.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1050mm to 1600mm bespoke spans",
     "materials": [
       "Engineered core timber",
@@ -552,7 +535,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Aydos 55 Compact Cloakroom Vanity",
     "metaTitle": "Aydos 55 Cloakroom Vanity | Small Bathroom Furniture | Cabivella UK",
     "metaDescription": "55cm slim-projection cloakroom vanity unit designed for UK under-stair WCs and compact powder rooms.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "550mm width, 400mm height, 380mm slim depth",
     "materials": [
       "Moisture-resistant compact composite",
@@ -585,7 +567,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Root Groove Reeded Vanity Unit",
     "metaTitle": "Root Groove Reeded Vanity | Fluted Bathroom Units | Cabivella UK",
     "metaDescription": "80cm to 120cm reeded timber vanity unit featuring vertical acoustic rhythm, rich wood grain, and soft-close storage.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "800mm, 1000mm, 1200mm configurations",
     "materials": [
       "CNC routed grooved timber",
@@ -618,7 +599,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Beat Ribbed Architectural Vanity",
     "metaTitle": "Beat Ribbed Vanity | Bespoke Fluted Joinery | Cabivella UK",
     "metaDescription": "Geometric ribbed vanity unit featuring bold dimensional fluting and premium lacquered or wood veneer finishes.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "800mm to 1400mm bespoke spans",
     "materials": [
       "Multi-density timber composite",
@@ -652,7 +632,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Daisy Fluted Timber Console",
     "metaTitle": "Daisy Fluted Timber Console | Reeded Bathroom Storage | Cabivella UK",
     "metaDescription": "Softly rounded reeded bathroom vanity with curved corner radius and tactile wood textures.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "900mm to 1200mm single vanity widths",
     "materials": [
       "Curved timber moulding",
@@ -685,7 +664,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Root Tall Fluted Storage Column",
     "metaTitle": "Root Tall Fluted Linen Column | Bathroom Tower | Cabivella UK",
     "metaDescription": "Full-height vertical bathroom storage column with coordinating fluted door panels and adjustable interior glass shelving.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "400mm width, 1750mm height, 350mm depth",
     "materials": [
       "Grooved timber front",
@@ -719,7 +697,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Integra Square Modular Bathroom Tower",
     "metaTitle": "Integra Square Bathroom Tower | Modular Linen Storage | Cabivella UK",
     "metaDescription": "Clean-lined square modular bathroom tower with open display niche and dual concealed soft-close cabinets.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "450mm width, 1650mm height, 380mm depth",
     "materials": [
       "18mm moisture-resistant timber",
@@ -753,7 +730,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Tall Larder & Pantry Cupboards",
     "metaTitle": "Tall Larder & Pantry Cupboards | Made-to-Measure Kitchen Storage | Cabivella UK",
     "metaDescription": "Double-door and single-door pantry cupboards with solid oak door-mounted spice racks, internal drawers, and cold marble shelf options.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Widths from 600mm single to 1200mm double armoire; heights up to 2400mm",
     "materials": [
       "Solid oak internal drawers & door racks",
@@ -786,7 +762,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Corner Pantry Optimiser Cupboards",
     "metaTitle": "Corner Pantry & Blind Corner Units | Smart Kitchen Storage | Cabivella UK",
     "metaDescription": "Intelligent articulated corner pantry cupboards with twin articulated swing-out shelves and full-extension blind corner mechanisms.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "900x900mm L-shaped corner or 1000\u20131200mm blind corner configurations",
     "materials": [
       "Articulated steel swing-out trays with non-slip bases",
@@ -818,7 +793,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Tandem Dual-Access Larder Tower",
     "metaTitle": "Tandem Dual-Access Larder Tower | Kitchen Pantry | Cabivella UK",
     "metaDescription": "Intelligent tandem larder tower where opening the door automatically pulls rear shelves forward for panoramic visibility.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "600mm width, 1950mm\u20132300mm height, 580mm depth",
     "materials": [
       "Solid oak tray fronts",
@@ -850,7 +824,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Chef's Double-Door Culinary Armoire",
     "metaTitle": "Chef's Double Larder Armoire | Luxury Pantries | Cabivella UK",
     "metaDescription": "Grand 120cm double-door freestanding or integrated pantry armoire with solid timber internal fittings, bread drawers, and marble slab.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "1200mm width, 2200mm height, 650mm depth",
     "materials": [
       "Solid European ash stiles",
@@ -883,7 +856,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "LeMans Articulated Corner Optimiser",
     "metaTitle": "LeMans Corner Optimiser | Articulated Blind Corner | Cabivella UK",
     "metaDescription": "Ergonomic curved swivel shelves that glide smoothly out of 90cm to 120cm blind corner cabinets with zero effort.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "900mm, 1000mm, 1200mm blind corner carcass sizes",
     "materials": [
       "Articulated steel armatures",
@@ -915,7 +887,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Full-Extension Carousel Blind Corner",
     "metaTitle": "Carousel Blind Corner Pantry | Smart Corner Units | Cabivella UK",
     "metaDescription": "360-degree rotating corner carousel storage unit with sturdy metal railings and non-slip surfaces.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "900x900mm L-corner or 1050mm blind base unit",
     "materials": [
       "Heavy-gauge central steel pole",
@@ -946,7 +917,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Pull-Out Spice & Bottle Larder Tower",
     "metaTitle": "Pull-Out Spice Larder Tower | Slim Tall Storage | Cabivella UK",
     "metaDescription": "Slim 300mm to 400mm pull-out larder tower with central steel spine and dual-sided access to oils, vinegar, and dry goods.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "300mm\u2013400mm width, 1800mm\u20132200mm height, 580mm depth",
     "materials": [
       "Heavy-duty central runner frame",
@@ -978,7 +948,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Walk-In Step-Through Pantry Suite",
     "metaTitle": "Walk-In Step-Through Pantry Suite | Custom Joinery | Cabivella UK",
     "metaDescription": "Architectural step-in corner pantry room disguised behind kitchen cabinetry facades with ceiling-height open shelving.",
-    "leadTime": "Typically 7\u20139 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure walk-in room dimensions (minimum 1200x1200mm)",
     "materials": [
       "Solid timber uprights",
@@ -1011,7 +980,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Pocket-Door Concealed Coffee Stations",
     "metaTitle": "Pocket-Door Coffee Stations | Concealed Breakfast Cabinets | Cabivella UK",
     "metaDescription": "Luxury pocket-door breakfast and barista stations. Doors slide back into carcass cavities during use and close flush to maintain clean lines.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Widths from 1000mm to 1600mm; standard 2150mm height, 650mm depth",
     "materials": [
       "Heavy-duty scissor pocket-door tracking gear",
@@ -1043,7 +1011,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Open-Shelf Artisan Coffee Cabinets",
     "metaTitle": "Open-Shelf Coffee Cabinets | Artisan Barista Storage | Cabivella UK",
     "metaDescription": "Architectural open-shelf coffee and beverage cabinetry featuring fluted glass display, integrated LED bar lighting, and timber prep credenzas.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "900mm to 1500mm widths, tailored heights up to 2300mm",
     "materials": [
       "Solid European oak or ash shelving",
@@ -1075,7 +1042,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Hawa Retractable Bi-Fold Beverage Station",
     "metaTitle": "Hawa Retractable Beverage Station | Luxury Coffee Bar | Cabivella UK",
     "metaDescription": "High-specification bi-folding retractable pocket door coffee station with commercial-grade Swiss hardware and quartz prep counter.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "1200mm\u20131800mm wide, 2200mm high, 680mm deep",
     "materials": [
       "Swiss Hawa Concepta hardware",
@@ -1107,7 +1073,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Ervin Artisan Breakfast & Espresso Credenza",
     "metaTitle": "Ervin Breakfast Credenza | Coffee Bar Cabinetry | Cabivella UK",
     "metaDescription": "Free-standing or built-in artisan breakfast credenza featuring reeded lower storage, quartz slab, and open ceramic display shelving.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1100mm\u20131500mm width, 900mm base height (2100mm with upper hutch)",
     "materials": [
       "Solid ash frame",
@@ -1139,7 +1104,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Grand Breakfast Armoire & Espresso Bar",
     "metaTitle": "Grand Breakfast Armoire | Luxury Coffee Stations | Cabivella UK",
     "metaDescription": "Traditional double-door breakfast armoire housing toaster, kettle, and barista machine behind five-piece classic Shaker doors.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "1200mm width, 2200mm height, 650mm depth",
     "materials": [
       "European ash stiles",
@@ -1172,7 +1136,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Illuminated Barista Suite with Quartz Surface",
     "metaTitle": "Illuminated Barista Suite | Modern Coffee Cabinets | Cabivella UK",
     "metaDescription": "Contemporary illuminated beverage suite featuring continuous vertical LED profiles, mirror splashback, and integrated wine cooler housing.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "1200mm\u20132000mm made-to-measure widths",
     "materials": [
       "Bronze mirror glass splashback",
@@ -1204,7 +1167,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Victorian Alcove Bookcases & Cabinets",
     "metaTitle": "Bespoke Alcove Cupboards & Bookcases | Period Joinery | Cabivella UK",
     "metaDescription": "Precision made-to-measure alcove cupboards and open bookcases designed for British Victorian and Edwardian chimney breasts.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "Bespoke widths from 800mm to 1400mm per alcove; heights up to 3000mm ceiling",
     "materials": [
       "High-density MR-MDF core",
@@ -1237,7 +1199,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Made-to-Measure Utility & Laundry Runs",
     "metaTitle": "Bespoke Utility Room Cabinets | Laundry Storage | Cabivella UK",
     "metaDescription": "Durable moisture-resistant utility room cabinetry with stacked washer-dryer housings, pull-out laundry hampers, and boot room benches.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure linear runs, typical 650mm appliance depth",
     "materials": [
       "Water-resistant carcass boards",
@@ -1270,7 +1231,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Tailored Chimney Alcove Cabinetry",
     "metaTitle": "Tailored Chimney Alcove Cabinetry | Fitted Furniture | Cabivella UK",
     "metaDescription": "Precision-crafted bespoke chimney alcove cabinetry pairing lower panelled storage cupboards with floating floating display shelves.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "Custom width and height matched to room plaster",
     "materials": [
       "Structural MR-MDF",
@@ -1303,7 +1263,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Bosco Full-Height Utility & Appliance Cabinet",
     "metaTitle": "Bosco Full-Height Utility Cabinet | Laundry Cupboards | Cabivella UK",
     "metaDescription": "Full-height tall utility cabinet housing ironing board, laundry hampers, Dyson vacuum docks, and cleaning essentials in one tall unit.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "800mm\u20131000mm width, 2200mm height, 650mm depth",
     "materials": [
       "Moisture-resistant core",
@@ -1336,7 +1295,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Country Estate Boot Room & Mudroom Suite",
     "metaTitle": "Boot Room & Mudroom Cabinetry | Country Joinery | Cabivella UK",
     "metaDescription": "Bespoke country boot room joinery featuring solid oak seating benches, open coat hooks, shoe pigeonholes, and overhead basket storage.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure runs from 1500mm to 4000mm",
     "materials": [
       "Solid European oak benchtop",
@@ -1368,7 +1326,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Architectural Walk-In Dressing Suite",
     "metaTitle": "Walk-In Dressing Suite | Bespoke Wardrobes | Cabivella UK",
     "metaDescription": "Master walk-in wardrobe and dressing room cabinetry featuring open hanging runs, glass-fronted watch drawers, and LED-lit shoe galleries.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure room layouts up to 3000mm height",
     "materials": [
       "Linen-textured carcass linings",
@@ -1400,7 +1357,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Full-Height Floor-to-Ceiling Panelled Wardrobes",
     "metaTitle": "Full-Height Fitted Wardrobes | Panelled Bedroom Joinery | Cabivella UK",
     "metaDescription": "Architectural fitted bedroom wardrobes with traditional panelled doors, decorative cornice mouldings, and bespoke internal organisation.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure spans, heights up to 2800mm ceiling runs",
     "materials": [
       "Moisture-resistant MR core",
@@ -1433,7 +1389,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Solid Hardwood Shaker Replacement Fronts",
     "metaTitle": "Shaker Replacement Kitchen Doors | Made-to-Measure Fronts | Cabivella UK",
     "metaDescription": "Upgrade existing kitchen carcasses with custom-sized solid hardwood and MR-MDF Shaker replacement doors, factory spray-finished in heritage tones.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure to exact millimetre dimensions; standard 22mm thickness",
     "materials": [
       "Solid European ash outer framing",
@@ -1467,7 +1422,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Integrated J-Pull & Shadow Fronts",
     "metaTitle": "Handleless Replacement Doors | J-Pull Cabinet Fronts | Cabivella UK",
     "metaDescription": "Contemporary handleless replacement kitchen doors with integrated J-pull routing or chamfered shadow profiles in matt and gloss finishes.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure to exact millimetre dimensions; 22mm profile thickness",
     "materials": [
       "Deep-routed moisture-resistant structural core",
@@ -1500,7 +1454,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Chillingham Authentic Hardwood Shaker Fronts",
     "metaTitle": "Chillingham Hardwood Shaker Doors | Replacement Fronts | Cabivella UK",
     "metaDescription": "Authentic 5-piece solid European ash replacement doors with 80mm traditional stiles and mortise-and-tenon craftsmanship.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Custom millimetre sizing, 22mm thickness",
     "materials": [
       "Solid European ash timber",
@@ -1533,7 +1486,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Lea Architectural Framed Cabinet Doors",
     "metaTitle": "Lea Framed Cabinet Fronts | Replacement Doors | Cabivella UK",
     "metaDescription": "Transitional framed kitchen cabinet fronts featuring a delicate internal chamfer and satin smooth painted finish.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Bespoke dimensions to 1mm tolerance",
     "materials": [
       "Hardwood composite",
@@ -1566,7 +1518,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Axis Minimal Shadow-Profile Fronts",
     "metaTitle": "Axis Minimal Shadow Fronts | Handleless Doors | Cabivella UK",
     "metaDescription": "Pure flush cabinet fronts with bevelled shadow profile for integrated channel handleless kitchens.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure width and height increments",
     "materials": [
       "18mm or 22mm dense MR-MDF",
@@ -1599,7 +1550,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Vera Silk-Touch Lacquered Slab Fronts",
     "metaTitle": "Vera Silk-Touch Slab Doors | Replacement Fronts | Cabivella UK",
     "metaDescription": "Contemporary flat slab replacement kitchen doors in silky matt and soft satin finishes for minimalist kitchens.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Exact millimetre precision custom sizes",
     "materials": [
       "Structural E1 grade core",
@@ -1632,7 +1582,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Slimline Micro-Shaker Feature Fronts",
     "metaTitle": "Slimline Micro-Shaker Fronts | Modern Shaker Doors | Cabivella UK",
     "metaDescription": "Contemporary 15mm slim-frame Shaker replacement cabinet doors for modern British architectural kitchen renovations.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "Custom height and width to 1mm tolerance",
     "materials": [
       "Precision milled composite",
@@ -1665,7 +1614,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Fluted Wave Acoustic Feature Panels",
     "metaTitle": "Fluted Wave Kitchen Fronts | Reeded Cabinet Panels | Cabivella UK",
     "metaDescription": "Reeded and fluted replacement cabinet doors and kitchen island cladding panels for striking architectural texture.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure doors and full 2400x1200mm cladding sheets",
     "materials": [
       "Multi-axis CNC routed oak veneer",
@@ -1698,7 +1646,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Paint-Ready Moisture-Resistant Raw MDF Fronts",
     "metaTitle": "Paint-Ready Raw MDF Doors | DIY Kitchen Fronts | Cabivella UK",
     "metaDescription": "Unfinished, double-sanded moisture-resistant MR-MDF Shaker and slab replacement doors, ready for on-site bespoke hand-painting.",
-    "leadTime": "Typically 3\u20135 weeks (production & UK transit)",
     "dimensionsMm": "Made-to-measure to exact millimetres; 22mm thick",
     "materials": [
       "Premium Medite MR moisture-resistant MDF",
@@ -1728,7 +1675,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Kensington 240cm Integrated Linear Kitchen",
     "metaTitle": "Kensington 240cm Linear Kitchen | Made-to-Measure Joinery | Cabivella UK",
     "metaDescription": "Precision-engineered 240cm made-to-measure kitchen suite featuring 80cm sink base, 60cm oven housing, 3-tier pan drawer stack, and matching wall units.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "2400mm width, 600mm base carcass depth (340mm wall depth), 2150mm standard installed height",
     "materials": [
       "18mm moisture-resistant structural MR core",
@@ -1763,7 +1709,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Belgravia 380cm Grand Architectural Suite",
     "metaTitle": "Belgravia 380cm Grand Kitchen Suite | Luxury Cabinetry | Cabivella UK",
     "metaDescription": "Commanding 380cm bespoke kitchen layout featuring dual full-height appliance towers, 260cm central chef run, 90cm pot drawers, and integrated dishwasher housing.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "3800mm width, 600mm worktop depth, 2250mm ceiling-line height",
     "materials": [
       "Solid European ash face framing",
@@ -1798,7 +1743,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Mayfair 320cm Tower & Pantry Run",
     "metaTitle": "Mayfair 320cm Kitchen & Pantry Run | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Harmonious 320cm kitchen suite pairing an ergonomic tall food pantry tower with an 80cm sink module, 60cm appliance bay, and walnut dovetailed drawers.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "3200mm width, 600mm base depth (350mm wall depth), 2200mm tall column height",
     "materials": [
       "Precision-milled 22mm moisture-sealed timber panels",
@@ -1833,7 +1777,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Cotswold 280cm Chef's Preparation Kitchen",
     "metaTitle": "Cotswold 280cm Chef's Kitchen | Classic British Joinery | Cabivella UK",
     "metaDescription": "Traditional 280cm British kitchen layout featuring solid timber stiles, 80cm wide cookware drawers, glazed feature wall cabinets, and durable lacquer finish.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "2800mm width, 600mm base carcass depth, 2150mm standard installed height",
     "materials": [
       "Solid timber face frames & mortise-and-tenon joints",
@@ -1868,7 +1811,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Richmond 200cm Linear Apartment Kitchen",
     "metaTitle": "Richmond 200cm Studio Kitchen | Compact Joinery | Cabivella UK",
     "metaDescription": "High-density 200cm linear kitchen solution for London apartments and secondary suites, with bi-fold lift wall units and integrated cooking station.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "2000mm width, 600mm base depth (320mm wall depth), 2100mm installed height",
     "materials": [
       "18mm dense MR structural composite",
@@ -1903,7 +1845,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Chelsea 100cm Illuminated Vanity & Linen Suite",
     "metaTitle": "Chelsea 100cm Vanity Suite | Luxury Bathrooms | Cabivella UK",
     "metaDescription": "Refined 100cm floating bathroom vanity suite with vitreous china basin, touchless LED demister mirror cabinet, and coordinating tall linen tower.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1000mm vanity width, 520mm height, 480mm depth; optional 350x1600mm linen tower",
     "materials": [
       "Marine-grade moisture-sealed core substrate",
@@ -1937,7 +1878,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Belgravia 140cm Architectural Double Vanity",
     "metaTitle": "Belgravia 140cm Double Vanity | Master Suite Joinery | Cabivella UK",
     "metaDescription": "Commanding 140cm wall-hung double-basin bathroom console featuring dual ceramic washbowls, four soft-close drawers, and matching dual LED mirrors.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1400mm width, 540mm height, 500mm depth",
     "materials": [
       "Structural moisture-resistant carcass core",
@@ -1972,7 +1912,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "St James 120cm Reeded Timber Console",
     "metaTitle": "St James 120cm Reeded Vanity | Fluted Bathroom Units | Cabivella UK",
     "metaDescription": "Tactile 120cm fluted bathroom vanity unit with CNC-milled vertical reeding, quartz stone deck, and twin soft-close storage compartments.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "1200mm width, 520mm height, 490mm depth",
     "materials": [
       "Multi-axis CNC-routed reeded European oak veneer",
@@ -2007,7 +1946,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Kensington 80cm Fluted Basin Console",
     "metaTitle": "Kensington 80cm Fluted Vanity | Compact Luxury Joinery | Cabivella UK",
     "metaDescription": "80cm made-to-measure floating vanity unit with reeded timber detailing, slim ceramic washbasin, and deep double-drawer storage.",
-    "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
     "dimensionsMm": "800mm width, 500mm height, 460mm depth",
     "materials": [
       "Moisture-resistant MR-MDF substrate",
@@ -2041,7 +1979,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Knightsbridge 160cm Grand Double Suite",
     "metaTitle": "Knightsbridge 160cm Master Bathroom Suite | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Grand 160cm double vanity console with bespoke quartz slab, dual undermount ceramic bowls, six soft-close drawers, and matching full-height linen column.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "1600mm vanity width, 550mm height, 520mm depth; 400x1750mm linen tower",
     "materials": [
       "Structural timber composite with water-cured resin bonding",
@@ -2075,7 +2012,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Mayfair 65cm Compact Cloakroom Vanity",
     "metaTitle": "Mayfair 65cm Cloakroom Vanity | Small Space Joinery | Cabivella UK",
     "metaDescription": "Slim 65cm wall-hung cloakroom vanity with ceramic basin, soft-close double drawers, and matching LED backlit mirror for UK powder rooms.",
-    "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
     "dimensionsMm": "650mm width, 480mm height, 420mm slim projection",
     "materials": [
       "High-density moisture-sealed MR core",
@@ -2109,7 +2045,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Westminster 310cm Chef's Linear Kitchen",
     "metaTitle": "Westminster 310cm Chef's Linear Kitchen | Cabivella UK",
     "metaDescription": "Luxury 310cm made-to-measure culinary kitchen layout featuring moisture-resistant MDF fronts, seamless integrated worktop, deep pot drawers, and matching wall units.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "3100mm width, 600mm base carcass depth (350mm wall depth), 2150mm standard installed height",
     "materials": [
       "High-density moisture-resistant MR-MDF core",
@@ -2144,7 +2079,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Kensington 310cm Architectural Culinary Suite",
     "metaTitle": "Kensington 310cm Culinary Suite | Bespoke Kitchens | Cabivella UK",
     "metaDescription": "Grand 310cm made-to-measure kitchen suite featuring precision-milled cabinetry, full-extension dovetail drawers, and integrated prep worktop.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "3100mm width, 600mm worktop depth, 2200mm ceiling-line height",
     "materials": [
       "Moisture-resistant high-density timber composite",
@@ -2179,7 +2113,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Belgravia 310cm Executive Integrated Kitchen",
     "metaTitle": "Belgravia 310cm Executive Kitchen | Luxury Joinery | Cabivella UK",
     "metaDescription": "Sophisticated 310cm bespoke kitchen layout featuring high-specification cabinetry, integrated breakfast preparation zone, and durable work surfaces.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "3100mm width, 600mm base depth (350mm wall depth), 2150mm height",
     "materials": [
       "18mm structural MR-MDF substrate",
@@ -2214,7 +2147,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Mayfair 410cm Monolith High-Gloss Suite",
     "metaTitle": "Mayfair 410cm High-Gloss Kitchen | Architectural Suites | Cabivella UK",
     "metaDescription": "Commanding 410cm x 240cm architectural kitchen suite featuring mirror-finish high-gloss lacquered fronts, dual full-height towers, and expansive central preparation run.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "4100mm width, 2400mm full ceiling height, 600mm depth",
     "materials": [
       "High-gloss mirror acrylic lacquered MDF",
@@ -2248,7 +2180,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Chelsea 410cm Dual-Tone High-Gloss Suite",
     "metaTitle": "Chelsea 410cm Dual-Tone Kitchen | High-Gloss Joinery | Cabivella UK",
     "metaDescription": "Striking 410cm x 240cm contemporary kitchen combining chalk white overhead cabinetry with deep anthracite base towers and seamless work surfaces.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "4100mm width, 2400mm ceiling height, 600mm depth",
     "materials": [
       "Dual-tone high-gloss acrylic MDF panels",
@@ -2282,7 +2213,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Knightsbridge 410cm Tall Larder Kitchen",
     "metaTitle": "Knightsbridge 410cm Larder Kitchen | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Expansive 410cm made-to-measure kitchen suite featuring dedicated walk-in tall larder capacity, integrated appliance banks, and high-gloss lacquer.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "4100mm width, 2400mm height, 600mm depth",
     "materials": [
       "High-gloss lacquered moisture-resistant core",
@@ -2316,7 +2246,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "St James 410cm Integrated Tower Kitchen",
     "metaTitle": "St James 410cm Integrated Kitchen | Luxury Suites | Cabivella UK",
     "metaDescription": "Contemporary 410cm kitchen layout featuring dual appliance towers in contrasting anthracite and white high-gloss finishes.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "4100mm width, 2400mm height, 600mm depth",
     "materials": [
       "Moisture-resistant MR-MDF substrate",
@@ -2350,7 +2279,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Cotswold 400cm Full-Height Architectural Suite",
     "metaTitle": "Cotswold 400cm Full-Height Kitchen | Grand Suites | Cabivella UK",
     "metaDescription": "Magnificent 400cm x 240cm kitchen suite with dual full-height storage towers, integrated appliances, and pristine white high-gloss finish.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "4000mm width, 2400mm ceiling height, 600mm depth",
     "materials": [
       "18mm high-gloss lacquer core",
@@ -2384,7 +2312,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Richmond 400cm Dual Tower Kitchen Run",
     "metaTitle": "Richmond 400cm Dual Tower Kitchen | Luxury Joinery | Cabivella UK",
     "metaDescription": "400cm bespoke kitchen layout featuring dual tall refrigeration and oven columns flanking a central prep workstation in pure white gloss.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "4000mm width, 2400mm height, 600mm depth",
     "materials": [
       "High-density moisture-resistant MR substrate",
@@ -2418,7 +2345,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Hampstead 400cm Contemporary High-Gloss Suite",
     "metaTitle": "Hampstead 400cm Contemporary Suite | Made-to-Measure | Cabivella UK",
     "metaDescription": "Modern 400cm kitchen suite combining white high-gloss overhead cabinets with anthracite base towers and seamless prep surfaces.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "4000mm width, 2400mm height, 600mm depth",
     "materials": [
       "Dual-tone high-gloss acrylic MDF",
@@ -2452,7 +2378,6 @@ export const modelsData: Record<string, ModelDetail> = {
     "title": "Belgravia 240cm Island Olive Shaker Kitchen",
     "metaTitle": "Belgravia 240cm Island Olive Kitchen | Shaker Joinery | Cabivella UK",
     "metaDescription": "Heritage 240cm Shaker kitchen cabinetry in refined island olive green, featuring 80cm sink base, 60cm oven module, and matching wall units.",
-    "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
     "dimensionsMm": "2400mm width, 600mm base depth (340mm wall depth), 2150mm height",
     "materials": [
       "Solid timber Shaker stiles",
@@ -2486,7 +2411,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kensington 100cm Reeded Forest Vanity",
       "metaTitle": "Kensington 100cm Reeded Vanity Unit | Forest Green | Cabivella UK",
       "metaDescription": "1000mm wall-hung vanity in deep botanical green with rhythmic vertical reeding, integrated ceramic basin and mirrored cabinet.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm width, 480mm depth, 520mm height",
       "materials": [
           "High-density MR lacquer panel",
@@ -2519,7 +2443,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belgravia 100cm Gloss Porcelain Console",
       "metaTitle": "Belgravia 100cm Gloss Vanity Console | Minimalist | Cabivella UK",
       "metaDescription": "1000mm pristine high-gloss white bathroom console with continuous J-pull profile and wide-format washbasin.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
       "materials": [
           "Multi-coat gloss lacquer",
@@ -2552,7 +2475,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Mayfair 80cm Architectural Charcoal Vanity",
       "metaTitle": "Mayfair 80cm Charcoal Floating Vanity | Luxury Suite | Cabivella UK",
       "metaDescription": "800mm floating vanity console in architectural matt slate with matching demister mirror and recessed ambient illumination.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "800mm width, 460mm depth, 520mm height",
       "materials": [
           "Anti-fingerprint thermal foil",
@@ -2585,7 +2507,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Cotswold 115cm Integrated Suite with Tall Linen Column",
       "metaTitle": "Cotswold 115cm Bathroom Suite with Tall Column | Cabivella UK",
       "metaDescription": "Complete 800mm vanity console paired with 350mm full-height linen storage tower in duo-tone graphite and chalk.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "800mm vanity + 350mm column (1150mm total width), 450mm depth",
       "materials": [
           "Duo-tone MR engineered timber",
@@ -2618,7 +2539,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chelsea 85cm Cloakroom Vanity in Matt Anthracite",
       "metaTitle": "Chelsea 85cm Vanity Console | Matt Anthracite | Cabivella UK",
       "metaDescription": "850mm proportioned vanity unit designed for distinguished en-suites and cloakrooms with enclosed mirrored storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "850mm width, 450mm depth, 520mm height",
       "materials": [
           "Matt anthracite polyurethane",
@@ -2651,7 +2571,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St James 100cm Modular Triad Suite",
       "metaTitle": "St James 100cm Modular Bathroom Suite | Mirror & Column | Cabivella UK",
       "metaDescription": "Three-piece architectural suite comprising 1000mm base vanity, 350mm vertical linen armoire, and wide mirrored cabinet.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm base + 350mm column, 460mm depth, 1900mm suite height",
       "materials": [
           "Engineered MR composite",
@@ -2684,7 +2603,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Westminster 135cm Grand Duo Suite",
       "metaTitle": "Westminster 135cm Grand Duo Bathroom Suite | Cabivella UK",
       "metaDescription": "Commanding 1000mm basin console with companion 350mm floor-mounted column in pure architectural satin white.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm console + 350mm tower, 460mm depth",
       "materials": [
           "High-tensile moisture resistant substrate",
@@ -2716,7 +2634,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knightsbridge 135cm Noir Architectural Suite",
       "metaTitle": "Knightsbridge 135cm Noir Bathroom Suite | Black Oak & Ceramic | Cabivella UK",
       "metaDescription": "Dramatic 1000mm base vanity with 350mm storage column in deep architectural obsidian black.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm vanity + 350mm tower, 460mm depth",
       "materials": [
           "Textured black timber composite",
@@ -2749,7 +2666,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Marylebone 80cm Lumi\u00e8re LED Demister Vanity",
       "metaTitle": "Marylebone 80cm LED Illuminated Vanity Suite | Cabivella UK",
       "metaDescription": "800mm wall-hung vanity in soft mist grey featuring integrated magnifying LED mirror and companion column.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "800mm vanity + 350mm tower, 460mm depth",
       "materials": [
           "Moisture-sealed MR lacquer",
@@ -2782,7 +2698,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hampstead 100cm Contrast Duo Console",
       "metaTitle": "Hampstead 100cm Architectural Contrast Vanity | Cabivella UK",
       "metaDescription": "1000mm two-tone vanity unit pairing crisp white porcelain with deep graphite framework and linen tower.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm vanity + 350mm tower, 460mm depth",
       "materials": [
           "Duo-tone moisture barrier board",
@@ -2815,7 +2730,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fitzrovia 90cm Noir Master Console & Tower",
       "metaTitle": "Fitzrovia 90cm Noir Vanity Suite | Master Suite Storage | Cabivella UK",
       "metaDescription": "900mm wide vanity console in matt obsidian black with matching wall-mounted storage armoire.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "900mm vanity + 350mm column, 470mm depth",
       "materials": [
           "Deep black textured board",
@@ -2848,7 +2762,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bloomsbury 80cm Minimalist Vanity Unit",
       "metaTitle": "Bloomsbury 80cm Minimalist Bathroom Vanity | Cabivella UK",
       "metaDescription": "800mm floating single-console vanity in architectural matt charcoal with integrated soft-close drawers.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "800mm width, 450mm depth, 480mm height",
       "materials": [
           "Matt architectural lacquer",
@@ -2881,7 +2794,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Richmond 100cm Legnano Warm Oak Vanity",
       "metaTitle": "Richmond 100cm Legnano Timber Vanity Console | Cabivella UK",
       "metaDescription": "1000mm floating vanity console in natural Legnano warm timber grain with dual deep soft-close drawers.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
       "materials": [
           "Embossed Legnano timber foil",
@@ -2914,7 +2826,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Pimlico 100cm Navaro Walnut Console",
       "metaTitle": "Pimlico 100cm Navaro Walnut Vanity Console | Cabivella UK",
       "metaDescription": "1000mm rich Navaro walnut vanity console paired with sleek white ceramic mono-basin.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
       "materials": [
           "Navaro walnut grain laminate",
@@ -2947,7 +2858,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich 100cm Morgana Cherry Vanity Suite",
       "metaTitle": "Greenwich 100cm Morgana Cherry Bathroom Suite | Cabivella UK",
       "metaDescription": "1000mm vanity in rich Morgana cherry grain with coordinating LED illuminated mirror.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm width, 460mm depth, 520mm height",
       "materials": [
           "Morgana cherry grain veneer",
@@ -2980,7 +2890,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chiswick 100cm Artisanal Walnut Vanity Suite",
       "metaTitle": "Chiswick 100cm Artisanal Walnut Bathroom Suite | Cabivella UK",
       "metaDescription": "1000mm artisanal walnut timber grain vanity console with companion mirror cabinet.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1000mm width, 460mm depth, 520mm height",
       "materials": [
           "Artisanal walnut composite",
@@ -3013,7 +2922,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wimbledon 80cm Terracotta Clay Floating Console",
       "metaTitle": "Wimbledon 80cm Terracotta Clay Bathroom Vanity | Cabivella UK",
       "metaDescription": "800mm designer vanity unit in warm earthy terracotta clay with twin soft-close drawer storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "800mm width, 460mm depth, 500mm height",
       "materials": [
           "Terracotta clay matt lacquer",
@@ -3045,7 +2953,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich 65cm Cloakroom Vanity Suite",
       "metaTitle": "Dulwich 65cm Cloakroom Bathroom Suite | Cabivella UK",
       "metaDescription": "650mm compact bathroom console with mirror and ceramic basin tailored for secondary bathrooms.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "650mm width, 400mm depth, 480mm height",
       "materials": [
           "Moisture-resistant white gloss board",
@@ -3077,7 +2984,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Mayfair Barista Armoire 154cm",
       "metaTitle": "Mayfair Barista Armoire 154cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1540mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1540mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3109,7 +3015,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belgravia Grand Beverage Suite 247cm",
       "metaTitle": "Belgravia Grand Beverage Suite 247cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 2470mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2470mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3141,7 +3046,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kensington Larder & Coffee Station 184cm",
       "metaTitle": "Kensington Larder & Coffee Station 184cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1840mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1840mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3173,7 +3077,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Cotswold Dual-Tower Breakfast Pantry 217cm",
       "metaTitle": "Cotswold Dual-Tower Breakfast Pantry 217cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 2170mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2170mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3205,7 +3108,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St James Fluted Glass Coffee Credenza",
       "metaTitle": "St James Fluted Glass Coffee Credenza | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1400mm width, 420mm depth, 1820mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1400mm width, 420mm depth, 1820mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3237,7 +3139,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Richmond Vitrine Barista Niche",
       "metaTitle": "Richmond Vitrine Barista Niche | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3269,7 +3170,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chelsea Illuminated Coffee Armoire",
       "metaTitle": "Chelsea Illuminated Coffee Armoire | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1500mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1500mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3301,7 +3201,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Westminster Fluted Display Larder",
       "metaTitle": "Westminster Fluted Display Larder | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 600mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "600mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3333,7 +3232,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knightsbridge Drawer Stack Coffee Station",
       "metaTitle": "Knightsbridge Drawer Stack Coffee Station | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3365,7 +3263,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Marylebone Tri-Door Coffee Cabinet",
       "metaTitle": "Marylebone Tri-Door Coffee Cabinet | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3397,7 +3294,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hampstead Linear Barista Station 90cm",
       "metaTitle": "Hampstead Linear Barista Station 90cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3429,7 +3325,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fitzrovia Compact Coffee Credenza 90cm",
       "metaTitle": "Fitzrovia Compact Coffee Credenza 90cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3461,7 +3356,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bloomsbury Quad-Door Coffee Pantry 120cm",
       "metaTitle": "Bloomsbury Quad-Door Coffee Pantry 120cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3493,7 +3387,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Pimlico Grand Culinary Station 210cm",
       "metaTitle": "Pimlico Grand Culinary Station 210cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 2100mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2100mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3525,7 +3418,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich Twin-Door Breakfast Cabinet",
       "metaTitle": "Greenwich Twin-Door Breakfast Cabinet | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 800mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "800mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3557,7 +3449,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chiswick Utility Beverage Larder 120cm",
       "metaTitle": "Chiswick Utility Beverage Larder 120cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1200mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1200mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3589,7 +3480,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wimbledon Petite Coffee Niche 90cm",
       "metaTitle": "Wimbledon Petite Coffee Niche 90cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3621,7 +3511,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich Multi-Module Breakfast Pantry",
       "metaTitle": "Dulwich Multi-Module Breakfast Pantry | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1600mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1600mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3653,7 +3542,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Battersea Integrated Larder & Coffee Unit",
       "metaTitle": "Battersea Integrated Larder & Coffee Unit | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1750mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1750mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3685,7 +3573,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Highgate Dual-Section Beverage Credenza 180cm",
       "metaTitle": "Highgate Dual-Section Beverage Credenza 180cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1800mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1800mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3717,7 +3604,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Islington Grand Vitrine Coffee Suite",
       "metaTitle": "Islington Grand Vitrine Coffee Suite | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1900mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1900mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3749,7 +3635,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Putney Ambient Beverage Armoire",
       "metaTitle": "Putney Ambient Beverage Armoire | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1300mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1300mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3781,7 +3666,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Barnes Radiator Cover Coffee Console 130cm",
       "metaTitle": "Barnes Radiator Cover Coffee Console 130cm | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1300mm width, 220mm depth, 850mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1300mm width, 220mm depth, 850mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3813,7 +3697,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Clapham Triple-Door Morning Station",
       "metaTitle": "Clapham Triple-Door Morning Station | Luxury Coffee Stations | Cabivella UK",
       "metaDescription": "Bespoke 1400mm width, 400mm depth, 1800mm height architectural beverage cabinetry featuring integrated LED task illumination, appliance prep surface, and concealed storage.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1400mm width, 400mm depth, 1800mm height",
       "materials": [
           "Melamine-faced moisture resistant timber core",
@@ -3845,7 +3728,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kensington 4-Door Fitted Wardrobe",
       "metaTitle": "Kensington 4-Door Fitted Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 1800mm width, 600mm depth, 2200mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1800mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -3880,7 +3762,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belgravia 5-Door Architectural Robe",
       "metaTitle": "Belgravia 5-Door Architectural Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -3915,7 +3796,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Mayfair 6-Door Master Dressing Suite",
       "metaTitle": "Mayfair 6-Door Master Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -3950,7 +3830,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Cotswold 6-Door Mirrored Armoire",
       "metaTitle": "Cotswold 6-Door Mirrored Armoire | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -3985,7 +3864,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chelsea 5-Door Contemporary Robe",
       "metaTitle": "Chelsea 5-Door Contemporary Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4020,7 +3898,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St James 6-Door Linear Wardrobe",
       "metaTitle": "St James 6-Door Linear Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2600mm width, 580mm depth, 2180mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2600mm width, 580mm depth, 2180mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4055,7 +3932,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Richmond 5-Door Classic Wardrobe",
       "metaTitle": "Richmond 5-Door Classic Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2150mm width, 580mm depth, 2180mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2150mm width, 580mm depth, 2180mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4090,7 +3966,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Westminster 4-Door Compact Robe",
       "metaTitle": "Westminster 4-Door Compact Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 1750mm width, 580mm depth, 2180mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1750mm width, 580mm depth, 2180mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4125,7 +4000,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knightsbridge 5-Door Fluted Wardrobe",
       "metaTitle": "Knightsbridge 5-Door Fluted Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2200mm width, 590mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2200mm width, 590mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4160,7 +4034,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Marylebone 6-Door Fluted Master Robe",
       "metaTitle": "Marylebone 6-Door Fluted Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2650mm width, 590mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2650mm width, 590mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4195,7 +4068,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hampstead 5-Door Artisan Wardrobe",
       "metaTitle": "Hampstead 5-Door Artisan Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4230,7 +4102,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fitzrovia 6-Door Artisan Wardrobe",
       "metaTitle": "Fitzrovia 6-Door Artisan Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4265,7 +4136,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bloomsbury 5-Door Porcelain Armoire",
       "metaTitle": "Bloomsbury 5-Door Porcelain Armoire | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2200mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2200mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4300,7 +4170,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Pimlico 6-Door Porcelain Master Robe",
       "metaTitle": "Pimlico 6-Door Porcelain Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2650mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2650mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4335,7 +4204,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich 6-Door Minimalist Robe",
       "metaTitle": "Greenwich 6-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2600mm width, 580mm depth, 2150mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2600mm width, 580mm depth, 2150mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4370,7 +4238,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chiswick 5-Door Minimalist Robe",
       "metaTitle": "Chiswick 5-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2150mm width, 580mm depth, 2150mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2150mm width, 580mm depth, 2150mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4405,7 +4272,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wimbledon 4-Door Minimalist Robe",
       "metaTitle": "Wimbledon 4-Door Minimalist Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 1720mm width, 580mm depth, 2150mm height fitted wardrobe featuring 4 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "1720mm width, 580mm depth, 2150mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4440,7 +4306,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich 6-Door Boheme Dressing Suite",
       "metaTitle": "Dulwich 6-Door Boheme Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2220mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2700mm width, 600mm depth, 2220mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4475,7 +4340,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Battersea 5-Door Boheme Dressing Suite",
       "metaTitle": "Battersea 5-Door Boheme Dressing Suite | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2220mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2250mm width, 600mm depth, 2220mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4510,7 +4374,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Highgate 6-Door Grand Acoustic Robe",
       "metaTitle": "Highgate 6-Door Grand Acoustic Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 620mm depth, 2250mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2700mm width, 620mm depth, 2250mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4545,7 +4408,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Islington 5-Door Grand Acoustic Robe",
       "metaTitle": "Islington 5-Door Grand Acoustic Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 620mm depth, 2250mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2250mm width, 620mm depth, 2250mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4580,7 +4442,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Putney Full-Length Sliding Wardrobe",
       "metaTitle": "Putney Full-Length Sliding Wardrobe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2400mm width, 680mm depth, 2220mm height fitted wardrobe featuring Sliding doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2400mm width, 680mm depth, 2220mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4613,7 +4474,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Barnes 6-Door Integrated Master Robe",
       "metaTitle": "Barnes 6-Door Integrated Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2700mm width, 600mm depth, 2200mm height fitted wardrobe featuring 6 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2700mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4647,7 +4507,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Clapham 5-Door Integrated Master Robe",
       "metaTitle": "Clapham 5-Door Integrated Master Robe | Made-to-Measure Fitted Wardrobes | Cabivella UK",
       "metaDescription": "Bespoke 2250mm width, 600mm depth, 2200mm height fitted wardrobe featuring 5 doors, integrated soft-close runners, interior drawer chests, and LED hanger rails.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "2250mm width, 600mm depth, 2200mm height",
       "materials": [
           "Heavy-duty moisture-resistant engineered timber carcass",
@@ -4680,7 +4539,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Mayfair 310cm Executive Culinary Suite",
       "metaTitle": "Mayfair 310cm Executive Culinary Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4714,7 +4572,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belgravia 310cm Chef Monolith Kitchen",
       "metaTitle": "Belgravia 310cm Chef Monolith Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4748,7 +4605,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kensington 310cm Linear Artisan Kitchen",
       "metaTitle": "Kensington 310cm Linear Artisan Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3100mm span, 600mm base depth, 900mm counter height luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "3100mm span, 600mm base depth, 900mm counter height",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4782,7 +4638,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Cotswold 410x240cm High-Gloss Corner Suite",
       "metaTitle": "Cotswold 410x240cm High-Gloss Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4816,7 +4671,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Richmond 410x240cm Charcoal High-Gloss Kitchen",
       "metaTitle": "Richmond 410x240cm Charcoal High-Gloss Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4850,7 +4704,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Westminster 410x240cm Alabaster Corner Suite",
       "metaTitle": "Westminster 410x240cm Alabaster Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4884,7 +4737,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knightsbridge 410x240cm Slate Corner Suite",
       "metaTitle": "Knightsbridge 410x240cm Slate Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4918,7 +4770,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chelsea 400x240cm Master Corner Kitchen",
       "metaTitle": "Chelsea 400x240cm Master Corner Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4952,7 +4803,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St James 400x240cm Architectural Corner Kitchen",
       "metaTitle": "St James 400x240cm Architectural Corner Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -4986,7 +4836,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Marylebone 400x240cm Dual-Tone Corner Suite",
       "metaTitle": "Marylebone 400x240cm Dual-Tone Corner Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5020,7 +4869,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hampstead 400x240cm Tower Pantry Kitchen",
       "metaTitle": "Hampstead 400x240cm Tower Pantry Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5054,7 +4902,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fitzrovia 400x240cm Linear Tower Suite",
       "metaTitle": "Fitzrovia 400x240cm Linear Tower Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5088,7 +4935,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bloomsbury 400x240cm Deep Drawer Kitchen",
       "metaTitle": "Bloomsbury 400x240cm Deep Drawer Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5122,7 +4968,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Pimlico 400x240cm Anthracite Accent Kitchen",
       "metaTitle": "Pimlico 400x240cm Anthracite Accent Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5156,7 +5001,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich 410x240cm Tall Appliance Suite",
       "metaTitle": "Greenwich 410x240cm Tall Appliance Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5190,7 +5034,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chiswick 400x240cm Ergonomic L-Kitchen",
       "metaTitle": "Chiswick 400x240cm Ergonomic L-Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5224,7 +5067,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wimbledon 400x240cm Pure White Gloss Kitchen",
       "metaTitle": "Wimbledon 400x240cm Pure White Gloss Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5258,7 +5100,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich 400x240cm Seamless J-Pull Kitchen",
       "metaTitle": "Dulwich 400x240cm Seamless J-Pull Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5292,7 +5133,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Battersea 395x240cm Urban Compact Corner",
       "metaTitle": "Battersea 395x240cm Urban Compact Corner | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 3950mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "3950mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5326,7 +5166,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Highgate 400x240cm Double Tower Kitchen",
       "metaTitle": "Highgate 400x240cm Double Tower Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5360,7 +5199,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Islington 400x240cm Fluted Accent Suite",
       "metaTitle": "Islington 400x240cm Fluted Accent Suite | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5394,7 +5232,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Putney 400x240cm Modernist Handleless Kitchen",
       "metaTitle": "Putney 400x240cm Modernist Handleless Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5428,7 +5265,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Barnes 410x240cm Grand Horizon Kitchen",
       "metaTitle": "Barnes 410x240cm Grand Horizon Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4100mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4100mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5462,7 +5298,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Clapham 400x240cm Minimalist Pantry Kitchen",
       "metaTitle": "Clapham 400x240cm Minimalist Pantry Kitchen | Luxury Bespoke Kitchens | Cabivella UK",
       "metaDescription": "Made-to-measure 4000mm x 2400mm L-shaped run, 600mm base depth luxury British kitchen featuring integrated tall larder towers, high-gloss lacquered fascias, and soft-closing drawer runners.",
-      "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
       "dimensionsMm": "4000mm x 2400mm L-shaped run, 600mm base depth",
       "materials": [
           "High-density moisture-resistant MDF carcass",
@@ -5497,7 +5332,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Mayfair 4-Door Integrated Wardrobe",
       "metaTitle": "Mayfair 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5532,7 +5366,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belgravia 5-Door Integrated Wardrobe",
       "metaTitle": "Belgravia 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5567,7 +5400,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kensington 6-Door Integrated Wardrobe",
       "metaTitle": "Kensington 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5602,7 +5434,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chelsea 6-Door Integrated Wardrobe",
       "metaTitle": "Chelsea 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5637,7 +5468,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knightsbridge 5-Door Integrated Wardrobe",
       "metaTitle": "Knightsbridge 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5672,7 +5502,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Westminster 6-Door Integrated Wardrobe",
       "metaTitle": "Westminster 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5707,7 +5536,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Marylebone 5-Door Integrated Wardrobe",
       "metaTitle": "Marylebone 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5742,7 +5570,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fitzrovia 4-Door Integrated Wardrobe",
       "metaTitle": "Fitzrovia 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5777,7 +5604,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bloomsbury 5-Door Integrated Wardrobe",
       "metaTitle": "Bloomsbury 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5812,7 +5638,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hampstead 6-Door Integrated Wardrobe",
       "metaTitle": "Hampstead 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5847,7 +5672,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Highgate 5-Door Integrated Wardrobe",
       "metaTitle": "Highgate 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5882,7 +5706,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Islington 6-Door Integrated Wardrobe",
       "metaTitle": "Islington 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5917,7 +5740,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Richmond 5-Door Integrated Wardrobe",
       "metaTitle": "Richmond 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5952,7 +5774,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chiswick 6-Door Integrated Wardrobe",
       "metaTitle": "Chiswick 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -5987,7 +5808,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wimbledon 6-Door Integrated Wardrobe",
       "metaTitle": "Wimbledon 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6022,7 +5842,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Barnes 5-Door Integrated Wardrobe",
       "metaTitle": "Barnes 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6057,7 +5876,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Putney 4-Door Integrated Wardrobe",
       "metaTitle": "Putney 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6092,7 +5910,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Battersea 6-Door Integrated Wardrobe",
       "metaTitle": "Battersea 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6127,7 +5944,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Clapham 5-Door Integrated Wardrobe",
       "metaTitle": "Clapham 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6162,7 +5978,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich 6-Door Integrated Wardrobe",
       "metaTitle": "Dulwich 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6197,7 +6012,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich 5-Door Integrated Wardrobe",
       "metaTitle": "Greenwich 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6232,7 +6046,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Pimlico Architectural Integrated Wardrobe",
       "metaTitle": "Pimlico Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6265,7 +6078,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St James 6-Door Integrated Wardrobe",
       "metaTitle": "St James 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6299,7 +6111,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Cotswold 5-Door Integrated Wardrobe",
       "metaTitle": "Cotswold 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6332,7 +6143,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Holborn Architectural Integrated Wardrobe",
       "metaTitle": "Holborn Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6366,7 +6176,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Soho 5-Door Integrated Wardrobe",
       "metaTitle": "Soho 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6400,7 +6209,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Primrose 6-Door Integrated Wardrobe",
       "metaTitle": "Primrose 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6433,7 +6241,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belsize 6-Door Integrated Wardrobe",
       "metaTitle": "Belsize 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6467,7 +6274,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Holland Park 5-Door Integrated Wardrobe",
       "metaTitle": "Holland Park 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6501,7 +6307,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Notting Hill 5-Door Integrated Wardrobe",
       "metaTitle": "Notting Hill 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6535,7 +6340,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Paddington 6-Door Integrated Wardrobe",
       "metaTitle": "Paddington 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6570,7 +6374,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bayswater 5-Door Integrated Wardrobe",
       "metaTitle": "Bayswater 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6605,7 +6408,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Regent Architectural Integrated Wardrobe",
       "metaTitle": "Regent Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6640,7 +6442,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Piccadilly 6-Door Integrated Wardrobe",
       "metaTitle": "Piccadilly 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6674,7 +6475,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Strand 5-Door Integrated Wardrobe",
       "metaTitle": "Strand 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6707,7 +6507,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Aldwych Architectural Integrated Wardrobe",
       "metaTitle": "Aldwych Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6740,7 +6539,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Temple 6-Door Integrated Wardrobe",
       "metaTitle": "Temple 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6774,7 +6572,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Clerkenwell 6-Door Integrated Wardrobe",
       "metaTitle": "Clerkenwell 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6807,7 +6604,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Shoreditch 5-Door Integrated Wardrobe",
       "metaTitle": "Shoreditch 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6840,7 +6636,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Spitalfields 5-Door Integrated Wardrobe",
       "metaTitle": "Spitalfields 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6874,7 +6669,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wapping Architectural Integrated Wardrobe",
       "metaTitle": "Wapping Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6908,7 +6702,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Canary 4-Door Integrated Wardrobe",
       "metaTitle": "Canary 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6943,7 +6736,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Blackheath 4-Door Integrated Wardrobe",
       "metaTitle": "Blackheath 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -6977,7 +6769,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wandsworth 4-Door Integrated Wardrobe",
       "metaTitle": "Wandsworth 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7010,7 +6801,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fulham 4-Door Integrated Wardrobe",
       "metaTitle": "Fulham 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7044,7 +6834,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kew 4-Door Integrated Wardrobe",
       "metaTitle": "Kew 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7078,7 +6867,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Twickenham 5-Door Integrated Wardrobe",
       "metaTitle": "Twickenham 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7113,7 +6901,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Ealing 5-Door Integrated Wardrobe",
       "metaTitle": "Ealing 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7147,7 +6934,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Harrow 5-Door Integrated Wardrobe",
       "metaTitle": "Harrow 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7182,7 +6968,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich Village 5-Door Integrated Wardrobe",
       "metaTitle": "Dulwich Village 5-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 5-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (5-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7217,7 +7002,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kingston 6-Door Integrated Wardrobe",
       "metaTitle": "Kingston 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7252,7 +7036,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Green Park 6-Door Integrated Wardrobe",
       "metaTitle": "Green Park 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7286,7 +7069,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Victoria 6-Door Integrated Wardrobe",
       "metaTitle": "Victoria 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7321,7 +7103,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knights 6-Door Integrated Wardrobe",
       "metaTitle": "Knights 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7355,7 +7136,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hyde Park 6-Door Integrated Wardrobe",
       "metaTitle": "Hyde Park 6-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7390,7 +7170,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Borough Architectural Integrated Wardrobe",
       "metaTitle": "Borough Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7425,7 +7204,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich Park Architectural Integrated Wardrobe",
       "metaTitle": "Greenwich Park Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7460,7 +7238,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St Pancras 4-Door Integrated Wardrobe",
       "metaTitle": "St Pancras 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7495,7 +7272,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Covent Garden Architectural Integrated Wardrobe",
       "metaTitle": "Covent Garden Architectural Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke architectural fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (Architectural), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7530,7 +7306,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Southwark 4-Door Integrated Wardrobe",
       "metaTitle": "Southwark 4-Door Integrated Wardrobe | Cabivella UK",
       "metaDescription": "Bespoke 4-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
       "dimensionsMm": "Bespoke width (4-Door), 600mm carcass depth, made-to-measure ceiling height",
       "materials": [
           "High-density moisture-resistant MR-MDF core",
@@ -7564,7 +7339,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Mayfair 154cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Mayfair 154cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 154cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "154cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7595,7 +7369,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belgravia 247cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Belgravia 247cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 247cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "247cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7626,7 +7399,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kensington 184cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Kensington 184cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 184cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "184cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7657,7 +7429,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chelsea 217cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Chelsea 217cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 217cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "217cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7688,7 +7459,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knightsbridge 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Knightsbridge 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7719,7 +7489,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Westminster 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Westminster 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7750,7 +7519,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Marylebone 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Marylebone 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7781,7 +7549,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fitzrovia 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Fitzrovia 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7812,7 +7579,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bloomsbury 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Bloomsbury 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7843,7 +7609,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hampstead 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Hampstead 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7874,7 +7639,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Highgate 90cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Highgate 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7905,7 +7669,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Islington 90cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Islington 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7936,7 +7699,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Richmond 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Richmond 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7967,7 +7729,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Chiswick 210cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Chiswick 210cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 210cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "210cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -7998,7 +7759,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wimbledon 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Wimbledon 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8029,7 +7789,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Barnes 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Barnes 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8060,7 +7819,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Putney 90cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Putney 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8091,7 +7849,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Battersea 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Battersea 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8122,7 +7879,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Clapham 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Clapham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8153,7 +7909,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich 180cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Dulwich 180cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8184,7 +7939,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Greenwich 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8215,7 +7969,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Pimlico 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Pimlico 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8246,7 +7999,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St James 130cm Bespoke Coffee Station Cabinet",
       "metaTitle": "St James 130cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8277,7 +8029,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Cotswold 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Cotswold 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8308,7 +8059,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Holborn 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Holborn 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8339,7 +8089,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Soho 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Soho 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8370,7 +8119,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Primrose 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Primrose 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8401,7 +8149,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Belsize 90cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Belsize 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8432,7 +8179,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Holland Park 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Holland Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8463,7 +8209,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Notting Hill 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Notting Hill 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8494,7 +8239,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Paddington 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Paddington 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8525,7 +8269,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bayswater 180cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Bayswater 180cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8556,7 +8299,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Regent 90cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Regent 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8587,7 +8329,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Piccadilly 60cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Piccadilly 60cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 60cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "60cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8618,7 +8359,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Strand 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Strand 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8649,7 +8389,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Aldwych 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Aldwych 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8680,7 +8419,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Temple 110cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Temple 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8711,7 +8449,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Clerkenwell 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Clerkenwell 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8742,7 +8479,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Shoreditch 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Shoreditch 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8773,7 +8509,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Spitalfields 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Spitalfields 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8804,7 +8539,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wapping 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Wapping 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8835,7 +8569,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Canary 130cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Canary 130cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8866,7 +8599,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Blackheath 110cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Blackheath 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8897,7 +8629,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wandsworth 110cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Wandsworth 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8928,7 +8659,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Fulham 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Fulham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8959,7 +8689,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kew 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Kew 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -8990,7 +8719,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Twickenham 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Twickenham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9021,7 +8749,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Ealing 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Ealing 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9052,7 +8779,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Harrow 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Harrow 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9083,7 +8809,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Dulwich Village 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Dulwich Village 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9114,7 +8839,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kingston 45cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Kingston 45cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 45cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "45cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9145,7 +8869,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Green Park 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Green Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9176,7 +8899,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Victoria 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Victoria 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9207,7 +8929,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Knights 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Knights 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9238,7 +8959,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Hyde Park 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Hyde Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9269,7 +8989,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Borough 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Borough 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9300,7 +9019,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Greenwich Park 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Greenwich Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9331,7 +9049,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "St Pancras 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "St Pancras 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9362,7 +9079,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Covent Garden 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Covent Garden 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9393,7 +9109,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Southwark 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Southwark 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9424,7 +9139,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "West End 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "West End 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9455,7 +9169,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Canary Wharf 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Canary Wharf 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9486,7 +9199,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Vauxhall 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Vauxhall 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9517,7 +9229,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Lambeth 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Lambeth 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9548,7 +9259,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Bermondsey 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Bermondsey 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9579,7 +9289,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Kennington 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Kennington 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9610,7 +9319,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Peckham 190cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Peckham 190cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 190cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "190cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9641,7 +9349,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Camberwell 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Camberwell 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9672,7 +9379,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Brixton 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Brixton 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9703,7 +9409,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Streatham 160cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Streatham 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9734,7 +9439,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Balham 195cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Balham 195cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 195cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "195cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9765,7 +9469,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Tooting 125cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Tooting 125cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9796,7 +9499,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Wimbledon Village 160cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Wimbledon Village 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9827,7 +9529,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Putney Heath 120cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Putney Heath 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9858,7 +9559,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Barnes Common 125cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Barnes Common 125cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
@@ -9889,7 +9589,6 @@ export const modelsData: Record<string, ModelDetail> = {
       "title": "Roehampton 160cm Bespoke Coffee Station Cabinet",
       "metaTitle": "Roehampton 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
       "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
       "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
       "materials": [
           "European Oak and Moisture-Resistant Core",
