@@ -409,11 +409,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Deep Aegean Blue"
     ],
     "installationScope": "Supplied with certified heavy-duty steel hanging plates and 3D alignment adjustments.",
-    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5002579014_1.webp",
     "gallery": [
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/models/fluted-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5002579014_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5002579014_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5002579014_3.webp"
+],
     "description": "Elevate bathroom acoustics and floor visibility. Floating vanity units engineered to withstand high-humidity British bathroom environments.",
     "keyFeatures": [
       "Tested for structural rigidity under 150kg downward point loads",
@@ -421,7 +422,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Soft-close full extension drawer runners with dampening buffers",
       "Optional integrated warm-white under-vanity ambient LED lighting"
     ],
-    "referencePriceTl": "22.500 TL"
+    "referencePriceTl": "29.990 TL"
   },
   "fluted-vanities": {
     "slug": "fluted-vanities",
@@ -443,11 +444,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Soft Clay"
     ],
     "installationScope": "Factory assembled, pre-drilled for basin waste and tap positions.",
-    "image": "/assets/img/models/fluted-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5002572184_1.webp",
     "gallery": [
-      "/assets/img/models/fluted-vanities.webp",
-      "/assets/img/models/wall-hung-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5002572184_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5002572184_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5002572184_3.webp"
+],
     "description": "Architectural reeded surfaces that introduce depth, texture, and acoustic dampening to tiled luxury bathroom environments.",
     "keyFeatures": [
       "Precision 12mm fluted timber profile carved on multi-axis CNC routers",
@@ -455,7 +457,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Seamless push-to-open drawer mechanisms preserving pure fluted facades",
       "Coordinated open towel niche and drawer storage configurations"
     ],
-    "referencePriceTl": "27.800 TL"
+    "referencePriceTl": "27.999 TL"
   },
   "tall-bathroom-storage": {
     "slug": "tall-bathroom-storage",
@@ -477,11 +479,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Dark Graphite"
     ],
     "installationScope": "Supplied rigid with heavy-duty wall anchor brackets for secure installation.",
-    "image": "/assets/img/models/tall-bathroom-storage.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5002572000_1.webp",
     "gallery": [
-      "/assets/img/models/tall-bathroom-storage.webp",
-      "/assets/img/models/wall-hung-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5002572000_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5002572000_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5002572000_3.webp"
+],
     "description": "Maximise vertical room geometry. Slim-footprint storage towers tailored for compact en-suites and grand master bathrooms alike.",
     "keyFeatures": [
       "Reversible door orientation (left or right swing) with soft-close cushioning",
@@ -489,7 +492,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Toughened 8mm clear safety glass shelves with anti-tip locking pins",
       "Internal 240V shaver socket and toothbrush charging conduit integration"
     ],
-    "referencePriceTl": "18.600 TL"
+    "referencePriceTl": "54.499 TL"
   },
   "malta-vanity-console": {
     "slug": "malta-vanity-console",
@@ -510,11 +513,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Pure Cashmere"
     ],
     "installationScope": "Heavy-duty wall anchors included.",
-    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5002001118_1.webp",
     "gallery": [
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/models/slim-mirror-storage-cabinets.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5002001118_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5002001118_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5002001118_3.webp"
+],
     "description": "A refined 100cm floating bathroom console designed for sophisticated en-suites. Dual deep drawers provide ample storage for beauty apparatus and linens.",
     "keyFeatures": [
       "Precision 1000mm single-basin footprint optimised for modern master en-suites",
@@ -522,7 +526,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Hydro-phobic multi-layer coating impenetrable to shower steam",
       "Compatible with luxury undermount or vessel stone washbasins"
     ],
-    "referencePriceTl": "25.400 TL"
+    "referencePriceTl": "25.619 TL"
   },
   "design-monolith-vanity": {
     "slug": "design-monolith-vanity",
@@ -544,11 +548,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Charcoal"
     ],
     "installationScope": "Pre-assembled dual-carcass delivery.",
-    "image": "/assets/img/models/double-basin-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5002579024_1.webp",
     "gallery": [
-      "/assets/img/models/double-basin-vanities.webp",
-      "/assets/img/models/wall-hung-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5002579024_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5002579024_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5002579024_3.webp"
+],
     "description": "Monolithic lines with mitred 45-degree edge detailing create a floating sculpture in expansive family and master bathrooms.",
     "keyFeatures": [
       "Continuous mitred outer carcass wrapping seamlessly around drawer faces",
@@ -556,7 +561,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Tested to withstand high dynamic loads with certified wall hanging fixings",
       "Internal water-repellent walnut melamine lining"
     ],
-    "referencePriceTl": "39.200 TL"
+    "referencePriceTl": "27.399 TL"
   },
   "aydos-compact-vanity": {
     "slug": "aydos-compact-vanity",
@@ -577,11 +582,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Sage Dust"
     ],
     "installationScope": "Compact delivery for tight staircase and hallway access.",
-    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5001103682_1.webp",
     "gallery": [
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/models/fluted-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5001103682_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5001103682_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5001103682_3.webp"
+],
     "description": "Engineered specifically for British cloakrooms and downstairs WCs. Slim 380mm depth ensures unobstructed passage while concealing toiletries.",
     "keyFeatures": [
       "Ultra-slim 380mm projection maximising door clearance in tight cloakrooms",
@@ -589,7 +595,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Integrated side towel rail bracket option in brushed nickel or brass",
       "Factory-tested waterproof edge-sealing technology"
     ],
-    "referencePriceTl": "14.800 TL"
+    "referencePriceTl": "24.795 TL"
   },
   "root-groove-vanity": {
     "slug": "root-groove-vanity",
@@ -611,11 +617,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Basalt"
     ],
     "installationScope": "Factory assembled, pre-cut for standard UK plumbing traps.",
-    "image": "/assets/img/models/fluted-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5000668234_1.webp",
     "gallery": [
-      "/assets/img/models/fluted-vanities.webp",
-      "/assets/img/models/wall-hung-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5000668234_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5000668234_2.webp"
+],
     "description": "Rhythmic vertical grooves carved into organic timber veneers soften ceramic and porcelain bathroom walls with tactile architectural warmth.",
     "keyFeatures": [
       "Distinctive vertical grooved facade milled with 8mm spacing",
@@ -623,7 +629,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Marine-grade hydrophobic protective finish",
       "Generous bottom drawer designed for tall shampoo and lotion bottles"
     ],
-    "referencePriceTl": "28.900 TL"
+    "referencePriceTl": "29.829 TL"
   },
   "beat-ribbed-vanity": {
     "slug": "beat-ribbed-vanity",
@@ -645,11 +651,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Earthy Terracotta"
     ],
     "installationScope": "Supplied rigid with timber wall-mounting cleat.",
-    "image": "/assets/img/models/fluted-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5000580839_1.webp",
     "gallery": [
-      "/assets/img/models/fluted-vanities.webp",
-      "/assets/img/models/double-basin-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5000580839_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5000580839_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5000580839_3.webp"
+],
     "description": "Daring geometric ribs create dramatic play of light and shadow, delivering a boutique hotel aesthetic into private British residences.",
     "keyFeatures": [
       "Deep-cut 15mm ribs offering tactile and visual drama",
@@ -657,7 +664,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Full extension synchronous drawer mechanisms with 35kg load rating",
       "Fully sealed sink trap cutouts with protective PVC edging"
     ],
-    "referencePriceTl": "29.500 TL"
+    "referencePriceTl": "28.759 TL"
   },
   "daisy-reeded-console": {
     "slug": "daisy-reeded-console",
@@ -678,11 +685,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Satin Ivory"
     ],
     "installationScope": "Supplied with bespoke wall anchors and silicone sealing profiles.",
-    "image": "/assets/img/models/fluted-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5000478362_1.webp",
     "gallery": [
-      "/assets/img/models/fluted-vanities.webp",
-      "/assets/img/models/wall-hung-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5000478362_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5000478362_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5000478362_3.webp"
+],
     "description": "Curved radius corners and fine vertical reeding combine to soften rectangular bathroom spaces, providing ergonomic safety and visual elegance.",
     "keyFeatures": [
       "Gentle 50mm radius curved corner transitions preventing sharp hip knocks",
@@ -690,7 +698,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Premium soft-close internal drawers with removable anti-slip mats",
       "Integrated cutouts for tapware and countertop washbowls"
     ],
-    "referencePriceTl": "31.200 TL"
+    "referencePriceTl": "37.730 TL"
   },
   "root-groove-tall-unit": {
     "slug": "root-groove-tall-unit",
@@ -712,11 +720,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Parchment"
     ],
     "installationScope": "Includes heavy-duty anti-tip wall brackets.",
-    "image": "/assets/img/models/tall-bathroom-storage.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5000465933_1.webp",
     "gallery": [
-      "/assets/img/models/tall-bathroom-storage.webp",
-      "/assets/img/models/fluted-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5000465933_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5000465933_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5000465933_3.webp"
+],
     "description": "The perfect vertical accompaniment to fluted vanities. Conceals spare towels, skincare collections, and household essentials in an elegant tall silhouette.",
     "keyFeatures": [
       "Full-height 1750mm storage column with 5 internal compartments",
@@ -724,7 +733,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Matching fluted facade ensuring complete room collection continuity",
       "Adjustable 8mm safety glass shelves with edge-polished bevels"
     ],
-    "referencePriceTl": "19.400 TL"
+    "referencePriceTl": "29.837,50 TL"
   },
   "integra-square-tower": {
     "slug": "integra-square-tower",
@@ -746,11 +755,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Taupe"
     ],
     "installationScope": "Factory pre-assembled with multi-point wall securing fittings.",
-    "image": "/assets/img/models/tall-bathroom-storage.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5000252445_1.webp",
     "gallery": [
-      "/assets/img/models/tall-bathroom-storage.webp",
-      "/assets/img/models/wall-hung-vanities.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5000252445_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5000252445_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5000252445_3.webp"
+],
     "description": "Equipped with an open central timber niche for perfume and rolled guest towels, flanked by closed cupboards top and bottom.",
     "keyFeatures": [
       "Open central display niche illuminated with warm micro-spot LED",
@@ -758,7 +768,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "Lower laundry drop chute or basket integration option",
       "Sealed against 100% relative humidity conditions"
     ],
-    "referencePriceTl": "17.900 TL"
+    "referencePriceTl": "30.077,63 TL"
   },
   "tall-larder-cupboards": {
     "slug": "tall-larder-cupboards",
@@ -1922,7 +1932,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Chelsea 100cm Vanity Suite | Luxury Bathrooms | Cabivella UK",
     "metaDescription": "Refined 100cm floating bathroom vanity suite with vitreous china basin, touchless LED demister mirror cabinet, and coordinating tall linen tower.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "26.850 TL",
+    "referencePriceTl": "22.999 TL",
     "dimensionsMm": "1000mm vanity width, 520mm height, 480mm depth; optional 350x1600mm linen tower",
     "materials": [
       "Marine-grade moisture-sealed core substrate",
@@ -1937,12 +1947,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Deep Oxford Navy"
     ],
     "installationScope": "Factory pre-assembled with certified heavy-duty wall anchor plates and waste trap clearance cutouts.",
-    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_1000744405_1.webp",
     "gallery": [
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/models/slim-mirror-storage-cabinets.webp",
-      "/assets/img/models/tall-bathroom-storage.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_1000744405_1.webp",
+      "/assets/img/models/real_bathrooms/bath_1000744405_2.webp"
+],
     "description": "An impeccably balanced 100cm floating bathroom suite engineered for UK family bathrooms and boutique en-suites. Features twin soft-close drawers beneath an architectural washbasin deck, paired with an illuminated anti-condensation LED mirror cabinet.",
     "keyFeatures": [
       "1000mm single-basin console with contoured U-shaped waste cutout preserving drawer depth",
@@ -1958,7 +1967,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Belgravia 140cm Double Vanity | Master Suite Joinery | Cabivella UK",
     "metaDescription": "Commanding 140cm wall-hung double-basin bathroom console featuring dual ceramic washbowls, four soft-close drawers, and matching dual LED mirrors.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "48.600 TL",
+    "referencePriceTl": "28.682,50 TL",
     "dimensionsMm": "1400mm width, 540mm height, 500mm depth",
     "materials": [
       "Structural moisture-resistant carcass core",
@@ -1973,12 +1982,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Porcelain Chalk"
     ],
     "installationScope": "Supplied rigid in heavy wooden crating with dual-point suspension brackets and levelling bolts.",
-    "image": "/assets/img/models/double-basin-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5000076563_1.webp",
     "gallery": [
-      "/assets/img/models/double-basin-vanities.webp",
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/bathroom-inspiration.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5000076563_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5000076563_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5000076563_3.webp"
+],
     "description": "The quintessential master en-suite centerpiece. 140cm of uninterrupted architectural joinery offering dual independent wash stations and four deep organising drawers for shared morning rituals without friction.",
     "keyFeatures": [
       "Generous 1400mm dual-basin configuration with independent plumbing service ducts",
@@ -1994,7 +2003,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "St James 120cm Reeded Vanity | Fluted Bathroom Units | Cabivella UK",
     "metaDescription": "Tactile 120cm fluted bathroom vanity unit with CNC-milled vertical reeding, quartz stone deck, and twin soft-close storage compartments.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "34.750 TL",
+    "referencePriceTl": "27.399 TL",
     "dimensionsMm": "1200mm width, 520mm height, 490mm depth",
     "materials": [
       "Multi-axis CNC-routed reeded European oak veneer",
@@ -2009,12 +2018,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Basalt Wave"
     ],
     "installationScope": "Factory pre-assembled with pre-machined cutouts for undermount or vessel washbasin integration.",
-    "image": "/assets/img/models/fluted-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5002579017_1.webp",
     "gallery": [
-      "/assets/img/models/fluted-vanities.webp",
-      "/assets/img/models/double-basin-vanities.webp",
-      "/assets/img/models/tall-bathroom-storage.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5002579017_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5002579017_2.webp",
+      "/assets/img/models/real_bathrooms/bath_5002579017_3.webp"
+],
     "description": "Architectural fluted geometry that introduces organic warmth and tactile depth to tiled bathroom spaces. Precision-milled vertical ridges conceal a seamless push-to-open drawer system of expansive capacity.",
     "keyFeatures": [
       "Continuous 12mm reeded profile wrapping cleanly across drawer elevations",
@@ -2030,7 +2039,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Kensington 80cm Fluted Vanity | Compact Luxury Joinery | Cabivella UK",
     "metaDescription": "80cm made-to-measure floating vanity unit with reeded timber detailing, slim ceramic washbasin, and deep double-drawer storage.",
     "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
-    "referencePriceTl": "21.500 TL",
+    "referencePriceTl": "38.999 TL",
     "dimensionsMm": "800mm width, 500mm height, 460mm depth",
     "materials": [
       "Moisture-resistant MR-MDF substrate",
@@ -2045,12 +2054,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Satin White"
     ],
     "installationScope": "Delivered rigid with wall-mounting bracket kit and multi-axis alignment adjusters.",
-    "image": "/assets/img/models/fluted-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_1000793079_1.webp",
     "gallery": [
-      "/assets/img/models/fluted-vanities.webp",
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/models/slim-mirror-storage-cabinets.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_1000793079_1.webp",
+      "/assets/img/models/real_bathrooms/bath_1000793079_2.webp"
+],
     "description": "A tailored 80cm solution providing full-size luxury within compact guest en-suites and period terrace bathrooms. The tactile fluted facade softens rectangular architecture while providing generous internal drawer space.",
     "keyFeatures": [
       "Optimised 800mm width designed to fit standard British alcove and en-suite dimensions",
@@ -2066,7 +2074,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Knightsbridge 160cm Master Bathroom Suite | Bespoke Joinery | Cabivella UK",
     "metaDescription": "Grand 160cm double vanity console with bespoke quartz slab, dual undermount ceramic bowls, six soft-close drawers, and matching full-height linen column.",
     "leadTime": "Typically 6\u20138 weeks (production & UK transit)",
-    "referencePriceTl": "64.500 TL",
+    "referencePriceTl": "21.780 TL",
     "dimensionsMm": "1600mm vanity width, 550mm height, 520mm depth; 400x1750mm linen tower",
     "materials": [
       "Structural timber composite with water-cured resin bonding",
@@ -2081,12 +2089,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Deep Slate"
     ],
     "installationScope": "Modular dual-chassis delivery with reinforced steel mounting rails and laser-aligned templates.",
-    "image": "/assets/img/models/double-basin-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5003552041_1.webp",
     "gallery": [
-      "/assets/img/models/double-basin-vanities.webp",
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/models/tall-bathroom-storage.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5003552041_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5003552041_2.webp"
+],
     "description": "An uncompromising expression of bespoke master bathroom luxury. Spanning 160cm with a continuous quartz deck, dual undermount washbowls, and an accompanying tall linen tower with internal laundry sorting hampers.",
     "keyFeatures": [
       "Expansive 1600mm double-bowl station with generous central preparation island",
@@ -2102,7 +2109,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Mayfair 65cm Cloakroom Vanity | Small Space Joinery | Cabivella UK",
     "metaDescription": "Slim 65cm wall-hung cloakroom vanity with ceramic basin, soft-close double drawers, and matching LED backlit mirror for UK powder rooms.",
     "leadTime": "Typically 4\u20136 weeks (production & UK transit)",
-    "referencePriceTl": "20.250 TL",
+    "referencePriceTl": "23.595 TL",
     "dimensionsMm": "650mm width, 480mm height, 420mm slim projection",
     "materials": [
       "High-density moisture-sealed MR core",
@@ -2117,12 +2124,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Matte Anthracite"
     ],
     "installationScope": "Engineered for rapid, accurate mounting in compact under-stair WCs and cloakrooms.",
-    "image": "/assets/img/models/wall-hung-vanities.webp",
+    "image": "/assets/img/models/real_bathrooms/bath_5003552028_1.webp",
     "gallery": [
-      "/assets/img/models/wall-hung-vanities.webp",
-      "/assets/img/models/slim-mirror-storage-cabinets.webp",
-      "/assets/img/bathroom-inspiration.webp"
-    ],
+      "/assets/img/models/real_bathrooms/bath_5003552028_1.webp",
+      "/assets/img/models/real_bathrooms/bath_5003552028_2.webp"
+],
     "description": "Tailored specifically for British cloakrooms, under-stair powder rooms, and compact en-suites. Slim 420mm projection preserves crucial walkway clearance while concealing spare hand towels and soaps behind elegant lacquered facades.",
     "keyFeatures": [
       "Slim 420mm projection maximising door swing and walking clearance in tight WCs",
@@ -2518,5 +2524,614 @@ export const modelsData: Record<string, ModelDetail> = {
       "Soft-close runners and hinges preventing door slamming in busy households",
       "Engineered service space behind rear backboard for clean pipe and wire integration"
     ]
+  },
+  "kensington-reeded-100": {
+      "slug": "kensington-reeded-100",
+      "category": "bathrooms",
+      "title": "Kensington 100cm Reeded Forest Vanity",
+      "metaTitle": "Kensington 100cm Reeded Vanity Unit | Forest Green | Cabivella UK",
+      "metaDescription": "1000mm wall-hung vanity in deep botanical green with rhythmic vertical reeding, integrated ceramic basin and mirrored cabinet.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "29.990\u00a0TL",
+      "dimensionsMm": "1000mm width, 480mm depth, 520mm height",
+      "materials": [
+          "High-density MR lacquer panel",
+          "Glazed vitreous china",
+          "Concealed steel suspension brackets"
+      ],
+      "finishOptions": [
+          "Matte Forest Green",
+          "Botanical Sage",
+          "Deep Moss"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5002579014_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5002579014_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5002579014_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5002579014_3.webp"
+      ],
+      "description": "1000mm wall-hung vanity in deep botanical green with rhythmic vertical reeding, integrated ceramic basin and mirrored cabinet.",
+      "keyFeatures": [
+          "Precision CNC fluted fascia in matte sage-forest lacquer",
+          "Coordinating double-door mirrored demister cabinet with interior shelving",
+          "Integrated glazed vitreous china washbasin with pre-punched brassware hole",
+          "Twin soft-close full-extension undermount runners with 35kg dynamic load rating"
+      ]
+  },
+  "belgravia-monolith-100": {
+      "slug": "belgravia-monolith-100",
+      "category": "bathrooms",
+      "title": "Belgravia 100cm Gloss Porcelain Console",
+      "metaTitle": "Belgravia 100cm Gloss Vanity Console | Minimalist | Cabivella UK",
+      "metaDescription": "1000mm pristine high-gloss white bathroom console with continuous J-pull profile and wide-format washbasin.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "27.999\u00a0TL",
+      "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
+      "materials": [
+          "Multi-coat gloss lacquer",
+          "Sanitary ceramic basin",
+          "Hydraulic soft-close damping"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "Alabaster White",
+          "Chalk Glaze"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5002572184_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5002572184_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5002572184_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5002572184_3.webp"
+      ],
+      "description": "1000mm pristine high-gloss white bathroom console with continuous J-pull profile and wide-format washbasin.",
+      "keyFeatures": [
+          "Multi-coat polyurethane pristine high-gloss white mirrored reflection",
+          "Wide-format ergonomic mono-basin in seamless vitreous ceramic",
+          "Bevelled J-pull handleless architecture for continuous clean elevations",
+          "Double drawer volume with dedicated internal U-bend plumbing cut-out"
+      ]
+  },
+  "mayfair-floating-80": {
+      "slug": "mayfair-floating-80",
+      "category": "bathrooms",
+      "title": "Mayfair 80cm Architectural Charcoal Vanity",
+      "metaTitle": "Mayfair 80cm Charcoal Floating Vanity | Luxury Suite | Cabivella UK",
+      "metaDescription": "800mm floating vanity console in architectural matte slate with matching demister mirror and recessed ambient illumination.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "54.499\u00a0TL",
+      "dimensionsMm": "800mm width, 460mm depth, 520mm height",
+      "materials": [
+          "Anti-fingerprint thermal foil",
+          "Fine vitreous china",
+          "Backlit silvered mirror"
+      ],
+      "finishOptions": [
+          "Matte Slate Charcoal",
+          "Volcanic Ash",
+          "Carbon Silk"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5002572000_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5002572000_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5002572000_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5002572000_3.webp"
+      ],
+      "description": "800mm floating vanity console in architectural matte slate with matching demister mirror and recessed ambient illumination.",
+      "keyFeatures": [
+          "Ultra-matte anti-fingerprint slate grey composite finish with silky tactile feel",
+          "Frameless architectural backlit LED mirror with touch-dimming and demister pad",
+          "Slimline profile ceramic washbasin with generous side deck for amenities",
+          "Heavy-duty adjustable steel wall hanger system with acoustic decoupling"
+      ]
+  },
+  "cotswold-suite-115": {
+      "slug": "cotswold-suite-115",
+      "category": "bathrooms",
+      "title": "Cotswold 115cm Integrated Suite with Tall Linen Column",
+      "metaTitle": "Cotswold 115cm Bathroom Suite with Tall Column | Cabivella UK",
+      "metaDescription": "Complete 800mm vanity console paired with 350mm full-height linen storage tower in duo-tone graphite and chalk.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "25.619\u00a0TL",
+      "dimensionsMm": "800mm vanity + 350mm column (1150mm total width), 450mm depth",
+      "materials": [
+          "Duo-tone MR engineered timber",
+          "Vitreous china",
+          "Toughened float glass"
+      ],
+      "finishOptions": [
+          "Graphite Grey & White",
+          "Dual-Tone Cashmere",
+          "Nordic Slate"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5002001118_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5002001118_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5002001118_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5002001118_3.webp"
+      ],
+      "description": "Complete 800mm vanity console paired with 350mm full-height linen storage tower in duo-tone graphite and chalk.",
+      "keyFeatures": [
+          "Dual-component ensemble: 800mm basin console plus 350mm full-height larder tower",
+          "Four internal height-adjustable safety glass shelves in the companion linen tower",
+          "Sculpted edge-profile ceramic basin with anti-splash perimeter rim",
+          "Soft-closing 110-degree clip hinges with 3-way eccentric cam adjustment"
+      ]
+  },
+  "chelsea-compact-85": {
+      "slug": "chelsea-compact-85",
+      "category": "bathrooms",
+      "title": "Chelsea 85cm Cloakroom Vanity in Matte Anthracite",
+      "metaTitle": "Chelsea 85cm Vanity Console | Matte Anthracite | Cabivella UK",
+      "metaDescription": "850mm proportioned vanity unit designed for distinguished en-suites and cloakrooms with enclosed mirrored storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "27.399\u00a0TL",
+      "dimensionsMm": "850mm width, 450mm depth, 520mm height",
+      "materials": [
+          "Matte anthracite polyurethane",
+          "Sanitary vitreous porcelain",
+          "Stainless hardware"
+      ],
+      "finishOptions": [
+          "Matte Anthracite",
+          "Deep Charcoal",
+          "Cast Iron Matte"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5002579024_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5002579024_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5002579024_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5002579024_3.webp"
+      ],
+      "description": "850mm proportioned vanity unit designed for distinguished en-suites and cloakrooms with enclosed mirrored storage.",
+      "keyFeatures": [
+          "Compact 850mm footprint optimised for Victorian townhome en-suites and powder rooms",
+          "Deep single-bowl ceramic washbasin providing maximum wash area in modest dimensions",
+          "Recessed handleless shadow gap for effortless opening from any hand angle",
+          "Moisture-cured PU edge-banding throughout preventing delamination in damp zones"
+      ]
+  },
+  "st-james-trio-100": {
+      "slug": "st-james-trio-100",
+      "category": "bathrooms",
+      "title": "St James 100cm Modular Triad Suite",
+      "metaTitle": "St James 100cm Modular Bathroom Suite | Mirror & Column | Cabivella UK",
+      "metaDescription": "Three-piece architectural suite comprising 1000mm base vanity, 350mm vertical linen armoire, and wide mirrored cabinet.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "24.795\u00a0TL",
+      "dimensionsMm": "1000mm base + 350mm column, 460mm depth, 1900mm suite height",
+      "materials": [
+          "Engineered MR composite",
+          "Polished glazed ceramic",
+          "Stainless handles"
+      ],
+      "finishOptions": [
+          "Chalk White Gloss",
+          "Arctic Silk",
+          "Opal Cream"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5001103682_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5001103682_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5001103682_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5001103682_3.webp"
+      ],
+      "description": "Three-piece architectural suite comprising 1000mm base vanity, 350mm vertical linen armoire, and wide mirrored cabinet.",
+      "keyFeatures": [
+          "Full architectural trio: 1000mm base cabinet, matching mirrored upper, and separate linen column",
+          "Generous twin pull-out drawers with internal non-slip dividers and cosmetic trays",
+          "High-gloss sealed surfaces resistant to cosmetic cleansers and steam exposure",
+          "Concealed pipework chase cavity to accept standard British 32mm and 40mm waste pipes"
+      ]
+  },
+  "westminster-suite-135": {
+      "slug": "westminster-suite-135",
+      "category": "bathrooms",
+      "title": "Westminster 135cm Grand Duo Suite",
+      "metaTitle": "Westminster 135cm Grand Duo Bathroom Suite | Cabivella UK",
+      "metaDescription": "Commanding 1000mm basin console with companion 350mm floor-mounted column in pure architectural satin white.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "29.829\u00a0TL",
+      "dimensionsMm": "1000mm console + 350mm tower, 460mm depth",
+      "materials": [
+          "High-tensile moisture resistant substrate",
+          "Vitreous china",
+          "Chrome hardware"
+      ],
+      "finishOptions": [
+          "Satin White",
+          "Nordic Alabaster",
+          "Alpine Matte"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5000668234_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5000668234_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5000668234_2.webp"
+      ],
+      "description": "Commanding 1000mm basin console with companion 350mm floor-mounted column in pure architectural satin white.",
+      "keyFeatures": [
+          "Grand master suite proportioning combining central wash station and vertical dry storage",
+          "Reinforced ceramic deck with ergonomic contoured basin bowl and integrated overflow",
+          "Fully assembled structural carcass pre-glued with dowelled joints for permanent rigidity",
+          "Synchronised soft-close drawer slides tested to 80,000 continuous opening cycles"
+      ]
+  },
+  "knightsbridge-noir-135": {
+      "slug": "knightsbridge-noir-135",
+      "category": "bathrooms",
+      "title": "Knightsbridge 135cm Noir Architectural Suite",
+      "metaTitle": "Knightsbridge 135cm Noir Bathroom Suite | Black Oak & Ceramic | Cabivella UK",
+      "metaDescription": "Dramatic 1000mm base vanity with 350mm storage column in deep architectural obsidian black.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "28.759\u00a0TL",
+      "dimensionsMm": "1000mm vanity + 350mm tower, 460mm depth",
+      "materials": [
+          "Textured black timber composite",
+          "Vitreous porcelain",
+          "Soft-close dampeners"
+      ],
+      "finishOptions": [
+          "Obsidian Noir",
+          "Blackened Oak",
+          "Midnight Matte"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5000580839_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5000580839_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5000580839_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5000580839_3.webp"
+      ],
+      "description": "Dramatic 1000mm base vanity with 350mm storage column in deep architectural obsidian black.",
+      "keyFeatures": [
+          "Obsidian black textured woodgrain finish introducing dramatic chiaroscuro to bathroom walls",
+          "Upper mirrored medicine cabinet with concealed bottom finger pull and interior shaver socket cavity",
+          "Deep-well vitreous ceramic sink resistant to thermal shock and cosmetic staining",
+          "Integrated service void allowing vertical waste and copper supply pipe routing"
+      ]
+  },
+  "marylebone-lumiere-80": {
+      "slug": "marylebone-lumiere-80",
+      "category": "bathrooms",
+      "title": "Marylebone 80cm Lumi\u00e8re LED Demister Vanity",
+      "metaTitle": "Marylebone 80cm LED Illuminated Vanity Suite | Cabivella UK",
+      "metaDescription": "800mm wall-hung vanity in soft mist grey featuring integrated magnifying LED mirror and companion column.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "37.730\u00a0TL",
+      "dimensionsMm": "800mm vanity + 350mm tower, 460mm depth",
+      "materials": [
+          "Moisture-sealed MR lacquer",
+          "Fine sanitaryware ceramic",
+          "IP44 LED mirror assembly"
+      ],
+      "finishOptions": [
+          "Mist Grey",
+          "Pewter Silk",
+          "Silver Fog"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5000478362_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5000478362_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5000478362_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5000478362_3.webp"
+      ],
+      "description": "800mm wall-hung vanity in soft mist grey featuring integrated magnifying LED mirror and companion column.",
+      "keyFeatures": [
+          "Precision optic magnifying zone built directly into the circular illuminated LED mirror face",
+          "Warm mist grey palette creating a calming spa atmosphere in contemporary apartments",
+          "Soft-closing doors with integrated silicone bumper pads for whisper-quiet latching",
+          "Accommodates tall cosmetic bottles, spare bath linens, and personal wellness appliances"
+      ]
+  },
+  "hampstead-contrast-100": {
+      "slug": "hampstead-contrast-100",
+      "category": "bathrooms",
+      "title": "Hampstead 100cm Contrast Duo Console",
+      "metaTitle": "Hampstead 100cm Architectural Contrast Vanity | Cabivella UK",
+      "metaDescription": "1000mm two-tone vanity unit pairing crisp white porcelain with deep graphite framework and linen tower.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "29.837,50\u00a0TL",
+      "dimensionsMm": "1000mm vanity + 350mm tower, 460mm depth",
+      "materials": [
+          "Duo-tone moisture barrier board",
+          "Glazed ceramic",
+          "Full-extension runners"
+      ],
+      "finishOptions": [
+          "White & Anthracite Contrast",
+          "Chalk & Iron",
+          "Pure White"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5000465933_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5000465933_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5000465933_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5000465933_3.webp"
+      ],
+      "description": "1000mm two-tone vanity unit pairing crisp white porcelain with deep graphite framework and linen tower.",
+      "keyFeatures": [
+          "Two-tone architectural tension pairing crisp white ceramic basin with deep graphite drawer fronts",
+          "Full companion linen tower with dual split compartments for upper toiletries and lower laundry storage",
+          "High-grade ceramic basin with wide rear shelf suitable for soap dispensers and toothbrush tumblers",
+          "Zero-VOC protective exterior sealant resistant to splashing, steam condensation, and humidity"
+      ]
+  },
+  "fitzrovia-noir-90": {
+      "slug": "fitzrovia-noir-90",
+      "category": "bathrooms",
+      "title": "Fitzrovia 90cm Noir Master Console & Tower",
+      "metaTitle": "Fitzrovia 90cm Noir Vanity Suite | Master Suite Storage | Cabivella UK",
+      "metaDescription": "900mm wide vanity console in matte obsidian black with matching wall-mounted storage armoire.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "30.077,63\u00a0TL",
+      "dimensionsMm": "900mm vanity + 350mm column, 470mm depth",
+      "materials": [
+          "Deep black textured board",
+          "Heavy ceramic bowl",
+          "Brushed metal hardware"
+      ],
+      "finishOptions": [
+          "Matte Obsidian Noir",
+          "Smoked Carbon",
+          "Gunmetal Black"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5000252445_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5000252445_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5000252445_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5000252445_3.webp"
+      ],
+      "description": "900mm wide vanity console in matte obsidian black with matching wall-mounted storage armoire.",
+      "keyFeatures": [
+          "Tactile matte black exterior impervious to steamy bathroom humidity and cosmetic contact",
+          "Asymmetrical storage architecture combining wide slide-out drawers and dedicated cupboard space",
+          "Generous 900mm ceramic basin providing ample perimeter clearance for bathroom rituals",
+          "Solid metal handles finished in brushed matte graphite for unified understated aesthetics"
+      ]
+  },
+  "bloomsbury-minimalist-80": {
+      "slug": "bloomsbury-minimalist-80",
+      "category": "bathrooms",
+      "title": "Bloomsbury 80cm Minimalist Vanity Unit",
+      "metaTitle": "Bloomsbury 80cm Minimalist Bathroom Vanity | Cabivella UK",
+      "metaDescription": "800mm floating single-console vanity in architectural matte charcoal with integrated soft-close drawers.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "28.682,50\u00a0TL",
+      "dimensionsMm": "800mm width, 450mm depth, 480mm height",
+      "materials": [
+          "Matte architectural lacquer",
+          "Sanitary porcelain",
+          "Galvanized steel plates"
+      ],
+      "finishOptions": [
+          "Architectural Charcoal",
+          "Graphite Silk",
+          "Storm Grey"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5000076563_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5000076563_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5000076563_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5000076563_3.webp"
+      ],
+      "description": "800mm floating single-console vanity in architectural matte charcoal with integrated soft-close drawers.",
+      "keyFeatures": [
+          "Tailored for streamlined en-suites without visual clutter or bulky floor pedestals",
+          "Dual horizontal soft-close drawers with precision mitred front edges",
+          "Direct plumbing trap relief engineered into the top drawer structure",
+          "Supplied with heavy-gauge galvanized hanging plates and wall fixings"
+      ]
+  },
+  "richmond-legnano-100": {
+      "slug": "richmond-legnano-100",
+      "category": "bathrooms",
+      "title": "Richmond 100cm Legnano Warm Oak Vanity",
+      "metaTitle": "Richmond 100cm Legnano Timber Vanity Console | Cabivella UK",
+      "metaDescription": "1000mm floating vanity console in natural Legnano warm timber grain with dual deep soft-close drawers.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "20.823\u00a0TL",
+      "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
+      "materials": [
+          "Embossed Legnano timber foil",
+          "Vitreous china",
+          "Zinc-coated steel runners"
+      ],
+      "finishOptions": [
+          "Legnano Warm Oak",
+          "Honey Timber",
+          "Nordic Dune"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5003366016_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5003366016_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5003366016_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5003366016_3.webp"
+      ],
+      "description": "1000mm floating vanity console in natural Legnano warm timber grain with dual deep soft-close drawers.",
+      "keyFeatures": [
+          "Organic warm Legnano woodgrain texture replicating authentic Nordic saw-cut timber planks",
+          "Large 1000mm ceramic deck with deep central basin bowl and rear tap platform",
+          "Two high-capacity drawers on heavy-duty underfloor concealed runners",
+          "Antibacterial, easy-clean glazed surface resistant to limescale and water marking"
+      ]
+  },
+  "pimlico-navaro-100": {
+      "slug": "pimlico-navaro-100",
+      "category": "bathrooms",
+      "title": "Pimlico 100cm Navaro Walnut Console",
+      "metaTitle": "Pimlico 100cm Navaro Walnut Vanity Console | Cabivella UK",
+      "metaDescription": "1000mm rich Navaro walnut vanity console paired with sleek white ceramic mono-basin.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "20.823\u00a0TL",
+      "dimensionsMm": "1000mm width, 460mm depth, 500mm height",
+      "materials": [
+          "Navaro walnut grain laminate",
+          "Glazed ceramic",
+          "Silent hydraulic slides"
+      ],
+      "finishOptions": [
+          "Navaro Walnut",
+          "Smoked Hazel",
+          "Dark Cognac"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5003365984_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5003365984_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5003365984_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5003365984_3.webp"
+      ],
+      "description": "1000mm rich Navaro walnut vanity console paired with sleek white ceramic mono-basin.",
+      "keyFeatures": [
+          "Deep Navaro walnut rich brown tone bringing grounding organic warmth to stone and porcelain tiled walls",
+          "Substantial double drawer system with silent hydraulic damper closing mechanism",
+          "Integrated overflow fitting and standard UK 1\u00bc inch waste compatibility",
+          "Rigid pre-assembled cabinet construction ready for direct wall suspension"
+      ]
+  },
+  "greenwich-cherry-100": {
+      "slug": "greenwich-cherry-100",
+      "category": "bathrooms",
+      "title": "Greenwich 100cm Morgana Cherry Vanity Suite",
+      "metaTitle": "Greenwich 100cm Morgana Cherry Bathroom Suite | Cabivella UK",
+      "metaDescription": "1000mm vanity in rich Morgana cherry grain with coordinating LED illuminated mirror.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "36.382,50\u00a0TL",
+      "dimensionsMm": "1000mm width, 460mm depth, 520mm height",
+      "materials": [
+          "Morgana cherry grain veneer",
+          "Glazed porcelain",
+          "Integrated LED mirror"
+      ],
+      "finishOptions": [
+          "Morgana Cherry",
+          "Warm Chestnut",
+          "Auburn Timber"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5003365970_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5003365970_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5003365970_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5003365970_3.webp"
+      ],
+      "description": "1000mm vanity in rich Morgana cherry grain with coordinating LED illuminated mirror.",
+      "keyFeatures": [
+          "Distinguished Morgana cherry wood tone evoking classic English estate joinery in a sleek modern form",
+          "Coordinating landscape mirror with warm perimeter LED illumination strip",
+          "High-rebound ceramic basin with smooth radius curves for effortless daily cleaning",
+          "Drawer facades mitred seamlessly to ensure grain alignment across the unit face"
+      ]
+  },
+  "chiswick-walnut-100": {
+      "slug": "chiswick-walnut-100",
+      "category": "bathrooms",
+      "title": "Chiswick 100cm Artisanal Walnut Vanity Suite",
+      "metaTitle": "Chiswick 100cm Artisanal Walnut Bathroom Suite | Cabivella UK",
+      "metaDescription": "1000mm artisanal walnut timber grain vanity console with companion mirror cabinet.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "44.847\u00a0TL",
+      "dimensionsMm": "1000mm width, 460mm depth, 520mm height",
+      "materials": [
+          "Artisanal walnut composite",
+          "Fine vitreous china",
+          "Concealed steel tracks"
+      ],
+      "finishOptions": [
+          "Artisanal Walnut",
+          "Smoked Mocha",
+          "Espresso Timber"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5003365882_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5003365882_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5003365882_2.webp",
+          "/assets/img/models/real_bathrooms/bath_5003365882_3.webp"
+      ],
+      "description": "1000mm artisanal walnut timber grain vanity console with companion mirror cabinet.",
+      "keyFeatures": [
+          "Authentic knot-matched walnut grain finish with tactile textured grain embossing",
+          "Generous internal capacity suited for full family toiletries and bulk towel storage",
+          "High-gloss ceramic vanity top with precision factory-ground level bottom",
+          "Tested under continuous 95% relative humidity conditions without dimensional distortion"
+      ]
+  },
+  "wimbledon-clay-80": {
+      "slug": "wimbledon-clay-80",
+      "category": "bathrooms",
+      "title": "Wimbledon 80cm Terracotta Clay Floating Console",
+      "metaTitle": "Wimbledon 80cm Terracotta Clay Bathroom Vanity | Cabivella UK",
+      "metaDescription": "800mm designer vanity unit in warm earthy terracotta clay with twin soft-close drawer storage.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "47.030,50\u00a0TL",
+      "dimensionsMm": "800mm width, 460mm depth, 500mm height",
+      "materials": [
+          "Terracotta clay matte lacquer",
+          "Fine vitreous porcelain",
+          "Hydraulic drawer dampeners"
+      ],
+      "finishOptions": [
+          "Terracotta Clay",
+          "Warm Ochre",
+          "Tuscan Sand"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5003358804_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5003358804_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5003358804_2.webp"
+      ],
+      "description": "800mm designer vanity unit in warm earthy terracotta clay with twin soft-close drawer storage.",
+      "keyFeatures": [
+          "Sophisticated warm earthy clay matte tone inspired by Mediterranean ceramic ateliers and British spa retreats",
+          "Dual tiered drawers featuring concealed handle recesses on the lower drawer edge",
+          "Integrated slim-rim porcelain washbasin designed for single-lever mixer taps",
+          "Anti-bacterial seal around all exposed carcass edges ensuring lifelong water resistance"
+      ]
+  },
+  "dulwich-compact-65": {
+      "slug": "dulwich-compact-65",
+      "category": "bathrooms",
+      "title": "Dulwich 65cm Cloakroom Vanity Suite",
+      "metaTitle": "Dulwich 65cm Cloakroom Bathroom Suite | Cabivella UK",
+      "metaDescription": "650mm compact bathroom console with mirror and ceramic basin tailored for secondary bathrooms.",
+      "leadTime": "Typically 5\u20137 weeks (production & UK transit)",
+      "referencePriceTl": "21.780\u00a0TL",
+      "dimensionsMm": "650mm width, 400mm depth, 480mm height",
+      "materials": [
+          "Moisture-resistant white gloss board",
+          "Sanitary ceramic",
+          "Polished plate mirror"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "Chalk Silk",
+          "Classic Alabaster"
+      ],
+      "installationScope": "Supplied fully assembled with heavy-duty concealed hanging brackets, integrated ceramic basin, and waste cut-out routing.",
+      "image": "/assets/img/models/real_bathrooms/bath_5003552041_1.webp",
+      "gallery": [
+          "/assets/img/models/real_bathrooms/bath_5003552041_1.webp",
+          "/assets/img/models/real_bathrooms/bath_5003552041_2.webp"
+      ],
+      "description": "650mm compact bathroom console with mirror and ceramic basin tailored for secondary bathrooms.",
+      "keyFeatures": [
+          "Ultra-compact 650mm width designed specifically for British cloakrooms and guest suites",
+          "Twin-door base cabinet offering uninterrupted plumbing access and tall bottle storage",
+          "Includes frameless matching 650mm polished-edge plate glass wall mirror",
+          "Vitreous ceramic basin with integrated overflow and tap-hole platform"
+      ]
   }
 };
