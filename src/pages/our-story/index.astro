@@ -14,9 +14,34 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
   title="Our Story & Heritage | Turkish Guilds, British Sensibility | Cabivella UK"
   description="Discover how Cabivella unites centuries-old Istanbul timber joinery guilds with restrained British architectural cabinetry for considered UK homes."
   canonicalPath="/our-story/"
-  image="/assets/img/istanbul-heritage-panorama.webp"
+  image="/assets/img/istanbul-heritage-panorama@2x.webp"
   structuredData={breadcrumbSchema}
 >
+  <!-- Giant Architectural Panorama Hero (Directly Under Header) -->
+  <section class="story-giant-panorama-stage" aria-label="Istanbul Architectural Timber Lineage">
+    <div class="giant-panorama-inner" data-reveal>
+      <div class="giant-panorama-frame">
+        <picture>
+          <source type="image/webp" srcset="/assets/img/istanbul-heritage-panorama@2x.webp 2048w, /assets/img/istanbul-heritage-panorama.webp 1024w" sizes="(max-width: 1440px) 100vw, 1440px" />
+          <img 
+            src="/assets/img/istanbul-heritage-panorama@2x.webp" 
+            alt="Panoramic architectural line engraving of Istanbul woodworking heritage, historic minarets, timber mansions and the Galata Tower" 
+            width="2048" 
+            height="978" 
+            class="giant-panorama-image"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </picture>
+      </div>
+      <div class="giant-panorama-meta">
+        <span class="meta-tag">ARCHITECTURAL PEDIGREE & PROVENANCE</span>
+        <p class="meta-desc">The Bosphorus Guilds to the British Terrace &bull; Centuries of master timber shaping engineered for UK homes</p>
+      </div>
+    </div>
+  </section>
+
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Ghost Watermark Header (Soft Neutral & Controlled Dynamic Bounds) -->
@@ -26,10 +51,10 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
     </svg>
   </div>
 
-  <!-- Hero Section with Architectural Panorama -->
+  <!-- Editorial Hero Section -->
   <section class="wrap story-hero-section">
     <div class="story-hero-header" data-reveal>
-      <span class="section-eyebrow">ARCHITECTURAL PEDIGREE & PROVENANCE</span>
+      <span class="section-eyebrow">TWO CENTURIES OF TIMBER MASTERY</span>
       <h1>
         Turkish master joinery.<br />
         <em>Considered British homes.</em>
@@ -38,24 +63,6 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
         For generations, bespoke cabinetry in the United Kingdom has forced a binary choice: settle for flat-pack compromises that decay in British humidity, or pay exorbitant five-figure markups to subsidise Mayfair and Chelsea showrooms. Cabivella was founded to dismantle that compromise.
       </p>
     </div>
-
-    <!-- The Architectural Istanbul Illustration Artwork -->
-    <figure class="story-panorama-frame" data-reveal>
-      <div class="panorama-artwork-wrap">
-        <img 
-          src="/assets/img/istanbul-heritage-panorama.webp" 
-          alt="Panoramic architectural line engraving of Istanbul woodworking heritage, historic minarets, timber mansions and the Galata Tower" 
-          width="1024" 
-          height="489" 
-          loading="eager"
-          decoding="async"
-          fetchpriority="high"
-        />
-      </div>
-      <figcaption class="panorama-caption">
-        <strong>The Bosphorus Guilds to the British Terrace:</strong> Century-old Ottoman & Levantine joinery traditions translated into precision made-to-measure cabinetry for Victorian, Georgian, and contemporary UK floorplans.
-      </figcaption>
-    </figure>
   </section>
 
   <!-- Editorial Narrative: The Bridge Between Two Worlds -->
@@ -93,9 +100,9 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
         <div class="truth-card">
           <div class="truth-number">02</div>
           <div class="truth-content">
-            <h3>Austrian Blum Motion Mechanics</h3>
+            <h3>Austrian Precision Motion Mechanics</h3>
             <p>
-              Behind every traditional Shaker rail lies state-of-the-art Austrian engineering. We fit Blum Legrabox and concealed soft-close hinges tested to over 200,000 cycles for whisper-quiet everyday glide.
+              Behind every traditional Shaker rail lies state-of-the-art European engineering. We fit heavy-gauge steel concealed soft-close hinges and drawer runners tested to over 200,000 cycles for whisper-quiet everyday glide.
             </p>
           </div>
         </div>
@@ -229,6 +236,70 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
 </SiteLayout>
 
 <style>
+  /* Giant Architectural Panorama Hero (Directly Under Header) */
+  .story-giant-panorama-stage {
+    width: 100%;
+    background: #faf8f4;
+    border-bottom: 1px solid var(--line);
+    padding: 30px 0 0;
+    overflow: hidden;
+  }
+
+  .giant-panorama-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 var(--edge);
+  }
+
+  .giant-panorama-frame {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #e7e2d6;
+    border-radius: 6px;
+    padding: clamp(16px, 2.5vw, 36px) clamp(14px, 2vw, 30px) clamp(10px, 1.5vw, 20px);
+    box-shadow: 0 16px 44px rgba(23, 31, 25, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .giant-panorama-frame picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .giant-panorama-image {
+    width: 100%;
+    height: auto;
+    max-height: clamp(340px, 48vw, 620px);
+    object-fit: contain;
+    display: block;
+    filter: contrast(1.05);
+  }
+
+  .giant-panorama-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 4px 18px;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .meta-tag {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    color: var(--gold-dark);
+  }
+
+  .meta-desc {
+    font-size: 13px;
+    color: #555f56;
+    margin: 0;
+  }
+
   .story-hero-section {
     padding-bottom: 50px;
     max-width: 1140px;
@@ -252,48 +323,6 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
     color: #414b43;
     max-width: 760px;
     margin: 0 auto;
-  }
-
-  /* Panorama Frame */
-  .story-panorama-frame {
-    margin: 36px 0 0;
-    padding: 0;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #ffffff;
-    border: 1px solid var(--line);
-    box-shadow: 0 18px 48px rgba(18, 28, 20, 0.07);
-  }
-
-  .panorama-artwork-wrap {
-    width: 100%;
-    background: #faf8f4;
-    padding: 20px 20px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #eeebe3;
-  }
-
-  .panorama-artwork-wrap img {
-    width: 100%;
-    height: auto;
-    max-height: 440px;
-    object-fit: contain;
-    filter: contrast(1.05);
-  }
-
-  .panorama-caption {
-    padding: 14px 20px;
-    font-size: 13px;
-    color: #616962;
-    line-height: 1.5;
-    background: #ffffff;
-    border-top: 1px solid #f2eee6;
-  }
-
-  .panorama-caption strong {
-    color: var(--green);
   }
 
   /* Narrative Grid */
@@ -481,15 +510,39 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
     .process-steps-grid {
       grid-template-columns: 1fr;
     }
+    .leadership-card {
+      padding: 24px 16px;
+    }
     .leadership-credentials {
       flex-direction: column;
       gap: 14px;
     }
-    .story-hero-header h1 {
-      font-size: 32px;
+    .leadership-actions {
+      flex-direction: column;
+      align-items: stretch;
+      width: 100%;
     }
-    .panorama-artwork-wrap {
-      padding: 10px 10px 6px;
+    .leadership-actions .solid-btn,
+    .leadership-actions .header-outline-btn {
+      width: 100%;
+      white-space: normal;
+      text-align: center;
+      justify-content: center;
+      word-break: break-word;
+      font-size: 11.5px;
+      padding: 10px 14px;
+    }
+    .story-hero-header h1 {
+      font-size: 28px;
+    }
+    .giant-panorama-stage {
+      padding: 16px 0 0;
+    }
+    .giant-panorama-meta {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      padding: 10px 0 14px;
     }
   }
 </style>

@@ -24,8 +24,8 @@ test.describe('Cabivella Navigation & Contact Integrity', () => {
   test('Our Story page renders architectural panorama and leadership contacts', async ({ page }) => {
     await page.goto('/our-story/');
 
-    // Check panorama image
-    const panoramaImg = page.locator('img[src="/assets/img/istanbul-heritage-panorama.webp"]');
+    // Check giant panorama image right under header
+    const panoramaImg = page.locator('.story-giant-panorama-stage img.giant-panorama-image');
     await expect(panoramaImg).toBeVisible();
 
     // Check Barış Bağırlı leadership section

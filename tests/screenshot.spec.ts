@@ -25,5 +25,18 @@ test.describe('Responsive Layout & No Horizontal Overflow Verification', () => {
       await expect(page.locator('#site-header')).toBeAttached();
       await expect(page.locator('footer.site-footer')).toBeAttached();
     });
+
+    test(`Our Story renders with zero horizontal overflow at ${vp.name} (${vp.width}px)`, async ({ page }) => {
+      await page.setViewportSize({ width: vp.width, height: vp.height });
+      await page.goto('/our-story/');
+
+      // Evaluate horizontal scroll width vs viewport width
+      const hasHorizontalScroll = await page.evaluate(() => {
+        return document.documentElement.scrollWidth > document.documentElement.clientWidth;
+      });
+
+      expect(hasHorizontalScroll).toBe(false);
+      await expect(page.locator('.story-giant-panorama-stage img.giant-panorama-image')).toBeVisible();
+    });
   }
 });
