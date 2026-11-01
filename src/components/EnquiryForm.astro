@@ -1,0 +1,352 @@
+---
+import { siteConfig } from '../data/navigation';
+
+export interface Props {
+  defaultCollection?: string;
+  defaultModel?: string;
+}
+
+const { defaultCollection = '', defaultModel = '' } = Astro.props;
+---
+
+<div class="enquiry-card">
+  <form id="cabivella-enquiry-form" class="enquiry-form" novalidate>
+    <div class="form-feedback" id="form-feedback" hidden></div>
+
+    <!-- Customer Type Tabs -->
+    <div class="form-group">
+      <label class="form-label">I am enquiring as:</label>
+      <div class="customer-type-selector">
+        <label class="type-pill">
+          <input type="radio" name="customerType" value="homeowner" checked />
+          <span>Homeowner</span>
+        </label>
+        <label class="type-pill">
+          <input type="radio" name="customerType" value="trade" />
+          <span>Trade / Builder</span>
+        </label>
+        <label class="type-pill">
+          <input type="radio" name="customerType" value="architect" />
+          <span>Architect</span>
+        </label>
+        <label class="type-pill">
+          <input type="radio" name="customerType" value="interior_designer" />
+          <span>Interior Designer</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Name & Email -->
+    <div class="form-row">
+      <div class="form-group">
+        <label for="enquiry-name" class="form-label">Your Full Name *</label>
+        <input type="text" id="enquiry-name" name="name" required placeholder="e.g. Eleanor Vance" class="form-input" />
+      </div>
+      <div class="form-group">
+        <label for="enquiry-email" class="form-label">Email Address *</label>
+        <input type="email" id="enquiry-email" name="email" required placeholder="e.g. eleanor@example.co.uk" class="form-input" />
+      </div>
+    </div>
+
+    <!-- Phone & Postcode -->
+    <div class="form-row">
+      <div class="form-group">
+        <label for="enquiry-phone" class="form-label">Telephone Number *</label>
+        <input type="tel" id="enquiry-phone" name="phone" required placeholder="e.g. 07898 262110" class="form-input" />
+      </div>
+      <div class="form-group">
+        <label for="enquiry-postcode" class="form-label">UK Postcode (for logistics planning)</label>
+        <input type="text" id="enquiry-postcode" name="postcode" placeholder="e.g. SW1A 1AA" class="form-input" />
+      </div>
+    </div>
+
+    <!-- Collection Interest -->
+    <div class="form-row">
+      <div class="form-group">
+        <label for="enquiry-collection" class="form-label">Collection of Interest</label>
+        <select id="enquiry-collection" name="collection" class="form-select">
+          <option value="kitchens" selected={defaultCollection === 'kitchens'}>Kitchens</option>
+          <option value="bathrooms" selected={defaultCollection === 'bathrooms'}>Bathrooms</option>
+          <option value="pantry-larder" selected={defaultCollection === 'pantry-larder'}>Pantry & Larder</option>
+          <option value="coffee-stations" selected={defaultCollection === 'coffee-stations'}>Coffee Stations</option>
+          <option value="fitted-storage" selected={defaultCollection === 'fitted-storage'}>Fitted Storage</option>
+          <option value="kitchen-doors" selected={defaultCollection === 'kitchen-doors'}>Replacement Kitchen Doors</option>
+          <option value="multiple" selected={!defaultCollection}>Multiple Collections / Whole House</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="enquiry-dimensions" class="form-label">Approximate Room / Wall Dimensions (Optional)</label>
+        <input type="text" id="enquiry-dimensions" name="roomDimensions" value={defaultModel ? `Interested in model: ${defaultModel}` : ''} placeholder="e.g. 3.4m x 2.8m or architectural plans ready" class="form-input" />
+      </div>
+    </div>
+
+    <!-- Project Notes -->
+    <div class="form-group">
+      <label for="enquiry-message" class="form-label">Tell us about your project & requirements *</label>
+      <textarea id="enquiry-message" name="message" rows="4" required placeholder="Describe your room layout, desired materials, timelines or any specific cabinetry features you require..." class="form-textarea"></textarea>
+    </div>
+
+    <!-- Consent -->
+    <div class="form-group checkbox-group">
+      <label class="checkbox-label">
+        <input type="checkbox" name="marketingConsent" value="true" />
+        <span>I consent to receiving occasional updates and craftsmanship case studies from Cabivella. You can unsubscribe at any time.</span>
+      </label>
+    </div>
+
+    <input type="hidden" name="sourcePath" id="enquiry-source-path" value="" />
+    <input type="hidden" name="idempotencyKey" id="enquiry-idempotency" value="" />
+
+    <!-- Actions -->
+    <div class="form-actions">
+      <button type="submit" class="submit-btn" id="submit-btn">
+        <span>Submit Project Enquiry</span>
+        <span aria-hidden="true">→</span>
+      </button>
+
+      <div class="alternative-action">
+        <span>Prefer immediate consultation?</span>
+        <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="whatsapp-direct-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.766-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"/>
+          </svg>
+          <strong>WhatsApp Concierge (+44 7898 262110)</strong>
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+
+<style>
+  .enquiry-card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: clamp(24px, 4vw, 44px);
+    box-shadow: 0 12px 36px rgba(27, 36, 29, 0.05);
+  }
+
+  .customer-type-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .type-pill {
+    cursor: pointer;
+  }
+
+  .type-pill input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .type-pill span {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #f7f5ef;
+    border: 1px solid #e2ddd2;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #49544b;
+    transition: all 0.2s ease;
+  }
+
+  .type-pill input:checked + span {
+    background: var(--green);
+    color: #ffffff;
+    border-color: var(--green);
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  @media (max-width: 640px) {
+    .form-row {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 22px;
+  }
+
+  .form-label {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 600;
+    color: #2b332c;
+    margin-bottom: 7px;
+  }
+
+  .form-input, .form-select, .form-textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d3cdc2;
+    border-radius: 3px;
+    background: #fffefa;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    color: var(--text);
+    transition: border-color 0.2s ease;
+  }
+
+  .form-input:focus, .form-select:focus, .form-textarea:focus {
+    outline: none;
+    border-color: var(--gold);
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(170, 137, 100, 0.15);
+  }
+
+  .checkbox-label {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #5c635b;
+    cursor: pointer;
+  }
+
+  .checkbox-label input {
+    margin-top: 3px;
+  }
+
+  .form-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 28px;
+    padding-top: 22px;
+    border-top: 1px solid #eae5db;
+  }
+
+  .submit-btn {
+    background: var(--green);
+    color: #ffffff;
+    border: none;
+    padding: 15px 32px;
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    border-radius: 3px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.25s ease;
+  }
+
+  .submit-btn:hover {
+    background: var(--green-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(46, 68, 52, 0.2);
+  }
+
+  .alternative-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #697068;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .whatsapp-direct-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #128C7E;
+    text-decoration: underline;
+  }
+
+  .form-feedback {
+    padding: 14px 18px;
+    border-radius: 3px;
+    margin-bottom: 22px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .form-feedback.is-success {
+    background: #eaf4ed;
+    color: #194f29;
+    border: 1px solid #bce1c5;
+  }
+
+  .form-feedback.is-error {
+    background: #fdf0f0;
+    color: #7b1d1d;
+    border: 1px solid #f4c7c7;
+  }
+</style>
+
+<script>
+  const form = document.getElementById('cabivella-enquiry-form') as HTMLFormElement;
+  const feedback = document.getElementById('form-feedback');
+  const pathInput = document.getElementById('enquiry-source-path') as HTMLInputElement;
+  const idempotencyInput = document.getElementById('enquiry-idempotency') as HTMLInputElement;
+
+  if (pathInput) pathInput.value = window.location.pathname;
+  if (idempotencyInput) {
+    idempotencyInput.value = 'idem_' + Date.now() + '_' + Math.random().toString(36).substring(2, 9);
+  }
+
+  if (form) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!feedback) return;
+
+      const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Transmitting securely...';
+      }
+
+      feedback.hidden = true;
+      feedback.className = 'form-feedback';
+
+      const formData = new FormData(form);
+      const payload: Record<string, any> = Object.fromEntries(formData.entries());
+      payload.marketingConsent = formData.get('marketingConsent') === 'true';
+
+      try {
+        const response = await fetch('/api/enquiries', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          feedback.className = 'form-feedback is-success';
+          feedback.innerHTML = `<strong>Thank you.</strong> ${result.message || 'Your project details have been safely received.'}`;
+          feedback.hidden = false;
+          form.reset();
+        } else {
+          feedback.className = 'form-feedback is-error';
+          feedback.textContent = result.error || 'Failed to submit enquiry. Please call or WhatsApp us directly.';
+          feedback.hidden = false;
+        }
+      } catch (err) {
+        feedback.className = 'form-feedback is-error';
+        feedback.innerHTML = `Submission could not complete. Please email us directly at <a href="mailto:barisbagirlar@gmail.com">barisbagirlar@gmail.com</a> or WhatsApp <a href="https://wa.me/447898262110">+44 7898 262110</a>.`;
+        feedback.hidden = false;
+      } finally {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = `<span>Submit Project Enquiry</span> <span aria-hidden="true">→</span>`;
+        }
+      }
+    });
+  }
+</script>

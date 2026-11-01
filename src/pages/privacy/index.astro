@@ -1,0 +1,78 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { siteConfig } from '../../data/navigation';
+import { getBreadcrumbSchema } from '../../lib/structured-data';
+
+const breadcrumbItems = [
+  { name: 'Privacy Policy', url: '/privacy/' }
+];
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+---
+
+<SiteLayout
+  title="Privacy Policy | UK GDPR Compliance | Cabivella"
+  description="Cabivella UK privacy notice detailing how we collect, process, and protect your personal data in accordance with the UK Data Protection Act 2018 and UK GDPR."
+  canonicalPath="/privacy/"
+  structuredData={breadcrumbSchema}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="82">PRIVACY POLICY</text>
+    </svg>
+  </div>
+
+  <section class="wrap" style="padding-bottom: 70px; max-width: 860px; font-size: 15px; line-height: 1.8; color: #373f38;">
+    <div data-reveal>
+      <span class="section-eyebrow">LEGAL NOTICE</span>
+      <h1 style="margin-bottom: 24px;">UK Privacy & Data Protection Notice</h1>
+      <p style="color: var(--muted); font-size: 13px;">Last updated: 1 November 2026</p>
+    </div>
+
+    <div style="margin-top: 32px;" data-reveal>
+      <h2>1. Data Controller</h2>
+      <p>
+        Cabivella ("we", "our", "us") is committed to safeguarding the privacy of visitors to our website and clients enquiring about our bespoke cabinetry. For the purposes of the UK Data Protection Act 2018 and the UK General Data Protection Regulation (UK GDPR), the data controller is Cabivella UK.
+      </p>
+      <p>
+        If you have any questions about this policy or your personal data, please contact our Data Protection Officer at: <a href={`mailto:${siteConfig.email}`} style="color: var(--green); font-weight: 600;">{siteConfig.email}</a>.
+      </p>
+
+      <h2>2. What Personal Data We Collect</h2>
+      <p>We only collect personal information that is strictly necessary to answer your cabinetry enquiries, prepare design specifications, and fulfill orders:</p>
+      <ul>
+        <li><strong>Identity & Contact Data:</strong> Name, email address, telephone number, and UK delivery postcode.</li>
+        <li><strong>Project Details:</strong> Room dimensions, architectural drawings, collection preferences, and design notes.</li>
+        <li><strong>Technical & Usage Data:</strong> Anonymised IP addresses, browser types, and interaction telemetry collected under explicit cookie consent.</li>
+      </ul>
+
+      <h2>3. Legal Basis for Processing</h2>
+      <p>We process your personal data under the following lawful bases:</p>
+      <ul>
+        <li><strong>Contractual Necessity:</strong> To assess your room requirements and deliver tailored cabinetry quotations.</li>
+        <li><strong>Consent:</strong> For non-essential analytics cookies and optional marketing communication subscriptions.</li>
+        <li><strong>Legitimate Interests:</strong> To ensure website security, prevent spam via Cloudflare Turnstile, and maintain audit records of commercial enquiries.</li>
+      </ul>
+
+      <h2>4. Data Sharing & International Transfers</h2>
+      <p>
+        We do not sell, lease, or rent your personal data to third parties. We share data only with trusted infrastructure providers essential to our operations (Cloudflare for edge routing, HubSpot for customer relationship management, and Postmark for transactional email delivery). Where cabinetry fabrication takes place in Turkey, international transfers are governed by UK International Data Transfer Agreements (IDTAs) ensuring equivalence of data protection.
+      </p>
+
+      <h2>5. Your Statutory Rights</h2>
+      <p>Under UK GDPR, you have the right to:</p>
+      <ul>
+        <li>Request access to the personal data we hold about you.</li>
+        <li>Request rectification of incorrect or incomplete data.</li>
+        <li>Request erasure ("right to be forgotten") of your data where no overriding legal obligation exists.</li>
+        <li>Withdraw consent at any time without affecting past lawful processing.</li>
+      </ul>
+      <p>
+        To exercise any of these rights, contact us at <a href={`mailto:${siteConfig.email}`} style="color: var(--green); font-weight: 600;">{siteConfig.email}</a>.
+      </p>
+    </div>
+  </section>
+</SiteLayout>

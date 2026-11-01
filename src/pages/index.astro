@@ -1,0 +1,169 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { collectionsData } from '../data/collections';
+import { siteConfig } from '../data/navigation';
+
+const collections = Object.values(collectionsData);
+---
+
+<SiteLayout 
+  title="Made-to-Measure Kitchen, Bathroom & Storage Cabinetry"
+  description="Discover Cabivella kitchens, bathrooms, pantry cupboards, coffee stations, fitted storage and kitchen doors. Explore design-led cabinetry for UK homes."
+  canonicalPath="/"
+  image="/assets/img/homepage-hero-approved.webp"
+>
+  <!-- Hero Section -->
+  <section class="v6-hero" aria-label="Cabivella cabinetry collections">
+    <div class="v6-hero-image-wrap" aria-hidden="true">
+      <img 
+        src="/assets/img/homepage-hero-approved.webp" 
+        alt="Cabivella bespoke cabinetry in a contemporary British interior" 
+        width="1920" 
+        height="1080"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+      />
+    </div>
+    <div class="v6-hero-gradient" aria-hidden="true"></div>
+
+    <div class="v6-hero-content wrap">
+      <div class="v6-hero-eyebrow" data-reveal>CONSIDERED CABINETRY</div>
+      <h1 data-reveal>
+        More room<br />
+        for <em>living.</em>
+      </h1>
+      <span class="v6-hero-goldline" aria-hidden="true"></span>
+      <p data-reveal>
+        Beautiful, made-to-measure kitchens, bathrooms and bespoke interiors designed for considered UK homes.
+      </p>
+      <div class="v6-hero-links" data-reveal>
+        <a href="#collections" class="v6-hero-primary-btn">
+          <span>Explore Collections</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+        <a href="/enquire/" class="v6-hero-link">
+          <span>Enquire a Project</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="v6-hero-bottom wrap">
+      <div>British design direction · Made to measure</div>
+      <a href="/collections/kitchens/">Discover kitchens →</a>
+    </div>
+  </section>
+
+  <!-- Ghost Watermark Dynamic Header (Compliant with Soft Neutral & Zero-Collision Stacking) -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="94">CABIVELLA</text>
+    </svg>
+  </div>
+
+  <!-- Collections Section -->
+  <section class="v6-category-section" id="collections" aria-labelledby="collections-title">
+    <div class="wrap">
+      <div class="section-header" data-reveal>
+        <span class="section-eyebrow">THE COLLECTIONS</span>
+        <h2 id="collections-title">Cabinetry designed for real rooms.</h2>
+        <p style="color: var(--muted); margin-top: 8px;">Explore our six core cabinetry directions, each engineered for practical UK floorplans.</p>
+      </div>
+
+      <div class="v6-category-grid" data-reveal-group>
+        {collections.map((cat, idx) => (
+          <a href={`/collections/${cat.slug}/`} class="v6-category-card" data-reveal data-reveal-delay={String((idx % 6) + 1)}>
+            <span class="v6-card-photo">
+              <img 
+                src={cat.image} 
+                alt={`${cat.title} cabinetry by Cabivella`} 
+                width="480" 
+                height="378" 
+                loading="lazy" 
+                decoding="async"
+              />
+            </span>
+            <span class="v6-card-heading">{cat.title}</span>
+            <span class="v6-card-copy">{cat.shortCopy}</span>
+            <span class="v6-card-arrow" aria-hidden="true">⟶</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Feature -->
+  <section class="editorial-feature" aria-labelledby="craft-title">
+    <div class="wrap editorial-grid">
+      <div data-reveal>
+        <img 
+          src="/assets/img/concept-kitchen.webp" 
+          alt="Warm neutral kitchen joinery with sage cabinetry" 
+          width="800" 
+          height="600"
+          loading="lazy" 
+          decoding="async"
+          style="border-radius: 3px;"
+        />
+      </div>
+      <div class="editorial-copy" data-reveal>
+        <span class="section-eyebrow">A CONSIDERED APPROACH</span>
+        <h2 id="craft-title">Beauty is found in the <em>details.</em></h2>
+        <p>A cupboard can hold the little things that matter most. We favour quiet proportions, practical storage and finishes chosen for the life of a room.</p>
+        <p>From Blum soft-close mechanics to FSC-certified timber frames, every cabinet is built to endure everyday family life.</p>
+        <a href="/materials/" class="text-link">Explore materials and finishes ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Teaser Section -->
+  <section class="wrap" style="padding: 80px var(--edge);" aria-labelledby="story-title">
+    <div class="editorial-grid">
+      <div data-reveal>
+        <span class="section-eyebrow">OUR HERITAGE</span>
+        <h2 id="story-title">Turkish making.<br /><em>British sensibility.</em></h2>
+        <p style="color: #4f5750; font-size: 16px; line-height: 1.7; margin-top: 18px;">
+          Cabivella design direction is informed by centuries of Turkish furniture craftsmanship and the distinctive architectural needs of homes across the United Kingdom.
+        </p>
+        <p style="color: #4f5750; font-size: 15px; line-height: 1.7;">
+          By bridging master woodworkers in Turkey with British design consultations and nationwide UK logistics, we deliver made-to-measure joinery of peerless quality.
+        </p>
+        <a href="/our-story/" class="text-link">Read our complete story ↗</a>
+      </div>
+      <div data-reveal>
+        <img 
+          src="/assets/img/istanbul-skyline.webp" 
+          alt="Line-art illustration of architectural craftsmanship" 
+          width="800" 
+          height="600"
+          loading="lazy" 
+          decoding="async"
+          style="border-radius: 3px;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Band -->
+  <section class="cta-band" aria-labelledby="cta-heading">
+    <div class="wrap">
+      <div data-reveal>
+        <span class="section-eyebrow" style="color: #d1b88e;">START A CONVERSATION</span>
+        <h2 id="cta-heading">Tell us what you have in mind.</h2>
+        <p>Whether you are planning a kitchen, a bathroom, or a single tailored cabinet, the best conversations begin with the room and its purpose.</p>
+        
+        <div class="cta-band-actions">
+          <a href="/enquire/" class="solid-btn" style="background: var(--gold-warm); color: #1a241c !important;">
+            <span>Make an Enquiry</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366;">
+            <span>WhatsApp Concierge</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

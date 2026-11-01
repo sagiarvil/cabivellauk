@@ -1,0 +1,71 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import EnquiryForm from '../../components/EnquiryForm.astro';
+import { siteConfig } from '../../data/navigation';
+import { getBreadcrumbSchema } from '../../lib/structured-data';
+
+const breadcrumbItems = [
+  { name: 'Trade & Professionals', url: '/trade/' }
+];
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+---
+
+<SiteLayout
+  title="Trade & Architectural Cabinetry Supply | Cabivella UK"
+  description="Trade supply, volume pricing and made-to-measure cabinetry fabrication for UK architects, interior designers, and property developers."
+  canonicalPath="/trade/"
+  structuredData={breadcrumbSchema}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="82">TRADE & SPECIFIERS</text>
+    </svg>
+  </div>
+
+  <section class="wrap" style="padding-bottom: 70px; max-width: 1040px;">
+    <div style="text-align: center; margin-bottom: 44px;" data-reveal>
+      <span class="section-eyebrow">PROFESSIONAL PARTNERSHIPS</span>
+      <h1>Architectural Joinery for Trade Professionals</h1>
+      <p style="font-size: 18px; line-height: 1.6; color: #404941; max-width: 680px; margin: 12px auto 0;">
+        We collaborate closely with UK architects, interior designers, prime residential developers and general building contractors seeking dependable bespoke cabinetry fabrication.
+      </p>
+    </div>
+
+    <!-- Trade Pillars Grid -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 60px;" data-reveal-group>
+      <div class="v6-category-card" data-reveal data-reveal-delay="1">
+        <h3 style="font-size: 18px; margin-bottom: 8px; color: var(--green);">Architectural Tender Support</h3>
+        <p style="font-size: 13px; color: var(--muted); line-height: 1.6;">
+          Send your DWG / PDF elevations and schedules. Our technical team provides millimetre-accurate costings and cutting lists within 48 hours.
+        </p>
+      </div>
+
+      <div class="v6-category-card" data-reveal data-reveal-delay="2">
+        <h3 style="font-size: 18px; margin-bottom: 8px; color: var(--green);">Verified Lead Times</h3>
+        <p style="font-size: 13px; color: var(--muted); line-height: 1.6;">
+          Dedicated manufacturing slots guarantee 4 to 8 week production schedules with white-glove site delivery timed to your site milestones.
+        </p>
+      </div>
+
+      <div class="v6-category-card" data-reveal data-reveal-delay="3">
+        <h3 style="font-size: 18px; margin-bottom: 8px; color: var(--green);">Tiered Trade Terms</h3>
+        <p style="font-size: 13px; color: var(--muted); line-height: 1.6;">
+          Transparent professional volume margins, custom swatch presentation boxes for your studio clients, and dedicated account management.
+        </p>
+      </div>
+    </div>
+
+    <!-- Trade Enquiry Form -->
+    <div style="background: #ffffff; border: 1px solid var(--line); border-radius: 4px; padding: clamp(24px, 4vw, 44px);" data-reveal>
+      <h2 style="font-size: 24px; margin-bottom: 8px;">Register a Trade Project</h2>
+      <p style="font-size: 14px; color: var(--muted); margin-bottom: 28px;">
+        Complete the form below or email tender packs directly to <a href={`mailto:${siteConfig.email}`} style="color: var(--green); font-weight: 600;">{siteConfig.email}</a>.
+      </p>
+      <EnquiryForm defaultCollection="multiple" />
+    </div>
+  </section>
+</SiteLayout>

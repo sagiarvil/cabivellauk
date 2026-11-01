@@ -1,0 +1,92 @@
+---
+import '../styles/global.css';
+import SEOHead from '../components/SEOHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import WhatsAppButton from '../components/WhatsAppButton.astro';
+import CookieConsent from '../components/CookieConsent.astro';
+import type { SEOProps } from '../lib/seo';
+
+export interface Props extends SEOProps {
+  structuredData?: Record<string, any> | Array<Record<string, any>>;
+}
+
+const { title, description, canonicalPath, image, type, noindex, structuredData } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <SEOHead 
+      title={title} 
+      description={description} 
+      canonicalPath={canonicalPath || currentPath} 
+      image={image} 
+      type={type} 
+      noindex={noindex} 
+      structuredData={structuredData} 
+    />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Header Navigation -->
+    <Header currentPath={currentPath} />
+
+    <!-- Main Content Area -->
+    <main id="main">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <Footer />
+
+    <!-- Premium Floating WhatsApp Concierge -->
+    <WhatsAppButton floating={true} />
+
+    <!-- Cookie Consent Banner -->
+    <CookieConsent />
+
+    <!-- Apple Motion Scroll-Driven Staggered Script (80ms Stagger) -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.documentElement.classList.add('motion-ready');
+
+        const reveals = document.querySelectorAll('[data-reveal]');
+        if (!reveals.length) return;
+
+        // If prefers-reduced-motion is active, reveal immediately
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          reveals.forEach((el) => el.classList.add('is-revealed'));
+          return;
+        }
+
+        const observerOptions = {
+          root: null,
+          rootMargin: '0px 0px -40px 0px',
+          threshold: 0.12
+        };
+
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const el = entry.target as HTMLElement;
+              // Check if parent has group stagger
+              const group = el.closest('[data-reveal-group]');
+              if (group) {
+                const siblings = Array.from(group.querySelectorAll('[data-reveal]'));
+                const index = siblings.indexOf(el);
+                el.style.transitionDelay = `${index * 80}ms`;
+              }
+              el.classList.add('is-revealed');
+              observer.unobserve(el);
+            }
+          });
+        }, observerOptions);
+
+        reveals.forEach((el) => revealObserver.observe(el));
+      });
+    </script>
+  </body>
+</html>

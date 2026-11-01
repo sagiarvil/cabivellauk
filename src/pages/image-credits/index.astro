@@ -1,0 +1,55 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getBreadcrumbSchema } from '../../lib/structured-data';
+
+const breadcrumbItems = [
+  { name: 'Image Credits', url: '/image-credits/' }
+];
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+---
+
+<SiteLayout
+  title="Image Information & Photography Rights | Cabivella UK"
+  description="Transparency statement on architectural visualizations, editorial concepts, and workshop photography featured across Cabivella digital channels."
+  canonicalPath="/image-credits/"
+  structuredData={breadcrumbSchema}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="82">IMAGE CREDITS</text>
+    </svg>
+  </div>
+
+  <section class="wrap" style="padding-bottom: 70px; max-width: 860px; font-size: 15px; line-height: 1.8; color: #373f38;">
+    <div data-reveal>
+      <span class="section-eyebrow">EDITORIAL TRANSPARENCY</span>
+      <h1 style="margin-bottom: 24px;">Photography & Visual Media Information</h1>
+      <p style="color: var(--muted); font-size: 13px;">Last updated: 1 November 2026</p>
+    </div>
+
+    <div style="margin-top: 32px;" data-reveal>
+      <h2>Photography Policy & Rights Governance</h2>
+      <p>
+        At Cabivella, we uphold strict legal transparency in digital representation. In accordance with our Production Architecture Specification:
+      </p>
+      <ul>
+        <li>
+          <strong>Architectural Concepts:</strong> Initial design visualizations and room concepts are designated as illustrative inspirations to demonstrate proportional possibilities in British floorplans.
+        </li>
+        <li>
+          <strong>Craftsmanship & Heritage:</strong> Workshop illustrations and woodworking imagery showcase authentic artisanal techniques practiced in our master fabrication facilities.
+        </li>
+        <li>
+          <strong>Licensing:</strong> All third-party editorial photography is procured under verified commercial licenses.
+        </li>
+      </ul>
+      <p>
+        If you are a photographer, rights owner or brand representative with questions regarding any digital asset, please direct inquiries to our legal team: <a href="mailto:barisbagirlar@gmail.com" style="color: var(--green); font-weight: 600;">barisbagirlar@gmail.com</a>.
+      </p>
+    </div>
+  </section>
+</SiteLayout>

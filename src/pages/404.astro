@@ -1,0 +1,40 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const breadcrumbItems = [
+  { name: 'Page Not Found', url: '/404.html' }
+];
+---
+
+<SiteLayout
+  title="Page Not Found | Cabivella UK"
+  description="The requested cabinetry page could not be located."
+  canonicalPath="/404.html"
+  noindex={true}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="88">PAGE NOT FOUND</text>
+    </svg>
+  </div>
+
+  <section class="wrap" style="padding: 50px var(--edge) 100px; text-align: center; max-width: 640px;">
+    <div data-reveal>
+      <span class="section-eyebrow">ERROR 404</span>
+      <h1 style="margin-bottom: 18px;">This page does not exist</h1>
+      <p style="font-size: 16px; line-height: 1.6; color: #434c44; margin-bottom: 30px;">
+        The cabinetry collection or page you were seeking may have moved or been updated. Please explore our core collections below.
+      </p>
+
+      <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+        <a href="/" class="solid-btn">Return Home</a>
+        <a href="/collections/kitchens/" class="header-outline-btn">Explore Kitchens</a>
+        <a href="/enquire/" class="header-outline-btn">Contact Us</a>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

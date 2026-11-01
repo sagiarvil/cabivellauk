@@ -1,0 +1,108 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { collectionsData, type CollectionCategory } from '../../../data/collections';
+import { modelsData, type ModelDetail } from '../../../data/models';
+import { getBreadcrumbSchema } from '../../../lib/structured-data';
+
+export async function getStaticPaths() {
+  return Object.values(collectionsData).map((category) => ({
+    params: { category: category.slug },
+    props: { category }
+  }));
+}
+
+export interface Props {
+  category: CollectionCategory;
+}
+
+const { category } = Astro.props;
+const categoryModels: ModelDetail[] = category.modelSlugs
+  .map((slug) => modelsData[slug])
+  .filter(Boolean);
+
+const breadcrumbItems = [
+  { name: category.title, url: `/collections/${category.slug}/` }
+];
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+---
+
+<SiteLayout 
+  title={category.metaTitle}
+  description={category.metaDescription}
+  canonicalPath={`/collections/${category.slug}/`}
+  image={category.image}
+  structuredData={breadcrumbSchema}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="80">{category.title.toUpperCase()}</text>
+    </svg>
+  </div>
+
+  <!-- Category Hero -->
+  <section class="wrap" style="padding-bottom: 40px;">
+    <div style="max-width: 820px;" data-reveal>
+      <span class="section-eyebrow">{category.heroEyebrow}</span>
+      <h1>{category.title}</h1>
+      <p style="font-size: 18px; line-height: 1.6; color: #434c44; margin-top: 14px;">
+        {category.description}
+      </p>
+    </div>
+  </section>
+
+  <!-- Models Grid -->
+  <section class="wrap" style="padding-bottom: 80px;" aria-labelledby="models-heading">
+    <h2 id="models-heading" class="visually-hidden">{category.title} Design Directions</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px;" data-reveal-group>
+      {categoryModels.map((model, idx) => (
+        <article class="v6-category-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
+          <a href={`/collections/${category.slug}/${model.slug}/`} style="display: flex; flex-direction: column; height: 100%;">
+            <div class="v6-card-photo" style="aspect-ratio: 16 / 10;">
+              <img 
+                src={model.image} 
+                alt={`${model.title} cabinetry`} 
+                width="640" 
+                height="400" 
+                loading="lazy" 
+                decoding="async" 
+              />
+            </div>
+            <h3 style="font-size: 22px; margin-bottom: 8px;">{model.title}</h3>
+            <p class="v6-card-copy">{model.description}</p>
+            
+            <div style="margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--gold-dark); font-weight: 600;">
+              <span>{model.leadTime}</span>
+              <span>View Specifications →</span>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- Consultation Banner -->
+  <section class="cta-band" aria-labelledby="cat-cta">
+    <div class="wrap">
+      <div data-reveal>
+        <span class="section-eyebrow" style="color: #d1b88e;">BESPOKE ADVICE</span>
+        <h2 id="cat-cta">Planning a {category.title.toLowerCase()} project?</h2>
+        <p>Our joinery specialists are ready to discuss your room layout, provide material swatches, or review architectural elevations.</p>
+        <div class="cta-band-actions">
+          <a href="/enquire/" class="solid-btn" style="background: var(--gold-warm); color: #1a241c !important;">
+            <span>Enquire about {category.title}</span>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366;">
+            <span>WhatsApp Consultation</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

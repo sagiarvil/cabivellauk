@@ -1,0 +1,48 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { siteConfig } from '../../data/navigation';
+
+const breadcrumbItems = [
+  { name: 'Thank You', url: '/thank-you/' }
+];
+---
+
+<SiteLayout
+  title="Enquiry Received | Cabivella UK"
+  description="Thank you for your bespoke cabinetry enquiry. Our design team will review your specifications."
+  canonicalPath="/thank-you/"
+  noindex={true}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="86">THANK YOU</text>
+    </svg>
+  </div>
+
+  <section class="wrap" style="padding: 40px var(--edge) 90px; text-align: center; max-width: 680px;">
+    <div data-reveal>
+      <div style="width: 60px; height: 60px; border-radius: 50%; background: #eaf4ed; color: #194f29; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+
+      <span class="section-eyebrow">ENQUIRY CONFIRMED</span>
+      <h1 style="margin-bottom: 18px;">Thank you for your project details</h1>
+      <p style="font-size: 17px; line-height: 1.6; color: #434c44; margin-bottom: 32px;">
+        Your bespoke cabinetry enquiry has been safely transmitted to our UK technical team. We will review your room dimensions or schedule requirements and contact you promptly.
+      </p>
+
+      <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+        <a href="/" class="solid-btn">Return to Homepage →</a>
+        <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366;">
+          Instant WhatsApp Chat →
+        </a>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

@@ -1,0 +1,40 @@
+---
+---
+
+<div class="cookie-banner" id="cookie-banner" hidden>
+  <div class="cookie-banner-inner">
+    <div class="cookie-text">
+      We use cookies and similar technologies to ensure seamless navigation, analyse website traffic, and manage bespoke cabinetry enquiries. By clicking "Accept All", you consent to our use of analytics cookies in accordance with UK PECR guidelines. See our <a href="/privacy/">Privacy Policy</a> and <a href="/cookies/">Cookie Policy</a> for details.
+    </div>
+    <div class="cookie-actions">
+      <button type="button" class="cookie-btn-reject" id="cookie-reject-btn">Decline Non-Essential</button>
+      <button type="button" class="cookie-btn-accept" id="cookie-accept-btn">Accept All</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const banner = document.getElementById('cookie-banner');
+  const acceptBtn = document.getElementById('cookie-accept-btn');
+  const rejectBtn = document.getElementById('cookie-reject-btn');
+
+  const consent = localStorage.getItem('cabivella_cookie_consent');
+
+  if (!consent && banner) {
+    banner.removeAttribute('hidden');
+  }
+
+  if (acceptBtn && banner) {
+    acceptBtn.addEventListener('click', () => {
+      localStorage.setItem('cabivella_cookie_consent', 'accepted');
+      banner.setAttribute('hidden', '');
+    });
+  }
+
+  if (rejectBtn && banner) {
+    rejectBtn.addEventListener('click', () => {
+      localStorage.setItem('cabivella_cookie_consent', 'rejected');
+      banner.setAttribute('hidden', '');
+    });
+  }
+</script>

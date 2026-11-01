@@ -1,0 +1,63 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { siteConfig } from '../../data/navigation';
+import { getBreadcrumbSchema } from '../../lib/structured-data';
+
+const breadcrumbItems = [
+  { name: 'Cookie Policy', url: '/cookies/' }
+];
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+---
+
+<SiteLayout
+  title="Cookie Policy | Cabivella UK"
+  description="Learn about our use of cookies, local storage, and privacy controls in compliance with the Privacy and Electronic Communications Regulations (PECR)."
+  canonicalPath="/cookies/"
+  structuredData={breadcrumbSchema}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="82">COOKIE POLICY</text>
+    </svg>
+  </div>
+
+  <section class="wrap" style="padding-bottom: 70px; max-width: 860px; font-size: 15px; line-height: 1.8; color: #373f38;">
+    <div data-reveal>
+      <span class="section-eyebrow">TRANSPARENCY</span>
+      <h1 style="margin-bottom: 24px;">Cookies & Storage Technologies</h1>
+      <p style="color: var(--muted); font-size: 13px;">Last updated: 1 November 2026</p>
+    </div>
+
+    <div style="margin-top: 32px;" data-reveal>
+      <h2>What Are Cookies?</h2>
+      <p>
+        Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work properly, provide a secure user experience, and supply statistical information to site owners.
+      </p>
+
+      <h2>Categories of Cookies We Use</h2>
+      <ul>
+        <li>
+          <strong>Strictly Necessary:</strong> Essential for core website functionality, including edge routing via Cloudflare, CSRF protection, and recording your cookie preferences. These do not require consent under UK PECR.
+        </li>
+        <li>
+          <strong>Form & Security:</strong> Used by Cloudflare Turnstile to verify that form submissions are from human visitors rather than automated spam bots.
+        </li>
+        <li>
+          <strong>Analytics (Optional):</strong> Measures aggregate site visits, page loading speed, and popular cabinetry categories to help us improve user experience. These are activated only upon your explicit consent.
+        </li>
+      </ul>
+
+      <h2>Managing Your Preferences</h2>
+      <p>
+        You can change or withdraw your cookie preferences at any time by clearing your browser cache or clicking "Decline Non-Essential" on our cookie banner.
+      </p>
+      <p>
+        For further questions, email our team at: <a href={`mailto:${siteConfig.email}`} style="color: var(--green); font-weight: 600;">{siteConfig.email}</a>.
+      </p>
+    </div>
+  </section>
+</SiteLayout>

@@ -1,0 +1,145 @@
+---
+import SiteLayout from '../../../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import ProductGallery from '../../../../components/ProductGallery.astro';
+import EnquiryForm from '../../../../components/EnquiryForm.astro';
+import { collectionsData } from '../../../../data/collections';
+import { modelsData, type ModelDetail } from '../../../../data/models';
+import { getBreadcrumbSchema, getProductSchema } from '../../../../lib/structured-data';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+  
+  for (const category of Object.values(collectionsData)) {
+    for (const modelSlug of category.modelSlugs) {
+      const model = modelsData[modelSlug];
+      if (model) {
+        paths.push({
+          params: { category: category.slug, model: model.slug },
+          props: { category, model }
+        });
+      }
+    }
+  }
+
+  return paths;
+}
+
+export interface Props {
+  category: typeof collectionsData[string];
+  model: ModelDetail;
+}
+
+const { category, model } = Astro.props;
+
+const canonicalPath = `/collections/${category.slug}/${model.slug}/`;
+
+const breadcrumbItems = [
+  { name: category.title, url: `/collections/${category.slug}/` },
+  { name: model.title, url: canonicalPath }
+];
+
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+const productSchema = getProductSchema(model, `https://cabivella.co.uk${canonicalPath}`);
+const schemas = [breadcrumbSchema, productSchema];
+---
+
+<SiteLayout 
+  title={model.metaTitle}
+  description={model.metaDescription}
+  canonicalPath={canonicalPath}
+  image={model.image}
+  type="product"
+  structuredData={schemas}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="70">{model.title.toUpperCase()}</text>
+    </svg>
+  </div>
+
+  <article class="wrap" style="padding-bottom: 70px;">
+    <!-- Top Details Grid -->
+    <div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; align-items: start;">
+      <!-- Left: Visual Gallery -->
+      <div data-reveal>
+        <ProductGallery images={model.gallery} title={model.title} />
+      </div>
+
+      <!-- Right: Narrative & Technical Specifications -->
+      <div data-reveal>
+        <span class="section-eyebrow">{category.title.toUpperCase()} SPECIFICATION</span>
+        <h1 style="margin-bottom: 16px;">{model.title}</h1>
+        <p style="font-size: 16px; line-height: 1.7; color: #3c443d; margin-bottom: 24px;">
+          {model.description}
+        </p>
+
+        <!-- Key Features Checklist -->
+        <div style="margin-bottom: 30px; background: #ffffff; padding: 20px; border: 1px solid var(--line); border-radius: 4px;">
+          <h3 style="font-size: 15px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold-dark);">Design Highlights</h3>
+          <ul style="margin: 0; padding-left: 20px; font-size: 14px; color: #434c44; line-height: 1.8;">
+            {model.keyFeatures.map((feat) => (
+              <li>{feat}</li>
+            ))}
+          </ul>
+        </div>
+
+        <!-- Technical Specification Matrix -->
+        <div style="border-top: 1px solid var(--line); padding-top: 20px; margin-bottom: 30px;">
+          <h3 style="font-size: 15px; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.08em;">Technical Specifications</h3>
+          
+          <dl style="display: grid; grid-template-columns: 140px 1fr; gap: 12px 16px; font-size: 13px; margin: 0;">
+            <dt style="font-weight: 600; color: #646b63;">Dimensions:</dt>
+            <dd style="margin: 0; color: #222923;">{model.dimensionsMm}</dd>
+
+            <dt style="font-weight: 600; color: #646b63;">Materials:</dt>
+            <dd style="margin: 0; color: #222923;">{model.materials.join(', ')}</dd>
+
+            <dt style="font-weight: 600; color: #646b63;">Finish Options:</dt>
+            <dd style="margin: 0; color: #222923;">{model.finishOptions.join(', ')}</dd>
+
+            <dt style="font-weight: 600; color: #646b63;">Lead Time:</dt>
+            <dd style="margin: 0; color: #222923; font-weight: 600;">{model.leadTime}</dd>
+
+            <dt style="font-weight: 600; color: #646b63;">Installation:</dt>
+            <dd style="margin: 0; color: #222923;">{model.installationScope}</dd>
+          </dl>
+        </div>
+
+        <a href="#enquire-form" class="solid-btn" style="width: 100%; justify-content: center; padding: 16px;">
+          <span>Request a Tailored Quote for {model.title}</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Interactive Project Enquiry Form with Pre-selected Model -->
+  <section id="enquire-form" style="background: #f4f1ea; padding: 70px 0; border-top: 1px solid var(--line);" aria-labelledby="form-heading">
+    <div class="wrap" style="max-width: 900px;">
+      <div style="text-align: center; margin-bottom: 36px;" data-reveal>
+        <span class="section-eyebrow">TAILORED QUOTATION</span>
+        <h2 id="form-heading">Enquire about the {model.title}</h2>
+        <p style="color: var(--muted); font-size: 16px; max-width: 580px; margin: 8px auto 0;">
+          All Cabivella cabinetry is priced strictly upon receipt of your architectural drawings or room dimensions. Tell us your requirements below.
+        </p>
+      </div>
+
+      <div data-reveal>
+        <EnquiryForm defaultCollection={category.slug} defaultModel={model.title} />
+      </div>
+    </div>
+  </section>
+</SiteLayout>
+
+<style>
+  @media (max-width: 860px) {
+    article > div {
+      grid-template-columns: 1fr !important;
+      gap: 32px !important;
+    }
+  }
+</style>

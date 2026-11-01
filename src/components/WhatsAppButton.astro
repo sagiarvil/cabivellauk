@@ -1,0 +1,44 @@
+---
+import { siteConfig } from '../data/navigation';
+
+export interface Props {
+  floating?: boolean;
+}
+
+const { floating = true } = Astro.props;
+---
+
+{floating ? (
+  <aside aria-label="Direct Cabinetry Concierge" class="premium-whatsapp-float" id="whatsapp-concierge">
+    <a 
+      href={siteConfig.whatsappUrl} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="whatsapp-badge"
+      aria-label="Chat with our Cabinetry Concierge on WhatsApp (+44 7898 262110)"
+    >
+      <div class="whatsapp-icon-ring" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.766-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"/>
+        </svg>
+      </div>
+      <div class="whatsapp-text-wrap">
+        <span class="whatsapp-title">WhatsApp Concierge</span>
+        <span class="whatsapp-sub">+44 7898 262110 · Instant enquiry</span>
+      </div>
+    </a>
+  </aside>
+) : (
+  <a 
+    href={siteConfig.whatsappUrl} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="header-outline-btn whatsapp-header-btn"
+    aria-label="Direct WhatsApp Concierge"
+  >
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.766-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"/>
+    </svg>
+    <span>+44 7898 262110</span>
+  </a>
+)}

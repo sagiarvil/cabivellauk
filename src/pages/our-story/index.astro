@@ -1,0 +1,81 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { siteConfig } from '../../data/navigation';
+import { getBreadcrumbSchema } from '../../lib/structured-data';
+
+const breadcrumbItems = [
+  { name: 'Our Story', url: '/our-story/' }
+];
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+---
+
+<SiteLayout
+  title="Our Story | Turkish Craftsmanship, British Sensibility | Cabivella"
+  description="Discover how Cabivella unites master Turkish furniture joinery with considered British interior design for homes across the United Kingdom."
+  canonicalPath="/our-story/"
+  structuredData={breadcrumbSchema}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <!-- Ghost Watermark Header -->
+  <div class="ghost-watermark-container" aria-hidden="true">
+    <svg viewBox="0 0 1200 110" class="ghost-watermark-svg">
+      <text x="600" y="65" class="ghost-watermark-text" font-size="86">OUR STORY</text>
+    </svg>
+  </div>
+
+  <section class="wrap" style="padding-bottom: 70px; max-width: 980px;">
+    <div data-reveal>
+      <span class="section-eyebrow">THE CABIVELLA PHILOSOPHY</span>
+      <h1 style="margin-bottom: 24px;">Turkish making.<br /><em>British sensibility.</em></h1>
+      
+      <p style="font-size: 19px; line-height: 1.6; color: #2e3830; margin-bottom: 30px; font-weight: 400;">
+        Cabivella was founded with a singular conviction: that exceptional cabinetry should neither sacrifice architectural honesty nor carry ungrounded retail inflation.
+      </p>
+    </div>
+
+    <div style="margin: 40px 0; border-radius: 4px; overflow: hidden;" data-reveal>
+      <img 
+        src="/assets/img/woodworking-illustration.webp" 
+        alt="Woodworking joinery and artisanal Turkish craft tools" 
+        width="980" 
+        height="500" 
+        loading="lazy" 
+        decoding="async"
+      />
+    </div>
+
+    <div style="font-size: 16px; line-height: 1.8; color: #3c453e;" data-reveal>
+      <h2 style="font-size: 28px; margin: 36px 0 16px;">The Harmony of Two Traditions</h2>
+      <p>
+        For centuries, Turkish cabinetmakers have honed generational traditions in timber shaping, intricate mortise joints, and durable moisture-resistant finishing. Meanwhile, British domestic architecture—with its characterful Victorian alcoves, Georgian proportions, and compact urban kitchens—requires a nuanced, understated restraint.
+      </p>
+      <p>
+        Cabivella bridges these two worlds seamlessly. Our design team translates your room requirements into precise millimetre joinery specifications, fabricated in our master partner workshops in Turkey and delivered nationwide across the UK.
+      </p>
+
+      <h2 style="font-size: 28px; margin: 36px 0 16px;">Our Leadership & Commitment</h2>
+      <p>
+        Led by Barış Bağırlı, Cabivella operates with transparent lead times, strict FSC-certified timber sourcing, and zero-compromise Austrian hardware (Blum). We work directly with homeowners, architects, and high-end residential contractors.
+      </p>
+
+      <div style="margin-top: 36px; padding: 24px; background: #ffffff; border: 1px solid var(--line); border-radius: 4px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 18px;">
+        <div>
+          <strong style="display: block; font-size: 16px; color: var(--text);">Connect with Leadership</strong>
+          <span style="font-size: 13px; color: var(--muted);">Direct enquiries and trade partnerships</span>
+        </div>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href={siteConfig.linkedinUrl} target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #0A66C2; border-color: #0A66C2;">
+            <span>LinkedIn Profile</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a href={`mailto:${siteConfig.email}`} class="solid-btn">
+            <span>Direct Email</span>
+            <span aria-hidden="true">✉</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

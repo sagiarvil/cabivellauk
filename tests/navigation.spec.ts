@@ -1,0 +1,23 @@
+import { test, expect } from '@playwright/test';
+
+test.describe('Cabivella Navigation & Contact Integrity', () => {
+  test('Header and footer contain verified email, WhatsApp and LinkedIn', async ({ page }) => {
+    await page.goto('/');
+
+    // Check email link
+    const emailLinks = page.locator('a[href^="mailto:barisbagirlar@gmail.com"]');
+    await expect(emailLinks.first()).toBeVisible();
+
+    // Check WhatsApp floating concierge
+    const whatsappLink = page.locator('a[href*="447898262110"]');
+    await expect(whatsappLink.first()).toBeVisible();
+
+    // Check LinkedIn link
+    const linkedinLink = page.locator('a[href="https://www.linkedin.com/in/barisbagirlar/"]');
+    await expect(linkedinLink.first()).toBeVisible();
+
+    // Check collections mega navigation links
+    await expect(page.locator('nav.desktop-nav a[href="/collections/kitchens/"]')).toBeVisible();
+    await expect(page.locator('nav.desktop-nav a[href="/collections/bathrooms/"]')).toBeVisible();
+  });
+});

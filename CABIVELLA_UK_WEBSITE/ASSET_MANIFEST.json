@@ -1,0 +1,37 @@
+{
+  "photo_library": {
+    "hero": "local:hero-inspiration.webp",
+    "kitchen": "local:kitchen-inspiration.webp",
+    "kitchen2": "https://images.pexels.com/photos/19227214/pexels-photo-19227214.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "kitchen3": "https://images.pexels.com/photos/16501286/pexels-photo-16501286.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "kitchen4": "https://images.pexels.com/photos/37153437/pexels-photo-37153437.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "bath": "local:bathroom-inspiration.webp",
+    "bath2": "https://images.pexels.com/photos/39383716/pexels-photo-39383716.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "bath3": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "bath4": "https://images.pexels.com/photos/6585601/pexels-photo-6585601.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "pantry": "local:pantry-inspiration.webp",
+    "pantry2": "https://images.pexels.com/photos/8581021/pexels-photo-8581021.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "pantry3": "https://images.pexels.com/photos/19878513/pexels-photo-19878513.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "coffee": "local:coffee-inspiration.webp",
+    "coffee2": "https://images.pexels.com/photos/6195125/pexels-photo-6195125.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "coffee3": "https://images.pexels.com/photos/3144581/pexels-photo-3144581.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "utility": "local:utility-inspiration.webp",
+    "utility2": "https://images.pexels.com/photos/27626165/pexels-photo-27626165.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "utility3": "https://images.pexels.com/photos/15226810/pexels-photo-15226810.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "doors": "local:doors-inspiration.webp",
+    "doors2": "https://images.pexels.com/photos/19227214/pexels-photo-19227214.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "doors3": "https://images.pexels.com/photos/16501286/pexels-photo-16501286.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "storage": "https://images.pexels.com/photos/15226810/pexels-photo-15226810.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "storage2": "https://images.pexels.com/photos/39383574/pexels-photo-39383574.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  "notes": "Images are design inspiration. Third-party image licensing must be checked before launch. External images use local illustrative fallbacks.",
+  "custom_assets": [
+    "cabivella-crest-transparent.webp",
+    "cabivella-crest-transparent.png",
+    "istanbul-skyline.webp",
+    "woodworking-illustration.webp",
+    "concept-kitchen.webp"
+  ],
+  "logo": "assets/img/cabivella-crest-transparent.webp",
+  "image_fallbacks": "47 remote Pexels references mapped to site-local category visuals when remote loading fails"
+}

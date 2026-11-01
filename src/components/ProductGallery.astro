@@ -1,0 +1,64 @@
+---
+import ResponsivePhoto from './ResponsivePhoto.astro';
+
+export interface Props {
+  images: string[];
+  title: string;
+}
+
+const { images, title } = Astro.props;
+---
+
+<div class="product-gallery">
+  <div class="gallery-main">
+    <ResponsivePhoto 
+      src={images[0]} 
+      alt={`${title} - Primary Architectural View`} 
+      width={1200} 
+      height={800} 
+      eager={true} 
+      className="main-view"
+    />
+  </div>
+
+  {images.length > 1 && (
+    <div class="gallery-thumbs">
+      {images.map((img, idx) => (
+        <div class="thumb-item">
+          <ResponsivePhoto 
+            src={img} 
+            alt={`${title} - Detail view ${idx + 1}`} 
+            width={400} 
+            height={300} 
+          />
+        </div>
+      ))}
+    </div>
+  )}
+</div>
+
+<style>
+  .product-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .gallery-main {
+    border-radius: 4px;
+    overflow: hidden;
+    background: #e8e5dc;
+    aspect-ratio: 16 / 10;
+  }
+  .gallery-thumbs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+  }
+  .thumb-item {
+    border-radius: 3px;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    background: #e8e5dc;
+    border: 1px solid var(--line);
+  }
+</style>

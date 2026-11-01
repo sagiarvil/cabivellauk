@@ -1,0 +1,1 @@
+V6: Replaced the actual index.html homepage — NOT only a design mock-up. Rebuilt visual hero and six-card category rail with screenshot-derived concept visual assets. Rebuilt every header consistently with functional search, dropdown menu, and mobile navigation. No fabricated UK showroom, phone or email. Kept all existing model, Our Story, Trade, enquiry and legal pages.

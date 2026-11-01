@@ -1,0 +1,135 @@
+---
+import { mainNav, siteConfig } from '../data/navigation';
+import WhatsAppButton from './WhatsAppButton.astro';
+
+export interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+---
+
+<header class="site-header" id="site-header">
+  <!-- UK Top Utility Bar -->
+  <div class="uk-utility">
+    <div class="uk-utility-inner wrap">
+      <span class="utility-country">
+        <span aria-hidden="true">🇬🇧</span> UNITED KINGDOM
+      </span>
+      <span class="utility-separator"></span>
+      <span class="utility-note">Cabinetry for considered interiors</span>
+      <span class="utility-spacer"></span>
+      <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+      <span class="utility-separator"></span>
+      <a href="/trade/">For Trade & Professionals ↗</a>
+      <a href="/our-story/">Our Story</a>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <div class="head-inner wrap">
+    <a href="/" class="identity" aria-label="Cabivella home">
+      <img 
+        src="/assets/img/cabivella-crest-transparent.webp" 
+        alt="Cabivella Crest" 
+        class="brand-crest" 
+        width="58" 
+        height="52"
+        loading="eager"
+        decoding="async"
+      />
+      <span class="brand-typography">
+        <strong>CABIVELLA</strong>
+        <small><i></i> CO.UK <i></i></small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main Navigation">
+      {mainNav.map((item) => (
+        <a 
+          href={item.href} 
+          class={currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href)) ? 'is-active' : ''}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <div class="header-actions">
+      <!-- WhatsApp Direct Concierge Link -->
+      <WhatsAppButton floating={false} />
+
+      <!-- LinkedIn Profile Link -->
+      <a 
+        href={siteConfig.linkedinUrl} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="header-outline-btn"
+        aria-label="Cabivella on LinkedIn"
+        title="Connect with Barış Bağırlı on LinkedIn"
+      >
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true">
+          <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.32a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/>
+        </svg>
+      </a>
+
+      <!-- Primary Enquire Button -->
+      <a href="/enquire/" class="header-contact">
+        <span>Enquire a Project</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <!-- Mobile Menu Toggle Button -->
+    <button 
+      type="button" 
+      class="menu-toggle" 
+      id="menu-toggle-btn"
+      aria-label="Toggle navigation menu"
+      aria-expanded="false"
+      aria-controls="mobile-nav-menu"
+    >
+      <span class="menu-lines" aria-hidden="true">
+        <i></i><i></i>
+      </span>
+      <span class="menu-title">Menu</span>
+    </button>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <nav class="mobile-menu" id="mobile-nav-menu" hidden aria-label="Mobile Navigation">
+    <div class="mobile-v6-list">
+      {mainNav.map((item) => (
+        <a href={item.href}>{item.label}</a>
+      ))}
+    </div>
+    <div class="mobile-bottom">
+      <a href={`mailto:${siteConfig.email}`}>Email: {siteConfig.email}</a>
+      <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer">WhatsApp: {siteConfig.phone}</a>
+      <a href={siteConfig.linkedinUrl} target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+      <a href="/materials/">Materials & Finishes</a>
+      <a href="/trade/">Trade & Professionals</a>
+      <a href="/enquire/" class="header-contact" style="justify-content: center; margin-top: 10px;">
+        Enquire a Project →
+      </a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  // Mobile menu interactive toggle
+  const toggleBtn = document.getElementById('menu-toggle-btn');
+  const mobileMenu = document.getElementById('mobile-nav-menu');
+
+  if (toggleBtn && mobileMenu) {
+    toggleBtn.addEventListener('click', () => {
+      const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+      toggleBtn.setAttribute('aria-expanded', String(!isExpanded));
+      if (isExpanded) {
+        mobileMenu.setAttribute('hidden', '');
+      } else {
+        mobileMenu.removeAttribute('hidden');
+      }
+    });
+  }
+</script>
