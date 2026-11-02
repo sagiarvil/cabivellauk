@@ -22,9 +22,7 @@ export const siteConfig = {
 export const mainNav: NavItem[] = [
   { label: 'Kitchens', href: '/collections/kitchens/' },
   { label: 'Bathrooms', href: '/collections/bathrooms/' },
-  { label: 'Pantry', href: '/collections/pantry-larder/' },
   { label: 'Coffee Stations', href: '/collections/coffee-stations/' },
-  { label: 'Storage', href: '/collections/fitted-storage/' },
   { label: 'Kitchen Doors', href: '/collections/kitchen-doors/' },
   { label: 'Our Story', href: '/our-story/' },
   { label: 'Trade', href: '/trade/' }
