@@ -69,99 +69,364 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
   <!-- Ghost Watermark -->
   <DynamicWatermark text={category.title} />
 
-  <!-- Models Section Header with Count & Single Semantic H1 -->
-  <section class="wrap models-header-strip" data-reveal>
-    <div class="section-divider-bar">
-      <h1 class="category-main-heading">{category.title}</h1>
-      <span class="counter-badge">{categoryModels.length} Specifications Available</span>
-    </div>
+      {category.slug === 'kitchens' ? (
+      <!-- LINEADECOR ARCHITECTURAL KITCHENS STRUCTURE (1:1 FIDELITY) -->
+      <section class="wrap linea-kitchens-wrapper" data-reveal>
+        <!-- Centered Header & Category Switcher -->
+        <div class="linea-top-header">
+          <h1 class="linea-main-title" data-active-title>KITCHENS</h1>
+          <p class="linea-title-sub">Bespoke Architectural Cabinetry Engineered for British Living</p>
+          
+          <div class="linea-category-switcher" role="tablist" aria-label="Kitchen Style Switcher">
+            <button type="button" class="linea-switch-btn active" data-kitchen-switch="all" role="tab" aria-selected="true">
+              <span class="btn-label">All Kitchens</span>
+              <span class="btn-count">({categoryModels.length})</span>
+            </button>
+            <button type="button" class="linea-switch-btn" data-kitchen-switch="modern" role="tab" aria-selected="false">
+              <span class="btn-label">Modern Kitchens</span>
+              <span class="btn-count">({categoryModels.filter(m => m.style === 'modern').length})</span>
+            </button>
+            <button type="button" class="linea-switch-btn" data-kitchen-switch="classic" role="tab" aria-selected="false">
+              <span class="btn-label">Classic Kitchens</span>
+              <span class="btn-count">({categoryModels.filter(m => m.style === 'classic').length})</span>
+            </button>
+          </div>
+        </div>
 
-    {category.slug === 'kitchens' && (
-      <div class="style-filter-strip" role="tablist" aria-label="Kitchen style filters">
-        <button type="button" class="style-filter-btn active" data-kitchen-filter="all">
-          <span>All Architectural Kitchens</span>
-          <span class="filter-count">({categoryModels.length})</span>
-        </button>
-        <button type="button" class="style-filter-btn" data-kitchen-filter="modern">
-          <span>Modern Architectural</span>
-          <span class="filter-count">({categoryModels.filter(m => m.style === 'modern').length})</span>
-        </button>
-        <button type="button" class="style-filter-btn" data-kitchen-filter="classic">
-          <span>Classic Heritage</span>
-          <span class="filter-count">({categoryModels.filter(m => m.style === 'classic').length})</span>
-        </button>
-      </div>
-    )}
-  </section>
+        <!-- Sub-Toolbar (Filters + Grid Density Toggle) -->
+        <div class="linea-sub-toolbar">
+          <div class="linea-toolbar-left">
+            <button type="button" class="linea-filters-trigger" data-filter-toggle aria-expanded="false">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="4" y1="21" x2="4" y2="14"></line>
+                <line x1="4" y1="10" x2="4" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12" y2="3"></line>
+                <line x1="20" y1="21" x2="20" y2="16"></line>
+                <line x1="20" y1="12" x2="20" y2="3"></line>
+                <line x1="1" y1="14" x2="7" y2="14"></line>
+                <line x1="9" y1="8" x2="15" y2="8"></line>
+                <line x1="17" y1="16" x2="23" y2="16"></line>
+              </svg>
+              <span>FILTERS</span>
+            </button>
+          </div>
 
-  <!-- Models Grid -->
-  <section class="wrap" style="padding-bottom: 90px;">
-    
-    <div class="models-responsive-grid" data-reveal-group>
-      {categoryModels.map((model, idx) => (
-        <article 
-          class="v6-category-card" 
-          data-reveal 
-          data-reveal-delay={String((idx % 3) + 1)}
-          data-kitchen-style={model.style || 'modern'}
-        >
-          <a href={`/collections/${category.slug}/${model.slug}/`} class="card-visual-link">
-            <div class="card-image-wrapper">
-              <ResponsivePhoto 
-                src={model.image} 
-                alt={`${model.title} - British bespoke cabinetry`} 
-                width={700} 
-                height={550} 
-                className="card-photo"
-              />
-            </div>
-          </a>
-          <div class="card-info-body">
-            <span class="card-eyebrow">{model.style ? `${model.style.toUpperCase()} SUITE` : `${category.title.toUpperCase()} SPECIFICATION`}</span>
-            <h3 class="card-title">
-              <a href={`/collections/${category.slug}/${model.slug}/`}>{model.title}</a>
-            </h3>
-            <p class="card-description">{model.description}</p>
+          <div class="linea-toolbar-center">
+            <span class="linea-status-text" data-active-count>{categoryModels.length} Specifications Available</span>
+          </div>
 
-            <div class="card-meta-row">
-              <span class="card-price-ref">
-                <span class="ref-label">Ref:</span>
-                <strong>{model.materials[0]?.split(' ')[0] || 'Bespoke'}</strong>
-              </span>
-            </div>
-
-            <div class="card-action-bar">
-              <a href={`/collections/${category.slug}/${model.slug}/`} class="card-detail-btn">
-                <span>View Specifications</span>
-                <span aria-hidden="true" class="arrow">→</span>
-              </a>
+          <div class="linea-toolbar-right">
+            <div class="linea-density-switcher" role="group" aria-label="Layout view mode">
+              <!-- 3x3 Grid Toggle -->
+              <button type="button" class="density-btn" data-grid-density="3" aria-label="3-column grid view" title="Compact 3-column view">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="3" width="4" height="4"></rect>
+                  <rect x="10" y="3" width="4" height="4"></rect>
+                  <rect x="17" y="3" width="4" height="4"></rect>
+                  <rect x="3" y="10" width="4" height="4"></rect>
+                  <rect x="10" y="10" width="4" height="4"></rect>
+                  <rect x="17" y="10" width="4" height="4"></rect>
+                  <rect x="3" y="17" width="4" height="4"></rect>
+                  <rect x="10" y="17" width="4" height="4"></rect>
+                  <rect x="17" y="17" width="4" height="4"></rect>
+                </svg>
+              </button>
+              <!-- 2x2 Large View Toggle (Default Active) -->
+              <button type="button" class="density-btn active" data-grid-density="2" aria-label="2-column editorial view" title="Large 2-column view">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                </svg>
+              </button>
             </div>
           </div>
-        </article>
-      ))}
-    </div>
-  </section>
+        </div>
 
-  <script is:inline>
+        <!-- Filter Drawer Panel -->
+        <div class="linea-filter-panel" data-filter-drawer aria-hidden="true">
+          <div class="filter-panel-inner">
+            <div class="filter-panel-col">
+              <span class="filter-col-heading">Joinery Style</span>
+              <div class="filter-options-row">
+                <button type="button" class="filter-chip-btn active" data-filter-sub="all">All Styles</button>
+                <button type="button" class="filter-chip-btn" data-filter-sub="modern">Modern Architectural</button>
+                <button type="button" class="filter-chip-btn" data-filter-sub="classic">Classic Heritage</button>
+              </div>
+            </div>
+            <div class="filter-panel-col">
+              <span class="filter-col-heading">Architectural Highlights</span>
+              <div class="filter-options-row">
+                <span class="filter-info-tag">Recessed Gola Profiles</span>
+                <span class="filter-info-tag">Solid Timber Dovetailing</span>
+                <span class="filter-info-tag">Blum Legrabox Motion</span>
+                <span class="filter-info-tag">Concealed Larder Pantries</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2-Column Architectural Grid (Toggleable to 3-Column) -->
+        <div class="linea-card-grid density-2" data-kitchen-grid data-reveal-group>
+          {categoryModels.map((model, idx) => {
+            const shortName = model.title.split(' ')[0];
+            const subTitle = model.title.split(' ').slice(1).join(' ');
+            return (
+              <article 
+                class="linea-suite-card" 
+                data-reveal 
+                data-reveal-delay={String((idx % 2) + 1)}
+                data-kitchen-style={model.style || 'modern'}
+              >
+                <!-- Title ABOVE the Image (1:1 with Lineadecor) -->
+                <div class="suite-head-wrap">
+                  <h2 class="suite-primary-name">
+                    <a href={`/collections/${category.slug}/${model.slug}/`}>{shortName}</a>
+                  </h2>
+                  <span class="suite-sub-name">{subTitle}</span>
+                </div>
+
+                <!-- Interactive Image Slider Stage with Circular Glass Arrows -->
+                <div class="suite-photo-stage" data-card-slider>
+                  <a href={`/collections/${category.slug}/${model.slug}/`} class="suite-link-wrap" tabindex="-1">
+                    <img 
+                      src={model.gallery[0]} 
+                      alt={`${model.title} - British bespoke cabinetry`} 
+                      width="1200" 
+                      height="750" 
+                      class="suite-slider-img"
+                      loading="lazy"
+                    />
+                  </a>
+
+                  {model.gallery.length > 1 && (
+                    <>
+                      <button 
+                        type="button" 
+                        class="suite-slider-btn prev-btn" 
+                        aria-label={`Previous image of ${shortName}`}
+                        data-slider-prev
+                      >
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                      </button>
+                      <button 
+                        type="button" 
+                        class="suite-slider-btn next-btn" 
+                        aria-label={`Next image of ${shortName}`}
+                        data-slider-next
+                      >
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                      </button>
+
+                      <div class="suite-slide-counter">
+                        <span class="cur-num">1</span> / <span class="tot-num">{model.gallery.length}</span>
+                      </div>
+                    </>
+                  )}
+
+                  <!-- Hidden Data Bucket for Slider JS -->
+                  <div hidden data-gallery-data={JSON.stringify(model.gallery)}></div>
+                </div>
+
+                <!-- Suite Footer Info -->
+                <div class="suite-foot-row">
+                  <div class="suite-meta-chips">
+                    <span class="chip-cat">{model.style === 'modern' ? 'Modern Suite' : 'Classic Suite'}</span>
+                    <span class="chip-dot">•</span>
+                    <span class="chip-mat">Ref: {model.materials[0]?.split(' ')[0] || 'Bespoke'}</span>
+                  </div>
+                  <a href={`/collections/${category.slug}/${model.slug}/`} class="suite-view-link">
+                    <span>View Specifications</span>
+                    <span aria-hidden="true" class="arrow">→</span>
+                  </a>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    ) : (
+      <!-- STANDARD COLLECTION GRID FOR OTHER CATEGORIES -->
+      <>
+        <section class="wrap models-header-strip" data-reveal>
+          <div class="section-divider-bar">
+            <h1 class="category-main-heading">{category.title}</h1>
+            <span class="counter-badge">{categoryModels.length} Specifications Available</span>
+          </div>
+        </section>
+
+        <section class="wrap" style="padding-bottom: 90px;">
+          <div class="models-responsive-grid" data-reveal-group>
+            {categoryModels.map((model, idx) => (
+              <article 
+                class="v6-category-card" 
+                data-reveal 
+                data-reveal-delay={String((idx % 3) + 1)}
+              >
+                <a href={`/collections/${category.slug}/${model.slug}/`} class="card-visual-link">
+                  <div class="card-image-wrapper">
+                    <ResponsivePhoto 
+                      src={model.image} 
+                      alt={`${model.title} - British bespoke cabinetry`} 
+                      width={700} 
+                      height={550} 
+                      className="card-photo"
+                    />
+                  </div>
+                </a>
+                <div class="card-info-body">
+                  <span class="card-eyebrow">{category.title.toUpperCase()} SPECIFICATION</span>
+                  <h3 class="card-title">
+                    <a href={`/collections/${category.slug}/${model.slug}/`}>{model.title}</a>
+                  </h3>
+                  <p class="card-description">{model.description}</p>
+
+                  <div class="card-meta-row">
+                    <span class="card-price-ref">
+                      <span class="ref-label">Ref:</span>
+                      <strong>{model.materials[0]?.split(' ')[0] || 'Bespoke'}</strong>
+                    </span>
+                  </div>
+
+                  <div class="card-action-bar">
+                    <a href={`/collections/${category.slug}/${model.slug}/`} class="card-detail-btn">
+                      <span>View Specifications</span>
+                      <span aria-hidden="true" class="arrow">→</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      </>
+    )}
+
+    <script is:inline>
     document.addEventListener('DOMContentLoaded', () => {
-      const filterButtons = document.querySelectorAll('[data-kitchen-filter]');
-      if (!filterButtons.length) return;
+      // 1. In-Card Carousel Sliders (Exact Lineadecor style)
+      document.querySelectorAll('[data-card-slider]').forEach(stage => {
+        const dataBucket = stage.querySelector('[data-gallery-data]');
+        if (!dataBucket) return;
+        const gallery = JSON.parse(dataBucket.getAttribute('data-gallery-data') || '[]');
+        if (gallery.length <= 1) return;
 
-      filterButtons.forEach(btn => {
+        let currentIndex = 0;
+        const imgEl = stage.querySelector('.suite-slider-img');
+        const curEl = stage.querySelector('.cur-num');
+        const prevBtn = stage.querySelector('[data-slider-prev]');
+        const nextBtn = stage.querySelector('[data-slider-next]');
+
+        function showSlide(newIndex) {
+          currentIndex = (newIndex + gallery.length) % gallery.length;
+          imgEl.style.opacity = '0.5';
+          const preloader = new Image();
+          preloader.onload = () => {
+            imgEl.src = gallery[currentIndex];
+            imgEl.style.opacity = '1';
+          };
+          preloader.src = gallery[currentIndex];
+          if (curEl) curEl.textContent = String(currentIndex + 1);
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showSlide(currentIndex - 1);
+          });
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            showSlide(currentIndex + 1);
+          });
+        }
+      });
+
+      // 2. Kitchen Category Switcher (All / Modern / Classic)
+      const switchButtons = document.querySelectorAll('[data-kitchen-switch]');
+      const activeTitle = document.querySelector('[data-active-title]');
+      const activeCount = document.querySelector('[data-active-count]');
+      const kitchenCards = document.querySelectorAll('.linea-suite-card');
+
+      switchButtons.forEach(btn => {
         btn.addEventListener('click', () => {
-          const targetFilter = btn.getAttribute('data-kitchen-filter');
-          filterButtons.forEach(b => b.classList.remove('active'));
+          const target = btn.getAttribute('data-kitchen-switch');
+          switchButtons.forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
           btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
 
-          const cards = document.querySelectorAll('.v6-category-card[data-kitchen-style]');
-          cards.forEach(card => {
+          let visible = 0;
+          kitchenCards.forEach(card => {
             const style = card.getAttribute('data-kitchen-style');
-            if (targetFilter === 'all' || style === targetFilter) {
+            if (target === 'all' || style === target) {
               card.style.display = '';
+              visible++;
             } else {
               card.style.display = 'none';
             }
           });
+
+          if (activeCount) activeCount.textContent = `${visible} Specifications Available`;
+          if (activeTitle) {
+            if (target === 'modern') activeTitle.textContent = 'MODERN KITCHENS';
+            else if (target === 'classic') activeTitle.textContent = 'CLASSIC KITCHENS';
+            else activeTitle.textContent = 'KITCHENS';
+          }
+        });
+      });
+
+      // 3. Grid Density Switcher (2-column vs 3-column)
+      const gridContainer = document.querySelector('[data-kitchen-grid]');
+      const densityButtons = document.querySelectorAll('[data-grid-density]');
+
+      densityButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const density = btn.getAttribute('data-grid-density');
+          densityButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          if (gridContainer) {
+            gridContainer.classList.remove('density-2', 'density-3');
+            gridContainer.classList.add(`density-${density}`);
+          }
+        });
+      });
+
+      // 4. Filters Drawer Toggle
+      const filterToggle = document.querySelector('[data-filter-toggle]');
+      const filterDrawer = document.querySelector('[data-filter-drawer]');
+      if (filterToggle && filterDrawer) {
+        filterToggle.addEventListener('click', () => {
+          const isOpen = filterDrawer.classList.toggle('is-open');
+          filterToggle.setAttribute('aria-expanded', String(isOpen));
+          filterToggle.classList.toggle('active', isOpen);
+        });
+      }
+
+      // 5. Drawer Chip Filters
+      const subChips = document.querySelectorAll('[data-filter-sub]');
+      subChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          const sub = chip.getAttribute('data-filter-sub');
+          subChips.forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+
+          // Trigger corresponding switch button
+          const matchingSwitch = document.querySelector(`[data-kitchen-switch="${sub}"]`);
+          if (matchingSwitch) matchingSwitch.click();
         });
       });
     });
@@ -209,6 +474,387 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
     font-size: 11.5px;
     color: var(--muted);
     font-weight: 600;
+  }
+
+
+  /* ==========================================================================
+     LINEADECOR ARCHITECTURAL KITCHENS STYLING (1:1 FIDELITY)
+     ========================================================================== */
+  .linea-kitchens-wrapper {
+    padding-bottom: 100px;
+  }
+
+  .linea-top-header {
+    text-align: center;
+    padding: 24px 0 40px;
+  }
+  .linea-main-title {
+    font-family: var(--font-heading);
+    font-size: clamp(32px, 4.5vw, 52px);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--text);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .linea-title-sub {
+    font-size: 15.5px;
+    color: #555e56;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+  }
+
+  /* Two/Three Rectangular Switcher Buttons */
+  .linea-category-switcher {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .linea-switch-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 240px;
+    padding: 16px 36px;
+    border: 1px solid #d4cfc5;
+    background: #ffffff;
+    color: var(--text);
+    font-family: var(--font-heading);
+    font-size: 14.5px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    border-radius: 2px;
+  }
+  .linea-switch-btn:hover {
+    border-color: var(--text);
+    background: #fbf9f5;
+  }
+  .linea-switch-btn.active {
+    background: #1a261d;
+    color: #f7f5ed;
+    border-color: #1a261d;
+    box-shadow: 0 4px 16px rgba(26, 38, 29, 0.15);
+  }
+  .linea-switch-btn .btn-count {
+    font-size: 12px;
+    opacity: 0.75;
+    font-weight: 400;
+  }
+  .linea-switch-btn.active .btn-count {
+    color: var(--gold-warm);
+    opacity: 1;
+  }
+
+  /* Sub-Toolbar Strip */
+  .linea-sub-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 16px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 40px;
+  }
+  .linea-filters-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 22px;
+    border: 1px solid #d0ccc4;
+    background: #ffffff;
+    color: var(--text);
+    font-family: var(--font-heading);
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+  }
+  .linea-filters-trigger:hover,
+  .linea-filters-trigger.active {
+    border-color: #1a261d;
+    background: #1a261d;
+    color: #f7f5ed;
+  }
+  .linea-status-text {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: #6a736b;
+    letter-spacing: 0.02em;
+  }
+
+  /* Density Switcher */
+  .linea-density-switcher {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .density-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #e0ded6;
+    background: #ffffff;
+    color: #8c887e;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .density-btn:hover {
+    border-color: #1a261d;
+    color: #1a261d;
+  }
+  .density-btn.active {
+    border-color: #1a261d;
+    background: #fbf9f5;
+    color: #1a261d;
+  }
+
+  /* Filter Drawer */
+  .linea-filter-panel {
+    display: none;
+    background: #fbf9f5;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 40px;
+    animation: fadeIn 0.25s ease forwards;
+  }
+  .linea-filter-panel.is-open {
+    display: block;
+  }
+  .filter-panel-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .filter-col-heading {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-dark);
+    margin-bottom: 12px;
+  }
+  .filter-options-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .filter-chip-btn {
+    padding: 7px 16px;
+    border-radius: 20px;
+    border: 1px solid #d4cfc5;
+    background: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .filter-chip-btn.active,
+  .filter-chip-btn:hover {
+    background: #1a261d;
+    color: #f7f5ed;
+    border-color: #1a261d;
+  }
+  .filter-info-tag {
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: #eae6dd;
+    font-size: 12.5px;
+    color: #3b423c;
+    font-weight: 500;
+  }
+
+  /* Architectural Grid Layouts (2-Col vs 3-Col) */
+  .linea-card-grid {
+    display: grid;
+    transition: all 0.3s ease;
+  }
+  .linea-card-grid.density-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 54px 44px;
+  }
+  .linea-card-grid.density-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 30px;
+  }
+
+  @media (max-width: 960px) {
+    .linea-card-grid.density-2,
+    .linea-card-grid.density-3 {
+      grid-template-columns: 1fr;
+      gap: 48px;
+    }
+    .linea-switch-btn {
+      min-width: 100%;
+    }
+  }
+
+  /* Architectural Suite Card */
+  .linea-suite-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  /* Title ABOVE Image (1:1 with Lineadecor) */
+  .suite-head-wrap {
+    margin-bottom: 14px;
+  }
+  .suite-primary-name {
+    font-family: var(--font-heading);
+    font-size: clamp(24px, 2.2vw, 32px);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    margin: 0 0 4px 0;
+  }
+  .suite-primary-name a {
+    color: var(--text);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .suite-primary-name a:hover {
+    color: var(--gold-dark);
+  }
+  .suite-sub-name {
+    display: block;
+    font-size: 13.5px;
+    color: #5d665e;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+  /* Image Slider Stage */
+  .suite-photo-stage {
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    background: #f2ede4;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 32px rgba(20, 28, 22, 0.07);
+  }
+  .suite-link-wrap {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .suite-slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.25s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .suite-photo-stage:hover .suite-slider-img {
+    transform: scale(1.025);
+  }
+
+  /* Circular Glass Arrows (Lineadecor signature) */
+  .suite-slider-btn {
+    position: absolute;
+    bottom: 16px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid rgba(255, 255, 255, 0.85);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    opacity: 0.85;
+  }
+  .suite-slider-btn:hover {
+    background: rgba(0, 0, 0, 0.75);
+    border-color: #ffffff;
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  .suite-slider-btn.prev-btn {
+    left: 16px;
+  }
+  .suite-slider-btn.next-btn {
+    right: 16px;
+  }
+
+  /* Slide Counter Pill */
+  .suite-slide-counter {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    color: #ffffff;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    pointer-events: none;
+  }
+
+  /* Suite Foot Row */
+  .suite-foot-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+    margin-top: 14px;
+  }
+  .suite-meta-chips {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    color: #555e56;
+  }
+  .chip-cat {
+    font-weight: 600;
+    color: var(--gold-dark);
+  }
+  .chip-dot {
+    color: #c0bbb0;
+  }
+  .chip-mat {
+    color: #444c45;
+  }
+  .suite-view-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--green);
+    text-decoration: none;
+    transition: gap 0.2s ease, color 0.2s ease;
+  }
+  .suite-view-link:hover {
+    gap: 10px;
+    color: var(--gold-dark);
   }
 
   .category-hero-section {
