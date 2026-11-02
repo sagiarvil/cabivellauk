@@ -1768,7 +1768,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "/assets/img/models/real_bathrooms/bath_5000465933_2.webp",
       "/assets/img/models/real_bathrooms/bath_5000465933_3.webp"
 ],
-    "description": "The perfect vertical accompaniment to fluted vanities. Conceals spare towels, skincare collections, and household essentials in an elegant tall silhouette.",
+    "description": "A refined architectural vertical accompaniment to fluted vanities. Conceals spare towels, skincare collections, and household essentials in an elegant tall silhouette.",
     "keyFeatures": [
       "Full-height 1750mm storage column with 5 internal compartments",
       "Reversible soft-closing door with 110-degree opening angle",
@@ -2053,7 +2053,7 @@ export const modelsData: Record<string, ModelDetail> = {
     ],
     "description": "Seamlessly integrated behind matching cabinetry frontals, opening up into a dedicated floor-to-ceiling walk-in pantry chamber.",
     "keyFeatures": [
-      "Disguised cabinet front door matching adjacent kitchen runs perfectly",
+      "Disguised cabinet front door seamlessly aligning with adjacent kitchen runs",
       "Floor-to-ceiling wrap-around open shelving for bulk dry store visibility",
       "Dedicated countertop for high-draw appliances (slow cooker, dehydrator)",
       "Automated motion-sensor overhead warm LED illumination"
@@ -2366,7 +2366,7 @@ export const modelsData: Record<string, ModelDetail> = {
       "/assets/img/models/utility-room-cabinets.webp",
       "/assets/img/models/boot-room-cabinetry.webp"
     ],
-    "description": "The ultimate organisational workhorse for laundry and boot rooms. Dedicated compartments keep ironing boards, vacuum cleaners, and mops neatly concealed.",
+    "description": "A comprehensive organisational system for laundry and boot rooms. Dedicated compartments keep ironing boards, vacuum cleaners, and mops neatly concealed.",
     "keyFeatures": [
       "Dedicated vertical slot for tall ironing boards and folding stepladders",
       "Integrated power socket outlet for internal cordless vacuum docking",
@@ -2593,7 +2593,7 @@ export const modelsData: Record<string, ModelDetail> = {
     "keyFeatures": [
       "45-degree chamfered inner rail preventing grime and flour buildup",
       "Custom hinge spacing matching Howdens, Wren, and bespoke carcasses",
-      "Tough factory spray lacquer that will never peel or delaminate like vinyl wrap",
+      "Tough factory spray lacquer offering superior resistance compared to standard vinyl wrap",
       "Available with glazed door frames ready for reeded or fluted glass inserts"
     ]
   },
@@ -6438,7 +6438,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22JUL2004ATAD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22JUL2004ATAD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Mayfair 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Mayfair 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6472,7 +6472,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22VCA2005KGKG_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22VCA2005KGKG_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Belgravia 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Belgravia 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6506,7 +6506,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22VCA2006KGKG_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22VCA2006KGKG_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kensington 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kensington 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6540,7 +6540,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22OLA2006QFQG_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22OLA2006QFQG_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Chelsea 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Chelsea 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6574,7 +6574,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22OLA2005QFQG_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22OLA2005QFQG_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Knightsbridge 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Knightsbridge 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6608,7 +6608,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22BLO2006FTFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22BLO2006FTFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Westminster 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Westminster 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6642,7 +6642,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22BLO2005FTFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22BLO2005FTFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Marylebone 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Marylebone 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6676,7 +6676,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22BLO2004FTFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22BLO2004FTFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Fitzrovia 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Fitzrovia 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6710,7 +6710,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22VAL2005HZPD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22VAL2005HZPD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Bloomsbury 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Bloomsbury 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6744,7 +6744,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22VAL2006HZPD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22VAL2006HZPD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Hampstead 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Hampstead 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6778,7 +6778,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22SEM2005SLBP_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22SEM2005SLBP_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Highgate 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Highgate 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6812,7 +6812,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22SEM2006SLBP_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22SEM2006SLBP_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Islington 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Islington 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6846,7 +6846,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22ROS2005FSFS_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22ROS2005FSFS_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Richmond 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Richmond 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6880,7 +6880,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22ROS2006FSFS_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22ROS2006FSFS_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Chiswick 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Chiswick 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6914,7 +6914,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wimbledon 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wimbledon 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6948,7 +6948,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EWA2005MWMW_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EWA2005MWMW_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Barnes 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Barnes 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -6982,7 +6982,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EWA2004MWMW_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EWA2004MWMW_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Putney 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Putney 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7016,7 +7016,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22BEM2006FTFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22BEM2006FTFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Battersea 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Battersea 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7050,7 +7050,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22BEM2005FTFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22BEM2005FTFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Clapham 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Clapham 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7084,7 +7084,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LUC2006BSPG_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LUC2006BSPG_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Dulwich 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Dulwich 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7118,7 +7118,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LUC2005BSPG_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LUC2005BSPG_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Greenwich 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Greenwich 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7150,7 +7150,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22AES2001GZFY_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22AES2001GZFY_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Pimlico Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Pimlico Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7183,7 +7183,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22AES2006GZFY_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22AES2006GZFY_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the St James 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the St James 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7215,7 +7215,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22AES2005GZFY_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22AES2005GZFY_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Cotswold 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Cotswold 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7248,7 +7248,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22MTD2001TDZA_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22MTD2001TDZA_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Holborn Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Holborn Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7281,7 +7281,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22MTD2005TDZA_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22MTD2005TDZA_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Soho 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Soho 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7313,7 +7313,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EKL2062TRFS_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EKL2062TRFS_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Primrose 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Primrose 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7346,7 +7346,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EKL2061TRFS_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EKL2061TRFS_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Belsize 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Belsize 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7379,7 +7379,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EKL2052TRFS_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EKL2052TRFS_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Holland Park 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Holland Park 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7412,7 +7412,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EKL2051TRFS_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EKL2051TRFS_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Notting Hill 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Notting Hill 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7446,7 +7446,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LZO2006HZFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LZO2006HZFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Paddington 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Paddington 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7480,7 +7480,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LZO2005HZFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LZO2005HZFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Bayswater 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Bayswater 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7514,7 +7514,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22CCL2001FDQR_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22CCL2001FDQR_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Regent Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Regent Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7547,7 +7547,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22STU2006BMQR_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22STU2006BMQR_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Piccadilly 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Piccadilly 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7579,7 +7579,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22STU2005BMQR_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22STU2005BMQR_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Strand 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Strand 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7611,7 +7611,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSFS_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSFS_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Aldwych Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Aldwych Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7644,7 +7644,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSKJ_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSKJ_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Temple 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Temple 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7676,7 +7676,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSFS_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22PSA2006FSFS_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Clerkenwell 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Clerkenwell 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7708,7 +7708,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSFS_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSFS_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Shoreditch 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Shoreditch 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7741,7 +7741,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSKJ_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22PSA2005FSKJ_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Spitalfields 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Spitalfields 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7774,7 +7774,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSKJ_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22PSA2001FSKJ_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wapping Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wapping Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7808,7 +7808,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22BEM2004FTFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22BEM2004FTFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Canary 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Canary 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7841,7 +7841,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EKL2040TRFS_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EKL2040TRFS_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Blackheath 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Blackheath 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7873,7 +7873,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EKL2004TRFS_1.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EKL2004TRFS_2.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wandsworth 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wandsworth 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7906,7 +7906,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22BET2004PDNO_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22BET2004PDNO_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Fulham 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Fulham 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7939,7 +7939,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LVB2004FDGF_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LVB2004FDGF_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kew 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kew 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -7973,7 +7973,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22JUL2005ATAD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22JUL2005ATAD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Twickenham 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Twickenham 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8006,7 +8006,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LGN2005AFAD_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LGN2005AFAD_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Ealing 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Ealing 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8040,7 +8040,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22ARS20052V2V_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22ARS20052V2V_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Harrow 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Harrow 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8074,7 +8074,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22CCL2005FDQR_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22CCL2005FDQR_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Dulwich Village 5-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Dulwich Village 5-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 5-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8108,7 +8108,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22JUL2006ATAD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22JUL2006ATAD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kingston 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Kingston 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8141,7 +8141,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LGN2006AFAD_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LGN2006AFAD_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Green Park 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Green Park 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8175,7 +8175,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22ARS20062V2V_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22ARS20062V2V_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Victoria 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Victoria 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8208,7 +8208,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22MTD2006TDZA_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22MTD2006TDZA_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Knights 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Knights 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8242,7 +8242,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22CCL2006FDQR_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22CCL2006FDQR_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Hyde Park 6-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Hyde Park 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8276,7 +8276,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22ARS20012V2V_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22ARS20012V2V_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Borough Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Borough Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8310,7 +8310,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LZO2001HZFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LZO2001HZFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Greenwich Park Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Greenwich Park Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8344,7 +8344,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LZO2004HZFD_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LZO2004HZFD_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the St Pancras 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the St Pancras 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8378,7 +8378,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LVB2009FDGF_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LVB2009FDGF_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Covent Garden Architectural Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Covent Garden Architectural Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height architectural configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -8411,7 +8411,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22LDA2004FDFD_2.webp",
           "/assets/img/models/real_fitted_storage/mondi_22LDA2004FDFD_3.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Southwark 4-Door Integrated Wardrobe combines flawless architectural proportions with intelligent full-extension interior storage.",
+      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Southwark 4-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
       "keyFeatures": [
           "Full-height 4-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -14925,7 +14925,7 @@ export const modelsData: Record<string, ModelDetail> = {
         "Stopsol Mirror Glass with Smoked Quarter-Sawn Oak interior",
         "Stopsol Mirror Glass with Matte Fluted Black interior"
     ],
-    "installationScope": "Sits directly upon kitchen countertop or integrated flush within tall wall housing modules in perfect vertical alignment.",
+    "installationScope": "Sits directly upon kitchen countertop or integrated flush within tall wall housing modules in precise vertical alignment.",
     "image": "/images/pantry-storage/mac_system_1.webp",
     "gallery": [
         "/images/pantry-storage/mac_system_1.webp",

@@ -1,30 +1,9 @@
 ---
-import WhatsAppButton from './WhatsAppButton.astro';
-
 interface Props {
   currentPath?: string;
 }
 
 const { currentPath = '/' } = Astro.props;
-
-const navItems = [
-  { href: '/collections/kitchens/', label: 'Kitchens' },
-  { href: '/collections/bathrooms/', label: 'Bathrooms' },
-  { href: '/collections/pantry-larder/', label: 'Pantry' },
-  { href: '/collections/coffee-stations/', label: 'Coffee Stations' },
-  { href: '/collections/fitted-storage/', label: 'Storage' },
-];
-
-const bathroomCollections = [
-  { href: '/collections/signature-suites/', title: 'Signature Suites', desc: 'Curated vanity ensembles & fluted wall-hung suites' },
-  { href: '/collections/aquashield-vanities/', title: 'Aquashield Vanities', desc: '100% moisture-sealed solid thermal units' },
-  { href: '/collections/sculptural-contours/', title: 'Sculptural Contours', desc: 'Organic curves, integrated basins & bespoke consoles' },
-  { href: '/collections/modular-freestanding/', title: 'Modular & Freestanding', desc: 'Flexible modular storage & luxury side cabinets' },
-  { href: '/collections/compact-cloakroom/', title: 'Compact Cloakroom', desc: 'Space-optimised vanities for powder rooms' },
-  { href: '/collections/double-basin-sanctuaries/', title: 'Double Basin Sanctuaries', desc: 'Master bathroom double console arrangements' },
-  { href: '/collections/illuminated-mirrors/', title: 'Illuminated Mirrors & Cabinets', desc: 'LED defogger mirrors, touch sensors & hidden storage' },
-  { href: '/collections/architectural-finishes/', title: 'Architectural Finishes', desc: 'Fluted oak, matte lacquer & brushed bronze accents' }
-];
 
 const isActive = (href: string) => {
   if (href === '/') return currentPath === '/';
@@ -32,176 +11,674 @@ const isActive = (href: string) => {
 };
 ---
 
-<header class="site-header" id="site-header">
-  <!-- Top Utility Bar -->
-  <div class="uk-utility">
-    <div class="container">
-      <div class="uk-utility-inner">
-        <div class="utility-left">
-          <span class="uk-flag-indicator">🇬🇧 <strong>UNITED KINGDOM</strong></span>
-          <span class="utility-separator">|</span>
-          <span class="utility-tagline">Cabinetry for considered interiors</span>
-        </div>
-        <div class="utility-right">
-          <a href="mailto:enquiries@cabivella.co.uk" class="utility-link">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <span>enquiries@cabivella.co.uk</span>
-          </a>
-          <span class="utility-separator">|</span>
-          <a href="/trade/" class="utility-link">For Trade & Specification ↗</a>
-          <span class="utility-separator">|</span>
-          <a href="/our-story/" class="utility-link">Our Story</a>
-        </div>
+<header class="cb-header" id="cabivella-header">
+  <!-- Top Bar -->
+  <div class="cb-top">
+    <div class="cb-container cb-top-inner">
+      <div class="cb-location">
+        <span aria-hidden="true">🇬🇧</span> UNITED KINGDOM
+      </div>
+      <div class="cb-top-message">
+        Bespoke cabinetry for considered interiors
+      </div>
+      <div class="cb-top-right">
+        <a href="mailto:enquiries@cabivella.co.uk">✉ &nbsp;enquiries@cabivella.co.uk</a>
+        <i class="cb-top-divider" aria-hidden="true"></i>
+        <a href="/trade/">For Trade &amp; Specification ↗</a>
       </div>
     </div>
   </div>
 
-  <!-- Main Navigation Bar -->
-  <div class="main-nav-wrapper">
-    <div class="container">
-      <div class="head-inner">
-        <!-- Brand Identity -->
-        <a href="/" class="identity" aria-label="Cabivella UK Home">
-          <img
-            src="/assets/img/cabivella-crest-transparent.webp"
-            alt="Cabivella Crest"
-            class="crest-mark"
-            width="64"
-            height="56"
-            loading="eager"
-            decoding="async"
-          />
-          <div class="brand-copy">
-            <span class="brand-name">CABIVELLA</span>
-            <span class="brand-sub">C O . U K</span>
-          </div>
-        </a>
+  <!-- Main Navigation Inner -->
+  <div class="cb-container cb-main-inner">
+    <!-- Official Brand Crest & Typography -->
+    <a class="cb-brand" href="/" aria-label="Cabivella UK Home">
+      <img
+        src="/assets/img/cabivella-crest-transparent.webp"
+        alt="Cabivella Crest"
+        class="cb-crest"
+        width="58"
+        height="50"
+        loading="eager"
+        decoding="async"
+      />
+      <span class="cb-brand-sep" aria-hidden="true"></span>
+      <span class="cb-brand-copy">
+        <span class="cb-brand-name">CABIVELLA</span>
+        <span class="cb-brand-sub">C O . U K</span>
+      </span>
+    </a>
 
-        <!-- Desktop Navigation -->
-        <nav class="desktop-nav" aria-label="Primary Navigation">
-          {navItems.map((item) => (
-            <a
-              href={item.href}
-              class:list={['nav-item', { active: isActive(item.href) }]}
-            >
-              {item.label}
-            </a>
-          ))}
+    <!-- Desktop Nav Links -->
+    <nav class="cb-nav" aria-label="Primary Navigation">
+      <a href="/collections/kitchens/" class:list={[{ 'is-active': isActive('/collections/kitchens/') }]}>Kitchens</a>
+      <a href="/collections/bathrooms/" class:list={[{ 'is-active': isActive('/collections/bathrooms/') }]}>Bathrooms</a>
+      <a href="/collections/pantry-larder/" class:list={[{ 'is-active': isActive('/collections/pantry-larder/') }]}>Pantry</a>
+      <a href="/collections/coffee-stations/" class:list={[{ 'is-active': isActive('/collections/coffee-stations/') }]}>Coffee Stations</a>
+      <a href="/collections/fitted-storage/" class:list={[{ 'is-active': isActive('/collections/fitted-storage/') }]}>Storage</a>
 
-          <!-- Collections Mega Menu Dropdown -->
-          <div class="dropdown-parent">
-            <button
-              class:list={['nav-item', 'dropdown-trigger', { active: currentPath.startsWith('/collections/') }]}
-              aria-haspopup="true"
-              aria-expanded="false"
-              type="button"
-            >
-              <span>Collections</span>
-              <svg width="10" height="6" viewBox="0 0 10 6" fill="none" class="dropdown-arrow" aria-hidden="true">
-                <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
-
-            <div class="mega-dropdown-menu" role="menu" aria-label="Collections Menu">
-              <div class="mega-dropdown-header">
-                <div class="mega-header-text">
-                  <span class="mega-eyebrow">BATHROOM COLLECTIONS</span>
-                  <span class="mega-subtitle">Curated architectural vanity suites & bespoke cabinetry</span>
-                </div>
-                <a href="/collections/bathrooms/" class="mega-view-all">View All Bathrooms →</a>
-              </div>
-              <div class="mega-grid">
-                {bathroomCollections.map((col) => (
-                  <a href={col.href} class="mega-card" role="menuitem">
-                    <span class="mega-title">{col.title}</span>
-                    <span class="mega-desc">{col.desc}</span>
-                  </a>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <a href="/our-story/" class:list={['nav-item', { active: isActive('/our-story/') }]}>
-            Our Story
-          </a>
-        </nav>
-
-        <!-- Right Actions: Search + WhatsApp + Enquire -->
-        <div class="header-actions">
-          <!-- Minimal Search Trigger -->
-          <a href="/search/" class="search-trigger-btn" aria-label="Search collections and cabinetry">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <circle cx="11" cy="11" r="8"/>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-            </svg>
-          </a>
-
-          <!-- WhatsApp Concierge Pill -->
-          <a
-            href="https://wa.me/447898262110?text=Hello%20Cabivella,%20I%20would%20like%20to%20enquire%20about%20your%20cabinetry"
-            class="header-whatsapp-pill"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="WhatsApp Concierge: +44 7898 262110"
-          >
-            <span class="wa-dot"></span>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/>
-            </svg>
-            <span class="wa-text">+44 7898 262110</span>
-          </a>
-
-          <!-- Enquire CTA Button -->
-          <a href="/enquire/" class="btn btn-primary header-enquire-btn">
-            <span>Enquire</span>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-
-          <!-- Mobile Hamburger Toggle -->
-          <button
-            type="button"
-            class="mobile-toggle"
-            id="mobile-menu-toggle"
-            aria-label="Toggle Mobile Menu"
-            aria-expanded="false"
-            aria-controls="mobile-drawer"
-          >
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </button>
+      <!-- Collections Dropdown -->
+      <div class="cb-nav-group">
+        <button class="cb-nav-trigger" type="button" aria-expanded="false" aria-controls="cb-collections-menu">
+          Collections
+        </button>
+        <div class="cb-dropdown" id="cb-collections-menu">
+          <a href="/collections/kitchens/">Kitchens</a>
+          <a href="/collections/bathrooms/">Bathrooms</a>
+          <a href="/collections/pantry-larder/">Pantry &amp; Larder</a>
+          <a href="/collections/coffee-stations/">Coffee Stations</a>
+          <a href="/collections/fitted-storage/">Storage</a>
+          <hr class="cb-dropdown-divider" />
+          <a href="/collections/signature-suites/">Signature Bathroom Suites</a>
+          <a href="/collections/sculptural-contours/">Sculptural Contours</a>
+          <a href="/collections/compact-cloakroom/">Compact Cloakroom</a>
+          <a href="/collections/double-basin-sanctuaries/">Double Basin Sanctuaries</a>
         </div>
       </div>
+
+      <a href="/our-story/" class:list={[{ 'is-active': isActive('/our-story/') }]}>Our Story</a>
+    </nav>
+
+    <!-- Header Actions (Search, WhatsApp Concierge, Book Consultation CTA, Mobile Menu) -->
+    <div class="cb-actions">
+      <button class="cb-search" type="button" aria-label="Open search" aria-expanded="false" aria-controls="cb-search-panel">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="10.7" cy="10.7" r="7.2"/>
+          <path d="m16 16 6 6"/>
+        </svg>
+      </button>
+
+      <a
+        class="cb-whatsapp"
+        href="https://wa.me/447898262110?text=Hello%20Cabivella,%20I%20would%20like%20to%20enquire%20about%20your%20cabinetry"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp Concierge: +44 7898 262110"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M20.5 11.7A8.6 8.6 0 0 1 7.7 19.2L3 20.5l1.4-4.5A8.6 8.6 0 1 1 20.5 11.7Z"/>
+          <path d="M8.5 8.2c.4-.4.7-.4 1-.1l1.2 1.5c.2.3.1.6-.1.9l-.5.6c.8 1.4 1.8 2.3 3.3 3l.5-.6c.2-.2.5-.3.8-.1l1.7.9c.5.3.4.7.1 1.1-1 1.5-3.7.6-5.9-1.3-2.2-1.9-3.8-4.5-2.1-5.9Z"/>
+        </svg>
+        <span>+44 7898 262110</span>
+      </a>
+
+      <a class="cb-cta" href="/contact/">
+        Book a Consultation <span aria-hidden="true">→</span>
+      </a>
+
+      <button class="cb-mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="cb-mobile-panel">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
     </div>
   </div>
 
-  <!-- Mobile Drawer Menu -->
-  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-    <div class="mobile-drawer-inner">
-      <div class="mobile-nav-links">
-        {navItems.map((item) => (
-          <a href={item.href} class="mobile-nav-item">{item.label}</a>
-        ))}
-        <div class="mobile-accordion-heading">BATHROOM COLLECTIONS</div>
-        <div class="mobile-sublinks">
-          {bathroomCollections.map((col) => (
-            <a href={col.href} class="mobile-sublink">{col.title}</a>
-          ))}
-        </div>
-        <a href="/our-story/" class="mobile-nav-item">Our Story</a>
-        <a href="/trade/" class="mobile-nav-item">Trade & Professionals</a>
-      </div>
-      <div class="mobile-drawer-footer">
-        <a href="/enquire/" class="btn btn-primary btn-block">Enquire About a Project →</a>
-        <a
-          href="https://wa.me/447898262110"
-          class="btn btn-secondary btn-block mt-3"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          WhatsApp Concierge (+44 7898 262110)
-        </a>
-      </div>
-    </div>
+  <!-- Expandable Search Panel -->
+  <div class="cb-search-panel cb-container" id="cb-search-panel" hidden>
+    <form class="cb-search-form" action="/search/" method="get" role="search">
+      <input type="search" name="q" placeholder="Search collections, styles, or cabinetry specifications..." aria-label="Search collections" required />
+      <button type="submit">Search</button>
+    </form>
   </div>
+
+  <!-- Mobile Drawer Panel -->
+  <nav class="cb-mobile-panel cb-container" id="cb-mobile-panel" aria-label="Mobile navigation" hidden>
+    <a href="/collections/kitchens/">Kitchens</a>
+    <a href="/collections/bathrooms/">Bathrooms</a>
+    <a href="/collections/pantry-larder/">Pantry &amp; Larder</a>
+    <a href="/collections/coffee-stations/">Coffee Stations</a>
+    <a href="/collections/fitted-storage/">Storage</a>
+    <a href="/our-story/">Our Story</a>
+    <a href="/trade/">For Trade &amp; Specification ↗</a>
+    <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" class="cb-mobile-wa">
+      WhatsApp Concierge — +44 7898 262110
+    </a>
+    <a class="cb-mobile-cta" href="/contact/">
+      Book a Consultation →
+    </a>
+  </nav>
 </header>
+
+<style>
+:root {
+  --cb-green: #072d25;
+  --cb-green2: #0b3c31;
+  --cb-gold: #b9914a;
+  --cb-ivory: #fcfaf6;
+  --cb-ink: #173028;
+  --cb-line: #e4dfd5;
+}
+
+.cb-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--cb-ivory);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  font-family: inherit;
+  color: var(--cb-ink);
+}
+
+.cb-container {
+  width: min(100% - 96px, 1600px);
+  margin-inline: auto;
+}
+
+.cb-top {
+  background: var(--cb-green);
+  color: #f9f6ee;
+  font-size: 12px;
+  letter-spacing: 0.025em;
+}
+
+.cb-top-inner {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.cb-location {
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.cb-location span {
+  margin-right: 6px;
+}
+
+.cb-top-message {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+  flex: 1;
+  color: #e5ded2;
+}
+
+.cb-top-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.cb-top-right a {
+  color: #f9f6ee;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.cb-top-right a:hover {
+  color: #e7c181;
+}
+
+.cb-top-divider {
+  width: 1px;
+  height: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+}
+
+.cb-main-inner {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2vw, 36px);
+  min-height: 98px;
+}
+
+.cb-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cb-crest {
+  width: 58px;
+  height: auto;
+  max-height: 52px;
+  object-fit: contain;
+  display: block;
+}
+
+.cb-brand-sep {
+  height: 42px;
+  width: 1px;
+  background: var(--cb-gold);
+}
+
+.cb-brand-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cb-brand-name {
+  font: normal clamp(22px, 1.9vw, 32px)/1.05 Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  color: var(--cb-ink);
+}
+
+.cb-brand-sub {
+  font-size: 10px;
+  letter-spacing: 0.42em;
+  font-weight: 700;
+  margin-top: 6px;
+  color: var(--cb-green);
+}
+
+.cb-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 1.5vw, 24px);
+  margin-left: auto;
+}
+
+.cb-nav > a,
+.cb-nav-trigger {
+  font: normal 15px Georgia, serif;
+  white-space: nowrap;
+  color: var(--cb-ink);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  background: none;
+  border: none;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.cb-nav > a:hover,
+.cb-nav > a.is-active,
+.cb-nav-trigger:hover {
+  color: var(--cb-gold);
+}
+
+.cb-nav-group {
+  position: relative;
+}
+
+.cb-nav-trigger:after {
+  content: ' ▾';
+  font-size: 11px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.cb-dropdown {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: -15px;
+  min-width: 240px;
+  padding: 10px 0;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--cb-line);
+  border-radius: 4px;
+}
+
+.cb-dropdown a {
+  display: block;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-family: inherit;
+  color: var(--cb-ink);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.cb-dropdown a:hover {
+  background: #f8f4eb;
+  color: var(--cb-green);
+}
+
+.cb-dropdown-divider {
+  border: 0;
+  height: 1px;
+  background: var(--cb-line);
+  margin: 6px 0;
+}
+
+.cb-nav-group:hover .cb-dropdown,
+.cb-nav-group:focus-within .cb-dropdown,
+.cb-nav-group.is-open .cb-dropdown {
+  display: block;
+}
+
+.cb-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.cb-search {
+  border: 0;
+  background: none;
+  color: var(--cb-green);
+  width: 38px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.cb-search:hover {
+  background: rgba(7, 45, 37, 0.06);
+}
+
+.cb-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--cb-gold);
+  padding: 9px 13px;
+  border-radius: 6px;
+  color: var(--cb-green);
+  white-space: nowrap;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.cb-whatsapp:hover {
+  background: rgba(185, 145, 74, 0.08);
+  border-color: var(--cb-green);
+}
+
+.cb-whatsapp svg {
+  color: #208b51;
+  fill: #208b51;
+}
+
+.cb-cta {
+  background: var(--cb-green);
+  border: 1px solid var(--cb-green);
+  border-radius: 6px;
+  color: #ffffff !important;
+  padding: 11px 18px;
+  white-space: nowrap;
+  font: 14px Georgia, serif;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.cb-cta:hover {
+  background: var(--cb-green2);
+  transform: translateY(-1px);
+}
+
+.cb-cta span {
+  margin-left: 8px;
+}
+
+.cb-mobile-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--cb-gold);
+  border-radius: 6px;
+  padding: 7px;
+  color: var(--cb-green);
+  cursor: pointer;
+}
+
+.cb-mobile-panel {
+  display: none;
+}
+
+.cb-mobile-panel[hidden] {
+  display: none !important;
+}
+
+.cb-search-panel {
+  padding: 12px 0 18px;
+  border-top: 1px solid var(--cb-line);
+}
+
+.cb-search-panel[hidden] {
+  display: none;
+}
+
+.cb-search-form {
+  display: flex;
+  gap: 10px;
+}
+
+.cb-search-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 16px;
+  border: 1px solid var(--cb-line);
+  font-size: 15px;
+  border-radius: 4px;
+  background: #ffffff;
+  color: var(--cb-ink);
+}
+
+.cb-search-form button {
+  padding: 12px 22px;
+  background: var(--cb-green);
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+  .cb-container {
+    width: min(100% - 64px, 1600px);
+  }
+  .cb-main-inner {
+    gap: 16px;
+  }
+  .cb-nav {
+    gap: 14px;
+  }
+  .cb-nav > a,
+  .cb-nav-trigger {
+    font-size: 14px;
+  }
+  .cb-whatsapp {
+    font-size: 11.5px;
+    padding: 8px 10px;
+  }
+  .cb-cta {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+  .cb-brand-name {
+    font-size: 25px;
+  }
+  .cb-crest {
+    width: 48px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .cb-nav,
+  .cb-whatsapp,
+  .cb-actions > .cb-cta,
+  .cb-top-message {
+    display: none;
+  }
+  .cb-main-inner {
+    min-height: 80px;
+  }
+  .cb-actions {
+    margin-left: auto;
+  }
+  .cb-mobile-toggle {
+    display: grid;
+    place-items: center;
+  }
+  .cb-mobile-panel:not([hidden]) {
+    display: block;
+    border-top: 1px solid var(--cb-line);
+    padding-block: 14px 24px;
+  }
+  .cb-mobile-panel a {
+    display: block;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--cb-line);
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--cb-ink);
+  }
+  .cb-mobile-panel .cb-mobile-wa {
+    color: #208b51;
+    font-weight: 700;
+  }
+  .cb-mobile-panel .cb-mobile-cta {
+    background: var(--cb-green);
+    color: #ffffff !important;
+    text-align: center;
+    margin-top: 16px;
+    padding: 14px;
+    border: 0;
+    border-radius: 6px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+  }
+  .cb-top-right {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .cb-container {
+    width: calc(100% - 32px);
+  }
+  .cb-top-inner {
+    min-height: 36px;
+  }
+  .cb-top-right {
+    display: none;
+  }
+  .cb-location {
+    font-size: 10.5px;
+  }
+  .cb-main-inner {
+    min-height: 72px;
+    gap: 8px;
+  }
+  .cb-crest {
+    width: 42px;
+    height: auto;
+  }
+  .cb-brand-sep {
+    height: 34px;
+  }
+  .cb-brand {
+    gap: 10px;
+  }
+  .cb-brand-name {
+    font-size: clamp(18px, 5vw, 24px);
+  }
+  .cb-brand-sub {
+    font-size: 8.5px;
+  }
+  .cb-search {
+    width: 32px;
+  }
+  .cb-actions {
+    gap: 4px;
+  }
+}
+</style>
+
+<script>
+  function initHeader() {
+    const header = document.querySelector('#cabivella-header');
+    if (!header) return;
+
+    const menuBtn = header.querySelector('.cb-mobile-toggle');
+    const mobile = header.querySelector('#cb-mobile-panel');
+    const searchBtn = header.querySelector('.cb-search');
+    const search = header.querySelector('#cb-search-panel');
+    const ddBtn = header.querySelector('.cb-nav-trigger');
+    const ddGroup = header.querySelector('.cb-nav-group');
+
+    function toggle(btn, panel, open) {
+      if (!btn || !panel) return;
+      btn.setAttribute('aria-expanded', String(open));
+      panel.hidden = !open;
+      if (btn === menuBtn) {
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      }
+    }
+
+    if (menuBtn && mobile) {
+      menuBtn.addEventListener('click', () => {
+        const open = mobile.hidden;
+        toggle(menuBtn, mobile, open);
+        if (searchBtn && search) toggle(searchBtn, search, false);
+      });
+    }
+
+    if (searchBtn && search) {
+      searchBtn.addEventListener('click', () => {
+        const open = search.hidden;
+        toggle(searchBtn, search, open);
+        if (menuBtn && mobile) toggle(menuBtn, mobile, false);
+        if (open) {
+          const input = search.querySelector('input');
+          if (input) input.focus();
+        }
+      });
+    }
+
+    if (ddBtn && ddGroup) {
+      ddBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const open = ddBtn.getAttribute('aria-expanded') !== 'true';
+        ddBtn.setAttribute('aria-expanded', String(open));
+        ddGroup.classList.toggle('is-open', open);
+      });
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (menuBtn && mobile) toggle(menuBtn, mobile, false);
+        if (searchBtn && search) toggle(searchBtn, search, false);
+        if (ddBtn && ddGroup) {
+          ddBtn.setAttribute('aria-expanded', 'false');
+          ddGroup.classList.remove('is-open');
+        }
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (ddGroup && !ddGroup.contains(e.target as Node)) {
+        if (ddBtn) ddBtn.setAttribute('aria-expanded', 'false');
+        ddGroup.classList.remove('is-open');
+      }
+    });
+
+    window.matchMedia('(min-width: 1141px)').addEventListener('change', (e) => {
+      if (e.matches && menuBtn && mobile) {
+        toggle(menuBtn, mobile, false);
+      }
+    });
+  }
+
+  // Run on page load and on Astro view transition if enabled
+  initHeader();
+  document.addEventListener('astro:page-load', initHeader);
+</script>

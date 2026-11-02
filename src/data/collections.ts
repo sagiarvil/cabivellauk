@@ -34,7 +34,7 @@ export const collectionsData: Record<string, CollectionCategory> = {
     "title": "AquaShield Moisture-Engineered Suites",
     "heroEyebrow": "ADVANCED HYDRAULIC PROTECTION",
     "metaTitle": "AquaShield Moisture-Resistant Bathroom Cabinetry | Cabivella UK",
-    "metaDescription": "Engineered with thermo-fused polymeric substrates for high-humidity British environments. Zero delamination, zero swelling, lifetime resilience.",
+    "metaDescription": "Engineered with thermo-fused polymeric substrates for high-humidity British environments. Engineered for high resistance against humidity and ambient moisture.",
     "shortCopy": "Definitive moisture defense meeting refined British proportions.",
     "description": "Engineered specifically for high-humidity bathrooms and wetroom spaces. AquaShield thermo-fused substrate technology creates a continuous impermeable seal, ensuring cabinetry remains pristine without risk of moisture intrusion.",
     "image": "/assets/img/collections/bathrooms/cabivella-thermold-moisture-resistant-lentia.webp",
