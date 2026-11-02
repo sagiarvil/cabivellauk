@@ -6,15 +6,15 @@ import { footerNav, siteConfig } from '../data/navigation';
   <div class="wrap foot-top">
     <!-- Brand Info -->
     <div>
-      <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 14px;">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
         <img 
           src="/assets/img/cabivella-crest-transparent.webp" 
           alt="Cabivella Crest" 
-          width="60" 
-          height="54" 
+          width="48" 
+          height="44" 
           style="object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06));"
         />
-        <a href="/" class="foot-logo" style="margin: 0; font-size: 24px;">{siteConfig.name}</a>
+        <a href="/" class="foot-logo" style="margin: 0;">{siteConfig.name}</a>
       </div>
       <p class="foot-tagline">
         Considered cabinetry for kitchens, bathrooms and the spaces in between.
@@ -38,13 +38,6 @@ import { footerNav, siteConfig } from '../data/navigation';
           <span>WhatsApp: {siteConfig.phone}</span>
         </a>
 
-        <!-- Verified LinkedIn Link -->
-        <a href={siteConfig.linkedinUrl} target="_blank" rel="noopener noreferrer" class="foot-contact-link">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true">
-            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.32a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/>
-          </svg>
-          <span>LinkedIn: Barış Bağırlı</span>
-        </a>
       </div>
     </div>
 
@@ -80,12 +73,7 @@ import { footerNav, siteConfig } from '../data/navigation';
   </div>
 
   <div class="wrap foot-bottom">
-    <div>
-      <span>© 2026 Cabivella. All rights reserved. Registered for UK supply.</span>
-      <span style="display: block; font-size: 11px; color: var(--muted); margin-top: 4px;">
-        Cabivella is an architectural cabinetry brand of {siteConfig.legalEntity.companyName} · Vergi / Tax ID: {siteConfig.legalEntity.taxNumber} · {siteConfig.legalEntity.address}
-      </span>
-    </div>
+    <span>© 2026 Cabivella. All rights reserved. Registered for UK supply.</span>
     <span>British English · UK enquiries & nationwide delivery</span>
   </div>
 </footer>

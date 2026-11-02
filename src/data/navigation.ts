@@ -13,16 +13,9 @@ export const siteConfig = {
   phone: '+44 7898 262110',
   phoneClean: '+447898262110',
   whatsappUrl: 'https://wa.me/447898262110?text=Hello%20Cabivella%2C%20I%20would%20like%20to%20enquire%20about%20bespoke%20cabinetry%20for%20my%20home.',
-  linkedinUrl: 'https://www.linkedin.com/in/cabivellauk/',
   address: {
     country: 'United Kingdom',
     region: 'London & Nationwide'
-  },
-  legalEntity: {
-    companyName: 'HM YEŞİLAY İNŞ. MİMAR. OTO. SAN. TİC. LTD. ŞTİ.',
-    taxNumber: '2051239224',
-    address: 'Gaziler Mah. 1084/2 Sk. No: 1/A Buca, İzmir, Türkiye',
-    phone: '+90 232 441 10 60'
   }
 };
 

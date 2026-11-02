@@ -22,7 +22,6 @@
 3. **Dual-Tier Direct Concierge:**
    - **Direct Email:** [`barisbagirlar@gmail.com`](mailto:barisbagirlar@gmail.com)
    - **WhatsApp Business Concierge:** [`+44 7898 262110`](https://wa.me/447898262110)
-   - **Executive Network:** [Barış Bağırlı on LinkedIn](https://www.linkedin.com/in/barisbagirlar/)
 4. **Resilient Lead Generation Pipeline:**
    - Cloudflare Pages Functions (`/api/enquiries`) with Zod schema validation.
    - Cloudflare Turnstile bot deterrence.

@@ -6,25 +6,16 @@ export function getOrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     'name': siteConfig.name,
-    'legalName': siteConfig.legalEntity.companyName,
-    'taxID': siteConfig.legalEntity.taxNumber,
     'url': siteConfig.siteUrl,
     'logo': `${siteConfig.siteUrl}/assets/img/cabivella-crest-transparent.webp`,
     'email': siteConfig.email,
     'telephone': siteConfig.phoneClean,
     'sameAs': [
-      siteConfig.linkedinUrl,
       siteConfig.whatsappUrl
     ],
     'address': {
       '@type': 'PostalAddress',
       'addressCountry': 'GB'
-    },
-    'founder': {
-      '@type': 'Person',
-      'name': 'Barış Bağırlı',
-      'jobTitle': 'Managing Director & Founder',
-      'sameAs': siteConfig.linkedinUrl
     }
   };
 }
