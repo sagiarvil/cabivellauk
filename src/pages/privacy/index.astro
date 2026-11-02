@@ -30,15 +30,21 @@ import DynamicWatermark from '../../components/DynamicWatermark.astro';
     </div>
 
     <div style="margin-top: 32px;" data-reveal>
-      <h2>1. Data Controller</h2>
+      <h2>1. Data Controller & Legal Entity</h2>
       <p>
-        Cabivella ("we", "our", "us") is dedicated to protecting the privacy of clients, homeowners, architects, and developers who consult with us regarding made-to-measure cabinetry. For the purposes of the UK Data Protection Act 2018 and the UK General Data Protection Regulation (UK GDPR), the designated Data Controller is:
+        Cabivella ("we", "our", "us") is the bespoke cabinetry brand operated by <strong>{siteConfig.legalEntity.companyName}</strong>. For the purposes of the UK Data Protection Act 2018 and the UK General Data Protection Regulation (UK GDPR), the registered data controller and corporate entity is:
       </p>
       <div style="background: #FAF9F5; border: 1px solid var(--border); padding: 18px 24px; border-radius: var(--radius-sm); margin: 16px 0;">
-        <p style="margin: 0; font-weight: 600; color: var(--green);">Barış Bağırlı — Managing Director & Founder</p>
-        <p style="margin: 4px 0 0 0; color: #555;">Cabivella UK • London & Regional Services</p>
-        <p style="margin: 4px 0 0 0;">Email: <a href="mailto:enquiries@cabivella.co.uk" style="color: var(--green); font-weight: 600;">enquiries@cabivella.co.uk</a></p>
-        <p style="margin: 4px 0 0 0;">Direct Tel / WhatsApp: <a href="https://wa.me/447898262110" style="color: var(--green); font-weight: 600;">+44 7898 262110</a></p>
+        <p style="margin: 0; font-weight: 700; color: var(--green);">{siteConfig.legalEntity.companyName}</p>
+        <p style="margin: 4px 0 0 0; color: #444;"><strong>Tax / Vergi No:</strong> {siteConfig.legalEntity.taxNumber}</p>
+        <p style="margin: 4px 0 0 0; color: #444;"><strong>Registered Office:</strong> {siteConfig.legalEntity.address}</p>
+        <p style="margin: 4px 0 0 0; color: #444;"><strong>Headquarters Tel:</strong> <a href={`tel:${siteConfig.legalEntity.phone.replace(/\\s+/g, '')}`} style="color: var(--green); font-weight: 600;">{siteConfig.legalEntity.phone}</a></p>
+        <div style="border-top: 1px solid var(--border); margin: 12px 0 10px 0; padding-top: 10px;">
+          <p style="margin: 0; font-weight: 600; color: #222;">Barış Bağırlı — Managing Director & Founder</p>
+          <p style="margin: 4px 0 0 0; color: #555;">Cabivella UK • London & Regional Services</p>
+          <p style="margin: 4px 0 0 0;">UK Enquiries Email: <a href="mailto:enquiries@cabivella.co.uk" style="color: var(--green); font-weight: 600;">enquiries@cabivella.co.uk</a></p>
+          <p style="margin: 4px 0 0 0;">UK WhatsApp / Direct: <a href="https://wa.me/447898262110" style="color: var(--green); font-weight: 600;">+44 7898 262110</a></p>
+        </div>
       </div>
 
       <h2>2. Personal Data We Collect & Hold</h2>

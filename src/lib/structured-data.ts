@@ -6,6 +6,8 @@ export function getOrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     'name': siteConfig.name,
+    'legalName': siteConfig.legalEntity.companyName,
+    'taxID': siteConfig.legalEntity.taxNumber,
     'url': siteConfig.siteUrl,
     'logo': `${siteConfig.siteUrl}/assets/img/cabivella-crest-transparent.webp`,
     'email': siteConfig.email,

@@ -17,6 +17,12 @@ export const siteConfig = {
   address: {
     country: 'United Kingdom',
     region: 'London & Nationwide'
+  },
+  legalEntity: {
+    companyName: 'HM YEŞİLAY İNŞ. MİMAR. OTO. SAN. TİC. LTD. ŞTİ.',
+    taxNumber: '2051239224',
+    address: 'Gaziler Mah. 1084/2 Sk. No: 1/A Buca, İzmir, Türkiye',
+    phone: '+90 232 441 10 60'
   }
 };
 

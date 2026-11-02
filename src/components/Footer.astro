@@ -80,7 +80,12 @@ import { footerNav, siteConfig } from '../data/navigation';
   </div>
 
   <div class="wrap foot-bottom">
-    <span>© 2026 Cabivella. All rights reserved. Registered for UK supply.</span>
+    <div>
+      <span>© 2026 Cabivella. All rights reserved. Registered for UK supply.</span>
+      <span style="display: block; font-size: 11px; color: var(--muted); margin-top: 4px;">
+        Cabivella is an architectural cabinetry brand of {siteConfig.legalEntity.companyName} · Vergi / Tax ID: {siteConfig.legalEntity.taxNumber} · {siteConfig.legalEntity.address}
+      </span>
+    </div>
     <span>British English · UK enquiries & nationwide delivery</span>
   </div>
 </footer>
