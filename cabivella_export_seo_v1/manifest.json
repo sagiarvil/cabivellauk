@@ -1,0 +1,17 @@
+{
+  "name": "Cabivella Export Search & AI Discoverability Deploy Kit",
+  "version": "1.0",
+  "as_of": "2026-11-02",
+  "site": "https://cabivella.co.uk",
+  "existing_sitemap_urls_observed": 164,
+  "new_pages": [
+    "/trade/europe/",
+    "/de/grosshandel-einbaumoebel/",
+    "/fr/fabricant-meubles-sur-mesure-grossiste/",
+    "/nl/maatwerk-kasten-groothandel/",
+    "/international-delivery/"
+  ],
+  "deployment_status": "files prepared; not deployed",
+  "credentials": [],
+  "warning": "Do not overwrite live sitemap; verify commercial scope before publishing"
+}

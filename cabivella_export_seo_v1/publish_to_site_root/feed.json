@@ -1,0 +1,45 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Cabivella — Cabinetry Collections",
+  "home_page_url": "https://cabivella.co.uk/",
+  "feed_url": "https://cabivella.co.uk/feed.json",
+  "description": "Collection directory, not a news feed.",
+  "items": [
+    {
+      "id": "https://cabivella.co.uk/collections/kitchens/",
+      "url": "https://cabivella.co.uk/collections/kitchens/",
+      "title": "Bespoke Kitchens",
+      "summary": "Made-to-measure kitchens and kitchen cabinetry"
+    },
+    {
+      "id": "https://cabivella.co.uk/collections/bathrooms/",
+      "url": "https://cabivella.co.uk/collections/bathrooms/",
+      "title": "Bathroom Cabinetry",
+      "summary": "Bathroom vanity units and storage cabinetry"
+    },
+    {
+      "id": "https://cabivella.co.uk/collections/pantry-larder/",
+      "url": "https://cabivella.co.uk/collections/pantry-larder/",
+      "title": "Pantry & Larder",
+      "summary": "Pantry cupboards and larder systems"
+    },
+    {
+      "id": "https://cabivella.co.uk/collections/coffee-stations/",
+      "url": "https://cabivella.co.uk/collections/coffee-stations/",
+      "title": "Coffee Stations",
+      "summary": "Integrated coffee stations and beverage cabinetry"
+    },
+    {
+      "id": "https://cabivella.co.uk/collections/fitted-storage/",
+      "url": "https://cabivella.co.uk/collections/fitted-storage/",
+      "title": "Fitted Storage",
+      "summary": "Fitted wardrobes and architectural storage"
+    },
+    {
+      "id": "https://cabivella.co.uk/collections/kitchen-doors/",
+      "url": "https://cabivella.co.uk/collections/kitchen-doors/",
+      "title": "Kitchen Doors",
+      "summary": "Replacement cabinet and kitchen doors"
+    }
+  ]
+}

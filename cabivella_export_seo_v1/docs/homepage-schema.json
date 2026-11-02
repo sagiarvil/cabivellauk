@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cabivella.co.uk/#organization",
+      "name": "Cabivella",
+      "url": "https://cabivella.co.uk/",
+      "logo": "https://cabivella.co.uk/assets/img/cabivella-crest-transparent.webp",
+      "email": "enquiries@cabivella.co.uk",
+      "telephone": "+447898262110",
+      "description": "Made-to-measure cabinetry brand and exporter working with manufacturing partners in Turkey, serving project enquiries from the UK and European markets.",
+      "sameAs": [
+        "https://www.linkedin.com/in/cabivellauk/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cabivella.co.uk/#website",
+      "name": "Cabivella",
+      "alternateName": "Cabivella UK",
+      "url": "https://cabivella.co.uk/",
+      "inLanguage": "en-GB",
+      "publisher": {
+        "@id": "https://cabivella.co.uk/#organization"
+      }
+    }
+  ]
+}
