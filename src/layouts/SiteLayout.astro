@@ -50,7 +50,7 @@ const currentPath = Astro.url.pathname;
 
     <!-- Apple Motion Scroll-Driven Staggered Script (80ms Stagger) -->
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
+      function initScrollReveal() {
         document.documentElement.classList.add('motion-ready');
 
         const reveals = document.querySelectorAll('[data-reveal]');
@@ -64,20 +64,19 @@ const currentPath = Astro.url.pathname;
 
         const observerOptions = {
           root: null,
-          rootMargin: '0px 0px -40px 0px',
-          threshold: 0.12
+          rootMargin: '120px 0px 120px 0px',
+          threshold: 0.01
         };
 
         const revealObserver = new IntersectionObserver((entries, observer) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
               const el = entry.target as HTMLElement;
-              // Check if parent has group stagger
               const group = el.closest('[data-reveal-group]');
               if (group) {
                 const siblings = Array.from(group.querySelectorAll('[data-reveal]'));
                 const index = siblings.indexOf(el);
-                el.style.transitionDelay = `${index * 80}ms`;
+                el.style.transitionDelay = (index * 80) + "ms";
               }
               el.classList.add('is-revealed');
               observer.unobserve(el);
@@ -86,7 +85,13 @@ const currentPath = Astro.url.pathname;
         }, observerOptions);
 
         reveals.forEach((el) => revealObserver.observe(el));
-      });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initScrollReveal);
+      } else {
+        initScrollReveal();
+      }
     </script>
   </body>
 </html>

@@ -8418,2285 +8418,357 @@ export const modelsData: Record<string, ModelDetail> = {
           "Dovetailed solid timber internal drawer stacks with velvet accessory trays"
       ]
   },
-  "mayfair-artisan-beverage-credenza-01": {
-      "slug": "mayfair-artisan-beverage-credenza-01",
-      "category": "coffee-stations",
-      "title": "Mayfair 154cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Mayfair 154cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 154cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "154cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_01.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_01.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Mayfair 154cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "belgravia-artisan-beverage-credenza-02": {
-      "slug": "belgravia-artisan-beverage-credenza-02",
-      "category": "coffee-stations",
-      "title": "Belgravia 247cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Belgravia 247cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 247cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "247cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_02.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_02.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belgravia 247cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "kensington-artisan-beverage-credenza-03": {
-      "slug": "kensington-artisan-beverage-credenza-03",
-      "category": "coffee-stations",
-      "title": "Kensington 184cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Kensington 184cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 184cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "184cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_03.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_03.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kensington 184cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "chelsea-artisan-beverage-credenza-04": {
-      "slug": "chelsea-artisan-beverage-credenza-04",
-      "category": "coffee-stations",
-      "title": "Chelsea 217cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Chelsea 217cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 217cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "217cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_04.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_04.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chelsea 217cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "knightsbridge-artisan-beverage-credenza-05": {
-      "slug": "knightsbridge-artisan-beverage-credenza-05",
-      "category": "coffee-stations",
-      "title": "Knightsbridge 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Knightsbridge 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_05.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_05.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knightsbridge 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "westminster-artisan-beverage-credenza-06": {
-      "slug": "westminster-artisan-beverage-credenza-06",
-      "category": "coffee-stations",
-      "title": "Westminster 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Westminster 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_06.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_06.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Westminster 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "marylebone-artisan-beverage-credenza-07": {
-      "slug": "marylebone-artisan-beverage-credenza-07",
-      "category": "coffee-stations",
-      "title": "Marylebone 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Marylebone 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_07.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_07.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Marylebone 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "fitzrovia-artisan-beverage-credenza-08": {
-      "slug": "fitzrovia-artisan-beverage-credenza-08",
-      "category": "coffee-stations",
-      "title": "Fitzrovia 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Fitzrovia 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_08.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_08.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fitzrovia 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "bloomsbury-artisan-beverage-credenza-09": {
-      "slug": "bloomsbury-artisan-beverage-credenza-09",
-      "category": "coffee-stations",
-      "title": "Bloomsbury 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Bloomsbury 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_09.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_09.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bloomsbury 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "hampstead-artisan-beverage-credenza-10": {
-      "slug": "hampstead-artisan-beverage-credenza-10",
-      "category": "coffee-stations",
-      "title": "Hampstead 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Hampstead 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_10.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_10.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hampstead 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "highgate-artisan-beverage-credenza-11": {
-      "slug": "highgate-artisan-beverage-credenza-11",
-      "category": "coffee-stations",
-      "title": "Highgate 90cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Highgate 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_11.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_11.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Highgate 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "islington-artisan-beverage-credenza-12": {
-      "slug": "islington-artisan-beverage-credenza-12",
-      "category": "coffee-stations",
-      "title": "Islington 90cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Islington 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_12.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_12.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Islington 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "richmond-artisan-beverage-credenza-13": {
-      "slug": "richmond-artisan-beverage-credenza-13",
-      "category": "coffee-stations",
-      "title": "Richmond 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Richmond 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_13.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_13.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Richmond 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "chiswick-artisan-beverage-credenza-14": {
-      "slug": "chiswick-artisan-beverage-credenza-14",
-      "category": "coffee-stations",
-      "title": "Chiswick 210cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Chiswick 210cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 210cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "210cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_14.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_14.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Chiswick 210cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "wimbledon-artisan-beverage-credenza-15": {
-      "slug": "wimbledon-artisan-beverage-credenza-15",
-      "category": "coffee-stations",
-      "title": "Wimbledon 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Wimbledon 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_15.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_15.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "barnes-artisan-beverage-credenza-16": {
-      "slug": "barnes-artisan-beverage-credenza-16",
-      "category": "coffee-stations",
-      "title": "Barnes 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Barnes 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_16.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_16.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "putney-artisan-beverage-credenza-17": {
-      "slug": "putney-artisan-beverage-credenza-17",
-      "category": "coffee-stations",
-      "title": "Putney 90cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Putney 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_17.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_17.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "battersea-artisan-beverage-credenza-18": {
-      "slug": "battersea-artisan-beverage-credenza-18",
-      "category": "coffee-stations",
-      "title": "Battersea 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Battersea 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_18.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_18.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Battersea 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "clapham-artisan-beverage-credenza-19": {
-      "slug": "clapham-artisan-beverage-credenza-19",
-      "category": "coffee-stations",
-      "title": "Clapham 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Clapham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_19.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_19.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clapham 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "dulwich-artisan-beverage-credenza-20": {
-      "slug": "dulwich-artisan-beverage-credenza-20",
-      "category": "coffee-stations",
-      "title": "Dulwich 180cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Dulwich 180cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_20.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_20.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich 180cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "greenwich-artisan-beverage-credenza-21": {
-      "slug": "greenwich-artisan-beverage-credenza-21",
-      "category": "coffee-stations",
-      "title": "Greenwich 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Greenwich 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_21.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_21.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "pimlico-artisan-beverage-credenza-22": {
-      "slug": "pimlico-artisan-beverage-credenza-22",
-      "category": "coffee-stations",
-      "title": "Pimlico 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Pimlico 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_22.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_22.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Pimlico 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "st-james-artisan-beverage-credenza-23": {
-      "slug": "st-james-artisan-beverage-credenza-23",
-      "category": "coffee-stations",
-      "title": "St James 130cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "St James 130cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_23.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_23.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St James 130cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "cotswold-artisan-beverage-credenza-24": {
-      "slug": "cotswold-artisan-beverage-credenza-24",
-      "category": "coffee-stations",
-      "title": "Cotswold 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Cotswold 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_24.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_24.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Cotswold 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "holborn-artisan-beverage-credenza-25": {
-      "slug": "holborn-artisan-beverage-credenza-25",
-      "category": "coffee-stations",
-      "title": "Holborn 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Holborn 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_25.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_25.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holborn 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "soho-artisan-beverage-credenza-26": {
-      "slug": "soho-artisan-beverage-credenza-26",
-      "category": "coffee-stations",
-      "title": "Soho 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Soho 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_26.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_26.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Soho 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "primrose-artisan-beverage-credenza-27": {
-      "slug": "primrose-artisan-beverage-credenza-27",
-      "category": "coffee-stations",
-      "title": "Primrose 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Primrose 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_27.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_27.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Primrose 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "belsize-artisan-beverage-credenza-28": {
-      "slug": "belsize-artisan-beverage-credenza-28",
-      "category": "coffee-stations",
-      "title": "Belsize 90cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Belsize 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_28.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_28.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Belsize 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "holland-park-artisan-beverage-credenza-29": {
-      "slug": "holland-park-artisan-beverage-credenza-29",
-      "category": "coffee-stations",
-      "title": "Holland Park 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Holland Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_29.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_29.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Holland Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "notting-hill-artisan-beverage-credenza-30": {
-      "slug": "notting-hill-artisan-beverage-credenza-30",
-      "category": "coffee-stations",
-      "title": "Notting Hill 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Notting Hill 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_30.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_30.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Notting Hill 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "paddington-artisan-beverage-credenza-31": {
-      "slug": "paddington-artisan-beverage-credenza-31",
-      "category": "coffee-stations",
-      "title": "Paddington 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Paddington 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_31.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_31.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Paddington 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "bayswater-artisan-beverage-credenza-32": {
-      "slug": "bayswater-artisan-beverage-credenza-32",
-      "category": "coffee-stations",
-      "title": "Bayswater 180cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Bayswater 180cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 180cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "180cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_32.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_32.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bayswater 180cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "regent-artisan-beverage-credenza-33": {
-      "slug": "regent-artisan-beverage-credenza-33",
-      "category": "coffee-stations",
-      "title": "Regent 90cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Regent 90cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 90cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "90cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_33.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_33.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Regent 90cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "piccadilly-artisan-beverage-credenza-34": {
-      "slug": "piccadilly-artisan-beverage-credenza-34",
-      "category": "coffee-stations",
-      "title": "Piccadilly 60cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Piccadilly 60cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 60cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "60cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_34.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_34.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Piccadilly 60cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "strand-artisan-beverage-credenza-35": {
-      "slug": "strand-artisan-beverage-credenza-35",
-      "category": "coffee-stations",
-      "title": "Strand 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Strand 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_35.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_35.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Strand 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "aldwych-artisan-beverage-credenza-36": {
-      "slug": "aldwych-artisan-beverage-credenza-36",
-      "category": "coffee-stations",
-      "title": "Aldwych 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Aldwych 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_36.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_36.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Aldwych 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "temple-artisan-beverage-credenza-37": {
-      "slug": "temple-artisan-beverage-credenza-37",
-      "category": "coffee-stations",
-      "title": "Temple 110cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Temple 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_37.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_37.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Temple 110cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "clerkenwell-artisan-beverage-credenza-38": {
-      "slug": "clerkenwell-artisan-beverage-credenza-38",
-      "category": "coffee-stations",
-      "title": "Clerkenwell 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Clerkenwell 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_38.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_38.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Clerkenwell 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "shoreditch-artisan-beverage-credenza-39": {
-      "slug": "shoreditch-artisan-beverage-credenza-39",
-      "category": "coffee-stations",
-      "title": "Shoreditch 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Shoreditch 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_39.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_39.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Shoreditch 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "spitalfields-artisan-beverage-credenza-40": {
-      "slug": "spitalfields-artisan-beverage-credenza-40",
-      "category": "coffee-stations",
-      "title": "Spitalfields 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Spitalfields 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_40.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_40.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Spitalfields 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "wapping-artisan-beverage-credenza-41": {
-      "slug": "wapping-artisan-beverage-credenza-41",
-      "category": "coffee-stations",
-      "title": "Wapping 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Wapping 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_41.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_41.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wapping 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "canary-artisan-beverage-credenza-42": {
-      "slug": "canary-artisan-beverage-credenza-42",
-      "category": "coffee-stations",
-      "title": "Canary 130cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Canary 130cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 130cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "130cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_42.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_42.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary 130cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "blackheath-artisan-beverage-credenza-43": {
-      "slug": "blackheath-artisan-beverage-credenza-43",
-      "category": "coffee-stations",
-      "title": "Blackheath 110cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Blackheath 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_43.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_43.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Blackheath 110cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "wandsworth-artisan-beverage-credenza-44": {
-      "slug": "wandsworth-artisan-beverage-credenza-44",
-      "category": "coffee-stations",
-      "title": "Wandsworth 110cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Wandsworth 110cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 110cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "110cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_44.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_44.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wandsworth 110cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "fulham-artisan-beverage-credenza-45": {
-      "slug": "fulham-artisan-beverage-credenza-45",
-      "category": "coffee-stations",
-      "title": "Fulham 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Fulham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_45.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_45.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Fulham 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "kew-artisan-beverage-credenza-46": {
-      "slug": "kew-artisan-beverage-credenza-46",
-      "category": "coffee-stations",
-      "title": "Kew 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Kew 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_46.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_46.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kew 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "twickenham-artisan-beverage-credenza-47": {
-      "slug": "twickenham-artisan-beverage-credenza-47",
-      "category": "coffee-stations",
-      "title": "Twickenham 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Twickenham 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_47.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_47.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Twickenham 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "ealing-artisan-beverage-credenza-48": {
-      "slug": "ealing-artisan-beverage-credenza-48",
-      "category": "coffee-stations",
-      "title": "Ealing 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Ealing 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Ealing 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "harrow-artisan-beverage-credenza-49": {
-      "slug": "harrow-artisan-beverage-credenza-49",
-      "category": "coffee-stations",
-      "title": "Harrow 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Harrow 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/coffee_station_01.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Harrow 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "dulwich-village-artisan-beverage-credenza-50": {
-      "slug": "dulwich-village-artisan-beverage-credenza-50",
-      "category": "coffee-stations",
-      "title": "Dulwich Village 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Dulwich Village 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_50.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_50.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Dulwich Village 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "kingston-artisan-beverage-credenza-51": {
-      "slug": "kingston-artisan-beverage-credenza-51",
-      "category": "coffee-stations",
-      "title": "Kingston 45cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Kingston 45cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 45cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "45cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_51.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_51.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kingston 45cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "green-park-artisan-beverage-credenza-52": {
-      "slug": "green-park-artisan-beverage-credenza-52",
-      "category": "coffee-stations",
-      "title": "Green Park 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Green Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_52.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_52.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Green Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "victoria-artisan-beverage-credenza-53": {
-      "slug": "victoria-artisan-beverage-credenza-53",
-      "category": "coffee-stations",
-      "title": "Victoria 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Victoria 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_53.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_53.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Victoria 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "knights-artisan-beverage-credenza-54": {
-      "slug": "knights-artisan-beverage-credenza-54",
-      "category": "coffee-stations",
-      "title": "Knights 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Knights 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_54.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_54.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Knights 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "hyde-park-artisan-beverage-credenza-55": {
-      "slug": "hyde-park-artisan-beverage-credenza-55",
-      "category": "coffee-stations",
-      "title": "Hyde Park 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Hyde Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_55.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_55.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Hyde Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "borough-artisan-beverage-credenza-56": {
-      "slug": "borough-artisan-beverage-credenza-56",
-      "category": "coffee-stations",
-      "title": "Borough 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Borough 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_56.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_56.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Borough 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "greenwich-park-artisan-beverage-credenza-57": {
-      "slug": "greenwich-park-artisan-beverage-credenza-57",
-      "category": "coffee-stations",
-      "title": "Greenwich Park 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Greenwich Park 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_57.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_57.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Greenwich Park 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "st-pancras-artisan-beverage-credenza-58": {
-      "slug": "st-pancras-artisan-beverage-credenza-58",
-      "category": "coffee-stations",
-      "title": "St Pancras 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "St Pancras 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_58.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_58.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the St Pancras 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "covent-garden-artisan-beverage-credenza-59": {
-      "slug": "covent-garden-artisan-beverage-credenza-59",
-      "category": "coffee-stations",
-      "title": "Covent Garden 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Covent Garden 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_59.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_59.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Covent Garden 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "southwark-artisan-beverage-credenza-60": {
-      "slug": "southwark-artisan-beverage-credenza-60",
-      "category": "coffee-stations",
-      "title": "Southwark 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Southwark 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_60.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_60.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Southwark 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "west-end-artisan-beverage-credenza-61": {
-      "slug": "west-end-artisan-beverage-credenza-61",
-      "category": "coffee-stations",
-      "title": "West End 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "West End 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_61.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_61.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the West End 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "canary-wharf-artisan-beverage-credenza-62": {
-      "slug": "canary-wharf-artisan-beverage-credenza-62",
-      "category": "coffee-stations",
-      "title": "Canary Wharf 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Canary Wharf 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_62.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_62.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Canary Wharf 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "vauxhall-artisan-beverage-credenza-63": {
-      "slug": "vauxhall-artisan-beverage-credenza-63",
-      "category": "coffee-stations",
-      "title": "Vauxhall 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Vauxhall 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_63.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_63.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Vauxhall 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "lambeth-artisan-beverage-credenza-64": {
-      "slug": "lambeth-artisan-beverage-credenza-64",
-      "category": "coffee-stations",
-      "title": "Lambeth 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Lambeth 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_64.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_64.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Lambeth 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "bermondsey-artisan-beverage-credenza-65": {
-      "slug": "bermondsey-artisan-beverage-credenza-65",
-      "category": "coffee-stations",
-      "title": "Bermondsey 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Bermondsey 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_65.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_65.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Bermondsey 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "kennington-artisan-beverage-credenza-66": {
-      "slug": "kennington-artisan-beverage-credenza-66",
-      "category": "coffee-stations",
-      "title": "Kennington 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Kennington 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_66.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_66.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Kennington 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "peckham-artisan-beverage-credenza-67": {
-      "slug": "peckham-artisan-beverage-credenza-67",
-      "category": "coffee-stations",
-      "title": "Peckham 190cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Peckham 190cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 190cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "190cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_67.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_67.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Peckham 190cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "camberwell-artisan-beverage-credenza-68": {
-      "slug": "camberwell-artisan-beverage-credenza-68",
-      "category": "coffee-stations",
-      "title": "Camberwell 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Camberwell 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_68.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_68.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Camberwell 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "brixton-artisan-beverage-credenza-69": {
-      "slug": "brixton-artisan-beverage-credenza-69",
-      "category": "coffee-stations",
-      "title": "Brixton 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Brixton 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_69.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_69.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Brixton 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "streatham-artisan-beverage-credenza-70": {
-      "slug": "streatham-artisan-beverage-credenza-70",
-      "category": "coffee-stations",
-      "title": "Streatham 160cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Streatham 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_70.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_70.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Streatham 160cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "balham-artisan-beverage-credenza-71": {
-      "slug": "balham-artisan-beverage-credenza-71",
-      "category": "coffee-stations",
-      "title": "Balham 195cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Balham 195cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 195cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "195cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_71.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_71.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Balham 195cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "tooting-artisan-beverage-credenza-72": {
-      "slug": "tooting-artisan-beverage-credenza-72",
-      "category": "coffee-stations",
-      "title": "Tooting 125cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Tooting 125cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_72.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_72.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Tooting 125cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "wimbledon-village-artisan-beverage-credenza-73": {
-      "slug": "wimbledon-village-artisan-beverage-credenza-73",
-      "category": "coffee-stations",
-      "title": "Wimbledon Village 160cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Wimbledon Village 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_73.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_73.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Wimbledon Village 160cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "putney-heath-artisan-beverage-credenza-74": {
-      "slug": "putney-heath-artisan-beverage-credenza-74",
-      "category": "coffee-stations",
-      "title": "Putney Heath 120cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Putney Heath 120cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 120cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "120cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_74.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_74.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Putney Heath 120cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "barnes-common-artisan-beverage-credenza-75": {
-      "slug": "barnes-common-artisan-beverage-credenza-75",
-      "category": "coffee-stations",
-      "title": "Barnes Common 125cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Barnes Common 125cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 125cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "125cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_75.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_75.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Barnes Common 125cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
-  },
-  "roehampton-artisan-beverage-credenza-76": {
-      "slug": "roehampton-artisan-beverage-credenza-76",
-      "category": "coffee-stations",
-      "title": "Roehampton 160cm Bespoke Coffee Station Cabinet",
-      "metaTitle": "Roehampton 160cm Bespoke Coffee Station Cabinet | Cabivella UK",
-      "metaDescription": "Architectural 160cm freestanding and integrated beverage console featuring concealed pocket doors, appliance storage, and moisture-resistant internal joinery.",
-      "dimensionsMm": "160cm width, 550mm depth, 1850mm height",
-      "materials": [
-          "European Oak and Moisture-Resistant Core",
-          "Precision bi-fold pocket-door sliding tracks",
-          "Integrated heat-resistant quartz preparation surface"
-      ],
-      "finishOptions": [
-          "Natural Satin Oak",
-          "Deep Navy Lacquer",
-          "Warm Alabaster",
-          "Smoked Charcoal"
-      ],
-      "installationScope": "Delivered pre-assembled in protective architectural packaging ready for immediate positioning and plumbing connection.",
-      "image": "/assets/img/models/real_coffee_stations/tekzen_coffee_76.webp",
-      "gallery": [
-          "/assets/img/models/real_coffee_stations/tekzen_coffee_76.webp"
-      ],
-      "description": "Created as a dedicated sanctuary for morning coffee rituals and evening beverage hospitality, the Roehampton 160cm Bespoke Coffee Station Cabinet conceals sophisticated appliances behind effortless pocket-door joinery.",
-      "keyFeatures": [
-          "Retractable pocket-door system with smooth roller dampening",
-          "Integrated heat-dissipation ventilation for high-end espresso machinery",
-          "Dedicated accessory drawer with customisable solid walnut dividers"
-      ]
+    "belgravia-fluted-beverage": {
+    "slug": "belgravia-fluted-beverage",
+    "title": "Belgravia Fluted Stone & Vitrine Beverage Station",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Belgravia Fluted Beverage Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the Belgravia Fluted Beverage Station. Handcrafted British-engineered bespoke coffee bar with integrated LED vitrine, stone backboard and Blum running gear.",
+    "description": "The Belgravia Fluted Beverage Station is an architectural coffee and morning beverage suite handcrafted for British private residences. Designed with a continuous porcelain prep surface, illuminated glazed display vitrine for artisanal glassware, and heavy-duty soft-close cutlery and bean storage drawers.",
+    "image": "/assets/img/models/coffee_stations/belgravia-fluted-beverage_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/belgravia-fluted-beverage_1.webp",
+      "/assets/img/models/coffee_stations/belgravia-fluted-beverage_2.webp",
+      "/assets/img/models/coffee_stations/belgravia-fluted-beverage_3.webp"
+    ],
+    "dimensionsMm": "1800 mm (W) × 2200 mm (H) × 600 mm (D) | Counter: 900 mm (H) | Top Module: 380 mm (D)",
+    "materials": [
+      "E1 Moisture-Resistant High-Density Core Board",
+      "Continuous Veined Porcelain Splashback & Worktop",
+      "Blum Soft-Close Heavy-Duty Running Gear",
+      "Architectural Fluted Timber Panelling",
+      "Concealed 2700K Warm LED Linear Channels"
+    ],
+    "finishOptions": [
+      "Charcoal Silk Matt",
+      "Natural Smoked Oak",
+      "Satin Brass Trim"
+    ],
+    "installationScope": "Pre-assembled rigid cabinetry modules with concealed levelling feet and integrated socket chase",
+    "keyFeatures": [
+      "Continuous veined porcelain splashback resistant to heat, water, and espresso splashes",
+      "Illuminated glazed vitrine cabinet with adjustable safety glass shelving",
+      "Heavy-duty full-extension Blum soft-close drawers tailored for ceramic tableware and coffee grinders",
+      "Integrated warm 2700K linear LED illumination with concealed electrical socket management",
+      "Made-to-measure modular dimensions: 1800 mm (W) × 2200 mm (H) × 600 mm (D)"
+    ]
+  },
+  "mayfair-architectural-credenza": {
+    "slug": "mayfair-architectural-credenza",
+    "title": "Mayfair Architectural Manor Coffee Credenza",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Mayfair Architectural Coffee Credenza | Cabivella UK Joinery",
+    "metaDescription": "Bespoke Mayfair Architectural Coffee Credenza. Engineered luxury breakfast and espresso station with fluted acoustic panelling, quartz counter and tall pantry integration.",
+    "description": "The Mayfair Architectural Manor Coffee Credenza provides a dedicated culinary espresso workstation designed for contemporary British open-plan kitchens. Specified with tactile fluted timber cladding, solid quartz preparation counter, stemware hanging rails, and concealed appliance power hubs.",
+    "image": "/assets/img/models/coffee_stations/mayfair-architectural-credenza_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/mayfair-architectural-credenza_1.webp",
+      "/assets/img/models/coffee_stations/mayfair-architectural-credenza_2.webp",
+      "/assets/img/models/coffee_stations/mayfair-architectural-credenza_3.webp"
+    ],
+    "dimensionsMm": "2100 mm (W) × 2300 mm (H) × 600 mm (D) | Counter: 900 mm (H) | Top Module: 400 mm (D)",
+    "materials": [
+      "FSC-Certified Architectural Fluted Oak",
+      "Engineered Calacatta Quartz Worktop",
+      "High-Density Moisture-Resistant Lacquered Panels",
+      "Blum Soft-Close Legrabox Drawer Systems",
+      "Brushed Bronze Hardware & Glass Stemware Rails"
+    ],
+    "finishOptions": [
+      "Deep Bronze Matt",
+      "Light Nordic Oak",
+      "Burnished Brass"
+    ],
+    "installationScope": "Delivered in factory pre-assembled modules with scribe mouldings for seamless wall integration",
+    "keyFeatures": [
+      "Architectural 2100 mm run with integrated tall pantry housing and open display shelving",
+      "High-resilience Calacatta quartz preparation slab engineered for barista machines and knocks boxes",
+      "Concealed electrical service chases with multi-gang socket provisions for espresso machinery",
+      "Soft-closing wide pan drawers rated for 60 kg distributed loads",
+      "Dedicated stemware and ceramic cup display bays with warm halo LED backlighting"
+    ]
+  },
+  "kensington-integrated-barista": {
+    "slug": "kensington-integrated-barista",
+    "title": "Kensington Integrated Urban Barista Station",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Kensington Integrated Barista Station | Cabivella UK Joinery",
+    "metaDescription": "Discover the Kensington Integrated Urban Barista Station. Compact bespoke breakfast cabinet with stone splashback, LED shelving and concealed power trunking.",
+    "description": "The Kensington Integrated Urban Barista Station brings professional coffee curation into private residential living areas. Engineered with a balanced composition of closed storage, stone-textured splashback, open access display shelves, and integrated cable concealment channels.",
+    "image": "/assets/img/models/coffee_stations/kensington-integrated-barista_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/kensington-integrated-barista_1.webp",
+      "/assets/img/models/coffee_stations/kensington-integrated-barista_2.webp",
+      "/assets/img/models/coffee_stations/kensington-integrated-barista_3.webp"
+    ],
+    "dimensionsMm": "1600 mm (W) × 2200 mm (H) × 600 mm (D) | Counter: 880 mm (H) | Top Module: 360 mm (D)",
+    "materials": [
+      "Moisture-Resistant E1 Core Substrate",
+      "Tactile Stone-Effect Composite Splashback",
+      "Durable Polyurethane Silk-Touch Finish",
+      "Concealed Blum Clip Top Hinges & Runners",
+      "Anodised Aluminium Recessed Handles"
+    ],
+    "finishOptions": [
+      "Warm Stone Grey",
+      "Muted Cashmere",
+      "Brushed Anthracite"
+    ],
+    "installationScope": "Full modular installation ready for specialist fitter attachment and electrical connection",
+    "keyFeatures": [
+      "Ergonomic 1600 mm width designed for seamless integration into living and kitchen reception rooms",
+      "Stone-textured architectural splashback with integrated cable trunking for coffee scales and grinders",
+      "Dual-section layout with closed upper cupboards and open illuminated barista shelves",
+      "Precision soft-close drawer stacks fitted with bespoke dividers for coffee beans and capsules",
+      "Water- and heat-resistant work surface engineered for daily thermal contact"
+    ]
+  },
+  "chelsea-vitrine-coffee-station": {
+    "slug": "chelsea-vitrine-coffee-station",
+    "title": "Chelsea Asymmetric Glass Vitrine Coffee Station",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Chelsea Asymmetric Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the Chelsea Asymmetric Coffee Station. Architectural joinery with illuminated smoked glass vitrine, porcelain counter, and precision Blum soft-close drawers.",
+    "description": "The Chelsea Asymmetric Glass Vitrine Coffee Station combines functional kitchen joinery with the sophistication of high-end furniture. Featuring an illuminated vertical glass vitrine on one wing, central stone-clad espresso preparation niche, and open floating shelving.",
+    "image": "/assets/img/models/coffee_stations/chelsea-vitrine-coffee-station_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/chelsea-vitrine-coffee-station_1.webp",
+      "/assets/img/models/coffee_stations/chelsea-vitrine-coffee-station_2.webp",
+      "/assets/img/models/coffee_stations/chelsea-vitrine-coffee-station_3.webp"
+    ],
+    "dimensionsMm": "2000 mm (W) × 2250 mm (H) × 600 mm (D) | Counter: 900 mm (H) | Top Module: 380 mm (D)",
+    "materials": [
+      "E1 Certified Moisture-Resistant Core Board",
+      "Ultra-Compact Porcelain Preparation Slab",
+      "Smoked Tempered Architectural Glass Doors",
+      "Integrated Linear Warm LED Illumination",
+      "Precision German Engineered Hardware"
+    ],
+    "finishOptions": [
+      "Anthracite Silk Lacquer",
+      "Smoked Walnut Accent",
+      "Matte Black Metalwork"
+    ],
+    "installationScope": "Factory assembled rigid carcase modules with levelling mechanism and concealed wall hangers",
+    "keyFeatures": [
+      "Asymmetrical architectural composition pairing display vitrine with dedicated espresso work bay",
+      "Illuminated full-height glass display unit for artisanal ceramic cups, teapots, and decanters",
+      "Heat- and stain-resistant porcelain worktop resistant to boiling water and acidic coffee oils",
+      "Concealed appliance cabling channels behind monolithic stone-effect rear panel",
+      "Precision Blum Legrabox soft-close drawer mechanisms with internal accessory divisions"
+    ]
+  },
+  "knightsbridge-minimalist-niche": {
+    "slug": "knightsbridge-minimalist-niche",
+    "title": "Knightsbridge Minimalist Natural Oak Coffee Niche",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Knightsbridge Minimalist Coffee Niche | Cabivella UK Joinery",
+    "metaDescription": "Discover the Knightsbridge Minimalist Coffee Niche. Bespoke natural oak coffee station with open floating shelving, porcelain worktop and concealed storage.",
+    "description": "The Knightsbridge Minimalist Natural Oak Coffee Niche is handcrafted around organic simplicity and uncluttered ritual. Finished in warm natural oak veneer with a seamless porcelain work surface, open floating shelving for daily essentials, and clean recessed shadow gaps.",
+    "image": "/assets/img/models/coffee_stations/knightsbridge-minimalist-niche_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/knightsbridge-minimalist-niche_1.webp",
+      "/assets/img/models/coffee_stations/knightsbridge-minimalist-niche_2.webp",
+      "/assets/img/models/coffee_stations/knightsbridge-minimalist-niche_3.webp"
+    ],
+    "dimensionsMm": "1750 mm (W) × 2200 mm (H) × 600 mm (D) | Counter: 890 mm (H) | Top Module: 360 mm (D)",
+    "materials": [
+      "Natural Crown-Cut White Oak Veneer",
+      "Solid Core Moisture-Resistant Core Substrate",
+      "Stain-Proof Porcelain Countertop Slab",
+      "Full-Extension Concealed Blum Runners",
+      "Architectural Recessed Gola Channel Profiles"
+    ],
+    "finishOptions": [
+      "Natural Nordic Oak",
+      "Washed Bone White",
+      "Brushed Champagne Brass"
+    ],
+    "installationScope": "Supplied in rigid factory modules with pre-routed wiring paths for effortless installation",
+    "keyFeatures": [
+      "Warm minimalist architectural aesthetic pairing tactile timber grains with seamless stone surfaces",
+      "Open cantilevered display shelving engineered to carry ceramic espresso collections and pour-over sets",
+      "Concealed lower cabinetry with deep pan pull-outs for bean storage and milk frothing equipment",
+      "Integrated warm 2700K concealed LED profile lighting beneath upper cabinets",
+      "Sized to modular 1750 mm run for flexible positioning in dining halls, hallways, or kitchen zones"
+    ]
+  },
+  "westminster-barista-armoire": {
+    "slug": "westminster-barista-armoire",
+    "title": "Westminster Architectural Concealed Barista Armoire",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Westminster Concealed Barista Armoire | Cabivella UK Joinery",
+    "metaDescription": "Bespoke Westminster Concealed Barista Armoire. Architectural bi-fold door coffee station with internal stone worktop, automated lighting and appliance garage.",
+    "description": "The Westminster Architectural Concealed Barista Armoire conceals high-performance coffee equipment behind full-height architectural doors when not in use. When opened, it reveals a fully appointed barista workstation featuring an illuminated stone backboard, solid counter, and tailored pull-out trays.",
+    "image": "/assets/img/models/coffee_stations/westminster-barista-armoire_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/westminster-barista-armoire_1.webp",
+      "/assets/img/models/coffee_stations/westminster-barista-armoire_2.webp",
+      "/assets/img/models/coffee_stations/westminster-barista-armoire_3.webp"
+    ],
+    "dimensionsMm": "1900 mm (W) × 2250 mm (H) × 600 mm (D) | Counter: 900 mm (H) | Top Module: 380 mm (D)",
+    "materials": [
+      "High-Density Moisture-Resistant E1 Core",
+      "Composite Porcelain Worktop & Backsplash",
+      "Hettich / Blum Pocket Sliding Door Gear",
+      "Multi-Tier Solid Timber Pull-Out Trays",
+      "Automated Door-Sensor LED Lighting"
+    ],
+    "finishOptions": [
+      "Heritage Olive Green",
+      "Deep Navy Lacquer",
+      "Burnished Antique Brass"
+    ],
+    "installationScope": "Delivered pre-assembled with pocket door cassettes pre-calibrated for rapid on-site fitting",
+    "keyFeatures": [
+      "Concealed pocket door mechanism that slides neatly into side housings for barrier-free morning access",
+      "Integrated sensor-activated warm LED illumination that triggers automatically upon door opening",
+      "Full-width stone preparation counter designed for dual-boiler espresso machinery and grinders",
+      "Lower soft-close drawer stack fitted with dividers for coffee tampers, portafilters, and fresh beans",
+      "Engineered 1900 mm structural carcase built with rigid cam-and-dowel precision"
+    ]
+  },
+  "richmond-compact-urban-station": {
+    "slug": "richmond-compact-urban-station",
+    "title": "Richmond Compact Urban Barista Station",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Richmond Compact Barista Station | Cabivella UK Joinery",
+    "metaDescription": "Bespoke Richmond Compact Urban Barista Station. Streamlined 1200mm coffee cabinet with porcelain prep counter, cup racks and Blum drawer running gear.",
+    "description": "The Richmond Compact Urban Barista Station is engineered specifically for British townhouses, apartments, and studio residences requiring uncompromising coffee craft within an efficient footprint. Built with an E1 moisture-resistant core, stone counter slab, and designated cup hanging rails.",
+    "image": "/assets/img/models/coffee_stations/richmond-compact-urban-station_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/richmond-compact-urban-station_1.webp"
+    ],
+    "dimensionsMm": "1200 mm (W) × 2100 mm (H) × 600 mm (D) | Counter: 900 mm (H) | Top Module: 350 mm (D)",
+    "materials": [
+      "E1 Water-Resistant Engineered Core Board",
+      "High-Durability Quartz Countertop",
+      "Multi-Layer Polyurethane Matte Lacquer",
+      "Blum Soft-Close Drawer Running Gear",
+      "Precision Machined Brass Knurled Handles"
+    ],
+    "finishOptions": [
+      "Chalk White Matt",
+      "Fjord Blue",
+      "Brushed Brass"
+    ],
+    "installationScope": "Pre-assembled compact tower delivered ready for direct installation and wall tethering",
+    "keyFeatures": [
+      "Space-efficient 1200 mm footprint tailored for apartments, morning rooms, and breakfast corners",
+      "High-durability quartz worktop resistant to heat, water condensation, and ground coffee residue",
+      "Upper open niche with brass stemware and cup rails for rapid morning access",
+      "Twin lower deep pull-out drawers with soft-close damping and 40 kg load rating",
+      "Pre-routed rear access points for neat electrical socket wiring"
+    ]
+  },
+  "cotswold-heritage-pocket-armoire": {
+    "slug": "cotswold-heritage-pocket-armoire",
+    "title": "Cotswold Heritage In-Frame Beverage Armoire",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Cotswold Heritage Beverage Armoire | Cabivella UK Joinery",
+    "metaDescription": "Explore the Cotswold Heritage In-Frame Beverage Armoire. Traditional British handcrafted breakfast armoire with solid timber frame, quartz counter and bi-fold doors.",
+    "description": "The Cotswold Heritage In-Frame Beverage Armoire captures the enduring charm of English country manor kitchens. Hand-painted in heritage hues with authentic in-frame joinery, a generous quartz work surface, interior spice and tea shelving, and discreet power trunking.",
+    "image": "/assets/img/models/coffee_stations/cotswold-heritage-pocket-armoire_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/cotswold-heritage-pocket-armoire_1.webp"
+    ],
+    "dimensionsMm": "1500 mm (W) × 2200 mm (H) × 650 mm (D) | Counter: 900 mm (H) | Top Module: 400 mm (D)",
+    "materials": [
+      "Solid Ash In-Frame Cabinet Construction",
+      "Natural Carrara-Pattern Engineered Quartz",
+      "Traditional Butt Hinges & Magnetic Catches",
+      "Dovetail Solid Oak Internal Drawer Boxes",
+      "Warm Under-Shelf LED Concealed Channels"
+    ],
+    "finishOptions": [
+      "Parchment Cream",
+      "Sage Whisper",
+      "Aged Brass Hardware"
+    ],
+    "installationScope": "Delivered fully assembled in a single rigid structural piece ready for scribing and anchoring",
+    "keyFeatures": [
+      "Traditional English in-frame cabinetry construction with solid ash face frames and doors",
+      "Internal preparation worktop in stain-resistant Carrara-pattern quartz",
+      "Door-mounted spice racks and dedicated shelves for artisanal tea caddies and coffee beans",
+      "Solid oak dovetail drawer boxes with soft-close concealed undermount runners",
+      "Generous 650 mm depth accommodating full-size espresso machines with top cup-warming trays"
+    ]
+  },
+  "st-james-fluted-beverage-armoire": {
+    "slug": "st-james-fluted-beverage-armoire",
+    "title": "St James Fluted Architectural Beverage Station",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "St James Fluted Beverage Station | Cabivella UK Joinery",
+    "metaDescription": "Discover the St James Fluted Beverage Station. Bespoke modern cabinet featuring vertical fluted timber panels, fluted glass upper doors and porcelain worktop.",
+    "description": "The St James Fluted Architectural Beverage Station delivers striking vertical texture and sophisticated material contrasts. Combining reeded glass cabinet doors, precision fluted timber cladding, integrated ambient backlighting, and a non-porous porcelain prep surface.",
+    "image": "/assets/img/models/coffee_stations/st-james-fluted-beverage-armoire_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/st-james-fluted-beverage-armoire_1.webp"
+    ],
+    "dimensionsMm": "1800 mm (W) × 2300 mm (H) × 600 mm (D) | Counter: 900 mm (H) | Top Module: 380 mm (D)",
+    "materials": [
+      "Vertical Fluted European Oak Panelling",
+      "Reeded Smoked Architectural Safety Glass",
+      "Continuous Porcelain Countertop & Backsplash",
+      "Blum Legrabox Running Gear with Soft-Close",
+      "Integrated 2700K Warm Dimmable LED Profiles"
+    ],
+    "finishOptions": [
+      "Smoked Oak Veneer",
+      "Deep Forest Green",
+      "Brushed Antique Bronze"
+    ],
+    "installationScope": "Modular pre-assembled cabinetry with levelling system and integrated electrical paths",
+    "keyFeatures": [
+      "Fluted vertical texture creating tactile architectural rhythm across the joinery facade",
+      "Upper reeded glass display doors softly diffusing interior warm LED illumination",
+      "Seamless porcelain preparation worktop with zero porosity for easy maintenance",
+      "Deep lower drawers equipped with timber dividers for syrups, spoons, and coffee tools",
+      "Custom architectural dimensions: 1800 mm (W) × 2300 mm (H) × 600 mm (D)"
+    ]
+  },
+  "marylebone-culinary-espresso-credenza": {
+    "slug": "marylebone-culinary-espresso-credenza",
+    "title": "Marylebone Executive Culinary Espresso Credenza",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "metaTitle": "Marylebone Executive Espresso Credenza | Cabivella UK Joinery",
+    "metaDescription": "Explore the Marylebone Executive Espresso Credenza. Expansive 2200mm luxury coffee and breakfast station with quartz counter, double larder bays and LED profiles.",
+    "description": "The Marylebone Executive Culinary Espresso Credenza is an expansive statement beverage station engineered for luxury entertaining and everyday culinary refinement. Built with a generous 2200mm prep span, dual integrated larder columns, and brushed brass hardware.",
+    "image": "/assets/img/models/coffee_stations/marylebone-culinary-espresso-credenza_1.webp",
+    "gallery": [
+      "/assets/img/models/coffee_stations/marylebone-culinary-espresso-credenza_1.webp"
+    ],
+    "dimensionsMm": "2200 mm (W) × 2250 mm (H) × 600 mm (D) | Counter: 900 mm (H) | Top Module: 400 mm (D)",
+    "materials": [
+      "High-Density E1 Moisture-Resistant Lacquered Core",
+      "Engineered Polished Quartz Counter Surface",
+      "Full-Extension Heavy-Duty Blum Running Gear",
+      "Architectural Brass Profile Handles",
+      "Continuous Concealed LED Task Lighting"
+    ],
+    "finishOptions": [
+      "Midnight Blue Silk Matt",
+      "Warm Alabaster",
+      "Satin Brass"
+    ],
+    "installationScope": "Pre-assembled precision units with heavy-duty structural fixings and wall scribes",
+    "keyFeatures": [
+      "Expansive 2200 mm preparation length ideal for multi-appliance setups and barista workstations",
+      "Dual flanking tall storage compartments for syrups, tea collections, and breakfast supplies",
+      "Polished quartz worktop engineered to withstand thermal expansion and moisture",
+      "Concealed electrical distribution behind full-height monolithic splashback",
+      "Heavy-duty internal pull-out drawers with soft-close damping and silent gliding operation"
+    ]
   },
   "kensington-linear-chef-suite-300x240-cm-01": {
     slug: "kensington-linear-chef-suite-300x240-cm-01",

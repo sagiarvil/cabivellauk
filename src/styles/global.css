@@ -3,6 +3,11 @@
 /* ==========================================================================
    STAGGERED SCROLL-DRIVEN REVEAL ANIMATIONS (Apple Motion Architecture)
    ========================================================================== */
+html:not(.motion-ready) [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
 [data-reveal] {
   opacity: 0;
   transform: translateY(24px);
@@ -31,7 +36,12 @@ html.motion-ready [data-reveal].is-revealed {
     transition: none !important;
     animation: none !important;
   }
-  [data-reveal] {
+  html:not(.motion-ready) [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+[data-reveal] {
     opacity: 1 !important;
     transform: none !important;
   }
