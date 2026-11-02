@@ -1,24 +1,12 @@
-export interface CollectionCategory {
-  slug: string;
-  title: string;
-  heroEyebrow: string;
-  metaTitle: string;
-  metaDescription: string;
-  shortCopy: string;
-  description: string;
-  image: string;
-  modelSlugs: string[];
-}
-
 export const collectionsData: Record<string, CollectionCategory> = {
-  "signature-2025": {
-    "slug": "signature-2025",
-    "title": "Signature 2025 Collection",
-    "heroEyebrow": "2025 COLLECTION",
-    "metaTitle": "Signature 2025 Bathroom Collection | Cabivella UK",
-    "metaDescription": "Explore the Signature 2025 Architectural Bathroom Collection. British engineered luxury vanity suites where aesthetics and everyday comfort meet.",
-    "shortCopy": "Looking for perfection in contemporary British bathroom design.",
-    "description": "The Signature 2025 Collection transforms British bathrooms from purely functional spaces into tranquil living sanctuaries where tactile serenity and precision joinery converge.",
+  "signature-suites": {
+    "slug": "signature-suites",
+    "title": "Signature Architectural Suites",
+    "heroEyebrow": "MASTER COLLECTION",
+    "metaTitle": "Signature Architectural Bathroom Suites | Cabivella UK",
+    "metaDescription": "Explore Cabivella's flagship architectural vanity suites. Precision timber craftsmanship, fluted drawer facades and seamless sanitary ceramics tailored for British residences.",
+    "shortCopy": "Uncompromising architectural balance and tactile British craftsmanship.",
+    "description": "Our flagship suite unites architectural geometry with understated British luxury. Engineered with durable moisture-sealed joinery and bespoke basin pairings, each vanity creates a timeless focal point.",
     "image": "/assets/img/collections/bathrooms/cabivella-signature-2025-collection-levanto.webp",
     "modelSlugs": [
         "mayfair-artisan-joinery-vanity-suite",
@@ -41,14 +29,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
         "russell-sculptural-organic-vanity-suite"
     ]
 },
-  "thermold": {
-    "slug": "thermold",
-    "title": "TherMold Moisture-Resistant Collection",
-    "heroEyebrow": "THERMOLD ARCHITECTURE",
-    "metaTitle": "TherMold Moisture-Resistant Bathroom Collection | Cabivella UK",
-    "metaDescription": "High-performance moisture-resistant bathroom cabinetry engineered with advanced TherMold technology for humid UK bathrooms.",
-    "shortCopy": "The tranquility of nature united with enduring durability.",
-    "description": "Our TherMold Technology delivers uncompromising water resistance for humid UK bathrooms. High-heat fused polymers create seamless, moisture-sealed surfaces that retain enduring tactile beauty.",
+  "aquashield-vanities": {
+    "slug": "aquashield-vanities",
+    "title": "AquaShield Moisture-Engineered Suites",
+    "heroEyebrow": "ADVANCED HYDRAULIC PROTECTION",
+    "metaTitle": "AquaShield Moisture-Resistant Bathroom Cabinetry | Cabivella UK",
+    "metaDescription": "Engineered with thermo-fused polymeric substrates for high-humidity British environments. Zero delamination, zero swelling, lifetime resilience.",
+    "shortCopy": "Definitive moisture defense meeting refined British proportions.",
+    "description": "Engineered specifically for high-humidity bathrooms and wetroom spaces. AquaShield thermo-fused substrate technology creates a continuous impermeable seal, ensuring cabinetry remains pristine without risk of moisture intrusion.",
     "image": "/assets/img/collections/bathrooms/cabivella-thermold-moisture-resistant-lentia.webp",
     "modelSlugs": [
         "knightsbridge-architectural-bathroom-vanity-suite",
@@ -60,14 +48,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
         "oxfordshire-architectural-bathroom-vanity-suite"
     ]
 },
-  "only": {
-    "slug": "only",
-    "title": "Only Collection",
-    "heroEyebrow": "PURE MINIMALISM",
-    "metaTitle": "Only Pure Minimalist Bathroom Collection | Cabivella UK",
-    "metaDescription": "Simple lines, calm silhouettes and refined minimalist bathroom vanity suites crafted for modern British homes.",
-    "shortCopy": "Only you, only yours... Bespoke minimalist bathroom living.",
-    "description": "With calm silhouettes, concealed edge pulls and soothing monochrome finishes, the Only Collection crafts a personal sanctuary tailored precisely around your daily routine.",
+  "monolith-minimalism": {
+    "slug": "monolith-minimalism",
+    "title": "Monolith Minimalist Collection",
+    "heroEyebrow": "REDUCED REVELATION",
+    "metaTitle": "Monolith Minimalist Bathroom Vanity Collection | Cabivella UK",
+    "metaDescription": "Pure architectural silhouettes, hidden shadow reveals and concealed touch-to-open mechanics for contemporary British cloakrooms and ensuites.",
+    "shortCopy": "Purity of form stripped of unnecessary adornment.",
+    "description": "Guided by minimalist clarity, the Monolith series celebrates pure planar surfaces and discreet 45-degree mitred shadow profiles. Designed to evoke serenity through balanced negative space and tranquil textures.",
     "image": "/assets/img/collections/bathrooms/cabivella-pure-minimalist-ferla.webp",
     "modelSlugs": [
         "hampstead-monolith-architectural-vanity-suite",
@@ -94,14 +82,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
         "tavistock-monolith-architectural-vanity-suite"
     ]
 },
-  "rate": {
-    "slug": "rate",
-    "title": "Harmonic Ratio Collection",
-    "heroEyebrow": "CLASSICAL PROPORTION",
-    "metaTitle": "Harmonic Ratio Bathroom Collection | Cabivella UK",
-    "metaDescription": "Harmonic Ratio collection bathroom cabinetry. Perfect geometric balance, timeless reveals and bespoke architectural modularity.",
-    "shortCopy": "Perfect ratio. Perfect balance in British bathroom joinery.",
-    "description": "Inspired by classical proportions, the Harmonic Ratio Collection creates timeless architectural visual weight through balanced reveals, integrated washstands and modular towers.",
+  "linear-proportions": {
+    "slug": "linear-proportions",
+    "title": "Linear Proportion Collection",
+    "heroEyebrow": "CLASSICAL EQUILIBRIUM",
+    "metaTitle": "Linear Proportion Bathroom Cabinetry | Cabivella UK",
+    "metaDescription": "Rooted in the golden ratio and balanced vertical symmetry. Discover architectural double vanity units, coordinated wall piers and modular linen towers.",
+    "shortCopy": "Geometric harmony calculated with architectural poise.",
+    "description": "Proportioned according to classical architectural balance, Linear Proportions establishes natural harmony within any bathroom footprint. Featuring symmetrical dual basins and rhythmically grooved fluted drawer fronts.",
     "image": "/assets/img/collections/bathrooms/cabivella-harmonic-ratio-bastle.webp",
     "modelSlugs": [
         "westminster-linear-minimalist-vanity-suite",
@@ -117,14 +105,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
         "camden-linear-minimalist-vanity-suite"
     ]
 },
-  "karma": {
-    "slug": "karma",
-    "title": "Artisan Karma Collection",
-    "heroEyebrow": "TACTILE HARMONY",
-    "metaTitle": "Artisan Karma Bathroom Collection | Cabivella UK",
-    "metaDescription": "Artisan Karma collection bathroom cabinetry featuring fluted oak textures, integrated basins and calming living spaces.",
-    "shortCopy": "At the right time, with the right feeling.",
-    "description": "Bringing tactile balance to contemporary homes. Karma harmonises natural fluted oak accents, stone surfaces and discreet LED illumination for atmospheric luxury.",
+  "artisan-timber-fluted": {
+    "slug": "artisan-timber-fluted",
+    "title": "Artisan Timber & Fluted Joinery",
+    "heroEyebrow": "TACTILE TIMBER CRAFT",
+    "metaTitle": "Artisan Timber Fluted Bathroom Vanities | Cabivella UK",
+    "metaDescription": "Natural fluted oak veneers, warm walnut grains and integrated accent lighting engineered for tactile warmth in British bathroom interiors.",
+    "shortCopy": "Tactile warmth, honest joinery, and organic grain character.",
+    "description": "Bringing the grounding warmth of timber into modern sanctuary design. Rich natural oak grains, acoustic fluted reliefs and softly textured solid surfaces create a tactile experience that matures gracefully over time.",
     "image": "/assets/img/collections/bathrooms/cabivella-artisan-karma-prato.webp",
     "modelSlugs": [
         "mayfair-artisan-joinery-vanity-suite",
@@ -141,14 +129,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
         "woburn-artisan-joinery-vanity-suite"
     ]
 },
-  "amorf": {
-    "slug": "amorf",
-    "title": "Sculptural Amorf Collection",
-    "heroEyebrow": "ORGANIC FORMS",
-    "metaTitle": "Sculptural Amorf Bathroom Collection | Cabivella UK",
-    "metaDescription": "Bespoke sculptural and organic bathroom vanity suites designed for distinctive British architectural projects.",
-    "shortCopy": "Extraordinary and unlimited architectural bathroom design.",
-    "description": "Breaking away from rigid boundaries. Sculptural curves, asymmetric stone basins and organic timber profiles deliver bespoke individuality for architectural British residences.",
+  "sculptural-contours": {
+    "slug": "sculptural-contours",
+    "title": "Sculptural Contours Collection",
+    "heroEyebrow": "ORGANIC CURVES",
+    "metaTitle": "Sculptural Contours Bathroom Vanity Suites | Cabivella UK",
+    "metaDescription": "Gentle radiused corners, asymmetric solid surface washbasins and flowing curvilinear vanity silhouettes for bespoke UK architectural projects.",
+    "shortCopy": "Fluid curves and organic forms breaking from rigid boundaries.",
+    "description": "Free-flowing silhouettes designed to soften architectural angles. Featuring sweeping curved cabinetry contours, asymmetric basins and bespoke radius corner joints that introduce soft fluid motion into contemporary British bathrooms.",
     "image": "/assets/img/collections/bathrooms/cabivella-sculptural-amorf-milano.webp",
     "modelSlugs": [
         "wimbledon-sculptural-organic-vanity-suite",
@@ -162,14 +150,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
         "russell-sculptural-organic-vanity-suite"
     ]
 },
-  "friendly": {
-    "slug": "friendly",
-    "title": "Ergonomic Comfort Collection",
-    "heroEyebrow": "ERGONOMIC LIVING",
-    "metaTitle": "Ergonomic Comfort Bathroom Collection | Cabivella UK",
-    "metaDescription": "Ergonomic bathroom cabinetry with accessible proportions, generous drawer depths and warm tactile finishes.",
-    "shortCopy": "With the easiest choices in your happiest moments.",
-    "description": "Intelligently scaled for compact city cloakrooms and family bathrooms alike. Ergonomic vanity heights, generous drawer depths and warm tactile finishes.",
+  "ergonomic-cloakroom": {
+    "slug": "ergonomic-cloakroom",
+    "title": "Ergonomic & Compact Cloakroom Suites",
+    "heroEyebrow": "INTELLIGENT SCALING",
+    "metaTitle": "Ergonomic & Compact Cloakroom Vanities | Cabivella UK",
+    "metaDescription": "Optimised compact projection vanities, ergonomic drawer heights and smart corner solutions crafted for UK townhouses and family bathrooms.",
+    "shortCopy": "Intelligently proportioned for compact townhouses and family living.",
+    "description": "Carefully scaled for London townhouses, powder rooms and family ensuites. Combines slim-projection carcases with deep practical storage drawers to maximise usable floor area without sacrificing architectural presence.",
     "image": "/assets/img/collections/bathrooms/cabivella-ergonomic-comfort-purus.webp",
     "modelSlugs": [
         "kensington-ergonomic-pure-vanity-suite",
@@ -184,14 +172,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
         "westminster-abbey-deep-drawer-vanity-suite"
     ]
 },
-  "storage": {
-    "slug": "storage",
-    "title": "Integrated Storage & Utility Collection",
-    "heroEyebrow": "ARCHITECTURAL STORAGE",
-    "metaTitle": "Integrated Bathroom & Utility Storage Collection | Cabivella UK",
-    "metaDescription": "Dedicated laundry armoires, washing machine housings and full-height linen towers for organized UK homes.",
-    "shortCopy": "Spatial savings.. Perfect layout for every bathroom detail.",
-    "description": "Dedicated laundry armoires, concealed washing machine housings and full-height linen towers designed to bring effortless organisation to British utility spaces.",
+  "utility-laundry-housing": {
+    "slug": "utility-laundry-housing",
+    "title": "Concealed Utility & Laundry Armoires",
+    "heroEyebrow": "ARCHITECTURAL CONCEALMENT",
+    "metaTitle": "Concealed Utility & Laundry Armoires | Cabivella UK",
+    "metaDescription": "Floor-to-ceiling appliance housings, integrated laundry sorting and linen storage towers tailored for British utility rooms and bathrooms.",
+    "shortCopy": "Effortless utility concealment behind architectural floor-to-ceiling joinery.",
+    "description": "Seamlessly integrates laundry appliances, linen storage and utility essentials behind tall architectural doors. Featuring heavy-duty acoustic vibration dampeners, pull-out sorting hampers and moisture-sealed interior carcases.",
     "image": "/assets/img/collections/bathrooms/cabivella-utility-storage-lume.webp",
     "modelSlugs": [
         "belgravia-architectural-towel-console",
