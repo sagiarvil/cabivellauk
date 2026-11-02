@@ -9613,4 +9613,2598 @@ export const modelsData: Record<string, ModelDetail> = {
           "Dedicated accessory drawer with customisable solid walnut dividers"
       ]
   },
+  "kensington-linear-chef-suite-300x240-cm-01": {
+    slug: "kensington-linear-chef-suite-300x240-cm-01",
+    title: "Kensington Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Kensington Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Kensington Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Kensington Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002571279_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002571279_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002571279_1.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "mayfair-architectural-master-kitchen-300x240-cm-02": {
+    slug: "mayfair-architectural-master-kitchen-300x240-cm-02",
+    title: "Mayfair Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Mayfair Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Mayfair Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Mayfair Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002571266_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002571266_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002571266_1.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "belgravia-grand-horizon-cabinetry-300x240-cm-03": {
+    slug: "belgravia-grand-horizon-cabinetry-300x240-cm-03",
+    title: "Belgravia Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Belgravia Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Belgravia Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Belgravia Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002571259_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002571259_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002571259_1.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "chelsea-monolith-high-gloss-suite-300x240-cm-04": {
+    slug: "chelsea-monolith-high-gloss-suite-300x240-cm-04",
+    title: "Chelsea Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Chelsea Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Chelsea Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Chelsea Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002529205_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002529205_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002529205_1.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "knightsbridge-integrated-culinary-tower-300x240-cm-05": {
+    slug: "knightsbridge-integrated-culinary-tower-300x240-cm-05",
+    title: "Knightsbridge Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Knightsbridge Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Knightsbridge Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Knightsbridge Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002529204_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002529204_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002529204_1.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "westminster-dual-tone-executive-kitchen-300x240-cm-06": {
+    slug: "westminster-dual-tone-executive-kitchen-300x240-cm-06",
+    title: "Westminster Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Westminster Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Westminster Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Westminster Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002886738_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002886738_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002886738_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002886738_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "cotswold-ergonomic-horizon-island-300x240-cm-07": {
+    slug: "cotswold-ergonomic-horizon-island-300x240-cm-07",
+    title: "Cotswold Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Cotswold Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Cotswold Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Cotswold Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002886726_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002886726_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002886726_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002886726_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "richmond-pantry-wall-joinery-300x240-cm-08": {
+    slug: "richmond-pantry-wall-joinery-300x240-cm-08",
+    title: "Richmond Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Richmond Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Richmond Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Richmond Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002886596_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002886596_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002886596_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002886596_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "hampstead-deep-drawer-architectural-suite-300x240-cm-09": {
+    slug: "hampstead-deep-drawer-architectural-suite-300x240-cm-09",
+    title: "Hampstead Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Hampstead Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Hampstead Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Hampstead Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600107_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600107_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600107_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600107_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "marylebone-contemporary-minimalist-suite-300x240-cm-10": {
+    slug: "marylebone-contemporary-minimalist-suite-300x240-cm-10",
+    title: "Marylebone Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Marylebone Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Marylebone Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Marylebone Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600116_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600116_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600116_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600116_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "st-james-linear-chef-suite-300x240-cm-11": {
+    slug: "st-james-linear-chef-suite-300x240-cm-11",
+    title: "St. James Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "St. James Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the St. James Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The St. James Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599734_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599734_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599734_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599734_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "fitzrovia-architectural-master-kitchen-300x240-cm-12": {
+    slug: "fitzrovia-architectural-master-kitchen-300x240-cm-12",
+    title: "Fitzrovia Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Fitzrovia Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Fitzrovia Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Fitzrovia Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599731_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599731_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599731_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599731_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "bloomsbury-grand-horizon-cabinetry-300x240-cm-13": {
+    slug: "bloomsbury-grand-horizon-cabinetry-300x240-cm-13",
+    title: "Bloomsbury Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Bloomsbury Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Bloomsbury Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Bloomsbury Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598452_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598452_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598452_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598452_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "pimlico-monolith-high-gloss-suite-300x240-cm-14": {
+    slug: "pimlico-monolith-high-gloss-suite-300x240-cm-14",
+    title: "Pimlico Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Pimlico Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Pimlico Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Pimlico Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600636_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600636_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600636_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600636_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "greenwich-integrated-culinary-tower-300x240-cm-15": {
+    slug: "greenwich-integrated-culinary-tower-300x240-cm-15",
+    title: "Greenwich Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Greenwich Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Greenwich Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Greenwich Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598446_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598446_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598446_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598446_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "chiswick-dual-tone-executive-kitchen-300x240-cm-16": {
+    slug: "chiswick-dual-tone-executive-kitchen-300x240-cm-16",
+    title: "Chiswick Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Chiswick Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Chiswick Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Chiswick Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598757_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598757_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598757_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598757_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "wimbledon-ergonomic-horizon-island-300x240-cm-17": {
+    slug: "wimbledon-ergonomic-horizon-island-300x240-cm-17",
+    title: "Wimbledon Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Wimbledon Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Wimbledon Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Wimbledon Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598748_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598748_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598748_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598748_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "dulwich-pantry-wall-joinery-300x240-cm-18": {
+    slug: "dulwich-pantry-wall-joinery-300x240-cm-18",
+    title: "Dulwich Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Dulwich Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Dulwich Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Dulwich Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600457_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600457_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600457_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600457_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "battersea-deep-drawer-architectural-suite-300x240-cm-19": {
+    slug: "battersea-deep-drawer-architectural-suite-300x240-cm-19",
+    title: "Battersea Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Battersea Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Battersea Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Battersea Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600644_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600644_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600644_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600644_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "highgate-contemporary-minimalist-suite-300x240-cm-20": {
+    slug: "highgate-contemporary-minimalist-suite-300x240-cm-20",
+    title: "Highgate Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Highgate Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Highgate Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Highgate Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601192_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601192_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601192_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601192_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "islington-linear-chef-suite-300x240-cm-21": {
+    slug: "islington-linear-chef-suite-300x240-cm-21",
+    title: "Islington Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Islington Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Islington Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Islington Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600467_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600467_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600467_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600467_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "putney-architectural-master-kitchen-300x240-cm-22": {
+    slug: "putney-architectural-master-kitchen-300x240-cm-22",
+    title: "Putney Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Putney Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Putney Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Putney Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600283_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600283_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600283_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600283_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "barnes-grand-horizon-cabinetry-300x240-cm-23": {
+    slug: "barnes-grand-horizon-cabinetry-300x240-cm-23",
+    title: "Barnes Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Barnes Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Barnes Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Barnes Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600279_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600279_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600279_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600279_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "clapham-monolith-high-gloss-suite-300x240-cm-24": {
+    slug: "clapham-monolith-high-gloss-suite-300x240-cm-24",
+    title: "Clapham Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Clapham Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Clapham Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Clapham Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598767_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598767_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598767_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598767_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "wandsworth-integrated-culinary-tower-300x240-cm-25": {
+    slug: "wandsworth-integrated-culinary-tower-300x240-cm-25",
+    title: "Wandsworth Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Wandsworth Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Wandsworth Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Wandsworth Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599490_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599490_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599490_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599490_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "holland-park-dual-tone-executive-kitchen-300x240-cm-26": {
+    slug: "holland-park-dual-tone-executive-kitchen-300x240-cm-26",
+    title: "Holland Park Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Holland Park Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Holland Park Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Holland Park Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598606_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598606_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598606_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598606_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "bayswater-ergonomic-horizon-island-300x240-cm-27": {
+    slug: "bayswater-ergonomic-horizon-island-300x240-cm-27",
+    title: "Bayswater Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Bayswater Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Bayswater Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Bayswater Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598781_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598781_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598781_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598781_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "notting-hill-pantry-wall-joinery-300x240-cm-28": {
+    slug: "notting-hill-pantry-wall-joinery-300x240-cm-28",
+    title: "Notting Hill Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Notting Hill Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Notting Hill Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Notting Hill Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601320_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601320_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601320_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601320_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "primrose-hill-deep-drawer-architectural-suite-300x240-cm-29": {
+    slug: "primrose-hill-deep-drawer-architectural-suite-300x240-cm-29",
+    title: "Primrose Hill Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Primrose Hill Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Primrose Hill Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Primrose Hill Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599480_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599480_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599480_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599480_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "regents-park-contemporary-minimalist-suite-300x240-cm-30": {
+    slug: "regents-park-contemporary-minimalist-suite-300x240-cm-30",
+    title: "Regents Park Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Regents Park Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Regents Park Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Regents Park Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598590_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598590_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598590_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598590_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "maida-vale-linear-chef-suite-300x240-cm-31": {
+    slug: "maida-vale-linear-chef-suite-300x240-cm-31",
+    title: "Maida Vale Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Maida Vale Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Maida Vale Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Maida Vale Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601306_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601306_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601306_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601306_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "canary-architectural-master-kitchen-300x240-cm-32": {
+    slug: "canary-architectural-master-kitchen-300x240-cm-32",
+    title: "Canary Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Canary Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Canary Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Canary Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599671_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599671_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599671_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599671_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "blackheath-grand-horizon-cabinetry-300x240-cm-33": {
+    slug: "blackheath-grand-horizon-cabinetry-300x240-cm-33",
+    title: "Blackheath Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Blackheath Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Blackheath Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Blackheath Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600417_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600417_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600417_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600417_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "kew-monolith-high-gloss-suite-300x240-cm-34": {
+    slug: "kew-monolith-high-gloss-suite-300x240-cm-34",
+    title: "Kew Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Kew Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Kew Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Kew Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599685_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599685_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599685_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599685_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "twickenham-integrated-culinary-tower-300x240-cm-35": {
+    slug: "twickenham-integrated-culinary-tower-300x240-cm-35",
+    title: "Twickenham Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Twickenham Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Twickenham Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Twickenham Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598744_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598744_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598744_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598744_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "ealing-dual-tone-executive-kitchen-300x240-cm-36": {
+    slug: "ealing-dual-tone-executive-kitchen-300x240-cm-36",
+    title: "Ealing Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Ealing Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Ealing Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Ealing Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598741_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598741_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598741_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598741_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "harrow-ergonomic-horizon-island-300x240-cm-37": {
+    slug: "harrow-ergonomic-horizon-island-300x240-cm-37",
+    title: "Harrow Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Harrow Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Harrow Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Harrow Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599823_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599823_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599823_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599823_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "kingston-pantry-wall-joinery-300x240-cm-38": {
+    slug: "kingston-pantry-wall-joinery-300x240-cm-38",
+    title: "Kingston Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Kingston Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Kingston Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Kingston Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600983_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600983_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600983_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600983_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "victoria-deep-drawer-architectural-suite-300x240-cm-39": {
+    slug: "victoria-deep-drawer-architectural-suite-300x240-cm-39",
+    title: "Victoria Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Victoria Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Victoria Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Victoria Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601128_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601128_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601128_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601128_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "aldwych-contemporary-minimalist-suite-300x240-cm-40": {
+    slug: "aldwych-contemporary-minimalist-suite-300x240-cm-40",
+    title: "Aldwych Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Aldwych Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Aldwych Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Aldwych Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600393_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600393_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600393_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600393_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "temple-linear-chef-suite-300x240-cm-41": {
+    slug: "temple-linear-chef-suite-300x240-cm-41",
+    title: "Temple Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Temple Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Temple Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Temple Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600298_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600298_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600298_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600298_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "clerkenwell-architectural-master-kitchen-300x240-cm-42": {
+    slug: "clerkenwell-architectural-master-kitchen-300x240-cm-42",
+    title: "Clerkenwell Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Clerkenwell Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Clerkenwell Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Clerkenwell Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600289_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600289_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600289_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600289_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "shoreditch-grand-horizon-cabinetry-300x240-cm-43": {
+    slug: "shoreditch-grand-horizon-cabinetry-300x240-cm-43",
+    title: "Shoreditch Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Shoreditch Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Shoreditch Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Shoreditch Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599158_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599158_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599158_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599158_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "spitalfields-monolith-high-gloss-suite-300x240-cm-44": {
+    slug: "spitalfields-monolith-high-gloss-suite-300x240-cm-44",
+    title: "Spitalfields Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Spitalfields Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Spitalfields Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Spitalfields Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600891_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600891_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600891_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600891_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "wapping-integrated-culinary-tower-300x240-cm-45": {
+    slug: "wapping-integrated-culinary-tower-300x240-cm-45",
+    title: "Wapping Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Wapping Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Wapping Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Wapping Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599828_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599828_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599828_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599828_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "southwark-dual-tone-executive-kitchen-300x240-cm-46": {
+    slug: "southwark-dual-tone-executive-kitchen-300x240-cm-46",
+    title: "Southwark Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Southwark Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Southwark Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Southwark Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600990_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600990_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600990_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600990_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "borough-ergonomic-horizon-island-300x240-cm-47": {
+    slug: "borough-ergonomic-horizon-island-300x240-cm-47",
+    title: "Borough Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Borough Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Borough Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Borough Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600078_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600078_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600078_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600078_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "green-park-pantry-wall-joinery-300x240-cm-48": {
+    slug: "green-park-pantry-wall-joinery-300x240-cm-48",
+    title: "Green Park Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Green Park Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Green Park Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Green Park Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600072_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600072_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600072_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600072_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "hyde-park-deep-drawer-architectural-suite-300x240-cm-49": {
+    slug: "hyde-park-deep-drawer-architectural-suite-300x240-cm-49",
+    title: "Hyde Park Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Hyde Park Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Hyde Park Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Hyde Park Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601133_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601133_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601133_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601133_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "st-pancras-contemporary-minimalist-suite-300x240-cm-50": {
+    slug: "st-pancras-contemporary-minimalist-suite-300x240-cm-50",
+    title: "St. Pancras Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "St. Pancras Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the St. Pancras Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The St. Pancras Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600918_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600918_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600918_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600918_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "kensington-linear-chef-suite-300x240-cm-51": {
+    slug: "kensington-linear-chef-suite-300x240-cm-51",
+    title: "Kensington Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Kensington Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Kensington Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Kensington Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599163_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599163_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599163_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599163_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "mayfair-architectural-master-kitchen-300x240-cm-52": {
+    slug: "mayfair-architectural-master-kitchen-300x240-cm-52",
+    title: "Mayfair Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Mayfair Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Mayfair Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Mayfair Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598750_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598750_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598750_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598750_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "belgravia-grand-horizon-cabinetry-300x240-cm-53": {
+    slug: "belgravia-grand-horizon-cabinetry-300x240-cm-53",
+    title: "Belgravia Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Belgravia Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Belgravia Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Belgravia Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600677_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600677_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600677_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600677_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "chelsea-monolith-high-gloss-suite-300x240-cm-54": {
+    slug: "chelsea-monolith-high-gloss-suite-300x240-cm-54",
+    title: "Chelsea Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Chelsea Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Chelsea Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Chelsea Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002571248_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002571248_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002571248_1.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "knightsbridge-integrated-culinary-tower-300x240-cm-55": {
+    slug: "knightsbridge-integrated-culinary-tower-300x240-cm-55",
+    title: "Knightsbridge Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Knightsbridge Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Knightsbridge Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Knightsbridge Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599869_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599869_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599869_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599869_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "westminster-dual-tone-executive-kitchen-300x240-cm-56": {
+    slug: "westminster-dual-tone-executive-kitchen-300x240-cm-56",
+    title: "Westminster Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Westminster Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Westminster Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Westminster Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601035_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601035_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601035_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601035_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "cotswold-ergonomic-horizon-island-300x240-cm-57": {
+    slug: "cotswold-ergonomic-horizon-island-300x240-cm-57",
+    title: "Cotswold Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Cotswold Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Cotswold Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Cotswold Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601028_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601028_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601028_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601028_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "richmond-pantry-wall-joinery-300x240-cm-58": {
+    slug: "richmond-pantry-wall-joinery-300x240-cm-58",
+    title: "Richmond Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Richmond Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Richmond Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Richmond Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600913_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600913_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600913_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600913_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "hampstead-deep-drawer-architectural-suite-300x240-cm-59": {
+    slug: "hampstead-deep-drawer-architectural-suite-300x240-cm-59",
+    title: "Hampstead Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Hampstead Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Hampstead Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Hampstead Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600586_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600586_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600586_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600586_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "marylebone-contemporary-minimalist-suite-300x240-cm-60": {
+    slug: "marylebone-contemporary-minimalist-suite-300x240-cm-60",
+    title: "Marylebone Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Marylebone Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Marylebone Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Marylebone Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600568_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600568_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600568_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600568_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "st-james-linear-chef-suite-300x240-cm-61": {
+    slug: "st-james-linear-chef-suite-300x240-cm-61",
+    title: "St. James Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "St. James Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the St. James Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The St. James Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598759_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598759_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598759_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598759_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "fitzrovia-architectural-master-kitchen-300x240-cm-62": {
+    slug: "fitzrovia-architectural-master-kitchen-300x240-cm-62",
+    title: "Fitzrovia Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Fitzrovia Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Fitzrovia Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Fitzrovia Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600409_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600409_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600409_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600409_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "bloomsbury-grand-horizon-cabinetry-300x240-cm-63": {
+    slug: "bloomsbury-grand-horizon-cabinetry-300x240-cm-63",
+    title: "Bloomsbury Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Bloomsbury Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Bloomsbury Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Bloomsbury Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599878_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599878_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599878_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599878_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "pimlico-monolith-high-gloss-suite-300x240-cm-64": {
+    slug: "pimlico-monolith-high-gloss-suite-300x240-cm-64",
+    title: "Pimlico Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Pimlico Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Pimlico Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Pimlico Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600684_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600684_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600684_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600684_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "greenwich-integrated-culinary-tower-300x240-cm-65": {
+    slug: "greenwich-integrated-culinary-tower-300x240-cm-65",
+    title: "Greenwich Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Greenwich Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Greenwich Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Greenwich Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600512_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600512_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600512_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600512_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "chiswick-dual-tone-executive-kitchen-300x240-cm-66": {
+    slug: "chiswick-dual-tone-executive-kitchen-300x240-cm-66",
+    title: "Chiswick Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Chiswick Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Chiswick Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Chiswick Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599852_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599852_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599852_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599852_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "wimbledon-ergonomic-horizon-island-300x240-cm-67": {
+    slug: "wimbledon-ergonomic-horizon-island-300x240-cm-67",
+    title: "Wimbledon Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Wimbledon Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Wimbledon Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Wimbledon Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599841_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599841_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599841_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599841_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "dulwich-pantry-wall-joinery-300x240-cm-68": {
+    slug: "dulwich-pantry-wall-joinery-300x240-cm-68",
+    title: "Dulwich Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Dulwich Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Dulwich Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Dulwich Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600561_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600561_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600561_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600561_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "battersea-deep-drawer-architectural-suite-300x240-cm-69": {
+    slug: "battersea-deep-drawer-architectural-suite-300x240-cm-69",
+    title: "Battersea Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Battersea Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Battersea Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Battersea Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600352_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600352_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600352_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600352_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "highgate-contemporary-minimalist-suite-300x240-cm-70": {
+    slug: "highgate-contemporary-minimalist-suite-300x240-cm-70",
+    title: "Highgate Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Highgate Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Highgate Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Highgate Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600003_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600003_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600003_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600003_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "islington-linear-chef-suite-300x240-cm-71": {
+    slug: "islington-linear-chef-suite-300x240-cm-71",
+    title: "Islington Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Islington Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Islington Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Islington Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598924_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598924_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598924_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598924_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "putney-architectural-master-kitchen-300x240-cm-72": {
+    slug: "putney-architectural-master-kitchen-300x240-cm-72",
+    title: "Putney Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Putney Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Putney Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Putney Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600414_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600414_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600414_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600414_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "barnes-grand-horizon-cabinetry-300x240-cm-73": {
+    slug: "barnes-grand-horizon-cabinetry-300x240-cm-73",
+    title: "Barnes Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Barnes Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Barnes Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Barnes Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599303_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599303_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599303_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599303_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "clapham-monolith-high-gloss-suite-300x240-cm-74": {
+    slug: "clapham-monolith-high-gloss-suite-300x240-cm-74",
+    title: "Clapham Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Clapham Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Clapham Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Clapham Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598825_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598825_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598825_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598825_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "wandsworth-integrated-culinary-tower-300x240-cm-75": {
+    slug: "wandsworth-integrated-culinary-tower-300x240-cm-75",
+    title: "Wandsworth Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Wandsworth Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Wandsworth Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Wandsworth Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600516_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600516_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600516_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600516_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "holland-park-dual-tone-executive-kitchen-300x240-cm-76": {
+    slug: "holland-park-dual-tone-executive-kitchen-300x240-cm-76",
+    title: "Holland Park Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Holland Park Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Holland Park Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Holland Park Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600686_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600686_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600686_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600686_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "bayswater-ergonomic-horizon-island-300x240-cm-77": {
+    slug: "bayswater-ergonomic-horizon-island-300x240-cm-77",
+    title: "Bayswater Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Bayswater Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Bayswater Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Bayswater Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601745_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601745_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601745_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601745_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "notting-hill-pantry-wall-joinery-300x240-cm-78": {
+    slug: "notting-hill-pantry-wall-joinery-300x240-cm-78",
+    title: "Notting Hill Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Notting Hill Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Notting Hill Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Notting Hill Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599996_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599996_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599996_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599996_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "primrose-hill-deep-drawer-architectural-suite-300x240-cm-79": {
+    slug: "primrose-hill-deep-drawer-architectural-suite-300x240-cm-79",
+    title: "Primrose Hill Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Primrose Hill Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Primrose Hill Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Primrose Hill Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598916_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598916_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598916_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598916_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "regents-park-contemporary-minimalist-suite-300x240-cm-80": {
+    slug: "regents-park-contemporary-minimalist-suite-300x240-cm-80",
+    title: "Regents Park Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Regents Park Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Regents Park Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Regents Park Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600364_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600364_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600364_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600364_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "maida-vale-linear-chef-suite-300x240-cm-81": {
+    slug: "maida-vale-linear-chef-suite-300x240-cm-81",
+    title: "Maida Vale Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Maida Vale Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Maida Vale Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Maida Vale Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599294_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599294_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599294_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599294_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "canary-architectural-master-kitchen-300x240-cm-82": {
+    slug: "canary-architectural-master-kitchen-300x240-cm-82",
+    title: "Canary Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Canary Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Canary Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Canary Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599333_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599333_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599333_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599333_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "blackheath-grand-horizon-cabinetry-300x240-cm-83": {
+    slug: "blackheath-grand-horizon-cabinetry-300x240-cm-83",
+    title: "Blackheath Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Blackheath Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Blackheath Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Blackheath Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599324_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599324_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599324_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599324_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "kew-monolith-high-gloss-suite-300x240-cm-84": {
+    slug: "kew-monolith-high-gloss-suite-300x240-cm-84",
+    title: "Kew Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Kew Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Kew Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Kew Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598838_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598838_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598838_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598838_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "twickenham-integrated-culinary-tower-300x240-cm-85": {
+    slug: "twickenham-integrated-culinary-tower-300x240-cm-85",
+    title: "Twickenham Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Twickenham Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Twickenham Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Twickenham Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601476_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601476_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601476_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601476_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "ealing-dual-tone-executive-kitchen-300x240-cm-86": {
+    slug: "ealing-dual-tone-executive-kitchen-300x240-cm-86",
+    title: "Ealing Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Ealing Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Ealing Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Ealing Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599899_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599899_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599899_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599899_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "harrow-ergonomic-horizon-island-300x240-cm-87": {
+    slug: "harrow-ergonomic-horizon-island-300x240-cm-87",
+    title: "Harrow Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Harrow Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Harrow Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Harrow Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599877_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599877_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599877_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599877_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "kingston-pantry-wall-joinery-300x240-cm-88": {
+    slug: "kingston-pantry-wall-joinery-300x240-cm-88",
+    title: "Kingston Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Kingston Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Kingston Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Kingston Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601814_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601814_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601814_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601814_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "victoria-deep-drawer-architectural-suite-300x240-cm-89": {
+    slug: "victoria-deep-drawer-architectural-suite-300x240-cm-89",
+    title: "Victoria Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Victoria Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Victoria Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Victoria Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599905_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599905_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599905_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599905_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "aldwych-contemporary-minimalist-suite-300x240-cm-90": {
+    slug: "aldwych-contemporary-minimalist-suite-300x240-cm-90",
+    title: "Aldwych Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Aldwych Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Aldwych Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Aldwych Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002599881_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002599881_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599881_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002599881_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "temple-linear-chef-suite-300x240-cm-91": {
+    slug: "temple-linear-chef-suite-300x240-cm-91",
+    title: "Temple Linear Chef Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Temple Linear Chef Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Temple Linear Chef Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Temple Linear Chef Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600350_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600350_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600350_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600350_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "clerkenwell-architectural-master-kitchen-300x240-cm-92": {
+    slug: "clerkenwell-architectural-master-kitchen-300x240-cm-92",
+    title: "Clerkenwell Architectural Master Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Clerkenwell Architectural Master Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Clerkenwell Architectural Master Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Clerkenwell Architectural Master Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601862_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601862_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601862_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601862_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "shoreditch-grand-horizon-cabinetry-300x240-cm-93": {
+    slug: "shoreditch-grand-horizon-cabinetry-300x240-cm-93",
+    title: "Shoreditch Grand Horizon Cabinetry (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Shoreditch Grand Horizon Cabinetry (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Shoreditch Grand Horizon Cabinetry (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Shoreditch Grand Horizon Cabinetry (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601464_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601464_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601464_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601464_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "spitalfields-monolith-high-gloss-suite-300x240-cm-94": {
+    slug: "spitalfields-monolith-high-gloss-suite-300x240-cm-94",
+    title: "Spitalfields Monolith High-Gloss Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Spitalfields Monolith High-Gloss Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Spitalfields Monolith High-Gloss Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Spitalfields Monolith High-Gloss Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598852_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598852_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598852_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598852_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Dual-Tone White & Anthracite", "Polished Chrome Hardware"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "wapping-integrated-culinary-tower-300x240-cm-95": {
+    slug: "wapping-integrated-culinary-tower-300x240-cm-95",
+    title: "Wapping Integrated Culinary Tower (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Wapping Integrated Culinary Tower (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Wapping Integrated Culinary Tower (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Wapping Integrated Culinary Tower (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598789_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598789_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598789_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598789_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Sage Heritage Green", "Natural European Oak", "Aged Brass"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "southwark-dual-tone-executive-kitchen-300x240-cm-96": {
+    slug: "southwark-dual-tone-executive-kitchen-300x240-cm-96",
+    title: "Southwark Dual-Tone Executive Kitchen (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Southwark Dual-Tone Executive Kitchen (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Southwark Dual-Tone Executive Kitchen (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Southwark Dual-Tone Executive Kitchen (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002598779_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002598779_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598779_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002598779_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Slate Grey Silk", "Fluted Glass Panels", "Blackened Steel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "borough-ergonomic-horizon-island-300x240-cm-97": {
+    slug: "borough-ergonomic-horizon-island-300x240-cm-97",
+    title: "Borough Ergonomic Horizon Island (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Borough Ergonomic Horizon Island (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Borough Ergonomic Horizon Island (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Borough Ergonomic Horizon Island (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601114_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601114_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601114_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601114_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Alabaster Cream", "Calacatta Quartz Trim", "Satin Nickel"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "green-park-pantry-wall-joinery-300x240-cm-98": {
+    slug: "green-park-pantry-wall-joinery-300x240-cm-98",
+    title: "Green Park Pantry Wall Joinery (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Green Park Pantry Wall Joinery (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Green Park Pantry Wall Joinery (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Green Park Pantry Wall Joinery (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601102_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601102_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601102_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601102_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Charcoal Matt Lacquer", "Walnut Interior Liners", "Warm Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "hyde-park-deep-drawer-architectural-suite-300x240-cm-99": {
+    slug: "hyde-park-deep-drawer-architectural-suite-300x240-cm-99",
+    title: "Hyde Park Deep-Drawer Architectural Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "Hyde Park Deep-Drawer Architectural Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the Hyde Park Deep-Drawer Architectural Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The Hyde Park Deep-Drawer Architectural Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002600838_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002600838_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600838_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002600838_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Pure Matt White", "Alabaster Silk", "Brushed Brass Accents"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  },
+  "st-pancras-contemporary-minimalist-suite-300x240-cm-100": {
+    slug: "st-pancras-contemporary-minimalist-suite-300x240-cm-100",
+    title: "St. Pancras Contemporary Minimalist Suite (300x240 CM)",
+    category: "kitchens",
+    categoryTitle: "Kitchens",
+    metaTitle: "St. Pancras Contemporary Minimalist Suite (300x240 CM) | Cabivella UK Joinery",
+    metaDescription: "Explore the St. Pancras Contemporary Minimalist Suite (300x240 CM). Bespoke British-designed architectural kitchen cabinetry with 3000 mm (W) × 2200 mm (H) × 600 mm (D) configuration.",
+    description: "The St. Pancras Contemporary Minimalist Suite (300x240 CM) is an architectural joinery suite specified with precision-milled European hardwood and moisture-resistant core panels. Configured with full-extension soft-close running gear, integrated tall service housing, and tailored for contemporary British private residences.",
+    image: "/assets/img/models/real_kitchens/kitchen_5002601873_1.webp",
+    gallery: [
+      "/assets/img/models/real_kitchens/kitchen_5002601873_1.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601873_2.webp",
+      "/assets/img/models/real_kitchens/kitchen_5002601873_3.webp"
+],
+    dimensionsMm: "3000 mm (W) × 2200 mm (H) × 600 mm (D)",
+    materials: ["FSC-certified European Solid Timber Frame", "High-Density Moisture-Resistant MDF Panels", "Engineered German Soft-Close Running Gear"],
+    finishOptions: ["Deep Anthracite Matt", "Smoked Oak Veneer", "Burnished Bronze"],
+    installationScope: "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+    keyFeatures: [
+      "Architectural frame dimension: 3000 mm (W) \u00d7 2200 mm (H) \u00d7 600 mm (D)",
+      "Moisture-resistant core panels with durable multi-layer polyurethane lacquer",
+      "Concealed full-extension Blum soft-close running gear and integrated hinges",
+      "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
+      "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
+]
+  }
 };

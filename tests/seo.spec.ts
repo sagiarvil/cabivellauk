@@ -19,7 +19,7 @@ test.describe('SEO & Structured Data Verification', () => {
   });
 
   test('Model page has Product schema and Breadcrumbs', async ({ page }) => {
-    await page.goto('/collections/kitchens/mayfair-executive-suite-310/');
+    await page.goto('/collections/kitchens/kensington-linear-chef-suite-300x240-cm-01/');
 
     const jsonLdScripts = page.locator('script[type="application/ld+json"]');
     const count = await jsonLdScripts.count();

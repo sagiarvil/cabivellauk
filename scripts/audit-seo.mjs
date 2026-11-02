@@ -1,286 +1,81 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const routes = [
-  "/",
-  "/collections/",
-  "/collections/bathrooms/",
-  "/collections/bathrooms/aydos-compact-vanity/",
-  "/collections/bathrooms/beat-ribbed-vanity/",
-  "/collections/bathrooms/belgravia-double-140/",
-  "/collections/bathrooms/belgravia-monolith-100/",
-  "/collections/bathrooms/bloomsbury-minimalist-80/",
-  "/collections/bathrooms/chelsea-compact-85/",
-  "/collections/bathrooms/chelsea-monolith-100/",
-  "/collections/bathrooms/chiswick-walnut-100/",
-  "/collections/bathrooms/cotswold-suite-115/",
-  "/collections/bathrooms/daisy-reeded-console/",
-  "/collections/bathrooms/design-monolith-vanity/",
-  "/collections/bathrooms/dulwich-compact-65/",
-  "/collections/bathrooms/fitzrovia-noir-90/",
-  "/collections/bathrooms/fluted-vanities/",
-  "/collections/bathrooms/greenwich-cherry-100/",
-  "/collections/bathrooms/hampstead-contrast-100/",
-  "/collections/bathrooms/integra-square-tower/",
-  "/collections/bathrooms/kensington-artisan-80/",
-  "/collections/bathrooms/kensington-reeded-100/",
-  "/collections/bathrooms/knightsbridge-master-160/",
-  "/collections/bathrooms/knightsbridge-noir-135/",
-  "/collections/bathrooms/malta-vanity-console/",
-  "/collections/bathrooms/marylebone-lumiere-80/",
-  "/collections/bathrooms/mayfair-cloakroom-65/",
-  "/collections/bathrooms/mayfair-floating-80/",
-  "/collections/bathrooms/pimlico-navaro-100/",
-  "/collections/bathrooms/richmond-legnano-100/",
-  "/collections/bathrooms/root-groove-tall-unit/",
-  "/collections/bathrooms/root-groove-vanity/",
-  "/collections/bathrooms/st-james-reeded-120/",
-  "/collections/bathrooms/st-james-trio-100/",
-  "/collections/bathrooms/tall-bathroom-storage/",
-  "/collections/bathrooms/wall-hung-vanities/",
-  "/collections/bathrooms/westminster-suite-135/",
-  "/collections/bathrooms/wimbledon-clay-80/",
-  "/collections/coffee-stations/",
-  "/collections/coffee-stations/aldwych-artisan-beverage-credenza-36/",
-  "/collections/coffee-stations/balham-artisan-beverage-credenza-71/",
-  "/collections/coffee-stations/barnes-artisan-beverage-credenza-16/",
-  "/collections/coffee-stations/barnes-common-artisan-beverage-credenza-75/",
-  "/collections/coffee-stations/battersea-artisan-beverage-credenza-18/",
-  "/collections/coffee-stations/bayswater-artisan-beverage-credenza-32/",
-  "/collections/coffee-stations/belgravia-artisan-beverage-credenza-02/",
-  "/collections/coffee-stations/belsize-artisan-beverage-credenza-28/",
-  "/collections/coffee-stations/bermondsey-artisan-beverage-credenza-65/",
-  "/collections/coffee-stations/blackheath-artisan-beverage-credenza-43/",
-  "/collections/coffee-stations/bloomsbury-artisan-beverage-credenza-09/",
-  "/collections/coffee-stations/borough-artisan-beverage-credenza-56/",
-  "/collections/coffee-stations/brixton-artisan-beverage-credenza-69/",
-  "/collections/coffee-stations/camberwell-artisan-beverage-credenza-68/",
-  "/collections/coffee-stations/canary-artisan-beverage-credenza-42/",
-  "/collections/coffee-stations/canary-wharf-artisan-beverage-credenza-62/",
-  "/collections/coffee-stations/chelsea-artisan-beverage-credenza-04/",
-  "/collections/coffee-stations/chiswick-artisan-beverage-credenza-14/",
-  "/collections/coffee-stations/clapham-artisan-beverage-credenza-19/",
-  "/collections/coffee-stations/clerkenwell-artisan-beverage-credenza-38/",
-  "/collections/coffee-stations/cotswold-artisan-beverage-credenza-24/",
-  "/collections/coffee-stations/covent-garden-artisan-beverage-credenza-59/",
-  "/collections/coffee-stations/dulwich-artisan-beverage-credenza-20/",
-  "/collections/coffee-stations/dulwich-village-artisan-beverage-credenza-50/",
-  "/collections/coffee-stations/ealing-artisan-beverage-credenza-48/",
-  "/collections/coffee-stations/fitzrovia-artisan-beverage-credenza-08/",
-  "/collections/coffee-stations/fulham-artisan-beverage-credenza-45/",
-  "/collections/coffee-stations/green-park-artisan-beverage-credenza-52/",
-  "/collections/coffee-stations/greenwich-artisan-beverage-credenza-21/",
-  "/collections/coffee-stations/greenwich-park-artisan-beverage-credenza-57/",
-  "/collections/coffee-stations/hampstead-artisan-beverage-credenza-10/",
-  "/collections/coffee-stations/harrow-artisan-beverage-credenza-49/",
-  "/collections/coffee-stations/highgate-artisan-beverage-credenza-11/",
-  "/collections/coffee-stations/holborn-artisan-beverage-credenza-25/",
-  "/collections/coffee-stations/holland-park-artisan-beverage-credenza-29/",
-  "/collections/coffee-stations/hyde-park-artisan-beverage-credenza-55/",
-  "/collections/coffee-stations/islington-artisan-beverage-credenza-12/",
-  "/collections/coffee-stations/kennington-artisan-beverage-credenza-66/",
-  "/collections/coffee-stations/kensington-artisan-beverage-credenza-03/",
-  "/collections/coffee-stations/kew-artisan-beverage-credenza-46/",
-  "/collections/coffee-stations/kingston-artisan-beverage-credenza-51/",
-  "/collections/coffee-stations/knights-artisan-beverage-credenza-54/",
-  "/collections/coffee-stations/knightsbridge-artisan-beverage-credenza-05/",
-  "/collections/coffee-stations/lambeth-artisan-beverage-credenza-64/",
-  "/collections/coffee-stations/marylebone-artisan-beverage-credenza-07/",
-  "/collections/coffee-stations/mayfair-artisan-beverage-credenza-01/",
-  "/collections/coffee-stations/notting-hill-artisan-beverage-credenza-30/",
-  "/collections/coffee-stations/paddington-artisan-beverage-credenza-31/",
-  "/collections/coffee-stations/peckham-artisan-beverage-credenza-67/",
-  "/collections/coffee-stations/piccadilly-artisan-beverage-credenza-34/",
-  "/collections/coffee-stations/pimlico-artisan-beverage-credenza-22/",
-  "/collections/coffee-stations/primrose-artisan-beverage-credenza-27/",
-  "/collections/coffee-stations/putney-artisan-beverage-credenza-17/",
-  "/collections/coffee-stations/putney-heath-artisan-beverage-credenza-74/",
-  "/collections/coffee-stations/regent-artisan-beverage-credenza-33/",
-  "/collections/coffee-stations/richmond-artisan-beverage-credenza-13/",
-  "/collections/coffee-stations/roehampton-artisan-beverage-credenza-76/",
-  "/collections/coffee-stations/shoreditch-artisan-beverage-credenza-39/",
-  "/collections/coffee-stations/soho-artisan-beverage-credenza-26/",
-  "/collections/coffee-stations/southwark-artisan-beverage-credenza-60/",
-  "/collections/coffee-stations/spitalfields-artisan-beverage-credenza-40/",
-  "/collections/coffee-stations/st-james-artisan-beverage-credenza-23/",
-  "/collections/coffee-stations/st-pancras-artisan-beverage-credenza-58/",
-  "/collections/coffee-stations/strand-artisan-beverage-credenza-35/",
-  "/collections/coffee-stations/streatham-artisan-beverage-credenza-70/",
-  "/collections/coffee-stations/temple-artisan-beverage-credenza-37/",
-  "/collections/coffee-stations/tooting-artisan-beverage-credenza-72/",
-  "/collections/coffee-stations/twickenham-artisan-beverage-credenza-47/",
-  "/collections/coffee-stations/vauxhall-artisan-beverage-credenza-63/",
-  "/collections/coffee-stations/victoria-artisan-beverage-credenza-53/",
-  "/collections/coffee-stations/wandsworth-artisan-beverage-credenza-44/",
-  "/collections/coffee-stations/wapping-artisan-beverage-credenza-41/",
-  "/collections/coffee-stations/west-end-artisan-beverage-credenza-61/",
-  "/collections/coffee-stations/westminster-artisan-beverage-credenza-06/",
-  "/collections/coffee-stations/wimbledon-artisan-beverage-credenza-15/",
-  "/collections/coffee-stations/wimbledon-village-artisan-beverage-credenza-73/",
-  "/collections/fitted-storage/",
-  "/collections/fitted-storage/aldwych-architectural-master-wardrobe-36/",
-  "/collections/fitted-storage/barnes-5-door-master-wardrobe-16/",
-  "/collections/fitted-storage/battersea-6-door-master-wardrobe-18/",
-  "/collections/fitted-storage/bayswater-5-door-master-wardrobe-32/",
-  "/collections/fitted-storage/belgravia-5-door-master-wardrobe-02/",
-  "/collections/fitted-storage/belsize-6-door-master-wardrobe-28/",
-  "/collections/fitted-storage/blackheath-4-door-master-wardrobe-43/",
-  "/collections/fitted-storage/bloomsbury-5-door-master-wardrobe-09/",
-  "/collections/fitted-storage/borough-architectural-master-wardrobe-56/",
-  "/collections/fitted-storage/canary-4-door-master-wardrobe-42/",
-  "/collections/fitted-storage/chelsea-6-door-master-wardrobe-04/",
-  "/collections/fitted-storage/chiswick-6-door-master-wardrobe-14/",
-  "/collections/fitted-storage/clapham-5-door-master-wardrobe-19/",
-  "/collections/fitted-storage/clerkenwell-6-door-master-wardrobe-38/",
-  "/collections/fitted-storage/cotswold-5-door-master-wardrobe-24/",
-  "/collections/fitted-storage/covent-garden-architectural-master-wardrobe-59/",
-  "/collections/fitted-storage/dulwich-6-door-master-wardrobe-20/",
-  "/collections/fitted-storage/dulwich-village-5-door-master-wardrobe-50/",
-  "/collections/fitted-storage/ealing-5-door-master-wardrobe-48/",
-  "/collections/fitted-storage/fitzrovia-4-door-master-wardrobe-08/",
-  "/collections/fitted-storage/fulham-4-door-master-wardrobe-45/",
-  "/collections/fitted-storage/green-park-6-door-master-wardrobe-52/",
-  "/collections/fitted-storage/greenwich-5-door-master-wardrobe-21/",
-  "/collections/fitted-storage/greenwich-park-architectural-master-wardrobe-57/",
-  "/collections/fitted-storage/hampstead-6-door-master-wardrobe-10/",
-  "/collections/fitted-storage/harrow-5-door-master-wardrobe-49/",
-  "/collections/fitted-storage/highgate-5-door-master-wardrobe-11/",
-  "/collections/fitted-storage/holborn-architectural-master-wardrobe-25/",
-  "/collections/fitted-storage/holland-park-5-door-master-wardrobe-29/",
-  "/collections/fitted-storage/hyde-park-6-door-master-wardrobe-55/",
-  "/collections/fitted-storage/islington-6-door-master-wardrobe-12/",
-  "/collections/fitted-storage/kensington-6-door-master-wardrobe-03/",
-  "/collections/fitted-storage/kew-4-door-master-wardrobe-46/",
-  "/collections/fitted-storage/kingston-6-door-master-wardrobe-51/",
-  "/collections/fitted-storage/knights-6-door-master-wardrobe-54/",
-  "/collections/fitted-storage/knightsbridge-5-door-master-wardrobe-05/",
-  "/collections/fitted-storage/marylebone-5-door-master-wardrobe-07/",
-  "/collections/fitted-storage/mayfair-4-door-master-wardrobe-01/",
-  "/collections/fitted-storage/notting-hill-5-door-master-wardrobe-30/",
-  "/collections/fitted-storage/paddington-6-door-master-wardrobe-31/",
-  "/collections/fitted-storage/piccadilly-6-door-master-wardrobe-34/",
-  "/collections/fitted-storage/pimlico-architectural-master-wardrobe-22/",
-  "/collections/fitted-storage/primrose-6-door-master-wardrobe-27/",
-  "/collections/fitted-storage/putney-4-door-master-wardrobe-17/",
-  "/collections/fitted-storage/regent-architectural-master-wardrobe-33/",
-  "/collections/fitted-storage/richmond-5-door-master-wardrobe-13/",
-  "/collections/fitted-storage/shoreditch-5-door-master-wardrobe-39/",
-  "/collections/fitted-storage/soho-5-door-master-wardrobe-26/",
-  "/collections/fitted-storage/southwark-4-door-master-wardrobe-60/",
-  "/collections/fitted-storage/spitalfields-5-door-master-wardrobe-40/",
-  "/collections/fitted-storage/st-james-6-door-master-wardrobe-23/",
-  "/collections/fitted-storage/st-pancras-4-door-master-wardrobe-58/",
-  "/collections/fitted-storage/strand-5-door-master-wardrobe-35/",
-  "/collections/fitted-storage/temple-6-door-master-wardrobe-37/",
-  "/collections/fitted-storage/twickenham-5-door-master-wardrobe-47/",
-  "/collections/fitted-storage/victoria-6-door-master-wardrobe-53/",
-  "/collections/fitted-storage/wandsworth-4-door-master-wardrobe-44/",
-  "/collections/fitted-storage/wapping-architectural-master-wardrobe-41/",
-  "/collections/fitted-storage/westminster-6-door-master-wardrobe-06/",
-  "/collections/fitted-storage/wimbledon-6-door-master-wardrobe-15/",
-  "/collections/kitchen-doors/",
-  "/collections/kitchen-doors/axis-shadow-fronts/",
-  "/collections/kitchen-doors/chillingham-timber-shaker/",
-  "/collections/kitchen-doors/fluted-wave-panels/",
-  "/collections/kitchen-doors/handleless-cabinet-fronts/",
-  "/collections/kitchen-doors/lea-framed-fronts/",
-  "/collections/kitchen-doors/paint-ready-raw-mdf/",
-  "/collections/kitchen-doors/shaker-replacement-doors/",
-  "/collections/kitchen-doors/slimline-micro-shaker-fronts/",
-  "/collections/kitchen-doors/vera-silk-slab/",
-  "/collections/kitchens/",
-  "/collections/kitchens/arya-classic-shaker/",
-  "/collections/kitchens/axis-handleless-shadow/",
-  "/collections/kitchens/barnes-grandhorizon-kitchen-410/",
-  "/collections/kitchens/battersea-compact-corner-395/",
-  "/collections/kitchens/belgravia-chef-monolith-310/",
-  "/collections/kitchens/belgravia-executive-kitchen-310/",
-  "/collections/kitchens/belgravia-grand-380/",
-  "/collections/kitchens/belgravia-island-olive-240/",
-  "/collections/kitchens/bloomsbury-deepdrawer-kitchen-400/",
-  "/collections/kitchens/chelsea-dualtone-highgloss-410/",
-  "/collections/kitchens/chelsea-master-corner-400/",
-  "/collections/kitchens/chiswick-ergonomic-corner-400/",
-  "/collections/kitchens/clapham-minimalist-pantry-400/",
-  "/collections/kitchens/compact-kitchens/",
-  "/collections/kitchens/contemporary-kitchens/",
-  "/collections/kitchens/cotswold-classic-280/",
-  "/collections/kitchens/cotswold-fullheight-suite-400/",
-  "/collections/kitchens/cotswold-highgloss-corner-410/",
-  "/collections/kitchens/dulwich-seamless-jpull-400/",
-  "/collections/kitchens/fitzrovia-linear-tower-400/",
-  "/collections/kitchens/greenwich-tallappliance-suite-410/",
-  "/collections/kitchens/hampstead-contemporary-suite-400/",
-  "/collections/kitchens/hampstead-tower-pantry-400/",
-  "/collections/kitchens/highgate-doubletower-kitchen-400/",
-  "/collections/kitchens/islington-fluted-accent-400/",
-  "/collections/kitchens/kensington-culinary-suite-310/",
-  "/collections/kitchens/kensington-linear-240/",
-  "/collections/kitchens/kensington-linear-artisan-310/",
-  "/collections/kitchens/knightsbridge-slate-corner-410/",
-  "/collections/kitchens/knightsbridge-tall-larder-410/",
-  "/collections/kitchens/lea-bevelled-shaker/",
-  "/collections/kitchens/lora-contemporary-slab/",
-  "/collections/kitchens/luna-micro-shaker/",
-  "/collections/kitchens/marylebone-dualtone-corner-400/",
-  "/collections/kitchens/mayfair-executive-suite-310/",
-  "/collections/kitchens/mayfair-monolith-highgloss-410/",
-  "/collections/kitchens/mayfair-pantry-320/",
-  "/collections/kitchens/pimlico-anthracite-accent-400/",
-  "/collections/kitchens/putney-modernist-handleless-400/",
-  "/collections/kitchens/richmond-charcoal-corner-410/",
-  "/collections/kitchens/richmond-dualtower-kitchen-400/",
-  "/collections/kitchens/richmond-studio-200/",
-  "/collections/kitchens/shaker-kitchens/",
-  "/collections/kitchens/st-james-corner-kitchen-400/",
-  "/collections/kitchens/st-james-integrated-tower-410/",
-  "/collections/kitchens/urban-compact-160/",
-  "/collections/kitchens/vega-ergonomic-suite/",
-  "/collections/kitchens/vera-architectural-kitchen/",
-  "/collections/kitchens/westminster-alabaster-corner-410/",
-  "/collections/kitchens/westminster-chef-suite-310/",
-  "/collections/kitchens/wimbledon-purewhite-gloss-400/",
-  "/collections/pantry-larder/",
-  "/collections/pantry-larder/carousel-blind-corner/",
-  "/collections/pantry-larder/chefs-double-armoire/",
-  "/collections/pantry-larder/corner-pantry-storage/",
-  "/collections/pantry-larder/lemans-corner-swivel/",
-  "/collections/pantry-larder/pullout-larder-tower/",
-  "/collections/pantry-larder/tall-larder-cupboards/",
-  "/collections/pantry-larder/tandem-tall-larder/",
-  "/collections/pantry-larder/walkin-step-pantry/",
-  "/cookies/",
-  "/enquire/",
-  "/image-credits/",
-  "/materials/",
-  "/our-story/",
-  "/privacy/",
-  "/thank-you/",
-  "/trade/"
-];
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const DIST_DIR = path.resolve(__dirname, '../dist');
+
+// Read all actual static html files in dist
+function getAllHtmlRoutes(dir, base = '') {
+  let routes = [];
+  const files = fs.readdirSync(dir);
+  for (const f of files) {
+    const full = path.join(dir, f);
+    const rel = path.join(base, f);
+    if (fs.statSync(full).isDirectory()) {
+      routes = routes.concat(getAllHtmlRoutes(full, rel));
+    } else if (f === 'index.html') {
+      const route = '/' + base.replace(/\\/g, '/');
+      routes.push(route.endsWith('/') ? route : route + '/');
+    }
+  }
+  return routes;
+}
+
+const routes = getAllHtmlRoutes(DIST_DIR).filter(r => r !== '/');
+routes.unshift('/');
 
 console.log(`[SEO-AUDIT] Commencing verification of ${routes.length} static routes...`);
 
-let hasError = false;
-for (const r of routes) {
-  const filePath = r === '/' 
-    ? path.resolve('dist/index.html') 
-    : path.resolve('dist', r.replace(/^\//, ''), 'index.html');
-    
+let failed = false;
+
+for (const route of routes) {
+  const filePath = route === '/' 
+    ? path.join(DIST_DIR, 'index.html') 
+    : path.join(DIST_DIR, route.replace(/^\//, ''), 'index.html');
+
   if (!fs.existsSync(filePath)) {
-    console.error(`❌ Missing static HTML for route: ${r} (checked: ${filePath})`);
-    hasError = true;
+    console.error(`❌ Missing static HTML for route: ${route} (checked: ${filePath})`);
+    failed = true;
     continue;
   }
-  
-  const content = fs.readFileSync(filePath, 'utf8');
-  if (!content.includes('<title>') || !content.includes('<meta name="description"')) {
-    console.error(`❌ Route ${r} is missing critical SEO meta tags.`);
-    hasError = true;
+
+  const html = fs.readFileSync(filePath, 'utf-8');
+
+  // 1. Verify single H1 tag
+  const h1Matches = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/gi);
+  if (!h1Matches || h1Matches.length === 0) {
+    console.error(`❌ Route ${route} is missing an <h1> tag.`);
+    failed = true;
+  } else if (h1Matches.length > 1) {
+    console.error(`❌ Route ${route} has multiple (${h1Matches.length}) <h1> tags.`);
+    failed = true;
+  }
+
+  // 2. Verify Canonical Link
+  const canonicalMatch = html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i);
+  if (!canonicalMatch) {
+    console.error(`❌ Route ${route} is missing a canonical link.`);
+    failed = true;
+  }
+
+  // 3. Verify Title
+  const titleMatch = html.match(/<title[^>]*>([^<]+)<\/title>/i);
+  if (!titleMatch || !titleMatch[1].trim()) {
+    console.error(`❌ Route ${route} has an empty or missing <title>.`);
+    failed = true;
+  }
+
+  // 4. Verify Meta Description
+  const descMatch = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']/i);
+  if (!descMatch || !descMatch[1].trim()) {
+    console.error(`❌ Route ${route} has an empty or missing meta description.`);
+    failed = true;
   }
 }
 
-if (hasError) {
+if (failed) {
   console.error('\n🚨 SEO AUDIT FAILED: One or more routes failed validation.');
   process.exit(1);
 } else {

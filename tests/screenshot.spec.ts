@@ -41,7 +41,7 @@ test.describe('Responsive Layout & No Horizontal Overflow Verification', () => {
 
     test(`Model Detail page renders with zero horizontal overflow at ${vp.name} (${vp.width}px)`, async ({ page }) => {
       await page.setViewportSize({ width: vp.width, height: vp.height });
-      await page.goto('/collections/kitchens/mayfair-executive-suite-310/');
+      await page.goto('/collections/kitchens/kensington-linear-chef-suite-300x240-cm-01/');
 
       const hasHorizontalScroll = await page.evaluate(() => {
         return document.documentElement.scrollWidth > document.documentElement.clientWidth;
