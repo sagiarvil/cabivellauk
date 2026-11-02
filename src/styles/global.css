@@ -183,17 +183,22 @@ html.motion-ready [data-reveal].is-revealed {
 .identity {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   flex-shrink: 0;
   text-decoration: none;
 }
 
 .crest-mark {
-  width: 52px;
-  height: 46px;
+  width: 64px;
+  height: 56px;
   object-fit: contain;
   flex-shrink: 0;
-  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.08));
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.09));
+  transition: transform 0.2s ease;
+}
+
+.identity:hover .crest-mark {
+  transform: scale(1.03);
 }
 
 .brand-copy {
@@ -203,19 +208,19 @@ html.motion-ready [data-reveal].is-revealed {
 
 .brand-name {
   font-family: var(--font-brand);
-  font-size: 21px;
+  font-size: 23px;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.13em;
   color: #172119;
   line-height: 1;
 }
 
 .brand-sub {
-  font-size: 8.5px;
+  font-size: 9px;
   font-weight: 700;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.3em;
   color: #8c6a2e;
-  margin-top: 3px;
+  margin-top: 4px;
   line-height: 1;
 }
 
@@ -1151,11 +1156,11 @@ html.motion-ready [data-reveal].is-revealed {
     min-height: 68px;
   }
   .crest-mark {
-    width: 44px;
-    height: 38px;
+    width: 50px;
+    height: 44px;
   }
   .brand-name {
-    font-size: 18px;
+    font-size: 19.5px;
   }
   .brand-sub {
     font-size: 7.5px;
