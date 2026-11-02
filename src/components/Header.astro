@@ -16,13 +16,15 @@ const isActive = (href: string) => {
   <div class="cb-top">
     <div class="cb-container cb-top-inner">
       <div class="cb-location">
-        <span aria-hidden="true">🇬🇧</span> UNITED KINGDOM
+        <span aria-hidden="true">🇬🇧</span> UNITED KINGDOM ▾
       </div>
       <div class="cb-top-message">
         Bespoke cabinetry for considered interiors
       </div>
       <div class="cb-top-right">
-        <a href="mailto:enquiries@cabivella.co.uk">✉ &nbsp;enquiries@cabivella.co.uk</a>
+        <a href="mailto:enquiries@cabivella.co.uk">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="margin-right: 5px; vertical-align: -2px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>enquiries@cabivella.co.uk
+        </a>
         <i class="cb-top-divider" aria-hidden="true"></i>
         <a href="/trade/">For Trade &amp; Specification ↗</a>
       </div>
@@ -31,14 +33,14 @@ const isActive = (href: string) => {
 
   <!-- Main Navigation Inner -->
   <div class="cb-container cb-main-inner">
-    <!-- Official Brand Crest & Typography -->
-    <a class="cb-brand" href="/" aria-label="Cabivella UK Home">
+    <!-- Brand Identity (Heraldic Crest + Bespoke Serif Logotype) -->
+    <a class="cb-brand" href="/" aria-label="Cabivella home">
       <img
         src="/assets/img/cabivella-crest-transparent.webp"
         alt="Cabivella Crest"
         class="cb-crest"
-        width="58"
-        height="50"
+        width="64"
+        height="56"
         loading="eager"
         decoding="async"
       />
@@ -49,15 +51,15 @@ const isActive = (href: string) => {
       </span>
     </a>
 
-    <!-- Desktop Nav Links -->
-    <nav class="cb-nav" aria-label="Primary Navigation">
+    <!-- Navigation Links -->
+    <nav class="cb-nav" aria-label="Main navigation">
       <a href="/collections/kitchens/" class:list={[{ 'is-active': isActive('/collections/kitchens/') }]}>Kitchens</a>
       <a href="/collections/bathrooms/" class:list={[{ 'is-active': isActive('/collections/bathrooms/') }]}>Bathrooms</a>
       <a href="/collections/pantry-larder/" class:list={[{ 'is-active': isActive('/collections/pantry-larder/') }]}>Pantry</a>
       <a href="/collections/coffee-stations/" class:list={[{ 'is-active': isActive('/collections/coffee-stations/') }]}>Coffee Stations</a>
       <a href="/collections/fitted-storage/" class:list={[{ 'is-active': isActive('/collections/fitted-storage/') }]}>Storage</a>
 
-      <!-- Collections Dropdown -->
+      <!-- Dropdown -->
       <div class="cb-nav-group">
         <button class="cb-nav-trigger" type="button" aria-expanded="false" aria-controls="cb-collections-menu">
           Collections
@@ -68,21 +70,16 @@ const isActive = (href: string) => {
           <a href="/collections/pantry-larder/">Pantry &amp; Larder</a>
           <a href="/collections/coffee-stations/">Coffee Stations</a>
           <a href="/collections/fitted-storage/">Storage</a>
-          <hr class="cb-dropdown-divider" />
-          <a href="/collections/signature-suites/">Signature Bathroom Suites</a>
-          <a href="/collections/sculptural-contours/">Sculptural Contours</a>
-          <a href="/collections/compact-cloakroom/">Compact Cloakroom</a>
-          <a href="/collections/double-basin-sanctuaries/">Double Basin Sanctuaries</a>
         </div>
       </div>
 
       <a href="/our-story/" class:list={[{ 'is-active': isActive('/our-story/') }]}>Our Story</a>
     </nav>
 
-    <!-- Header Actions (Search, WhatsApp Concierge, Book Consultation CTA, Mobile Menu) -->
+    <!-- Header Actions -->
     <div class="cb-actions">
       <button class="cb-search" type="button" aria-label="Open search" aria-expanded="false" aria-controls="cb-search-panel">
-        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <circle cx="10.7" cy="10.7" r="7.2"/>
           <path d="m16 16 6 6"/>
         </svg>
@@ -93,31 +90,31 @@ const isActive = (href: string) => {
         href="https://wa.me/447898262110?text=Hello%20Cabivella,%20I%20would%20like%20to%20enquire%20about%20your%20cabinetry"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="WhatsApp Concierge: +44 7898 262110"
+        aria-label="Contact Cabivella on WhatsApp"
       >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
           <path d="M20.5 11.7A8.6 8.6 0 0 1 7.7 19.2L3 20.5l1.4-4.5A8.6 8.6 0 1 1 20.5 11.7Z"/>
           <path d="M8.5 8.2c.4-.4.7-.4 1-.1l1.2 1.5c.2.3.1.6-.1.9l-.5.6c.8 1.4 1.8 2.3 3.3 3l.5-.6c.2-.2.5-.3.8-.1l1.7.9c.5.3.4.7.1 1.1-1 1.5-3.7.6-5.9-1.3-2.2-1.9-3.8-4.5-2.1-5.9Z"/>
         </svg>
         <span>+44 7898 262110</span>
       </a>
 
-      <a class="cb-cta" href="/contact/">
+      <a class="cb-cta" href="/enquire/">
         Book a Consultation <span aria-hidden="true">→</span>
       </a>
 
       <button class="cb-mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="cb-mobile-panel">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
           <path d="M3 6h18M3 12h18M3 18h18"/>
         </svg>
       </button>
     </div>
   </div>
 
-  <!-- Expandable Search Panel -->
+  <!-- Search Panel -->
   <div class="cb-search-panel cb-container" id="cb-search-panel" hidden>
-    <form class="cb-search-form" action="/search/" method="get" role="search">
-      <input type="search" name="q" placeholder="Search collections, styles, or cabinetry specifications..." aria-label="Search collections" required />
+    <form class="cb-search-form" action="/search" method="get" role="search">
+      <input type="search" name="q" placeholder="Search collections..." aria-label="Search collections" required />
       <button type="submit">Search</button>
     </form>
   </div>
@@ -126,38 +123,39 @@ const isActive = (href: string) => {
   <nav class="cb-mobile-panel cb-container" id="cb-mobile-panel" aria-label="Mobile navigation" hidden>
     <a href="/collections/kitchens/">Kitchens</a>
     <a href="/collections/bathrooms/">Bathrooms</a>
-    <a href="/collections/pantry-larder/">Pantry &amp; Larder</a>
+    <a href="/collections/pantry-larder/">Pantry</a>
     <a href="/collections/coffee-stations/">Coffee Stations</a>
     <a href="/collections/fitted-storage/">Storage</a>
     <a href="/our-story/">Our Story</a>
     <a href="/trade/">For Trade &amp; Specification ↗</a>
-    <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" class="cb-mobile-wa">
-      WhatsApp Concierge — +44 7898 262110
+    <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" style="color: #208b51; font-weight: 700;">
+      WhatsApp — +44 7898 262110
     </a>
-    <a class="cb-mobile-cta" href="/contact/">
+    <a class="cb-mobile-cta" href="/enquire/">
       Book a Consultation →
     </a>
   </nav>
 </header>
 
-<style>
+<style is:global>
 :root {
-  --cb-green: #072d25;
-  --cb-green2: #0b3c31;
-  --cb-gold: #b9914a;
-  --cb-ivory: #fcfaf6;
-  --cb-ink: #173028;
-  --cb-line: #e4dfd5;
+  --green: #072d25;
+  --green2: #0b3c31;
+  --gold: #b9914a;
+  --ivory: #fcfaf6;
+  --ink: #173028;
+  --line: #e4dfd5;
 }
 
 .cb-header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--cb-ivory);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  font-family: inherit;
-  color: var(--cb-ink);
+  background: var(--ivory);
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.04);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  width: 100%;
 }
 
 .cb-container {
@@ -166,14 +164,14 @@ const isActive = (href: string) => {
 }
 
 .cb-top {
-  background: var(--cb-green);
+  background: var(--green);
   color: #f9f6ee;
   font-size: 12px;
   letter-spacing: 0.025em;
 }
 
 .cb-top-inner {
-  min-height: 40px;
+  min-height: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -183,35 +181,33 @@ const isActive = (href: string) => {
 .cb-location {
   font-weight: 700;
   white-space: nowrap;
-  font-size: 11px;
-  letter-spacing: 0.08em;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .cb-location span {
-  margin-right: 6px;
+  margin-right: 7px;
 }
 
 .cb-top-message {
   font-family: Georgia, serif;
   font-style: italic;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   flex: 1;
-  color: #e5ded2;
 }
 
 .cb-top-right {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
   white-space: nowrap;
-  font-size: 12px;
 }
 
 .cb-top-right a {
   color: #f9f6ee;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.2s;
 }
 
 .cb-top-right a:hover {
@@ -220,7 +216,7 @@ const isActive = (href: string) => {
 
 .cb-top-divider {
   width: 1px;
-  height: 15px;
+  height: 18px;
   background: rgba(255, 255, 255, 0.3);
   display: inline-block;
 }
@@ -228,8 +224,8 @@ const isActive = (href: string) => {
 .cb-main-inner {
   display: flex;
   align-items: center;
-  gap: clamp(14px, 2vw, 36px);
-  min-height: 98px;
+  gap: clamp(14px, 2vw, 38px);
+  min-height: 112px;
 }
 
 .cb-brand {
@@ -237,22 +233,23 @@ const isActive = (href: string) => {
   align-items: center;
   gap: 14px;
   flex-shrink: 0;
+  min-width: 0;
   text-decoration: none;
   color: inherit;
 }
 
 .cb-crest {
-  width: 58px;
+  width: 61px;
   height: auto;
-  max-height: 52px;
+  max-height: 56px;
   object-fit: contain;
   display: block;
 }
 
 .cb-brand-sep {
-  height: 42px;
+  height: 49px;
   width: 1px;
-  background: var(--cb-gold);
+  background: var(--gold);
 }
 
 .cb-brand-copy {
@@ -262,45 +259,45 @@ const isActive = (href: string) => {
 }
 
 .cb-brand-name {
-  font: normal clamp(22px, 1.9vw, 32px)/1.05 Georgia, 'Times New Roman', serif;
-  letter-spacing: 0.08em;
+  font: normal clamp(23px, 2vw, 35px)/1.05 Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.075em;
   white-space: nowrap;
-  color: var(--cb-ink);
+  color: var(--ink);
 }
 
 .cb-brand-sub {
-  font-size: 10px;
-  letter-spacing: 0.42em;
+  font-size: 11px;
+  letter-spacing: 0.44em;
   font-weight: 700;
-  margin-top: 6px;
-  color: var(--cb-green);
+  margin-top: 9px;
+  color: var(--green);
 }
 
 .cb-nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(12px, 1.5vw, 24px);
+  gap: clamp(12px, 1.55vw, 28px);
   margin-left: auto;
 }
 
 .cb-nav > a,
 .cb-nav-trigger {
-  font: normal 15px Georgia, serif;
+  font: normal 16px Georgia, serif;
   white-space: nowrap;
-  color: var(--cb-ink);
+  transition: color 0.2s;
+  color: inherit;
   text-decoration: none;
-  transition: color 0.2s ease;
   background: none;
   border: none;
-  padding: 8px 0;
   cursor: pointer;
+  padding: 13px 0;
 }
 
 .cb-nav > a:hover,
 .cb-nav > a.is-active,
 .cb-nav-trigger:hover {
-  color: var(--cb-gold);
+  color: #997338;
 }
 
 .cb-nav-group {
@@ -309,9 +306,8 @@ const isActive = (href: string) => {
 
 .cb-nav-trigger:after {
   content: ' ▾';
+  margin-left: 6px;
   font-size: 11px;
-  margin-left: 4px;
-  vertical-align: middle;
 }
 
 .cb-dropdown {
@@ -319,38 +315,29 @@ const isActive = (href: string) => {
   display: none;
   top: 100%;
   left: -15px;
-  min-width: 240px;
-  padding: 10px 0;
+  min-width: 220px;
+  padding: 10px;
   background: #ffffff;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-  border: 1px solid var(--cb-line);
+  border: 1px solid var(--line);
   border-radius: 4px;
 }
 
 .cb-dropdown a {
   display: block;
-  padding: 9px 18px;
-  font-size: 13.5px;
-  font-family: inherit;
-  color: var(--cb-ink);
+  padding: 12px;
+  font-size: 14px;
+  color: var(--ink);
   text-decoration: none;
-  transition: background 0.15s ease, color 0.15s ease;
+  transition: background 0.15s;
 }
 
 .cb-dropdown a:hover {
   background: #f8f4eb;
-  color: var(--cb-green);
 }
 
-.cb-dropdown-divider {
-  border: 0;
-  height: 1px;
-  background: var(--cb-line);
-  margin: 6px 0;
-}
-
-.cb-nav-group:hover .cb-dropdown,
 .cb-nav-group:focus-within .cb-dropdown,
+.cb-nav-group:hover .cb-dropdown,
 .cb-nav-group.is-open .cb-dropdown {
   display: block;
 }
@@ -358,45 +345,33 @@ const isActive = (href: string) => {
 .cb-actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   flex-shrink: 0;
 }
 
 .cb-search {
   border: 0;
   background: none;
-  color: var(--cb-green);
-  width: 38px;
-  height: 40px;
+  color: var(--green);
+  width: 37px;
+  height: 42px;
   display: grid;
   place-items: center;
   cursor: pointer;
-  border-radius: 4px;
-  transition: background 0.2s ease;
-}
-
-.cb-search:hover {
-  background: rgba(7, 45, 37, 0.06);
 }
 
 .cb-whatsapp {
   display: flex;
   align-items: center;
   gap: 7px;
-  border: 1px solid var(--cb-gold);
-  padding: 9px 13px;
-  border-radius: 6px;
-  color: var(--cb-green);
+  border: 1px solid var(--gold);
+  padding: 12px 13px;
+  border-radius: 7px;
+  color: var(--green);
   white-space: nowrap;
-  font-size: 12.5px;
+  font-size: 13px;
   font-weight: 700;
   text-decoration: none;
-  transition: background 0.2s ease, border-color 0.2s ease;
-}
-
-.cb-whatsapp:hover {
-  background: rgba(185, 145, 74, 0.08);
-  border-color: var(--cb-green);
 }
 
 .cb-whatsapp svg {
@@ -405,35 +380,34 @@ const isActive = (href: string) => {
 }
 
 .cb-cta {
-  background: var(--cb-green);
-  border: 1px solid var(--cb-green);
-  border-radius: 6px;
+  background: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 7px;
   color: #ffffff !important;
-  padding: 11px 18px;
+  padding: 15px 18px;
   white-space: nowrap;
-  font: 14px Georgia, serif;
+  font: 15px Georgia, serif;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  transition: background 0.2s ease, transform 0.15s ease;
+  transition: background 0.2s;
 }
 
 .cb-cta:hover {
-  background: var(--cb-green2);
-  transform: translateY(-1px);
+  background: var(--green2);
 }
 
 .cb-cta span {
-  margin-left: 8px;
+  margin-left: 9px;
 }
 
 .cb-mobile-toggle {
   display: none;
   background: none;
-  border: 1px solid var(--cb-gold);
+  border: 1px solid var(--gold);
   border-radius: 6px;
-  padding: 7px;
-  color: var(--cb-green);
+  padding: 9px;
+  color: var(--green);
   cursor: pointer;
 }
 
@@ -447,7 +421,7 @@ const isActive = (href: string) => {
 
 .cb-search-panel {
   padding: 12px 0 18px;
-  border-top: 1px solid var(--cb-line);
+  border-top: 1px solid var(--line);
 }
 
 .cb-search-panel[hidden] {
@@ -462,28 +436,24 @@ const isActive = (href: string) => {
 .cb-search-form input {
   flex: 1;
   min-width: 0;
-  padding: 12px 16px;
-  border: 1px solid var(--cb-line);
-  font-size: 15px;
+  padding: 13px;
+  border: 1px solid var(--line);
+  font-size: 16px;
   border-radius: 4px;
-  background: #ffffff;
-  color: var(--cb-ink);
 }
 
 .cb-search-form button {
-  padding: 12px 22px;
-  background: var(--cb-green);
+  padding: 12px 20px;
+  background: var(--green);
   color: #ffffff;
   border: 0;
   border-radius: 4px;
-  font-family: Georgia, serif;
-  font-size: 14px;
   cursor: pointer;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
   .cb-container {
-    width: min(100% - 64px, 1600px);
+    width: min(100% - 72px, 1600px);
   }
   .cb-main-inner {
     gap: 16px;
@@ -496,22 +466,22 @@ const isActive = (href: string) => {
     font-size: 14px;
   }
   .cb-whatsapp {
-    font-size: 11.5px;
-    padding: 8px 10px;
+    font-size: 12px;
+    padding: 10px;
   }
   .cb-cta {
-    padding: 10px 14px;
+    padding: 12px;
     font-size: 13px;
   }
   .cb-brand-name {
-    font-size: 25px;
+    font-size: 27px;
   }
   .cb-crest {
-    width: 48px;
+    width: 51px;
   }
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1170px) {
   .cb-nav,
   .cb-whatsapp,
   .cb-actions > .cb-cta,
@@ -519,7 +489,7 @@ const isActive = (href: string) => {
     display: none;
   }
   .cb-main-inner {
-    min-height: 80px;
+    min-height: 86px;
   }
   .cb-actions {
     margin-left: auto;
@@ -530,31 +500,27 @@ const isActive = (href: string) => {
   }
   .cb-mobile-panel:not([hidden]) {
     display: block;
-    border-top: 1px solid var(--cb-line);
+    border-top: 1px solid var(--line);
     padding-block: 14px 24px;
   }
   .cb-mobile-panel a {
     display: block;
-    padding: 12px 0;
-    border-bottom: 1px solid var(--cb-line);
-    font-size: 15px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 16px;
     text-decoration: none;
-    color: var(--cb-ink);
-  }
-  .cb-mobile-panel .cb-mobile-wa {
-    color: #208b51;
-    font-weight: 700;
+    color: var(--ink);
   }
   .cb-mobile-panel .cb-mobile-cta {
-    background: var(--cb-green);
+    background: var(--green);
     color: #ffffff !important;
     text-align: center;
-    margin-top: 16px;
-    padding: 14px;
+    margin-top: 15px;
+    padding: 16px;
     border: 0;
-    border-radius: 6px;
+    border-radius: 5px;
     font-family: Georgia, serif;
-    font-size: 15px;
+    font-size: 16px;
   }
   .cb-top-right {
     margin-left: auto;
@@ -563,48 +529,54 @@ const isActive = (href: string) => {
 
 @media (max-width: 680px) {
   .cb-container {
-    width: calc(100% - 32px);
+    width: calc(100% - 36px);
   }
   .cb-top-inner {
-    min-height: 36px;
+    min-height: 37px;
   }
   .cb-top-right {
     display: none;
   }
   .cb-location {
-    font-size: 10.5px;
+    font-size: 11px;
   }
   .cb-main-inner {
-    min-height: 72px;
-    gap: 8px;
+    min-height: 78px;
+    gap: 10px;
   }
   .cb-crest {
-    width: 42px;
+    width: 43px;
     height: auto;
   }
   .cb-brand-sep {
-    height: 34px;
+    height: 39px;
   }
   .cb-brand {
     gap: 10px;
   }
   .cb-brand-name {
-    font-size: clamp(18px, 5vw, 24px);
+    font-size: clamp(19px, 5.5vw, 26px);
   }
   .cb-brand-sub {
-    font-size: 8.5px;
+    font-size: 9px;
   }
   .cb-search {
-    width: 32px;
+    width: 31px;
   }
   .cb-actions {
     gap: 4px;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
 </style>
 
 <script>
-  function initHeader() {
+  function setupHeader() {
     const header = document.querySelector('#cabivella-header');
     if (!header) return;
 
@@ -671,14 +643,13 @@ const isActive = (href: string) => {
       }
     });
 
-    window.matchMedia('(min-width: 1141px)').addEventListener('change', (e) => {
+    window.matchMedia('(min-width: 1171px)').addEventListener('change', (e) => {
       if (e.matches && menuBtn && mobile) {
         toggle(menuBtn, mobile, false);
       }
     });
   }
 
-  // Run on page load and on Astro view transition if enabled
-  initHeader();
-  document.addEventListener('astro:page-load', initHeader);
+  setupHeader();
+  document.addEventListener('astro:page-load', setupHeader);
 </script>
