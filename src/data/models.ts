@@ -11363,5 +11363,3348 @@ export const modelsData: Record<string, ModelDetail> = {
       "Configured for integrated appliance towers, deep pan drawers, and concealed cutlery dividers",
       "Pre-assembled rigid carcase construction with levelling feet and heavy-duty wall hangers"
 ]
-  }
+  },
+  "belgravia-architectural-towel-console": {
+  "slug": "belgravia-architectural-towel-console",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Belgravia Architectural Towel Console",
+  "metaTitle": "Belgravia Architectural Towel Console | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Belgravia Architectural Towel Console from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "AGORA TOWEL HOLDER",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity",
+    "Integrated ventilation louvres and heavy-duty 50 kg load-rated utility slides"
+  ],
+  "finishOptions": [
+    "Matt Anthracite Lacquer",
+    "Matt Black Lacquer",
+    "Matt Grey Lacquer",
+    "Matt White Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/agora-towel-holder_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/agora-towel-holder_1.webp",
+    "/assets/img/models/bathrooms/agora-towel-holder_2.webp"
+  ],
+  "description": "The Belgravia Architectural Towel Console represents an intelligent synthesis of utility architecture and understated British cabinetry design. Meticulously proportioned to house laundry appliances and utility requisites with seamless architectural discretion, it incorporates steam-resistant sealed panelling, smooth dampening mechanisms, and discrete ambient ventilation channels to maintain pristine order across residential utility rooms and master ensuites.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "mayfair-artisan-joinery-vanity-suite": {
+  "slug": "mayfair-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Mayfair Artisan Joinery Vanity Suite",
+  "metaTitle": "Mayfair Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Mayfair Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Glossy Cashmere",
+    "Glossy Grey",
+    "Glossy White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/arno_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/arno_1.webp",
+    "/assets/img/models/bathrooms/arno_2.webp",
+    "/assets/img/models/bathrooms/arno_3.webp",
+    "/assets/img/models/bathrooms/arno_4.webp",
+    "/assets/img/models/bathrooms/arno_5.webp",
+    "/assets/img/models/bathrooms/arno_6.webp",
+    "/assets/img/models/bathrooms/arno_7.webp",
+    "/assets/img/models/bathrooms/arno_8.webp",
+    "/assets/img/models/bathrooms/arno_9.webp",
+    "/assets/img/models/bathrooms/arno_10.webp",
+    "/assets/img/models/bathrooms/arno_11.webp",
+    "/assets/img/models/bathrooms/arno_12.webp"
+  ],
+  "description": "The Mayfair Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "kensington-ergonomic-pure-vanity-suite": {
+  "slug": "kensington-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Kensington Ergonomic Pure Vanity Suite",
+  "metaTitle": "Kensington Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Kensington Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "550 mm width module (55 cm) / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Retro Silver"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/aydos_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/aydos_1.webp",
+    "/assets/img/models/bathrooms/aydos_2.webp",
+    "/assets/img/models/bathrooms/aydos_3.webp",
+    "/assets/img/models/bathrooms/aydos_4.webp",
+    "/assets/img/models/bathrooms/aydos_5.webp",
+    "/assets/img/models/bathrooms/aydos_6.webp",
+    "/assets/img/models/bathrooms/aydos_7.webp"
+  ],
+  "description": "The Kensington Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "chelsea-ergonomic-pure-vanity-suite": {
+  "slug": "chelsea-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Chelsea Ergonomic Pure Vanity Suite",
+  "metaTitle": "Chelsea Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Chelsea Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "600 mm width module (60 cm) / 800 mm width module (80 cm) / 600 mm width module (60 cm) / 800 mm width module (80 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/bafa_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/bafa_1.webp",
+    "/assets/img/models/bathrooms/bafa_2.webp",
+    "/assets/img/models/bathrooms/bafa_3.webp",
+    "/assets/img/models/bathrooms/bafa_4.webp",
+    "/assets/img/models/bathrooms/bafa_5.webp",
+    "/assets/img/models/bathrooms/bafa_6.webp"
+  ],
+  "description": "The Chelsea Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "knightsbridge-architectural-bathroom-vanity-suite": {
+  "slug": "knightsbridge-architectural-bathroom-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Knightsbridge Architectural Bathroom Vanity Suite",
+  "metaTitle": "Knightsbridge Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Knightsbridge Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Navy Blue",
+    "Matt White",
+    "Matt Antracite",
+    "Matt Cashmere",
+    "Matt Green"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/bari_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/bari_1.webp",
+    "/assets/img/models/bathrooms/bari_2.webp",
+    "/assets/img/models/bathrooms/bari_3.webp",
+    "/assets/img/models/bathrooms/bari_4.webp",
+    "/assets/img/models/bathrooms/bari_5.webp"
+  ],
+  "description": "The Knightsbridge Architectural Bathroom Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "westminster-linear-minimalist-vanity-suite": {
+  "slug": "westminster-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Westminster Linear Minimalist Vanity Suite",
+  "metaTitle": "Westminster Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Westminster Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1050 mm width module (105 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt Navy Blue Lacquer",
+    "Matt Anthracite Lacquer",
+    "Matt Grey Lacquer",
+    "Matt White Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/bastle_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/bastle_1.webp",
+    "/assets/img/models/bathrooms/bastle_2.webp",
+    "/assets/img/models/bathrooms/bastle_3.webp",
+    "/assets/img/models/bathrooms/bastle_4.webp",
+    "/assets/img/models/bathrooms/bastle_5.webp",
+    "/assets/img/models/bathrooms/bastle_6.webp",
+    "/assets/img/models/bathrooms/bastle_7.webp",
+    "/assets/img/models/bathrooms/bastle_8.webp",
+    "/assets/img/models/bathrooms/bastle_9.webp",
+    "/assets/img/models/bathrooms/bastle_10.webp",
+    "/assets/img/models/bathrooms/bastle_11.webp",
+    "/assets/img/models/bathrooms/bastle_12.webp",
+    "/assets/img/models/bathrooms/bastle_13.webp",
+    "/assets/img/models/bathrooms/bastle_14.webp",
+    "/assets/img/models/bathrooms/bastle_15.webp",
+    "/assets/img/models/bathrooms/bastle_16.webp",
+    "/assets/img/models/bathrooms/bastle_17.webp"
+  ],
+  "description": "The Westminster Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "marylebone-artisan-joinery-vanity-suite": {
+  "slug": "marylebone-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Marylebone Artisan Joinery Vanity Suite",
+  "metaTitle": "Marylebone Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Marylebone Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Begonya , modern tasarımı ve işlevselliğiyle banyonuza hem düzeni sağlayacak hem de estetik bir görünüm kazandıracak ideal bir seçenek sunuyor. Bu özellikleriyle, küçük mekanlarda bile şıklığı ve kullanışlılığı bir arada arayanlar için mükemmel bir tercih olabilir. / 550 mm width module (55 cm) / 450 mm width module (45 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Legnano",
+    "Navaro",
+    "Irony"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/begonya_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/begonya_1.webp",
+    "/assets/img/models/bathrooms/begonya_2.webp",
+    "/assets/img/models/bathrooms/begonya_3.webp",
+    "/assets/img/models/bathrooms/begonya_4.webp"
+  ],
+  "description": "The Marylebone Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "fitzrovia-linear-minimalist-vanity-suite": {
+  "slug": "fitzrovia-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Fitzrovia Linear Minimalist Vanity Suite",
+  "metaTitle": "Fitzrovia Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Fitzrovia Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1400 mm width module (140 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "CASHMERE",
+    "POWDER",
+    "ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/biella_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/biella_1.webp",
+    "/assets/img/models/bathrooms/biella_2.webp",
+    "/assets/img/models/bathrooms/biella_3.webp",
+    "/assets/img/models/bathrooms/biella_4.webp",
+    "/assets/img/models/bathrooms/biella_5.webp",
+    "/assets/img/models/bathrooms/biella_6.webp",
+    "/assets/img/models/bathrooms/biella_7.webp",
+    "/assets/img/models/bathrooms/biella_8.webp",
+    "/assets/img/models/bathrooms/biella_9.webp"
+  ],
+  "description": "The Fitzrovia Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "bloomsbury-utility-laundry-armoire": {
+  "slug": "bloomsbury-utility-laundry-armoire",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Bloomsbury Utility Laundry Armoire",
+  "metaTitle": "Bloomsbury Utility Laundry Armoire | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Bloomsbury Utility Laundry Armoire from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "950 mm (W) × 730 mm (D) / 1000 mm (W) × 360 mm (D)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity",
+    "Integrated ventilation louvres and heavy-duty 50 kg load-rated utility slides"
+  ],
+  "finishOptions": [
+    "Matte White",
+    "Navaro",
+    "Legnano",
+    "Matte Anthracite"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/bosco-washing-machine-cabinet_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/bosco-washing-machine-cabinet_1.webp",
+    "/assets/img/models/bathrooms/bosco-washing-machine-cabinet_2.webp"
+  ],
+  "description": "The Bloomsbury Utility Laundry Armoire represents an intelligent synthesis of utility architecture and understated British cabinetry design. Meticulously proportioned to house laundry appliances and utility requisites with seamless architectural discretion, it incorporates steam-resistant sealed panelling, smooth dampening mechanisms, and discrete ambient ventilation channels to maintain pristine order across residential utility rooms and master ensuites.",
+  "keyFeatures": [
+    "Ergonomic acoustic isolation chamber engineered to conceal UK standard washing appliances",
+    "Full-extension utility transfer drawer designed for effortless loading and unloading",
+    "Passive circulation ventilation louvres preventing ambient condensation and moisture build-up",
+    "Waterproof laminated carcass with reinforced base plate and vibration-dampening feet",
+    "Overhead storage cabinetry with adjustable shelving for laundry detergents and linens"
+  ],
+  "style": "modern"
+},
+  "hampstead-monolith-architectural-vanity-suite": {
+  "slug": "hampstead-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Hampstead Monolith Architectural Vanity Suite",
+  "metaTitle": "Hampstead Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Hampstead Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "600 mm width module (60 cm) / 800 mm width module (80 cm) / 1200 mm width module (120 cm) / 600 mm width module (60 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "White",
+    "Matt Black"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/capetown_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/capetown_1.webp",
+    "/assets/img/models/bathrooms/capetown_2.webp",
+    "/assets/img/models/bathrooms/capetown_3.webp",
+    "/assets/img/models/bathrooms/capetown_4.webp",
+    "/assets/img/models/bathrooms/capetown_5.webp",
+    "/assets/img/models/bathrooms/capetown_6.webp",
+    "/assets/img/models/bathrooms/capetown_7.webp",
+    "/assets/img/models/bathrooms/capetown_8.webp",
+    "/assets/img/models/bathrooms/capetown_9.webp",
+    "/assets/img/models/bathrooms/capetown_10.webp",
+    "/assets/img/models/bathrooms/capetown_11.webp"
+  ],
+  "description": "The Hampstead Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "highgate-monolith-architectural-vanity-suite": {
+  "slug": "highgate-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Highgate Monolith Architectural Vanity Suite",
+  "metaTitle": "Highgate Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Highgate Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 800 mm width module (80 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Soil",
+    "White",
+    "Sahra"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/clay_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/clay_1.webp",
+    "/assets/img/models/bathrooms/clay_2.webp",
+    "/assets/img/models/bathrooms/clay_3.webp",
+    "/assets/img/models/bathrooms/clay_4.webp",
+    "/assets/img/models/bathrooms/clay_5.webp",
+    "/assets/img/models/bathrooms/clay_6.webp",
+    "/assets/img/models/bathrooms/clay_7.webp",
+    "/assets/img/models/bathrooms/clay_8.webp",
+    "/assets/img/models/bathrooms/clay_9.webp",
+    "/assets/img/models/bathrooms/clay_10.webp",
+    "/assets/img/models/bathrooms/clay_11.webp"
+  ],
+  "description": "The Highgate Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "islington-deep-drawer-vanity-suite": {
+  "slug": "islington-deep-drawer-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Islington Deep Drawer Vanity Suite",
+  "metaTitle": "Islington Deep Drawer Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Islington Deep Drawer Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Made to measure (standard modular dimensions available: 600 mm, 800 mm, 1000 mm, 1200 mm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "SOIL",
+    "WHITE",
+    "SAHRA"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/clay-drawers_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/clay-drawers_1.webp",
+    "/assets/img/models/bathrooms/clay-drawers_2.webp",
+    "/assets/img/models/bathrooms/clay-drawers_3.webp",
+    "/assets/img/models/bathrooms/clay-drawers_4.webp"
+  ],
+  "description": "The Islington Deep Drawer Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "richmond-ergonomic-pure-vanity-suite": {
+  "slug": "richmond-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Richmond Ergonomic Pure Vanity Suite",
+  "metaTitle": "Richmond Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Richmond Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "450 mm width module (45 cm) / 450 mm width module (45 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Legnano",
+    "Matte Anthracite",
+    "Matte White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/conza_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/conza_1.webp",
+    "/assets/img/models/bathrooms/conza_2.webp",
+    "/assets/img/models/bathrooms/conza_3.webp",
+    "/assets/img/models/bathrooms/conza_4.webp",
+    "/assets/img/models/bathrooms/conza_5.webp",
+    "/assets/img/models/bathrooms/conza_6.webp"
+  ],
+  "description": "The Richmond Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "chiswick-linear-minimalist-vanity-suite": {
+  "slug": "chiswick-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Chiswick Linear Minimalist Vanity Suite",
+  "metaTitle": "Chiswick Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Chiswick Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "40 mm width module (4 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Kompakt Laminat Ceviz"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/craft_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/craft_1.webp",
+    "/assets/img/models/bathrooms/craft_2.webp",
+    "/assets/img/models/bathrooms/craft_3.webp",
+    "/assets/img/models/bathrooms/craft_4.webp",
+    "/assets/img/models/bathrooms/craft_5.webp",
+    "/assets/img/models/bathrooms/craft_6.webp",
+    "/assets/img/models/bathrooms/craft_7.webp",
+    "/assets/img/models/bathrooms/craft_8.webp",
+    "/assets/img/models/bathrooms/craft_9.webp",
+    "/assets/img/models/bathrooms/craft_10.webp",
+    "/assets/img/models/bathrooms/craft_11.webp"
+  ],
+  "description": "The Chiswick Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "wimbledon-sculptural-organic-vanity-suite": {
+  "slug": "wimbledon-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Wimbledon Sculptural Organic Vanity Suite",
+  "metaTitle": "Wimbledon Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Wimbledon Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "60 mm width module (6 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt Navy Blue Lacquer",
+    "Matt Mink Lacquer",
+    "Matt Anthracite Lacquer",
+    "Matt Grey Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/cube_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/cube_1.webp",
+    "/assets/img/models/bathrooms/cube_2.webp",
+    "/assets/img/models/bathrooms/cube_3.webp",
+    "/assets/img/models/bathrooms/cube_4.webp",
+    "/assets/img/models/bathrooms/cube_5.webp",
+    "/assets/img/models/bathrooms/cube_6.webp",
+    "/assets/img/models/bathrooms/cube_7.webp",
+    "/assets/img/models/bathrooms/cube_8.webp",
+    "/assets/img/models/bathrooms/cube_9.webp",
+    "/assets/img/models/bathrooms/cube_10.webp",
+    "/assets/img/models/bathrooms/cube_11.webp",
+    "/assets/img/models/bathrooms/cube_12.webp",
+    "/assets/img/models/bathrooms/cube_13.webp",
+    "/assets/img/models/bathrooms/cube_14.webp",
+    "/assets/img/models/bathrooms/cube_15.webp",
+    "/assets/img/models/bathrooms/cube_16.webp",
+    "/assets/img/models/bathrooms/cube_17.webp",
+    "/assets/img/models/bathrooms/cube_18.webp",
+    "/assets/img/models/bathrooms/cube_19.webp",
+    "/assets/img/models/bathrooms/cube_20.webp",
+    "/assets/img/models/bathrooms/cube_21.webp",
+    "/assets/img/models/bathrooms/cube_22.webp",
+    "/assets/img/models/bathrooms/cube_23.webp",
+    "/assets/img/models/bathrooms/cube_24.webp"
+  ],
+  "description": "The Wimbledon Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "dulwich-linear-minimalist-vanity-suite": {
+  "slug": "dulwich-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Dulwich Linear Minimalist Vanity Suite",
+  "metaTitle": "Dulwich Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Dulwich Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1050 mm width module (105 cm) / 850 mm width module (85 cm) / 1050 mm width module (105 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Taupe Lacquer",
+    "Matt White Lacquer",
+    "Matt Cashmere Lacquer",
+    "Matt Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/design_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/design_1.webp",
+    "/assets/img/models/bathrooms/design_2.webp",
+    "/assets/img/models/bathrooms/design_3.webp",
+    "/assets/img/models/bathrooms/design_4.webp",
+    "/assets/img/models/bathrooms/design_5.webp",
+    "/assets/img/models/bathrooms/design_6.webp",
+    "/assets/img/models/bathrooms/design_7.webp",
+    "/assets/img/models/bathrooms/design_8.webp",
+    "/assets/img/models/bathrooms/design_9.webp"
+  ],
+  "description": "The Dulwich Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "greenwich-ergonomic-pure-vanity-suite": {
+  "slug": "greenwich-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Greenwich Ergonomic Pure Vanity Suite",
+  "metaTitle": "Greenwich Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Greenwich Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 500 mm width module (50 cm) / 600 mm width module (60 cm) / 800 mm width module (80 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Budva",
+    "Matte Desert Beige",
+    "Matte Anthracite",
+    "Matte White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/desna_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/desna_1.webp",
+    "/assets/img/models/bathrooms/desna_2.webp",
+    "/assets/img/models/bathrooms/desna_3.webp",
+    "/assets/img/models/bathrooms/desna_4.webp",
+    "/assets/img/models/bathrooms/desna_5.webp",
+    "/assets/img/models/bathrooms/desna_6.webp",
+    "/assets/img/models/bathrooms/desna_7.webp",
+    "/assets/img/models/bathrooms/desna_8.webp",
+    "/assets/img/models/bathrooms/desna_9.webp",
+    "/assets/img/models/bathrooms/desna_10.webp"
+  ],
+  "description": "The Greenwich Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "pimlico-cupboard-basin-vanity-suite": {
+  "slug": "pimlico-cupboard-basin-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Pimlico Cupboard & Basin Vanity Suite",
+  "metaTitle": "Pimlico Cupboard & Basin Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Pimlico Cupboard & Basin Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "450 mm width module (45 cm) / 650 mm width module (65 cm) / 800 mm width module (80 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Teak",
+    "Odeon White Oak",
+    "White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/duden-with-door_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/duden-with-door_1.webp",
+    "/assets/img/models/bathrooms/duden-with-door_2.webp",
+    "/assets/img/models/bathrooms/duden-with-door_3.webp",
+    "/assets/img/models/bathrooms/duden-with-door_4.webp",
+    "/assets/img/models/bathrooms/duden-with-door_5.webp"
+  ],
+  "description": "The Pimlico Cupboard & Basin Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "st-james-deep-drawer-vanity-suite": {
+  "slug": "st-james-deep-drawer-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "St James Deep Drawer Vanity Suite",
+  "metaTitle": "St James Deep Drawer Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the St James Deep Drawer Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Beyaz",
+    "Teak",
+    "Odeon White Oak"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/duden-with-drawers_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/duden-with-drawers_1.webp",
+    "/assets/img/models/bathrooms/duden-with-drawers_2.webp",
+    "/assets/img/models/bathrooms/duden-with-drawers_3.webp",
+    "/assets/img/models/bathrooms/duden-with-drawers_4.webp",
+    "/assets/img/models/bathrooms/duden-with-drawers_5.webp"
+  ],
+  "description": "The St James Deep Drawer Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "cotswold-ergonomic-pure-vanity-suite": {
+  "slug": "cotswold-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Cotswold Ergonomic Pure Vanity Suite",
+  "metaTitle": "Cotswold Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Cotswold Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "550 mm width module (55 cm) / 650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Rosary Walnut",
+    "Teak",
+    "White",
+    "Irony"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/enez_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/enez_1.webp",
+    "/assets/img/models/bathrooms/enez_2.webp",
+    "/assets/img/models/bathrooms/enez_3.webp",
+    "/assets/img/models/bathrooms/enez_4.webp",
+    "/assets/img/models/bathrooms/enez_5.webp",
+    "/assets/img/models/bathrooms/enez_6.webp",
+    "/assets/img/models/bathrooms/enez_7.webp"
+  ],
+  "description": "The Cotswold Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "holborn-architectural-bathroom-vanity-suite": {
+  "slug": "holborn-architectural-bathroom-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Holborn Architectural Bathroom Vanity Suite",
+  "metaTitle": "Holborn Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Holborn Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "1200 mm width module (120 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Silk White",
+    "Cashmere Matt",
+    "Anthracite Silk",
+    "Natural Oak Veneer",
+    "Smoked Walnut"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/enna_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/enna_1.webp",
+    "/assets/img/models/bathrooms/enna_2.webp",
+    "/assets/img/models/bathrooms/enna_3.webp",
+    "/assets/img/models/bathrooms/enna_4.webp"
+  ],
+  "description": "The Holborn Architectural Bathroom Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "soho-sculptural-organic-vanity-suite": {
+  "slug": "soho-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Soho Sculptural Organic Vanity Suite",
+  "metaTitle": "Soho Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Soho Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Yarı Gömme Seramik Lavabo / 1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1400 mm width module (140 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "MINK",
+    "GREY",
+    "ANTHRACITE",
+    "POWDER",
+    "BLACK"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/felice_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/felice_1.webp",
+    "/assets/img/models/bathrooms/felice_2.webp",
+    "/assets/img/models/bathrooms/felice_3.webp",
+    "/assets/img/models/bathrooms/felice_4.webp",
+    "/assets/img/models/bathrooms/felice_5.webp",
+    "/assets/img/models/bathrooms/felice_6.webp",
+    "/assets/img/models/bathrooms/felice_7.webp",
+    "/assets/img/models/bathrooms/felice_8.webp",
+    "/assets/img/models/bathrooms/felice_9.webp",
+    "/assets/img/models/bathrooms/felice_10.webp",
+    "/assets/img/models/bathrooms/felice_11.webp",
+    "/assets/img/models/bathrooms/felice_12.webp",
+    "/assets/img/models/bathrooms/felice_13.webp",
+    "/assets/img/models/bathrooms/felice_14.webp",
+    "/assets/img/models/bathrooms/felice_15.webp",
+    "/assets/img/models/bathrooms/felice_16.webp",
+    "/assets/img/models/bathrooms/felice_17.webp",
+    "/assets/img/models/bathrooms/felice_18.webp",
+    "/assets/img/models/bathrooms/felice_19.webp",
+    "/assets/img/models/bathrooms/felice_20.webp",
+    "/assets/img/models/bathrooms/felice_21.webp",
+    "/assets/img/models/bathrooms/felice_22.webp"
+  ],
+  "description": "The Soho Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "primrose-monolith-architectural-vanity-suite": {
+  "slug": "primrose-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Primrose Monolith Architectural Vanity Suite",
+  "metaTitle": "Primrose Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Primrose Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "400 mm width module (40 cm) / 600 mm width module (60 cm) / 800 mm width module (80 cm) / 1100 mm width module (110 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "GREY",
+    "CASHMERE",
+    "MINK",
+    "ANTHRACITE",
+    "BLUE",
+    "CINNAMON"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/ferla_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/ferla_1.webp",
+    "/assets/img/models/bathrooms/ferla_2.webp",
+    "/assets/img/models/bathrooms/ferla_3.webp",
+    "/assets/img/models/bathrooms/ferla_4.webp",
+    "/assets/img/models/bathrooms/ferla_5.webp",
+    "/assets/img/models/bathrooms/ferla_6.webp",
+    "/assets/img/models/bathrooms/ferla_7.webp",
+    "/assets/img/models/bathrooms/ferla_8.webp",
+    "/assets/img/models/bathrooms/ferla_9.webp",
+    "/assets/img/models/bathrooms/ferla_10.webp",
+    "/assets/img/models/bathrooms/ferla_11.webp",
+    "/assets/img/models/bathrooms/ferla_12.webp",
+    "/assets/img/models/bathrooms/ferla_13.webp",
+    "/assets/img/models/bathrooms/ferla_14.webp",
+    "/assets/img/models/bathrooms/ferla_15.webp",
+    "/assets/img/models/bathrooms/ferla_16.webp",
+    "/assets/img/models/bathrooms/ferla_17.webp",
+    "/assets/img/models/bathrooms/ferla_18.webp",
+    "/assets/img/models/bathrooms/ferla_19.webp",
+    "/assets/img/models/bathrooms/ferla_20.webp",
+    "/assets/img/models/bathrooms/ferla_21.webp"
+  ],
+  "description": "The Primrose Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "belsize-monolith-architectural-vanity-suite": {
+  "slug": "belsize-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Belsize Monolith Architectural Vanity Suite",
+  "metaTitle": "Belsize Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Belsize Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1000 mm width module (100 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Ella",
+    "Legnano"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/galia_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/galia_1.webp",
+    "/assets/img/models/bathrooms/galia_2.webp",
+    "/assets/img/models/bathrooms/galia_3.webp",
+    "/assets/img/models/bathrooms/galia_4.webp",
+    "/assets/img/models/bathrooms/galia_5.webp",
+    "/assets/img/models/bathrooms/galia_6.webp",
+    "/assets/img/models/bathrooms/galia_7.webp",
+    "/assets/img/models/bathrooms/galia_8.webp",
+    "/assets/img/models/bathrooms/galia_9.webp",
+    "/assets/img/models/bathrooms/galia_10.webp",
+    "/assets/img/models/bathrooms/galia_11.webp",
+    "/assets/img/models/bathrooms/galia_12.webp",
+    "/assets/img/models/bathrooms/galia_13.webp",
+    "/assets/img/models/bathrooms/galia_14.webp",
+    "/assets/img/models/bathrooms/galia_15.webp",
+    "/assets/img/models/bathrooms/galia_16.webp"
+  ],
+  "description": "The Belsize Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "holland-park-monolith-architectural-vanity-suite": {
+  "slug": "holland-park-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Holland Park Monolith Architectural Vanity Suite",
+  "metaTitle": "Holland Park Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Holland Park Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Knidos , şıklığı ve fonksiyonelliği bir araya getirerek banyo deneyiminizi mükemmelleştirmek için tasarlandı. Seramik lavabo, hijyen ve sağlık açısından güvenilir bir seçenek sunarken, alt modüldeki cam tezgah ise dayanıklılığı ve kolay temizlenebilirliğiyle dikkat çekiyor. Bu tezgah aynı zamanda geri dönüştürülebilir özellikte, çevre dostu bir seçenek sunuyor. / 700 mm width module (70 cm) / 900 mm width module (90 cm) / 700 mm width module (70 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Navaro",
+    "Legnano",
+    "White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/knidos_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/knidos_1.webp",
+    "/assets/img/models/bathrooms/knidos_2.webp",
+    "/assets/img/models/bathrooms/knidos_3.webp",
+    "/assets/img/models/bathrooms/knidos_4.webp",
+    "/assets/img/models/bathrooms/knidos_5.webp",
+    "/assets/img/models/bathrooms/knidos_6.webp",
+    "/assets/img/models/bathrooms/knidos_7.webp",
+    "/assets/img/models/bathrooms/knidos_8.webp",
+    "/assets/img/models/bathrooms/knidos_9.webp",
+    "/assets/img/models/bathrooms/knidos_10.webp",
+    "/assets/img/models/bathrooms/knidos_11.webp",
+    "/assets/img/models/bathrooms/knidos_12.webp",
+    "/assets/img/models/bathrooms/knidos_13.webp",
+    "/assets/img/models/bathrooms/knidos_14.webp"
+  ],
+  "description": "The Holland Park Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "notting-hill-ergonomic-pure-vanity-suite": {
+  "slug": "notting-hill-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Notting Hill Ergonomic Pure Vanity Suite",
+  "metaTitle": "Notting Hill Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Notting Hill Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Anthracite",
+    "Matte White",
+    "Matte Desert Beige"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/lena_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/lena_1.webp",
+    "/assets/img/models/bathrooms/lena_2.webp",
+    "/assets/img/models/bathrooms/lena_3.webp",
+    "/assets/img/models/bathrooms/lena_4.webp",
+    "/assets/img/models/bathrooms/lena_5.webp",
+    "/assets/img/models/bathrooms/lena_6.webp",
+    "/assets/img/models/bathrooms/lena_7.webp"
+  ],
+  "description": "The Notting Hill Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "paddington-architectural-bathroom-vanity-suite": {
+  "slug": "paddington-architectural-bathroom-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Paddington Architectural Bathroom Vanity Suite",
+  "metaTitle": "Paddington Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Paddington Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1600 mm width module (160 cm) / 1600 mm width module (160 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Walnut",
+    "Oak",
+    "Matt Cashmere",
+    "Matt Anthracite",
+    "Mat White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/lentia_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/lentia_1.webp",
+    "/assets/img/models/bathrooms/lentia_2.webp",
+    "/assets/img/models/bathrooms/lentia_3.webp",
+    "/assets/img/models/bathrooms/lentia_4.webp",
+    "/assets/img/models/bathrooms/lentia_5.webp",
+    "/assets/img/models/bathrooms/lentia_6.webp",
+    "/assets/img/models/bathrooms/lentia_7.webp"
+  ],
+  "description": "The Paddington Architectural Bathroom Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "bayswater-sculptural-organic-vanity-suite": {
+  "slug": "bayswater-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Bayswater Sculptural Organic Vanity Suite",
+  "metaTitle": "Bayswater Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Bayswater Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt Beige",
+    "Matt Red"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/levanto_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/levanto_1.webp",
+    "/assets/img/models/bathrooms/levanto_2.webp",
+    "/assets/img/models/bathrooms/levanto_3.webp",
+    "/assets/img/models/bathrooms/levanto_4.webp",
+    "/assets/img/models/bathrooms/levanto_5.webp",
+    "/assets/img/models/bathrooms/levanto_6.webp",
+    "/assets/img/models/bathrooms/levanto_7.webp",
+    "/assets/img/models/bathrooms/levanto_8.webp",
+    "/assets/img/models/bathrooms/levanto_9.webp",
+    "/assets/img/models/bathrooms/levanto_10.webp"
+  ],
+  "description": "The Bayswater Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "regent-monolith-architectural-vanity-suite": {
+  "slug": "regent-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Regent Monolith Architectural Vanity Suite",
+  "metaTitle": "Regent Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Regent Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 650 mm width module (65 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White Lacquer",
+    "Matt Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/likya_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/likya_1.webp",
+    "/assets/img/models/bathrooms/likya_2.webp",
+    "/assets/img/models/bathrooms/likya_3.webp",
+    "/assets/img/models/bathrooms/likya_4.webp",
+    "/assets/img/models/bathrooms/likya_5.webp",
+    "/assets/img/models/bathrooms/likya_6.webp",
+    "/assets/img/models/bathrooms/likya_7.webp",
+    "/assets/img/models/bathrooms/likya_8.webp",
+    "/assets/img/models/bathrooms/likya_9.webp",
+    "/assets/img/models/bathrooms/likya_10.webp",
+    "/assets/img/models/bathrooms/likya_11.webp",
+    "/assets/img/models/bathrooms/likya_12.webp",
+    "/assets/img/models/bathrooms/likya_13.webp",
+    "/assets/img/models/bathrooms/likya_14.webp"
+  ],
+  "description": "The Regent Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "piccadilly-dual-laundry-dryer-suite": {
+  "slug": "piccadilly-dual-laundry-dryer-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Piccadilly Dual Laundry & Dryer Suite",
+  "metaTitle": "Piccadilly Dual Laundry & Dryer Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Piccadilly Dual Laundry & Dryer Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "730 mm width module (73 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity",
+    "Integrated ventilation louvres and heavy-duty 50 kg load-rated utility slides"
+  ],
+  "finishOptions": [
+    "Matte Anthracite",
+    "Matte White",
+    "Navaro",
+    "Legnano"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/linfa-washing-and-dryer-machine-cabinet_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/linfa-washing-and-dryer-machine-cabinet_1.webp",
+    "/assets/img/models/bathrooms/linfa-washing-and-dryer-machine-cabinet_2.webp"
+  ],
+  "description": "The Piccadilly Dual Laundry & Dryer Suite represents an intelligent synthesis of utility architecture and understated British cabinetry design. Meticulously proportioned to house laundry appliances and utility requisites with seamless architectural discretion, it incorporates steam-resistant sealed panelling, smooth dampening mechanisms, and discrete ambient ventilation channels to maintain pristine order across residential utility rooms and master ensuites.",
+  "keyFeatures": [
+    "Ergonomic acoustic isolation chamber engineered to conceal UK standard washing appliances",
+    "Full-extension utility transfer drawer designed for effortless loading and unloading",
+    "Passive circulation ventilation louvres preventing ambient condensation and moisture build-up",
+    "Waterproof laminated carcass with reinforced base plate and vibration-dampening feet",
+    "Overhead storage cabinetry with adjustable shelving for laundry detergents and linens"
+  ],
+  "style": "modern"
+},
+  "strand-linear-minimalist-vanity-suite": {
+  "slug": "strand-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Strand Linear Minimalist Vanity Suite",
+  "metaTitle": "Strand Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Strand Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt Powder",
+    "Matt Anthracite",
+    "Matt Mink",
+    "Matt White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/lipari_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/lipari_1.webp",
+    "/assets/img/models/bathrooms/lipari_2.webp",
+    "/assets/img/models/bathrooms/lipari_3.webp",
+    "/assets/img/models/bathrooms/lipari_4.webp",
+    "/assets/img/models/bathrooms/lipari_5.webp",
+    "/assets/img/models/bathrooms/lipari_6.webp"
+  ],
+  "description": "The Strand Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "aldwych-monolith-architectural-vanity-suite": {
+  "slug": "aldwych-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Aldwych Monolith Architectural Vanity Suite",
+  "metaTitle": "Aldwych Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Aldwych Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "900 mm width module (90 cm) / 1100 mm width module (110 cm) / 1320 mm width module (132 cm) / 900 mm width module (90 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White Lacquer",
+    "Matt Cashmere Lacquer",
+    "Matt Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/lisbon_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/lisbon_1.webp",
+    "/assets/img/models/bathrooms/lisbon_2.webp",
+    "/assets/img/models/bathrooms/lisbon_3.webp",
+    "/assets/img/models/bathrooms/lisbon_4.webp",
+    "/assets/img/models/bathrooms/lisbon_5.webp",
+    "/assets/img/models/bathrooms/lisbon_6.webp",
+    "/assets/img/models/bathrooms/lisbon_7.webp",
+    "/assets/img/models/bathrooms/lisbon_8.webp",
+    "/assets/img/models/bathrooms/lisbon_9.webp",
+    "/assets/img/models/bathrooms/lisbon_10.webp",
+    "/assets/img/models/bathrooms/lisbon_11.webp",
+    "/assets/img/models/bathrooms/lisbon_12.webp",
+    "/assets/img/models/bathrooms/lisbon_13.webp",
+    "/assets/img/models/bathrooms/lisbon_14.webp",
+    "/assets/img/models/bathrooms/lisbon_15.webp",
+    "/assets/img/models/bathrooms/lisbon_16.webp"
+  ],
+  "description": "The Aldwych Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "temple-monolith-architectural-vanity-suite": {
+  "slug": "temple-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Temple Monolith Architectural Vanity Suite",
+  "metaTitle": "Temple Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Temple Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 650 mm width module (65 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE - BLACK",
+    "WHITE - SILVER",
+    "WHITE - GOLD"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/lodi_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/lodi_1.webp",
+    "/assets/img/models/bathrooms/lodi_2.webp",
+    "/assets/img/models/bathrooms/lodi_3.webp",
+    "/assets/img/models/bathrooms/lodi_4.webp",
+    "/assets/img/models/bathrooms/lodi_5.webp",
+    "/assets/img/models/bathrooms/lodi_6.webp"
+  ],
+  "description": "The Temple Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "clerkenwell-utility-laundry-armoire": {
+  "slug": "clerkenwell-utility-laundry-armoire",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Clerkenwell Utility Laundry Armoire",
+  "metaTitle": "Clerkenwell Utility Laundry Armoire | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Clerkenwell Utility Laundry Armoire from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "950 mm (W) × 750 mm (D) / 1000 mm (W) × 360 mm (D)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity",
+    "Integrated ventilation louvres and heavy-duty 50 kg load-rated utility slides"
+  ],
+  "finishOptions": [
+    "Matte Anthracite",
+    "Matte White",
+    "Navaro",
+    "Legnano"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/lume-washing-machine-cabinet_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/lume-washing-machine-cabinet_1.webp",
+    "/assets/img/models/bathrooms/lume-washing-machine-cabinet_2.webp"
+  ],
+  "description": "The Clerkenwell Utility Laundry Armoire represents an intelligent synthesis of utility architecture and understated British cabinetry design. Meticulously proportioned to house laundry appliances and utility requisites with seamless architectural discretion, it incorporates steam-resistant sealed panelling, smooth dampening mechanisms, and discrete ambient ventilation channels to maintain pristine order across residential utility rooms and master ensuites.",
+  "keyFeatures": [
+    "Ergonomic acoustic isolation chamber engineered to conceal UK standard washing appliances",
+    "Full-extension utility transfer drawer designed for effortless loading and unloading",
+    "Passive circulation ventilation louvres preventing ambient condensation and moisture build-up",
+    "Waterproof laminated carcass with reinforced base plate and vibration-dampening feet",
+    "Overhead storage cabinetry with adjustable shelving for laundry detergents and linens"
+  ],
+  "style": "modern"
+},
+  "shoreditch-sculptural-organic-vanity-suite": {
+  "slug": "shoreditch-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Shoreditch Sculptural Organic Vanity Suite",
+  "metaTitle": "Shoreditch Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Shoreditch Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1200 mm width module (120 cm) / 800 mm width module (80 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "ANTHRACITE",
+    "BLUE",
+    "CINNAMON"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/lusso_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/lusso_1.webp",
+    "/assets/img/models/bathrooms/lusso_2.webp",
+    "/assets/img/models/bathrooms/lusso_3.webp",
+    "/assets/img/models/bathrooms/lusso_4.webp",
+    "/assets/img/models/bathrooms/lusso_5.webp",
+    "/assets/img/models/bathrooms/lusso_6.webp",
+    "/assets/img/models/bathrooms/lusso_7.webp",
+    "/assets/img/models/bathrooms/lusso_8.webp",
+    "/assets/img/models/bathrooms/lusso_9.webp",
+    "/assets/img/models/bathrooms/lusso_10.webp",
+    "/assets/img/models/bathrooms/lusso_11.webp",
+    "/assets/img/models/bathrooms/lusso_12.webp",
+    "/assets/img/models/bathrooms/lusso_13.webp",
+    "/assets/img/models/bathrooms/lusso_14.webp",
+    "/assets/img/models/bathrooms/lusso_15.webp",
+    "/assets/img/models/bathrooms/lusso_16.webp",
+    "/assets/img/models/bathrooms/lusso_17.webp",
+    "/assets/img/models/bathrooms/lusso_18.webp"
+  ],
+  "description": "The Shoreditch Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "spitalfields-monolith-architectural-vanity-suite": {
+  "slug": "spitalfields-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Spitalfields Monolith Architectural Vanity Suite",
+  "metaTitle": "Spitalfields Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Spitalfields Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 800 mm width module (80 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White Lacquer",
+    "Matt Cashmere Lacquer",
+    "Matt Grey Lacquer",
+    "Matt Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/malta_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/malta_1.webp",
+    "/assets/img/models/bathrooms/malta_2.webp",
+    "/assets/img/models/bathrooms/malta_3.webp",
+    "/assets/img/models/bathrooms/malta_4.webp",
+    "/assets/img/models/bathrooms/malta_5.webp",
+    "/assets/img/models/bathrooms/malta_6.webp",
+    "/assets/img/models/bathrooms/malta_7.webp",
+    "/assets/img/models/bathrooms/malta_8.webp",
+    "/assets/img/models/bathrooms/malta_9.webp",
+    "/assets/img/models/bathrooms/malta_10.webp",
+    "/assets/img/models/bathrooms/malta_11.webp",
+    "/assets/img/models/bathrooms/malta_12.webp"
+  ],
+  "description": "The Spitalfields Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "wapping-architectural-bathroom-vanity-suite": {
+  "slug": "wapping-architectural-bathroom-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Wapping Architectural Bathroom Vanity Suite",
+  "metaTitle": "Wapping Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Wapping Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Çift çekmeceli geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Cashmere",
+    "Matt White",
+    "Matt Anthracite",
+    "Matte Red",
+    "Burlington Oak"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/messina_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/messina_1.webp",
+    "/assets/img/models/bathrooms/messina_2.webp",
+    "/assets/img/models/bathrooms/messina_3.webp",
+    "/assets/img/models/bathrooms/messina_4.webp",
+    "/assets/img/models/bathrooms/messina_5.webp",
+    "/assets/img/models/bathrooms/messina_6.webp",
+    "/assets/img/models/bathrooms/messina_7.webp"
+  ],
+  "description": "The Wapping Architectural Bathroom Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "canary-sculptural-organic-vanity-suite": {
+  "slug": "canary-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Canary Sculptural Organic Vanity Suite",
+  "metaTitle": "Canary Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Canary Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1400 mm width module (140 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "MINK",
+    "GREY",
+    "ANTHRACITE",
+    "BLUE",
+    "GREEN"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/milano_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/milano_1.webp",
+    "/assets/img/models/bathrooms/milano_2.webp",
+    "/assets/img/models/bathrooms/milano_3.webp",
+    "/assets/img/models/bathrooms/milano_4.webp",
+    "/assets/img/models/bathrooms/milano_5.webp",
+    "/assets/img/models/bathrooms/milano_6.webp",
+    "/assets/img/models/bathrooms/milano_7.webp",
+    "/assets/img/models/bathrooms/milano_8.webp",
+    "/assets/img/models/bathrooms/milano_9.webp"
+  ],
+  "description": "The Canary Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "blackheath-monolith-architectural-vanity-suite": {
+  "slug": "blackheath-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Blackheath Monolith Architectural Vanity Suite",
+  "metaTitle": "Blackheath Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Blackheath Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Callisto"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/milazzo_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/milazzo_1.webp",
+    "/assets/img/models/bathrooms/milazzo_2.webp",
+    "/assets/img/models/bathrooms/milazzo_3.webp",
+    "/assets/img/models/bathrooms/milazzo_4.webp",
+    "/assets/img/models/bathrooms/milazzo_5.webp",
+    "/assets/img/models/bathrooms/milazzo_6.webp",
+    "/assets/img/models/bathrooms/milazzo_7.webp",
+    "/assets/img/models/bathrooms/milazzo_8.webp",
+    "/assets/img/models/bathrooms/milazzo_9.webp"
+  ],
+  "description": "The Blackheath Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "wandsworth-sculptural-organic-vanity-suite": {
+  "slug": "wandsworth-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Wandsworth Sculptural Organic Vanity Suite",
+  "metaTitle": "Wandsworth Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Wandsworth Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Mermer Tezgah Üzeri Yarı Gömme Seramik Lavabo / 850 mm width module (85 cm) / 1050 mm width module (105 cm) / cm",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "CASHMERE",
+    "GREY",
+    "POWDER",
+    "ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/molino_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/molino_1.webp",
+    "/assets/img/models/bathrooms/molino_2.webp",
+    "/assets/img/models/bathrooms/molino_3.webp",
+    "/assets/img/models/bathrooms/molino_4.webp",
+    "/assets/img/models/bathrooms/molino_5.webp",
+    "/assets/img/models/bathrooms/molino_6.webp",
+    "/assets/img/models/bathrooms/molino_7.webp",
+    "/assets/img/models/bathrooms/molino_8.webp",
+    "/assets/img/models/bathrooms/molino_9.webp",
+    "/assets/img/models/bathrooms/molino_10.webp",
+    "/assets/img/models/bathrooms/molino_11.webp",
+    "/assets/img/models/bathrooms/molino_12.webp",
+    "/assets/img/models/bathrooms/molino_13.webp",
+    "/assets/img/models/bathrooms/molino_14.webp",
+    "/assets/img/models/bathrooms/molino_15.webp",
+    "/assets/img/models/bathrooms/molino_16.webp",
+    "/assets/img/models/bathrooms/molino_17.webp",
+    "/assets/img/models/bathrooms/molino_18.webp",
+    "/assets/img/models/bathrooms/molino_19.webp",
+    "/assets/img/models/bathrooms/molino_20.webp",
+    "/assets/img/models/bathrooms/molino_21.webp",
+    "/assets/img/models/bathrooms/molino_22.webp",
+    "/assets/img/models/bathrooms/molino_23.webp",
+    "/assets/img/models/bathrooms/molino_24.webp",
+    "/assets/img/models/bathrooms/molino_25.webp",
+    "/assets/img/models/bathrooms/molino_26.webp",
+    "/assets/img/models/bathrooms/molino_27.webp",
+    "/assets/img/models/bathrooms/molino_28.webp",
+    "/assets/img/models/bathrooms/molino_29.webp",
+    "/assets/img/models/bathrooms/molino_30.webp",
+    "/assets/img/models/bathrooms/molino_31.webp",
+    "/assets/img/models/bathrooms/molino_32.webp",
+    "/assets/img/models/bathrooms/molino_33.webp",
+    "/assets/img/models/bathrooms/molino_34.webp"
+  ],
+  "description": "The Wandsworth Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "fulham-linear-minimalist-vanity-suite": {
+  "slug": "fulham-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Fulham Linear Minimalist Vanity Suite",
+  "metaTitle": "Fulham Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Fulham Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "700 mm width module (70 cm) / 900 mm width module (90 cm) / 1200 mm width module (120 cm) / 700 mm width module (70 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White Lacquer",
+    "Matt Mink Lacquer",
+    "Matt Anthracite Lacquer",
+    "Matt Grey Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/moonlight_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/moonlight_1.webp",
+    "/assets/img/models/bathrooms/moonlight_2.webp",
+    "/assets/img/models/bathrooms/moonlight_3.webp",
+    "/assets/img/models/bathrooms/moonlight_4.webp",
+    "/assets/img/models/bathrooms/moonlight_5.webp",
+    "/assets/img/models/bathrooms/moonlight_6.webp",
+    "/assets/img/models/bathrooms/moonlight_7.webp",
+    "/assets/img/models/bathrooms/moonlight_8.webp",
+    "/assets/img/models/bathrooms/moonlight_9.webp",
+    "/assets/img/models/bathrooms/moonlight_10.webp",
+    "/assets/img/models/bathrooms/moonlight_11.webp",
+    "/assets/img/models/bathrooms/moonlight_12.webp",
+    "/assets/img/models/bathrooms/moonlight_13.webp",
+    "/assets/img/models/bathrooms/moonlight_14.webp",
+    "/assets/img/models/bathrooms/moonlight_15.webp",
+    "/assets/img/models/bathrooms/moonlight_16.webp",
+    "/assets/img/models/bathrooms/moonlight_17.webp",
+    "/assets/img/models/bathrooms/moonlight_18.webp",
+    "/assets/img/models/bathrooms/moonlight_19.webp",
+    "/assets/img/models/bathrooms/moonlight_20.webp"
+  ],
+  "description": "The Fulham Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "kew-deep-drawer-vanity-suite": {
+  "slug": "kew-deep-drawer-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Kew Deep Drawer Vanity Suite",
+  "metaTitle": "Kew Deep Drawer Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Kew Deep Drawer Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "700 mm width module (70 cm) / 900 mm width module (90 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White Lacquer",
+    "Matt Mink Lacquer",
+    "Matt Anthracite Lacquer",
+    "Matt Grey Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/moonlight-double-drawer_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/moonlight-double-drawer_1.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_2.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_3.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_4.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_5.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_6.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_7.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_8.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_9.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_10.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_11.webp",
+    "/assets/img/models/bathrooms/moonlight-double-drawer_12.webp"
+  ],
+  "description": "The Kew Deep Drawer Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "twickenham-linear-minimalist-vanity-suite": {
+  "slug": "twickenham-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Twickenham Linear Minimalist Vanity Suite",
+  "metaTitle": "Twickenham Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Twickenham Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "700 mm width module (70 cm) / 900 mm width module (90 cm) / 1200 mm width module (120 cm) / 900 mm width module (90 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White Lacquer",
+    "Matt Cashmere Lacquer",
+    "Matt Grey Lacquer",
+    "Matt Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/nest_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/nest_1.webp",
+    "/assets/img/models/bathrooms/nest_2.webp",
+    "/assets/img/models/bathrooms/nest_3.webp",
+    "/assets/img/models/bathrooms/nest_4.webp",
+    "/assets/img/models/bathrooms/nest_5.webp",
+    "/assets/img/models/bathrooms/nest_6.webp",
+    "/assets/img/models/bathrooms/nest_7.webp"
+  ],
+  "description": "The Twickenham Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "ealing-dual-laundry-dryer-suite": {
+  "slug": "ealing-dual-laundry-dryer-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Ealing Dual Laundry & Dryer Suite",
+  "metaTitle": "Ealing Dual Laundry & Dryer Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Ealing Dual Laundry & Dryer Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "750 mm width module (75 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity",
+    "Integrated ventilation louvres and heavy-duty 50 kg load-rated utility slides"
+  ],
+  "finishOptions": [
+    "Matte Anthracite",
+    "Matte White",
+    "Navaro",
+    "Legnano"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/neve-washing-and-dryer-machine-cabinet_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/neve-washing-and-dryer-machine-cabinet_1.webp",
+    "/assets/img/models/bathrooms/neve-washing-and-dryer-machine-cabinet_2.webp"
+  ],
+  "description": "The Ealing Dual Laundry & Dryer Suite represents an intelligent synthesis of utility architecture and understated British cabinetry design. Meticulously proportioned to house laundry appliances and utility requisites with seamless architectural discretion, it incorporates steam-resistant sealed panelling, smooth dampening mechanisms, and discrete ambient ventilation channels to maintain pristine order across residential utility rooms and master ensuites.",
+  "keyFeatures": [
+    "Ergonomic acoustic isolation chamber engineered to conceal UK standard washing appliances",
+    "Full-extension utility transfer drawer designed for effortless loading and unloading",
+    "Passive circulation ventilation louvres preventing ambient condensation and moisture build-up",
+    "Waterproof laminated carcass with reinforced base plate and vibration-dampening feet",
+    "Overhead storage cabinetry with adjustable shelving for laundry detergents and linens"
+  ],
+  "style": "modern"
+},
+  "harrow-linear-minimalist-vanity-suite": {
+  "slug": "harrow-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Harrow Linear Minimalist Vanity Suite",
+  "metaTitle": "Harrow Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Harrow Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "dan Banyo Mobilyaları Kategorisinde Tasarımda Mükemmelliği Gösteren En İyi Tasarım Ödülü’ne sahiptir. / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 800 mm width module (80 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "COLORED CONCEPT",
+    "WHITE CONCEPT",
+    "BLACK CONCEPT"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/noto_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/noto_1.webp",
+    "/assets/img/models/bathrooms/noto_2.webp",
+    "/assets/img/models/bathrooms/noto_3.webp",
+    "/assets/img/models/bathrooms/noto_4.webp",
+    "/assets/img/models/bathrooms/noto_5.webp",
+    "/assets/img/models/bathrooms/noto_6.webp",
+    "/assets/img/models/bathrooms/noto_7.webp",
+    "/assets/img/models/bathrooms/noto_8.webp",
+    "/assets/img/models/bathrooms/noto_9.webp"
+  ],
+  "description": "The Harrow Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "kingston-monolith-architectural-vanity-suite": {
+  "slug": "kingston-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Kingston Monolith Architectural Vanity Suite",
+  "metaTitle": "Kingston Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Kingston Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Nova , banyonuza şıklık ve işlevsellik katmak için tasarlanmış mükemmel bir seçenektir. Ürünümüzde kullanılan seramik lavabo, hem hijyeniktir hem de estetik bir görünüm sunar. Müşterilerimiz sağlıklı bir ürün kullanmanın keyfini çıkarırken, banyolarında şık bir atmosfer yaratırlar. / 600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "High Gloss Beyaz PET",
+    "Rosary Walnut",
+    "Morgana Cherry"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/nova_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/nova_1.webp",
+    "/assets/img/models/bathrooms/nova_2.webp",
+    "/assets/img/models/bathrooms/nova_3.webp",
+    "/assets/img/models/bathrooms/nova_4.webp",
+    "/assets/img/models/bathrooms/nova_5.webp",
+    "/assets/img/models/bathrooms/nova_6.webp",
+    "/assets/img/models/bathrooms/nova_7.webp",
+    "/assets/img/models/bathrooms/nova_8.webp",
+    "/assets/img/models/bathrooms/nova_9.webp",
+    "/assets/img/models/bathrooms/nova_10.webp",
+    "/assets/img/models/bathrooms/nova_11.webp"
+  ],
+  "description": "The Kingston Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "green-park-monolith-architectural-vanity-suite": {
+  "slug": "green-park-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Green Park Monolith Architectural Vanity Suite",
+  "metaTitle": "Green Park Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Green Park Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "700 mm width module (70 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "CABANA",
+    "CORDOBA"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/noventa_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/noventa_1.webp",
+    "/assets/img/models/bathrooms/noventa_2.webp",
+    "/assets/img/models/bathrooms/noventa_3.webp",
+    "/assets/img/models/bathrooms/noventa_4.webp",
+    "/assets/img/models/bathrooms/noventa_5.webp",
+    "/assets/img/models/bathrooms/noventa_6.webp",
+    "/assets/img/models/bathrooms/noventa_7.webp",
+    "/assets/img/models/bathrooms/noventa_8.webp",
+    "/assets/img/models/bathrooms/noventa_9.webp",
+    "/assets/img/models/bathrooms/noventa_10.webp",
+    "/assets/img/models/bathrooms/noventa_11.webp",
+    "/assets/img/models/bathrooms/noventa_12.webp"
+  ],
+  "description": "The Green Park Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "victoria-monolith-architectural-vanity-suite": {
+  "slug": "victoria-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Victoria Monolith Architectural Vanity Suite",
+  "metaTitle": "Victoria Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Victoria Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Nuvola , banyonuzda modern bir dokunuş ve işlevsellik arayanlar için mükemmel bir seçenektir. Ürünümüzde kullanılan seramik lavabo, hijyenik özellikleriyle ön plana çıkarken, kullanıcılarına sağlıklı bir banyo deneyimi sunar. Ayrıca, lavabo ünitesindeki astar ve boyaların renk değişimi göstermeme özelliği, ürünün uzun ömürlü kullanımını garanti eder. / 650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "High Gloss White Lacquer",
+    "High Gloss Cashmere Lacquer",
+    "High Gloss Grey Lacquer",
+    "High Gloss Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/nuvola_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/nuvola_1.webp",
+    "/assets/img/models/bathrooms/nuvola_2.webp",
+    "/assets/img/models/bathrooms/nuvola_3.webp",
+    "/assets/img/models/bathrooms/nuvola_4.webp",
+    "/assets/img/models/bathrooms/nuvola_5.webp",
+    "/assets/img/models/bathrooms/nuvola_6.webp",
+    "/assets/img/models/bathrooms/nuvola_7.webp",
+    "/assets/img/models/bathrooms/nuvola_8.webp",
+    "/assets/img/models/bathrooms/nuvola_9.webp",
+    "/assets/img/models/bathrooms/nuvola_10.webp"
+  ],
+  "description": "The Victoria Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "hyde-park-architectural-bathroom-vanity-suite": {
+  "slug": "hyde-park-architectural-bathroom-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Hyde Park Architectural Bathroom Vanity Suite",
+  "metaTitle": "Hyde Park Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Hyde Park Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White",
+    "Matt Anthracite",
+    "Matt Cashmere"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/olbia_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/olbia_1.webp",
+    "/assets/img/models/bathrooms/olbia_2.webp",
+    "/assets/img/models/bathrooms/olbia_3.webp",
+    "/assets/img/models/bathrooms/olbia_4.webp",
+    "/assets/img/models/bathrooms/olbia_5.webp"
+  ],
+  "description": "The Hyde Park Architectural Bathroom Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "borough-monolith-architectural-vanity-suite": {
+  "slug": "borough-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Borough Monolith Architectural Vanity Suite",
+  "metaTitle": "Borough Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Borough Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "550 mm width module (55 cm) / Orbit",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Glossy Taupe Lacquer",
+    "High Gloss White Lacquer",
+    "High Gloss Grey Lacquer",
+    "High Gloss Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/orbit_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/orbit_1.webp",
+    "/assets/img/models/bathrooms/orbit_2.webp",
+    "/assets/img/models/bathrooms/orbit_3.webp",
+    "/assets/img/models/bathrooms/orbit_4.webp",
+    "/assets/img/models/bathrooms/orbit_5.webp",
+    "/assets/img/models/bathrooms/orbit_6.webp",
+    "/assets/img/models/bathrooms/orbit_7.webp",
+    "/assets/img/models/bathrooms/orbit_8.webp",
+    "/assets/img/models/bathrooms/orbit_9.webp",
+    "/assets/img/models/bathrooms/orbit_10.webp",
+    "/assets/img/models/bathrooms/orbit_11.webp",
+    "/assets/img/models/bathrooms/orbit_12.webp"
+  ],
+  "description": "The Borough Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "southwark-sculptural-organic-vanity-suite": {
+  "slug": "southwark-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Southwark Sculptural Organic Vanity Suite",
+  "metaTitle": "Southwark Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Southwark Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "1100 mm width module (110 cm) / 1400 mm width module (140 cm) / 1800 mm width module (180 cm) / 1100 mm width module (110 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "MINK",
+    "CASHMERE",
+    "GREY",
+    "ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/pacific_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/pacific_1.webp",
+    "/assets/img/models/bathrooms/pacific_2.webp",
+    "/assets/img/models/bathrooms/pacific_3.webp",
+    "/assets/img/models/bathrooms/pacific_4.webp",
+    "/assets/img/models/bathrooms/pacific_5.webp",
+    "/assets/img/models/bathrooms/pacific_6.webp",
+    "/assets/img/models/bathrooms/pacific_7.webp",
+    "/assets/img/models/bathrooms/pacific_8.webp",
+    "/assets/img/models/bathrooms/pacific_9.webp",
+    "/assets/img/models/bathrooms/pacific_10.webp",
+    "/assets/img/models/bathrooms/pacific_11.webp",
+    "/assets/img/models/bathrooms/pacific_12.webp",
+    "/assets/img/models/bathrooms/pacific_13.webp",
+    "/assets/img/models/bathrooms/pacific_14.webp"
+  ],
+  "description": "The Southwark Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "battersea-artisan-joinery-vanity-suite": {
+  "slug": "battersea-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Battersea Artisan Joinery Vanity Suite",
+  "metaTitle": "Battersea Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Battersea Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm) / 650 mm width module (65 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/perge_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/perge_1.webp",
+    "/assets/img/models/bathrooms/perge_2.webp",
+    "/assets/img/models/bathrooms/perge_3.webp",
+    "/assets/img/models/bathrooms/perge_4.webp",
+    "/assets/img/models/bathrooms/perge_5.webp"
+  ],
+  "description": "The Battersea Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "clapham-utility-laundry-armoire": {
+  "slug": "clapham-utility-laundry-armoire",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Clapham Utility Laundry Armoire",
+  "metaTitle": "Clapham Utility Laundry Armoire | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Clapham Utility Laundry Armoire from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "890 mm (W) × 690 mm (D) / 860 mm (W) × 350 mm (D) / 700 mm width module (70 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity",
+    "Integrated ventilation louvres and heavy-duty 50 kg load-rated utility slides"
+  ],
+  "finishOptions": [
+    "White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/perge-washing-machine-cabinet-70_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/perge-washing-machine-cabinet-70_1.webp",
+    "/assets/img/models/bathrooms/perge-washing-machine-cabinet-70_2.webp"
+  ],
+  "description": "The Clapham Utility Laundry Armoire represents an intelligent synthesis of utility architecture and understated British cabinetry design. Meticulously proportioned to house laundry appliances and utility requisites with seamless architectural discretion, it incorporates steam-resistant sealed panelling, smooth dampening mechanisms, and discrete ambient ventilation channels to maintain pristine order across residential utility rooms and master ensuites.",
+  "keyFeatures": [
+    "Ergonomic acoustic isolation chamber engineered to conceal UK standard washing appliances",
+    "Full-extension utility transfer drawer designed for effortless loading and unloading",
+    "Passive circulation ventilation louvres preventing ambient condensation and moisture build-up",
+    "Waterproof laminated carcass with reinforced base plate and vibration-dampening feet",
+    "Overhead storage cabinetry with adjustable shelving for laundry detergents and linens"
+  ],
+  "style": "modern"
+},
+  "barnes-artisan-joinery-vanity-suite": {
+  "slug": "barnes-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Barnes Artisan Joinery Vanity Suite",
+  "metaTitle": "Barnes Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Barnes Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Navaro/Matte Anthracite",
+    "Legnano/Matte Anthracite"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/prato_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/prato_1.webp",
+    "/assets/img/models/bathrooms/prato_2.webp",
+    "/assets/img/models/bathrooms/prato_3.webp",
+    "/assets/img/models/bathrooms/prato_4.webp",
+    "/assets/img/models/bathrooms/prato_5.webp",
+    "/assets/img/models/bathrooms/prato_6.webp",
+    "/assets/img/models/bathrooms/prato_7.webp",
+    "/assets/img/models/bathrooms/prato_8.webp"
+  ],
+  "description": "The Barnes Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "putney-architectural-bathroom-vanity-suite": {
+  "slug": "putney-architectural-bathroom-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Putney Architectural Bathroom Vanity Suite",
+  "metaTitle": "Putney Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Putney Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "600 mm width module (60 cm) / 800 mm width module (80 cm) / 1050 mm width module (105 cm) / 600 mm width module (60 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Cashmere",
+    "Matte Navy Blue",
+    "Matte Anthracite",
+    "Matte White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/procida_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/procida_1.webp",
+    "/assets/img/models/bathrooms/procida_2.webp",
+    "/assets/img/models/bathrooms/procida_3.webp",
+    "/assets/img/models/bathrooms/procida_4.webp",
+    "/assets/img/models/bathrooms/procida_5.webp",
+    "/assets/img/models/bathrooms/procida_6.webp",
+    "/assets/img/models/bathrooms/procida_7.webp",
+    "/assets/img/models/bathrooms/procida_8.webp",
+    "/assets/img/models/bathrooms/procida_9.webp"
+  ],
+  "description": "The Putney Architectural Bathroom Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "dulwich-village-monolith-architectural-vanity-suite": {
+  "slug": "dulwich-village-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Dulwich Village Monolith Architectural Vanity Suite",
+  "metaTitle": "Dulwich Village Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Dulwich Village Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Pure , çağdaş tasarımı ve kullanışlı özellikleriyle banyonuz için mükemmel bir seçimdir. / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "MINK",
+    "GREY",
+    "ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/pure_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/pure_1.webp",
+    "/assets/img/models/bathrooms/pure_2.webp",
+    "/assets/img/models/bathrooms/pure_3.webp",
+    "/assets/img/models/bathrooms/pure_4.webp",
+    "/assets/img/models/bathrooms/pure_5.webp",
+    "/assets/img/models/bathrooms/pure_6.webp",
+    "/assets/img/models/bathrooms/pure_7.webp",
+    "/assets/img/models/bathrooms/pure_8.webp",
+    "/assets/img/models/bathrooms/pure_9.webp",
+    "/assets/img/models/bathrooms/pure_10.webp",
+    "/assets/img/models/bathrooms/pure_11.webp",
+    "/assets/img/models/bathrooms/pure_12.webp",
+    "/assets/img/models/bathrooms/pure_13.webp",
+    "/assets/img/models/bathrooms/pure_14.webp",
+    "/assets/img/models/bathrooms/pure_15.webp",
+    "/assets/img/models/bathrooms/pure_16.webp",
+    "/assets/img/models/bathrooms/pure_17.webp",
+    "/assets/img/models/bathrooms/pure_18.webp",
+    "/assets/img/models/bathrooms/pure_19.webp",
+    "/assets/img/models/bathrooms/pure_20.webp"
+  ],
+  "description": "The Dulwich Village Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "st-pancras-ergonomic-pure-vanity-suite": {
+  "slug": "st-pancras-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "St Pancras Ergonomic Pure Vanity Suite",
+  "metaTitle": "St Pancras Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the St Pancras Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 550 mm width module (55 cm) / 650 mm width module (65 cm) / 800 mm width module (80 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Budva",
+    "Matte Anthracite",
+    "High Gloss White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/purus_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/purus_1.webp",
+    "/assets/img/models/bathrooms/purus_2.webp",
+    "/assets/img/models/bathrooms/purus_3.webp",
+    "/assets/img/models/bathrooms/purus_4.webp",
+    "/assets/img/models/bathrooms/purus_5.webp",
+    "/assets/img/models/bathrooms/purus_6.webp",
+    "/assets/img/models/bathrooms/purus_7.webp",
+    "/assets/img/models/bathrooms/purus_8.webp",
+    "/assets/img/models/bathrooms/purus_9.webp",
+    "/assets/img/models/bathrooms/purus_10.webp",
+    "/assets/img/models/bathrooms/purus_11.webp",
+    "/assets/img/models/bathrooms/purus_12.webp",
+    "/assets/img/models/bathrooms/purus_13.webp",
+    "/assets/img/models/bathrooms/purus_14.webp",
+    "/assets/img/models/bathrooms/purus_15.webp",
+    "/assets/img/models/bathrooms/purus_16.webp"
+  ],
+  "description": "The St Pancras Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "covent-garden-artisan-joinery-vanity-suite": {
+  "slug": "covent-garden-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Covent Garden Artisan Joinery Vanity Suite",
+  "metaTitle": "Covent Garden Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Covent Garden Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 600 mm width module (60 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Morgana Cherry"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/ricato_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/ricato_1.webp",
+    "/assets/img/models/bathrooms/ricato_2.webp",
+    "/assets/img/models/bathrooms/ricato_3.webp",
+    "/assets/img/models/bathrooms/ricato_4.webp",
+    "/assets/img/models/bathrooms/ricato_5.webp",
+    "/assets/img/models/bathrooms/ricato_6.webp",
+    "/assets/img/models/bathrooms/ricato_7.webp"
+  ],
+  "description": "The Covent Garden Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "wapping-wharf-linear-minimalist-vanity-suite": {
+  "slug": "wapping-wharf-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Wapping Wharf Linear Minimalist Vanity Suite",
+  "metaTitle": "Wapping Wharf Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Wapping Wharf Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1000 mm width module (100 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Glossy Taupe Lacquer",
+    "High Gloss White Lacquer",
+    "High Gloss Cashmere Lacquer",
+    "High Gloss Grey Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/rose_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/rose_1.webp",
+    "/assets/img/models/bathrooms/rose_2.webp",
+    "/assets/img/models/bathrooms/rose_3.webp",
+    "/assets/img/models/bathrooms/rose_4.webp",
+    "/assets/img/models/bathrooms/rose_5.webp",
+    "/assets/img/models/bathrooms/rose_6.webp",
+    "/assets/img/models/bathrooms/rose_7.webp",
+    "/assets/img/models/bathrooms/rose_8.webp"
+  ],
+  "description": "The Wapping Wharf Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "canary-wharf-monolith-architectural-vanity-suite": {
+  "slug": "canary-wharf-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Canary Wharf Monolith Architectural Vanity Suite",
+  "metaTitle": "Canary Wharf Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Canary Wharf Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Cam Tezgah Üzeri Yarı Gömme Seramik Lavabo / 600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "SARDINIA",
+    "WHITE",
+    "ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/salerno_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/salerno_1.webp",
+    "/assets/img/models/bathrooms/salerno_2.webp",
+    "/assets/img/models/bathrooms/salerno_3.webp",
+    "/assets/img/models/bathrooms/salerno_4.webp",
+    "/assets/img/models/bathrooms/salerno_5.webp",
+    "/assets/img/models/bathrooms/salerno_6.webp"
+  ],
+  "description": "The Canary Wharf Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "camden-linear-minimalist-vanity-suite": {
+  "slug": "camden-linear-minimalist-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Camden Linear Minimalist Vanity Suite",
+  "metaTitle": "Camden Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Camden Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "banyolarınızı modern ve ferah bir yaşam alanına dönüştürmek için mükemmel bir tercih sunuyor. / 1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Cashmere",
+    "Matt Anthracite",
+    "Matt White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/salina_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/salina_1.webp",
+    "/assets/img/models/bathrooms/salina_2.webp",
+    "/assets/img/models/bathrooms/salina_3.webp",
+    "/assets/img/models/bathrooms/salina_4.webp",
+    "/assets/img/models/bathrooms/salina_5.webp",
+    "/assets/img/models/bathrooms/salina_6.webp"
+  ],
+  "description": "The Camden Linear Minimalist Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "greenwich-reach-ergonomic-pure-vanity-suite": {
+  "slug": "greenwich-reach-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Greenwich Reach Ergonomic Pure Vanity Suite",
+  "metaTitle": "Greenwich Reach Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Greenwich Reach Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Anthracite",
+    "Matte White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/serra_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/serra_1.webp",
+    "/assets/img/models/bathrooms/serra_2.webp",
+    "/assets/img/models/bathrooms/serra_3.webp",
+    "/assets/img/models/bathrooms/serra_4.webp",
+    "/assets/img/models/bathrooms/serra_5.webp",
+    "/assets/img/models/bathrooms/serra_6.webp",
+    "/assets/img/models/bathrooms/serra_7.webp",
+    "/assets/img/models/bathrooms/serra_8.webp",
+    "/assets/img/models/bathrooms/serra_9.webp",
+    "/assets/img/models/bathrooms/serra_10.webp"
+  ],
+  "description": "The Greenwich Reach Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "pimlico-square-ergonomic-pure-vanity-suite": {
+  "slug": "pimlico-square-ergonomic-pure-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Pimlico Square Ergonomic Pure Vanity Suite",
+  "metaTitle": "Pimlico Square Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Pimlico Square Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "LEGNANO",
+    "NAVARO",
+    "WHITE",
+    "ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/side_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/side_1.webp",
+    "/assets/img/models/bathrooms/side_2.webp",
+    "/assets/img/models/bathrooms/side_3.webp",
+    "/assets/img/models/bathrooms/side_4.webp",
+    "/assets/img/models/bathrooms/side_5.webp",
+    "/assets/img/models/bathrooms/side_6.webp"
+  ],
+  "description": "The Pimlico Square Ergonomic Pure Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "westminster-abbey-deep-drawer-vanity-suite": {
+  "slug": "westminster-abbey-deep-drawer-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Westminster Abbey Deep Drawer Vanity Suite",
+  "metaTitle": "Westminster Abbey Deep Drawer Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Westminster Abbey Deep Drawer Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Made to measure (standard modular dimensions available: 600 mm, 800 mm, 1000 mm, 1200 mm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "LEGNANO",
+    "NAVARO",
+    "WHITE",
+    "ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/side-with-drawer_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/side-with-drawer_1.webp",
+    "/assets/img/models/bathrooms/side-with-drawer_2.webp",
+    "/assets/img/models/bathrooms/side-with-drawer_3.webp",
+    "/assets/img/models/bathrooms/side-with-drawer_4.webp",
+    "/assets/img/models/bathrooms/side-with-drawer_5.webp",
+    "/assets/img/models/bathrooms/side-with-drawer_6.webp"
+  ],
+  "description": "The Westminster Abbey Deep Drawer Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "somerset-utility-broom-supply-armoire": {
+  "slug": "somerset-utility-broom-supply-armoire",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Somerset Utility Broom & Supply Armoire",
+  "metaTitle": "Somerset Utility Broom & Supply Armoire | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Somerset Utility Broom & Supply Armoire from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "750 mm width module (75 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity",
+    "Integrated ventilation louvres and heavy-duty 50 kg load-rated utility slides"
+  ],
+  "finishOptions": [
+    "Matte White",
+    "Matte Anthracite",
+    "Navaro",
+    "Legnano"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/solis-cleaning-supply-cabinet_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/solis-cleaning-supply-cabinet_1.webp",
+    "/assets/img/models/bathrooms/solis-cleaning-supply-cabinet_2.webp",
+    "/assets/img/models/bathrooms/solis-cleaning-supply-cabinet_3.webp",
+    "/assets/img/models/bathrooms/solis-cleaning-supply-cabinet_4.webp"
+  ],
+  "description": "The Somerset Utility Broom & Supply Armoire is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "windsor-artisan-joinery-vanity-suite": {
+  "slug": "windsor-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Windsor Artisan Joinery Vanity Suite",
+  "metaTitle": "Windsor Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Windsor Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "White",
+    "Cashmere",
+    "Grey",
+    "Black"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/terme_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/terme_1.webp",
+    "/assets/img/models/bathrooms/terme_2.webp",
+    "/assets/img/models/bathrooms/terme_3.webp",
+    "/assets/img/models/bathrooms/terme_4.webp",
+    "/assets/img/models/bathrooms/terme_5.webp"
+  ],
+  "description": "The Windsor Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "oxfordshire-architectural-bathroom-vanity-suite": {
+  "slug": "oxfordshire-architectural-bathroom-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Oxfordshire Architectural Bathroom Vanity Suite",
+  "metaTitle": "Oxfordshire Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Oxfordshire Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Navy Blue",
+    "Matte Cashmere",
+    "Matte Anthracite",
+    "Matte White"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/tivoli_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/tivoli_1.webp",
+    "/assets/img/models/bathrooms/tivoli_2.webp",
+    "/assets/img/models/bathrooms/tivoli_3.webp",
+    "/assets/img/models/bathrooms/tivoli_4.webp"
+  ],
+  "description": "The Oxfordshire Architectural Bathroom Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "blenheim-artisan-joinery-vanity-suite": {
+  "slug": "blenheim-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Blenheim Artisan Joinery Vanity Suite",
+  "metaTitle": "Blenheim Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Blenheim Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "SENZA"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/trio_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/trio_1.webp",
+    "/assets/img/models/bathrooms/trio_2.webp",
+    "/assets/img/models/bathrooms/trio_3.webp",
+    "/assets/img/models/bathrooms/trio_4.webp",
+    "/assets/img/models/bathrooms/trio_5.webp"
+  ],
+  "description": "The Blenheim Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "cavendish-cupboard-basin-vanity-suite": {
+  "slug": "cavendish-cupboard-basin-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Cavendish Cupboard & Basin Vanity Suite",
+  "metaTitle": "Cavendish Cupboard & Basin Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Cavendish Cupboard & Basin Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Made to measure (standard modular dimensions available: 600 mm, 800 mm, 1000 mm, 1200 mm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "SENZA"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/trio-with-door_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/trio-with-door_1.webp",
+    "/assets/img/models/bathrooms/trio-with-door_2.webp",
+    "/assets/img/models/bathrooms/trio-with-door_3.webp",
+    "/assets/img/models/bathrooms/trio-with-door_4.webp",
+    "/assets/img/models/bathrooms/trio-with-door_5.webp"
+  ],
+  "description": "The Cavendish Cupboard & Basin Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "grosvenor-sculptural-organic-vanity-suite": {
+  "slug": "grosvenor-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Grosvenor Sculptural Organic Vanity Suite",
+  "metaTitle": "Grosvenor Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Grosvenor Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "GREY",
+    "MINK",
+    "ANTHRACITE",
+    "BLACK"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/urban_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/urban_1.webp",
+    "/assets/img/models/bathrooms/urban_2.webp",
+    "/assets/img/models/bathrooms/urban_3.webp",
+    "/assets/img/models/bathrooms/urban_4.webp",
+    "/assets/img/models/bathrooms/urban_5.webp",
+    "/assets/img/models/bathrooms/urban_6.webp",
+    "/assets/img/models/bathrooms/urban_7.webp",
+    "/assets/img/models/bathrooms/urban_8.webp",
+    "/assets/img/models/bathrooms/urban_9.webp",
+    "/assets/img/models/bathrooms/urban_10.webp",
+    "/assets/img/models/bathrooms/urban_11.webp",
+    "/assets/img/models/bathrooms/urban_12.webp",
+    "/assets/img/models/bathrooms/urban_13.webp",
+    "/assets/img/models/bathrooms/urban_14.webp",
+    "/assets/img/models/bathrooms/urban_15.webp",
+    "/assets/img/models/bathrooms/urban_16.webp",
+    "/assets/img/models/bathrooms/urban_17.webp",
+    "/assets/img/models/bathrooms/urban_18.webp",
+    "/assets/img/models/bathrooms/urban_19.webp",
+    "/assets/img/models/bathrooms/urban_20.webp",
+    "/assets/img/models/bathrooms/urban_21.webp"
+  ],
+  "description": "The Grosvenor Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "marlborough-monolith-architectural-vanity-suite": {
+  "slug": "marlborough-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Marlborough Monolith Architectural Vanity Suite",
+  "metaTitle": "Marlborough Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Marlborough Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "700 mm width module (70 cm) / 900 mm width module (90 cm) / 1100 mm width module (110 cm) / 700 mm width module (70 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "High Gloss White Lacquer",
+    "High Gloss Cashmere Lacquer",
+    "High Gloss Grey Lacquer",
+    "High Gloss Anthracite Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/urla_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/urla_1.webp",
+    "/assets/img/models/bathrooms/urla_2.webp",
+    "/assets/img/models/bathrooms/urla_3.webp",
+    "/assets/img/models/bathrooms/urla_4.webp",
+    "/assets/img/models/bathrooms/urla_5.webp",
+    "/assets/img/models/bathrooms/urla_6.webp",
+    "/assets/img/models/bathrooms/urla_7.webp",
+    "/assets/img/models/bathrooms/urla_8.webp",
+    "/assets/img/models/bathrooms/urla_9.webp",
+    "/assets/img/models/bathrooms/urla_10.webp"
+  ],
+  "description": "The Marlborough Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "wellington-monolith-architectural-vanity-suite": {
+  "slug": "wellington-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Wellington Monolith Architectural Vanity Suite",
+  "metaTitle": "Wellington Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Wellington Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Varna , ayna arkasına otomotiv sektöründe kullanılan kaliteli malzemelerle yapıştırıldığı için düşme riski yoktur. Ayrıca konsorejen madde içermediğinden insan sağlığını olumsuz etkilemez. Hem şık hem de sağlıklı bir seçim olan Varna , banyonuz için mükemmel bir tercihtir. / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt Grey Lacquer",
+    "Matt Cashmere Lacquer",
+    "Matt Anthracite Lacquer",
+    "Matt White Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/varna_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/varna_1.webp",
+    "/assets/img/models/bathrooms/varna_2.webp",
+    "/assets/img/models/bathrooms/varna_3.webp",
+    "/assets/img/models/bathrooms/varna_4.webp",
+    "/assets/img/models/bathrooms/varna_5.webp",
+    "/assets/img/models/bathrooms/varna_6.webp",
+    "/assets/img/models/bathrooms/varna_7.webp",
+    "/assets/img/models/bathrooms/varna_8.webp",
+    "/assets/img/models/bathrooms/varna_9.webp",
+    "/assets/img/models/bathrooms/varna_10.webp"
+  ],
+  "description": "The Wellington Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "montague-monolith-architectural-vanity-suite": {
+  "slug": "montague-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Montague Monolith Architectural Vanity Suite",
+  "metaTitle": "Montague Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Montague Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "600 mm width module (60 cm) / 800 mm width module (80 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "WHITE",
+    "METALLIC ANTHRACITE"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/vegas_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/vegas_1.webp",
+    "/assets/img/models/bathrooms/vegas_2.webp",
+    "/assets/img/models/bathrooms/vegas_3.webp",
+    "/assets/img/models/bathrooms/vegas_4.webp",
+    "/assets/img/models/bathrooms/vegas_5.webp",
+    "/assets/img/models/bathrooms/vegas_6.webp",
+    "/assets/img/models/bathrooms/vegas_7.webp",
+    "/assets/img/models/bathrooms/vegas_8.webp"
+  ],
+  "description": "The Montague Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "bedford-monolith-architectural-vanity-suite": {
+  "slug": "bedford-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Bedford Monolith Architectural Vanity Suite",
+  "metaTitle": "Bedford Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Bedford Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Vento , banyonuzun ihtiyaçlarına mükemmel bir şekilde cevap veren özel bir tasarıma sahiptir. Hijyenik seramik lavabosuyla sağlıklı bir kullanım sunar ve çekmecelerinin tam açılabilir olması, çekmece içindeki her şeyin kolayca erişilebilir olmasını sağlar. / 600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Glassgow",
+    "Dublin"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/vento_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/vento_1.webp",
+    "/assets/img/models/bathrooms/vento_2.webp",
+    "/assets/img/models/bathrooms/vento_3.webp",
+    "/assets/img/models/bathrooms/vento_4.webp",
+    "/assets/img/models/bathrooms/vento_5.webp",
+    "/assets/img/models/bathrooms/vento_6.webp",
+    "/assets/img/models/bathrooms/vento_7.webp",
+    "/assets/img/models/bathrooms/vento_8.webp"
+  ],
+  "description": "The Bedford Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "russell-sculptural-organic-vanity-suite": {
+  "slug": "russell-sculptural-organic-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Russell Sculptural Organic Vanity Suite",
+  "metaTitle": "Russell Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Russell Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Geniş depolama hacmi / cm / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matte Taupe",
+    "Matte Anthracite",
+    "Matte White",
+    "Matte Olive Green"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/vico_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/vico_1.webp",
+    "/assets/img/models/bathrooms/vico_2.webp",
+    "/assets/img/models/bathrooms/vico_3.webp",
+    "/assets/img/models/bathrooms/vico_4.webp",
+    "/assets/img/models/bathrooms/vico_5.webp",
+    "/assets/img/models/bathrooms/vico_6.webp",
+    "/assets/img/models/bathrooms/vico_7.webp",
+    "/assets/img/models/bathrooms/vico_8.webp",
+    "/assets/img/models/bathrooms/vico_9.webp",
+    "/assets/img/models/bathrooms/vico_10.webp",
+    "/assets/img/models/bathrooms/vico_11.webp",
+    "/assets/img/models/bathrooms/vico_12.webp",
+    "/assets/img/models/bathrooms/vico_13.webp",
+    "/assets/img/models/bathrooms/vico_14.webp"
+  ],
+  "description": "The Russell Sculptural Organic Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "tavistock-monolith-architectural-vanity-suite": {
+  "slug": "tavistock-monolith-architectural-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Tavistock Monolith Architectural Vanity Suite",
+  "metaTitle": "Tavistock Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Tavistock Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Yalıköy , banyo deneyiminizi mükemmelleştiren şık ve fonksiyonel bir seçenektir. Bu özel dolap, seramik lavabosuyla hijyenik bir kullanım sunarken, tam açılır çekmeceleri sayesinde içerisindeki her şeye kolayca erişebilme imkanı sağlar. Ayrıca, çekmece önlerinde kullanılan geri dönüştürülebilir alüminyum çerçeve ve cam malzemeleri, çevre dostu bir tercih yapmanızı sağlar. / 900 mm width module (90 cm) / Yalıköy",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "White",
+    "Black"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/yalikoy_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/yalikoy_1.webp",
+    "/assets/img/models/bathrooms/yalikoy_2.webp",
+    "/assets/img/models/bathrooms/yalikoy_3.webp",
+    "/assets/img/models/bathrooms/yalikoy_4.webp",
+    "/assets/img/models/bathrooms/yalikoy_5.webp",
+    "/assets/img/models/bathrooms/yalikoy_6.webp",
+    "/assets/img/models/bathrooms/yalikoy_7.webp",
+    "/assets/img/models/bathrooms/yalikoy_8.webp"
+  ],
+  "description": "The Tavistock Monolith Architectural Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "modern"
+},
+  "gordon-artisan-joinery-vanity-suite": {
+  "slug": "gordon-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Gordon Artisan Joinery Vanity Suite",
+  "metaTitle": "Gordon Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Gordon Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "450 mm width module (45 cm) / 450 mm width module (45 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Glossy Cashmere Lacquer",
+    "High Gloss Black Lacquer",
+    "High Gloss White Lacquer",
+    "High Gloss Grey Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/yedisu_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/yedisu_1.webp",
+    "/assets/img/models/bathrooms/yedisu_2.webp",
+    "/assets/img/models/bathrooms/yedisu_3.webp",
+    "/assets/img/models/bathrooms/yedisu_4.webp",
+    "/assets/img/models/bathrooms/yedisu_5.webp"
+  ],
+  "description": "The Gordon Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
+  "woburn-artisan-joinery-vanity-suite": {
+  "slug": "woburn-artisan-joinery-vanity-suite",
+  "category": "bathrooms",
+  "categoryTitle": "Bathrooms",
+  "title": "Woburn Artisan Joinery Vanity Suite",
+  "metaTitle": "Woburn Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
+  "metaDescription": "Discover the Woburn Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
+  "dimensionsMm": "Zag , seramik lavabosu ile hijyenik ve sağlıklı bir kullanım sunar. Kullanılan astar ve boyalar sayesinde, ürün kullanım süresi boyunca renk değişimi yaşamaz, her zaman ilk günkü gibi görünür. Dar alanları değerlendirmek için özel olarak tasarlanan bu seri, küçük banyolar için mükemmel bir çözümdür. / 450 mm width module (45 cm) / 450 mm width module (45 cm)",
+  "materials": [
+    "High-density moisture-resistant MDF substrate engineered for British bathrooms",
+    "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
+    "Soft-close Austrian Blum motion runners and concealed damping hinges",
+    "Multi-coat polyurethane protective lacquer sealing against ambient steam and humidity"
+  ],
+  "finishOptions": [
+    "Matt White Lacquer"
+  ],
+  "installationScope": "Fully assembled cabinet carcass supplied with heavy-duty structural wall brackets, waste trap cut-out, and fixings for solid masonry or reinforced stud partition walls.",
+  "image": "/assets/img/models/bathrooms/zag_1.webp",
+  "gallery": [
+    "/assets/img/models/bathrooms/zag_1.webp",
+    "/assets/img/models/bathrooms/zag_2.webp",
+    "/assets/img/models/bathrooms/zag_3.webp",
+    "/assets/img/models/bathrooms/zag_4.webp"
+  ],
+  "description": "The Woburn Artisan Joinery Vanity Suite is a bespoke bathroom vanity suite handcrafted for discerning British residences. Uniting clean architectural contours with tactile finishes, it features an integrated sanitary ceramic basin, precision soft-closing Austrian drawer runners, and steam-impermeable polyurethane lacquer. Engineered to elevate the morning ritual into an experience of tranquil refinement, each proportion is balanced for enduring functional longevity.",
+  "keyFeatures": [
+    "Concealed soft-close Blum hinges and full-extension drawer runners with 30 kg payload capacity",
+    "High-grade moisture-impermeable core designed specifically for humid bathroom microclimates",
+    "Hygienic easy-clean ceramic basin with overflow safety drain and monobloc tap platform",
+    "Generous internal storage volume with compartmentalised layout for toiletries and towels",
+    "Rigid factory-assembled carcass architecture with concealed three-way levelling brackets"
+  ],
+  "style": "classic"
+},
 };
