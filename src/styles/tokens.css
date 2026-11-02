@@ -26,8 +26,8 @@
   --ease-spring: cubic-bezier(.18, .76, .18, 1);
 
   /* Ghost Watermark Dynamic Bounds */
-  --watermark-color: #ECEAE5;
-  --watermark-color-subtle: #F0EDE8;
+  --watermark-color: #D6D1C6;
+  --watermark-color-subtle: #DEDAD0;
 }
 
 *, *::before, *::after {
