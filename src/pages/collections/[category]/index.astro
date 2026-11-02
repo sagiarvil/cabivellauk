@@ -177,7 +177,7 @@ const bathroomSubCollections = [
   <Breadcrumbs items={breadcrumbItems} />
 
   <!-- Pure 4K Architectural Hero Panorama with Dynamic Slider for Bathrooms -->
-  <section class="wrap category-hero-section" data-reveal>
+  <section class={category.slug === 'bathrooms' ? 'category-hero-section bathroom-hero-fullbleed' : 'wrap category-hero-section'} data-reveal>
     {category.slug === 'bathrooms' ? (
       <div class="category-hero-card bathroom-hero-card" data-bath-hero-slider>
         <div class="bathroom-hero-slider-track">
@@ -196,11 +196,6 @@ const bathroomSubCollections = [
                 className="category-hero-img"
               />
               <div class="bathroom-hero-overlay"></div>
-              <div class="bathroom-hero-caption">
-                <span class="hero-caption-badge">BATHROOM ARCHITECTURE</span>
-                <h2 class="hero-caption-title">{slide.title}</h2>
-                <p class="hero-caption-sub">{slide.subtitle}</p>
-              </div>
             </div>
           ))}
         </div>
@@ -261,8 +256,8 @@ const bathroomSubCollections = [
               <article class="orka-collection-row" data-reveal data-reveal-delay={String((cIdx % 3) + 1)}>
                 <!-- Left 72%: High-Definition Architectural Visual Stage -->
                 <div class="orka-lefts">
-                  <a href="#bathroom-specifications" class="orka-image-link" style={`background-image: url('${col.image}');`}>
-                    <span class="sr-only">View {col.title}</span>
+                  <a href={`/collections/${col.id}/`} class="orka-image-link" style={`background-image: url('${col.image}');`}>
+                    
                   </a>
                   <div class="orka-badge-logo">
                     <span class="orka-badge-text">{col.badgeText}</span>
@@ -278,7 +273,7 @@ const bathroomSubCollections = [
                     <div class="orka-metin">
                       <p>{col.desc}</p>
                     </div>
-                    <a href="#bathroom-specifications" class="orka-more-btn">
+                    <a href={`/collections/${col.id}/`} class="orka-more-btn">
                       EXPLORE
                     </a>
                   </div>
@@ -287,56 +282,6 @@ const bathroomSubCollections = [
             ))}
           </div>
 
-          <!-- All Available Specifications Section Anchor -->
-          <div id="bathroom-specifications" class="orka-models-anchor-strip">
-            <div class="section-divider-bar">
-              <h2 class="category-main-heading">All Bathroom Vanity Suites & Specifications</h2>
-              <span class="counter-badge">{categoryModels.length} Specifications Available</span>
-            </div>
-            <p class="section-lead-note">Precision moisture-resistant carcass joinery, Blum Austrian soft-close hardware, and bespoke architectural vanity dimensions.</p>
-          </div>
-
-          <!-- Responsive Specifications Grid -->
-          <div class="models-responsive-grid" data-reveal-group style="padding-bottom: 90px;">
-            {categoryModels.map((model, idx) => (
-              <article 
-                class="v6-category-card" 
-                data-reveal 
-                data-reveal-delay={String((idx % 3) + 1)}
-              >
-                <a href={`/collections/${category.slug}/${model.slug}/`} class="card-visual-link">
-                  <div class="card-image-wrapper">
-                    <ResponsivePhoto 
-                      src={model.image} 
-                      alt={`${model.title} - British bespoke bathroom joinery`} 
-                      width={700} 
-                      height={550} 
-                      className="card-photo"
-                    />
-                  </div>
-                </a>
-                <div class="card-info-body">
-                  <span class="card-eyebrow">BATHROOM SPECIFICATION</span>
-                  <h3 class="card-title">
-                    <a href={`/collections/${category.slug}/${model.slug}/`}>{model.title}</a>
-                  </h3>
-                  <p class="card-description">{model.description}</p>
-
-                  <div class="card-meta-row">
-                    <span class="card-lead-time">{model.dimensionsMm}</span>
-                    <span class="card-price-ref"><span class="ref-label">Ref:</span> {model.materials[0]?.split(' ')[0] || 'Moisture-MDF'}</span>
-                  </div>
-
-                  <div class="card-action-bar">
-                    <a href={`/collections/${category.slug}/${model.slug}/`} class="card-detail-btn">
-                      <span>View Specifications</span>
-                      <span aria-hidden="true">→</span>
-                    </a>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
         </section>
       ) : category.slug === 'kitchens' ? (
       <!-- LINEADECOR ARCHITECTURAL KITCHENS STRUCTURE (1:1 FIDELITY) -->
@@ -773,16 +718,27 @@ const bathroomSubCollections = [
   /* ==========================================================================
      BATHROOM HERO ROTATING SLIDER (Apple Motion + Crossfade)
      ========================================================================== */
+  .bathroom-hero-fullbleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 0;
+    margin-top: -10px;
+  }
   .bathroom-hero-card {
     position: relative;
-    border-radius: 6px;
+    border-radius: 0;
     overflow: hidden;
     background: #141c16;
-    box-shadow: 0 16px 48px rgba(22, 30, 24, 0.12);
-    border: 1px solid var(--line);
+    box-shadow: none;
+    border: none;
     width: 100%;
-    aspect-ratio: 16 / 7;
-    max-height: 560px;
+    height: 86vh;
+    min-height: 650px;
+    max-height: 960px;
   }
   .bathroom-hero-slider-track {
     position: absolute;
@@ -819,11 +775,11 @@ const bathroomSubCollections = [
     inset: 0;
     background: linear-gradient(
       180deg,
-      rgba(15, 23, 18, 0.1) 0%,
-      rgba(15, 23, 18, 0.25) 50%,
-      rgba(10, 16, 12, 0.8) 100%
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.08) 100%
     );
     z-index: 2;
+    pointer-events: none;
   }
   .bathroom-hero-caption {
     position: absolute;
