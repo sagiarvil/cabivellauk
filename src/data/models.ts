@@ -14942,4 +14942,2459 @@ export const modelsData: Record<string, ModelDetail> = {
     ],
     "style": "modern"
 },
+  "caddebostan-architectural-barista-credenza": {
+    "slug": "caddebostan-architectural-barista-credenza",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Caddebostan Architectural Barista Credenza",
+    "metaTitle": "Caddebostan Architectural Barista Credenza | Cabivella UK",
+    "metaDescription": "Bespoke architectural home coffee bar and beverage station. Silk-matte lacquered cabinetry, integrated warm LED illumination, solid worktop, and dedicated barista organization.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2200 mm \u00d7 D 600 mm (Made-to-Measure Architectural Fit)",
+    "materials": [
+        "Silk-matte lacquered moisture-resistant architectural MDF substrate",
+        "Solid natural timber fluted panelling in smoked European oak",
+        "Brushed bronze PVD recessed grip profiles and continuous reveals",
+        "Full-extension soft-close Blum Legrabox drawer runners",
+        "Integrated 3000K diffused LED task profiles with capacitive sensors"
+    ],
+    "finishOptions": [
+        "Silk-Matte Cashmere with Smoked Oak reveals",
+        "Architectural Slate with Natural Canaletto Walnut",
+        "Deep Olive Green with Brushed Brass accents"
+    ],
+    "installationScope": "Flush architectural alcove installation or standalone dining-to-kitchen transition credenza with dedicated electrical service plenum.",
+    "image": "/images/coffee-stations/tmc_park_residences_1.webp",
+    "gallery": [
+        "/images/coffee-stations/tmc_park_residences_1.webp",
+        "/images/coffee-stations/tmc_park_residences_2.webp",
+        "/images/coffee-stations/tmc_park_residences_3.webp",
+        "/images/coffee-stations/tmc_park_residences_4.webp"
+    ],
+    "description": "The Caddebostan Architectural Barista Credenza is conceived as an uninterrupted celebration of morning rituals. Meticulously detailed with 45-degree mitered corner joints, flush recessed pull profiles, and silk-matte lacquered elevations, it conceals extensive barista storage behind calm, timeless proportions. A dedicated worktop niche accommodates professional espresso machinery with pre-routed wiring channels, while overhead illuminated open niches display curated artisan cups and brewing accessories.",
+    "keyFeatures": [
+        "Proportions: W 2000 mm \u00d7 H 2200 mm \u00d7 D 600 mm custom architectural configuration",
+        "Concealed electrical service channels with integrated UK flush power points and USB-C ports",
+        "Architectural 45-degree mitered joinery with silk-matte hand-finished lacquer surfaces",
+        "Illuminated display shelving with recessed 3000K glare-free LED profiles",
+        "Full-extension deep drawers with custom solid timber capsule and tamper organizers",
+        "Acoustic dampening pads to isolate espresso grinder and pump vibration"
+    ],
+    "style": "modern"
+},
+  "mayfair-artisan-espresso-beverage-armoire": {
+    "slug": "mayfair-artisan-espresso-beverage-armoire",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Mayfair Artisan Espresso & Beverage Armoire",
+    "metaTitle": "Mayfair Artisan Espresso & Beverage Armoire | Cabivella UK",
+    "metaDescription": "Luxury artisan coffee and wine armoire. Features smoked reflective glass display towers, custom step niches, soft-close cutlery drawers, and integrated power track.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2250 mm \u00d7 D 650 mm (Custom Widths: 1600\u20132200 mm)",
+    "materials": [
+        "Select crown-cut natural walnut veneers paired with matte graphite lacquer",
+        "Smoked reflective bronze tempered glass door leaves with slimline aluminium framing",
+        "Solid honed quartz preparation surface resistant to heat and espresso stains",
+        "Concealed soft-close drawer assemblies with dovetailed hardwood internal boxes",
+        "Internal diffused vertical LED illumination channels"
+    ],
+    "finishOptions": [
+        "Matte Graphite with Smoked Bronze Glass and Crown Walnut",
+        "Warm Truffle Lacquer with Fluted Bronze Glass and Natural Oak",
+        "Deep Navy with Clear Low-Iron Glass and Brushed Champagne accents"
+    ],
+    "installationScope": "Freestanding focal armoire or wall-integrated tall cabinetry ensemble.",
+    "image": "/images/coffee-stations/tmc_modern_corner_1.webp",
+    "gallery": [
+        "/images/coffee-stations/tmc_modern_corner_1.webp",
+        "/images/coffee-stations/tmc_modern_corner_2.webp",
+        "/images/coffee-stations/tmc_modern_corner_3.webp",
+        "/images/coffee-stations/tmc_modern_corner_4.webp",
+        "/images/coffee-stations/tmc_modern_corner_5.webp"
+    ],
+    "description": "Engineered to bring the sensory sophistication of a boutique caf\u00e9 into private British residences, the Mayfair Artisan Espresso Armoire pairs twin smoked glass display towers with an expansive central barista preparation bay. Under-shelf lighting casts a warm 3000K glow over high-grade espresso equipment, while pull-out trays and compartmentalised drawers offer tailored homes for coffee beans, portafilters, syrups, and delicate porcelain.",
+    "keyFeatures": [
+        "Proportions: W 1800 mm \u00d7 H 2250 mm \u00d7 D 650 mm bespoke footprint",
+        "Twin architectural glass vitrines with bronze-tinted reflective glass and perimeter LED illumination",
+        "Heavy-duty stain-resistant quartz preparation surface with integral drip containment",
+        "Precision pull-out knock-box and accessory drawers on smooth acoustic runners",
+        "Dedicated upper cup-warming shelf and glassware suspension gallery",
+        "Integrated ventilation plenums to safely dissipate steam from high-capacity espresso boilers"
+    ],
+    "style": "modern"
+},
+  "mayfair-180cm-tall-tower-lacquered-station-1": {
+    "slug": "mayfair-180cm-tall-tower-lacquered-station-1",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Mayfair 180cm Tall-Tower Lacquered Coffee Station",
+    "metaTitle": "Mayfair 180cm Tall-Tower Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Mayfair 180cm Tall-Tower Lacquered Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_01.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_01.webp"
+    ],
+    "description": "The Mayfair 180cm Tall-Tower Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "belgravia-160cm-glass-vitrine-high-gloss-station-2": {
+    "slug": "belgravia-160cm-glass-vitrine-high-gloss-station-2",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Belgravia 160cm Glass-Vitrine High-Gloss Coffee Station",
+    "metaTitle": "Belgravia 160cm Glass-Vitrine High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Belgravia 160cm Glass-Vitrine High-Gloss Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_02.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_02.webp"
+    ],
+    "description": "The Belgravia 160cm Glass-Vitrine High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "kensington-200cm-glass-vitrine-thermo-formed-station-3": {
+    "slug": "kensington-200cm-glass-vitrine-thermo-formed-station-3",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Kensington 200cm Glass-Vitrine Thermo-Formed Coffee Station",
+    "metaTitle": "Kensington 200cm Glass-Vitrine Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Kensington 200cm Glass-Vitrine Thermo-Formed Coffee Station. W 200cm (2000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_03.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_03.webp"
+    ],
+    "description": "The Kensington 200cm Glass-Vitrine Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 200 cm dimensions (W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 200 cm (W 2000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "chelsea-190cm-bridge-niche-architectural-veneer-station-4": {
+    "slug": "chelsea-190cm-bridge-niche-architectural-veneer-station-4",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Chelsea 190cm Bridge-Niche Architectural Veneer Coffee Station",
+    "metaTitle": "Chelsea 190cm Bridge-Niche Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Chelsea 190cm Bridge-Niche Architectural Veneer Coffee Station. W 190cm (1900mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_04.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_04.webp"
+    ],
+    "description": "The Chelsea 190cm Bridge-Niche Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 190 cm dimensions (W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 190 cm (W 1900 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "knightsbridge-180cm-tall-tower-lacquered-station-5": {
+    "slug": "knightsbridge-180cm-tall-tower-lacquered-station-5",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Knightsbridge 180cm Tall-Tower Lacquered Coffee Station",
+    "metaTitle": "Knightsbridge 180cm Tall-Tower Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Knightsbridge 180cm Tall-Tower Lacquered Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_05.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_05.webp"
+    ],
+    "description": "The Knightsbridge 180cm Tall-Tower Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "richmond-200cm-barista-suite-high-gloss-station-6": {
+    "slug": "richmond-200cm-barista-suite-high-gloss-station-6",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Richmond 200cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "Richmond 200cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Richmond 200cm Barista-Suite High-Gloss Coffee Station. W 200cm (2000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_06.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_06.webp"
+    ],
+    "description": "The Richmond 200cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 200 cm dimensions (W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 200 cm (W 2000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "marylebone-190cm-glass-vitrine-thermo-formed-station-7": {
+    "slug": "marylebone-190cm-glass-vitrine-thermo-formed-station-7",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Marylebone 190cm Glass-Vitrine Thermo-Formed Coffee Station",
+    "metaTitle": "Marylebone 190cm Glass-Vitrine Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Marylebone 190cm Glass-Vitrine Thermo-Formed Coffee Station. W 190cm (1900mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_07.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_07.webp"
+    ],
+    "description": "The Marylebone 190cm Glass-Vitrine Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 190 cm dimensions (W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 190 cm (W 1900 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "hampstead-200cm-glass-vitrine-architectural-veneer-station-8": {
+    "slug": "hampstead-200cm-glass-vitrine-architectural-veneer-station-8",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Hampstead 200cm Glass-Vitrine Architectural Veneer Coffee Station",
+    "metaTitle": "Hampstead 200cm Glass-Vitrine Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Hampstead 200cm Glass-Vitrine Architectural Veneer Coffee Station. W 200cm (2000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_08.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_08.webp"
+    ],
+    "description": "The Hampstead 200cm Glass-Vitrine Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 200 cm dimensions (W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 200 cm (W 2000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "highgate-190cm-tall-tower-lacquered-station-9": {
+    "slug": "highgate-190cm-tall-tower-lacquered-station-9",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Highgate 190cm Tall-Tower Lacquered Coffee Station",
+    "metaTitle": "Highgate 190cm Tall-Tower Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Highgate 190cm Tall-Tower Lacquered Coffee Station. W 190cm (1900mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_09.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_09.webp"
+    ],
+    "description": "The Highgate 190cm Tall-Tower Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 190 cm dimensions (W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, full-height side pantry storage, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 190 cm (W 1900 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "islington-180cm-barista-suite-high-gloss-station-10": {
+    "slug": "islington-180cm-barista-suite-high-gloss-station-10",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Islington 180cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "Islington 180cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Islington 180cm Barista-Suite High-Gloss Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_10.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_10.webp"
+    ],
+    "description": "The Islington 180cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "primrose-200cm-arched-alcove-thermo-formed-station-11": {
+    "slug": "primrose-200cm-arched-alcove-thermo-formed-station-11",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Primrose 200cm Arched-Alcove Thermo-Formed Coffee Station",
+    "metaTitle": "Primrose 200cm Arched-Alcove Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Primrose 200cm Arched-Alcove Thermo-Formed Coffee Station. W 200cm (2000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_11.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_11.webp"
+    ],
+    "description": "The Primrose 200cm Arched-Alcove Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 200 cm dimensions (W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 200 cm (W 2000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "belsize-180cm-tall-tower-architectural-veneer-station-12": {
+    "slug": "belsize-180cm-tall-tower-architectural-veneer-station-12",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Belsize 180cm Tall-Tower Architectural Veneer Coffee Station",
+    "metaTitle": "Belsize 180cm Tall-Tower Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Belsize 180cm Tall-Tower Architectural Veneer Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_12.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_12.webp"
+    ],
+    "description": "The Belsize 180cm Tall-Tower Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "holland-park-200cm-bridge-niche-lacquered-station-13": {
+    "slug": "holland-park-200cm-bridge-niche-lacquered-station-13",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Holland Park 200cm Bridge-Niche Lacquered Coffee Station",
+    "metaTitle": "Holland Park 200cm Bridge-Niche Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Holland Park 200cm Bridge-Niche Lacquered Coffee Station. W 200cm (2000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_13.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_13.webp"
+    ],
+    "description": "The Holland Park 200cm Bridge-Niche Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 200 cm dimensions (W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 200 cm (W 2000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "fitzrovia-190cm-bridge-niche-high-gloss-station-14": {
+    "slug": "fitzrovia-190cm-bridge-niche-high-gloss-station-14",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Fitzrovia 190cm Bridge-Niche High-Gloss Coffee Station",
+    "metaTitle": "Fitzrovia 190cm Bridge-Niche High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Fitzrovia 190cm Bridge-Niche High-Gloss Coffee Station. W 190cm (1900mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_14.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_14.webp"
+    ],
+    "description": "The Fitzrovia 190cm Bridge-Niche High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 190 cm dimensions (W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 190 cm (W 1900 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "st-james-180cm-glass-vitrine-thermo-formed-station-15": {
+    "slug": "st-james-180cm-glass-vitrine-thermo-formed-station-15",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "St James 180cm Glass-Vitrine Thermo-Formed Coffee Station",
+    "metaTitle": "St James 180cm Glass-Vitrine Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke St James 180cm Glass-Vitrine Thermo-Formed Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_15.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_15.webp"
+    ],
+    "description": "The St James 180cm Glass-Vitrine Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "westminster-160cm-barista-suite-architectural-veneer-station-16": {
+    "slug": "westminster-160cm-barista-suite-architectural-veneer-station-16",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Westminster 160cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Westminster 160cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Westminster 160cm Barista-Suite Architectural Veneer Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_16.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_16.webp"
+    ],
+    "description": "The Westminster 160cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "pimlico-200cm-bridge-niche-lacquered-station-17": {
+    "slug": "pimlico-200cm-bridge-niche-lacquered-station-17",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Pimlico 200cm Bridge-Niche Lacquered Coffee Station",
+    "metaTitle": "Pimlico 200cm Bridge-Niche Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Pimlico 200cm Bridge-Niche Lacquered Coffee Station. W 200cm (2000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_17.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_17.webp"
+    ],
+    "description": "The Pimlico 200cm Bridge-Niche Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 200 cm dimensions (W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 200 cm (W 2000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "battersea-170cm-glass-vitrine-high-gloss-station-18": {
+    "slug": "battersea-170cm-glass-vitrine-high-gloss-station-18",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Battersea 170cm Glass-Vitrine High-Gloss Coffee Station",
+    "metaTitle": "Battersea 170cm Glass-Vitrine High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Battersea 170cm Glass-Vitrine High-Gloss Coffee Station. W 170cm (1700mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1700 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_18.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_18.webp"
+    ],
+    "description": "The Battersea 170cm Glass-Vitrine High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 170 cm dimensions (W 1700 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 170 cm (W 1700 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "wimbledon-180cm-arched-alcove-thermo-formed-station-19": {
+    "slug": "wimbledon-180cm-arched-alcove-thermo-formed-station-19",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Wimbledon 180cm Arched-Alcove Thermo-Formed Coffee Station",
+    "metaTitle": "Wimbledon 180cm Arched-Alcove Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Wimbledon 180cm Arched-Alcove Thermo-Formed Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_19.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_19.webp"
+    ],
+    "description": "The Wimbledon 180cm Arched-Alcove Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "chiswick-160cm-glass-vitrine-architectural-veneer-station-20": {
+    "slug": "chiswick-160cm-glass-vitrine-architectural-veneer-station-20",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Chiswick 160cm Glass-Vitrine Architectural Veneer Coffee Station",
+    "metaTitle": "Chiswick 160cm Glass-Vitrine Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Chiswick 160cm Glass-Vitrine Architectural Veneer Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_20.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_20.webp"
+    ],
+    "description": "The Chiswick 160cm Glass-Vitrine Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "dulwich-190cm-glass-vitrine-lacquered-station-21": {
+    "slug": "dulwich-190cm-glass-vitrine-lacquered-station-21",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Dulwich 190cm Glass-Vitrine Lacquered Coffee Station",
+    "metaTitle": "Dulwich 190cm Glass-Vitrine Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Dulwich 190cm Glass-Vitrine Lacquered Coffee Station. W 190cm (1900mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_21.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_21.webp"
+    ],
+    "description": "The Dulwich 190cm Glass-Vitrine Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 190 cm dimensions (W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 190 cm (W 1900 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "greenwich-180cm-bridge-niche-high-gloss-station-22": {
+    "slug": "greenwich-180cm-bridge-niche-high-gloss-station-22",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Greenwich 180cm Bridge-Niche High-Gloss Coffee Station",
+    "metaTitle": "Greenwich 180cm Bridge-Niche High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Greenwich 180cm Bridge-Niche High-Gloss Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_22.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_22.webp"
+    ],
+    "description": "The Greenwich 180cm Bridge-Niche High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "blackheath-200cm-glass-vitrine-thermo-formed-station-23": {
+    "slug": "blackheath-200cm-glass-vitrine-thermo-formed-station-23",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Blackheath 200cm Glass-Vitrine Thermo-Formed Coffee Station",
+    "metaTitle": "Blackheath 200cm Glass-Vitrine Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Blackheath 200cm Glass-Vitrine Thermo-Formed Coffee Station. W 200cm (2000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_23.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_23.webp"
+    ],
+    "description": "The Blackheath 200cm Glass-Vitrine Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 200 cm dimensions (W 2000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 200 cm (W 2000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "barnes-170cm-glass-vitrine-architectural-veneer-station-24": {
+    "slug": "barnes-170cm-glass-vitrine-architectural-veneer-station-24",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Barnes 170cm Glass-Vitrine Architectural Veneer Coffee Station",
+    "metaTitle": "Barnes 170cm Glass-Vitrine Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Barnes 170cm Glass-Vitrine Architectural Veneer Coffee Station. W 170cm (1700mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1700 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_24.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_24.webp"
+    ],
+    "description": "The Barnes 170cm Glass-Vitrine Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 170 cm dimensions (W 1700 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 170 cm (W 1700 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "putney-180cm-glass-vitrine-lacquered-station-25": {
+    "slug": "putney-180cm-glass-vitrine-lacquered-station-25",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Putney 180cm Glass-Vitrine Lacquered Coffee Station",
+    "metaTitle": "Putney 180cm Glass-Vitrine Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Putney 180cm Glass-Vitrine Lacquered Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_25.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_25.webp"
+    ],
+    "description": "The Putney 180cm Glass-Vitrine Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "kew-190cm-tall-tower-high-gloss-station-26": {
+    "slug": "kew-190cm-tall-tower-high-gloss-station-26",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Kew 190cm Tall-Tower High-Gloss Coffee Station",
+    "metaTitle": "Kew 190cm Tall-Tower High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Kew 190cm Tall-Tower High-Gloss Coffee Station. W 190cm (1900mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_26.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_26.webp"
+    ],
+    "description": "The Kew 190cm Tall-Tower High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 190 cm dimensions (W 1900 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 190 cm (W 1900 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "twickenham-160cm-glass-vitrine-thermo-formed-station-27": {
+    "slug": "twickenham-160cm-glass-vitrine-thermo-formed-station-27",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Twickenham 160cm Glass-Vitrine Thermo-Formed Coffee Station",
+    "metaTitle": "Twickenham 160cm Glass-Vitrine Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Twickenham 160cm Glass-Vitrine Thermo-Formed Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_27.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_27.webp"
+    ],
+    "description": "The Twickenham 160cm Glass-Vitrine Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "wandsworth-180cm-tall-tower-architectural-veneer-station-28": {
+    "slug": "wandsworth-180cm-tall-tower-architectural-veneer-station-28",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Wandsworth 180cm Tall-Tower Architectural Veneer Coffee Station",
+    "metaTitle": "Wandsworth 180cm Tall-Tower Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Wandsworth 180cm Tall-Tower Architectural Veneer Coffee Station. W 180cm (1800mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_28.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_28.webp"
+    ],
+    "description": "The Wandsworth 180cm Tall-Tower Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 180 cm dimensions (W 1800 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 180 cm (W 1800 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "fulham-170cm-tall-tower-lacquered-station-29": {
+    "slug": "fulham-170cm-tall-tower-lacquered-station-29",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Fulham 170cm Tall-Tower Lacquered Coffee Station",
+    "metaTitle": "Fulham 170cm Tall-Tower Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Fulham 170cm Tall-Tower Lacquered Coffee Station. W 170cm (1700mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1700 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_29.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_29.webp"
+    ],
+    "description": "The Fulham 170cm Tall-Tower Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 170 cm dimensions (W 1700 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 170 cm (W 1700 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "notting-hill-150cm-tall-tower-high-gloss-station-30": {
+    "slug": "notting-hill-150cm-tall-tower-high-gloss-station-30",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Notting Hill 150cm Tall-Tower High-Gloss Coffee Station",
+    "metaTitle": "Notting Hill 150cm Tall-Tower High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Notting Hill 150cm Tall-Tower High-Gloss Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_30.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_30.webp"
+    ],
+    "description": "The Notting Hill 150cm Tall-Tower High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "bayswater-150cm-tall-tower-thermo-formed-station-31": {
+    "slug": "bayswater-150cm-tall-tower-thermo-formed-station-31",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Bayswater 150cm Tall-Tower Thermo-Formed Coffee Station",
+    "metaTitle": "Bayswater 150cm Tall-Tower Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Bayswater 150cm Tall-Tower Thermo-Formed Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_31.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_31.webp"
+    ],
+    "description": "The Bayswater 150cm Tall-Tower Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "paddington-160cm-bridge-niche-architectural-veneer-station-32": {
+    "slug": "paddington-160cm-bridge-niche-architectural-veneer-station-32",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Paddington 160cm Bridge-Niche Architectural Veneer Coffee Station",
+    "metaTitle": "Paddington 160cm Bridge-Niche Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Paddington 160cm Bridge-Niche Architectural Veneer Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_32.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_32.webp"
+    ],
+    "description": "The Paddington 160cm Bridge-Niche Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "bloomsbury-160cm-tall-tower-lacquered-station-33": {
+    "slug": "bloomsbury-160cm-tall-tower-lacquered-station-33",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Bloomsbury 160cm Tall-Tower Lacquered Coffee Station",
+    "metaTitle": "Bloomsbury 160cm Tall-Tower Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Bloomsbury 160cm Tall-Tower Lacquered Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_33.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_33.webp"
+    ],
+    "description": "The Bloomsbury 160cm Tall-Tower Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "covent-garden-150cm-glass-vitrine-high-gloss-station-34": {
+    "slug": "covent-garden-150cm-glass-vitrine-high-gloss-station-34",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Covent Garden 150cm Glass-Vitrine High-Gloss Coffee Station",
+    "metaTitle": "Covent Garden 150cm Glass-Vitrine High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Covent Garden 150cm Glass-Vitrine High-Gloss Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_34.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_34.webp"
+    ],
+    "description": "The Covent Garden 150cm Glass-Vitrine High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "soho-160cm-barista-suite-thermo-formed-station-35": {
+    "slug": "soho-160cm-barista-suite-thermo-formed-station-35",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Soho 160cm Barista-Suite Thermo-Formed Coffee Station",
+    "metaTitle": "Soho 160cm Barista-Suite Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Soho 160cm Barista-Suite Thermo-Formed Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_35.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_35.webp"
+    ],
+    "description": "The Soho 160cm Barista-Suite Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "holborn-160cm-tall-tower-architectural-veneer-station-36": {
+    "slug": "holborn-160cm-tall-tower-architectural-veneer-station-36",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Holborn 160cm Tall-Tower Architectural Veneer Coffee Station",
+    "metaTitle": "Holborn 160cm Tall-Tower Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Holborn 160cm Tall-Tower Architectural Veneer Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_36.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_36.webp"
+    ],
+    "description": "The Holborn 160cm Tall-Tower Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "clerkenwell-160cm-tall-tower-lacquered-station-37": {
+    "slug": "clerkenwell-160cm-tall-tower-lacquered-station-37",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Clerkenwell 160cm Tall-Tower Lacquered Coffee Station",
+    "metaTitle": "Clerkenwell 160cm Tall-Tower Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Clerkenwell 160cm Tall-Tower Lacquered Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_37.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_37.webp"
+    ],
+    "description": "The Clerkenwell 160cm Tall-Tower Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "shoreditch-160cm-barista-suite-high-gloss-station-38": {
+    "slug": "shoreditch-160cm-barista-suite-high-gloss-station-38",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Shoreditch 160cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "Shoreditch 160cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Shoreditch 160cm Barista-Suite High-Gloss Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_38.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_38.webp"
+    ],
+    "description": "The Shoreditch 160cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "spitalfields-160cm-tall-tower-thermo-formed-station-39": {
+    "slug": "spitalfields-160cm-tall-tower-thermo-formed-station-39",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Spitalfields 160cm Tall-Tower Thermo-Formed Coffee Station",
+    "metaTitle": "Spitalfields 160cm Tall-Tower Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Spitalfields 160cm Tall-Tower Thermo-Formed Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_39.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_39.webp"
+    ],
+    "description": "The Spitalfields 160cm Tall-Tower Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "wapping-160cm-barista-suite-architectural-veneer-station-40": {
+    "slug": "wapping-160cm-barista-suite-architectural-veneer-station-40",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Wapping 160cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Wapping 160cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Wapping 160cm Barista-Suite Architectural Veneer Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_40.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_40.webp"
+    ],
+    "description": "The Wapping 160cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "canary-150cm-barista-suite-lacquered-station-41": {
+    "slug": "canary-150cm-barista-suite-lacquered-station-41",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Canary 150cm Barista-Suite Lacquered Coffee Station",
+    "metaTitle": "Canary 150cm Barista-Suite Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Canary 150cm Barista-Suite Lacquered Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_41.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_41.webp"
+    ],
+    "description": "The Canary 150cm Barista-Suite Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "southwark-150cm-barista-suite-high-gloss-station-42": {
+    "slug": "southwark-150cm-barista-suite-high-gloss-station-42",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Southwark 150cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "Southwark 150cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Southwark 150cm Barista-Suite High-Gloss Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_42.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_42.webp"
+    ],
+    "description": "The Southwark 150cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "borough-160cm-barista-suite-thermo-formed-station-43": {
+    "slug": "borough-160cm-barista-suite-thermo-formed-station-43",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Borough 160cm Barista-Suite Thermo-Formed Coffee Station",
+    "metaTitle": "Borough 160cm Barista-Suite Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Borough 160cm Barista-Suite Thermo-Formed Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_43.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_43.webp"
+    ],
+    "description": "The Borough 160cm Barista-Suite Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "bermondsey-150cm-barista-suite-architectural-veneer-station-44": {
+    "slug": "bermondsey-150cm-barista-suite-architectural-veneer-station-44",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Bermondsey 150cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Bermondsey 150cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Bermondsey 150cm Barista-Suite Architectural Veneer Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_44.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_44.webp"
+    ],
+    "description": "The Bermondsey 150cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "victoria-150cm-arched-alcove-lacquered-station-45": {
+    "slug": "victoria-150cm-arched-alcove-lacquered-station-45",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Victoria 150cm Arched-Alcove Lacquered Coffee Station",
+    "metaTitle": "Victoria 150cm Arched-Alcove Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Victoria 150cm Arched-Alcove Lacquered Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_45.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_45.webp"
+    ],
+    "description": "The Victoria 150cm Arched-Alcove Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "regent-160cm-bridge-niche-high-gloss-station-46": {
+    "slug": "regent-160cm-bridge-niche-high-gloss-station-46",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Regent 160cm Bridge-Niche High-Gloss Coffee Station",
+    "metaTitle": "Regent 160cm Bridge-Niche High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Regent 160cm Bridge-Niche High-Gloss Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_46.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_46.webp"
+    ],
+    "description": "The Regent 160cm Bridge-Niche High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "aldwych-150cm-arched-alcove-thermo-formed-station-47": {
+    "slug": "aldwych-150cm-arched-alcove-thermo-formed-station-47",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Aldwych 150cm Arched-Alcove Thermo-Formed Coffee Station",
+    "metaTitle": "Aldwych 150cm Arched-Alcove Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Aldwych 150cm Arched-Alcove Thermo-Formed Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_47.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_47.webp"
+    ],
+    "description": "The Aldwych 150cm Arched-Alcove Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "temple-155cm-barista-suite-architectural-veneer-station-48": {
+    "slug": "temple-155cm-barista-suite-architectural-veneer-station-48",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Temple 155cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Temple 155cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Temple 155cm Barista-Suite Architectural Veneer Coffee Station. W 155cm (1550mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1550 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_48.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_48.webp"
+    ],
+    "description": "The Temple 155cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 155 cm dimensions (W 1550 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 155 cm (W 1550 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "ludgate-160cm-tall-tower-lacquered-station-49": {
+    "slug": "ludgate-160cm-tall-tower-lacquered-station-49",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Ludgate 160cm Tall-Tower Lacquered Coffee Station",
+    "metaTitle": "Ludgate 160cm Tall-Tower Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Ludgate 160cm Tall-Tower Lacquered Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_49.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_49.webp"
+    ],
+    "description": "The Ludgate 160cm Tall-Tower Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "cheapside-155cm-barista-suite-high-gloss-station-50": {
+    "slug": "cheapside-155cm-barista-suite-high-gloss-station-50",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Cheapside 155cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "Cheapside 155cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Cheapside 155cm Barista-Suite High-Gloss Coffee Station. W 155cm (1550mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1550 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_50.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_50.webp"
+    ],
+    "description": "The Cheapside 155cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 155 cm dimensions (W 1550 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 155 cm (W 1550 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "cornhill-150cm-barista-suite-thermo-formed-station-51": {
+    "slug": "cornhill-150cm-barista-suite-thermo-formed-station-51",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Cornhill 150cm Barista-Suite Thermo-Formed Coffee Station",
+    "metaTitle": "Cornhill 150cm Barista-Suite Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Cornhill 150cm Barista-Suite Thermo-Formed Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_51.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_51.webp"
+    ],
+    "description": "The Cornhill 150cm Barista-Suite Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "moorgate-140cm-barista-suite-architectural-veneer-station-52": {
+    "slug": "moorgate-140cm-barista-suite-architectural-veneer-station-52",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Moorgate 140cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Moorgate 140cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Moorgate 140cm Barista-Suite Architectural Veneer Coffee Station. W 140cm (1400mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1400 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_52.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_52.webp"
+    ],
+    "description": "The Moorgate 140cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 140 cm dimensions (W 1400 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 140 cm (W 1400 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "barbican-160cm-arched-alcove-lacquered-station-53": {
+    "slug": "barbican-160cm-arched-alcove-lacquered-station-53",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Barbican 160cm Arched-Alcove Lacquered Coffee Station",
+    "metaTitle": "Barbican 160cm Arched-Alcove Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Barbican 160cm Arched-Alcove Lacquered Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_53.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_53.webp"
+    ],
+    "description": "The Barbican 160cm Arched-Alcove Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "farringdon-145cm-barista-suite-high-gloss-station-54": {
+    "slug": "farringdon-145cm-barista-suite-high-gloss-station-54",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Farringdon 145cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "Farringdon 145cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Farringdon 145cm Barista-Suite High-Gloss Coffee Station. W 145cm (1450mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1450 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_54.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_54.webp"
+    ],
+    "description": "The Farringdon 145cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 145 cm dimensions (W 1450 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 145 cm (W 1450 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "euston-150cm-glass-vitrine-thermo-formed-station-55": {
+    "slug": "euston-150cm-glass-vitrine-thermo-formed-station-55",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Euston 150cm Glass-Vitrine Thermo-Formed Coffee Station",
+    "metaTitle": "Euston 150cm Glass-Vitrine Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Euston 150cm Glass-Vitrine Thermo-Formed Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_55.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_55.webp"
+    ],
+    "description": "The Euston 150cm Glass-Vitrine Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, smoked reflective glass display panels, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with reflective glass display cabinetry",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "russell-120cm-tall-tower-architectural-veneer-station-56": {
+    "slug": "russell-120cm-tall-tower-architectural-veneer-station-56",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Russell 120cm Tall-Tower Architectural Veneer Coffee Station",
+    "metaTitle": "Russell 120cm Tall-Tower Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Russell 120cm Tall-Tower Architectural Veneer Coffee Station. W 120cm (1200mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1200 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_56.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_56.webp"
+    ],
+    "description": "The Russell 120cm Tall-Tower Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 120 cm dimensions (W 1200 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, full-height side pantry storage, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 120 cm (W 1200 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "st-pancras-160cm-barista-suite-high-gloss-station-57": {
+    "slug": "st-pancras-160cm-barista-suite-high-gloss-station-57",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "St Pancras 160cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "St Pancras 160cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke St Pancras 160cm Barista-Suite High-Gloss Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_57.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_57.webp"
+    ],
+    "description": "The St Pancras 160cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "kingston-140cm-barista-suite-lacquered-station-58": {
+    "slug": "kingston-140cm-barista-suite-lacquered-station-58",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Kingston 140cm Barista-Suite Lacquered Coffee Station",
+    "metaTitle": "Kingston 140cm Barista-Suite Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Kingston 140cm Barista-Suite Lacquered Coffee Station. W 140cm (1400mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1400 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_58.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_58.webp"
+    ],
+    "description": "The Kingston 140cm Barista-Suite Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 140 cm dimensions (W 1400 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 140 cm (W 1400 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "ealing-150cm-barista-suite-thermo-formed-station-59": {
+    "slug": "ealing-150cm-barista-suite-thermo-formed-station-59",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Ealing 150cm Barista-Suite Thermo-Formed Coffee Station",
+    "metaTitle": "Ealing 150cm Barista-Suite Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Ealing 150cm Barista-Suite Thermo-Formed Coffee Station. W 150cm (1500mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_59.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_59.webp"
+    ],
+    "description": "The Ealing 150cm Barista-Suite Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 150 cm dimensions (W 1500 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 150 cm (W 1500 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "harrow-105cm-barista-suite-architectural-veneer-station-60": {
+    "slug": "harrow-105cm-barista-suite-architectural-veneer-station-60",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Harrow 105cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Harrow 105cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Harrow 105cm Barista-Suite Architectural Veneer Coffee Station. W 105cm (1050mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1050 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_60.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_60.webp"
+    ],
+    "description": "The Harrow 105cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 105 cm dimensions (W 1050 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 105 cm (W 1050 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "green-park-120cm-barista-suite-architectural-veneer-station-61": {
+    "slug": "green-park-120cm-barista-suite-architectural-veneer-station-61",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Green Park 120cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Green Park 120cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Green Park 120cm Barista-Suite Architectural Veneer Coffee Station. W 120cm (1200mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1200 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_61.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_61.webp"
+    ],
+    "description": "The Green Park 120cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 120 cm dimensions (W 1200 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments, soft-close cutlery and capsule drawers, and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 120 cm (W 1200 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "hyde-park-100cm-barista-suite-architectural-veneer-station-62": {
+    "slug": "hyde-park-100cm-barista-suite-architectural-veneer-station-62",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Hyde Park 100cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Hyde Park 100cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Hyde Park 100cm Barista-Suite Architectural Veneer Coffee Station. W 100cm (1000mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1000 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_62.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_62.webp"
+    ],
+    "description": "The Hyde Park 100cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 100 cm dimensions (W 1000 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 100 cm (W 1000 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "windsor-140cm-barista-suite-lacquered-station-63": {
+    "slug": "windsor-140cm-barista-suite-lacquered-station-63",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Windsor 140cm Barista-Suite Lacquered Coffee Station",
+    "metaTitle": "Windsor 140cm Barista-Suite Lacquered Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Windsor 140cm Barista-Suite Lacquered Coffee Station. W 140cm (1400mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1400 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Lacquered front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Lacquered Pearl White with Natural Oak counter",
+        "Lacquered Anthracite Grey with Smoked Walnut counter",
+        "Lacquered Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_63.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_63.webp"
+    ],
+    "description": "The Windsor 140cm Barista-Suite Lacquered Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 140 cm dimensions (W 1400 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 140 cm (W 1400 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "oxfordshire-160cm-barista-suite-high-gloss-station-64": {
+    "slug": "oxfordshire-160cm-barista-suite-high-gloss-station-64",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Oxfordshire 160cm Barista-Suite High-Gloss Coffee Station",
+    "metaTitle": "Oxfordshire 160cm Barista-Suite High-Gloss Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Oxfordshire 160cm Barista-Suite High-Gloss Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "High-Gloss front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "High-Gloss Pearl White with Natural Oak counter",
+        "High-Gloss Anthracite Grey with Smoked Walnut counter",
+        "High-Gloss Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_64.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_64.webp"
+    ],
+    "description": "The Oxfordshire 160cm Barista-Suite High-Gloss Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "cambridge-120cm-barista-suite-thermo-formed-station-65": {
+    "slug": "cambridge-120cm-barista-suite-thermo-formed-station-65",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Cambridge 120cm Barista-Suite Thermo-Formed Coffee Station",
+    "metaTitle": "Cambridge 120cm Barista-Suite Thermo-Formed Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Cambridge 120cm Barista-Suite Thermo-Formed Coffee Station. W 120cm (1200mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1200 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Thermo-Formed front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Thermo-Formed Pearl White with Natural Oak counter",
+        "Thermo-Formed Anthracite Grey with Smoked Walnut counter",
+        "Thermo-Formed Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_65.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_65.webp"
+    ],
+    "description": "The Cambridge 120cm Barista-Suite Thermo-Formed Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 120 cm dimensions (W 1200 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 120 cm (W 1200 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
+  "ascot-160cm-barista-suite-architectural-veneer-station-66": {
+    "slug": "ascot-160cm-barista-suite-architectural-veneer-station-66",
+    "category": "coffee-stations",
+    "categoryTitle": "Coffee Stations",
+    "title": "Ascot 160cm Barista-Suite Architectural Veneer Coffee Station",
+    "metaTitle": "Ascot 160cm Barista-Suite Architectural Veneer Coffee Station | Cabivella UK Joinery",
+    "metaDescription": "Explore the bespoke Ascot 160cm Barista-Suite Architectural Veneer Coffee Station. W 160cm (1600mm) width with durable preparation worktop, custom storage niches, and precision British architectural craftsmanship.",
+    "dimensionsMm": "W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm (Made to Measure)",
+    "materials": [
+        "Architectural Veneer front surfaces with anti-fingerprint protective coating",
+        "18mm high-density moisture-sealed structural carcass architecture",
+        "Heat and splash resistant solid surface barista prep counter",
+        "Full-extension concealed soft-close drawer runners with 40kg load rating",
+        "Concealed 3000K warm LED lighting strip with integrated channel diffuser"
+    ],
+    "finishOptions": [
+        "Architectural Veneer Pearl White with Natural Oak counter",
+        "Architectural Veneer Anthracite Grey with Smoked Walnut counter",
+        "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
+    ],
+    "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
+    "image": "/images/coffee-stations/turem_coffee_66.webp",
+    "gallery": [
+        "/images/coffee-stations/turem_coffee_66.webp"
+    ],
+    "description": "The Ascot 160cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
+    "keyFeatures": [
+        "Standard width: W 160 cm (W 1600 mm) with proportional H 2100 mm height and D 600 mm depth",
+        "Dedicated central countertop niche engineered specifically for domestic espresso machinery",
+        "Customised internal configuration with open architectural spice and cup niches",
+        "Concealed cable access management allowing appliances to remain plugged in permanently",
+        "Precision soft-close hinges and drawer runners tested to 100,000 operational cycles",
+        "Manufactured in rigid factory-assembled modules for seamless on-site installation across the UK"
+    ],
+    "style": "modern"
+},
 };
