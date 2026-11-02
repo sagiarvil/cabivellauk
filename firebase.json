@@ -136,6 +136,56 @@
         "source": "/collections/fitted-storage/mayfair-6door-wardrobe/",
         "destination": "/collections/fitted-storage/",
         "type": 301
+      },
+      {
+        "source": "/pantry",
+        "destination": "/collections/pantry-larder/",
+        "type": 301
+      },
+      {
+        "source": "/pantry/",
+        "destination": "/collections/pantry-larder/",
+        "type": 301
+      },
+      {
+        "source": "/kitchens",
+        "destination": "/collections/kitchens/",
+        "type": 301
+      },
+      {
+        "source": "/kitchens/",
+        "destination": "/collections/kitchens/",
+        "type": 301
+      },
+      {
+        "source": "/bathrooms",
+        "destination": "/collections/bathrooms/",
+        "type": 301
+      },
+      {
+        "source": "/bathrooms/",
+        "destination": "/collections/bathrooms/",
+        "type": 301
+      },
+      {
+        "source": "/coffee-stations",
+        "destination": "/collections/coffee-stations/",
+        "type": 301
+      },
+      {
+        "source": "/coffee-stations/",
+        "destination": "/collections/coffee-stations/",
+        "type": 301
+      },
+      {
+        "source": "/storage",
+        "destination": "/collections/fitted-storage/",
+        "type": 301
+      },
+      {
+        "source": "/storage/",
+        "destination": "/collections/fitted-storage/",
+        "type": 301
       }
     ]
   }

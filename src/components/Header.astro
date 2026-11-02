@@ -8,11 +8,11 @@ interface Props {
 const { currentPath = '/' } = Astro.props;
 
 const navItems = [
-  { href: '/kitchens/', label: 'Kitchens' },
+  { href: '/collections/kitchens/', label: 'Kitchens' },
   { href: '/collections/bathrooms/', label: 'Bathrooms' },
-  { href: '/pantry/', label: 'Pantry' },
-  { href: '/coffee-stations/', label: 'Coffee Stations' },
-  { href: '/storage/', label: 'Storage' },
+  { href: '/collections/pantry-larder/', label: 'Pantry' },
+  { href: '/collections/coffee-stations/', label: 'Coffee Stations' },
+  { href: '/collections/fitted-storage/', label: 'Storage' },
 ];
 
 const bathroomCollections = [
@@ -63,7 +63,7 @@ const isActive = (href: string) => {
         <!-- Brand Identity -->
         <a href="/" class="identity" aria-label="Cabivella UK Home">
           <img
-            src="/images/logo/cabivella-crest.png"
+            src="/assets/img/cabivella-crest-transparent.webp"
             alt="Cabivella Crest"
             class="crest-mark"
             width="52"
@@ -152,7 +152,7 @@ const isActive = (href: string) => {
           </a>
 
           <!-- Enquire CTA Button -->
-          <a href="/contact/" class="btn btn-primary header-enquire-btn">
+          <a href="/enquire/" class="btn btn-primary header-enquire-btn">
             <span>Enquire</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
@@ -192,7 +192,7 @@ const isActive = (href: string) => {
         <a href="/trade/" class="mobile-nav-item">Trade & Professionals</a>
       </div>
       <div class="mobile-drawer-footer">
-        <a href="/contact/" class="btn btn-primary btn-block">Enquire About a Project →</a>
+        <a href="/enquire/" class="btn btn-primary btn-block">Enquire About a Project →</a>
         <a
           href="https://wa.me/447898262110"
           class="btn btn-secondary btn-block mt-3"
