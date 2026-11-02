@@ -75,6 +75,23 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
       <h1 class="category-main-heading">{category.title}</h1>
       <span class="counter-badge">{categoryModels.length} Specifications Available</span>
     </div>
+
+    {category.slug === 'kitchens' && (
+      <div class="style-filter-strip" role="tablist" aria-label="Kitchen style filters">
+        <button type="button" class="style-filter-btn active" data-kitchen-filter="all">
+          <span>All Architectural Kitchens</span>
+          <span class="filter-count">({categoryModels.length})</span>
+        </button>
+        <button type="button" class="style-filter-btn" data-kitchen-filter="modern">
+          <span>Modern Architectural</span>
+          <span class="filter-count">({categoryModels.filter(m => m.style === 'modern').length})</span>
+        </button>
+        <button type="button" class="style-filter-btn" data-kitchen-filter="classic">
+          <span>Classic Heritage</span>
+          <span class="filter-count">({categoryModels.filter(m => m.style === 'classic').length})</span>
+        </button>
+      </div>
+    )}
   </section>
 
   <!-- Models Grid -->
@@ -82,7 +99,12 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
     
     <div class="models-responsive-grid" data-reveal-group>
       {categoryModels.map((model, idx) => (
-        <article class="v6-category-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
+        <article 
+          class="v6-category-card" 
+          data-reveal 
+          data-reveal-delay={String((idx % 3) + 1)}
+          data-kitchen-style={model.style || 'modern'}
+        >
           <a href={`/collections/${category.slug}/${model.slug}/`} class="card-visual-link">
             <div class="card-image-wrapper">
               <ResponsivePhoto 
@@ -95,7 +117,7 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
             </div>
           </a>
           <div class="card-info-body">
-            <span class="card-eyebrow">{category.title.toUpperCase()} SPECIFICATION</span>
+            <span class="card-eyebrow">{model.style ? `${model.style.toUpperCase()} SUITE` : `${category.title.toUpperCase()} SPECIFICATION`}</span>
             <h3 class="card-title">
               <a href={`/collections/${category.slug}/${model.slug}/`}>{model.title}</a>
             </h3>
@@ -119,9 +141,76 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
       ))}
     </div>
   </section>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterButtons = document.querySelectorAll('[data-kitchen-filter]');
+      if (!filterButtons.length) return;
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const targetFilter = btn.getAttribute('data-kitchen-filter');
+          filterButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const cards = document.querySelectorAll('.v6-category-card[data-kitchen-style]');
+          cards.forEach(card => {
+            const style = card.getAttribute('data-kitchen-style');
+            if (targetFilter === 'all' || style === targetFilter) {
+              card.style.display = '';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
 </SiteLayout>
 
 <style>
+
+  /* Architectural Style Filter Strip */
+  .style-filter-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+  }
+  .style-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 24px;
+    border: 1px solid var(--line);
+    background: #fbf9f5;
+    color: var(--text);
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .style-filter-btn:hover {
+    border-color: var(--gold-dark);
+    color: var(--gold-dark);
+  }
+  .style-filter-btn.active {
+    background: #1b261d;
+    color: #f7f5ed;
+    border-color: #1b261d;
+  }
+  .style-filter-btn.active .filter-count {
+    color: var(--gold-warm);
+  }
+  .filter-count {
+    font-size: 11.5px;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
   .category-hero-section {
     padding-top: 10px;
     padding-bottom: 36px;

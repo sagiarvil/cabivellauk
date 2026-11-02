@@ -1,6 +1,7 @@
 export interface ModelDetail {
   slug: string;
   category: string;
+  categoryTitle?: string;
   title: string;
   metaTitle: string;
   metaDescription: string;
@@ -12,9 +13,1016 @@ export interface ModelDetail {
   gallery: string[];
   description: string;
   keyFeatures: string[];
+  style?: 'modern' | 'classic';
 }
 
 export const modelsData: Record<string, ModelDetail> = {
+  "lora-modern-kitchen": {
+      "slug": "lora-modern-kitchen",
+      "title": "Lora Handleless Architectural Suite",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Lora Handleless Architectural Suite | Cabivella UK Joinery",
+      "metaDescription": "Explore the Lora Handleless Architectural Suite. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3600 mm × 2300 mm × 650 mm) configuration.",
+      "description": "The Lora Handleless Architectural Suite is an architectural modern kitchen joinery suite engineered for British private residences. Specified with FSC-Certified Solid Ash Frame, Silk-Matt Polyurethane Lacquer, precision contemporary handleless & integrated channel profile, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/lora_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/lora_1.webp",
+          "/assets/img/models/kitchen_suites/lora_2.webp",
+          "/assets/img/models/kitchen_suites/lora_3.webp",
+          "/assets/img/models/kitchen_suites/lora_4.webp",
+          "/assets/img/models/kitchen_suites/lora_5.webp",
+          "/assets/img/models/kitchen_suites/lora_6.webp",
+          "/assets/img/models/kitchen_suites/lora_7.webp",
+          "/assets/img/models/kitchen_suites/lora_8.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3600 mm × 2300 mm × 650 mm)",
+      "materials": [
+          "FSC-Certified Solid Ash Frame",
+          "Silk-Matt Polyurethane Lacquer",
+          "Aluminium Gola Recessed Profiles",
+          "Blum Legrabox Running Gear"
+      ],
+      "finishOptions": [
+          "Alabaster Silk Matt",
+          "Deep Carbon",
+          "Smoked Oak Accent"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Seamless aluminium recessed Gola handle profile with integrated shadow gap",
+          "Full-height appliance housing with acoustic dampening pocket doors",
+          "Concealed LED channel lighting under wall modules and island plinth",
+          "Multi-tier cutlery organisation drawers with solid European timber inserts"
+      ],
+      "style": "modern"
+  },
+  "elia-modern-kitchen": {
+      "slug": "elia-modern-kitchen",
+      "title": "Elia Fluted Timber & Stone Island Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Elia Fluted Timber & Stone Island Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Elia Fluted Timber & Stone Island Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 4200 mm × 2400 mm × 900 mm island) configuration.",
+      "description": "The Elia Fluted Timber & Stone Island Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Precision Fluted European Oak, Composite Quartz Surface, precision textured vertical fluting & monolithic island, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/elia_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/elia_1.webp",
+          "/assets/img/models/kitchen_suites/elia_2.webp",
+          "/assets/img/models/kitchen_suites/elia_3.webp",
+          "/assets/img/models/kitchen_suites/elia_4.webp",
+          "/assets/img/models/kitchen_suites/elia_5.webp",
+          "/assets/img/models/kitchen_suites/elia_6.webp",
+          "/assets/img/models/kitchen_suites/elia_7.webp",
+          "/assets/img/models/kitchen_suites/elia_8.webp",
+          "/assets/img/models/kitchen_suites/elia_9.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4200 mm × 2400 mm × 900 mm island)",
+      "materials": [
+          "Precision Fluted European Oak",
+          "Composite Quartz Surface",
+          "High-Density Moisture-Resistant MDF",
+          "Grass Tiomos Hinges"
+      ],
+      "finishOptions": [
+          "Natural Raw Oak",
+          "Muted Olive Matt",
+          "Warm Bronze Trim"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Bespoke precision-machined vertical fluted timber cabinetry",
+          "Integrated cantilever breakfast bar with mitred waterfall stone edges",
+          "Concealed push-to-open service drawers with 70kg dynamic load capacity",
+          "Dedicated barista preparation station with anti-splash splashback"
+      ],
+      "style": "modern"
+  },
+  "marte-modern-kitchen": {
+      "slug": "marte-modern-kitchen",
+      "title": "Marte Minimalist Metallic Slab Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Marte Minimalist Metallic Slab Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Marte Minimalist Metallic Slab Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3800 mm × 2200 mm × 600 mm) configuration.",
+      "description": "The Marte Minimalist Metallic Slab Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Brushed Liquid Metal Finish, Anodised Architectural Profiles, precision ultra-slim 12mm door profile & metallic patina, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/marte_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/marte_1.webp",
+          "/assets/img/models/kitchen_suites/marte_1.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3800 mm × 2200 mm × 600 mm)",
+      "materials": [
+          "Brushed Liquid Metal Finish",
+          "Anodised Architectural Profiles",
+          "German Soft-Close Systems"
+      ],
+      "finishOptions": [
+          "Liquid Gunmetal",
+          "Burnished Brass",
+          "Titanium Silk"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Ultra-refined 12mm door thickness with reinforced internal honeycombing",
+          "Liquid metal hand-applied patina coating resistant to UV and thermal shock",
+          "Full-extension deep pan drawers with synchronised motion control"
+      ],
+      "style": "modern"
+  },
+  "vera-modern-kitchen": {
+      "slug": "vera-modern-kitchen",
+      "title": "Vera Architectural Glass & Timber Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Vera Architectural Glass & Timber Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Vera Architectural Glass & Timber Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 4500 mm × 2600 mm × 650 mm) configuration.",
+      "description": "The Vera Architectural Glass & Timber Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Anodised Slim Aluminium Framing, Smoked Bronze Toughened Glass, precision smoked glass display & architectural framework, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/vera_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/vera_1.webp",
+          "/assets/img/models/kitchen_suites/vera_2.webp",
+          "/assets/img/models/kitchen_suites/vera_3.webp",
+          "/assets/img/models/kitchen_suites/vera_4.webp",
+          "/assets/img/models/kitchen_suites/vera_5.webp",
+          "/assets/img/models/kitchen_suites/vera_6.webp",
+          "/assets/img/models/kitchen_suites/vera_7.webp",
+          "/assets/img/models/kitchen_suites/vera_8.webp",
+          "/assets/img/models/kitchen_suites/vera_9.webp",
+          "/assets/img/models/kitchen_suites/vera_10.webp",
+          "/assets/img/models/kitchen_suites/vera_11.webp",
+          "/assets/img/models/kitchen_suites/vera_12.webp",
+          "/assets/img/models/kitchen_suites/vera_13.webp",
+          "/assets/img/models/kitchen_suites/vera_14.webp",
+          "/assets/img/models/kitchen_suites/vera_15.webp",
+          "/assets/img/models/kitchen_suites/vera_16.webp",
+          "/assets/img/models/kitchen_suites/vera_17.webp",
+          "/assets/img/models/kitchen_suites/vera_18.webp",
+          "/assets/img/models/kitchen_suites/vera_19.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4500 mm × 2600 mm × 650 mm)",
+      "materials": [
+          "Anodised Slim Aluminium Framing",
+          "Smoked Bronze Toughened Glass",
+          "Natural Walnut Interior Liners"
+      ],
+      "finishOptions": [
+          "Smoked Glass & Bronze",
+          "Matt Anthracite",
+          "Oiled Canaletto Walnut"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Floor-to-ceiling illuminated glass vitrines with integrated micro-sensors",
+          "Continuous architectural horizontal shadow lines across all modules",
+          "Soft-closing pivot hinges fully concealed inside carcase top and bottom"
+      ],
+      "style": "modern"
+  },
+  "seta-modern-kitchen": {
+      "slug": "seta-modern-kitchen",
+      "title": "Seta Silk Touch Ergonomic Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Seta Silk Touch Ergonomic Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Seta Silk Touch Ergonomic Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3400 mm × 2200 mm × 600 mm) configuration.",
+      "description": "The Seta Silk Touch Ergonomic Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Thermal Super-Matt Acrylic Nanotech Panels, Solid Core Substrates, precision ultra-matt anti-fingerprint surfaces, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/seta_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/seta_1.webp",
+          "/assets/img/models/kitchen_suites/seta_2.webp",
+          "/assets/img/models/kitchen_suites/seta_3.webp",
+          "/assets/img/models/kitchen_suites/seta_4.webp",
+          "/assets/img/models/kitchen_suites/seta_5.webp",
+          "/assets/img/models/kitchen_suites/seta_6.webp",
+          "/assets/img/models/kitchen_suites/seta_7.webp",
+          "/assets/img/models/kitchen_suites/seta_8.webp",
+          "/assets/img/models/kitchen_suites/seta_9.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3400 mm × 2200 mm × 600 mm)",
+      "materials": [
+          "Thermal Super-Matt Acrylic Nanotech Panels",
+          "Solid Core Substrates",
+          "Blum Tandembox"
+      ],
+      "finishOptions": [
+          "Chalk White Matt",
+          "Cashmere Silk",
+          "Graphite Velvet"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Thermal healing micro-scratch surface with zero-reflection finish",
+          "Continuous horizontal grain orientation across all drawer stacks",
+          "Integrated recycling separation system within deep pull-out carcase"
+      ],
+      "style": "modern"
+  },
+  "luna-modern-kitchen": {
+      "slug": "luna-modern-kitchen",
+      "title": "Luna Slimline J-Pull Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Luna Slimline J-Pull Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Luna Slimline J-Pull Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3200 mm × 2200 mm × 600 mm) configuration.",
+      "description": "The Luna Slimline J-Pull Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Solid Core Milled MDF, Double-Cured Polyurethane Lacquer, precision integrated ergonomic j-pull contour, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/luna_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/luna_1.webp",
+          "/assets/img/models/kitchen_suites/luna_2.webp",
+          "/assets/img/models/kitchen_suites/luna_3.webp",
+          "/assets/img/models/kitchen_suites/luna_4.webp",
+          "/assets/img/models/kitchen_suites/luna_5.webp",
+          "/assets/img/models/kitchen_suites/luna_6.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3200 mm × 2200 mm × 600 mm)",
+      "materials": [
+          "Solid Core Milled MDF",
+          "Double-Cured Polyurethane Lacquer",
+          "Soft-Close Dampers"
+      ],
+      "finishOptions": [
+          "Pristine Gloss White",
+          "Dove Grey Matt",
+          "Midnight Navy"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Precision-routed deep finger-pull channel eliminating exterior handles",
+          "Mirror-flat lacquer polish achieving exceptional architectural depth",
+          "Heavy-duty internal corner pull-out shelving with anti-slip bases"
+      ],
+      "style": "modern"
+  },
+  "fila-modern-kitchen": {
+      "slug": "fila-modern-kitchen",
+      "title": "Fila Linear Groove & Shadowline Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Fila Linear Groove & Shadowline Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Fila Linear Groove & Shadowline Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 4000 mm × 2400 mm × 650 mm) configuration.",
+      "description": "The Fila Linear Groove & Shadowline Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Micro-Grooved European Oak, Powder-Coated Steel Frame, precision rhythmical linear slatting & pocket doors, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/fila_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/fila_1.webp",
+          "/assets/img/models/kitchen_suites/fila_2.webp",
+          "/assets/img/models/kitchen_suites/fila_3.webp",
+          "/assets/img/models/kitchen_suites/fila_4.webp",
+          "/assets/img/models/kitchen_suites/fila_5.webp",
+          "/assets/img/models/kitchen_suites/fila_6.webp",
+          "/assets/img/models/kitchen_suites/fila_7.webp",
+          "/assets/img/models/kitchen_suites/fila_8.webp",
+          "/assets/img/models/kitchen_suites/fila_9.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4000 mm × 2400 mm × 650 mm)",
+      "materials": [
+          "Micro-Grooved European Oak",
+          "Powder-Coated Steel Frame",
+          "Blum Servo-Drive"
+      ],
+      "finishOptions": [
+          "Charcoal Oak",
+          "Blonde Ash",
+          "Warm Stone Matt"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Rhythmical vertical groove detailing creating architectural texture",
+          "Electronic touch-to-open Servo-Drive mechanism on wall cabinets",
+          "Concealed breakfast nook concealed behind bi-fold sliding doors"
+      ],
+      "style": "modern"
+  },
+  "esso-modern-kitchen": {
+      "slug": "esso-modern-kitchen",
+      "title": "Esso Contemporary Monolith Suite",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Esso Contemporary Monolith Suite | Cabivella UK Joinery",
+      "metaDescription": "Explore the Esso Contemporary Monolith Suite. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 4400 mm × 2300 mm × 900 mm island) configuration.",
+      "description": "The Esso Contemporary Monolith Suite is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Ceramic Slab Facings, FSC-Timber Carcase, precision monolithic geometric proportions, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/esso_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/esso_1.webp",
+          "/assets/img/models/kitchen_suites/esso_2.webp",
+          "/assets/img/models/kitchen_suites/esso_3.webp",
+          "/assets/img/models/kitchen_suites/esso_4.webp",
+          "/assets/img/models/kitchen_suites/esso_5.webp",
+          "/assets/img/models/kitchen_suites/esso_6.webp",
+          "/assets/img/models/kitchen_suites/esso_7.webp",
+          "/assets/img/models/kitchen_suites/esso_8.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4400 mm × 2300 mm × 900 mm island)",
+      "materials": [
+          "Ceramic Slab Facings",
+          "FSC-Timber Carcase",
+          "Heavy-Duty Subframe"
+      ],
+      "finishOptions": [
+          "Pietra Grey Ceramic",
+          "Calacatta Gold Texture",
+          "Matt Slate"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Ultra-durable scratch-proof ceramic door fascias bonded to aluminium core",
+          "Monolithic island counter integrating flush induction and downdraft hood",
+          "Zero visible hardware with integrated acoustic soft-closing"
+      ],
+      "style": "modern"
+  },
+  "petra-modern-kitchen": {
+      "slug": "petra-modern-kitchen",
+      "title": "Petra Natural Stone & Timber Fusion Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Petra Natural Stone & Timber Fusion Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Petra Natural Stone & Timber Fusion Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 4600 mm × 2500 mm × 650 mm) configuration.",
+      "description": "The Petra Natural Stone & Timber Fusion Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Bookmatched Timber Veneers, Honed Quartzite, precision architectural stone & raw grain harmony, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/petra_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/petra_1.webp",
+          "/assets/img/models/kitchen_suites/petra_2.webp",
+          "/assets/img/models/kitchen_suites/petra_3.webp",
+          "/assets/img/models/kitchen_suites/petra_4.webp",
+          "/assets/img/models/kitchen_suites/petra_5.webp",
+          "/assets/img/models/kitchen_suites/petra_6.webp",
+          "/assets/img/models/kitchen_suites/petra_7.webp",
+          "/assets/img/models/kitchen_suites/petra_8.webp",
+          "/assets/img/models/kitchen_suites/petra_9.webp",
+          "/assets/img/models/kitchen_suites/petra_10.webp",
+          "/assets/img/models/kitchen_suites/petra_11.webp",
+          "/assets/img/models/kitchen_suites/petra_12.webp",
+          "/assets/img/models/kitchen_suites/petra_13.webp",
+          "/assets/img/models/kitchen_suites/petra_14.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4600 mm × 2500 mm × 650 mm)",
+      "materials": [
+          "Bookmatched Timber Veneers",
+          "Honed Quartzite",
+          "Stainless Steel Core"
+      ],
+      "finishOptions": [
+          "Weathered Oak",
+          "Silver Travertine Quartz",
+          "Burnished Steel"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Hand-selected bookmatched crown-cut timber door veneers",
+          "Seamless integrated stone sink with hand-grooved drainer channels",
+          "Heavy-duty modular interior fittings adjustable to 32mm increments"
+      ],
+      "style": "modern"
+  },
+  "opus-modern-kitchen": {
+      "slug": "opus-modern-kitchen",
+      "title": "Opus Executive High-Gloss Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Opus Executive High-Gloss Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Opus Executive High-Gloss Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3600 mm × 2300 mm × 600 mm) configuration.",
+      "description": "The Opus Executive High-Gloss Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Multi-Coat Hand-Buffed Polyester Lacquer, Aluminium Trims, precision deep mirror high-gloss & polished precision, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/opus_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/opus_1.webp",
+          "/assets/img/models/kitchen_suites/opus_2.webp",
+          "/assets/img/models/kitchen_suites/opus_3.webp",
+          "/assets/img/models/kitchen_suites/opus_4.webp",
+          "/assets/img/models/kitchen_suites/opus_5.webp",
+          "/assets/img/models/kitchen_suites/opus_6.webp",
+          "/assets/img/models/kitchen_suites/opus_7.webp",
+          "/assets/img/models/kitchen_suites/opus_8.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3600 mm × 2300 mm × 600 mm)",
+      "materials": [
+          "Multi-Coat Hand-Buffed Polyester Lacquer",
+          "Aluminium Trims",
+          "Blum Movento"
+      ],
+      "finishOptions": [
+          "Piano Black Gloss",
+          "Alabaster White Gloss",
+          "Champagne Metallic"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Automotive-grade 8-coat mirror lacquer buffed to brilliant optical clarity",
+          "Concealed running gear tested to 100,000 opening cycles",
+          "Built-in temperature-controlled wine storage tower joinery"
+      ],
+      "style": "modern"
+  },
+  "axis-modern-kitchen": {
+      "slug": "axis-modern-kitchen",
+      "title": "Axis Asymmetric Architecture Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Axis Asymmetric Architecture Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Axis Asymmetric Architecture Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 4100 mm × 2400 mm × 850 mm) configuration.",
+      "description": "The Axis Asymmetric Architecture Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Matte Acrylic Core, Brushed Brass Dividers, precision dynamic spatial volumes & floating island, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/axis_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/axis_1.webp",
+          "/assets/img/models/kitchen_suites/axis_2.webp",
+          "/assets/img/models/kitchen_suites/axis_3.webp",
+          "/assets/img/models/kitchen_suites/axis_4.webp",
+          "/assets/img/models/kitchen_suites/axis_5.webp",
+          "/assets/img/models/kitchen_suites/axis_6.webp",
+          "/assets/img/models/kitchen_suites/axis_7.webp",
+          "/assets/img/models/kitchen_suites/axis_8.webp",
+          "/assets/img/models/kitchen_suites/axis_9.webp",
+          "/assets/img/models/kitchen_suites/axis_10.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4100 mm × 2400 mm × 850 mm)",
+      "materials": [
+          "Matte Acrylic Core",
+          "Brushed Brass Dividers",
+          "Solid Walnut Drawers"
+      ],
+      "finishOptions": [
+          "Brushed Anthracite",
+          "Satin Gold",
+          "Raw Smoked Oak"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Cantilevered prep island creating an ethereal architectural floating effect",
+          "Dual-depth wall storage maximising ergonomics in compact ceiling heights",
+          "Custom integrated knife block and spice carousel joinery"
+      ],
+      "style": "modern"
+  },
+  "terra-modern-kitchen": {
+      "slug": "terra-modern-kitchen",
+      "title": "Terra Organic Warm Minimalist Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Terra Organic Warm Minimalist Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Terra Organic Warm Minimalist Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3800 mm × 2300 mm × 650 mm) configuration.",
+      "description": "The Terra Organic Warm Minimalist Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Fumed European Chestnut, Clay Matt Lacquer, precision earthy tonal textures & natural timber, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/terra_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/terra_1.webp",
+          "/assets/img/models/kitchen_suites/terra_2.webp",
+          "/assets/img/models/kitchen_suites/terra_3.webp",
+          "/assets/img/models/kitchen_suites/terra_4.webp",
+          "/assets/img/models/kitchen_suites/terra_5.webp",
+          "/assets/img/models/kitchen_suites/terra_6.webp",
+          "/assets/img/models/kitchen_suites/terra_7.webp",
+          "/assets/img/models/kitchen_suites/terra_8.webp",
+          "/assets/img/models/kitchen_suites/terra_9.webp",
+          "/assets/img/models/kitchen_suites/terra_10.webp",
+          "/assets/img/models/kitchen_suites/terra_11.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3800 mm × 2300 mm × 650 mm)",
+      "materials": [
+          "Fumed European Chestnut",
+          "Clay Matt Lacquer",
+          "Patinated Bronze"
+      ],
+      "finishOptions": [
+          "Warm Clay",
+          "Smoked Chestnut",
+          "Antique Bronze"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Soft organic bevelled door perimeters for an ultra-tactile touch",
+          "Integrated larder pull-outs with chrome wire and glass gallery rails",
+          "Warm recessed under-counter lighting casting 2700K ambient warmth"
+      ],
+      "style": "modern"
+  },
+  "otto-modern-kitchen": {
+      "slug": "otto-modern-kitchen",
+      "title": "Otto Pure Geometric Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Otto Pure Geometric Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Otto Pure Geometric Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3300 mm × 2200 mm × 600 mm) configuration.",
+      "description": "The Otto Pure Geometric Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Solid Compact Laminate, Laser-Edged Polymers, precision pure cubic precision & clean lines, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/otto_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/otto_1.webp",
+          "/assets/img/models/kitchen_suites/otto_2.webp",
+          "/assets/img/models/kitchen_suites/otto_3.webp",
+          "/assets/img/models/kitchen_suites/otto_4.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3300 mm × 2200 mm × 600 mm)",
+      "materials": [
+          "Solid Compact Laminate",
+          "Laser-Edged Polymers",
+          "Soft-Close Hardware"
+      ],
+      "finishOptions": [
+          "Nordic Birch",
+          "Polar White Matt",
+          "Gunmetal Rail"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Zero-joint laser-applied edge banding eliminating glue lines entirely",
+          "Cubic modular cabinetry configured for seamless appliance integration",
+          "Moisture-proof carcase construction guaranteed in heavy culinary use"
+      ],
+      "style": "modern"
+  },
+  "etna-modern-kitchen": {
+      "slug": "etna-modern-kitchen",
+      "title": "Etna Volcanic Dark Texture Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Etna Volcanic Dark Texture Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Etna Volcanic Dark Texture Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3900 mm × 2400 mm × 650 mm) configuration.",
+      "description": "The Etna Volcanic Dark Texture Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Textured Slate Melamine, Blackened Ash, precision deep textured contrast & tactile grain, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/etna_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/etna_1.webp",
+          "/assets/img/models/kitchen_suites/etna_2.webp",
+          "/assets/img/models/kitchen_suites/etna_3.webp",
+          "/assets/img/models/kitchen_suites/etna_4.webp",
+          "/assets/img/models/kitchen_suites/etna_5.webp",
+          "/assets/img/models/kitchen_suites/etna_6.webp",
+          "/assets/img/models/kitchen_suites/etna_7.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3900 mm × 2400 mm × 650 mm)",
+      "materials": [
+          "Textured Slate Melamine",
+          "Blackened Ash",
+          "Matte Black Aluminium"
+      ],
+      "finishOptions": [
+          "Basalt Slate",
+          "Carbon Ash",
+          "Oxidised Bronze"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Deep synchronous pore texture replicating hand-hewn volcanic stone",
+          "Full black-line interior carcases and dark drawer running gear",
+          "Pocket door coffee garage with heavy-duty heat-deflection lining"
+      ],
+      "style": "modern"
+  },
+  "ritmo-modern-kitchen": {
+      "slug": "ritmo-modern-kitchen",
+      "title": "Ritmo Rhythmic Proportions Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Ritmo Rhythmic Proportions Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Ritmo Rhythmic Proportions Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3700 mm × 2300 mm × 600 mm) configuration.",
+      "description": "The Ritmo Rhythmic Proportions Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Super-Matt Lacquered MDF, Anodised Channel Rails, precision synchronised drawer grids & clean rhythm, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/ritmo_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/ritmo_1.webp",
+          "/assets/img/models/kitchen_suites/ritmo_2.webp",
+          "/assets/img/models/kitchen_suites/ritmo_3.webp",
+          "/assets/img/models/kitchen_suites/ritmo_4.webp",
+          "/assets/img/models/kitchen_suites/ritmo_5.webp",
+          "/assets/img/models/kitchen_suites/ritmo_6.webp",
+          "/assets/img/models/kitchen_suites/ritmo_7.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3700 mm × 2300 mm × 600 mm)",
+      "materials": [
+          "Super-Matt Lacquered MDF",
+          "Anodised Channel Rails",
+          "Blum Legrabox"
+      ],
+      "finishOptions": [
+          "French Grey Matt",
+          "Taupe Velvet",
+          "Brushed Platinum"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Mathematically balanced horizontal drawer elevations",
+          "Slim 13mm double-walled drawer sides maximizing internal storage",
+          "Concealed waste management and cleaning caddy slide-outs"
+      ],
+      "style": "modern"
+  },
+  "effe-modern-kitchen": {
+      "slug": "effe-modern-kitchen",
+      "title": "Effe Framing Detail Modern Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Effe Framing Detail Modern Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Effe Framing Detail Modern Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3600 mm × 2250 mm × 650 mm) configuration.",
+      "description": "The Effe Framing Detail Modern Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Solid Oak Frame Trim, Matt Lacquer Infill, precision micro-borders & architectural chamfer, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/effe_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/effe_1.webp",
+          "/assets/img/models/kitchen_suites/effe_2.webp",
+          "/assets/img/models/kitchen_suites/effe_3.webp",
+          "/assets/img/models/kitchen_suites/effe_4.webp",
+          "/assets/img/models/kitchen_suites/effe_5.webp",
+          "/assets/img/models/kitchen_suites/effe_6.webp",
+          "/assets/img/models/kitchen_suites/effe_7.webp",
+          "/assets/img/models/kitchen_suites/effe_8.webp",
+          "/assets/img/models/kitchen_suites/effe_9.webp",
+          "/assets/img/models/kitchen_suites/effe_10.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3600 mm × 2250 mm × 650 mm)",
+      "materials": [
+          "Solid Oak Frame Trim",
+          "Matt Lacquer Infill",
+          "Soft-Close Hinges"
+      ],
+      "finishOptions": [
+          "Silk White",
+          "Slate Blue Matt",
+          "Natural Oak Trim"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Subtle 6mm picture-frame perimeter detail bridging classic and modern",
+          "Multi-point levelling feet enabling millimeter-perfect alignment",
+          "Fully integrated larder tower with tandem interior swing shelving"
+      ],
+      "style": "modern"
+  },
+  "pica-modern-kitchen": {
+      "slug": "pica-modern-kitchen",
+      "title": "Pica Compact Linear Urban Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Pica Compact Linear Urban Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Pica Compact Linear Urban Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3000 mm × 2200 mm × 600 mm) configuration.",
+      "description": "The Pica Compact Linear Urban Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with High-Density Polymer Panels, Integrated Pull Rails, precision smart urban compact joinery, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/pica_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/pica_1.webp",
+          "/assets/img/models/kitchen_suites/pica_2.webp",
+          "/assets/img/models/kitchen_suites/pica_3.webp",
+          "/assets/img/models/kitchen_suites/pica_4.webp",
+          "/assets/img/models/kitchen_suites/pica_5.webp",
+          "/assets/img/models/kitchen_suites/pica_6.webp",
+          "/assets/img/models/kitchen_suites/pica_7.webp",
+          "/assets/img/models/kitchen_suites/pica_8.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3000 mm × 2200 mm × 600 mm)",
+      "materials": [
+          "High-Density Polymer Panels",
+          "Integrated Pull Rails",
+          "Blum Tandem"
+      ],
+      "finishOptions": [
+          "Silk Alabaster",
+          "Pebble Grey",
+          "Brushed Nickel"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Engineered specifically for luxury London apartments and mews homes",
+          "Full-height pull-out bottle racks and spice organisers",
+          "Integrated plinth vacuum and hidden kick-step utility drawer"
+      ],
+      "style": "modern"
+  },
+  "lago-modern-kitchen": {
+      "slug": "lago-modern-kitchen",
+      "title": "Lago Open Horizon Island Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Lago Open Horizon Island Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Lago Open Horizon Island Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 4200 mm × 2400 mm × 950 mm island) configuration.",
+      "description": "The Lago Open Horizon Island Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Solid European Oak, Architectural Steel Uprights, precision panoramic open shelving & floating island, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/lago_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/lago_1.webp",
+          "/assets/img/models/kitchen_suites/lago_2.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4200 mm × 2400 mm × 950 mm island)",
+      "materials": [
+          "Solid European Oak",
+          "Architectural Steel Uprights",
+          "Matt Lacquer"
+      ],
+      "finishOptions": [
+          "Fumed Oak",
+          "Pure White Matt",
+          "Steel Accents"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Open architectural steel framing for displayed culinary ceramics",
+          "Generous 950mm wide preparation island with flush power points",
+          "Smooth soft-close gliding drawers with integrated timber cutlery trays"
+      ],
+      "style": "modern"
+  },
+  "mia-modern-kitchen": {
+      "slug": "mia-modern-kitchen",
+      "title": "Mia Pure Urban Practical Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Mia Pure Urban Practical Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Mia Pure Urban Practical Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3100 mm × 2150 mm × 600 mm) configuration.",
+      "description": "The Mia Pure Urban Practical Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Durable Melamine Surface, Aluminium Edge Profiles, precision clean streamlined utility, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/mia_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/mia_1.webp",
+          "/assets/img/models/kitchen_suites/mia_2.webp",
+          "/assets/img/models/kitchen_suites/mia_3.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3100 mm × 2150 mm × 600 mm)",
+      "materials": [
+          "Durable Melamine Surface",
+          "Aluminium Edge Profiles",
+          "Hettich Hinges"
+      ],
+      "finishOptions": [
+          "Soft Cream",
+          "Concrete Grey",
+          "Satin Chrome"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Resilient surface resistant to domestic kitchen impacts and detergents",
+          "Full-extension deep base drawers with acoustic dampening",
+          "Top-hinged lift-up wall cabinets with variable stay positioning"
+      ],
+      "style": "modern"
+  },
+  "neo-modern-kitchen": {
+      "slug": "neo-modern-kitchen",
+      "title": "Neo Handleless Pure Vision Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Neo Handleless Pure Vision Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Neo Handleless Pure Vision Kitchen. Bespoke British-designed modern kitchen cabinetry with Made to measure (typical run 3900 mm × 2350 mm × 650 mm) configuration.",
+      "description": "The Neo Handleless Pure Vision Kitchen is an architectural modern kitchen joinery suite engineered for British private residences. Specified with Super-Matt Nanotech Acrylic, Aluminium Continuous Rails, precision zero-distraction minimalist surface, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/neo_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/neo_1.webp",
+          "/assets/img/models/kitchen_suites/neo_2.webp",
+          "/assets/img/models/kitchen_suites/neo_3.webp",
+          "/assets/img/models/kitchen_suites/neo_4.webp",
+          "/assets/img/models/kitchen_suites/neo_5.webp",
+          "/assets/img/models/kitchen_suites/neo_6.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3900 mm × 2350 mm × 650 mm)",
+      "materials": [
+          "Super-Matt Nanotech Acrylic",
+          "Aluminium Continuous Rails",
+          "Blum Blumotion"
+      ],
+      "finishOptions": [
+          "Midnight Matt",
+          "Chalk Silk",
+          "Brushed Graphite"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Continuous horizontal and vertical Gola channel integration",
+          "Acoustically insulated integrated appliance housings",
+          "Factory pre-assembled carcase rigidity with 18mm solid back panels"
+      ],
+      "style": "modern"
+  },
+  "talia-classic-kitchen": {
+      "slug": "talia-classic-kitchen",
+      "title": "Talia Grand Classical Manor Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Talia Grand Classical Manor Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Talia Grand Classical Manor Kitchen. Bespoke British-designed classic kitchen cabinetry with Made to measure (typical run 4500 mm × 2500 mm × 650 mm) configuration.",
+      "description": "The Talia Grand Classical Manor Kitchen is an architectural classic kitchen joinery suite engineered for British private residences. Specified with Solid European Hardwood, Moulded Architectural Cornice, precision georgian inset shaker & fluted pilasters, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/talia_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/talia_1.webp",
+          "/assets/img/models/kitchen_suites/talia_2.webp",
+          "/assets/img/models/kitchen_suites/talia_3.webp",
+          "/assets/img/models/kitchen_suites/talia_4.webp",
+          "/assets/img/models/kitchen_suites/talia_5.webp",
+          "/assets/img/models/kitchen_suites/talia_6.webp",
+          "/assets/img/models/kitchen_suites/talia_7.webp",
+          "/assets/img/models/kitchen_suites/talia_8.webp",
+          "/assets/img/models/kitchen_suites/talia_9.webp",
+          "/assets/img/models/kitchen_suites/talia_10.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4500 mm × 2500 mm × 650 mm)",
+      "materials": [
+          "Solid European Hardwood",
+          "Moulded Architectural Cornice",
+          "Traditional Butt Hinges",
+          "Solid Oak Dovetail Drawers"
+      ],
+      "finishOptions": [
+          "Heritage Linen Matt",
+          "Georgian Green",
+          "Aged Burnished Brass"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Authentic in-frame Georgian cabinetry with mortise and tenon joinery",
+          "Solid English oak drawer boxes with traditional dovetail jointing",
+          "Classic fluted mantle hood housing over range cooker niche",
+          "Glazed upper crockery dressers with integrated internal warm illumination"
+      ],
+      "style": "classic"
+  },
+  "lea-classic-kitchen": {
+      "slug": "lea-classic-kitchen",
+      "title": "Lea Framed Contemporary Shaker Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Lea Framed Contemporary Shaker Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Lea Framed Contemporary Shaker Kitchen. Bespoke British-designed classic kitchen cabinetry with Made to measure (typical run 3800 mm × 2300 mm × 650 mm) configuration.",
+      "description": "The Lea Framed Contemporary Shaker Kitchen is an architectural classic kitchen joinery suite engineered for British private residences. Specified with Kiln-Dried European Hardwood, Solid Timber Core Panel, precision refined slim-bevel shaker, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/lea_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/lea_1.webp",
+          "/assets/img/models/kitchen_suites/lea_2.webp",
+          "/assets/img/models/kitchen_suites/lea_3.webp",
+          "/assets/img/models/kitchen_suites/lea_4.webp",
+          "/assets/img/models/kitchen_suites/lea_5.webp",
+          "/assets/img/models/kitchen_suites/lea_6.webp",
+          "/assets/img/models/kitchen_suites/lea_7.webp",
+          "/assets/img/models/kitchen_suites/lea_8.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3800 mm × 2300 mm × 650 mm)",
+      "materials": [
+          "Kiln-Dried European Hardwood",
+          "Solid Timber Core Panel",
+          "Blum Soft-Close"
+      ],
+      "finishOptions": [
+          "Porcelain White Matt",
+          "Pale Smoke Grey",
+          "Antique Pewter Handles"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Delicate 20mm slim-perimeter Shaker stile creating timeless elegance",
+          "Hand-sprayed multi-coat eggshell finish with washable durability",
+          "Generous double pantry larder with internal spice racks and oak drawers",
+          "Freestanding style culinary preparation island with seating overhang"
+      ],
+      "style": "classic"
+  },
+  "mona-classic-kitchen": {
+      "slug": "mona-classic-kitchen",
+      "title": "Mona Country House Heritage Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Mona Country House Heritage Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Mona Country House Heritage Kitchen. Bespoke British-designed classic kitchen cabinetry with Made to measure (typical run 4100 mm × 2400 mm × 650 mm) configuration.",
+      "description": "The Mona Country House Heritage Kitchen is an architectural classic kitchen joinery suite engineered for British private residences. Specified with Solid Oak & Hardwood, Traditional Tongue & Groove Infill, precision cotswolds country joinery & plate racks, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/mona_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/mona_1.webp",
+          "/assets/img/models/kitchen_suites/mona_2.webp",
+          "/assets/img/models/kitchen_suites/mona_3.webp",
+          "/assets/img/models/kitchen_suites/mona_4.webp",
+          "/assets/img/models/kitchen_suites/mona_5.webp",
+          "/assets/img/models/kitchen_suites/mona_6.webp",
+          "/assets/img/models/kitchen_suites/mona_7.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4100 mm × 2400 mm × 650 mm)",
+      "materials": [
+          "Solid Oak & Hardwood",
+          "Traditional Tongue & Groove Infill",
+          "Brass Horology Pulls"
+      ],
+      "finishOptions": [
+          "Sage Botanical Green",
+          "Warm Terracotta",
+          "Raw Oiled Oak"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Classic open plate rack and tongue-and-groove end panel architecture",
+          "Bespoke chimney surround joinery framing cookers and extractors",
+          "Solid timber dovetailed cutlery organisation and pull-out chopping boards",
+          "Twin ceramic Belfast sink cabinet with fluted drainage surrounds"
+      ],
+      "style": "classic"
+  },
+  "arya-classic-kitchen": {
+      "slug": "arya-classic-kitchen",
+      "title": "Arya Classical Architectural Shaker Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Arya Classical Architectural Shaker Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Arya Classical Architectural Shaker Kitchen. Bespoke British-designed classic kitchen cabinetry with Made to measure (typical run 3900 mm × 2350 mm × 650 mm) configuration.",
+      "description": "The Arya Classical Architectural Shaker Kitchen is an architectural classic kitchen joinery suite engineered for British private residences. Specified with Solid Hardwood Frame, Moisture-Resistant Center Panel, precision timeless english shaker proportions, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/arya_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/arya_1.webp",
+          "/assets/img/models/kitchen_suites/arya_2.webp",
+          "/assets/img/models/kitchen_suites/arya_3.webp",
+          "/assets/img/models/kitchen_suites/arya_4.webp",
+          "/assets/img/models/kitchen_suites/arya_5.webp",
+          "/assets/img/models/kitchen_suites/arya_6.webp",
+          "/assets/img/models/kitchen_suites/arya_7.webp",
+          "/assets/img/models/kitchen_suites/arya_8.webp",
+          "/assets/img/models/kitchen_suites/arya_9.webp",
+          "/assets/img/models/kitchen_suites/arya_10.webp",
+          "/assets/img/models/kitchen_suites/arya_11.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 3900 mm × 2350 mm × 650 mm)",
+      "materials": [
+          "Solid Hardwood Frame",
+          "Moisture-Resistant Center Panel",
+          "Concealed Soft-Close"
+      ],
+      "finishOptions": [
+          "Oxford Navy Matt",
+          "Chalk White Eggshell",
+          "Polished Nickel Knobs"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Quintessential English proportions suited to Victorian and Edwardian residences",
+          "Deep pan drawers with 50kg load rating and smooth soft-return dampers",
+          "Full height pantry with internal stone cold shelf for artisan provisions",
+          "Integrated cornice and skirting detailing matching historical moulding"
+      ],
+      "style": "classic"
+  },
+  "hera-classic-kitchen": {
+      "slug": "hera-classic-kitchen",
+      "title": "Hera Classical Moulded Estate Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Hera Classical Moulded Estate Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Hera Classical Moulded Estate Kitchen. Bespoke British-designed classic kitchen cabinetry with Made to measure (typical run 4300 mm × 2450 mm × 650 mm) configuration.",
+      "description": "The Hera Classical Moulded Estate Kitchen is an architectural classic kitchen joinery suite engineered for British private residences. Specified with Solid European Beech Frame, Cast Brass Hardware, precision deep ogee mouldings & glazed vitrines, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/hera_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/hera_1.webp",
+          "/assets/img/models/kitchen_suites/hera_2.webp",
+          "/assets/img/models/kitchen_suites/hera_3.webp",
+          "/assets/img/models/kitchen_suites/hera_4.webp",
+          "/assets/img/models/kitchen_suites/hera_5.webp",
+          "/assets/img/models/kitchen_suites/hera_6.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4300 mm × 2450 mm × 650 mm)",
+      "materials": [
+          "Solid European Beech Frame",
+          "Cast Brass Hardware",
+          "Blum Motion Dampers"
+      ],
+      "finishOptions": [
+          "Alabaster Ivory",
+          "Regency Blue",
+          "Polished Unlacquered Brass"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Detailed ogee stepped profile on door rails and perimeter framing",
+          "Arch-top illuminated display vitrines with bevelled glass panes",
+          "Centrepiece kitchen island with curved corner cabinetry and wine racks",
+          "Solid timber pull-out trays and spice pull-out carousels"
+      ],
+      "style": "classic"
+  },
+  "sera-classic-kitchen": {
+      "slug": "sera-classic-kitchen",
+      "title": "Sera Timeless Period Joinery Kitchen",
+      "category": "kitchens",
+      "categoryTitle": "Kitchens",
+      "metaTitle": "Sera Timeless Period Joinery Kitchen | Cabivella UK Joinery",
+      "metaDescription": "Explore the Sera Timeless Period Joinery Kitchen. Bespoke British-designed classic kitchen cabinetry with Made to measure (typical run 4400 mm × 2500 mm × 650 mm) configuration.",
+      "description": "The Sera Timeless Period Joinery Kitchen is an architectural classic kitchen joinery suite engineered for British private residences. Specified with Solid Hardwood In-Frame Construction, Beaded Stiles, precision period british townhouse cabinetry, and tailored around the cadence of contemporary culinary living.",
+      "image": "/assets/img/models/kitchen_suites/sera_1.webp",
+      "gallery": [
+          "/assets/img/models/kitchen_suites/sera_1.webp",
+          "/assets/img/models/kitchen_suites/sera_2.webp",
+          "/assets/img/models/kitchen_suites/sera_3.webp",
+          "/assets/img/models/kitchen_suites/sera_4.webp",
+          "/assets/img/models/kitchen_suites/sera_5.webp",
+          "/assets/img/models/kitchen_suites/sera_6.webp",
+          "/assets/img/models/kitchen_suites/sera_7.webp",
+          "/assets/img/models/kitchen_suites/sera_8.webp",
+          "/assets/img/models/kitchen_suites/sera_9.webp",
+          "/assets/img/models/kitchen_suites/sera_10.webp",
+          "/assets/img/models/kitchen_suites/sera_11.webp",
+          "/assets/img/models/kitchen_suites/sera_12.webp",
+          "/assets/img/models/kitchen_suites/sera_13.webp"
+      ],
+      "dimensionsMm": "Made to measure (typical run 4400 mm × 2500 mm × 650 mm)",
+      "materials": [
+          "Solid Hardwood In-Frame Construction",
+          "Beaded Stiles",
+          "Solid Oak Drawers"
+      ],
+      "finishOptions": [
+          "Pebble Grey Matt",
+          "Deep Forest Green",
+          "Antique Brass Drop Handles"
+      ],
+      "installationScope": "Delivered in factory pre-assembled rigid modules ready for specialist fitter installation",
+      "keyFeatures": [
+          "Traditional beaded front face frame joinery hand-assembled by artisans",
+          "Twin larder cupboards with door-mounted spice racks and deep baskets",
+          "Meticulous tongue-and-groove backings within open display niches",
+          "Custom-profile plinth mouldings designed to scribe cleanly to uneven period floors"
+      ],
+      "style": "classic"
+  },
   "shaker-kitchens": {
     "slug": "shaker-kitchens",
     "category": "kitchens",
