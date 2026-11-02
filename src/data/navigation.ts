@@ -9,11 +9,11 @@ export const siteConfig = {
   domain: 'cabivella.co.uk',
   siteUrl: 'https://cabivella.co.uk',
   tagline: 'Considered Cabinetry for UK Homes',
-  email: 'barisbagirlar@gmail.com',
+  email: 'enquiries@cabivella.co.uk',
   phone: '+44 7898 262110',
   phoneClean: '+447898262110',
   whatsappUrl: 'https://wa.me/447898262110?text=Hello%20Cabivella%2C%20I%20would%20like%20to%20enquire%20about%20bespoke%20cabinetry%20for%20my%20home.',
-  linkedinUrl: 'https://www.linkedin.com/in/barisbagirlar/',
+  linkedinUrl: 'https://www.linkedin.com/in/cabivellauk/',
   address: {
     country: 'United Kingdom',
     region: 'London & Nationwide'

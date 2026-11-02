@@ -17,7 +17,7 @@ const { items } = Astro.props;
     const isLast = index === items.length - 1;
     return (
       <>
-        <span aria-hidden="true" style="colour: #bbb;">/</span>
+        <span aria-hidden="true" style="color: #bbb;">/</span>
         {isLast ? (
           <span aria-current="page">{item.name}</span>
         ) : (

@@ -1,518 +1,207 @@
 ---
-import { mainNav, siteConfig } from '../data/navigation';
 import WhatsAppButton from './WhatsAppButton.astro';
 
-export interface Props {
+interface Props {
   currentPath?: string;
 }
 
 const { currentPath = '/' } = Astro.props;
+
+const navItems = [
+  { href: '/kitchens/', label: 'Kitchens' },
+  { href: '/collections/bathrooms/', label: 'Bathrooms' },
+  { href: '/pantry/', label: 'Pantry' },
+  { href: '/coffee-stations/', label: 'Coffee Stations' },
+  { href: '/storage/', label: 'Storage' },
+];
+
+const bathroomCollections = [
+  { href: '/collections/signature-suites/', title: 'Signature Suites', desc: 'Curated vanity ensembles & fluted wall-hung suites' },
+  { href: '/collections/aquashield-vanities/', title: 'Aquashield Vanities', desc: '100% moisture-sealed solid thermal units' },
+  { href: '/collections/sculptural-contours/', title: 'Sculptural Contours', desc: 'Organic curves, integrated basins & bespoke consoles' },
+  { href: '/collections/modular-freestanding/', title: 'Modular & Freestanding', desc: 'Flexible modular storage & luxury side cabinets' },
+  { href: '/collections/compact-cloakroom/', title: 'Compact Cloakroom', desc: 'Space-optimised vanities for powder rooms' },
+  { href: '/collections/double-basin-sanctuaries/', title: 'Double Basin Sanctuaries', desc: 'Master bathroom double console arrangements' },
+  { href: '/collections/illuminated-mirrors/', title: 'Illuminated Mirrors & Cabinets', desc: 'LED defogger mirrors, touch sensors & hidden storage' },
+  { href: '/collections/architectural-finishes/', title: 'Architectural Finishes', desc: 'Fluted oak, matte lacquer & brushed bronze accents' }
+];
+
+const isActive = (href: string) => {
+  if (href === '/') return currentPath === '/';
+  return currentPath.startsWith(href);
+};
 ---
 
 <header class="site-header" id="site-header">
-  <!-- UK Top Utility Bar -->
+  <!-- Top Utility Bar -->
   <div class="uk-utility">
-    <div class="uk-utility-inner wrap">
-      <span class="utility-country">
-        <span aria-hidden="true">🇬🇧</span> UNITED KINGDOM
-      </span>
-      <span class="utility-separator"></span>
-      <span class="utility-note">Cabinetry for considered interiors</span>
-      <span class="utility-spacer"></span>
-      <a href={`mailto:${siteConfig.email}`} title="Direct Official Email">
-        <span>✉</span> {siteConfig.email}
-      </a>
-      <span class="utility-separator"></span>
-      <a href="/trade/">For Trade & Professionals ↗</a>
-      <a href="/our-story/">Our Story</a>
+    <div class="container">
+      <div class="uk-utility-inner">
+        <div class="utility-left">
+          <span class="uk-flag-indicator">🇬🇧 <strong>UNITED KINGDOM</strong></span>
+          <span class="utility-separator">|</span>
+          <span class="utility-tagline">Cabinetry for considered interiors</span>
+        </div>
+        <div class="utility-right">
+          <a href="mailto:enquiries@cabivella.co.uk" class="utility-link">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>enquiries@cabivella.co.uk</span>
+          </a>
+          <span class="utility-separator">|</span>
+          <a href="/trade/" class="utility-link">For Trade & Specification ↗</a>
+          <span class="utility-separator">|</span>
+          <a href="/our-story/" class="utility-link">Our Story</a>
+        </div>
+      </div>
     </div>
   </div>
 
   <!-- Main Navigation Bar -->
-  <div class="head-inner wrap">
-    <!-- Brand Identity & Logo -->
-    <a href="/" class="identity" aria-label="Cabivella home">
-      <img 
-        src="/assets/img/cabivella-crest-transparent.webp" 
-        alt="Cabivella Crest" 
-        class="brand-crest" 
-        width="58" 
-        height="52"
-        loading="eager"
-        decoding="async"
-      />
-      <span class="brand-typography">
-        <strong>CABIVELLA</strong>
-        <small><i></i> CO.UK <i></i></small>
-      </span>
-    </a>
+  <div class="main-nav-wrapper">
+    <div class="container">
+      <div class="head-inner">
+        <!-- Brand Identity -->
+        <a href="/" class="identity" aria-label="Cabivella UK Home">
+          <img
+            src="/images/logo/cabivella-crest.png"
+            alt="Cabivella Crest"
+            class="crest-mark"
+            width="52"
+            height="46"
+            loading="eager"
+            decoding="async"
+          />
+          <div class="brand-copy">
+            <span class="brand-name">CABIVELLA</span>
+            <span class="brand-sub">C O . U K</span>
+          </div>
+        </a>
 
-    <!-- Desktop Navigation with Collections Mega Menu -->
-    <nav class="desktop-nav" aria-label="Main Navigation">
-      <a href="/collections/kitchens/" class={currentPath.startsWith('/collections/kitchens/') ? 'is-active' : ''}>Kitchens</a>
-      <a href="/collections/bathrooms/" class={currentPath.startsWith('/collections/bathrooms/') ? 'is-active' : ''}>Bathrooms</a>
-      <a href="/collections/pantry-larder/" class={currentPath.startsWith('/collections/pantry-larder/') ? 'is-active' : ''}>Pantry</a>
-      <a href="/collections/coffee-stations/" class={currentPath.startsWith('/collections/coffee-stations/') ? 'is-active' : ''}>Coffee Stations</a>
-      <a href="/collections/fitted-storage/" class={currentPath.startsWith('/collections/fitted-storage/') ? 'is-active' : ''}>Storage</a>
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav" aria-label="Primary Navigation">
+          {navItems.map((item) => (
+            <a
+              href={item.href}
+              class:list={['nav-item', { active: isActive(item.href) }]}
+            >
+              {item.label}
+            </a>
+          ))}
 
-      <!-- V6 Accessible Collections Mega Menu -->
-      <details class="nav-mega" id="nav-mega-details">
-        <summary>
-          <span>Collections</span>
-          <span aria-hidden="true" class="chevron">⌄</span>
-        </summary>
-        <div class="mega-panel">
-          <div class="wrap mega-panel-inner">
-            <div class="mega-head">
-              <small>DISCOVER CABIVELLA</small>
-              <p>Designed for real rooms.</p>
-              <span>Explore our 6 cabinetry collections and 14 individual design directions.</span>
-            </div>
-            <div class="mega-grid">
-              <a href="/collections/kitchens/"><strong>Kitchens Collection</strong></a>
-              <a href="/collections/kitchens/shaker-kitchens/">Shaker kitchens</a>
-              <a href="/collections/kitchens/contemporary-kitchens/">Contemporary kitchens</a>
-              <a href="/collections/kitchens/compact-kitchens/">Compact kitchens</a>
+          <!-- Collections Mega Menu Dropdown -->
+          <div class="dropdown-parent">
+            <button
+              class:list={['nav-item', 'dropdown-trigger', { active: currentPath.startsWith('/collections/') }]}
+              aria-haspopup="true"
+              aria-expanded="false"
+              type="button"
+            >
+              <span>Collections</span>
+              <svg width="10" height="6" viewBox="0 0 10 6" fill="none" class="dropdown-arrow" aria-hidden="true">
+                <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
 
-              <a href="/collections/bathrooms/"><strong>Bathrooms Collection</strong></a>
-              <a href="/collections/bathrooms/wall-hung-vanities/">Wall-hung vanity units</a>
-              <a href="/collections/bathrooms/fluted-vanities/">Fluted vanity cabinets</a>
-              <a href="/collections/bathrooms/tall-bathroom-storage/">Tall bathroom storage</a>
-
-              <a href="/collections/pantry-larder/"><strong>Pantry & Larder</strong></a>
-              <a href="/collections/pantry-larder/tall-larder-cupboards/">Tall larder cupboards</a>
-              <a href="/collections/pantry-larder/corner-pantry-storage/">Corner pantry storage</a>
-
-              <a href="/collections/coffee-stations/"><strong>Coffee Stations</strong></a>
-              <a href="/collections/coffee-stations/pocket-door-coffee-stations/">Pocket-door coffee stations</a>
-              <a href="/collections/coffee-stations/open-shelf-coffee-cabinets/">Open-shelf coffee cabinets</a>
-
-              <a href="/collections/fitted-storage/"><strong>Fitted Storage</strong></a>
-              <a href="/collections/fitted-storage/alcove-cupboards/">Alcove cupboards</a>
-              <a href="/collections/fitted-storage/utility-room-cabinets/">Utility room cabinets</a>
-
-              <a href="/collections/kitchen-doors/"><strong>Kitchen Doors</strong></a>
-              <a href="/collections/kitchen-doors/shaker-replacement-doors/">Shaker replacement doors</a>
-              <a href="/collections/kitchen-doors/handleless-cabinet-fronts/">Handleless cabinet fronts</a>
+            <div class="mega-dropdown-menu" role="menu" aria-label="Collections Menu">
+              <div class="mega-dropdown-header">
+                <div class="mega-header-text">
+                  <span class="mega-eyebrow">BATHROOM COLLECTIONS</span>
+                  <span class="mega-subtitle">Curated architectural vanity suites & bespoke cabinetry</span>
+                </div>
+                <a href="/collections/bathrooms/" class="mega-view-all">View All Bathrooms →</a>
+              </div>
+              <div class="mega-grid">
+                {bathroomCollections.map((col) => (
+                  <a href={col.href} class="mega-card" role="menuitem">
+                    <span class="mega-title">{col.title}</span>
+                    <span class="mega-desc">{col.desc}</span>
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
+
+          <a href="/our-story/" class:list={['nav-item', { active: isActive('/our-story/') }]}>
+            Our Story
+          </a>
+        </nav>
+
+        <!-- Right Actions: Search + WhatsApp + Enquire -->
+        <div class="header-actions">
+          <!-- Minimal Search Trigger -->
+          <a href="/search/" class="search-trigger-btn" aria-label="Search collections and cabinetry">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+          </a>
+
+          <!-- WhatsApp Concierge Pill -->
+          <a
+            href="https://wa.me/447898262110?text=Hello%20Cabivella,%20I%20would%20like%20to%20enquire%20about%20your%20cabinetry"
+            class="header-whatsapp-pill"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp Concierge: +44 7898 262110"
+          >
+            <span class="wa-dot"></span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/>
+            </svg>
+            <span class="wa-text">+44 7898 262110</span>
+          </a>
+
+          <!-- Enquire CTA Button -->
+          <a href="/contact/" class="btn btn-primary header-enquire-btn">
+            <span>Enquire</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            type="button"
+            class="mobile-toggle"
+            id="mobile-menu-toggle"
+            aria-label="Toggle Mobile Menu"
+            aria-expanded="false"
+            aria-controls="mobile-drawer"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
         </div>
-      </details>
-
-      <a href="/our-story/" class={currentPath === '/our-story/' ? 'is-active' : ''}>Our Story</a>
-    </nav>
-
-    <!-- Header Actions (Search, WhatsApp, LinkedIn, Enquire) -->
-    <div class="header-actions">
-      <!-- Search Trigger Button -->
-      <button 
-        type="button" 
-        class="header-search-btn" 
-        id="open-search-btn"
-        aria-label="Search collections"
-        aria-haspopup="dialog"
-        aria-controls="site-search-dialog"
-      >
-        <svg aria-hidden="true" fill="none" height="18" stroke="currentColour" stroke-width="1.8" viewBox="0 0 24 24" width="18">
-          <circle cx="10.5" cy="10.5" r="6.5"></circle>
-          <path d="m15.5 15.5 5 5"></path>
-        </svg>
-      </button>
-
-      <!-- Direct WhatsApp Concierge Button -->
-      <WhatsAppButton floating={false} />
-
-      <!-- LinkedIn Connection -->
-      <a 
-        href={siteConfig.linkedinUrl} 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        class="header-outline-btn linkedin-header-btn"
-        aria-label="Connect on LinkedIn (Barış Bağırlı)"
-        title="Connect with Barış Bağırlı on LinkedIn"
-      >
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true">
-          <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.32a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/>
-        </svg>
-      </a>
-
-      <!-- Primary Enquire CTA -->
-      <a href="/enquire/" class="header-contact">
-        <span>Enquire About a Project</span>
-        <span aria-hidden="true">→</span>
-      </a>
+      </div>
     </div>
-
-    <!-- Mobile Menu Toggle Button -->
-    <button 
-      type="button" 
-      class="menu-toggle" 
-      id="menu-toggle-btn"
-      aria-label="Toggle navigation menu"
-      aria-expanded="false"
-      aria-controls="mobile-nav-menu"
-    >
-      <span class="menu-lines" aria-hidden="true">
-        <i></i><i></i>
-      </span>
-      <span class="menu-title">Menu</span>
-    </button>
   </div>
 
   <!-- Mobile Drawer Menu -->
-  <nav class="mobile-menu" id="mobile-nav-menu" hidden aria-label="Mobile Navigation">
-    <div class="mobile-v6-list">
-      {mainNav.map((item) => (
-        <a href={item.href}>{item.label}</a>
-      ))}
-    </div>
-    <div class="mobile-bottom">
-      <a href={`mailto:${siteConfig.email}`}>✉ Email: {siteConfig.email}</a>
-      <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer">💬 WhatsApp: {siteConfig.phone}</a>
-      <a href={siteConfig.linkedinUrl} target="_blank" rel="noopener noreferrer">💼 LinkedIn: Barış Bağırlı</a>
-      <a href="/materials/">Materials & Finishes</a>
-      <a href="/trade/">Trade & Professionals</a>
-      <a href="/enquire/" class="header-contact" style="justify-content: center; margin-top: 10px;">
-        Enquire About a Project →
-      </a>
-    </div>
-  </nav>
-
-  <!-- V6 Fast Search Modal Dialog -->
-  <dialog class="site-search-dialog" id="site-search-dialog" aria-labelledby="search-dialog-title">
-    <div class="site-search-box">
-      <div class="site-search-top">
-        <h2 id="search-dialog-title">Find your cabinetry collection</h2>
-        <button type="button" class="search-close-btn" id="search-close-btn" aria-label="Close search">×</button>
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer-inner">
+      <div class="mobile-nav-links">
+        {navItems.map((item) => (
+          <a href={item.href} class="mobile-nav-item">{item.label}</a>
+        ))}
+        <div class="mobile-accordion-heading">BATHROOM COLLECTIONS</div>
+        <div class="mobile-sublinks">
+          {bathroomCollections.map((col) => (
+            <a href={col.href} class="mobile-sublink">{col.title}</a>
+          ))}
+        </div>
+        <a href="/our-story/" class="mobile-nav-item">Our Story</a>
+        <a href="/trade/" class="mobile-nav-item">Trade & Professionals</a>
       </div>
-      <label for="site-search-input" class="search-label">Search kitchens, bathrooms, pantries and cabinetry</label>
-      <input 
-        type="search" 
-        id="site-search-input" 
-        placeholder="Try ‘Shaker kitchen’, ‘wall-hung vanity’ or ‘pantry’..." 
-        autocomplete="off" 
-      />
-      <div id="site-search-results" class="search-results-list" role="status" aria-live="polite"></div>
+      <div class="mobile-drawer-footer">
+        <a href="/contact/" class="btn btn-primary btn-block">Enquire About a Project →</a>
+        <a
+          href="https://wa.me/447898262110"
+          class="btn btn-secondary btn-block mt-3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp Concierge (+44 7898 262110)
+        </a>
+      </div>
     </div>
-  </dialog>
+  </div>
 </header>
-
-<style>
-  /* Header Mega Menu Styles */
-  .nav-mega {
-    position: relative;
-  }
-
-  .nav-mega summary {
-    cursor: pointer;
-    list-style: none;
-    font-family: var(--font-heading);
-    font-size: 13px;
-    font-weight: 500;
-    colour: #384239;
-    padding: 12px 0;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .nav-mega summary::-webkit-details-marker {
-    display: none;
-  }
-
-  .nav-mega summary .chevron {
-    font-size: 14px;
-    transition: transform 0.2s ease;
-  }
-
-  .nav-mega[open] summary .chevron {
-    transform: rotate(180deg);
-  }
-
-  .mega-panel {
-    position: absolute;
-    top: calc(100% + 14px);
-    left: -180px;
-    width: 860px;
-    background: #ffffff;
-    border: 1px solid var(--line);
-    border-radius: 4px;
-    box-shadow: 0 20px 48px rgba(18, 30, 22, 0.14);
-    padding: 24px;
-    z-index: 200;
-  }
-
-  .mega-panel-inner {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 28px;
-  }
-
-  .mega-head {
-    border-right: 1px solid var(--border-subtle);
-    padding-right: 20px;
-  }
-
-  .mega-head small {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.16em;
-    colour: var(--gold-dark);
-    display: block;
-  }
-
-  .mega-head p {
-    font-family: var(--font-heading);
-    font-size: 20px;
-    font-weight: 700;
-    margin: 8px 0 6px;
-    colour: var(--text);
-  }
-
-  .mega-head span {
-    font-size: 12px;
-    colour: var(--muted);
-    line-height: 1.5;
-    display: block;
-  }
-
-  .mega-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px 18px;
-  }
-
-  .mega-grid a {
-    font-size: 13px;
-    colour: #404c42;
-    padding: 4px 0;
-    border-bottom: 1px solid #f6f3eb;
-    transition: colour 0.15s ease;
-  }
-
-  .mega-grid a:hover {
-    colour: var(--gold-dark);
-  }
-
-  .mega-grid a strong {
-    colour: var(--green);
-    font-weight: 600;
-  }
-
-  /* Search Button & Dialog */
-  .header-search-btn {
-    background: transparent;
-    border: 1px solid var(--line);
-    border-radius: 2px;
-    width: 38px;
-    height: 38px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    colour: var(--text);
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-
-  .header-search-btn:hover {
-    border-colour: var(--gold);
-    colour: var(--gold-dark);
-  }
-
-  .site-search-dialog {
-    border: 0;
-    border-radius: 6px;
-    padding: 0;
-    width: 90%;
-    max-width: 620px;
-    background: transparent;
-    box-shadow: 0 24px 72px rgba(10, 24, 16, 0.4);
-  }
-
-  .site-search-dialog::backdrop {
-    background: rgba(14, 24, 18, 0.75);
-    backdrop-filter: blur(4px);
-  }
-
-  .site-search-box {
-    background: #ffffff;
-    padding: 28px;
-    border: 1px solid #d8d3c8;
-    border-radius: 6px;
-  }
-
-  .site-search-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
-  }
-
-  .site-search-top h2 {
-    font-size: 20px;
-    margin: 0;
-  }
-
-  .search-close-btn {
-    background: transparent;
-    border: 0;
-    font-size: 28px;
-    line-height: 1;
-    colour: #666;
-    cursor: pointer;
-  }
-
-  .search-label {
-    display: block;
-    font-size: 12px;
-    font-weight: 600;
-    colour: var(--muted);
-    margin-bottom: 8px;
-  }
-
-  #site-search-input {
-    width: 100%;
-    padding: 13px 16px;
-    font-size: 15px;
-    border: 1px solid #c9c3b6;
-    border-radius: 4px;
-    background: #fbfaf6;
-  }
-
-  #site-search-input:focus {
-    outline: none;
-    border-colour: var(--gold);
-    background: #ffffff;
-  }
-
-  .search-results-list {
-    margin-top: 18px;
-    display: flex;
-    flex-direction: column;
-    max-height: 320px;
-    overflow-y: auto;
-  }
-
-  .search-result-item {
-    padding: 10px 12px;
-    border-bottom: 1px solid #f0ece3;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    colour: var(--text);
-  }
-
-  .search-result-item:hover {
-    background: #f6f3eb;
-    colour: var(--gold-dark);
-  }
-</style>
-
-<script>
-  // Mobile drawer navigation
-  const toggleBtn = document.getElementById('menu-toggle-btn');
-  const mobileMenu = document.getElementById('mobile-nav-menu');
-
-  if (toggleBtn && mobileMenu) {
-    toggleBtn.addEventListener('click', () => {
-      const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
-      toggleBtn.setAttribute('aria-expanded', String(!isExpanded));
-      if (isExpanded) {
-        mobileMenu.setAttribute('hidden', '');
-      } else {
-        mobileMenu.removeAttribute('hidden');
-      }
-    });
-  }
-
-  // Mega menu outside click & Escape close
-  const megaDetails = document.getElementById('nav-mega-details') as HTMLDetailsElement;
-  if (megaDetails) {
-    document.addEventListener('click', (e) => {
-      if (!megaDetails.contains(e.target as Node)) {
-        megaDetails.removeAttribute('open');
-      }
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        megaDetails.removeAttribute('open');
-      }
-    });
-  }
-
-  // Search dialog & instant collections filtering
-  const searchBtn = document.getElementById('open-search-btn');
-  const searchDialog = document.getElementById('site-search-dialog') as HTMLDialogElement;
-  const searchClose = document.getElementById('search-close-btn');
-  const searchInput = document.getElementById('site-search-input') as HTMLInputElement;
-  const resultsContainer = document.getElementById('site-search-results');
-
-  const searchableItems = [
-    { title: 'Shaker Kitchens', category: 'Kitchens', url: '/collections/kitchens/shaker-kitchens/' },
-    { title: 'Contemporary Kitchens', category: 'Kitchens', url: '/collections/kitchens/contemporary-kitchens/' },
-    { title: 'Compact Kitchens', category: 'Kitchens', url: '/collections/kitchens/compact-kitchens/' },
-    { title: 'Wall-Hung Vanities', category: 'Bathrooms', url: '/collections/bathrooms/wall-hung-vanities/' },
-    { title: 'Fluted Vanities', category: 'Bathrooms', url: '/collections/bathrooms/fluted-vanities/' },
-    { title: 'Tall Bathroom Storage', category: 'Bathrooms', url: '/collections/bathrooms/tall-bathroom-storage/' },
-    { title: 'Tall Larder Cupboards', category: 'Pantry & Larder', url: '/collections/pantry-larder/tall-larder-cupboards/' },
-    { title: 'Corner Pantry Storage', category: 'Pantry & Larder', url: '/collections/pantry-larder/corner-pantry-storage/' },
-    { title: 'Pocket-Door Coffee Stations', category: 'Coffee Stations', url: '/collections/coffee-stations/pocket-door-coffee-stations/' },
-    { title: 'Open-Shelf Coffee Cabinets', category: 'Coffee Stations', url: '/collections/coffee-stations/open-shelf-coffee-cabinets/' },
-    { title: 'Alcove Cupboards', category: 'Fitted Storage', url: '/collections/fitted-storage/alcove-cupboards/' },
-    { title: 'Utility Room Cabinets', category: 'Fitted Storage', url: '/collections/fitted-storage/utility-room-cabinets/' },
-    { title: 'Shaker Replacement Doors', category: 'Kitchen Doors', url: '/collections/kitchen-doors/shaker-replacement-doors/' },
-    { title: 'Handleless Cabinet Fronts', category: 'Kitchen Doors', url: '/collections/kitchen-doors/handleless-cabinet-fronts/' },
-    { title: 'Materials & Finishes', category: 'Craftsmanship', url: '/materials/' },
-    { title: 'Our Story & Heritage', category: 'Company', url: '/our-story/' },
-    { title: 'Trade & Architectural Specification', category: 'Trade', url: '/trade/' }
-  ];
-
-  if (searchBtn && searchDialog) {
-    searchBtn.addEventListener('click', () => {
-      searchDialog.showModal();
-      if (searchInput) searchInput.focus();
-    });
-  }
-
-  if (searchClose && searchDialog) {
-    searchClose.addEventListener('click', () => {
-      searchDialog.close();
-    });
-  }
-
-  if (searchDialog) {
-    searchDialog.addEventListener('click', (e) => {
-      if (e.target === searchDialog) {
-        searchDialog.close();
-      }
-    });
-  }
-
-  if (searchInput && resultsContainer) {
-    searchInput.addEventListener('input', () => {
-      const query = searchInput.value.toLowerCase().trim();
-      resultsContainer.innerHTML = '';
-
-      if (!query) return;
-
-      const filtered = searchableItems.filter(item => 
-        item.title.toLowerCase().includes(query) || 
-        item.category.toLowerCase().includes(query)
-      );
-
-      if (filtered.length === 0) {
-        resultsContainer.innerHTML = '<div style="padding: 12px; colour: #888; font-size: 13px;">No matching cabinetry collections found.</div>';
-        return;
-      }
-
-      filtered.forEach(item => {
-        const a = document.createElement('a');
-        a.href = item.url;
-        a.className = 'search-result-item';
-        a.innerHTML = `<span>${item.title}</span><small style="colour: #888; font-size: 11px;">${item.category}</small>`;
-        resultsContainer.appendChild(a);
-      });
-    });
-  }
-</script>

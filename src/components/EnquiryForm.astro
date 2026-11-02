@@ -112,8 +112,8 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
           <span aria-hidden="true">→</span>
         </button>
 
-        <button type="button" class="submit-btn" id="whatsapp-submit-btn" style="background: #25D366; border-colour: #25D366; colour: #fff; flex: 1; min-width: 220px;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColour" aria-hidden="true">
+        <button type="button" class="submit-btn" id="whatsapp-submit-btn" style="background: #25D366; border-color: #25D366; color: #fff; flex: 1; min-width: 220px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.766-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"/>
           </svg>
           <span>Send via WhatsApp (+44 7898 262110)</span>
@@ -121,7 +121,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
       </div>
 
       <div class="alternative-action">
-        <span>Official Enquiries: <a href={`mailto:${siteConfig.email}`} style="colour: var(--green); font-weight: 600;">{siteConfig.email}</a></span>
+        <span>Official Enquiries: <a href={`mailto:${siteConfig.email}`} style="color: var(--green); font-weight: 600;">{siteConfig.email}</a></span>
         <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="whatsapp-direct-link">
           <strong>Direct WhatsApp: +44 7898 262110</strong>
         </a>
@@ -163,14 +163,15 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     border-radius: 3px;
     font-size: 13px;
     font-weight: 500;
-    colour: #49544b;
+    color: #49544b;
     transition: all 0.2s ease;
   }
 
   .type-pill input:checked + span {
-    background: var(--green);
-    colour: #ffffff;
-    border-colour: var(--green);
+    background: var(--green) !important;
+    color: #ffffff !important;
+    border-color: var(--green) !important;
+    font-weight: 700;
   }
 
   .form-row {
@@ -194,7 +195,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     font-family: var(--font-heading);
     font-size: 13px;
     font-weight: 600;
-    colour: #2b332c;
+    color: #2b332c;
     margin-bottom: 7px;
   }
 
@@ -206,13 +207,13 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     background: #fffefa;
     font-family: var(--font-sans);
     font-size: 14px;
-    colour: var(--text);
+    color: var(--text);
     transition: border-colour 0.2s ease;
   }
 
   .form-input:focus, .form-select:focus, .form-textarea:focus {
     outline: none;
-    border-colour: var(--gold);
+    border-color: var(--gold);
     background: #ffffff;
     box-shadow: 0 0 0 3px rgba(170, 137, 100, 0.15);
   }
@@ -223,7 +224,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     align-items: flex-start;
     font-size: 12px;
     line-height: 1.5;
-    colour: #5c635b;
+    color: #5c635b;
     cursor: pointer;
   }
 
@@ -238,23 +239,23 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     border: 1px dashed var(--line);
     border-radius: 3px;
     font-size: 13px;
-    colour: #4b544d;
+    color: #4b544d;
     cursor: pointer;
   }
   .form-file-input:hover {
-    border-colour: var(--green);
+    border-color: var(--green);
   }
   .form-helper {
     display: block;
     font-size: 11.5px;
-    colour: var(--muted);
+    color: var(--muted);
     margin-top: 5px;
     line-height: 1.4;
   }
   .lead-id-badge {
     display: inline-block;
     background: #1b261d;
-    colour: #cbb48b;
+    color: #cbb48b;
     padding: 3px 8px;
     border-radius: 3px;
     font-size: 12px;
@@ -274,7 +275,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
 
   .submit-btn {
     background: var(--green);
-    colour: #ffffff;
+    color: #ffffff;
     border: none;
     padding: 15px 24px;
     font-family: var(--font-heading);
@@ -301,7 +302,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     align-items: center;
     justify-content: space-between;
     font-size: 13px;
-    colour: #697068;
+    color: #697068;
     flex-wrap: wrap;
     gap: 10px;
   }
@@ -310,7 +311,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    colour: #128C7E;
+    color: #128C7E;
     text-decoration: underline;
   }
 
@@ -324,13 +325,13 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
 
   .form-feedback.is-success {
     background: #eaf4ed;
-    colour: #194f29;
+    color: #194f29;
     border: 1px solid #bce1c5;
   }
 
   .form-feedback.is-error {
     background: #fdf0f0;
-    colour: #7b1d1d;
+    color: #7b1d1d;
     border: 1px solid #f4c7c7;
   }
 </style>
@@ -418,10 +419,10 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
             <span>Your Project Reference: <strong class="lead-id-badge">${leadId}</strong></span><br />
             To ensure zero delay, please dispatch your specification directly to Barış Bağırlı:<br /><br />
             <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px;">
-              <a href="https://wa.me/447898262110?text=${msg}" target="_blank" rel="noopener noreferrer" style="background: #25D366; colour: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+              <a href="https://wa.me/447898262110?text=${msg}" target="_blank" rel="noopener noreferrer" style="background: #25D366; color: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
                 <span>📱 Dispatch via WhatsApp (${leadId})</span>
               </a>
-              <a href="mailto:barisbagirlar@gmail.com?subject=${emailSubject}&body=${emailBody}" style="background: #1b261d; colour: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+              <a href="mailto:enquiries@cabivella.co.uk?subject=${emailSubject}&body=${emailBody}" style="background: #1b261d; color: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
                 <span>✉ Dispatch via Email (${siteConfig.email})</span>
               </a>
             </div>
@@ -434,7 +435,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
         feedback.innerHTML = `
           <strong>Direct Transmission Ready (Ref: ${leadId}):</strong><br />
           Click below to forward your project specifications directly to our senior team:<br /><br />
-          <a href="https://wa.me/447898262110?text=${msg}" target="_blank" rel="noopener noreferrer" style="background: #25D366; colour: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-block;">
+          <a href="https://wa.me/447898262110?text=${msg}" target="_blank" rel="noopener noreferrer" style="background: #25D366; color: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-block;">
             Dispatch to WhatsApp Concierge (+44 7898 262110) →
           </a>
         `;
