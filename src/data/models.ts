@@ -17397,4 +17397,495 @@ export const modelsData: Record<string, ModelDetail> = {
     ],
     "style": "modern"
 },
+
+  "cotswold-classic-shaker-fitted-wardrobe": {
+      "slug": "cotswold-classic-shaker-fitted-wardrobe",
+      "category": "fitted-storage",
+      "title": "Cotswold Classic In-Frame Shaker Wardrobe",
+      "metaTitle": "Cotswold Classic In-Frame Shaker Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Timeless British in-frame shaker wardrobe suite with recessed panel joinery, made-to-measure ceiling height, and integrated drawer packs.",
+      "dimensionsMm": "Made-to-measure width (2400mm\u20133600mm), 600mm carcass depth, full ceiling height (up to 2750mm)",
+      "materials": [
+          "FSC-certified moisture-resistant engineered core",
+          "Solid European oak internal drawer boxes",
+          "Concealed Blum soft-close hydraulic hinge systems",
+          "Satin brushed brass architectural hardware"
+      ],
+      "finishOptions": [
+          "Willow Green Matte",
+          "Chalk White Silk",
+          "Heritage Stone",
+          "Oxford Slate",
+          "Deep Mulberry"
+      ],
+      "installationScope": "Factory pre-assembled with heavy-duty structural hanging cleats and scribe moulding for seamless floor-to-ceiling scribing.",
+      "image": "/images/fitted-storage/cabivella_storage_shaker_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_shaker_1.webp",
+          "/images/fitted-storage/cabivella_storage_shaker_2.webp",
+          "/images/fitted-storage/cabivella_storage_shaker_3.webp",
+          "/images/fitted-storage/cabivella_storage_shaker_4.webp"
+      ],
+      "description": "Inspired by authentic British country estate architecture, the Cotswold Classic In-Frame Shaker Wardrobe features refined square edging, balanced proportions, and deep full-height storage engineered precisely to your bedroom alcoves.",
+      "keyFeatures": [
+          "Traditional recessed panel door architecture with architectural shadow gaps",
+          "Full-height double hanging compartments with illuminated wardrobe rails",
+          "Integrated soft-close internal shoe carousels and accessory trays"
+      ]
+  },
+  "belgravia-bevelled-shaker-wardrobe": {
+      "slug": "belgravia-bevelled-shaker-wardrobe",
+      "category": "fitted-storage",
+      "title": "Belgravia Bevelled Shaker Fitted Wardrobe",
+      "metaTitle": "Belgravia Bevelled Shaker Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Contemporary bevelled shaker fitted wardrobe engineered for master bedrooms. Tailored interior configurations and durable multi-layer lacquer.",
+      "dimensionsMm": "Made-to-measure width (1800mm\u20133200mm), 590mm carcass depth, ceiling scribed up to 2700mm",
+      "materials": [
+          "High-density moisture-resistant core substrate",
+          "Solid timber dovetail drawer linings",
+          "Precision Blumotion integrated soft-close runners",
+          "Solid forged bronze bar handles"
+      ],
+      "finishOptions": [
+          "Dove Grey Satin",
+          "Warm Alabaster",
+          "Nordic Slate",
+          "Willow Green",
+          "Chalk Silk"
+      ],
+      "installationScope": "Supplied with bespoke wall anchors, infill panels, and concealed plinth levelling systems.",
+      "image": "/images/fitted-storage/cabivella_storage_sorrento_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_sorrento_1.webp",
+          "/images/fitted-storage/cabivella_storage_sorrento_2.webp",
+          "/images/fitted-storage/cabivella_storage_sorrento_3.webp",
+          "/images/fitted-storage/cabivella_storage_sorrento_4.webp"
+      ],
+      "description": "The Belgravia suite presents a sophisticated contemporary evolution of classical panelled cabinetry, introducing gentle bevelled stiles that catch the light and complement refined British townhouses.",
+      "keyFeatures": [
+          "Subtle bevelled frame profiles adding depth and architectural rhythm",
+          "Integrated warm LED pelmet and interior vertical strip illumination",
+          "Multi-tier configuration accommodating tailored long-dress and shirt drops"
+      ]
+  },
+  "mayfair-linear-minimalist-wardrobe": {
+      "slug": "mayfair-linear-minimalist-wardrobe",
+      "category": "fitted-storage",
+      "title": "Mayfair Linear Minimalist Fitted Wardrobe",
+      "metaTitle": "Mayfair Linear Minimalist Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Sleek planar minimalist fitted wardrobe featuring seamless push-to-open doors, full-height architectural panels, and customizable internal storage.",
+      "dimensionsMm": "Custom width (1600mm\u20134200mm), 600mm carcass depth, tailored height up to 2800mm",
+      "materials": [
+          "High-density anti-warp architectural MDF substrate",
+          "European walnut veneer internal open display bays",
+          "Concealed 110-degree push-release and soft-close hinges",
+          "Architectural shadow-gap aluminium edge trims"
+      ],
+      "finishOptions": [
+          "Soft Linen Matte",
+          "Midnight Blue Lacquer",
+          "Rich Walnut Accent",
+          "Nordic Oak Veneer",
+          "Pure White Silk"
+      ],
+      "installationScope": "Modular floor-to-ceiling cassette assembly with precision micro-adjustable laser alignment plates.",
+      "image": "/images/fitted-storage/cabivella_storage_manhattan_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_manhattan_1.webp",
+          "/images/fitted-storage/cabivella_storage_manhattan_2.webp",
+          "/images/fitted-storage/cabivella_storage_manhattan_3.webp",
+          "/images/fitted-storage/cabivella_storage_manhattan_4.webp"
+      ],
+      "description": "Characterised by uninterrupted vertical lines and clean planar surfaces, the Mayfair Linear suite delivers calming visual minimalism, concealing voluminous bespoke interior storage behind sleek touch-to-open doors.",
+      "keyFeatures": [
+          "Zero-handle minimalist door aesthetic with integrated touch-release mechanisms",
+          "Optional slatted timber feature alcoves with recessed accent lighting",
+          "Configurable double hanging, pull-out trouser racks, and watch displays"
+      ]
+  },
+  "kensington-heritage-moulded-wardrobe": {
+      "slug": "kensington-heritage-moulded-wardrobe",
+      "category": "fitted-storage",
+      "title": "Kensington Heritage Moulded Fitted Wardrobe",
+      "metaTitle": "Kensington Heritage Moulded Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Stately architectural wardrobe suite boasting sculptured bolection mouldings, classic cornice details, and bespoke solid timber construction.",
+      "dimensionsMm": "Bespoke width (2000mm\u20133800mm), 620mm carcass depth, height up to 2850mm with cornice",
+      "materials": [
+          "Hand-finished moisture-resistant core panels",
+          "Solid ash framework and interior drawer modules",
+          "Heavy-duty German steel hanging tracks and hinges",
+          "Aged antique brass cabinet pulls"
+      ],
+      "finishOptions": [
+          "Linen White Eggshell",
+          "Regency Sage",
+          "Pumice Stone",
+          "Smoked Charcoal",
+          "Heritage Cream"
+      ],
+      "installationScope": "Handcrafted modular sections with matching traditional skirting plinth and cornice moulding.",
+      "image": "/images/fitted-storage/cabivella_storage_sherbourne_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_sherbourne_1.webp",
+          "/images/fitted-storage/cabivella_storage_sherbourne_2.webp",
+          "/images/fitted-storage/cabivella_storage_sherbourne_3.webp",
+          "/images/fitted-storage/cabivella_storage_sherbourne_4.webp"
+      ],
+      "description": "A tribute to classical British architectural proportions, the Kensington Heritage suite features deep sculptured mouldings, authentic raised panelling, and substantial cornice detailing fit for historic and period homes.",
+      "keyFeatures": [
+          "Deep architectural bolection moulding framing each door panel",
+          "Elaborate stepped cornice and bespoke skirtings matching room baseboards",
+          "Spacious linen cabinets, hat shelves, and full-length dressing mirrors"
+      ]
+  },
+  "chelsea-quadrant-panel-wardrobe": {
+      "slug": "chelsea-quadrant-panel-wardrobe",
+      "category": "fitted-storage",
+      "title": "Chelsea Four-Panel Architectural Wardrobe",
+      "metaTitle": "Chelsea Four-Panel Architectural Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Four-panel British architectural wardrobe suite designed for Georgian and Victorian homes. Balanced vertical symmetry and premium interior drawers.",
+      "dimensionsMm": "Made-to-measure width (2200mm\u20133600mm), 600mm depth, ceiling height up to 2750mm",
+      "materials": [
+          "Precision-engineered MR core joinery substrate",
+          "Solid oak interior cabinetry and dividers",
+          "Silent integrated hydraulic soft-close hinges",
+          "Turned blackened steel architectural knobs"
+      ],
+      "finishOptions": [
+          "Graphite Matte",
+          "Heritage Slate",
+          "Dove Grey",
+          "Warm Stone",
+          "Chalk White"
+      ],
+      "installationScope": "Precision factory scribed components engineered for swift, low-disruption on-site fit-out.",
+      "image": "/images/fitted-storage/cabivella_storage_hampton_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_hampton_1.webp",
+          "/images/fitted-storage/cabivella_storage_hampton_2.webp",
+          "/images/fitted-storage/cabivella_storage_hampton_3.webp",
+          "/images/fitted-storage/cabivella_storage_hampton_4.webp"
+      ],
+      "description": "With its quad-panel geometry echoing Georgian sash architecture, the Chelsea Four-Panel suite introduces vertical rhythm and stately presence to British bedrooms of generous scale.",
+      "keyFeatures": [
+          "Proportioned four-panel vertical door construction with tactile eased edges",
+          "Generous internal shelving towers with adjustable nickel shelf pins",
+          "Soft-close internal jewellery trays lined in protective microsuede"
+      ]
+  },
+  "richmond-nordic-fluted-wardrobe": {
+      "slug": "richmond-nordic-fluted-wardrobe",
+      "category": "fitted-storage",
+      "title": "Richmond Nordic Fluted Fitted Wardrobe",
+      "metaTitle": "Richmond Nordic Fluted Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Organic modern fitted wardrobe harmonising natural Nordic oak veneers with precision fluted detailing and calming textured finishes.",
+      "dimensionsMm": "Custom width (1800mm\u20133400mm), 600mm carcass depth, made-to-measure height up to 2700mm",
+      "materials": [
+          "Sustainably sourced Nordic oak veneers",
+          "Moisture-stable high-density internal core",
+          "Concealed soft-close sliding and hinged systems",
+          "Integrated warm ambient LED lighting channels"
+      ],
+      "finishOptions": [
+          "Nordic Natural Oak",
+          "Bleached Linen White",
+          "Muted Clay Lacquer",
+          "Smoked Oak Stained",
+          "Oatmeal Matte"
+      ],
+      "installationScope": "Complete architectural joinery package including concealed scribes and matching side end panels.",
+      "image": "/images/fitted-storage/cabivella_storage_element_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_element_1.webp",
+          "/images/fitted-storage/cabivella_storage_element_2.webp",
+          "/images/fitted-storage/cabivella_storage_element_3.webp",
+          "/images/fitted-storage/cabivella_storage_element_4.webp"
+      ],
+      "description": "Marrying Scandinavian organic warmth with British joinery precision, the Richmond Nordic suite celebrates authentic timber grains, tactile fluted accents, and effortless spatial order.",
+      "keyFeatures": [
+          "Natural grain oak textured surfaces with protective hard-wax matte finish",
+          "Integrated vertical finger-pull shadow reveals eliminating external hardware",
+          "Concealed wire management and inductive charging shelves for bedside modules"
+      ]
+  },
+  "westminster-two-tone-wardrobe": {
+      "slug": "westminster-two-tone-wardrobe",
+      "category": "fitted-storage",
+      "title": "Westminster Dual-Finish Architectural Wardrobe",
+      "metaTitle": "Westminster Dual-Finish Architectural Wardrobe | Cabivella UK",
+      "metaDescription": "Dual-finish fitted wardrobe suite contrasting deep smoked walnut with soft linen lacquers for striking two-tone bedroom focal points.",
+      "dimensionsMm": "Made-to-measure width (2400mm\u20134000mm), 610mm carcass depth, height up to 2800mm",
+      "materials": [
+          "Smoked American walnut veneer and lacquer combination",
+          "Dovetail solid timber interior storage boxes",
+          "Heavy-gauge concealed soft-close hinges",
+          "Brushed champagne gold linear profile handles"
+      ],
+      "finishOptions": [
+          "Soft Linen & Smoked Walnut",
+          "Chalk White & Natural Ash",
+          "Slate Grey & Smoked Oak",
+          "Pumice & Rich Teak",
+          "Midnight & Bleached Oak"
+      ],
+      "installationScope": "Delivered with custom infills and dual-tone architectural reveal trims.",
+      "image": "/images/fitted-storage/cabivella_storage_harmony_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_harmony_1.webp",
+          "/images/fitted-storage/cabivella_storage_harmony_2.webp",
+          "/images/fitted-storage/cabivella_storage_harmony_3.webp",
+          "/images/fitted-storage/cabivella_storage_harmony_4.webp"
+      ],
+      "description": "The Westminster suite creates compelling architectural contrast through a deliberate juxtaposition of rich timber textures and calming matte lacquer panels, achieving grounded sophistication.",
+      "keyFeatures": [
+          "Curated two-tone exterior and interior contrasting materiality",
+          "Open decorative display niches with integrated warm LED halo lighting",
+          "Extensive internal storage organisation tailored to his-and-hers requirements"
+      ]
+  },
+  "knightsbridge-stepped-edge-wardrobe": {
+      "slug": "knightsbridge-stepped-edge-wardrobe",
+      "category": "fitted-storage",
+      "title": "Knightsbridge Stepped-Edge Fitted Wardrobe",
+      "metaTitle": "Knightsbridge Stepped-Edge Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Contemporary architectural wardrobe featuring tiered stepped-edge profiles, ultra-smooth lacquer, and versatile internal compartments.",
+      "dimensionsMm": "Bespoke width (1800mm\u20133600mm), 590mm carcass depth, made-to-measure ceiling height",
+      "materials": [
+          "Engineered moisture-resistant substrate with multi-coat polyurethane lacquer",
+          "Solid ash internal drawer stacks",
+          "Soft-closing German hardware",
+          "Knurled architectural brass bar pulls"
+      ],
+      "finishOptions": [
+          "Midnight Navy",
+          "Dove Grey Matte",
+          "Warm Stone Silk",
+          "Slate Anthracite",
+          "Pure Ivory"
+      ],
+      "installationScope": "Engineered for flush alcove or full-wall installations with precision laser-levelled subframes.",
+      "image": "/images/fitted-storage/cabivella_storage_milan_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_milan_1.webp",
+          "/images/fitted-storage/cabivella_storage_milan_2.webp",
+          "/images/fitted-storage/cabivella_storage_milan_3.webp",
+          "/images/fitted-storage/cabivella_storage_milan_4.webp"
+      ],
+      "description": "Refined stepped-edge details give the Knightsbridge suite a tailored, tailored architectural relief that interacts delicately with changing bedroom lighting throughout the day.",
+      "keyFeatures": [
+          "Distinctive stepped-edge perimeter moulding on all cabinet doors",
+          "Full-extension internal drawers with soft-close under-mount runners",
+          "Customisable boot, bag, and garment hanging modules"
+      ]
+  },
+  "fitzrovia-industrial-loft-wardrobe": {
+      "slug": "fitzrovia-industrial-loft-wardrobe",
+      "category": "fitted-storage",
+      "title": "Fitzrovia Architectural Loft Wardrobe",
+      "metaTitle": "Fitzrovia Architectural Loft Wardrobe | Cabivella UK",
+      "metaDescription": "Bold industrial-luxe fitted wardrobe combining rustic timber textures with urban concrete finishes and black metal framing.",
+      "dimensionsMm": "Custom width (2000mm\u20133800mm), 600mm depth, ceiling height up to 2750mm",
+      "materials": [
+          "Architectural textured surface panels",
+          "Black powder-coated steel hardware accents",
+          "High-load concealed European soft-close hinges",
+          "Moisture-resistant carcass construction"
+      ],
+      "finishOptions": [
+          "Urban Concrete & Rustic Oak",
+          "Oxidised Iron Matte",
+          "Smoked Charred Timber",
+          "Industrial Slate",
+          "Limed Driftwood"
+      ],
+      "installationScope": "Supplied with structural wall mounting hardware and matching architectural edge reveals.",
+      "image": "/images/fitted-storage/cabivella_storage_fusion_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_fusion_1.webp",
+          "/images/fitted-storage/cabivella_storage_fusion_2.webp",
+          "/images/fitted-storage/cabivella_storage_fusion_3.webp",
+          "/images/fitted-storage/cabivella_storage_fusion_4.webp"
+      ],
+      "description": "Designed for loft conversions and contemporary urban spaces, the Fitzrovia suite brings bold material contrast and confident architectural character to modern British interiors.",
+      "keyFeatures": [
+          "High-tactility textured panels with natural tactile grain depth",
+          "Integrated dark steel hanging rails with integrated micro-lighting",
+          "Deep drawer capacities designed for knitwear and heavy garments"
+      ]
+  },
+  "st-james-gloss-monolith-wardrobe": {
+      "slug": "st-james-gloss-monolith-wardrobe",
+      "category": "fitted-storage",
+      "title": "St. James High-Gloss Monolith Wardrobe",
+      "metaTitle": "St. James High-Gloss Monolith Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Luminous mirror-finish high gloss fitted wardrobe designed to amplify natural light and reflect spaciousness in modern bedrooms.",
+      "dimensionsMm": "Bespoke width (1600mm\u20133600mm), 600mm carcass depth, height up to 2700mm",
+      "materials": [
+          "Laser-edged high-gloss acrylic faced core panels",
+          "Hardened scratch-resistant mirror surface layer",
+          "Integrated soft-close push mechanisms",
+          "Brushed chrome structural hanging rails"
+      ],
+      "finishOptions": [
+          "Pure White Gloss",
+          "Mist Grey Gloss",
+          "Champagne Gloss",
+          "Cashmere Silk Gloss",
+          "Obsidian Black Gloss"
+      ],
+      "installationScope": "Factory pre-buffed mirror finish with protective peel film, installed with seamless shadow reveals.",
+      "image": "/images/fitted-storage/cabivella_storage_pure_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_pure_1.webp",
+          "/images/fitted-storage/cabivella_storage_pure_2.webp",
+          "/images/fitted-storage/cabivella_storage_pure_3.webp",
+          "/images/fitted-storage/cabivella_storage_pure_4.webp"
+      ],
+      "description": "The St. James suite maximises light transmission in compact or city bedrooms with flawless high-gloss reflective surfaces that visually expand room dimensions while providing extensive concealed storage.",
+      "keyFeatures": [
+          "Ultra-reflective optical mirror gloss finish resistant to everyday micro-scratches",
+          "Concealed finger-pull channels creating uninterrupted reflective planes",
+          "Custom full-extension drawers and illuminated internal hanging compartments"
+      ]
+  },
+  "bloomsbury-contemporary-slab-wardrobe": {
+      "slug": "bloomsbury-contemporary-slab-wardrobe",
+      "category": "fitted-storage",
+      "title": "Bloomsbury Contemporary Slab Wardrobe",
+      "metaTitle": "Bloomsbury Contemporary Slab Fitted Wardrobe | Cabivella UK",
+      "metaDescription": "Clean architectural slab-door fitted wardrobe engineered for modern townhouses and contemporary apartments. Versatile interior configurations.",
+      "dimensionsMm": "Made-to-measure width (1600mm\u20133800mm), 590mm depth, ceiling height up to 2700mm",
+      "materials": [
+          "High-density moisture-sealed MR core",
+          "Solid timber drawer frames with dovetailed joinery",
+          "Integrated 110-degree hydraulic hinges",
+          "Brushed nickel slimline handles"
+      ],
+      "finishOptions": [
+          "Pure White Silk",
+          "Dove Grey Matte",
+          "Cashmere Neutral",
+          "Soft Stone",
+          "Pumice Lacquer"
+      ],
+      "installationScope": "Delivered modular with matching floor plinths and precision scribing battens.",
+      "image": "/images/fitted-storage/cabivella_storage_cosmopolitan_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_cosmopolitan_1.webp",
+          "/images/fitted-storage/cabivella_storage_cosmopolitan_2.webp",
+          "/images/fitted-storage/cabivella_storage_cosmopolitan_3.webp",
+          "/images/fitted-storage/cabivella_storage_cosmopolitan_4.webp"
+      ],
+      "description": "The Bloomsbury suite offers understated elegance through pure slab doors, versatile modular footprints, and bespoke interior hanging arrangements tailored to every daily cadence.",
+      "keyFeatures": [
+          "Crisp contemporary slab doors with durable impact-resistant edges",
+          "Configurable interior layouts with modular shoe racks and hanging drops",
+          "Whisper-quiet soft-close closure on all hinged doors and drawers"
+      ]
+  },
+  "hampstead-sliding-glide-wardrobe-suite": {
+      "slug": "hampstead-sliding-glide-wardrobe-suite",
+      "category": "fitted-storage",
+      "title": "Hampstead Architectural Sliding Wardrobe Suite",
+      "metaTitle": "Hampstead Architectural Sliding Wardrobe Suite | Cabivella UK",
+      "metaDescription": "Bespoke ceiling-hung sliding wardrobe suite with whisper-quiet soft-close tracking, fluted timber inserts, and space-saving gliding doors.",
+      "dimensionsMm": "Made-to-measure width (1800mm\u20134500mm), 650mm carcass depth, full ceiling height up to 2850mm",
+      "materials": [
+          "Precision-engineered aluminium ceiling and floor glide tracks",
+          "Acoustic fluted timber and reeded glass door inserts",
+          "Heavy-duty tandem wheel bearings supporting 80kg per door panel",
+          "Moisture-resistant internal carcass modules"
+      ],
+      "finishOptions": [
+          "Smoked Oak & Bronze Mirror",
+          "Cashmere Lacquer & Fluted Glass",
+          "Nordic Oak & Soft Linen",
+          "Slate Grey & Tinted Silver Glass",
+          "Pure White & Satin Brass"
+      ],
+      "installationScope": "Turnkey installation with heavy-duty structural overhead track mount and soft-braking end-stops.",
+      "image": "/images/fitted-storage/cabivella_storage_sliding-doors_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_sliding-doors_1.webp",
+          "/images/fitted-storage/cabivella_storage_sliding-doors_2.webp",
+          "/images/fitted-storage/cabivella_storage_sliding-doors_3.webp",
+          "/images/fitted-storage/cabivella_storage_sliding-doors_4.webp"
+      ],
+      "description": "The Hampstead Sliding Suite solves spatial constraints with effortless grace, utilising precision ceiling-hung gliding tracks and tactile material combinations to provide seamless room-width access without door swing intrusion.",
+      "keyFeatures": [
+          "Space-saving sliding door kinematics with two-way soft-close braking dampers",
+          "Dual-track and triple-track configurations allowing multi-panel cascading movement",
+          "Full-depth interior shelving towers, illuminated hanging zones, and pull-out trouser presses"
+      ]
+  },
+  "highgate-bespoke-walk-in-dressing-room": {
+      "slug": "highgate-bespoke-walk-in-dressing-room",
+      "category": "fitted-storage",
+      "title": "Highgate Bespoke Walk-In Dressing Room",
+      "metaTitle": "Highgate Bespoke Walk-In Dressing Room | Cabivella UK",
+      "metaDescription": "Open-concept luxury walk-in dressing room with integrated LED illumination, island dressing credenza, and bespoke boutique storage.",
+      "dimensionsMm": "Architecturally tailored to room footprint (from 2.5m x 2m up to grand master suites), 550mm open depth",
+      "materials": [
+          "Solid European oak and walnut interior framework",
+          "Smoked glass display vitrines with concealed aluminium framing",
+          "Full-extension undermount concealed drawer slides",
+          "Integrated continuous warm 2700K architectural LED strip lighting"
+      ],
+      "finishOptions": [
+          "Warm Alabaster & Natural Oak",
+          "Smoked Walnut & Charcoal",
+          "Soft Linen & Champagne Brass",
+          "Nordic Oak & Brushed Nickel",
+          "Pure White & Antique Bronze"
+      ],
+      "installationScope": "Turnkey room architecture including central dressing island, perimeter cabinetry, and illuminated cornice.",
+      "image": "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_1.webp",
+          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_2.webp",
+          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_3.webp",
+          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_4.webp"
+      ],
+      "description": "An exquisite architectural sanctuary dedicated to personal attire, the Highgate Walk-In suite unites open display bays, illuminated hanging zones, and glass-topped accessory islands for an unmatched boutique dressing ritual.",
+      "keyFeatures": [
+          "Floor-to-ceiling modular open joinery tailored to room geometry and ceiling angles",
+          "Central island unit with velvet-lined jewellery compartments and double shoe tiers",
+          "Automated sensor illumination bringing each section to life upon entering"
+      ]
+  },
+  "islington-bespoke-corner-wardrobe-suite": {
+      "slug": "islington-bespoke-corner-wardrobe-suite",
+      "category": "fitted-storage",
+      "title": "Islington Ergonomic Corner Wardrobe Suite",
+      "metaTitle": "Islington Ergonomic Corner Wardrobe Suite | Cabivella UK",
+      "metaDescription": "Space-maximising 90-degree corner fitted wardrobe with continuous curved hanging, bi-folding door access, and zero dead-space joinery.",
+      "dimensionsMm": "Bespoke corner footprint (e.g. 2400mm x 2400mm return), 600mm depth, ceiling height up to 2750mm",
+      "materials": [
+          "Engineered structural MR core with reinforced 90-degree corner joints",
+          "Heavy-duty bi-fold corner hinge assemblies opening 170 degrees",
+          "Continuous curved stainless steel corner hanging rail",
+          "Soft-close full-extension internal corner carousel baskets"
+      ],
+      "finishOptions": [
+          "Chalk White Silk",
+          "Dove Grey Matte",
+          "Heritage Slate",
+          "Willow Green",
+          "Warm Stone"
+      ],
+      "installationScope": "Factory precision corner joint scribed on-site for seamless integration with adjacent alcoves.",
+      "image": "/images/fitted-storage/cabivella_storage_corner-wardrobes_1.webp",
+      "gallery": [
+          "/images/fitted-storage/cabivella_storage_corner-wardrobes_1.webp",
+          "/images/fitted-storage/cabivella_storage_corner-wardrobes_2.webp",
+          "/images/fitted-storage/cabivella_storage_corner-wardrobes_3.webp",
+          "/images/fitted-storage/cabivella_storage_corner-wardrobes_4.webp"
+      ],
+      "description": "Engineered specifically to transform awkward 90-degree bedroom intersections into accessible, high-capacity storage, the Islington Corner suite ensures not a single millimetre of space is lost in British bedrooms.",
+      "keyFeatures": [
+          "Continuous 90-degree curved hanging track eliminating traditional corner dead zones",
+          "Wide-angle 170-degree bi-fold door access providing panoramic visibility into the wardrobe",
+          "Deep corner carousel shelving units ideal for luggage, seasonal coats, and storage boxes"
+      ]
+  },
 };
