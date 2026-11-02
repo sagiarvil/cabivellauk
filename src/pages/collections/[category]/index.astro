@@ -32,7 +32,7 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
 const categoryHeroImages: Record<string, string> = {
   "kitchens": "/assets/img/home-category-kitchens.webp",
   "bathrooms": "/assets/img/home-category-bathrooms.webp",
-  "pantry-larder": "/assets/img/home-category-pantry-larder.webp",
+  "pantry-larder": "/images/pantry-storage/pocket_system_1.webp",
   "coffee-stations": "/assets/img/home-category-coffee-stations.webp",
   "fitted-storage": "/assets/img/home-category-fitted-storage.webp",
   "kitchen-doors": "/assets/img/home-category-kitchen-doors.webp"
@@ -501,8 +501,8 @@ const bathroomSubCollections = [
 
                   <div class="card-meta-row">
                     <span class="card-price-ref">
-                      <span class="ref-label">Ref:</span>
-                      <strong>{model.materials[0]?.split(' ')[0] || 'Bespoke'}</strong>
+                      <span class="ref-label">Dimensions:</span>
+                      <strong>{model.dimensionsMm ? model.dimensionsMm.split('(')[0].trim() : 'Made to Measure'}</strong>
                     </span>
                   </div>
 

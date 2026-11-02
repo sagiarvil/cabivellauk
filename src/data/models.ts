@@ -14707,4 +14707,239 @@ export const modelsData: Record<string, ModelDetail> = {
   ],
   "style": "classic"
 },
+  "somerset-cellar-reserve-wine-suite": {
+    "slug": "somerset-cellar-reserve-wine-suite",
+    "category": "pantry-larder",
+    "categoryTitle": "Pantry & Larder",
+    "title": "Somerset Climate-Controlled Wine & Cellar Armoire",
+    "metaTitle": "Somerset Climate-Controlled Wine Armoire | Architectural Pantry | Cabivella UK",
+    "metaDescription": "Bespoke architectural climate-controlled wine storage cabinet. W 83.2 x H 190 cm single module with Stopsol UV glass, walnut cradle shelves, and integrated 3000K LED illumination.",
+    "dimensionsMm": "W 832 mm \u00d7 H 1900 mm \u00d7 D 600 mm (Single module: 900 mm enclosure format)",
+    "materials": [
+        "Precision extruded aluminium framework in anodised black or brushed champagne",
+        "UV-reflective Stopsol tempered safety glass door with 90\u00b0 pivot hinging",
+        "Hand-finished solid American walnut bottle racking and sommelier shelves",
+        "304-grade brushed stainless steel double hardware",
+        "Integrated 3000K warm architectural LED perimeter lighting"
+    ],
+    "finishOptions": [
+        "Anodised Matte Black frame with Natural Walnut interior",
+        "Brushed Champagne frame with Smoked Oak interior",
+        "PVD Plus Titanium frame with Stained Canaletto Walnut interior"
+    ],
+    "installationScope": "Freestanding, modular side-by-side array, or flush integrated into architectural tall housing runs with dedicated ventilation plenum and smart digital climate interface.",
+    "image": "/images/pantry-storage/teca_winery_1.webp",
+    "gallery": [
+        "/images/pantry-storage/teca_winery_1.webp",
+        "/images/pantry-storage/teca_winery_2.webp",
+        "/images/pantry-storage/teca_winery_3.webp"
+    ],
+    "description": "The Somerset Climate-Controlled Wine Armoire represents the pinnacle of architectural wine conservation. Engineered as an 83.2 cm wide precision module (fitting seamlessly within 90 cm tall cabinetry configurations), it pairs dual bottle capacity arrangements (35 standard + 5 magnum, or 42 standard + 5 magnum) with an active single-zone precision cooling system. Framed by acoustic Stopsol glass that shields against ambient UV degradation, each interior tier is sculpted from solid European or American timber and illuminated with glare-free 3000K continuous LEDs.",
+    "keyFeatures": [
+        "W 83.2 \u00d7 H 190 cm architectural module with versatile standalone or continuous tall run integration",
+        "Available in 35 standard + 5 magnum or 42 standard + 5 magnum capacity configurations",
+        "Stopsol UV-filtering tempered glass door with 90\u00b0 pivot opening and dual ergonomic architectural pull",
+        "Solid walnut bottle cradles with dedicated lower champagne and magnum storage zones",
+        "Precision single-temperature climate control with vibration-isolated compressor and remote digital monitoring",
+        "Warm 3000K internal diffused LED illumination across all tiers"
+    ],
+    "style": "modern"
+},
+  "cotswold-artisan-glass-front-sideboard": {
+    "slug": "cotswold-artisan-glass-front-sideboard",
+    "category": "pantry-larder",
+    "categoryTitle": "Pantry & Larder",
+    "title": "Cotswold Artisan Glass-Front Larder Sideboard",
+    "metaTitle": "Cotswold Artisan Glass-Front Larder Sideboard | Cabivella UK",
+    "metaDescription": "Bespoke illuminated tall glass pantry cabinet. W 83.2 x H 190 cm with solid natural timber interior lining, Stopsol 90\u00b0 pivot door, and precision 3000K warm LED downlighting.",
+    "dimensionsMm": "W 832 mm \u00d7 H 1900 mm \u00d7 D 600 mm",
+    "materials": [
+        "Stopsol semi-reflective tempered glass door with 90\u00b0 pivot hardware",
+        "Architectural aluminium structural chassis in silver or matte black",
+        "Solid wood interior cladding available in natural oak, smoked oak, and walnut",
+        "Architectural double pull handles in brushed stainless steel or PVD finish",
+        "Internal diffused 3000K LED vertical strip lighting"
+    ],
+    "finishOptions": [
+        "Black chassis with Select American Walnut interior",
+        "Silver chassis with Natural Crown-Cut Oak interior",
+        "Warm Bronze PVD chassis with Smoked Espresso Oak interior"
+    ],
+    "installationScope": "Standalone statement larder, dining room transition cabinet, or integrated modular tall pantry run.",
+    "image": "/images/pantry-storage/teca_madia_1.webp",
+    "gallery": [
+        "/images/pantry-storage/teca_madia_1.webp",
+        "/images/pantry-storage/teca_winery_3.webp"
+    ],
+    "description": "Designed to bridge the boundary between fine dining and culinary storage, the Cotswold Artisan Glass-Front Sideboard elevates tableware and pantry display to museum-grade presentation. Engineered to exact W 83.2 \u00d7 H 190 cm proportions, it pairs semi-reflective Stopsol glass with richly grained solid timber backings. Glass shelves supported by invisible structural pins create weightless floating planes, while 3000K continuous perimeter light casts a warm, inviting glow throughout the cabinet.",
+    "keyFeatures": [
+        "Dimensions: W 83.2 \u00d7 H 190 cm single module",
+        "Stopsol safety glass door with smooth 90\u00b0 pivot motion and integrated magnetic soft closure",
+        "Full interior timber linings and shelves crafted from select architectural veneers and solid hardwoods",
+        "Continuous 3000K LED illumination integrated into vertical frame reveals",
+        "Architectural dual pull handles available in brushed stainless steel and PVD Plus finishes",
+        "Versatile standalone or modular composition harmonised with Cabivella tall kitchen units"
+    ],
+    "style": "modern"
+},
+  "windsor-sommelier-cocktail-armoire": {
+    "slug": "windsor-sommelier-cocktail-armoire",
+    "category": "pantry-larder",
+    "categoryTitle": "Pantry & Larder",
+    "title": "Windsor Sommelier & Spirits Cocktail Armoire",
+    "metaTitle": "Windsor Sommelier & Spirits Cocktail Armoire | Cabivella UK",
+    "metaDescription": "Grand architectural cocktail and spirits armoire. W 83.2 x H 190 cm featuring 2 soft-close timber drawers, large pull-out chest, illuminated spirits showcase, and stemware racks.",
+    "dimensionsMm": "W 832 mm \u00d7 H 1900 mm \u00d7 D 600 mm",
+    "materials": [
+        "Solid American walnut and quarter-cut oak interior joinery",
+        "Architectural anodised aluminium perimeter frame in deep graphite or champagne",
+        "Stopsol tempered glass door with 90\u00b0 pivot geometry",
+        "Precision-milled timber stemware rails and integrated spirit bottle steps",
+        "Full-extension concealed soft-close drawer runners with dovetail timber boxes",
+        "Warm 3000K LED backlighting and downlighting"
+    ],
+    "finishOptions": [
+        "Matte Graphite frame with Natural American Walnut interior",
+        "Champagne Bronze frame with Smoked Quarter-Cut Oak interior",
+        "Brushed Silver frame with Whitened Nordic Ash interior"
+    ],
+    "installationScope": "Freestanding hero bar armoire or flush-fitted architectural pantry suite component.",
+    "image": "/images/pantry-storage/teca_epicure_1.webp",
+    "gallery": [
+        "/images/pantry-storage/teca_epicure_1.webp",
+        "/images/pantry-storage/teca_winery_1.webp"
+    ],
+    "description": "The Windsor Sommelier & Spirits Cocktail Armoire is an exquisite dedicated entertaining sanctuary. Within its W 83.2 \u00d7 H 190 cm envelope lies a meticulously orchestrated interior: two upper cutlery and mixology drawers, a deep lower bottle and ice bucket chest, an illuminated tiered spirits display, and solid timber hanging rails for crystal stemware. Enclosed by an acoustic Stopsol pivot door with brushed PVD hardware, the cabinet turns evening hospitality into an art form.",
+    "keyFeatures": [
+        "Dimensions: W 83.2 \u00d7 H 190 cm architectural format",
+        "Comprehensive internal layout: 2 precision mixology drawers and 1 deep wooden storage chest",
+        "Dedicated illuminated spirits gallery and integrated wooden stemware suspension rails",
+        "Stopsol glass door with 90\u00b0 pivot opening and acoustic compression seal",
+        "Architectural dual handle in brushed stainless steel or PVD Plus finish with black or silver framing",
+        "Internal 3000K ambient LED lighting highlighting glassware and fine spirits",
+        "Hand-crafted interior timber components available across Cabivella hardwood collection"
+    ],
+    "style": "modern"
+},
+  "belgravia-pocket-hideaway-working-pantry": {
+    "slug": "belgravia-pocket-hideaway-working-pantry",
+    "category": "pantry-larder",
+    "categoryTitle": "Pantry & Larder",
+    "title": "Belgravia Disappearing Pocket Door Working Pantry",
+    "metaTitle": "Belgravia Disappearing Pocket Door Working Pantry | Cabivella UK",
+    "metaDescription": "Bespoke disappearing pocket door kitchen pantry and prep station. Concealed working zones, breakfast stations, and secondary prep kitchens with zero-obstruction lateral recessing doors.",
+    "dimensionsMm": "Custom widths: 1200 mm / 1800 mm / 2400 mm \u00d7 H 2100 mm\u20132400 mm \u00d7 D 700 mm",
+    "materials": [
+        "Heavy-duty coplanar and lateral pocket slide mechanism with acoustic dampening",
+        "Full-height architectural door leaves in veneered timber, matte lacquer, or fluted panels",
+        "Solid quartz, granite, or stainless steel internal worktop surfaces",
+        "Integrated appliance electrical raceways, power sockets, and LED task illumination",
+        "Concealed extraction canopy preparation and plumbing chase provisions"
+    ],
+    "finishOptions": [
+        "Matte Bronze lacquer exterior with Fluted Smoked Oak interior",
+        "Fumed European Oak exterior with Brushed Stainless Steel prep zone",
+        "Soft Cashmere lacquer exterior with Calacatta Gold quartz prep surface"
+    ],
+    "installationScope": "Fully integrated within continuous kitchen tall cabinetry runs or standalone architectural wall enclosures.",
+    "image": "/images/pantry-storage/pocket_system_1.webp",
+    "gallery": [
+        "/images/pantry-storage/pocket_system_1.webp",
+        "/images/pantry-storage/pocket_system_2.webp",
+        "/images/pantry-storage/pocket_system_3.webp",
+        "/images/pantry-storage/pocket_system_4.webp"
+    ],
+    "description": "The Belgravia Disappearing Pocket Door Working Pantry represents modern kitchen spatial planning at its most intelligent. When closed, it presents a serene, uninterrupted architectural tall facade. When opened, the doors pivot smoothly and slide entirely flush into lateral cavities, revealing an expansive, fully functional culinary zone. Whether configured as a breakfast station, baking studio, hidden wet bar, or concealed secondary appliance bay, it allows effortless workflow without doors projecting into circulation corridors.",
+    "keyFeatures": [
+        "Precision disappearing pocket door engineering that recesses doors completely out of sight",
+        "Available in three standard compositional formats and bespoke made-to-measure ceiling heights",
+        "Transforms instantaneously between closed architectural stillness and open culinary workroom",
+        "Customisable internal functions: secondary prep sink, coffee station, wine storage, or laundry station",
+        "Internal LED lighting automatically activated upon pocket door retraction",
+        "Seamlessly integrates into Cabivella modular tall housing elevations with continuous reveal lines"
+    ],
+    "style": "modern"
+},
+  "kensington-walk-in-larder-room-suite": {
+    "slug": "kensington-walk-in-larder-room-suite",
+    "category": "pantry-larder",
+    "categoryTitle": "Pantry & Larder",
+    "title": "Kensington Architectural Walk-In Larder & Passage Suite",
+    "metaTitle": "Kensington Architectural Walk-In Larder & Passage Suite | Cabivella UK",
+    "metaDescription": "Bespoke walk-in pantry and secret passage room. Full-height 198\u2013222 cm tall units with inward-opening door creating integrated 11 cm broom storage, open shelving, and 3000K LED lighting.",
+    "dimensionsMm": "Tall Unit Heights: H 1980 mm / H 2220 mm \u00d7 Custom Depths (Passage & Room formats)",
+    "materials": [
+        "Architectural grade structural carcass with marine-grade moisture barrier",
+        "Full-height secret passage door with heavy-duty concealed pivot hinges",
+        "Inward-swing door leaf housing integrated 11 cm wide broom and cleaning utility niche",
+        "Fine wire storage baskets, solid timber open shelving, and spice galleys",
+        "Warm 3000K continuous perimeter LED illumination and sensor triggers"
+    ],
+    "finishOptions": [
+        "Natural Teak interior with Matching Architectural Door",
+        "Smoked European Oak with Brushed Brass wire basket accents",
+        "Nordic Ash with Matte Black wire hardware and charcoal frames"
+    ],
+    "installationScope": "Architectural walk-in room enclosure, secret pantry entrance, or hidden passage connecting kitchen to utility room.",
+    "image": "/images/pantry-storage/wic_system_1.webp",
+    "gallery": [
+        "/images/pantry-storage/wic_system_1.webp",
+        "/images/pantry-storage/wic_system_2.webp",
+        "/images/pantry-storage/wic_system_3.webp",
+        "/images/pantry-storage/wic_system_4.webp",
+        "/images/pantry-storage/wic_system_5.webp",
+        "/images/pantry-storage/wic_system_6.webp",
+        "/images/pantry-storage/wic_system_7.webp",
+        "/images/pantry-storage/wic_system_8.webp",
+        "/images/pantry-storage/wic_system_9.webp",
+        "/images/pantry-storage/wic_system_10.webp"
+    ],
+    "description": "The Kensington Walk-In Larder & Passage Suite reimagines the traditional English butler pantry as an immersive modern space. Available in H 198 cm and H 222 cm standards (as well as room-height bespoke), it functions either as an opulent walk-in larder or as a secret passage door leading to hidden utility rooms and prep kitchens. In an ingenious design innovation, the inward-opening door mechanism creates a dedicated 11 cm wide utility niche for brooms and cleaning tools, while the inner sanctuary is lined with teak or oak open shelving, wire basket drawers, and automated 3000K lighting.",
+    "keyFeatures": [
+        "Standard heights H 198 cm and H 222 cm with full architectural ceiling-height extensions",
+        "Dual functional modes: dedicated walk-in containment room or disguised secret passageway to private home areas",
+        "Ingenious 11 cm wide concealed broom closet formed naturally by the inward-swinging door leaf",
+        "Extensive modular interior fittings: solid wood open shelving, deep pull-out wire baskets, and spice racks",
+        "Diffused 3000K internal illumination automatically illuminated on entry",
+        "Exquisite interior natural timber finishes in teak, walnut, and smoked architectural oaks"
+    ],
+    "style": "modern"
+},
+  "mayfair-precision-appliance-garage-cabinet": {
+    "slug": "mayfair-precision-appliance-garage-cabinet",
+    "category": "pantry-larder",
+    "categoryTitle": "Pantry & Larder",
+    "title": "Mayfair Precision Countertop Appliance Garage",
+    "metaTitle": "Mayfair Precision Countertop Appliance Garage | Cabivella UK",
+    "metaDescription": "Bespoke countertop small appliance cabinet. Features mirror-finish Stopsol tempered glass door, heavy-duty pull-out appliance tray, dual UK power sockets, and integrated 3000K LED lighting.",
+    "dimensionsMm": "Modular widths: W 600 mm / W 900 mm \u00d7 Modular Heights aligned with Tall Wall Cabinetry",
+    "materials": [
+        "Tempered mirror-finish Stopsol glass door with built-in architectural grip",
+        "Heavy-duty stainless steel ball-bearing pull-out tray (50 kg dynamic load rating)",
+        "Natural wood interior lining matching Cabivella kitchen cabinetry collections",
+        "Integrated dual flush UK 240V power sockets with USB-C high-speed charging ports",
+        "Built-in 3000K diffused LED work lighting"
+    ],
+    "finishOptions": [
+        "Stopsol Mirror Glass with Natural Walnut interior",
+        "Stopsol Mirror Glass with Smoked Quarter-Sawn Oak interior",
+        "Stopsol Mirror Glass with Matte Fluted Black interior"
+    ],
+    "installationScope": "Sits directly upon kitchen countertop or integrated flush within tall wall housing modules in perfect vertical alignment.",
+    "image": "/images/pantry-storage/mac_system_1.webp",
+    "gallery": [
+        "/images/pantry-storage/mac_system_1.webp",
+        "/images/pantry-storage/mac_system_2.webp"
+    ],
+    "description": "The Mayfair Precision Countertop Appliance Garage is the definitive answer to clutter-free luxury kitchen surfaces. Engineered specifically to store, conceal, and operate small culinary appliances (espresso machines, stand mixers, juicers, and toasters), it sits directly in vertical alignment with the tall cabinetry modularity. Behind its reflective Stopsol tempered glass door lies a robust full-extension pull-out tray, integrated dual power sockets, and automatic 3000K LED task lighting\u2014allowing heavy appliances to be operated right on the sliding tray without ever lifting them.",
+    "keyFeatures": [
+        "Available in two modular dimensions precisely aligned with vertical kitchen tall architecture",
+        "Mirror-finish Stopsol tempered glass door with sleek built-in finger grip for effortless opening",
+        "Heavy-duty full-extension pull-out tray supporting heavy food mixers and espresso equipment",
+        "Dual integrated UK electrical sockets pre-wired for instant appliance operation",
+        "Automatic internal 3000K LED lighting illuminated upon opening",
+        "Interiors available in all fine hardwood finishes from the Cabivella Collection"
+    ],
+    "style": "modern"
+},
 };

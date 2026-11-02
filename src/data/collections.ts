@@ -327,8 +327,14 @@ export const collectionsData: Record<string, CollectionCategory> = {
     "metaDescription": "Explore pantry and larder cupboard designs for UK homes, with thoughtful storage configurations and finishes. Enquire about tailored cabinets.",
     "shortCopy": "Smart, beautifully organised storage solutions.",
     "description": "From deep spice racks to integrated spice carousels and soft-close oak drawers, our larder cupboards bring effortless order to modern culinary living.",
-    "image": "/assets/img/models/tall-larder-cupboards.webp",
+    "image": "/images/pantry-storage/pocket_system_1.webp",
     "modelSlugs": [
+      "somerset-cellar-reserve-wine-suite",
+      "cotswold-artisan-glass-front-sideboard",
+      "windsor-sommelier-cocktail-armoire",
+      "belgravia-pocket-hideaway-working-pantry",
+      "kensington-walk-in-larder-room-suite",
+      "mayfair-precision-appliance-garage-cabinet",
       "tall-larder-cupboards",
       "corner-pantry-storage",
       "tandem-tall-larder",
@@ -337,7 +343,7 @@ export const collectionsData: Record<string, CollectionCategory> = {
       "carousel-blind-corner",
       "pullout-larder-tower",
       "walkin-step-pantry"
-]
+    ]
   },
   "coffee-stations": {
     "slug": "coffee-stations",
