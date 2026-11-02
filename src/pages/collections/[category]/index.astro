@@ -74,6 +74,26 @@ const bathroomHeroSlides = [
   }
 ];
 
+// 2-Slide Bespoke Rotating Hero for Coffee Stations Suite
+const coffeeHeroSlides = [
+  {
+    image: '/images/coffee-stations/hero-fluted-walnut-barista-station.webp',
+    alt: 'Cabivella Bespoke Fluted Walnut Coffee Station with Integrated Barista Housing, Fluted Timber Splashback and Brass Accents',
+    title: 'Fluted Walnut Barista Suite',
+    subtitle: 'Integrated acoustic fluted timber backdrop with ambient LED display shelving and professional machine bay'
+  },
+  {
+    image: '/images/coffee-stations/hero-cashmere-integrated-beverage-credenza.webp',
+    alt: 'Cabivella Architectural Cashmere Coffee Station Credenza with Reeded Glazed Cabinets and Calacatta Marble Surface',
+    title: 'Architectural Beverage Credenza',
+    subtitle: 'Understated cashmere cabinetry with fluted glass vitrines and monolithic marble preparation surfaces'
+  }
+];
+
+const hasHeroSlider = category.slug === 'bathrooms' || category.slug === 'coffee-stations';
+const activeHeroSlides = category.slug === 'coffee-stations' ? coffeeHeroSlides : bathroomHeroSlides;
+
+
 // 8 Curated Architectural Bathroom Sub-Collections (1:1 Cabivella Collections Architecture)
 const bathroomSubCollections = [
   {
@@ -176,12 +196,12 @@ const bathroomSubCollections = [
 >
   <Breadcrumbs items={breadcrumbItems} />
 
-  <!-- Pure 4K Architectural Hero Panorama with Dynamic Slider for Bathrooms -->
-  <section class={category.slug === 'bathrooms' ? 'category-hero-section bathroom-hero-fullbleed' : 'wrap category-hero-section'} data-reveal>
-    {category.slug === 'bathrooms' ? (
+  <!-- Pure 4K Architectural Hero Panorama with Dynamic Slider for Bathrooms & Coffee Stations -->
+  <section class={hasHeroSlider ? 'category-hero-section bathroom-hero-fullbleed' : 'wrap category-hero-section'} data-reveal>
+    {hasHeroSlider ? (
       <div class="category-hero-card bathroom-hero-card" data-bath-hero-slider>
         <div class="bathroom-hero-slider-track">
-          {bathroomHeroSlides.map((slide, idx) => (
+          {activeHeroSlides.map((slide, idx) => (
             <div 
               class={`bathroom-hero-slide ${idx === 0 ? 'is-active' : ''}`}
               data-slide-index={idx}
@@ -201,16 +221,16 @@ const bathroomSubCollections = [
         </div>
 
         <!-- Slider Controls -->
-        <button type="button" class="bath-slider-arrow prev" data-bath-prev aria-label="Previous bathroom visual">
+        <button type="button" class="bath-slider-arrow prev" data-bath-prev aria-label="Previous slide">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
         </button>
-        <button type="button" class="bath-slider-arrow next" data-bath-next aria-label="Next bathroom visual">
+        <button type="button" class="bath-slider-arrow next" data-bath-next aria-label="Next slide">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
         </button>
 
         <!-- Slider Indicators -->
         <div class="bath-slider-dots" role="tablist" aria-label="Hero slider slide selector">
-          {bathroomHeroSlides.map((_, idx) => (
+          {activeHeroSlides.map((_, idx) => (
             <button 
               type="button" 
               class={`bath-slider-dot ${idx === 0 ? 'is-active' : ''}`}
