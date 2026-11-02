@@ -44,11 +44,555 @@
 @media(max-width:440px){.hero h1{font-size:60px}.hero-actions{width:100%;display:flex}.hero-actions .btn{flex:1;gap:12px;font-size:10px}.credential-grid{grid-template-columns:1fr}.cred,.cred:nth-child(2){border-right:0;border-bottom:1px solid var(--line);padding:16px 0}.cred:last-child{border-bottom:0}.intro-rail{grid-template-columns:1fr}.filters{gap:3px}.filter{padding:8px 9px;font-size:9px}.material-row{grid-template-columns:27px 1fr}.material-actions{grid-column:2;grid-row:2;flex-direction:row;align-items:center;justify-content:start}.material-desc{grid-column:2;grid-row:3}.spec-panel{grid-column:2;grid-row:4}.footer-grid{grid-template-columns:1fr}.quote-counter{font-size:0;gap:6px}.quote-counter .count{font-size:10px}.brand{gap:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 </style>
+<link rel="stylesheet" href="/_astro/index.P-BgWjQI.css">
+<style>
+
+:root {
+  --green: #072d25;
+  --green2: #0b3c31;
+  --gold: #b9914a;
+  --ivory: #fcfaf6;
+  --ink: #173028;
+  --line: #e4dfd5;
+}
+
+.cb-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--ivory);
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.04);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  width: 100%;
+}
+
+.cb-container {
+  width: min(100% - 96px, 1600px);
+  margin-inline: auto;
+}
+
+.cb-top {
+  background: var(--green);
+  color: #f9f6ee;
+  font-size: 12px;
+  letter-spacing: 0.025em;
+}
+
+.cb-top-inner {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.cb-location {
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cb-location span {
+  margin-right: 7px;
+}
+
+.cb-top-message {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 17px;
+  text-align: center;
+  flex: 1;
+}
+
+.cb-top-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  white-space: nowrap;
+}
+
+.cb-top-right a {
+  color: #f9f6ee;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.cb-top-right a:hover {
+  color: #e7c181;
+}
+
+.cb-top-divider {
+  width: 1px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+}
+
+.cb-main-inner {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 1.8vw, 32px);
+  min-height: 82px;
+}
+
+.cb-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cb-crest {
+  width: 62px;
+  height: 58px;
+  max-height: 60px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.cb-brand-sep {
+  height: 33px;
+  width: 1px;
+  background: var(--gold);
+}
+
+.cb-brand-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cb-brand-name {
+  font: normal 20px/1.0 Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+.cb-brand-sub {
+  font-size: 8px;
+  letter-spacing: 0.38em;
+  font-weight: 700;
+  margin-top: 4px;
+  color: var(--green);
+}
+
+.cb-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 1.55vw, 28px);
+  margin-left: auto;
+}
+
+.cb-nav > a,
+.cb-nav-trigger {
+  font: normal 16px Georgia, serif;
+  white-space: nowrap;
+  transition: color 0.2s;
+  color: inherit;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 13px 0;
+}
+
+.cb-nav > a:hover,
+.cb-nav > a.is-active,
+.cb-nav-trigger:hover {
+  color: #997338;
+}
+
+.cb-nav-group {
+  position: relative;
+}
+
+.cb-nav-trigger:after {
+  content: ' ▾';
+  margin-left: 6px;
+  font-size: 11px;
+}
+
+.cb-dropdown {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: -15px;
+  min-width: 220px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.cb-dropdown a {
+  display: block;
+  padding: 12px;
+  font-size: 14px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.cb-dropdown a:hover {
+  background: #f8f4eb;
+}
+
+.cb-nav-group:focus-within .cb-dropdown,
+.cb-nav-group:hover .cb-dropdown,
+.cb-nav-group.is-open .cb-dropdown {
+  display: block;
+}
+
+.cb-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.cb-search {
+  border: 0;
+  background: none;
+  color: var(--green);
+  width: 37px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.cb-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--gold);
+  padding: 12px 13px;
+  border-radius: 7px;
+  color: var(--green);
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cb-whatsapp svg {
+  color: #208b51;
+  fill: #208b51;
+}
+
+.cb-cta {
+  background: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 7px;
+  color: #ffffff !important;
+  padding: 15px 18px;
+  white-space: nowrap;
+  font: 15px Georgia, serif;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.cb-cta:hover {
+  background: var(--green2);
+}
+
+.cb-cta span {
+  margin-left: 9px;
+}
+
+.cb-mobile-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--gold);
+  border-radius: 6px;
+  padding: 9px;
+  color: var(--green);
+  cursor: pointer;
+}
+
+.cb-mobile-panel {
+  display: none;
+}
+
+.cb-mobile-panel[hidden] {
+  display: none !important;
+}
+
+.cb-search-panel {
+  padding: 12px 0 18px;
+  border-top: 1px solid var(--line);
+}
+
+.cb-search-panel[hidden] {
+  display: none;
+}
+
+.cb-search-form {
+  display: flex;
+  gap: 10px;
+}
+
+.cb-search-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 13px;
+  border: 1px solid var(--line);
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.cb-search-form button {
+  padding: 12px 20px;
+  background: var(--green);
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 1450px) {
+  .cb-container {
+    width: min(100% - 72px, 1600px);
+  }
+  .cb-main-inner {
+    gap: 16px;
+  }
+  .cb-nav {
+    gap: 14px;
+  }
+  .cb-nav > a,
+  .cb-nav-trigger {
+    font-size: 14px;
+  }
+  .cb-whatsapp {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .cb-cta {
+    padding: 12px;
+    font-size: 13px;
+  }
+  .cb-brand-name {
+    font-size: 19px;
+  }
+  .cb-crest {
+    width: 48px;
+    height: 44px;
+  }
+  .cb-brand-sep {
+    height: 30px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .cb-nav,
+  .cb-whatsapp,
+  .cb-actions > .cb-cta,
+  .cb-top-message {
+    display: none;
+  }
+  .cb-main-inner {
+    min-height: 86px;
+  }
+  .cb-actions {
+    margin-left: auto;
+  }
+  .cb-mobile-toggle {
+    display: grid;
+    place-items: center;
+  }
+  .cb-mobile-panel:not([hidden]) {
+    display: block;
+    border-top: 1px solid var(--line);
+    padding-block: 14px 24px;
+  }
+  .cb-mobile-panel a {
+    display: block;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .cb-mobile-panel .cb-mobile-cta {
+    background: var(--green);
+    color: #ffffff !important;
+    text-align: center;
+    margin-top: 15px;
+    padding: 16px;
+    border: 0;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+  }
+  .cb-top-right {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .cb-container {
+    width: calc(100% - 36px);
+  }
+  .cb-top-inner {
+    min-height: 37px;
+  }
+  .cb-top-right {
+    display: none;
+  }
+  .cb-location {
+    font-size: 11px;
+  }
+  .cb-main-inner {
+    min-height: 78px;
+    gap: 10px;
+  }
+  .cb-crest {
+    width: 44px;
+    height: 40px;
+  }
+  .cb-brand-sep {
+    height: 28px;
+  }
+  .cb-brand {
+    gap: 10px;
+  }
+  .cb-brand-name {
+    font-size: 17px;
+  }
+  .cb-brand-sub {
+    font-size: 7.5px;
+    margin-top: 3px;
+  }
+  .cb-search {
+    width: 31px;
+  }
+  .cb-actions {
+    gap: 4px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+
+.site-footer {
+  background: var(--dark, #182320);
+  color: #d3ddd6;
+  padding: 70px 0 25px;
+}
+.site-footer .foot-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+  width: min(1360px, calc(100% - 100px));
+  margin-inline: auto;
+}
+.site-footer .foot-logo {
+  font-family: var(--serif, 'Cinzel', serif);
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+.site-footer .foot-tagline {
+  font-size: 13px;
+  color: #afbfb4;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+.site-footer .foot-contact-pills {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.site-footer .foot-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #d0d8d0;
+  text-decoration: none;
+}
+.site-footer h3 {
+  font-family: var(--display, 'Manrope', sans-serif);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #dec4a5;
+  margin: 0 0 16px;
+}
+.site-footer .foot-links a {
+  display: block;
+  font-size: 13px;
+  color: #afbfb4;
+  line-height: 2.1;
+  text-decoration: none;
+}
+.site-footer .foot-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.site-footer .foot-bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #3a4741;
+  padding-top: 20px;
+  font-size: 11px;
+  color: #a4b4a8;
+  width: min(1360px, calc(100% - 100px));
+  margin-inline: auto;
+}
+@media (max-width: 900px) {
+  .site-footer .foot-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: calc(100% - 38px);
+  }
+  .site-footer .foot-bottom {
+    flex-direction: column;
+    gap: 10px;
+    width: calc(100% - 38px);
+  }
+}
+@media (max-width: 600px) {
+  .site-footer .foot-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="announcement"><div class="container"><span>TÜRKİYE <b>→</b> UNITED KINGDOM <b>·</b> EUROPE&nbsp;&nbsp; | &nbsp;BUILDING MATERIALS PROCUREMENT</span><span>TRADE &amp; PROJECT ENQUIRIES &nbsp; <a href="mailto:enquiries@cabivella.co.uk">enquiries@cabivella.co.uk ↗</a></span></div></div>
-<header class="main-header"><div class="container header-inner"><a class="brand" href="https://cabivella.co.uk/" aria-label="Cabivella home"><span class="brand-icon" aria-hidden="true">C</span><span class="brand-text"><strong>CABIVELLA</strong><small>MATERIALS &amp; TRADE</small></span></a><nav class="desktop-nav" aria-label="Primary navigation"><a href="#collections">Materials</a><a href="#directory">Full catalogue</a><a href="#approach">Our approach</a><a href="#documentation">Documentation</a><a href="#buyers">For trade</a></nav><div class="nav-tools"><button class="quote-counter" type="button" id="openDrawer" aria-label="View material enquiry list">Enquiry list <span class="count" id="selectedCount">0</span></button><a class="btn btn-dark header-cta" href="#enquire">Request a quote ↗</a><button class="menu-btn" type="button" id="menuToggle" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle menu"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div></div><nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation"><a href="#collections">Materials</a><a href="#directory">Full catalogue</a><a href="#approach">Our approach</a><a href="#documentation">Documentation</a><a href="#buyers">For trade</a><a href="#enquire">Request a quote</a></nav></header>
+<header class="cb-header" id="cabivella-header"> <!-- Top Bar --> <div class="cb-top"> <div class="cb-container cb-top-inner"> <div class="cb-location"> <span aria-hidden="true">🇬🇧</span> UNITED KINGDOM ▾
+</div> <div class="cb-top-message">
+Bespoke cabinetry for considered interiors
+</div> <div class="cb-top-right"> <a href="mailto:enquiries@cabivella.co.uk"> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="margin-right: 5px; vertical-align: -2px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>enquiries@cabivella.co.uk
+</a> <i class="cb-top-divider" aria-hidden="true"></i> <a href="/trade/">For Trade &amp; Specification ↗</a> </div> </div> </div> <!-- Main Navigation Inner --> <div class="cb-container cb-main-inner"> <!-- Brand Identity (Heraldic Crest + Bespoke Serif Logotype) --> <a class="cb-brand" href="/" aria-label="Cabivella home"> <img src="/assets/img/cabivella-crest-transparent.webp" alt="Cabivella Crest" class="cb-crest" width="62" height="58" loading="eager" decoding="async"> <span class="cb-brand-sep" aria-hidden="true"></span> <span class="cb-brand-copy"> <span class="cb-brand-name">CABIVELLA</span> <span class="cb-brand-sub">C O . U K</span> </span> </a> <!-- Navigation Links --> <nav class="cb-nav" aria-label="Main navigation"> <a href="/materials-supply/collections/building-materials/">Building Materials</a> <a href="/collections/kitchens/">Kitchens</a> <a href="/collections/bathrooms/">Bathrooms</a> <a href="/collections/pantry-larder/">Pantry</a> <a href="/collections/coffee-stations/">Coffee Stations</a> <a href="/collections/fitted-storage/">Storage</a> <!-- Dropdown --> <div class="cb-nav-group"> <button class="cb-nav-trigger" type="button" aria-expanded="false" aria-controls="cb-collections-menu">
+Products
+</button> <div class="cb-dropdown" id="cb-collections-menu"> <a href="/materials-supply/collections/building-materials/"><strong>Building Materials</strong></a> <a href="/collections/kitchens/">Kitchens</a> <a href="/collections/bathrooms/">Bathrooms</a> <a href="/collections/pantry-larder/">Pantry &amp; Larder</a> <a href="/collections/coffee-stations/">Coffee Stations</a> <a href="/collections/fitted-storage/">Storage</a> </div> </div> <a href="/our-story/">Our Story</a> <a href="/our-team/">Our Team</a> </nav> <!-- Header Actions --> <div class="cb-actions"> <button class="cb-search" type="button" aria-label="Open search" aria-expanded="false" aria-controls="cb-search-panel"> <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"> <circle cx="10.7" cy="10.7" r="7.2"></circle> <path d="m16 16 6 6"></path> </svg> </button> <a class="cb-whatsapp" href="https://wa.me/447898262110?text=Hello%20Cabivella,%20I%20would%20like%20to%20enquire%20about%20your%20cabinetry" target="_blank" rel="noopener noreferrer" aria-label="Contact Cabivella on WhatsApp"> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"> <path d="M20.5 11.7A8.6 8.6 0 0 1 7.7 19.2L3 20.5l1.4-4.5A8.6 8.6 0 1 1 20.5 11.7Z"></path> <path d="M8.5 8.2c.4-.4.7-.4 1-.1l1.2 1.5c.2.3.1.6-.1.9l-.5.6c.8 1.4 1.8 2.3 3.3 3l.5-.6c.2-.2.5-.3.8-.1l1.7.9c.5.3.4.7.1 1.1-1 1.5-3.7.6-5.9-1.3-2.2-1.9-3.8-4.5-2.1-5.9Z"></path> </svg> <span>+44 7898 262110</span> </a> <a class="cb-cta" href="/enquire/">
+Enquire Direct <span aria-hidden="true">→</span> </a> <button class="cb-mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="cb-mobile-panel"> <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"> <path d="M3 6h18M3 12h18M3 18h18"></path> </svg> </button> </div> </div> <!-- Search Panel --> <div class="cb-search-panel cb-container" id="cb-search-panel" hidden> <form class="cb-search-form" action="/search" method="get" role="search"> <input type="search" name="q" placeholder="Search collections..." aria-label="Search collections" required> <button type="submit">Search</button> </form> </div> <!-- Mobile Drawer Panel --> <nav class="cb-mobile-panel cb-container" id="cb-mobile-panel" aria-label="Mobile navigation" hidden> <a href="/materials-supply/collections/building-materials/"><strong>Building Materials</strong></a> <a href="/collections/kitchens/">Kitchens</a> <a href="/collections/bathrooms/">Bathrooms</a> <a href="/collections/pantry-larder/">Pantry</a> <a href="/collections/coffee-stations/">Coffee Stations</a> <a href="/collections/fitted-storage/">Storage</a> <a href="/our-story/">Our Story</a> <a href="/our-team/">Our Team</a> <a href="/trade/">For Trade &amp; Specification ↗</a> <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" style="color: #208b51; font-weight: 700;">
+WhatsApp — +44 7898 262110
+</a> <a class="cb-mobile-cta" href="/enquire/">
+Enquire Direct →
+</a> </nav> </header></header>
 <main id="main">
 <section class="hero" aria-labelledby="heroTitle"><div class="hero-photo" role="img" aria-label="Contemporary architectural building with natural materials, illustrative photograph"></div><div class="container"><div class="hero-copy"><span class="micro hero-label">THE MATERIALS DESK &nbsp; / &nbsp; CABIVELLA TRADE</span><h1 id="heroTitle">Building Materials from Turkey</h1>
 <p class="hero-subtitle" style="font-size: clamp(24px, 3vw, 36px); font-family: var(--serif); color: #eadacb; margin-top: -15px; margin-bottom: 20px; font-style: italic;">Architectural Products &amp; Construction Systems</p><p class="hero-lead">A considered route to building and architectural materials for British and European projects. Tell us what you need. We will assess the specification, supply route and commercial requirements.</p><div class="hero-actions"><a class="btn btn-light" href="#collections">Explore the materials <span aria-hidden="true">↗</span></a><a class="btn btn-outline-light" href="#enquire">Discuss a project <span aria-hidden="true">↗</span></a></div></div><div class="hero-hint"><span class="line"></span><span class="micro">EXPLORE THE COLLECTION ↓</span></div><div class="hero-aside">ARCHITECTURAL SUPPLY<br><span>FROM TÜRKİYE</span></div></div></section>
@@ -67,7 +611,9 @@
 <section class="section faq" id="faq"><div class="container faq-grid"><div><div class="eyebrow micro">BEFORE YOU ENQUIRE</div><h2>Good questions.<br><i>Clear answers.</i></h2></div><div class="faq-group"><div class="faq-item open"><button aria-expanded="true" type="button">Can you supply materials to the United Kingdom and EU? <span aria-hidden="true">+</span></button><div class="answer"><p>Cabivella accepts trade enquiries for both markets. Product feasibility, import responsibilities, freight and destination-specific compliance are assessed individually rather than guaranteed for all categories.</p></div></div><div class="faq-item"><button aria-expanded="false" type="button">Do you have prices or minimum order quantities? <span aria-hidden="true">+</span></button><div class="answer"><p>Pricing and minimum quantities depend on the material, manufacturing route, specification, packing and destination. Send quantity and delivery details for a project-specific assessment.</p></div></div><div class="faq-item"><button aria-expanded="false" type="button">Can you work from drawings or a bill of quantities? <span aria-hidden="true">+</span></button><div class="answer"><p>Yes, send PDF drawings, schedules and BOQ documents to enquiries@cabivella.co.uk. Include the delivery country and the level of technical detail you expect to be quoted.</p></div></div><div class="faq-item"><button aria-expanded="false" type="button">Are all listed products CE / UKCA marked? <span aria-hidden="true">+</span></button><div class="answer"><p>No blanket certification claim is made. Whether marking, declarations, third-party testing or other documentation is required depends on the product and where it is placed on the market. Evidence must be reviewed before a binding procurement decision.</p></div></div><div class="faq-item"><button aria-expanded="false" type="button">Do you arrange installation or delivered-duty-paid import? <span aria-hidden="true">+</span></button><div class="answer"><p>Installation, importer-of-record responsibilities, Incoterms, duties and VAT are not assumed. These need to be stated expressly in the quotation or agreed contract.</p></div></div></div></div></section>
 <section class="last-cta"><div class="container last-inner"><div><div class="micro" style="color:#d3b494">LET'S TALK MATERIALS</div><h2>Better sourcing begins with <em>the right brief.</em></h2></div><a class="btn btn-light" href="#enquire">Start your enquiry ↗</a></div></section>
 </main>
-<footer class="footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="https://cabivella.co.uk/"><span class="brand-icon" aria-hidden="true">C</span><span class="brand-text"><strong>CABIVELLA</strong><small>MATERIALS &amp; TRADE</small></span></a><p>Specification-led enquiries for construction and architectural material supply from Türkiye to the United Kingdom and Europe.</p><p style="margin-top:17px">Product photography is illustrative and does not depict verified Cabivella stock, factories or completed projects.</p></div><div><h4>Explore</h4><a href="#collections">Selected materials</a><a href="#directory">All product families</a><a href="#buyers">Who we work with</a><a href="#approach">Sourcing approach</a></div><div><h4>Information</h4><a href="#documentation">Product documentation</a><a href="#faq">Frequently asked questions</a><a href="https://cabivella.co.uk/international-delivery/">Delivery terms</a><a href="https://cabivella.co.uk/privacy/">Privacy policy</a></div><div><h4>Trade enquiries</h4><a href="mailto:enquiries@cabivella.co.uk">enquiries@cabivella.co.uk</a><a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer">WhatsApp enquiries ↗</a><a href="https://cabivella.co.uk/trade/">Cabivella trade</a><a href="https://cabivella.co.uk/">Main website ↗</a></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> Cabivella. Trade enquiries, subject to written product and commercial confirmation.</span><span>Crafted for clarity. Built around specification. &nbsp; · &nbsp; Türkiye → UK / Europe</span></div></div></footer>
+<footer class="site-footer"> <div class="wrap foot-top"> <!-- Brand Info --> <div> <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;"> <img src="/assets/img/cabivella-crest-transparent.webp" alt="Cabivella Crest" width="48" height="44" style="object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06));"> <a href="/" class="foot-logo" style="margin: 0;">Cabivella</a> </div> <p class="foot-tagline">
+Considered cabinetry for kitchens, bathrooms and the spaces in between.
+</p> <div class="foot-contact-pills"> <!-- Verified Email Link --> <a href="mailto:enquiries@cabivella.co.uk" class="foot-contact-link"> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColour" stroke-width="2" aria-hidden="true"> <rect width="20" height="16" x="2" y="4" rx="2"></rect> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path> </svg> <span>enquiries@cabivella.co.uk</span> </a> <!-- Verified WhatsApp Link --> <a href="https://wa.me/447898262110?text=Hello%20Cabivella%2C%20I%20would%20like%20to%20enquire%20about%20bespoke%20cabinetry%20for%20my%20home." target="_blank" rel="noopener noreferrer" class="foot-contact-link"> <svg width="15" height="15" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"> <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.766-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"></path> </svg> <span>WhatsApp: +44 7898 262110</span> </a> </div> </div> <!-- Explore --> <div> <h3>Explore</h3> <div class="foot-links"> <a href="/collections/kitchens/">Kitchens</a><a href="/collections/bathrooms/">Bathrooms</a><a href="/collections/pantry-larder/">Pantry &amp; Larder</a><a href="/collections/coffee-stations/">Coffee Stations</a> </div> </div> <!-- More Spaces --> <div> <h3>More Spaces</h3> <div class="foot-links"> <a href="/collections/fitted-storage/">Fitted Storage</a><a href="/collections/kitchen-doors/">Kitchen Doors</a><a href="/materials/">Materials &amp; Finishes</a><a href="/image-credits/">Image Information</a> </div> </div> <!-- Cabivella --> <div> <h3>Cabivella</h3> <div class="foot-links"> <a href="/our-story/">Our Story</a><a href="/our-team/">Our Team</a><a href="/trade/">Trade &amp; Wholesale</a><a href="/trade/europe/">European Supply</a><a href="/international-delivery/">International Delivery</a><a href="/enquire/">Enquire About a Project</a><a href="/privacy/">Privacy Policy</a><a href="/cookies/">Cookie Policy</a> </div> </div> </div> <div class="wrap foot-bottom"> <span>© 2026 Cabivella. All rights reserved. Registered for UK supply.</span> <span>British English · Direct export supply to the UK & Europe</span> </div> </footer>
 <div class="drawer-backdrop" id="drawerBackdrop" aria-hidden="true"></div><aside id="drawer" class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true" inert><div class="drawer-head"><div><span class="micro muted">YOUR SELECTED FAMILIES</span><h2 id="drawerTitle">Material enquiry</h2></div><button class="icon-btn" type="button" id="closeDrawer" aria-label="Close material enquiry list">×</button></div><div id="drawerItems" class="drawer-content"></div><div class="drawer-footer"><button type="button" class="btn btn-dark" id="useSelection">Continue to enquiry ↗</button><p class="small-note" style="margin-bottom:0">Add or remove product families. Quantities and technical details can be entered on the next step.</p></div></aside>
 <script>
 
@@ -103,5 +649,57 @@ $('copyBrief').addEventListener('click',async()=>{if(!isValid())return;const tex
 $('year').textContent=new Date().getFullYear();render();applyFilter();
 })();
 </script>
+
+<script>
+function setupHeader() {
+  var header = document.querySelector("#cabivella-header");
+  if (!header) return;
+  var t = header.querySelector(".cb-mobile-toggle"), i = header.querySelector("#cb-mobile-panel"), c = header.querySelector(".cb-search"), n = header.querySelector("#cb-search-panel"), a = header.querySelector(".cb-nav-trigger"), o = header.querySelector(".cb-nav-group");
+  function d(e, r, l) {
+    if (!e || !r) return;
+    e.setAttribute("aria-expanded", String(l));
+    r.hidden = !l;
+    if (e === t) e.setAttribute("aria-label", l ? "Close menu" : "Open menu");
+  }
+  if (t && i) t.addEventListener("click", function() {
+    var e = i.hidden;
+    d(t, i, e);
+    if (c && n) d(c, n, false);
+  });
+  if (c && n) c.addEventListener("click", function() {
+    var e = n.hidden;
+    d(c, n, e);
+    if (t && i) d(t, i, false);
+    if (e) {
+      var r = n.querySelector("input");
+      if (r) r.focus();
+    }
+  });
+  if (a && o) a.addEventListener("click", function(e) {
+    e.stopPropagation();
+    var r = a.getAttribute("aria-expanded") !== "true";
+    a.setAttribute("aria-expanded", String(r));
+    o.classList.toggle("is-open", r);
+  });
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") {
+      if (t && i) d(t, i, false);
+      if (c && n) d(c, n, false);
+      if (a && o) {
+        a.setAttribute("aria-expanded", "false");
+        o.classList.remove("is-open");
+      }
+    }
+  });
+  document.addEventListener("click", function(e) {
+    if (o && !o.contains(e.target)) {
+      if (a) a.setAttribute("aria-expanded", "false");
+      o.classList.remove("is-open");
+    }
+  });
+}
+setupHeader();
+</script>
+
 </body>
 </html>
