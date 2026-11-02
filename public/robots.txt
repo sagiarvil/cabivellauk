@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://cabivella.co.uk/sitemap.xml
+Sitemap: https://cabivella.co.uk/sitemap-export.xml

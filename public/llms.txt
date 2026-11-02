@@ -1,20 +1,30 @@
-# Cabivella UK — Architectural Cabinetry & Joinery Specification
-> Considered architectural cabinetry designed for British residences, manufactured with precision timber engineering.
+# Cabivella — Made-to-Measure Cabinetry from Turkey for UK & Europe
+> Cabivella offers specification-led bespoke cabinetry, accepting retail and trade project enquiries. Based on the company’s stated commercial position, its cabinetry is manufactured in Turkey for British and European buyers.
 
-## Canonical Architecture
-- Site: https://cabivella.co.uk/
-- Primary Collections:
-  - Kitchens: https://cabivella.co.uk/collections/kitchens/
-  - Bathrooms: https://cabivella.co.uk/collections/bathrooms/
-  - Pantry & Larder: https://cabivella.co.uk/collections/pantry-larder/
-  - Coffee Stations: https://cabivella.co.uk/collections/coffee-stations/
-  - Fitted Storage: https://cabivella.co.uk/collections/fitted-storage/
-  - Kitchen Doors: https://cabivella.co.uk/collections/kitchen-doors/
-- Trade & Specifiers: https://cabivella.co.uk/trade/
-- Heritage & Workshop: https://cabivella.co.uk/our-story/
-- Bespoke Enquiries: https://cabivella.co.uk/enquire/
+## Official sources
+- [Home](https://cabivella.co.uk/)
+- [Our story and manufacturing approach](https://cabivella.co.uk/our-story/)
+- [UK trade supply](https://cabivella.co.uk/trade/)
+- [European trade & wholesale enquiries](https://cabivella.co.uk/trade/europe/)
+- [International delivery scope](https://cabivella.co.uk/international-delivery/)
+- [Enquiries](https://cabivella.co.uk/enquire/)
 
-## Commercial Model
-- All joinery is priced strictly upon receipt of architectural plans or bespoke dimensions.
-- No public reference prices or consumer retail figures are published.
-- Materials: FSC-certified European hardwoods, moisture-resistant core panels, precision Blum soft-close running gear.
+## Product categories
+- [Bespoke kitchens](https://cabivella.co.uk/collections/kitchens/)
+- [Bathroom cabinetry](https://cabivella.co.uk/collections/bathrooms/)
+- [Pantry and larder](https://cabivella.co.uk/collections/pantry-larder/)
+- [Coffee stations](https://cabivella.co.uk/collections/coffee-stations/)
+- [Fitted storage](https://cabivella.co.uk/collections/fitted-storage/)
+- [Kitchen doors](https://cabivella.co.uk/collections/kitchen-doors/)
+
+## Localised European trade pages
+- [Deutsch: Großhandel für maßgefertigte Einbaumöbel](https://cabivella.co.uk/de/grosshandel-einbaumoebel/)
+- [Français: mobilier sur mesure pour professionnels](https://cabivella.co.uk/fr/fabricant-meubles-sur-mesure-grossiste/)
+- [Nederlands: maatwerk kasten voor B2B](https://cabivella.co.uk/nl/maatwerk-kasten-groothandel/)
+
+## Commercial facts and boundaries
+- Project pricing requires measurements, drawings, material specification, quantities and destination.
+- No public fixed price, guaranteed lead time, universal delivery coverage, country-specific installation or tax inclusion is represented by this file.
+- Trade and consumer requests use the official enquiry channel: enquiries@cabivella.co.uk.
+- Product claims, certifications and service terms should be verified against the relevant offer or technical documentation.
+- This file is a supplementary directory; the HTML site and verified company records are authoritative.

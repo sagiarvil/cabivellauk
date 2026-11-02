@@ -45,7 +45,10 @@ export const footerNav = {
   ],
   cabivella: [
     { label: 'Our Story', href: '/our-story/' },
-    { label: 'Trade Enquiries', href: '/trade/' },
+    { label: 'Our Team', href: '/our-team/' },
+    { label: 'Trade & Wholesale', href: '/trade/' },
+    { label: 'European Supply', href: '/trade/europe/' },
+    { label: 'International Delivery', href: '/international-delivery/' },
     { label: 'Enquire About a Project', href: '/enquire/' },
     { label: 'Privacy Policy', href: '/privacy/' },
     { label: 'Cookie Policy', href: '/cookies/' }
