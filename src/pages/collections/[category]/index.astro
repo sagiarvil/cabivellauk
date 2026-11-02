@@ -39,6 +39,132 @@ const categoryHeroImages: Record<string, string> = {
 };
 
 const heroImage = categoryHeroImages[category.slug] || category.image;
+
+// 5-Slide Architectural Rotating Hero for Bathrooms Suite
+const bathroomHeroSlides = [
+  {
+    image: '/assets/img/hero/bathrooms/cabivella-luxury-bathroom-navy-fluted-vanity-suite-hero.webp',
+    alt: 'Cabivella Navy Fluted Bathroom Vanity Suite with Illuminated Oval Mirror',
+    title: 'Fluted Precision Joinery',
+    subtitle: 'Deep navy reeded surfaces paired with refined brushed brass fittings'
+  },
+  {
+    image: '/assets/img/hero/bathrooms/cabivella-architectural-modular-bathroom-vanity-unit-hero.webp',
+    alt: 'Cabivella Architectural Modular Bathroom Vanity Suite with Open Frame',
+    title: 'Architectural Minimalist Form',
+    subtitle: 'Clean geometric lines and ergonomic modular storage balance'
+  },
+  {
+    image: '/assets/img/hero/bathrooms/cabivella-natural-timber-wall-hung-bathroom-suite-hero.webp',
+    alt: 'Cabivella Natural Timber Wall-Hung Bathroom Vanity and Matching Linen Towers',
+    title: 'Natural Timber Warmth',
+    subtitle: 'Rich grain walnut texture harmonised with pure architectural geometry'
+  },
+  {
+    image: '/assets/img/hero/bathrooms/cabivella-olive-green-double-basin-bathroom-suite-hero.webp',
+    alt: 'Cabivella Olive Green Double Basin Floating Vanity Suite with Dual LED Mirrors',
+    title: 'Contemporary Double Basin Suites',
+    subtitle: 'Balanced symmetry engineered for serene everyday rituals'
+  },
+  {
+    image: '/assets/img/hero/bathrooms/cabivella-minimalist-freestanding-washstand-bathroom-hero.webp',
+    alt: 'Cabivella Minimalist Freestanding Washstand with Fluted Accent Tile Wall',
+    title: 'Monolithic Washstand Geometry',
+    subtitle: 'Light architectural steel frame united with vitreous ceramic basin'
+  }
+];
+
+// 8 Curated Architectural Bathroom Sub-Collections (1:1 Orka Collections Architecture)
+const bathroomSubCollections = [
+  {
+    id: 'signature-2025',
+    title: 'Signature 2025 Collection',
+    slogan: 'Looking for perfection',
+    desc: 'The Signature 2025 Collection transforms British bathrooms from purely functional spaces into tranquil living sanctuaries where tactile serenity and precision joinery converge.',
+    image: '/assets/img/collections/bathrooms/cabivella-signature-2025-collection-levanto.webp',
+    alt: 'Cabivella Signature 2025 Architectural Bathroom Collection Levanto Suite',
+    badgeText: '2025 SUITE',
+    paletteColor: '#5a6268',
+    filterTag: 'all'
+  },
+  {
+    id: 'thermold',
+    title: 'TherMold Moisture-Resistant Collection',
+    slogan: 'The tranquility of nature',
+    desc: 'Our TherMold Technology delivers uncompromising water resistance for humid UK bathrooms. High-heat fused polymers create seamless, moisture-sealed surfaces that retain enduring tactile beauty.',
+    image: '/assets/img/collections/bathrooms/cabivella-thermold-moisture-resistant-lentia.webp',
+    alt: 'Cabivella TherMold Moisture-Resistant Bathroom Vanity Collection Lentia Suite',
+    badgeText: 'THERMOLD',
+    paletteColor: '#434e54',
+    filterTag: 'all'
+  },
+  {
+    id: 'only',
+    title: 'Pure Minimalist Only Collection',
+    slogan: 'Only you, only yours...',
+    desc: 'With calm silhouettes, concealed edge pulls and soothing monochrome finishes, the Only Collection crafts a personal sanctuary tailored precisely around your daily routine.',
+    image: '/assets/img/collections/bathrooms/cabivella-pure-minimalist-ferla.webp',
+    alt: 'Cabivella Pure Minimalist Bathroom Collection Ferla Vanity Suite',
+    badgeText: 'ONLY',
+    paletteColor: '#694a56',
+    filterTag: 'all'
+  },
+  {
+    id: 'rate',
+    title: 'Harmonic Ratio Collection',
+    slogan: 'Perfect ratio. Perfect balance',
+    desc: 'Inspired by classical proportions, the Harmonic Ratio Collection creates timeless architectural visual weight through balanced reveals, integrated washstands and modular towers.',
+    image: '/assets/img/collections/bathrooms/cabivella-harmonic-ratio-bastle.webp',
+    alt: 'Cabivella Harmonic Ratio Bathroom Vanity Collection Bastle Suite',
+    badgeText: 'RATE',
+    paletteColor: '#53756c',
+    filterTag: 'all'
+  },
+  {
+    id: 'karma',
+    title: 'Artisan Karma Collection',
+    slogan: 'At the right time, with the right feeling',
+    desc: 'Bringing tactile balance to contemporary homes. Karma harmonises natural fluted oak accents, stone surfaces and discreet LED illumination for atmospheric luxury.',
+    image: '/assets/img/collections/bathrooms/cabivella-artisan-karma-prato.webp',
+    alt: 'Cabivella Artisan Karma Bathroom Vanity Collection Prato Suite',
+    badgeText: 'KARMA',
+    paletteColor: '#6e7e48',
+    filterTag: 'all'
+  },
+  {
+    id: 'amorf',
+    title: 'Sculptural Amorf Collection',
+    slogan: 'Extraordinary and unlimited',
+    desc: 'Breaking away from rigid boundaries. Sculptural curves, asymmetric stone basins and organic timber profiles deliver bespoke individuality for architectural British residences.',
+    image: '/assets/img/collections/bathrooms/cabivella-sculptural-amorf-milano.webp',
+    alt: 'Cabivella Sculptural Amorf Bathroom Vanity Collection Milano Suite',
+    badgeText: 'AMORF',
+    paletteColor: '#4a555c',
+    filterTag: 'all'
+  },
+  {
+    id: 'friendly',
+    title: 'Ergonomic Comfort Collection',
+    slogan: 'With the easiest choices in your happiest moments…',
+    desc: 'Intelligently scaled for compact city cloakrooms and family bathrooms alike. Ergonomic vanity heights, generous drawer depths and warm tactile finishes.',
+    image: '/assets/img/collections/bathrooms/cabivella-ergonomic-comfort-purus.webp',
+    alt: 'Cabivella Ergonomic Comfort Bathroom Vanity Collection Purus Suite',
+    badgeText: 'COMFORT',
+    paletteColor: '#586b66',
+    filterTag: 'all'
+  },
+  {
+    id: 'storage',
+    title: 'Integrated Storage & Utility Collection',
+    slogan: 'Spatial savings.. Perfect Layout…',
+    desc: 'Dedicated laundry armoires, concealed washing machine housings and full-height linen towers designed to bring effortless organisation to British utility spaces.',
+    image: '/assets/img/collections/bathrooms/cabivella-utility-storage-lume.webp',
+    alt: 'Cabivella Integrated Storage and Utility Bathroom Collection Lume Armoire',
+    badgeText: 'STORAGE',
+    paletteColor: '#505a61',
+    filterTag: 'all'
+  }
+];
 ---
 
 <SiteLayout 
@@ -50,26 +176,169 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
 >
   <Breadcrumbs items={breadcrumbItems} />
 
-  <!-- Pure 4K Architectural Hero Panorama (Zero Text On Image, Crystal-Clear) -->
+  <!-- Pure 4K Architectural Hero Panorama with Dynamic Slider for Bathrooms -->
   <section class="wrap category-hero-section" data-reveal>
-    <div class="category-hero-card">
-      <div class="hero-image-container">
-        <ResponsivePhoto 
-          src={heroImage} 
-          alt={`Cabivella ${category.title} Architectural Master Joinery`} 
-          width={1920} 
-          height={750} 
-          eager={true} 
-          className="category-hero-img"
-        />
+    {category.slug === 'bathrooms' ? (
+      <div class="category-hero-card bathroom-hero-card" data-bath-hero-slider>
+        <div class="bathroom-hero-slider-track">
+          {bathroomHeroSlides.map((slide, idx) => (
+            <div 
+              class={`bathroom-hero-slide ${idx === 0 ? 'is-active' : ''}`}
+              data-slide-index={idx}
+              aria-hidden={idx === 0 ? 'false' : 'true'}
+            >
+              <ResponsivePhoto 
+                src={slide.image} 
+                alt={slide.alt} 
+                width={1920} 
+                height={750} 
+                eager={idx === 0} 
+                className="category-hero-img"
+              />
+              <div class="bathroom-hero-overlay"></div>
+              <div class="bathroom-hero-caption">
+                <span class="hero-caption-badge">BATHROOM ARCHITECTURE</span>
+                <h2 class="hero-caption-title">{slide.title}</h2>
+                <p class="hero-caption-sub">{slide.subtitle}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <!-- Slider Controls -->
+        <button type="button" class="bath-slider-arrow prev" data-bath-prev aria-label="Previous bathroom visual">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button type="button" class="bath-slider-arrow next" data-bath-next aria-label="Next bathroom visual">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+
+        <!-- Slider Indicators -->
+        <div class="bath-slider-dots" role="tablist" aria-label="Hero slider slide selector">
+          {bathroomHeroSlides.map((_, idx) => (
+            <button 
+              type="button" 
+              class={`bath-slider-dot ${idx === 0 ? 'is-active' : ''}`}
+              data-bath-dot={idx}
+              aria-label={`Slide ${idx + 1}`}
+              role="tab"
+              aria-selected={idx === 0 ? 'true' : 'false'}
+            ></button>
+          ))}
+        </div>
       </div>
-    </div>
+    ) : (
+      <div class="category-hero-card">
+        <div class="hero-image-container">
+          <ResponsivePhoto 
+            src={heroImage} 
+            alt={`Cabivella ${category.title} Architectural Master Joinery`} 
+            width={1920} 
+            height={750} 
+            eager={true} 
+            className="category-hero-img"
+          />
+        </div>
+      </div>
+    )}
   </section>
 
   <!-- Ghost Watermark -->
   <DynamicWatermark text={category.title} />
 
-      {category.slug === 'kitchens' ? (
+      {category.slug === 'bathrooms' ? (
+        <!-- ORKA-FIDELITY ARCHITECTURAL BATHROOMS STRUCTURE (1:1 FIDELITY) -->
+        <section class="wrap orka-bathrooms-wrapper">
+          <!-- Top Header & Editorial Subtitle -->
+          <div class="orka-top-header">
+            <h1 class="orka-main-title">COLLECTIONS</h1>
+            <p class="orka-title-sub">Bespoke Architectural Bathroom Joinery & Serene Vanity Suites</p>
+          </div>
+
+          <!-- 1:1 Split-Layout Collection Showcase (Orka 72%/28% Ratio) -->
+          <div class="orka-collections-list">
+            {bathroomSubCollections.map((col, cIdx) => (
+              <article class="orka-collection-row" data-reveal data-reveal-delay={String((cIdx % 3) + 1)}>
+                <!-- Left 72%: High-Definition Architectural Visual Stage -->
+                <div class="orka-lefts">
+                  <a href="#bathroom-specifications" class="orka-image-link" style={`background-image: url('${col.image}');`}>
+                    <span class="sr-only">View {col.title}</span>
+                  </a>
+                  <div class="orka-badge-logo">
+                    <span class="orka-badge-text">{col.badgeText}</span>
+                  </div>
+                </div>
+
+                <!-- Right 28%: Architectural Editorial & Slogan -->
+                <div class="orka-rights" style={`background-color: ${col.paletteColor}; border-color: ${col.paletteColor};`}>
+                  <div class="orka-slogan">
+                    <span>{col.slogan}</span>
+                  </div>
+                  <div class="orka-text-block">
+                    <div class="orka-metin">
+                      <p>{col.desc}</p>
+                    </div>
+                    <a href="#bathroom-specifications" class="orka-more-btn">
+                      EXPLORE
+                    </a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <!-- All Available Specifications Section Anchor -->
+          <div id="bathroom-specifications" class="orka-models-anchor-strip">
+            <div class="section-divider-bar">
+              <h2 class="category-main-heading">All Bathroom Vanity Suites & Specifications</h2>
+              <span class="counter-badge">{categoryModels.length} Specifications Available</span>
+            </div>
+            <p class="section-lead-note">Precision moisture-resistant carcass joinery, Blum Austrian soft-close hardware, and bespoke architectural vanity dimensions.</p>
+          </div>
+
+          <!-- Responsive Specifications Grid -->
+          <div class="models-responsive-grid" data-reveal-group style="padding-bottom: 90px;">
+            {categoryModels.map((model, idx) => (
+              <article 
+                class="v6-category-card" 
+                data-reveal 
+                data-reveal-delay={String((idx % 3) + 1)}
+              >
+                <a href={`/collections/${category.slug}/${model.slug}/`} class="card-visual-link">
+                  <div class="card-image-wrapper">
+                    <ResponsivePhoto 
+                      src={model.image} 
+                      alt={`${model.title} - British bespoke bathroom joinery`} 
+                      width={700} 
+                      height={550} 
+                      className="card-photo"
+                    />
+                  </div>
+                </a>
+                <div class="card-info-body">
+                  <span class="card-eyebrow">BATHROOM SPECIFICATION</span>
+                  <h3 class="card-title">
+                    <a href={`/collections/${category.slug}/${model.slug}/`}>{model.title}</a>
+                  </h3>
+                  <p class="card-description">{model.description}</p>
+
+                  <div class="card-meta-row">
+                    <span class="card-lead-time">{model.dimensionsMm}</span>
+                    <span class="card-price-ref"><span class="ref-label">Ref:</span> {model.materials[0]?.split(' ')[0] || 'Moisture-MDF'}</span>
+                  </div>
+
+                  <div class="card-action-bar">
+                    <a href={`/collections/${category.slug}/${model.slug}/`} class="card-detail-btn">
+                      <span>View Specifications</span>
+                      <span aria-hidden="true">→</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : category.slug === 'kitchens' ? (
       <!-- LINEADECOR ARCHITECTURAL KITCHENS STRUCTURE (1:1 FIDELITY) -->
       <section class="wrap linea-kitchens-wrapper">
         <!-- Centered Header & Category Switcher -->
@@ -310,6 +579,73 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
 
     <script is:inline>
     document.addEventListener('DOMContentLoaded', () => {
+      // 0. Hero Rotating Carousel for Bathrooms
+      const bathSlider = document.querySelector('[data-bath-hero-slider]');
+      if (bathSlider) {
+        const slides = bathSlider.querySelectorAll('.bathroom-hero-slide');
+        const dots = bathSlider.querySelectorAll('[data-bath-dot]');
+        const prevBtn = bathSlider.querySelector('[data-bath-prev]');
+        const nextBtn = bathSlider.querySelector('[data-bath-next]');
+        let currentSlide = 0;
+        let slideTimer = null;
+
+        function goToSlide(n) {
+          slides[currentSlide].classList.remove('is-active');
+          slides[currentSlide].setAttribute('aria-hidden', 'true');
+          if (dots[currentSlide]) {
+            dots[currentSlide].classList.remove('is-active');
+            dots[currentSlide].setAttribute('aria-selected', 'false');
+          }
+          currentSlide = (n + slides.length) % slides.length;
+          slides[currentSlide].classList.add('is-active');
+          slides[currentSlide].setAttribute('aria-hidden', 'false');
+          if (dots[currentSlide]) {
+            dots[currentSlide].classList.add('is-active');
+            dots[currentSlide].setAttribute('aria-selected', 'true');
+          }
+        }
+
+        function startAutoPlay() {
+          stopAutoPlay();
+          slideTimer = setInterval(() => {
+            goToSlide(currentSlide + 1);
+          }, 4500);
+        }
+
+        function stopAutoPlay() {
+          if (slideTimer) {
+            clearInterval(slideTimer);
+            slideTimer = null;
+          }
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', () => {
+            goToSlide(currentSlide - 1);
+            startAutoPlay();
+          });
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', () => {
+            goToSlide(currentSlide + 1);
+            startAutoPlay();
+          });
+        }
+
+        dots.forEach((dot, idx) => {
+          dot.addEventListener('click', () => {
+            goToSlide(idx);
+            startAutoPlay();
+          });
+        });
+
+        bathSlider.addEventListener('mouseenter', stopAutoPlay);
+        bathSlider.addEventListener('mouseleave', startAutoPlay);
+
+        startAutoPlay();
+      }
+
       // 1. In-Card Carousel Sliders (Exact Lineadecor style)
       document.querySelectorAll('[data-card-slider]').forEach(stage => {
         const dataBucket = stage.querySelector('[data-gallery-data]');
@@ -434,6 +770,351 @@ const heroImage = categoryHeroImages[category.slug] || category.image;
 </SiteLayout>
 
 <style>
+  /* ==========================================================================
+     BATHROOM HERO ROTATING SLIDER (Apple Motion + Crossfade)
+     ========================================================================== */
+  .bathroom-hero-card {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #141c16;
+    box-shadow: 0 16px 48px rgba(22, 30, 24, 0.12);
+    border: 1px solid var(--line);
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    max-height: 560px;
+  }
+  .bathroom-hero-slider-track {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .bathroom-hero-slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: scale(1.03);
+    z-index: 1;
+  }
+  .bathroom-hero-slide.is-active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    z-index: 2;
+  }
+  .bathroom-hero-slide :global(.responsive-picture),
+  .bathroom-hero-slide :global(.responsive-picture img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .bathroom-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(15, 23, 18, 0.1) 0%,
+      rgba(15, 23, 18, 0.25) 50%,
+      rgba(10, 16, 12, 0.8) 100%
+    );
+    z-index: 2;
+  }
+  .bathroom-hero-caption {
+    position: absolute;
+    bottom: 34px;
+    left: clamp(24px, 4vw, 54px);
+    z-index: 3;
+    max-width: 680px;
+    color: #ffffff;
+    pointer-events: none;
+  }
+  .hero-caption-badge {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    color: #e5c98f;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+    padding: 4px 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(229, 201, 143, 0.3);
+  }
+  .hero-caption-title {
+    font-family: var(--font-heading);
+    font-size: clamp(24px, 3.2vw, 38px);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin-bottom: 6px;
+    color: #ffffff;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+  .hero-caption-sub {
+    font-size: clamp(13px, 1.3vw, 15px);
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.88);
+    font-weight: 400;
+    margin: 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+  }
+  .bath-slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 5;
+    transition: all 0.25s ease;
+  }
+  .bath-slider-arrow:hover {
+    background: rgba(255, 255, 255, 0.85);
+    color: #1a221c;
+    border-color: #ffffff;
+    transform: translateY(-50%) scale(1.08);
+  }
+  .bath-slider-arrow.prev { left: 20px; }
+  .bath-slider-arrow.next { right: 20px; }
+
+  .bath-slider-dots {
+    position: absolute;
+    bottom: 24px;
+    right: clamp(24px, 4vw, 54px);
+    display: flex;
+    gap: 8px;
+    z-index: 5;
+  }
+  .bath-slider-dot {
+    width: 28px;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.35);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+  }
+  .bath-slider-dot.is-active {
+    background: #e5c98f;
+    width: 44px;
+  }
+
+  /* ==========================================================================
+     ORKA 1:1 FIDELITY COLLECTION ARCHITECTURE (72% Visual / 28% Editorial)
+     ========================================================================== */
+  .orka-bathrooms-wrapper {
+    padding-bottom: 60px;
+  }
+  .orka-top-header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 42px;
+  }
+  .orka-main-title {
+    font-family: var(--font-heading);
+    font-size: clamp(32px, 4vw, 54px);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #18221b;
+    margin: 0 0 10px;
+  }
+  .orka-title-sub {
+    font-size: 15px;
+    color: #5d665f;
+    margin: 0;
+    letter-spacing: 0.02em;
+  }
+
+  .orka-collections-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+  .orka-collection-row {
+    display: flex;
+    height: 475px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  @media (max-width: 992px) {
+    .orka-collection-row {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+
+  .orka-lefts {
+    width: 72%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background: #757e84;
+  }
+  @media (max-width: 992px) {
+    .orka-lefts {
+      width: 100%;
+      height: 280px;
+    }
+  }
+
+  .orka-image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .orka-image-link:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #000000;
+    opacity: 0.18;
+    z-index: 1;
+    transition: opacity 0.4s ease;
+  }
+  .orka-collection-row:hover .orka-image-link {
+    transform: scale(1.05);
+  }
+  .orka-collection-row:hover .orka-image-link:before {
+    opacity: 0.08;
+  }
+
+  .orka-badge-logo {
+    position: absolute;
+    bottom: 28px;
+    left: 32px;
+    z-index: 2;
+  }
+  .orka-badge-text {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 16px;
+    border-radius: 2px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+
+  .orka-rights {
+    width: 28%;
+    height: 100%;
+    position: relative;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px 36px;
+    box-sizing: border-box;
+  }
+  @media (max-width: 992px) {
+    .orka-rights {
+      width: 100%;
+      height: auto;
+      padding: 30px 24px;
+    }
+  }
+
+  .orka-slogan {
+    position: absolute;
+    top: 48px;
+    right: 28px;
+    left: 28px;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 1.15;
+    color: #ffffff;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  }
+  @media (max-width: 992px) {
+    .orka-slogan {
+      position: static;
+      margin-bottom: 18px;
+      font-size: 24px;
+    }
+  }
+
+  .orka-text-block {
+    position: relative;
+    z-index: 2;
+  }
+  .orka-metin {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 24px;
+  }
+  .orka-metin p {
+    margin: 0;
+  }
+  .orka-more-btn {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    line-height: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 24px;
+    transition: all 0.3s ease;
+  }
+  .orka-more-btn:hover {
+    background: #ffffff;
+    color: #1a221c;
+    border-color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .orka-models-anchor-strip {
+    padding-top: 48px;
+    padding-bottom: 24px;
+    border-top: 1px solid var(--line);
+    margin-top: 20px;
+  }
+  .section-lead-note {
+    font-size: 14px;
+    color: #5d665f;
+    margin: 6px 0 0;
+  }
+
 
   /* Architectural Style Filter Strip */
   .style-filter-strip {

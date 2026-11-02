@@ -11371,7 +11371,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Belgravia Architectural Towel Console",
   "metaTitle": "Belgravia Architectural Towel Console | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Belgravia Architectural Towel Console from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "AGORA TOWEL HOLDER",
+  "dimensionsMm": "450mm width, 180mm depth, 850mm height freestanding architectural console",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -11408,7 +11408,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Mayfair Artisan Joinery Vanity Suite",
   "metaTitle": "Mayfair Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Mayfair Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 650mm, 850mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -11528,7 +11528,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Knightsbridge Architectural Bathroom Vanity Suite",
   "metaTitle": "Knightsbridge Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Knightsbridge Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 650mm, 850mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -11619,7 +11619,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Marylebone Artisan Joinery Vanity Suite",
   "metaTitle": "Marylebone Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Marylebone Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Begonya , modern tasarımı ve işlevselliğiyle banyonuza hem düzeni sağlayacak hem de estetik bir görünüm kazandıracak ideal bir seçenek sunuyor. Bu özellikleriyle, küçük mekanlarda bile şıklığı ve kullanışlılığı bir arada arayanlar için mükemmel bir tercih olabilir. / 550 mm width module (55 cm) / 450 mm width module (45 cm)",
+  "dimensionsMm": "Available in 550mm, 450mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -12042,7 +12042,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Greenwich Ergonomic Pure Vanity Suite",
   "metaTitle": "Greenwich Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Greenwich Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 500 mm width module (50 cm) / 600 mm width module (60 cm) / 800 mm width module (80 cm)",
+  "dimensionsMm": "Available in 500mm, 600mm, 800mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -12242,7 +12242,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Soho Sculptural Organic Vanity Suite",
   "metaTitle": "Soho Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Soho Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Yarı Gömme Seramik Lavabo / 1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1400 mm width module (140 cm)",
+  "dimensionsMm": "Available in 1000mm, 1200mm, 1400mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -12405,7 +12405,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Holland Park Monolith Architectural Vanity Suite",
   "metaTitle": "Holland Park Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Holland Park Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Knidos , şıklığı ve fonksiyonelliği bir araya getirerek banyo deneyiminizi mükemmelleştirmek için tasarlandı. Seramik lavabo, hijyen ve sağlık açısından güvenilir bir seçenek sunarken, alt modüldeki cam tezgah ise dayanıklılığı ve kolay temizlenebilirliğiyle dikkat çekiyor. Bu tezgah aynı zamanda geri dönüştürülebilir özellikte, çevre dostu bir seçenek sunuyor. / 700 mm width module (70 cm) / 900 mm width module (90 cm) / 700 mm width module (70 cm)",
+  "dimensionsMm": "Available in 700mm, 900mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -12452,7 +12452,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Notting Hill Ergonomic Pure Vanity Suite",
   "metaTitle": "Notting Hill Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Notting Hill Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 650mm, 850mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -12922,7 +12922,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Wapping Architectural Bathroom Vanity Suite",
   "metaTitle": "Wapping Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Wapping Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Çift çekmeceli geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 650mm, 850mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13049,7 +13049,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Wandsworth Sculptural Organic Vanity Suite",
   "metaTitle": "Wandsworth Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Wandsworth Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Mermer Tezgah Üzeri Yarı Gömme Seramik Lavabo / 850 mm width module (85 cm) / 1050 mm width module (105 cm) / cm",
+  "dimensionsMm": "Available in 850mm, 1050mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13296,7 +13296,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Harrow Linear Minimalist Vanity Suite",
   "metaTitle": "Harrow Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Harrow Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "dan Banyo Mobilyaları Kategorisinde Tasarımda Mükemmelliği Gösteren En İyi Tasarım Ödülü’ne sahiptir. / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 800 mm width module (80 cm)",
+  "dimensionsMm": "Available in 800mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13338,7 +13338,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Kingston Monolith Architectural Vanity Suite",
   "metaTitle": "Kingston Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Kingston Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Nova , banyonuza şıklık ve işlevsellik katmak için tasarlanmış mükemmel bir seçenektir. Ürünümüzde kullanılan seramik lavabo, hem hijyeniktir hem de estetik bir görünüm sunar. Müşterilerimiz sağlıklı bir ürün kullanmanın keyfini çıkarırken, banyolarında şık bir atmosfer yaratırlar. / 600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 600mm, 800mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13426,7 +13426,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Victoria Monolith Architectural Vanity Suite",
   "metaTitle": "Victoria Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Victoria Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Nuvola , banyonuzda modern bir dokunuş ve işlevsellik arayanlar için mükemmel bir seçenektir. Ürünümüzde kullanılan seramik lavabo, hijyenik özellikleriyle ön plana çıkarken, kullanıcılarına sağlıklı bir banyo deneyimi sunar. Ayrıca, lavabo ünitesindeki astar ve boyaların renk değişimi göstermeme özelliği, ürünün uzun ömürlü kullanımını garanti eder. / 650 mm width module (65 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 650mm, 800mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13470,7 +13470,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Hyde Park Architectural Bathroom Vanity Suite",
   "metaTitle": "Hyde Park Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Hyde Park Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "dimensionsMm": "Available in 800mm, 1000mm, 1200mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13672,7 +13672,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Barnes Artisan Joinery Vanity Suite",
   "metaTitle": "Barnes Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Barnes Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "dimensionsMm": "Available in 800mm, 1000mm, 1200mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13755,7 +13755,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Dulwich Village Monolith Architectural Vanity Suite",
   "metaTitle": "Dulwich Village Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Dulwich Village Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Pure , çağdaş tasarımı ve kullanışlı özellikleriyle banyonuz için mükemmel bir seçimdir. / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 800mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13809,7 +13809,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "St Pancras Ergonomic Pure Vanity Suite",
   "metaTitle": "St Pancras Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the St Pancras Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 550 mm width module (55 cm) / 650 mm width module (65 cm) / 800 mm width module (80 cm)",
+  "dimensionsMm": "Available in 550mm, 650mm, 800mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13938,7 +13938,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Canary Wharf Monolith Architectural Vanity Suite",
   "metaTitle": "Canary Wharf Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Canary Wharf Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Cam Tezgah Üzeri Yarı Gömme Seramik Lavabo / 600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 600mm, 800mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -13977,7 +13977,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Camden Linear Minimalist Vanity Suite",
   "metaTitle": "Camden Linear Minimalist Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Camden Linear Minimalist Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "banyolarınızı modern ve ferah bir yaşam alanına dönüştürmek için mükemmel bir tercih sunuyor. / 1000 mm width module (100 cm) / 1200 mm width module (120 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 1000mm, 1200mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -14016,7 +14016,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Greenwich Reach Ergonomic Pure Vanity Suite",
   "metaTitle": "Greenwich Reach Ergonomic Pure Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Greenwich Reach Ergonomic Pure Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 650mm, 850mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -14216,7 +14216,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Oxfordshire Architectural Bathroom Vanity Suite",
   "metaTitle": "Oxfordshire Architectural Bathroom Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Oxfordshire Architectural Bathroom Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / 650 mm width module (65 cm) / 850 mm width module (85 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 650mm, 850mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -14428,7 +14428,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Wellington Monolith Architectural Vanity Suite",
   "metaTitle": "Wellington Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Wellington Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Varna , ayna arkasına otomotiv sektöründe kullanılan kaliteli malzemelerle yapıştırıldığı için düşme riski yoktur. Ayrıca konsorejen madde içermediğinden insan sağlığını olumsuz etkilemez. Hem şık hem de sağlıklı bir seçim olan Varna , banyonuz için mükemmel bir tercihtir. / 800 mm width module (80 cm) / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "dimensionsMm": "Available in 800mm, 1000mm, 1200mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -14512,7 +14512,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Bedford Monolith Architectural Vanity Suite",
   "metaTitle": "Bedford Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Bedford Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Vento , banyonuzun ihtiyaçlarına mükemmel bir şekilde cevap veren özel bir tasarıma sahiptir. Hijyenik seramik lavabosuyla sağlıklı bir kullanım sunar ve çekmecelerinin tam açılabilir olması, çekmece içindeki her şeyin kolayca erişilebilir olmasını sağlar. / 600 mm width module (60 cm) / 800 mm width module (80 cm) / 1000 mm width module (100 cm)",
+  "dimensionsMm": "Available in 600mm, 800mm, 1000mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -14552,7 +14552,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Russell Sculptural Organic Vanity Suite",
   "metaTitle": "Russell Sculptural Organic Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Russell Sculptural Organic Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Geniş depolama hacmi / cm / 1000 mm width module (100 cm) / 1200 mm width module (120 cm)",
+  "dimensionsMm": "Available in 1000mm, 1200mm modular widths",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -14600,7 +14600,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Tavistock Monolith Architectural Vanity Suite",
   "metaTitle": "Tavistock Monolith Architectural Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Tavistock Monolith Architectural Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Yalıköy , banyo deneyiminizi mükemmelleştiren şık ve fonksiyonel bir seçenektir. Bu özel dolap, seramik lavabosuyla hijyenik bir kullanım sunarken, tam açılır çekmeceleri sayesinde içerisindeki her şeye kolayca erişebilme imkanı sağlar. Ayrıca, çekmece önlerinde kullanılan geri dönüştürülebilir alüminyum çerçeve ve cam malzemeleri, çevre dostu bir tercih yapmanızı sağlar. / 900 mm width module (90 cm) / Yalıköy",
+  "dimensionsMm": "900mm modular vanity unit width",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
@@ -14679,7 +14679,7 @@ export const modelsData: Record<string, ModelDetail> = {
   "title": "Woburn Artisan Joinery Vanity Suite",
   "metaTitle": "Woburn Artisan Joinery Vanity Suite | Cabivella UK Bathroom Cabinetry",
   "metaDescription": "Discover the Woburn Artisan Joinery Vanity Suite from Cabivella UK. British-engineered luxury bathroom vanity suite with moisture-resistant joinery, soft-close drawers, and vitreous ceramic basin.",
-  "dimensionsMm": "Zag , seramik lavabosu ile hijyenik ve sağlıklı bir kullanım sunar. Kullanılan astar ve boyalar sayesinde, ürün kullanım süresi boyunca renk değişimi yaşamaz, her zaman ilk günkü gibi görünür. Dar alanları değerlendirmek için özel olarak tasarlanan bu seri, küçük banyolar için mükemmel bir çözümdür. / 450 mm width module (45 cm) / 450 mm width module (45 cm)",
+  "dimensionsMm": "450mm modular vanity unit width",
   "materials": [
     "High-density moisture-resistant MDF substrate engineered for British bathrooms",
     "Vitreous sanitary ceramic washbasin with hygienic antibacterial glaze",
