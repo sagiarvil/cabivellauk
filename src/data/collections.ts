@@ -518,8 +518,22 @@ export const collectionsData: Record<string, CollectionCategory> = {
       "greenwich-park-architectural-master-wardrobe-57",
       "st-pancras-4-door-master-wardrobe-58",
       "covent-garden-architectural-master-wardrobe-59",
-      "southwark-4-door-master-wardrobe-60"
-]
+      "southwark-4-door-master-wardrobe-60",
+      "cotswold-architectural-panelled-wardrobe",
+      "mayfair-linear-handleless-wardrobe",
+      "belgravia-bevelled-elegance-wardrobe",
+      "kensington-reeded-fluted-wardrobe",
+      "chelsea-statement-monolith-wardrobe",
+      "knightsbridge-dual-tone-wardrobe",
+      "richmond-framed-mirror-wardrobe",
+      "hampstead-sliding-glide-wardrobe",
+      "highgate-bespoke-walkin-dressing-suite",
+      "islington-corner-alcove-wardrobe",
+      "marylebone-contemporary-slab-wardrobe",
+      "st-james-beaded-classic-wardrobe",
+      "fitzrovia-louvred-accent-wardrobe",
+      "bloomsbury-reeded-glass-wardrobe"
+    ]
   },
   "kitchen-doors": {
     "slug": "kitchen-doors",
