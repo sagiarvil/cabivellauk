@@ -1,136 +1,38 @@
 import { test, expect } from '@playwright/test';
+import fs from 'fs';
+import path from 'path';
 
-const allRoutes = [
-  "/",
-  "/collections/",
-  "/collections/bathrooms/",
-  "/collections/bathrooms/belgravia-monolith-100/",
-  "/collections/bathrooms/bloomsbury-minimalist-80/",
-  "/collections/bathrooms/chelsea-compact-85/",
-  "/collections/bathrooms/chiswick-walnut-100/",
-  "/collections/bathrooms/cotswold-suite-115/",
-  "/collections/bathrooms/dulwich-compact-65/",
-  "/collections/bathrooms/fitzrovia-noir-90/",
-  "/collections/bathrooms/greenwich-cherry-100/",
-  "/collections/bathrooms/hampstead-contrast-100/",
-  "/collections/bathrooms/kensington-reeded-100/",
-  "/collections/bathrooms/knightsbridge-noir-135/",
-  "/collections/bathrooms/marylebone-lumiere-80/",
-  "/collections/bathrooms/mayfair-floating-80/",
-  "/collections/bathrooms/pimlico-navaro-100/",
-  "/collections/bathrooms/richmond-legnano-100/",
-  "/collections/bathrooms/st-james-trio-100/",
-  "/collections/bathrooms/westminster-suite-135/",
-  "/collections/bathrooms/wimbledon-clay-80/",
-  "/collections/coffee-stations/",
-  "/collections/coffee-stations/barnes-radiator-coffee-console-130/",
-  "/collections/coffee-stations/battersea-integrated-larder-unit/",
-  "/collections/coffee-stations/belgravia-grand-beverage-247/",
-  "/collections/coffee-stations/bloomsbury-quaddoor-pantry-120/",
-  "/collections/coffee-stations/chelsea-illuminated-coffee-armoire/",
-  "/collections/coffee-stations/chiswick-utility-beverage-120/",
-  "/collections/coffee-stations/clapham-tripledoor-morning-station/",
-  "/collections/coffee-stations/cotswold-dualtower-pantry-217/",
-  "/collections/coffee-stations/dulwich-multimodule-pantry/",
-  "/collections/coffee-stations/fitzrovia-compact-credenza-90/",
-  "/collections/coffee-stations/greenwich-twindoor-breakfast-cabinet/",
-  "/collections/coffee-stations/hampstead-linear-barista-90/",
-  "/collections/coffee-stations/highgate-dualsection-credenza-180/",
-  "/collections/coffee-stations/islington-grand-vitrine-suite/",
-  "/collections/coffee-stations/kensington-larder-coffee-184/",
-  "/collections/coffee-stations/knightsbridge-drawer-stack-station/",
-  "/collections/coffee-stations/marylebone-tridoor-coffee-cabinet/",
-  "/collections/coffee-stations/mayfair-barista-armoire-154/",
-  "/collections/coffee-stations/pimlico-grand-culinary-210/",
-  "/collections/coffee-stations/putney-ambient-beverage-armoire/",
-  "/collections/coffee-stations/richmond-vitrine-barista-niche/",
-  "/collections/coffee-stations/st-james-fluted-glass-station/",
-  "/collections/coffee-stations/westminster-fluted-display-larder/",
-  "/collections/coffee-stations/wimbledon-petite-coffee-90/",
-  "/collections/fitted-storage/",
-  "/collections/fitted-storage/barnes-6door-integrated-robe/",
-  "/collections/fitted-storage/battersea-5door-boheme-suite/",
-  "/collections/fitted-storage/belgravia-5door-wardrobe/",
-  "/collections/fitted-storage/bloomsbury-5door-armoire/",
-  "/collections/fitted-storage/chelsea-5door-wardrobe/",
-  "/collections/fitted-storage/chiswick-5door-minimalist-robe/",
-  "/collections/fitted-storage/clapham-5door-integrated-robe/",
-  "/collections/fitted-storage/cotswold-6door-mirrored-robe/",
-  "/collections/fitted-storage/dulwich-6door-boheme-suite/",
-  "/collections/fitted-storage/fitzrovia-6door-artisan-robe/",
-  "/collections/fitted-storage/greenwich-6door-minimalist-robe/",
-  "/collections/fitted-storage/hampstead-5door-artisan-robe/",
-  "/collections/fitted-storage/highgate-6door-acoustic-robe/",
-  "/collections/fitted-storage/islington-5door-acoustic-robe/",
-  "/collections/fitted-storage/kensington-4door-wardrobe/",
-  "/collections/fitted-storage/knightsbridge-5door-robe/",
-  "/collections/fitted-storage/marylebone-6door-robe/",
-  "/collections/fitted-storage/mayfair-6door-wardrobe/",
-  "/collections/fitted-storage/pimlico-6door-master-robe/",
-  "/collections/fitted-storage/putney-sliding-wardrobe/",
-  "/collections/fitted-storage/richmond-5door-wardrobe/",
-  "/collections/fitted-storage/st-james-6door-wardrobe/",
-  "/collections/fitted-storage/westminster-4door-wardrobe/",
-  "/collections/fitted-storage/wimbledon-4door-minimalist-robe/",
-  "/collections/kitchen-doors/",
-  "/collections/kitchen-doors/axis-shadow-fronts/",
-  "/collections/kitchen-doors/chillingham-timber-shaker/",
-  "/collections/kitchen-doors/fluted-wave-panels/",
-  "/collections/kitchen-doors/handleless-cabinet-fronts/",
-  "/collections/kitchen-doors/lea-framed-fronts/",
-  "/collections/kitchen-doors/paint-ready-raw-mdf/",
-  "/collections/kitchen-doors/shaker-replacement-doors/",
-  "/collections/kitchen-doors/slimline-micro-shaker-fronts/",
-  "/collections/kitchen-doors/vera-silk-slab/",
-  "/collections/kitchens/",
-  "/collections/kitchens/barnes-grandhorizon-kitchen-410/",
-  "/collections/kitchens/battersea-compact-corner-395/",
-  "/collections/kitchens/belgravia-chef-monolith-310/",
-  "/collections/kitchens/bloomsbury-deepdrawer-kitchen-400/",
-  "/collections/kitchens/chelsea-master-corner-400/",
-  "/collections/kitchens/chiswick-ergonomic-corner-400/",
-  "/collections/kitchens/clapham-minimalist-pantry-400/",
-  "/collections/kitchens/cotswold-highgloss-corner-410/",
-  "/collections/kitchens/dulwich-seamless-jpull-400/",
-  "/collections/kitchens/fitzrovia-linear-tower-400/",
-  "/collections/kitchens/greenwich-tallappliance-suite-410/",
-  "/collections/kitchens/hampstead-tower-pantry-400/",
-  "/collections/kitchens/highgate-doubletower-kitchen-400/",
-  "/collections/kitchens/islington-fluted-accent-400/",
-  "/collections/kitchens/kensington-linear-artisan-310/",
-  "/collections/kitchens/knightsbridge-slate-corner-410/",
-  "/collections/kitchens/marylebone-dualtone-corner-400/",
-  "/collections/kitchens/mayfair-executive-suite-310/",
-  "/collections/kitchens/pimlico-anthracite-accent-400/",
-  "/collections/kitchens/putney-modernist-handleless-400/",
-  "/collections/kitchens/richmond-charcoal-corner-410/",
-  "/collections/kitchens/st-james-corner-kitchen-400/",
-  "/collections/kitchens/westminster-alabaster-corner-410/",
-  "/collections/kitchens/wimbledon-purewhite-gloss-400/",
-  "/collections/pantry-larder/",
-  "/collections/pantry-larder/carousel-blind-corner/",
-  "/collections/pantry-larder/chefs-double-armoire/",
-  "/collections/pantry-larder/corner-pantry-storage/",
-  "/collections/pantry-larder/lemans-corner-swivel/",
-  "/collections/pantry-larder/pullout-larder-tower/",
-  "/collections/pantry-larder/tall-larder-cupboards/",
-  "/collections/pantry-larder/tandem-tall-larder/",
-  "/collections/pantry-larder/walkin-step-pantry/",
-  "/cookies/",
-  "/enquire/",
-  "/image-credits/",
-  "/materials/",
-  "/our-story/",
-  "/privacy/",
-  "/thank-you/",
-  "/trade/"
-];
+function getStaticRoutes(): string[] {
+  const distDir = path.resolve(process.cwd(), 'dist');
+  const routes: string[] = ['/'];
+  
+  function scan(dir: string, base: string = '') {
+    if (!fs.existsSync(dir)) return;
+    const files = fs.readdirSync(dir);
+    for (const f of files) {
+      const full = path.join(dir, f);
+      const rel = path.join(base, f);
+      if (fs.statSync(full).isDirectory()) {
+        scan(full, rel);
+      } else if (f === 'index.html' && rel !== 'index.html') {
+        const route = "/" + base.replace(/\\/g, "/") + "/";
+        routes.push(route);
+      }
+    }
+  }
 
-test.describe('Cabivella UK - Static Route Verification', () => {
+  scan(distDir);
+  return routes;
+}
+
+const allRoutes = getStaticRoutes();
+
+test.describe('Static Routes Health Check', () => {
   for (const route of allRoutes) {
-    test(`route ${route} loads with 200 OK and valid title`, async ({ page }) => {
-      const response = await page.goto(route);
+    test(`Route ${route} loads with 200 OK`, async ({ page }) => {
+      const response = await page.goto(route, { waitUntil: 'domcontentloaded' });
       expect(response?.status()).toBe(200);
+
       const title = await page.title();
       expect(title.length).toBeGreaterThan(5);
     });
