@@ -3,7 +3,7 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import { collectionsData } from '../data/collections';
 import { siteConfig } from '../data/navigation';
 
-const collections = Object.values(collectionsData);
+const collections = Object.values(collectionsData).slice(0, 12);
 import DynamicWatermark from '../components/DynamicWatermark.astro';
 ---
 
@@ -121,10 +121,10 @@ import DynamicWatermark from '../components/DynamicWatermark.astro';
         <span class="section-eyebrow">OUR HERITAGE</span>
         <h2 id="story-title">Turkish making.<br /><em>British sensibility.</em></h2>
         <p style="color: #4f5750; font-size: 16px; line-height: 1.7; margin-top: 18px;">
-          Cabivella design direction is informed by centuries of Turkish furniture craftsmanship and the distinctive architectural needs of homes across the United Kingdom.
+          Cabivella is an established Turkish manufacturer exporting bespoke and contract cabinetry directly to individual homeowners, architects, and trade clients across the United Kingdom and Europe.
         </p>
         <p style="color: #4f5750; font-size: 15px; line-height: 1.7;">
-          By bridging master woodworkers in Turkey with British design consultations and nationwide UK logistics, we deliver made-to-measure joinery of peerless quality.
+          Connecting specialized master woodworking production with direct international freight logistics, we supply precision-engineered joinery of verified architectural pedigree.
         </p>
         <a href="/our-story/" class="text-link">Read our complete story ↗</a>
       </div>

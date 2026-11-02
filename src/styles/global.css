@@ -732,6 +732,20 @@ html.motion-ready [data-reveal].is-revealed {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .v6-category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .v6-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+
 .v6-category-card {
   display: flex;
   flex-direction: column;
@@ -1104,7 +1118,8 @@ html.motion-ready [data-reveal].is-revealed {
     font-size: 14px;
   }
   .v6-category-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
   }
   .foot-top {
     grid-template-columns: 1fr;

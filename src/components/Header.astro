@@ -39,8 +39,8 @@ const isActive = (href: string) => {
         src="/assets/img/cabivella-crest-transparent.webp"
         alt="Cabivella Crest"
         class="cb-crest"
-        width="52"
-        height="48"
+        width="62"
+        height="58"
         loading="eager"
         decoding="async"
       />
@@ -74,6 +74,7 @@ const isActive = (href: string) => {
       </div>
 
       <a href="/our-story/" class:list={[{ 'is-active': isActive('/our-story/') }]}>Our Story</a>
+      <a href="/our-team/" class:list={[{ 'is-active': isActive('/our-team/') }]}>Our Team</a>
     </nav>
 
     <!-- Header Actions -->
@@ -100,7 +101,7 @@ const isActive = (href: string) => {
       </a>
 
       <a class="cb-cta" href="/enquire/">
-        Book a Consultation <span aria-hidden="true">→</span>
+        Enquire Direct <span aria-hidden="true">→</span>
       </a>
 
       <button class="cb-mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="cb-mobile-panel">
@@ -127,12 +128,13 @@ const isActive = (href: string) => {
     <a href="/collections/coffee-stations/">Coffee Stations</a>
     <a href="/collections/fitted-storage/">Storage</a>
     <a href="/our-story/">Our Story</a>
+    <a href="/our-team/">Our Team</a>
     <a href="/trade/">For Trade &amp; Specification ↗</a>
     <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" style="color: #208b51; font-weight: 700;">
       WhatsApp — +44 7898 262110
     </a>
     <a class="cb-mobile-cta" href="/enquire/">
-      Book a Consultation →
+      Enquire Direct →
     </a>
   </nav>
 </header>
@@ -239,9 +241,9 @@ const isActive = (href: string) => {
 }
 
 .cb-crest {
-  width: 52px;
-  height: 48px;
-  max-height: 50px;
+  width: 62px;
+  height: 58px;
+  max-height: 60px;
   object-fit: contain;
   display: block;
   flex-shrink: 0;
