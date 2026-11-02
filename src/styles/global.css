@@ -1,7 +1,7 @@
 @import './tokens.css';
 
 /* ==========================================================================
-   STAGGERED SCROLL-DRIVEN REVEAL ANIMATIONS (Apple Motion Architecture)
+   NEXT-GEN PROACTIVE SCROLL-DRIVEN MOTION (Ultra-Smooth 120fps Apple Motion)
    ========================================================================== */
 html:not(.motion-ready) [data-reveal] {
   opacity: 1 !important;
@@ -10,23 +10,24 @@ html:not(.motion-ready) [data-reveal] {
 
 [data-reveal] {
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.75s var(--ease), transform 0.75s var(--ease);
+  transform: translate3d(0, 14px, 0);
+  transition: opacity 0.42s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
+  backface-visibility: hidden;
 }
 
 html.motion-ready [data-reveal].is-revealed {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate3d(0, 0, 0);
 }
 
-/* Stagger delay classes (80ms increments) */
-[data-reveal-delay="1"] { transition-delay: 80ms; }
-[data-reveal-delay="2"] { transition-delay: 160ms; }
-[data-reveal-delay="3"] { transition-delay: 240ms; }
-[data-reveal-delay="4"] { transition-delay: 320ms; }
-[data-reveal-delay="5"] { transition-delay: 400ms; }
-[data-reveal-delay="6"] { transition-delay: 480ms; }
+/* Crisp Proactive Stagger Delays (40ms micro-stagger) */
+[data-reveal-delay="1"] { transition-delay: 40ms; }
+[data-reveal-delay="2"] { transition-delay: 80ms; }
+[data-reveal-delay="3"] { transition-delay: 120ms; }
+[data-reveal-delay="4"] { transition-delay: 160ms; }
+[data-reveal-delay="5"] { transition-delay: 200ms; }
+[data-reveal-delay="6"] { transition-delay: 240ms; }
 
 @media (prefers-reduced-motion: reduce) {
   html {

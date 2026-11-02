@@ -48,7 +48,7 @@ const currentPath = Astro.url.pathname;
     <!-- Cookie Consent Banner -->
     <CookieConsent />
 
-    <!-- Apple Motion Scroll-Driven Staggered Script (80ms Stagger) -->
+    <!-- Next-Gen Proactive Motion Architecture (Instant & Fluid Stagger) -->
     <script>
       function initScrollReveal() {
         document.documentElement.classList.add('motion-ready');
@@ -62,9 +62,10 @@ const currentPath = Astro.url.pathname;
           return;
         }
 
+        // Proactive viewport observer: triggers 240px ahead of scroll
         const observerOptions = {
           root: null,
-          rootMargin: '120px 0px 120px 0px',
+          rootMargin: '240px 0px 80px 0px',
           threshold: 0.01
         };
 
@@ -76,7 +77,9 @@ const currentPath = Astro.url.pathname;
               if (group) {
                 const siblings = Array.from(group.querySelectorAll('[data-reveal]'));
                 const index = siblings.indexOf(el);
-                el.style.transitionDelay = (index * 80) + "ms";
+                // Crisp 45ms row-based domino cascade
+                const delay = Math.min((index % 4) * 45, 180);
+                el.style.transitionDelay = delay + "ms";
               }
               el.classList.add('is-revealed');
               observer.unobserve(el);
@@ -84,7 +87,22 @@ const currentPath = Astro.url.pathname;
           });
         }, observerOptions);
 
-        reveals.forEach((el) => revealObserver.observe(el));
+        // Immediate check: items already within or close to initial screen reveal without waiting
+        const initialThreshold = window.innerHeight + 160;
+        reveals.forEach((el) => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= initialThreshold && rect.bottom >= 0) {
+            const group = el.closest('[data-reveal-group]');
+            if (group) {
+              const siblings = Array.from(group.querySelectorAll('[data-reveal]'));
+              const index = siblings.indexOf(el);
+              el.style.transitionDelay = Math.min((index % 4) * 45, 180) + "ms";
+            }
+            el.classList.add('is-revealed');
+          } else {
+            revealObserver.observe(el);
+          }
+        });
       }
 
       if (document.readyState === 'loading') {
