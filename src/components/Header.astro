@@ -53,6 +53,7 @@ const isActive = (href: string) => {
 
     <!-- Navigation Links -->
     <nav class="cb-nav" aria-label="Main navigation">
+      <a href="/materials-supply/collections/building-materials/" class:list={[{ 'is-active': isActive('/materials-supply/') }]}>Building Materials</a>
       <a href="/collections/kitchens/" class:list={[{ 'is-active': isActive('/collections/kitchens/') }]}>Kitchens</a>
       <a href="/collections/bathrooms/" class:list={[{ 'is-active': isActive('/collections/bathrooms/') }]}>Bathrooms</a>
       <a href="/collections/pantry-larder/" class:list={[{ 'is-active': isActive('/collections/pantry-larder/') }]}>Pantry</a>
@@ -65,6 +66,7 @@ const isActive = (href: string) => {
           Collections
         </button>
         <div class="cb-dropdown" id="cb-collections-menu">
+          <a href="/materials-supply/collections/building-materials/"><strong>Building Materials</strong></a>
           <a href="/collections/kitchens/">Kitchens</a>
           <a href="/collections/bathrooms/">Bathrooms</a>
           <a href="/collections/pantry-larder/">Pantry &amp; Larder</a>
@@ -122,6 +124,7 @@ const isActive = (href: string) => {
 
   <!-- Mobile Drawer Panel -->
   <nav class="cb-mobile-panel cb-container" id="cb-mobile-panel" aria-label="Mobile navigation" hidden>
+    <a href="/materials-supply/collections/building-materials/"><strong>Building Materials</strong></a>
     <a href="/collections/kitchens/">Kitchens</a>
     <a href="/collections/bathrooms/">Bathrooms</a>
     <a href="/collections/pantry-larder/">Pantry</a>
