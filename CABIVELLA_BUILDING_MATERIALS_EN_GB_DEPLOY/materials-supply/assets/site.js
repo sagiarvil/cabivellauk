@@ -1,0 +1,51 @@
+
+const STORAGE='cabivella_materials_rfq_v1', list=new Set();
+const get=()=>{try{let a=JSON.parse(localStorage.getItem(STORAGE)||'[]');if(Array.isArray(a))a.forEach(id=>{if(document.querySelector('[data-product-id="'+id+'"]')||window.CABIVELLA_PRODUCTS?.[id])list.add(id)})}catch(e){}};
+function save(){try{localStorage.setItem(STORAGE,JSON.stringify([...list]))}catch(e){}}
+function sync(){save();document.querySelectorAll('[data-cart-count]').forEach(e=>e.textContent=list.size);document.querySelectorAll('[data-product-id]').forEach(btn=>{if(btn.tagName!=='BUTTON')return;const on=list.has(btn.dataset.productId);btn.textContent=on?'Added ✓':'Add to enquiry';btn.setAttribute('aria-pressed',String(on))});let cont=document.querySelector('#drawer-items');if(!cont)return;cont.replaceChildren();if(!list.size){let e=document.createElement('p');e.textContent='No products selected yet. Browse the range and add products to prepare an enquiry.';cont.append(e)}list.forEach(id=>{let product=window.CABIVELLA_PRODUCTS?.[id];if(!product)return;let r=document.createElement('div');r.className='brief-item';let c=document.createElement('div');let b=document.createElement('b');b.textContent=product[0];let sm=document.createElement('small');sm.textContent=id;c.append(b,sm);let x=document.createElement('button');x.type='button';x.textContent='Remove';x.addEventListener('click',()=>{list.delete(id);sync()});r.append(c,x);cont.append(r)})}
+get();sync();document.querySelectorAll('button[data-product-id]').forEach(btn=>btn.addEventListener('click',()=>{let k=btn.dataset.productId;if(list.has(k))list.delete(k);else list.add(k);sync();let status=document.querySelector('#brief-status');if(status)status.textContent=list.size+' product(s) in enquiry list.'}));
+const panel=document.querySelector('#drawer'),cover=document.querySelector('#backdrop');
+function openBrief(){if(!panel)return;panel.classList.add('open');cover.classList.add('on');panel.removeAttribute('inert');panel.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';panel.querySelector('[data-close-drawer]').focus()}
+function closeBrief(){if(!panel)return;panel.classList.remove('open');cover.classList.remove('on');panel.setAttribute('inert','');panel.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+document.querySelectorAll('[data-open-drawer]').forEach(b=>b.addEventListener('click',openBrief));document.querySelectorAll('[data-close-drawer]').forEach(b=>b.addEventListener('click',closeBrief));cover?.addEventListener('click',closeBrief);document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBrief()});
+document.querySelector('[data-jump-rfq]')?.addEventListener('click',()=>{closeBrief();let form=document.querySelector('#enquiry');if(form)form.scrollIntoView({behavior:'smooth'});else location.href=window.CABIVELLA_ROOT+'#enquiry'});
+let mn=document.querySelector('#menu'),nv=document.querySelector('#nav');mn?.addEventListener('click',()=>{let y=nv.classList.toggle('mobile-open');mn.setAttribute('aria-expanded',String(y))});
+let search=document.querySelector('#product-search');search?.addEventListener('input',()=>{let q=search.value.trim().toLowerCase(),n=0;document.querySelectorAll('[data-product-search]').forEach(el=>{let ok=el.dataset.productSearch.includes(q);el.hidden=!ok;n+=ok?1:0});let label=document.querySelector('#shown-count');if(label)label.textContent=n+' results';let empty=document.querySelector('#noresults');if(empty)empty.hidden=Boolean(n)});
+let form=document.querySelector('#enquiry-form');form?.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;let d=new FormData(form),lines=['CABIVELLA MATERIALS — TRADE ENQUIRY','',...['name','company','email','country','quantity','project'].map(k=>k.toUpperCase()+': '+(d.get(k)||'Not stated')),'','PRODUCTS:',...([...list].length?[...list].map(id=>id+' — '+(window.CABIVELLA_PRODUCTS?.[id]?.[0]||'')):['To be specified']),'','TECHNICAL BRIEF:',d.get('message')||'No details supplied','','Please advise availability, complete specification, relevant conformity documentation, quotation basis and delivery scope.'];let txt=lines.join('\n');let url='mailto:enquiries@cabivella.co.uk?subject='+encodeURIComponent('Cabivella trade enquiry — '+(d.get('country')||'Project'))+'&body='+encodeURIComponent(txt);let status=document.querySelector('#send-status');if(url.length>7000){status.textContent='Enquiry is too long for an email link. Please copy it or shorten your message.';window.CABIVELLA_BRIEF=txt;return}status.textContent='Your email application will open with a draft. Press Send in your email application to submit the enquiry.';window.location.href=url});
+document.querySelector('[data-copy]')?.addEventListener('click',async()=>{let lines=[...list].map(id=>id+' — '+(window.CABIVELLA_PRODUCTS?.[id]?.[0]||''));try{await navigator.clipboard.writeText(lines.join('\n'));document.querySelector('[data-copy]').textContent='Copied'}catch(e){alert('Clipboard access is unavailable. Please use the enquiry form.')}});
+
+// Two-dimensional catalogue filtering (full 139-item main index).
+(()=>{let cat='all',search=document.querySelector('#product-search');const filters=[...document.querySelectorAll('[data-filter-cat]')];if(!filters.length||!search)return;const results=[...document.querySelectorAll('.product-grid-main [data-product-search]')];function apply(){let q=search.value.trim().toLocaleLowerCase('en');let count=0;results.forEach(x=>{let ok=(cat==='all'||x.dataset.category===cat)&&x.dataset.productSearch.includes(q);x.hidden=!ok;if(ok)count++});const label=document.querySelector('#shown-count');if(label)label.textContent=count+' product'+(count===1?'':'s');const empty=document.querySelector('#noresults');if(empty)empty.hidden=count>0;}filters.forEach(btn=>btn.addEventListener('click',()=>{cat=btn.dataset.filterCat;filters.forEach(b=>{b.classList.toggle('is-active',b===btn);b.setAttribute('aria-pressed',String(b===btn))});apply()}));filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filterCat==='all')));apply()})();
+
+
+// Smooth scroll to enquiry form and auto-focus name input
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[href="#enquiry"], a[href="#enquiry-section"], a[href$="#enquiry"]');
+  if (link && !link.getAttribute('href').includes('index.html')) {
+    var target = document.querySelector('#enquiry, #enquiry-section, #enquiry-form');
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var firstInput = target.querySelector('input, textarea, select');
+      if (firstInput) {
+        setTimeout(function() { firstInput.focus(); }, 600);
+      }
+    }
+  }
+});
+
+// Global smooth scroll and auto-focus for Send project details / enquiry links
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[href="#enquiry"], a[href="#enquiry-section"], a[href"#enquiry"]');
+  if (link && !link.getAttribute('href').includes('index.html')) {
+    var target = document.querySelector('#enquiry, #enquiry-section, #enquiry-form');
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var firstInput = target.querySelector('input, textarea, select');
+      if (firstInput) {
+        setTimeout(function() { firstInput.focus(); }, 400);
+      }
+    }
+  }
+});
