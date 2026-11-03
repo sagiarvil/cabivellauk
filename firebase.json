@@ -186,6 +186,276 @@
         "source": "/storage/",
         "destination": "/collections/fitted-storage/",
         "type": 301
+      },
+      {
+        "source": "/stone",
+        "destination": "/materials-supply/collections/stone/",
+        "type": 301
+      },
+      {
+        "source": "/stone/",
+        "destination": "/materials-supply/collections/stone/",
+        "type": 301
+      },
+      {
+        "source": "/stone/index.html",
+        "destination": "/materials-supply/collections/stone/",
+        "type": 301
+      },
+      {
+        "source": "/ceramics",
+        "destination": "/materials-supply/collections/ceramics/",
+        "type": 301
+      },
+      {
+        "source": "/ceramics/",
+        "destination": "/materials-supply/collections/ceramics/",
+        "type": 301
+      },
+      {
+        "source": "/ceramics/index.html",
+        "destination": "/materials-supply/collections/ceramics/",
+        "type": 301
+      },
+      {
+        "source": "/facades",
+        "destination": "/materials-supply/collections/facades/",
+        "type": 301
+      },
+      {
+        "source": "/facades/",
+        "destination": "/materials-supply/collections/facades/",
+        "type": 301
+      },
+      {
+        "source": "/facades/index.html",
+        "destination": "/materials-supply/collections/facades/",
+        "type": 301
+      },
+      {
+        "source": "/aluminium",
+        "destination": "/materials-supply/collections/aluminium/",
+        "type": 301
+      },
+      {
+        "source": "/aluminium/",
+        "destination": "/materials-supply/collections/aluminium/",
+        "type": 301
+      },
+      {
+        "source": "/aluminium/index.html",
+        "destination": "/materials-supply/collections/aluminium/",
+        "type": 301
+      },
+      {
+        "source": "/upvc",
+        "destination": "/materials-supply/collections/upvc/",
+        "type": 301
+      },
+      {
+        "source": "/upvc/",
+        "destination": "/materials-supply/collections/upvc/",
+        "type": 301
+      },
+      {
+        "source": "/upvc/index.html",
+        "destination": "/materials-supply/collections/upvc/",
+        "type": 301
+      },
+      {
+        "source": "/steel",
+        "destination": "/materials-supply/collections/steel/",
+        "type": 301
+      },
+      {
+        "source": "/steel/",
+        "destination": "/materials-supply/collections/steel/",
+        "type": 301
+      },
+      {
+        "source": "/steel/index.html",
+        "destination": "/materials-supply/collections/steel/",
+        "type": 301
+      },
+      {
+        "source": "/roofing",
+        "destination": "/materials-supply/collections/roofing/",
+        "type": 301
+      },
+      {
+        "source": "/roofing/",
+        "destination": "/materials-supply/collections/roofing/",
+        "type": 301
+      },
+      {
+        "source": "/roofing/index.html",
+        "destination": "/materials-supply/collections/roofing/",
+        "type": 301
+      },
+      {
+        "source": "/insulation",
+        "destination": "/materials-supply/collections/insulation/",
+        "type": 301
+      },
+      {
+        "source": "/insulation/",
+        "destination": "/materials-supply/collections/insulation/",
+        "type": 301
+      },
+      {
+        "source": "/insulation/index.html",
+        "destination": "/materials-supply/collections/insulation/",
+        "type": 301
+      },
+      {
+        "source": "/bathroom",
+        "destination": "/materials-supply/collections/bathroom/",
+        "type": 301
+      },
+      {
+        "source": "/bathroom/",
+        "destination": "/materials-supply/collections/bathroom/",
+        "type": 301
+      },
+      {
+        "source": "/bathroom/index.html",
+        "destination": "/materials-supply/collections/bathroom/",
+        "type": 301
+      },
+      {
+        "source": "/drainage",
+        "destination": "/materials-supply/collections/drainage/",
+        "type": 301
+      },
+      {
+        "source": "/drainage/",
+        "destination": "/materials-supply/collections/drainage/",
+        "type": 301
+      },
+      {
+        "source": "/drainage/index.html",
+        "destination": "/materials-supply/collections/drainage/",
+        "type": 301
+      },
+      {
+        "source": "/timber",
+        "destination": "/materials-supply/collections/timber/",
+        "type": 301
+      },
+      {
+        "source": "/timber/",
+        "destination": "/materials-supply/collections/timber/",
+        "type": 301
+      },
+      {
+        "source": "/timber/index.html",
+        "destination": "/materials-supply/collections/timber/",
+        "type": 301
+      },
+      {
+        "source": "/glazing",
+        "destination": "/materials-supply/collections/glazing/",
+        "type": 301
+      },
+      {
+        "source": "/glazing/",
+        "destination": "/materials-supply/collections/glazing/",
+        "type": 301
+      },
+      {
+        "source": "/glazing/index.html",
+        "destination": "/materials-supply/collections/glazing/",
+        "type": 301
+      },
+      {
+        "source": "/doors",
+        "destination": "/materials-supply/collections/doors/",
+        "type": 301
+      },
+      {
+        "source": "/doors/",
+        "destination": "/materials-supply/collections/doors/",
+        "type": 301
+      },
+      {
+        "source": "/doors/index.html",
+        "destination": "/materials-supply/collections/doors/",
+        "type": 301
+      },
+      {
+        "source": "/chemicals",
+        "destination": "/materials-supply/collections/chemicals/",
+        "type": 301
+      },
+      {
+        "source": "/chemicals/",
+        "destination": "/materials-supply/collections/chemicals/",
+        "type": 301
+      },
+      {
+        "source": "/chemicals/index.html",
+        "destination": "/materials-supply/collections/chemicals/",
+        "type": 301
+      },
+      {
+        "source": "/electrical",
+        "destination": "/materials-supply/collections/electrical/",
+        "type": 301
+      },
+      {
+        "source": "/electrical/",
+        "destination": "/materials-supply/collections/electrical/",
+        "type": 301
+      },
+      {
+        "source": "/electrical/index.html",
+        "destination": "/materials-supply/collections/electrical/",
+        "type": 301
+      },
+      {
+        "source": "/landscape",
+        "destination": "/materials-supply/collections/landscape/",
+        "type": 301
+      },
+      {
+        "source": "/landscape/",
+        "destination": "/materials-supply/collections/landscape/",
+        "type": 301
+      },
+      {
+        "source": "/landscape/index.html",
+        "destination": "/materials-supply/collections/landscape/",
+        "type": 301
+      },
+      {
+        "source": "/masonry",
+        "destination": "/materials-supply/collections/masonry/",
+        "type": 301
+      },
+      {
+        "source": "/masonry/",
+        "destination": "/materials-supply/collections/masonry/",
+        "type": 301
+      },
+      {
+        "source": "/masonry/index.html",
+        "destination": "/materials-supply/collections/masonry/",
+        "type": 301
+      },
+      {
+        "source": "/modular",
+        "destination": "/materials-supply/collections/modular/",
+        "type": 301
+      },
+      {
+        "source": "/modular/",
+        "destination": "/materials-supply/collections/modular/",
+        "type": 301
+      },
+      {
+        "source": "/modular/index.html",
+        "destination": "/materials-supply/collections/modular/",
+        "type": 301
       }
     ]
   }
