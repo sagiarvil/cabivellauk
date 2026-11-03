@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" width="1000" height="760">
+  <defs>
+    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e6e1d8" stroke-width="0.75"/>
+      <path d="M 200 0 L 0 0 0 200" fill="none" stroke="#d8d1c5" stroke-width="1.25"/>
+    </pattern>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a3832"/>
+      <stop offset="50%" stop-color="#182320"/>
+      <stop offset="100%" stop-color="#0f1715"/>
+    </linearGradient>
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a68e77"/>
+      <stop offset="100%" stop-color="#8e7a68"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Architectural Canvas -->
+  <rect width="1000" height="760" fill="#f5f2eb"/>
+  <rect width="1000" height="760" fill="url(#archGrid)"/>
+
+  <!-- Outer Frame -->
+  <rect x="24" y="24" width="952" height="712" fill="none" stroke="#d5cebf" stroke-width="1.5"/>
+  <rect x="32" y="32" width="936" height="696" fill="none" stroke="#e0d9cc" stroke-width="0.75"/>
+
+  <!-- Title Block Header -->
+  <rect x="50" y="50" width="900" height="70" fill="#ffffff" rx="4" stroke="#dcd6c9" stroke-width="1"/>
+  <text x="75" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#8e7a68" text-transform="uppercase">CABIVELLA ARCHITECTURAL SPECIFICATION</text>
+  <text x="75" y="106" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#182320">Cabivella ZincShield DX51D+Z Continuous Galvanised Sheet</text>
+  <rect x="800" y="65" width="130" height="38" fill="#182320" rx="3"/>
+  <text x="865" y="89" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">CB-ST-0005</text>
+
+  <!-- Central Technical Geometry Canvas -->
+  <g transform="translate(100, 160)">
+    
+        <!-- Structural Steel Heavy Plate (Perspective) -->
+        <polygon points="200,160 520,70 660,140 340,240" fill="#364942" stroke="#182320" stroke-width="1.5"/>
+        <polygon points="200,160 340,240 340,290 200,210" fill="#182320" stroke="#182320" stroke-width="1.5"/>
+        <polygon points="340,240 660,140 660,190 340,290" fill="#24332c" stroke="#182320" stroke-width="1.5"/>
+        <!-- Callout -->
+        <line x1="340" y1="240" x2="340" y2="290" stroke="#c4a265" stroke-width="3"/>
+        <text x="360" y="270" font-family="sans-serif" font-size="14" font-weight="700" fill="#8e7a68">Thickness: 3–200 mm</text>
+        <text x="430" y="160" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">EN 10025 Tested Surface</text>
+        
+  </g>
+
+  <!-- Engineering Data Footer Banner -->
+  <rect x="50" y="640" width="900" height="70" fill="#ffffff" rx="4" stroke="#dcd6c9" stroke-width="1"/>
+  <circle cx="80" cy="675" r="14" fill="#182320"/>
+  <path d="M75 675 L79 679 L87 671" fill="none" stroke="#c4a265" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="110" y="670" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#182320">DX51D+Z / S280GD+Z · 0.40 mm – 4.00 mm · EN Compliant</text>
+  <text x="110" y="690" font-family="-apple-system, sans-serif" font-size="11" fill="#788680">Factory-engineered in Türkiye to BS EN / ISO standards · Full mill test certificate 3.1 included</text>
+  <text x="925" y="680" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#8e7a68" text-anchor="end">CABIVELLA UK</text>
+</svg>
