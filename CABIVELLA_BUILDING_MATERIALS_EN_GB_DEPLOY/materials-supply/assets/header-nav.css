@@ -456,7 +456,7 @@
   margin-inline: auto;
 }
 .site-footer .foot-logo {
-  font-family: var(--serif, 'Cinzel', serif);
+  font-family: var(--serif, 'Roboto', 'Inter', serif);
   font-size: 24px;
   color: #fff;
   text-decoration: none;
