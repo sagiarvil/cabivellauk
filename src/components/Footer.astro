@@ -4,40 +4,41 @@ import { footerNav, siteConfig } from '../data/navigation';
 
 <footer class="site-footer">
   <div class="wrap foot-top">
-    <!-- Brand Info -->
-    <div>
-      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+    <!-- Brand Info (Architectural Symmetry & Heraldic Alignment) -->
+    <div class="foot-brand-col">
+      <a href="/" class="foot-brand-header" aria-label="Cabivella home">
         <img 
           src="/assets/img/cabivella-crest-transparent.webp" 
           alt="Cabivella Crest" 
-          width="48" 
-          height="44" 
-          style="object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.06));"
+          width="78" 
+          height="72" 
+          class="foot-crest-img"
+          loading="lazy"
         />
-        <a href="/" class="foot-logo" style="margin: 0;">{siteConfig.name}</a>
-      </div>
+        <div class="foot-brand-titles">
+          <span class="foot-logo">CABIVELLA</span>
+          <span class="foot-sublogo">C O . U K</span>
+        </div>
+      </a>
       <p class="foot-tagline">
-        Considered cabinetry for kitchens, bathrooms and the spaces in between.
+        Considered cabinetry for kitchens, bathrooms and the spaces in between. Direct specification and architectural supply to the UK &amp; Europe.
       </p>
       
       <div class="foot-contact-pills">
-        <!-- Verified Email Link -->
-        <a href={`mailto:${siteConfig.email}`} class="foot-contact-link">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColour" stroke-width="2" aria-hidden="true">
+        <a href={} class="foot-contact-link">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <rect width="20" height="16" x="2" y="4" rx="2"></rect>
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
           </svg>
           <span>{siteConfig.email}</span>
         </a>
 
-        <!-- Verified WhatsApp Link -->
         <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="foot-contact-link">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true">
-            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.766-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"/>
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.961.947 2.796.947 3.179 0 5.766-2.587 5.766-5.766 0-3.18-2.587-5.734-5.734zm9.969 5.766c0 5.518-4.482 10-10 10-1.745 0-3.38-.45-4.814-1.238l-7.186 1.882 1.916-6.996c-.888-1.488-1.396-3.23-1.396-5.088 0-5.518 4.482-10 10-10s10 4.482 10 10z"/>
           </svg>
           <span>WhatsApp: {siteConfig.phone}</span>
         </a>
-
       </div>
     </div>
 
@@ -74,6 +75,91 @@ import { footerNav, siteConfig } from '../data/navigation';
 
   <div class="wrap foot-bottom">
     <span>© 2026 Cabivella. All rights reserved. Registered for UK supply.</span>
-    <span>British English · Direct export supply to the UK & Europe</span>
+    <span>British English · Direct export supply to the UK &amp; Europe</span>
   </div>
 </footer>
+
+<style>
+.foot-top {
+  align-items: start;
+}
+.foot-brand-col {
+  display: flex;
+  flex-direction: column;
+  padding-right: 24px;
+}
+.foot-brand-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.foot-crest-img {
+  width: 72px;
+  height: 66px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+  flex-shrink: 0;
+}
+.foot-brand-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-footer .foot-logo {
+  font-family: var(--serif, 'Cormorant Garamond', Georgia, serif) !important;
+  font-size: 26px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  color: #ffffff !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.foot-sublogo {
+  font-family: var(--body, 'DM Sans', sans-serif);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  color: #dec4a5;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.site-footer .foot-tagline {
+  font-size: 13.5px !important;
+  line-height: 1.65 !important;
+  color: #c0ccc4 !important;
+  margin: 0 0 18px 0 !important;
+  max-width: 380px;
+}
+.site-footer h3 {
+  font-family: var(--display, 'Manrope', sans-serif);
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #dec4a5 !important;
+  margin: 0 0 20px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(222, 196, 165, 0.2);
+}
+.site-footer .foot-links a {
+  font-size: 13.5px;
+  color: #b8c5be;
+  line-height: 2.2;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: block;
+}
+.site-footer .foot-links a:hover {
+  color: #ffffff;
+  transform: translateX(2px);
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .foot-brand-col {
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+}
+</style>
