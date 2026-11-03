@@ -33,3 +33,19 @@ document.addEventListener('click', function(e) {
     }
   }
 });
+
+// Global smooth scroll and auto-focus for Send project details / enquiry links
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[href="#enquiry"], a[href="#enquiry-section"], a[href"#enquiry"]');
+  if (link && !link.getAttribute('href').includes('index.html')) {
+    var target = document.querySelector('#enquiry, #enquiry-section, #enquiry-form');
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var firstInput = target.querySelector('input, textarea, select');
+      if (firstInput) {
+        setTimeout(function() { firstInput.focus(); }, 400);
+      }
+    }
+  }
+});

@@ -16,3 +16,19 @@ document.querySelector('[data-copy]')?.addEventListener('click',async()=>{let li
 
 // Two-dimensional catalogue filtering (full 139-item main index).
 (()=>{let cat='all',search=document.querySelector('#product-search');const filters=[...document.querySelectorAll('[data-filter-cat]')];if(!filters.length||!search)return;const results=[...document.querySelectorAll('.product-grid-main [data-product-search]')];function apply(){let q=search.value.trim().toLocaleLowerCase('en');let count=0;results.forEach(x=>{let ok=(cat==='all'||x.dataset.category===cat)&&x.dataset.productSearch.includes(q);x.hidden=!ok;if(ok)count++});const label=document.querySelector('#shown-count');if(label)label.textContent=count+' product'+(count===1?'':'s');const empty=document.querySelector('#noresults');if(empty)empty.hidden=count>0;}filters.forEach(btn=>btn.addEventListener('click',()=>{cat=btn.dataset.filterCat;filters.forEach(b=>{b.classList.toggle('is-active',b===btn);b.setAttribute('aria-pressed',String(b===btn))});apply()}));filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filterCat==='all')));apply()})();
+
+// Global smooth scroll and auto-focus for Send project details / enquiry links
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[href="#enquiry"], a[href="#enquiry-section"], a[href"#enquiry"]');
+  if (link && !link.getAttribute('href').includes('index.html')) {
+    var target = document.querySelector('#enquiry, #enquiry-section, #enquiry-form');
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var firstInput = target.querySelector('input, textarea, select');
+      if (firstInput) {
+        setTimeout(function() { firstInput.focus(); }, 400);
+      }
+    }
+  }
+});

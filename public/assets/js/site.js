@@ -20,3 +20,19 @@ if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches&&'Intersection
  if(trigger&&dialog&&q&&results){trigger.addEventListener('click',()=>{dialog.showModal();q.value='';render('');q.focus()});const here=new URL(location.href.startsWith('about:') ? 'https://cabivella.co.uk/' : location.href); const base=document.querySelector('meta[name="cabivella-base"]')?.content||'./';
  function render(text){const data=(window.CABIVELLA_SEARCH_INDEX||[]).filter(x=>!text||x.title.toLowerCase().includes(text.toLowerCase())).slice(0,14);results.replaceChildren();if(!data.length){const p=document.createElement('p');p.textContent='No matching collections found.';results.append(p);return;}for(const item of data){const a=document.createElement('a');a.href=new URL(base+item.url,here).href;a.textContent=item.title;results.append(a)}}q.addEventListener('input',()=>render(q.value.trim()));render('');}
 })();
+
+// Global smooth scroll and auto-focus for Send project details / enquiry links
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[href="#enquiry"], a[href="#enquiry-section"], a[href"#enquiry"]');
+  if (link && !link.getAttribute('href').includes('index.html')) {
+    var target = document.querySelector('#enquiry, #enquiry-section, #enquiry-form');
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var firstInput = target.querySelector('input, textarea, select');
+      if (firstInput) {
+        setTimeout(function() { firstInput.focus(); }, 400);
+      }
+    }
+  }
+});
