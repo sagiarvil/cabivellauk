@@ -1397,10 +1397,30 @@ img {
   position: relative !important;
   width: 100% !important;
   padding-top: 0 !important;
-  padding-bottom: clamp(24px, 3.5vw, 48px) !important;
-  max-width: clamp(380px, 42vw, 560px) !important;
-  margin-left: 0 !important;
+  padding-bottom: clamp(30px, 4vw, 55px) !important;
+  max-width: clamp(420px, 48vw, 680px) !important;
+  margin-left: clamp(24px, 6vw, 90px) !important;
   z-index: 2 !important;
+}
+
+.v6-hero h1, .hero-2026 h1, .home-hero h1 {
+  font-family: 'Roboto', 'Inter', -apple-system, sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-size: clamp(32px, 3.8vw, 52px) !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.03em !important;
+  white-space: nowrap !important;
+  margin: 0 0 20px 0 !important;
+  color: #ffffff !important;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7) !important;
+}
+
+.v6-hero h1 em, .v6-hero h1 i, .hero-2026 h1 em, .home-hero h1 em {
+  font-style: normal !important;
+  font-family: 'Roboto', 'Inter', -apple-system, sans-serif !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
 }
 
 .v6-hero-image-wrap img {
