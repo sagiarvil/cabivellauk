@@ -43,7 +43,7 @@
   <!-- Central Technical Geometry Canvas -->
   <g transform="translate(100, 160)">
     
-    <!-- Masonry Brick & Block Isometric Engineering Drawing -->
+    <!-- Masonry Brick &amp; Block Isometric Engineering Drawing -->
     <g transform="translate(140, 50)">
       <!-- Isometric Top Face -->
       <polygon points="120,100 420,50 560,130 260,180" fill="url(#brickGrad)" stroke="#182320" stroke-width="2.5"/>

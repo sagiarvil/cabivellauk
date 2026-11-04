@@ -1602,5 +1602,58 @@ img {
   }
 }
 
-/* NO ITALIC ENFORCEMENT */
-em, i, cite, address, [style*="italic"] { font-style: normal !important; }
+/* ACCESSIBILITY & SKIP LINK FIX: Hide visibly until focused */
+.skip-link, a[href="#main"], a[href="#content"], .skip-to-content, [href^="#main"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.skip-link:focus, a[href="#main"]:focus, a[href="#content"]:focus {
+  position: fixed !important;
+  top: 10px !important;
+  left: 10px !important;
+  width: auto !important;
+  height: auto !important;
+  clip: auto !important;
+  z-index: 99999 !important;
+  background: #000000 !important;
+  color: #ffffff !important;
+  padding: 10px 16px !important;
+  border-radius: 4px !important;
+}
+
+/* PRODUCT CARD & SVG PROTECTION */
+.product-card a, .feature-card a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.product-card a img, .feature-card a img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 2px !important;
+}
+
+/* EDITORIAL GRID IMAGE PERFECTION */
+.editorial-grid img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: 560px !important;
+  object-fit: cover !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* UNIVERSAL ABSOLUTE ZERO-ITALIC ENFORCEMENT */
+*, *::before, *::after, em, i, cite, address, [style*="italic"], h1, h2, h3, h4, h5, h6, p, span, a, div {
+  font-style: normal !important;
+}

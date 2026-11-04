@@ -48,7 +48,7 @@
   <rect x="50" y="640" width="900" height="70" fill="#ffffff" rx="4" stroke="#dcd6c9" stroke-width="1"/>
   <circle cx="80" cy="675" r="14" fill="#182320"/>
   <path d="M75 675 L79 679 L87 671" fill="none" stroke="#c4a265" stroke-width="2.5" stroke-linecap="round"/>
-  <text x="110" y="670" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#182320">S355J2W+N / Cor-Ten A & B · 1.5 mm – 40 mm · EN Compliant</text>
+  <text x="110" y="670" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#182320">S355J2W+N / Cor-Ten A &amp; B · 1.5 mm – 40 mm · EN Compliant</text>
   <text x="110" y="690" font-family="-apple-system, sans-serif" font-size="11" fill="#788680">Factory-engineered in Türkiye to BS EN / ISO standards · Full mill test certificate 3.1 included</text>
   <text x="925" y="680" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#8e7a68" text-anchor="end">CABIVELLA UK</text>
 </svg>

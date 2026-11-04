@@ -36,14 +36,14 @@
   <!-- Title Block Header -->
   <rect x="50" y="50" width="900" height="70" fill="#ffffff" rx="4" stroke="#dcd6c9" stroke-width="1"/>
   <text x="75" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#8e7a68" text-transform="uppercase">CABIVELLA ARCHITECTURAL SPECIFICATION</text>
-  <text x="75" y="106" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#182320">Cabivella ArchTravert Sawn & Honed Classic Light Travertine Paving</text>
+  <text x="75" y="106" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#182320">Cabivella ArchTravert Sawn &amp; Honed Classic Light Travertine Paving</text>
   <rect x="780" y="65" width="150" height="38" fill="#182320" rx="3"/>
   <text x="855" y="89" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">CB-MS-0019</text>
 
   <!-- Central Technical Geometry Canvas -->
   <g transform="translate(100, 160)">
     
-    <!-- Masonry Brick & Block Isometric Engineering Drawing -->
+    <!-- Masonry Brick &amp; Block Isometric Engineering Drawing -->
     <g transform="translate(140, 50)">
       <!-- Isometric Top Face -->
       <polygon points="120,100 420,50 560,130 260,180" fill="url(#brickGrad)" stroke="#182320" stroke-width="2.5"/>

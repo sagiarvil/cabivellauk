@@ -35,14 +35,14 @@
   <!-- Title Block Header -->
   <rect x="50" y="50" width="900" height="70" fill="#ffffff" rx="4" stroke="#dcd6c9" stroke-width="1"/>
   <text x="75" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#8e7a68" text-transform="uppercase">CABIVELLA ARCHITECTURAL SPECIFICATION</text>
-  <text x="75" y="106" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#182320">Cabivella SteppingRound Natural Sawn & Tumbled Circular Stepping Stones</text>
+  <text x="75" y="106" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#182320">Cabivella SteppingRound Natural Sawn &amp; Tumbled Circular Stepping Stones</text>
   <rect x="780" y="65" width="150" height="38" fill="#182320" rx="3"/>
   <text x="855" y="89" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">CB-LS-0011</text>
 
   <!-- Central Technical Geometry Canvas -->
   <g transform="translate(100, 160)">
     
-        <!-- Monolithic Stone Paving & Kerb Isometric Section -->
+        <!-- Monolithic Stone Paving &amp; Kerb Isometric Section -->
         <g transform="translate(100, 60)">
           <!-- Heavy Granite Slab Isometric -->
           <polygon points="120,120 440,80 540,160 220,200" fill="url(#stoneGrad)" stroke="#182320" stroke-width="2"/>

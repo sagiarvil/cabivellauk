@@ -65,7 +65,7 @@
         <line x1="170" y1="390" x2="630" y2="390" stroke="#8e7a68" stroke-width="2"/>
         <polyline points="180,385 170,390 180,395" fill="none" stroke="#8e7a68" stroke-width="2"/>
         <polyline points="620,385 630,390 620,395" fill="none" stroke="#8e7a68" stroke-width="2"/>
-        <text x="400" y="415" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#8e7a68" text-anchor="middle">OVERALL CABLE CALIPER & ARMOUR MATRIX (BS 6724)</text>
+        <text x="400" y="415" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#8e7a68" text-anchor="middle">OVERALL CABLE CALIPER &amp; ARMOUR MATRIX (BS 6724)</text>
         <!-- Specification Plate -->
         <rect x="490" y="30" width="240" height="50" fill="#ffffff" stroke="#182320" stroke-width="1.5" rx="3"/>
         <text x="505" y="60" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#182320">CB-EL-0002 · 600 / 1000 V (BS</text>
