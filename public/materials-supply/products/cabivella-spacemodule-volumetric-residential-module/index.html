@@ -157,6 +157,12 @@ p, li, span, td, th, input, textarea, select, button {
 }
 </style>
 
+<style id="no-italic-enforce">
+* { font-style: normal !important; }
+em, i, cite, address, [style*="italic"] { font-style: normal !important; }
+.feature-content .micro, .feature-content p { display: none !important; }
+.feature-content h3 { white-space: nowrap !important; font-style: normal !important; margin: 0 !important; }
+</style>
 </head>
 <body>
   <header class="cb-header" id="cabivella-header"> <!-- Top Bar --> <!-- Main Navigation Inner --> <div class="cb-container cb-main-inner"> <!-- Brand Identity (Heraldic Crest + Bespoke Serif Logotype) --> <a aria-label="Cabivella home" class="cb-brand" href="/"> <img alt="Cabivella Crest" class="cb-crest" decoding="async" height="58" loading="eager" src="/assets/img/cabivella-crest-transparent.webp" width="62"/> <span aria-hidden="true" class="cb-brand-sep"></span> <span class="cb-brand-copy"> <span class="cb-brand-name">CABIVELLA</span> <span class="cb-brand-sub">C O . U K</span> </span> </a> <!-- Navigation Links --> <nav aria-label="Main navigation" class="cb-nav">

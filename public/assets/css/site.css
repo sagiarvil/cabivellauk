@@ -614,7 +614,7 @@ html.motion-ready [data-reveal].is-revealed {
 }
 
 .v6-hero h1 em {
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
   font-family: var(--font-serif);
   color: #d1b88e;
@@ -1601,3 +1601,6 @@ img {
     padding: 40px 24px !important;
   }
 }
+
+/* NO ITALIC ENFORCEMENT */
+em, i, cite, address, [style*="italic"] { font-style: normal !important; }

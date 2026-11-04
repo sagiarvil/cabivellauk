@@ -156,6 +156,12 @@ p, li, span, td, th, input, textarea, select, button {
 }
 </style>
 
+<style id="no-italic-enforce">
+* { font-style: normal !important; }
+em, i, cite, address, [style*="italic"] { font-style: normal !important; }
+.feature-content .micro, .feature-content p { display: none !important; }
+.feature-content h3 { white-space: nowrap !important; font-style: normal !important; margin: 0 !important; }
+</style>
 </head>
 <body>
   

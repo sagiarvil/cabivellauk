@@ -51,7 +51,7 @@
 
 .cb-top-message {
   font-family: Georgia, serif;
-  font-style: italic;
+  font-style: normal;
   font-size: 17px;
   text-align: center;
   flex: 1;
@@ -527,3 +527,5 @@
     grid-template-columns: 1fr;
   }
 }
+/* NO ITALIC ENFORCEMENT */
+em, i, cite, address, [style*="italic"] { font-style: normal !important; }

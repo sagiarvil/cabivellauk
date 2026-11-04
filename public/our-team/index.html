@@ -30,7 +30,7 @@ button{font:inherit}button,a{-webkit-tap-highlight-color:transparent}
 .skip:focus{left:16px}
 .utility{background:var(--forestDeep);color:#f8f8f0;font-size:11px;letter-spacing:.055em}
 .utility .container{min-height:38px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-.utility a{opacity:.9}.utility .quiet{font-family:Georgia,serif;letter-spacing:.025em;font-style:italic;font-size:13px;color:#d8c5a3}.utility .region{font-weight:700}
+.utility a{opacity:.9}.utility .quiet{font-family:Georgia,serif;letter-spacing:.025em;font-style: normal;font-size:13px;color:#d8c5a3}.utility .region{font-weight:700}
 .header{background:rgba(249,247,242,.97);border-bottom:1px solid #e9e4dc;position:sticky;top:0;z-index:50;box-shadow:0 8px 30px rgba(20,45,35,.045);backdrop-filter:blur(14px)}
 .header-row{display:flex;align-items:center;justify-content:space-between;gap:26px;min-height:95px}
 .brand{display:flex;align-items:center;gap:12px;flex:0 0 auto}.brand img{width:63px;height:63px;object-fit:contain}.brandmark{display:flex;flex-direction:column;justify-content:center;line-height:1}
@@ -284,6 +284,12 @@ footer.site-footer .foot-bottom {
 }
 </style>
 
+<style id="no-italic-enforce">
+* { font-style: normal !important; }
+em, i, cite, address, [style*="italic"] { font-style: normal !important; }
+.feature-content .micro, .feature-content p { display: none !important; }
+.feature-content h3 { white-space: nowrap !important; font-style: normal !important; margin: 0 !important; }
+</style>
 </head>
 <body>
 
