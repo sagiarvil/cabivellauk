@@ -2,9 +2,54 @@
 import SiteLayout from '../layouts/SiteLayout.astro';
 import { collectionsData } from '../data/collections';
 import { siteConfig } from '../data/navigation';
+import DynamicWatermark from '../components/DynamicWatermark.astro';
 
 const collections = Object.values(collectionsData).slice(0, 12);
-import DynamicWatermark from '../components/DynamicWatermark.astro';
+
+const featuredKitchens = [
+  {
+    title: 'Iconica',
+    desc1: 'Iconica, geleneksel tasarım anlayışlarını aşan ve üst gola profilini ortadan kaldıran bir sistemle yeni bir estetik bakış açısı sunuyor.',
+    desc2: 'Tezgah ve kapak arasında kusursuz bir bütünlük sağlanıyor. Farklı ve yeni malzemelerle sınırsız estetik seçenekler sunuyor.',
+    image: '/assets/img/models/kitchen_suites/belgravia-handleless_1.webp',
+    link: '/collections/kitchens/'
+  },
+  {
+    title: 'Lounge',
+    desc1: 'Lounge form fonksiyonu takip eder felsefesiyle şekillenerek, günlük yaşamı estetik ve işlevsellik odaklı yorumluyor. Böylece mutfak ortamını fonksiyonel ve estetik açıdan tatmin edici hale getiriyor.',
+    desc2: 'Alçaltılmış baza yapısı ile çağdaş ve minimalist bakış açısı vurgulanıyor.',
+    image: '/assets/img/models/kitchen_suites/cotswold-linear-grooved_1.webp',
+    link: '/collections/kitchens/'
+  },
+  {
+    title: 'Belgravia',
+    desc1: 'Belgravia, klasik İngiliz shaker mirasını çağdaş oranlarla buluşturur. 22mm masif ahşap çerçeve ve mikro-pahlı hatlar mekanınıza seçkin bir mimari derinlik kazandırır.',
+    desc2: 'Fırında sertleştirilmiş çok katmanlı lake kaplama mutfak buharına ve ısıya karşı tam koruma sağlarken, 40 kg yük kapasiteli çekmece kızakları ömür boyu sessiz konfor sunar.',
+    image: '/assets/img/models/kitchen_suites/blenheim-grand-manor_1.webp',
+    link: '/collections/kitchens/'
+  },
+  {
+    title: 'Mayfair',
+    desc1: 'Mayfair, süper-mat dokunsal lake yüzeyleri, tavandan tabana gizli kiler armoireları ve heykelsi monolitik adasıyla modern mimarinin zirvesini temsil eder.',
+    desc2: 'Lazer kaynaklı kenar bantları ve gizli bas-aç mekanizmalarıyla kulpsuz saf estetik sunulur. İngiltere ve Avrupa konut projeleri için milimetrik hassasiyetle özel üretilir.',
+    image: '/assets/img/models/kitchen_suites/mayfair-minimalist-metallic_1.webp',
+    link: '/collections/kitchens/'
+  },
+  {
+    title: 'Kensington',
+    desc1: 'Kensington, yivli meşe panelleri, bronz çerçeveli vitrin dolapları ve entegre lineer LED aydınlatmasıyla açık planlı yaşam alanlarının en göz alıcı odak noktası haline gelir.',
+    desc2: 'Usta marangozlar tarafından tek tek seçilen hareli Avrupa kaplamaları, doğal kuvars ve mermer detaylarla harmanlanarak zamansız bir sofistike duruş sergiler.',
+    image: '/assets/img/models/kitchen_suites/chelsea-architectural-glass_1.webp',
+    link: '/collections/kitchens/'
+  },
+  {
+    title: 'Richmond',
+    desc1: 'Richmond, akıllı kiler ve kahve istasyonu organizasyonunu estetik cep kapak (pocket door) mimarisiyle buluşturur. Kullanım anında genişler, istenildiğinde tamamen gizlenir.',
+    desc2: 'Türkiye deki master ahşap atölyelerimizde üretilip doğrudan İngiltere genelindeki şantiyelere titiz nakliye ve montaj güvencesiyle sevk edilir.',
+    image: '/assets/img/models/kitchen_suites/chiswick-modernist-frame_1.webp',
+    link: '/collections/kitchens/'
+  }
+];
 ---
 
 <SiteLayout 
@@ -13,14 +58,14 @@ import DynamicWatermark from '../components/DynamicWatermark.astro';
   canonicalPath="/"
   image="/assets/img/homepage-hero-approved.webp"
 >
-  <!-- Hero Section -->
+  <!-- Hero Section (Strictly scaled to 1920x977 Atölye Locus specifications) -->
   <section class="v6-hero" aria-label="Cabivella cabinetry collections">
     <div class="v6-hero-image-wrap" aria-hidden="true">
       <img 
         src="/assets/img/homepage-hero-approved.webp" 
         alt="Cabivella bespoke cabinetry in a contemporary British interior" 
         width="1920" 
-        height="1080"
+        height="977"
         loading="eager"
         decoding="async"
         fetchpriority="high"
@@ -29,17 +74,17 @@ import DynamicWatermark from '../components/DynamicWatermark.astro';
     <div class="v6-hero-gradient" aria-hidden="true"></div>
 
     <div class="v6-hero-content wrap">
-      <div class="v6-hero-eyebrow" data-reveal>CONSIDERED CABINETRY</div>
+      <div class="v6-hero-eyebrow" data-reveal>CONSIDERED CABINETRY & ARCHITECTURAL JOINERY</div>
       <h1 data-reveal>
         More room<br />
         for <em>living.</em>
       </h1>
       <span class="v6-hero-goldline" aria-hidden="true"></span>
       <p data-reveal>
-        Beautiful, made-to-measure kitchens, bathrooms and bespoke interiors designed for considered UK homes.
+        Beautiful, made-to-measure kitchens, bathrooms and bespoke interiors designed for considered UK homes and European architectural projects.
       </p>
       <div class="v6-hero-links" data-reveal>
-        <a href="#collections" class="v6-hero-primary-btn">
+        <a href="#featured-models" class="v6-hero-primary-btn">
           <span>Explore Collections</span>
           <span aria-hidden="true">↓</span>
         </a>
@@ -51,21 +96,56 @@ import DynamicWatermark from '../components/DynamicWatermark.astro';
     </div>
 
     <div class="v6-hero-bottom wrap">
-      <div>British design direction · Made to measure</div>
+      <div>British design direction · Made to measure · Direct from Türkiye</div>
       <a href="/collections/kitchens/">Discover kitchens →</a>
     </div>
+  </section>
+
+  <!-- Section Header: Featured Kitchen Models (Atölye Locus 100% Architecture) -->
+  <section class="locus-section-header" id="featured-models">
+    <span class="locus-eyebrow" data-reveal>Mutfak · Bespoke Architectural Kitchens</span>
+    <h2 class="locus-section-title" data-reveal>Öne Çıkan Mutfak Modelleri</h2>
+  </section>
+
+  <!-- 50/50 Alternating Full-Bleed Split Showcase (Exact Atölye Locus 2 Col Modeller Layout) -->
+  <section class="locus-split-showcase" aria-label="Öne Çıkan Mutfak Modelleri">
+    {featuredKitchens.map((model, idx) => {
+      const isReversed = idx % 2 === 1;
+      return (
+        <div class={`locus-split-row ${isReversed ? 'is-reversed' : ''}`} data-reveal>
+          <div class="locus-content-box">
+            <h3 class="locus-model-title">{model.title}</h3>
+            <p>{model.desc1}</p>
+            <p>{model.desc2}</p>
+            <div>
+              <a href={model.link} class="locus-btn">KOLEKSİYONU KEŞFEDİN</a>
+            </div>
+          </div>
+          <div class="locus-image-box">
+            <img 
+              src={model.image} 
+              alt={`${model.title} - Cabivella Bespoke Kitchen Architecture`} 
+              loading="lazy" 
+              decoding="async"
+              width="960"
+              height="640"
+            />
+          </div>
+        </div>
+      );
+    })}
   </section>
 
   <!-- Ghost Watermark Dynamic Header (Compliant with Soft Neutral & Zero-Collision Stacking) -->
   <DynamicWatermark text="CABIVELLA" />
 
-  <!-- Collections Section -->
+  <!-- Collections Grid Section -->
   <section class="v6-category-section" id="collections" aria-labelledby="collections-title">
     <div class="wrap">
       <div class="section-header" data-reveal>
         <span class="section-eyebrow">THE COLLECTIONS</span>
         <h2 id="collections-title">Cabinetry designed for real rooms.</h2>
-        <p style="color: var(--muted); margin-top: 8px;">Explore our six core cabinetry directions, each engineered for practical UK floorplans.</p>
+        <p style="color: var(--muted); margin-top: 8px;">Explore our core cabinetry directions, each engineered for practical UK floorplans.</p>
       </div>
 
       <div class="v6-category-grid" data-reveal-group>
@@ -107,7 +187,7 @@ import DynamicWatermark from '../components/DynamicWatermark.astro';
       <div class="editorial-copy" data-reveal>
         <span class="section-eyebrow">A CONSIDERED APPROACH</span>
         <h2 id="craft-title">Beauty is found in the <em>details.</em></h2>
-        <p>A cupboard can hold the little things that mattr most. We favour quiet proportions, practical storage and finishes chosen for the life of a room.</p>
+        <p>A cupboard can hold the little things that matter most. We favour quiet proportions, practical storage and finishes chosen for the life of a room.</p>
         <p>From precision hydraulic soft-close mechanics to kiln-dried hardwood frames, every cabinet is built to endure everyday family life.</p>
         <a href="/materials/" class="text-link">Explore materials and finishes ↗</a>
       </div>
@@ -146,7 +226,7 @@ import DynamicWatermark from '../components/DynamicWatermark.astro';
   <section class="cta-band" aria-labelledby="cta-heading">
     <div class="wrap">
       <div data-reveal>
-        <span class="section-eyebrow" style="color: #d1b88e;">START A CONVERSATION</span>
+        <span class="section-eyebrow" style="color: #e2c99a;">START A CONVERSATION</span>
         <h2 id="cta-heading">Tell us what you have in mind.</h2>
         <p>Whether you are planning a kitchen, a bathroom, or a single tailored cabinet, the best conversations begin with the room and its purpose.</p>
         
@@ -155,7 +235,7 @@ import DynamicWatermark from '../components/DynamicWatermark.astro';
             <span>Make an Enquiry</span>
             <span aria-hidden="true">↗</span>
           </a>
-          <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366;">
+          <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366; color: #ffffff !important;">
             <span>WhatsApp Concierge</span>
             <span aria-hidden="true">↗</span>
           </a>

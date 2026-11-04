@@ -1372,3 +1372,175 @@ img {
   max-width: 100% !important;
   height: auto !important;
 }
+
+
+/* ==========================================================================
+   ATÖLYE LOCUS HERO & 50/50 SPLIT ARCHITECTURE
+   ========================================================================== */
+.v6-hero {
+  position: relative !important;
+  width: 100vw !important;
+  max-width: 100% !important;
+  aspect-ratio: 1920 / 977 !important;
+  min-height: clamp(560px, 50.88vw, 977px) !important;
+  max-height: 977px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  background: #141a16 !important;
+  color: #ffffff !important;
+  overflow: hidden !important;
+  isolation: isolate !important;
+}
+
+.locus-section-header {
+  padding: clamp(60px, 7vw, 100px) 24px clamp(35px, 4vw, 55px);
+  text-align: center;
+  background: #fcfbf9;
+}
+
+.locus-eyebrow {
+  display: block;
+  font-family: 'Inter', 'Roboto', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  color: #8e7a68 !important;
+  margin-bottom: 14px !important;
+}
+
+.locus-section-title {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: clamp(30px, 3.8vw, 48px) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.15 !important;
+  color: #000000 !important;
+  margin: 0 !important;
+}
+
+.locus-split-showcase {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background: #e6e0d7;
+}
+
+.locus-split-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  width: 100%;
+  min-height: clamp(480px, 42vw, 680px);
+  margin: 0;
+  padding: 0;
+  align-items: stretch;
+}
+
+.locus-split-row.is-reversed {
+  direction: rtl;
+}
+
+.locus-split-row.is-reversed > * {
+  direction: ltr;
+}
+
+.locus-content-box {
+  background: #e6e0d7;
+  padding: clamp(45px, 6vw, 95px) clamp(35px, 5.5vw, 85px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 22px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.locus-model-title {
+  font-family: 'Roboto', 'Inter', sans-serif !important;
+  font-size: clamp(30px, 3.2vw, 42px) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.1 !important;
+  color: #000000 !important;
+  margin: 0 !important;
+}
+
+.locus-content-box p {
+  font-family: 'Roboto', 'Inter', sans-serif !important;
+  font-size: 15.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0em !important;
+  color: #28292b !important;
+  margin: 0 !important;
+  max-width: 540px;
+}
+
+.locus-btn {
+  font-family: 'Roboto', 'Inter', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  background: #ffffff !important;
+  color: #575757 !important;
+  border: 1px solid rgba(0, 0, 0, 0.16) !important;
+  padding: 13px 30px !important;
+  display: inline-block !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+  text-decoration: none !important;
+  margin-top: 6px !important;
+  transition: all 0.25s ease !important;
+  cursor: pointer;
+}
+
+.locus-btn:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-color: #000000 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
+}
+
+.locus-image-box {
+  width: 100%;
+  height: 100%;
+  min-height: clamp(480px, 42vw, 680px);
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #d8d2c7;
+}
+
+.locus-image-box img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.locus-split-row:hover .locus-image-box img {
+  transform: scale(1.02);
+}
+
+@media (max-width: 900px) {
+  .locus-split-row, .locus-split-row.is-reversed {
+    grid-template-columns: 1fr !important;
+    direction: ltr !important;
+  }
+  .locus-image-box {
+    min-height: 380px !important;
+    height: 380px !important;
+  }
+  .locus-content-box {
+    padding: 45px 30px !important;
+  }
+}
