@@ -1,5 +1,85 @@
+# ==============================================================================
+# CABIVELLA UK — 18+ SEARCH ENGINE & AI AGENT DISCOVERY MATRIX (MANDATE V9.2)
+# ==============================================================================
+
+# 1. Primary Alexandria Mobile-First Crawler
+User-agent: Googlebot
+User-agent: Googlebot-Smartphone
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /api/
+Disallow: /_astro/
+Disallow: /thank-you/
+
+# 2. Bing & Microsoft Copilot
+User-agent: Bingbot
+User-agent: msnbot
+User-agent: BingPreview
+Allow: /
+Disallow: /api/
+Disallow: /_astro/
+
+# 3. Apple Intelligence & Siri Suggestions
+User-agent: Applebot
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /api/
+
+# 4. OpenAI Search & GPTBot
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+
+# 5. Anthropic Claude & Artifacts
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+Allow: /
+Disallow: /api/
+
+# 6. Perplexity AI Pro Search
+User-agent: PerplexityBot
+User-agent: Perplexity-Search
+Allow: /
+Disallow: /api/
+
+# 7. Google Extended & Gemini Live Grounding
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+
+# 8. Meta AI & Amazon Alexa Indexers
+User-agent: FacebookBot
+User-agent: Meta-ExternalAgent
+User-agent: Amazonbot
+Allow: /
+Disallow: /api/
+
+# 9. Yandex & Regional Indexers
+User-agent: Yandex
+User-agent: YandexBot
+Allow: /
+Disallow: /api/
+
+# 10. Common Crawl & General Web Indexers
+User-agent: CCBot
+User-agent: Bytespider
+Allow: /
+Disallow: /api/
+
+# Fallback for all other compliant crawlers
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_astro/
+Disallow: /thank-you/
 
+# Sitemaps & Syndication Indices
 Sitemap: https://cabivella.co.uk/sitemap.xml
 Sitemap: https://cabivella.co.uk/sitemap-export.xml
+
+# LLM Discovery & Agent Manifest Endpoints
+# LLMS-Txt: https://cabivella.co.uk/llms.txt
+# Agent-Manifest: https://cabivella.co.uk/agent.txt

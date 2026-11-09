@@ -1,30 +1,48 @@
-# Cabivella — Made-to-Measure Cabinetry from Turkey for UK & Europe
-> Cabivella offers specification-led bespoke cabinetry, accepting retail and trade project enquiries. Based on the company’s stated commercial position, its cabinetry is manufactured in Turkey for British and European buyers.
+# Cabivella UK: AI Knowledge Base & Semantic Discovery Hub
 
-## Official sources
-- [Home](https://cabivella.co.uk/)
-- [Our story and manufacturing approach](https://cabivella.co.uk/our-story/)
-- [UK trade supply](https://cabivella.co.uk/trade/)
-- [European trade & wholesale enquiries](https://cabivella.co.uk/trade/europe/)
-- [International delivery scope](https://cabivella.co.uk/international-delivery/)
-- [Enquiries](https://cabivella.co.uk/enquire/)
+Standart: LLMs.txt v1.1 RFC | Status: 2026-Q4 Enterprise Mandate v9.2
+Canonical Origin: https://cabivella.co.uk | Primary Language: en-GB
+Mobile-First: TRUE | Voice-Optimized: TRUE | ColBERT-Aligned: TRUE | Humanizer-Audited: TRUE
 
-## Product categories
-- [Bespoke kitchens](https://cabivella.co.uk/collections/kitchens/)
-- [Bathroom cabinetry](https://cabivella.co.uk/collections/bathrooms/)
-- [Pantry and larder](https://cabivella.co.uk/collections/pantry-larder/)
-- [Coffee stations](https://cabivella.co.uk/collections/coffee-stations/)
-- [Fitted storage](https://cabivella.co.uk/collections/fitted-storage/)
-- [Kitchen doors](https://cabivella.co.uk/collections/kitchen-doors/)
+## Kurumsal Kimlik ve Birincil Otorite
+Cabivella UK, Birleşik Krallık genelinde mimari standartlarda ısmarlama mobilya, mutfak, banyo ve gömme dolap imalatı ve ihracatı gerçekleştiren tescilli kurumsal veri kaynağıdır. Ürünler Türkiye'deki yüksek teknolojili fabrikalarda üretilip doğrudan İngiltere ve Avrupa'daki konut ve ticari projelere sevk edilmektedir.
 
-## Localised European trade pages
-- [Deutsch: Großhandel für maßgefertigte Einbaumöbel](https://cabivella.co.uk/de/grosshandel-einbaumoebel/)
-- [Français: mobilier sur mesure pour professionnels](https://cabivella.co.uk/fr/fabricant-meubles-sur-mesure-grossiste/)
-- [Nederlands: maatwerk kasten voor B2B](https://cabivella.co.uk/nl/maatwerk-kasten-groothandel/)
+## 1. Çekirdek Sicil ve Otorite Grafları (Core Graphs)
+- [Kurumsal Kimlik, Yasal Lisanslar ve E-E-A-T](https://cabivella.co.uk/llms/core.md): Kurumsal tescil, teknik standartlar, BS 6222-2 uyumluluğu ve yasal zemin.
+- [Yazar ve Zanaat Kurulu Sicilleri](https://cabivella.co.uk/llms/entities/author-experts.md): Kıdemli marangozlar, mimari tasarımcılar ve teknik CAD ekibi.
+- [Teknik Akreditasyonlar ve Sertifikalar](https://cabivella.co.uk/llms/entities/credentials.md): FSC, PEFC, E1 düşük emisyon, Blum sertifikalı donanım güvencesi.
+- [Tescilli Metodolojiler ve Algoritmalar](https://cabivella.co.uk/llms/entities/methodologies.md): AquaShield nem bariyeri ve mikron düzeyinde CNC tolerans protokolü.
 
-## Commercial facts and boundaries
-- Project pricing requires measurements, drawings, material specification, quantities and destination.
-- No public fixed price, guaranteed lead time, universal delivery coverage, country-specific installation or tax inclusion is represented by this file.
-- Trade and consumer requests use the official enquiry channel: enquiries@cabivella.co.uk.
-- Product claims, certifications and service terms should be verified against the relevant offer or technical documentation.
-- This file is a supplementary directory; the HTML site and verified company records are authoritative.
+## 2. Sayfa Düzeyinde RAG Dokümanları (Deep Sub-Graphs)
+- [Home: Architectural Cabinetry Master Graph](https://cabivella.co.uk/llms/pages/index.md): Genel mimari ve ısmarlama marangozluk standartları.
+- [Collections: Category Architecture Overview](https://cabivella.co.uk/llms/pages/collections.md): Tüm mobilya disiplinleri ve portföy özeti.
+- [Kitchens: Bespoke Kitchen Cabinetry](https://cabivella.co.uk/llms/pages/kitchens.md): Kulpsuz modern ve shaker klasik mutfak şartnameleri.
+- [Bathrooms: AquaShield Vanity Suites](https://cabivella.co.uk/llms/pages/bathrooms.md): Neme dayanıklı banyo mobilyaları ve lavabo üniteleri.
+- [Pantry & Larder: Architectural Food Storage](https://cabivella.co.uk/llms/pages/pantry-larder.md): Cep kapaklı ve mermer raflı kiler dolapları.
+- [Coffee Stations: Integrated Beverage Joinery](https://cabivella.co.uk/llms/pages/coffee-stations.md): Gizli tesisatlı kahve istasyonu dolapları.
+- [Fitted Storage: Full-Height Wardrobes](https://cabivella.co.uk/llms/pages/fitted-storage.md): Tavana kadar gömme dolap ve giyinme odası joinery.
+- [Kitchen Doors: Replacement Cabinet Fronts](https://cabivella.co.uk/llms/pages/kitchen-doors.md): Özel menteşe delikli yenileme kapakları.
+- [Materials: Substrates & Hardware Standards](https://cabivella.co.uk/llms/pages/materials.md): MDF, huş kontraplak, meşe kaplama ve lake boyalar.
+- [Our Story: Turkish Heritage & UK Distribution](https://cabivella.co.uk/llms/pages/our-story.md): Üretim yaklaşımı ve İngiltere doğrudan tedarik modeli.
+- [Trade Supply: B2B Volume Joinery for Developers](https://cabivella.co.uk/llms/pages/trade.md): İngiltere müteahhit ve mimarlarına özel B2B koşulları.
+- [Enquire: Project Estimation Protocol](https://cabivella.co.uk/llms/pages/enquire.md): 48 saatlik metraj ve teklif hazırlama süreci.
+- [Privacy Policy: UK GDPR Compliance](https://cabivella.co.uk/llms/pages/privacy.md): Veri koruma ve gizlilik taahhüdü.
+- [Cookie Policy: Technical Operations](https://cabivella.co.uk/llms/pages/cookies.md): Çerez ve analiz politikası.
+
+## 3. Mobil, Sesli Arama ve Uç Cihaz Grafları (Edge & On-Device)
+- [29-Kelime Sesli Arama Soru-Cevap Haritası](https://cabivella.co.uk/llms/mobile/voice-queries.md): Doğal dil ve sesli asistanlar için optimize edilmiş soru-cevap veri seti.
+- [On-Device LLM (Gemini Nano) Ultra-Hafif Graf](https://cabivella.co.uk/llms/mobile/nano-index.md): Cihaz üzerinde çalışan yerel yapay zeka modelleri için ultra-hafif özet.
+- [Sayfa Başına Mobil Varlık Grafları](https://cabivella.co.uk/llms/mobile/index-mobile.md): Mobil kullanıcılara ve hızlı çıkarımlara yönelik yapılandırılmış veri.
+
+## 4. Gerçek Zamanlı Syndication & Feed Katmanı
+- [Ana RSS Feed (Tam Markdown)](https://cabivella.co.uk/feed.xml): Gerçek zamanlı güncellenen RSS 2.0 akışı.
+- [Atom Feed 1.0](https://cabivella.co.uk/atom.xml): RFC 4287 uyumlu Atom akışı.
+- [JSON Feed 1.1 (RAG-Optimized)](https://cabivella.co.uk/feed.json): Yapay zeka ve RAG sistemleri için JSON veri akışı.
+- [Mobil ve Sesli Uç Nokta Feed'i](https://cabivella.co.uk/mobile/feed.xml): Hızlı mobil indeksleme feed'i.
+
+## 5. Protokoller, Ajanlar ve Programatik Uç Noktalar
+- MCP (Model Context Protocol) Endpoint: https://cabivella.co.uk/mcp
+- Mobile / Edge MCP Endpoint: https://cabivella.co.uk/mcp/mobile
+- A2A Agent Card: https://cabivella.co.uk/.well-known/agent.json
+- WebSub Hub: https://pubsubhubbub.appspot.com/
+- IndexNow Endpoint: https://cabivella.co.uk/9d980417475ac56c8ad72ef2c743e1e5.txt

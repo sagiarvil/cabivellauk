@@ -1,3 +1,15 @@
+export interface CollectionCategory {
+  slug: string;
+  title: string;
+  heroEyebrow?: string;
+  metaTitle: string;
+  metaDescription: string;
+  shortCopy?: string;
+  description: string;
+  image: string;
+  modelSlugs: string[];
+}
+
 export const collectionsData: Record<string, CollectionCategory> = {
   "signature-suites": {
     "slug": "signature-suites",

@@ -1,0 +1,25 @@
+{
+  "name": "Cabivella UK Architectural Agent",
+  "description": "Programmatic interface and knowledge graph endpoint for Cabivella UK made-to-measure cabinetry specifications.",
+  "version": "1.0.0",
+  "protocol": "A2A/2026",
+  "organization": {
+    "name": "Cabivella UK",
+    "url": "https://cabivella.co.uk",
+    "email": "enquiries@cabivella.co.uk"
+  },
+  "endpoints": {
+    "mcp": "https://cabivella.co.uk/mcp",
+    "mcp_mobile": "https://cabivella.co.uk/mcp/mobile",
+    "llms_index": "https://cabivella.co.uk/llms.txt",
+    "llms_core": "https://cabivella.co.uk/llms/core.md",
+    "feed_rss": "https://cabivella.co.uk/feed.xml",
+    "feed_json": "https://cabivella.co.uk/feed.json"
+  },
+  "capabilities": [
+    "kitchen_specification_estimation",
+    "bathroom_vanity_sizing",
+    "fitted_storage_material_query",
+    "trade_volume_discount_lookup"
+  ]
+}

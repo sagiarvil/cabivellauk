@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "uk.co.cabivella.app",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:44:C5:7D:57:19:CE:F8:F6:46:75:E6:F2:F2:66:E2:03:7E:8C:EA:9E:2D:36:C1:CE:A7:28:C0:D3:CD"
+      ]
+    }
+  }
+]

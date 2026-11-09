@@ -357,7 +357,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
     const email = (document.getElementById('enquiry-email') as HTMLInputElement)?.value || '';
     const phone = (document.getElementById('enquiry-phone') as HTMLInputElement)?.value || '';
     const postcode = (document.getElementById('enquiry-postcode') as HTMLInputElement)?.value || '';
-    const collection = (document.getElementById('enquiry-collection') as HTMLSelectElement)?.value || '';
+    const collection = (document.getElementById('enquiry-collection') as unknown as HTMLSelectElement)?.value || '';
     const dimensions = (document.getElementById('enquiry-dimensions') as HTMLInputElement)?.value || '';
     const notes = (document.getElementById('enquiry-message') as HTMLTextAreaElement)?.value || '';
 
@@ -402,7 +402,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
         const contentType = response.headers.get('content-type') || '';
 
         if (response.ok && contentType.includes('application/json')) {
-          const result = await response.json();
+          const result = (await response.json()) as any;
           feedback.className = 'form-feedback is-success';
           feedback.innerHTML = `<strong>Thank you.</strong> Project enquiry reference: <span class="lead-id-badge">${leadId}</span>. ${result.message || 'Your project details have been received.'}`;
           feedback.hidden = false;
@@ -423,7 +423,7 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
                 <span>📱 Dispatch via WhatsApp (${leadId})</span>
               </a>
               <a href="mailto:enquiries@cabivella.co.uk?subject=${emailSubject}&body=${emailBody}" style="background: #1b261d; color: #fff; padding: 10px 18px; border-radius: 4px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
-                <span>✉ Dispatch via Email (${siteConfig.email})</span>
+                <span>✉ Dispatch via Email (enquiries@cabivella.co.uk)</span>
               </a>
             </div>
           `;

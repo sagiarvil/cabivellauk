@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID1234.uk.co.cabivella.app",
+        "paths": ["/collections/*", "/enquire/*", "/trade/*"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["TEAMID1234.uk.co.cabivella.app"]
+  }
+}

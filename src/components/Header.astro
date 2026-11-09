@@ -550,14 +550,14 @@ const isActive = (href: string) => {
     const header = document.querySelector('#cabivella-header');
     if (!header) return;
 
-    const menuBtn = header.querySelector('.cb-mobile-toggle');
-    const mobile = header.querySelector('#cb-mobile-panel');
-    const searchBtn = header.querySelector('.cb-search');
-    const search = header.querySelector('#cb-search-panel');
-    const ddBtn = header.querySelector('.cb-nav-trigger');
-    const ddGroup = header.querySelector('.cb-nav-group');
+    const menuBtn = header.querySelector<HTMLElement>('.cb-mobile-toggle');
+    const mobile = header.querySelector<HTMLElement>('#cb-mobile-panel');
+    const searchBtn = header.querySelector<HTMLElement>('.cb-search');
+    const search = header.querySelector<HTMLElement>('#cb-search-panel');
+    const ddBtn = header.querySelector<HTMLElement>('.cb-nav-trigger');
+    const ddGroup = header.querySelector<HTMLElement>('.cb-nav-group');
 
-    function toggle(btn, panel, open) {
+    function toggle(btn: HTMLElement | null, panel: HTMLElement | null, open: boolean) {
       if (!btn || !panel) return;
       btn.setAttribute('aria-expanded', String(open));
       panel.hidden = !open;

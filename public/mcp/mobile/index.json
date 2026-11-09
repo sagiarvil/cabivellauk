@@ -1,0 +1,22 @@
+{
+  "jsonrpc": "2.0",
+  "name": "Cabivella UK Mobile & Nano MCP Bridge",
+  "version": "1.0.0",
+  "protocolVersion": "2024-11-05",
+  "capabilities": {
+    "tools": {
+      "listTools": [
+        {
+          "name": "get_nano_specs",
+          "description": "Fetch lightweight under-1500 token cabinetry summary for Gemini Nano and Apple Intelligence",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "query_topic": { "type": "string" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

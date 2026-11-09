@@ -70,14 +70,16 @@ const { images, title } = Astro.props;
 
     // Update loupe background on thumbnail click
     function updateMainImage(src: string) {
-      if (mainImg) {
+      if (mainImg && loupe) {
         mainImg.src = src;
         loupe.style.backgroundImage = `url('${src}')`;
       }
     }
 
     // Initialize loupe background
-    loupe.style.backgroundImage = `url('${mainImg.currentSrc || mainImg.src}')`;
+    if (loupe && mainImg) {
+      loupe.style.backgroundImage = `url('${mainImg.currentSrc || mainImg.src}')`;
+    }
 
     thumbs.forEach(thumb => {
       thumb.addEventListener('click', () => {

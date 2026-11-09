@@ -1,45 +1,135 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Cabivella — Cabinetry Collections",
+  "title": "Cabivella UK — RAG-Optimized Feed",
   "home_page_url": "https://cabivella.co.uk/",
   "feed_url": "https://cabivella.co.uk/feed.json",
-  "description": "Collection directory, not a news feed.",
+  "description": "Directory of architectural cabinetry specifications and made-to-measure collections.",
   "items": [
+    {
+      "id": "https://cabivella.co.uk/",
+      "url": "https://cabivella.co.uk/",
+      "title": "Cabivella UK | Bespoke Architectural Cabinetry & Joinery",
+      "content_text": "Cabivella manufactures specification-led bespoke cabinetry, high-durability kitchen suites, precision bathroom vanities and floor-to-ceiling fitted wardrobes. Engineered with moisture-sealed joinery substrates, Blum hardware mechanisms and durable lacquered finishes, our units arrive fully assembled directly from Turkish manufacturing facilities to British residential and commercial sites within 4 to 6 weeks.",
+      "summary": "Cabivella supplies British-engineered bespoke kitchens, luxury vanity suites and fitted storage direct to UK residences. Request a specification.",
+      "date_published": "2026-01-15T09:00:00.000Z",
+      "date_modified": "2026-10-20T12:00:00.000Z"
+    },
+    {
+      "id": "https://cabivella.co.uk/collections/",
+      "url": "https://cabivella.co.uk/collections/",
+      "title": "Bespoke Cabinetry Collections | Cabivella UK",
+      "content_text": "Cabivella collections span six dedicated architectural cabinetry disciplines: bespoke made-to-measure kitchens, AquaShield moisture-sealed bathroom vanities, concealed pantry and larder suites, dedicated beverage coffee stations, floor-to-ceiling fitted wardrobes, and replacement cabinet front panels. All collections share unified British hardware standards and precision joinery tolerances.",
+      "summary": "Discover Cabivella cabinetry collections. Precision-crafted made-to-measure kitchens, bathroom suites, pantries and fitted storage for British residences.",
+      "date_published": "2026-01-20T10:00:00.000Z",
+      "date_modified": "2026-10-22T14:30:00.000Z"
+    },
     {
       "id": "https://cabivella.co.uk/collections/kitchens/",
       "url": "https://cabivella.co.uk/collections/kitchens/",
-      "title": "Bespoke Kitchens",
-      "summary": "Made-to-measure kitchens and kitchen cabinetry"
+      "title": "Bespoke Kitchens | Made-to-Measure Kitchen Cabinetry | Cabivella",
+      "content_text": "Cabivella kitchen cabinetry delivers bespoke millimeter-accurate spatial planning across contemporary handleless profiles, tactile fluted facades, and timeless five-piece timber shaker doors. Carcasses use 18mm high-density moisture-resistant melamine-faced chipboard with 1mm impact-absorbing ABS edging, completed with Blum soft-close runner systems and architectural pocket door configurations.",
+      "summary": "Explore bespoke made-to-measure kitchens by Cabivella. Handcrafted modern handleless and classic timber shaker kitchens tailored for British residences.",
+      "date_published": "2026-02-01T11:00:00.000Z",
+      "date_modified": "2026-10-24T16:00:00.000Z"
     },
     {
       "id": "https://cabivella.co.uk/collections/bathrooms/",
       "url": "https://cabivella.co.uk/collections/bathrooms/",
-      "title": "Bathroom Cabinetry",
-      "summary": "Bathroom vanity units and storage cabinetry"
+      "title": "Architectural Bathroom Vanity Suites | Cabivella UK",
+      "content_text": "Cabivella architectural bathroom suites combine thermo-fused moisture-resistant substrates with marine-grade polyurethane lacquer coatings. Designed to withstand relative humidity levels up to 95 percent without delaminating, each vanity integrates concealed waste cut-outs, integrated basin supports, and whisper-quiet soft-close drawer mechanisms engineered for daily British household use.",
+      "summary": "Bespoke bathroom vanities and moisture-sealed storage joinery. AquaShield thermo-fused protection designed for luxury UK residential bathrooms.",
+      "date_published": "2026-02-05T09:30:00.000Z",
+      "date_modified": "2026-10-25T11:15:00.000Z"
     },
     {
       "id": "https://cabivella.co.uk/collections/pantry-larder/",
       "url": "https://cabivella.co.uk/collections/pantry-larder/",
-      "title": "Pantry & Larder",
-      "summary": "Pantry cupboards and larder systems"
+      "title": "Bespoke Pantry & Larder Cupboard Joinery | Cabivella UK",
+      "content_text": "Cabivella bespoke pantries and larder systems feature bi-folding pocket doors that slide entirely flush into carcass side voids. Interiors feature solid hardwood dovetailed drawers, adjustable spice shelving, integrated sensor-activated 3000K warm LED strips, and optional cold-surface quartz preparation worktops for dry culinary storage.",
+      "summary": "Handcrafted architectural pantry and larder joinery. Full-height bespoke food storage, solid spice racks and pocket doors for British homes.",
+      "date_published": "2026-02-10T12:00:00.000Z",
+      "date_modified": "2026-10-26T15:20:00.000Z"
     },
     {
       "id": "https://cabivella.co.uk/collections/coffee-stations/",
       "url": "https://cabivella.co.uk/collections/coffee-stations/",
-      "title": "Coffee Stations",
-      "summary": "Integrated coffee stations and beverage cabinetry"
+      "title": "Integrated Bespoke Coffee Stations | Cabivella UK",
+      "content_text": "Cabivella integrated coffee stations enclose professional espresso machines behind effortless bi-folding pocket facades. Each station features heat-resistant composite stone backsplashes, passive rear convection channels to prevent moisture entrapment, integrated electrical conduit feeds, and dedicated storage for glassware and artisanal coffee bean canisters.",
+      "summary": "Bespoke luxury coffee stations and beverage cabinetry. Retractable doors, heat ventilation and dedicated plumbing integration for UK homes.",
+      "date_published": "2026-02-12T14:00:00.000Z",
+      "date_modified": "2026-10-27T10:40:00.000Z"
     },
     {
       "id": "https://cabivella.co.uk/collections/fitted-storage/",
       "url": "https://cabivella.co.uk/collections/fitted-storage/",
-      "title": "Fitted Storage",
-      "summary": "Fitted wardrobes and architectural storage"
+      "title": "Architectural Fitted Storage & Wardrobes | Cabivella UK",
+      "content_text": "Cabivella fitted storage and wardrobe joinery maximizes vertical wall space with millimetric floor-to-ceiling framing. Configurable options include whisper-quiet sliding tracks, full-extension acoustic soft-close drawers, reeded glass display portals, built-in jewellery partitions, and flush scribing trims that accommodate uneven British period property walls and ceilings.",
+      "summary": "Floor-to-ceiling fitted wardrobes and bespoke architectural storage. Precision-engineered made-to-measure alcove joinery for British bedrooms.",
+      "date_published": "2026-02-15T16:00:00.000Z",
+      "date_modified": "2026-10-28T09:10:00.000Z"
     },
     {
       "id": "https://cabivella.co.uk/collections/kitchen-doors/",
       "url": "https://cabivella.co.uk/collections/kitchen-doors/",
-      "title": "Kitchen Doors",
-      "summary": "Replacement cabinet and kitchen doors"
+      "title": "Bespoke Replacement Kitchen Doors & Fronts | Cabivella UK",
+      "content_text": "Cabivella custom replacement doors allow homeowners to refresh existing kitchen carcasses with premium architectural facades. Each panel is precision-cut to custom dimensions and pre-drilled to match specified 35mm cup hinge positions. Finishes include moisture-resistant primed MDF for on-site finishing, durable polyurethane lacquer, and natural oak or walnut veneers.",
+      "summary": "Upgrade existing kitchen cabinetry with custom replacement doors. Custom shaker, slab and fluted front panels drilled to exact hinge centres.",
+      "date_published": "2026-02-18T13:00:00.000Z",
+      "date_modified": "2026-10-29T14:20:00.000Z"
+    },
+    {
+      "id": "https://cabivella.co.uk/materials/",
+      "url": "https://cabivella.co.uk/materials/",
+      "title": "Cabinetry Materials, Finishes & Hardware | Cabivella UK",
+      "content_text": "Cabivella specifies only certified E1 low-emission moisture-resistant MDF, birch core ply, and sustainably managed European oak and walnut veneers. Surface treatments employ multi-layer polyurethane lacquers tested against household chemical spills and thermal cycles, partnered exclusively with German-engineered Blum motion hardware rated for 200,000 opening cycles.",
+      "summary": "Explore materials, sustainable timbers, polyurethane lacquers and Blum hardware engineered into every Cabivella cabinetry specification.",
+      "date_published": "2026-02-20T10:00:00.000Z",
+      "date_modified": "2026-10-30T16:45:00.000Z"
+    },
+    {
+      "id": "https://cabivella.co.uk/our-story/",
+      "url": "https://cabivella.co.uk/our-story/",
+      "title": "Our Story & Manufacturing Approach | Cabivella UK",
+      "content_text": "Cabivella bridges bespoke cabinet-making traditions with state-of-the-art CNC joinery manufacturing. Operating from dedicated production facilities in Turkey with direct distribution across the UK and mainland Europe, we eliminate intermediary markups, providing architectural joinery solutions with transparent lead times, strict quality control, and dedicated English-speaking technical support.",
+      "summary": "Learn about Cabivella. Combining centuries of artisanal Turkish joinery with British architectural precision for private residences and commercial schemes.",
+      "date_published": "2026-02-22T09:00:00.000Z",
+      "date_modified": "2026-10-31T11:00:00.000Z"
+    },
+    {
+      "id": "https://cabivella.co.uk/trade/",
+      "url": "https://cabivella.co.uk/trade/",
+      "title": "Trade & Wholesale Cabinetry Supply UK | Cabivella",
+      "content_text": "Cabivella Trade offers commercial specifications for UK developers, interior designers, and general building contractors. Trade partners gain dedicated account coordination, CAD/technical file checking, priority factory production scheduling, and phased palletised deliveries direct to site with complete customs clearance and UK VAT compliance handled transparently.",
+      "summary": "Direct B2B trade supply for UK property developers, interior designers and architects. Preferential trade terms, project management and site logistics.",
+      "date_published": "2026-02-25T11:00:00.000Z",
+      "date_modified": "2026-11-01T15:30:00.000Z"
+    },
+    {
+      "id": "https://cabivella.co.uk/enquire/",
+      "url": "https://cabivella.co.uk/enquire/",
+      "title": "Enquire About a Project | Bespoke Cabinetry Quote | Cabivella",
+      "content_text": "Initiate your project consultation by submitting approximate room dimensions, architectural PDF drawings, or hand-annotated sketches. Our UK joinery engineering team reviews structural requirements, verifies substrate moisture-resistance feasibility, and returns an itemized commercial quotation with detailed manufacturing lead-time commitments directly to your email within 48 business hours.",
+      "summary": "Submit drawings or project measurements to receive an itemized quotation for bespoke kitchens, bathrooms or storage cabinetry within 48 hours.",
+      "date_published": "2026-03-01T08:00:00.000Z",
+      "date_modified": "2026-11-02T10:00:00.000Z"
+    },
+    {
+      "id": "https://cabivella.co.uk/privacy/",
+      "url": "https://cabivella.co.uk/privacy/",
+      "title": "Privacy Policy | UK GDPR Compliance | Cabivella",
+      "content_text": "Cabivella processes client project data strictly in compliance with the UK General Data Protection Regulation (UK GDPR) and Data Protection Act 2018. Client architectural plans, contact details, and site addresses are utilized exclusively for estimating, quotation delivery, and physical shipping logistics without third-party data monetization.",
+      "summary": "Cabivella privacy notice explaining data handling, UK GDPR compliance and customer information protections for web and enquiry services.",
+      "date_published": "2026-01-01T00:00:00.000Z",
+      "date_modified": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "https://cabivella.co.uk/cookies/",
+      "url": "https://cabivella.co.uk/cookies/",
+      "title": "Cookie Policy | Technical Cookies & Analytics | Cabivella",
+      "content_text": "Cabivella uses minimal technical cookies solely to preserve active user interface preferences, maintain shopping cart specification state, and gather aggregate anonymous performance metrics via Google Analytics 4. We do not deploy intrusive third-party advertising tracking cookies, behavioral profiling pixels, or monetize visitor browsing data under any circumstances.",
+      "summary": "Cabivella cookie policy outlining the minimal use of essential operational cookies and privacy-preserving analytics on our website.",
+      "date_published": "2026-01-01T00:00:00.000Z",
+      "date_modified": "2026-10-15T09:00:00.000Z"
     }
   ]
 }

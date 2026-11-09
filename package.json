@@ -6,13 +6,19 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npm run feeds:generate && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",
     "test": "playwright test",
     "audit:seo": "node scripts/audit-seo.mjs",
-    "audit:assets": "node scripts/audit-assets.mjs"
+    "audit:assets": "node scripts/audit-assets.mjs",
+    "feeds:generate": "tsx scripts/generate-feeds.ts",
+    "gate:seo": "tsx scripts/seo-ci-gate.ts",
+    "gate:mobile": "tsx scripts/mobile-ci-gate.ts",
+    "gate:humanizer": "python3 scripts/humanizer_engine.py public/llms.txt && python3 scripts/humanizer_engine.py public/llms/",
+    "gate:all": "npm run gate:seo && npm run gate:mobile && npm run gate:humanizer",
+    "push:instant": "node scripts/notify-instant-push.js"
   },
   "dependencies": {
     "@sanity/client": "^6.28.3",
@@ -22,7 +28,10 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@axe-core/playwright": "^4.10.1",
+    "@cloudflare/workers-types": "^5.20261109.1",
     "@playwright/test": "^1.50.1",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
     "typescript": "^5.7.3"
   }
 }

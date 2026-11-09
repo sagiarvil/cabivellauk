@@ -1,0 +1,141 @@
+---
+interface NetworkNode {
+  readonly name: string;
+  readonly url: string;
+  readonly category: string;
+}
+
+const networkNodes: NetworkNode[] = [
+  { name: 'Dr. Fin', url: 'https://drfin.com.tr', category: 'Financial Decision OS' },
+  { name: 'ExcelArşiv', url: 'https://excelarsiv.com', category: 'Enterprise Analytics' },
+  { name: 'SKDM Hesapla', url: 'https://skdmhesapla.com', category: 'CBAM Carbon Intelligence' },
+  { name: 'Karbon Fiyat', url: 'https://karbonfiyat.com', category: 'Emissions Trading' },
+  { name: 'Inversion Core', url: 'https://inversioncore.com', category: 'Algorithmic Systems' },
+  { name: 'Belgin Kuyumculuk', url: 'https://belginkuyumculuk.com', category: 'Precious Metals' },
+  { name: 'Saatchi', url: 'https://saatchi.com.tr', category: 'Enterprise Design' },
+  { name: 'Dilekçe Yazdır', url: 'https://dilekceyazdir.com.tr', category: 'Legal Technologies' },
+  { name: 'HTML & HTML', url: 'https://htmlandhtml.com', category: 'Semantic Web' },
+  { name: 'Değerlet', url: 'https://degerlet.com', category: 'Financial Valuation' }
+];
+---
+
+<div class="ecosystem-authority-hub" aria-label="Enterprise Ecosystem Network">
+  <div class="ecosystem-inner">
+    <div class="ecosystem-header">
+      <span class="ecosystem-badge">CROSS-SECTOR AUTHORITY NETWORK</span>
+      <p class="ecosystem-intro">
+        Part of the verified multi-platform enterprise ecosystem powering analytical modeling, ESG compliance, and architectural engineering.
+      </p>
+    </div>
+    <div class="ecosystem-grid">
+      {networkNodes.map((node) => (
+        <a 
+          href={node.url} 
+          target="_blank" 
+          rel="noopener" 
+          class="ecosystem-node"
+          title={`${node.name} — ${node.category}`}
+        >
+          <span class="node-name">{node.name}</span>
+          <span class="node-category">{node.category}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .ecosystem-authority-hub {
+    border-top: 1px solid rgba(222, 196, 165, 0.15);
+    background: rgba(14, 20, 18, 0.6);
+    padding: 32px 0 24px 0;
+    margin-top: 40px;
+    font-family: var(--body, -apple-system, sans-serif);
+  }
+
+  .ecosystem-inner {
+    width: min(1360px, calc(100% - 60px));
+    margin: 0 auto;
+  }
+
+  .ecosystem-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .ecosystem-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #dec4a5;
+    background: rgba(222, 196, 165, 0.1);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(222, 196, 165, 0.2);
+  }
+
+  .ecosystem-intro {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #8c9e93;
+    margin: 0;
+    max-width: 800px;
+  }
+
+  .ecosystem-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+  }
+
+  .ecosystem-node {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .ecosystem-node:hover {
+    background: rgba(222, 196, 165, 0.06);
+    border-color: rgba(222, 196, 165, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .node-name {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #d3ddd6;
+    letter-spacing: 0.02em;
+  }
+
+  .node-category {
+    font-size: 10px;
+    color: #7d8f84;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  @media (max-width: 768px) {
+    .ecosystem-authority-hub {
+      padding: 24px 0 16px 0;
+      margin-top: 30px;
+    }
+    .ecosystem-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    .ecosystem-node {
+      padding: 6px 10px;
+    }
+  }
+</style>

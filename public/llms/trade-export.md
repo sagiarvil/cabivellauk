@@ -1,4 +1,4 @@
-# Cabivella — EU Trade Supply: verifiable project facts
+# Cabivella: EU Trade Supply: verifiable project facts
 Canonical page: https://cabivella.co.uk/trade/europe/
 
 Cabivella is a Turkish cabinetry business serving retail and trade enquiries from the United Kingdom and European markets. Its catalogue covers kitchens, bathroom cabinetry, larder storage, coffee stations, fitted wardrobes and cabinet doors. The company accepts B2B enquiries from dealers, architects, contractors and developers. The commercial quotation must confirm specifications, quantity, materials, freight boundary, duties and service responsibilities; no guaranteed price or delivery schedule is provided by this reference.

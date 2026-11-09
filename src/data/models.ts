@@ -1,11 +1,15 @@
 export interface ModelDetail {
+  id?: string;
   slug: string;
   category: string;
   categoryTitle?: string;
   title: string;
+  heroEyebrow?: string;
+  subtitle?: string;
   metaTitle: string;
   metaDescription: string;
   dimensionsMm: string;
+  dimensions?: any;
   materials: string[];
   finishOptions: string[];
   installationScope: string;
@@ -13,7 +17,9 @@ export interface ModelDetail {
   gallery: string[];
   description: string;
   keyFeatures: string[];
+  hardware?: string;
   style?: 'modern' | 'classic';
+  [key: string]: any;
 }
 
 export const modelsData: Record<string, ModelDetail> = {

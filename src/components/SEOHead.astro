@@ -1,25 +1,40 @@
 ---
 import { buildMetaTags, type SEOProps } from '../lib/seo';
 import { getOrganizationSchema, getWebSiteSchema } from '../lib/structured-data';
+import { getPageRecord } from '../seo/registry';
+import { buildCompleteJsonLdGraph } from '../seo/schema-builder';
+import { buildHreflangTags } from '../seo/hreflang-builder';
 
 export interface Props extends SEOProps {
   structuredData?: Record<string, any> | Array<Record<string, any>>;
 }
 
 const { title, description, canonicalPath, image, type = 'website', noindex = false, structuredData } = Astro.props;
-const meta = buildMetaTags({ title, description, canonicalPath, image, type, noindex });
+const currentPath = canonicalPath || Astro.url.pathname;
+const meta = buildMetaTags({ title, description, canonicalPath: currentPath, image, type, noindex });
 
-const orgSchema = getOrganizationSchema();
-const siteSchema = getWebSiteSchema();
-const schemas = [orgSchema, siteSchema];
+// Check SSOT registry for full 14KB graph
+const pageRecord = getPageRecord(currentPath);
+let graphJsonLd = '';
 
-if (structuredData) {
-  if (Array.isArray(structuredData)) {
-    schemas.push(...structuredData);
-  } else {
-    schemas.push(structuredData);
+if (pageRecord) {
+  graphJsonLd = buildCompleteJsonLdGraph(pageRecord, 'cabivella.co.uk');
+} else {
+  const orgSchema = getOrganizationSchema();
+  const siteSchema = getWebSiteSchema();
+  const fallbackSchemas: Record<string, any>[] = [orgSchema, siteSchema];
+  if (structuredData) {
+    if (Array.isArray(structuredData)) {
+      fallbackSchemas.push(...structuredData);
+    } else {
+      fallbackSchemas.push(structuredData);
+    }
   }
+  graphJsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': fallbackSchemas });
 }
+
+// Generate canonical hreflang tags
+const hreflangs = buildHreflangTags(currentPath);
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SBX47RYV5J"></script>
@@ -27,19 +42,25 @@ if (structuredData) {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-SBX47RYV5J');
 </script>
 
-
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="colour-scheme" content="light" />
-<meta name="theme-colour" content="#f8f6f1" />
+<!-- Mobile-First Mandate v9.2 Viewport & Device Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, minimum-scale=1, maximum-scale=5" />
+<meta name="color-scheme" content="light" />
+<meta name="theme-color" content="#182320" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 <title>{meta.title}</title>
 <meta name="description" content={meta.description} />
 <link rel="canonical" href={meta.canonicalUrl} />
+
+<!-- Bi-Directional Hreflang Canonical Annotations -->
+{hreflangs.map((h) => (
+  <link rel="alternate" hreflang={h.lang} href={h.url} />
+))}
 
 {meta.noindex ? (
   <meta name="robots" content="noindex,nofollow" />
@@ -47,16 +68,15 @@ if (structuredData) {
   <meta name="robots" content="index,follow,max-image-preview:large" />
 )}
 
-<!-- Preconnect & Heading Typography (Matching user visual: Plus Jakarta Sans) -->
+<!-- Preconnect & Typography -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<!-- Atölye Locus 100% Typography Standard (Roboto & Inter) -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-<!-- Open Graph / Facebook -->
+<!-- Open Graph / Social -->
 <meta property="og:type" content={meta.type} />
 <meta property="og:locale" content={meta.locale} />
-<meta property="og:site_name" content={meta.siteName} />
+<meta property="og:site_name" content="Cabivella UK" />
 <meta property="og:title" content={meta.title} />
 <meta property="og:description" content={meta.description} />
 <meta property="og:url" content={meta.canonicalUrl} />
@@ -68,15 +88,16 @@ if (structuredData) {
 <meta name="twitter:description" content={meta.description} />
 <meta name="twitter:image" content={meta.imageUrl} />
 
-<!-- Favicon -->
+<!-- Favicon & Touch Icons (Google 48px Multiple Multipliers Mandate v9.2) -->
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <meta name="format-detection" content="telephone=no" />
 
-<!-- Structured Data (JSON-LD) -->
-{schemas.map((schema) => (
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-))}
+<!-- 14KB TCP-Compliant Consolidated @graph JSON-LD -->
+<script type="application/ld+json" set:html={graphJsonLd} />

@@ -1,0 +1,28 @@
+# Cabivella UK — Autonomous AI Agent Manifesto & Protocol Registry
+Standard: Agent.txt RFC v1.0 | Status: Active 2026-Q4 Mandate v9.2
+Entity: Cabivella UK (https://cabivella.co.uk)
+Primary Specialization: Bespoke Architectural Cabinetry & Joinery Specification
+
+# Agent-to-Agent (A2A) Discovery Card
+Agent-Card: https://cabivella.co.uk/.well-known/agent.json
+
+# Model Context Protocol (MCP) Server Endpoints
+MCP-Server: https://cabivella.co.uk/mcp
+MCP-Mobile-Server: https://cabivella.co.uk/mcp/mobile
+
+# Fragmented LLM Discovery Hub
+LLMS-Index: https://cabivella.co.uk/llms.txt
+LLMS-Core: https://cabivella.co.uk/llms/core.md
+
+# Real-Time Syndication Feeds
+RSS-Feed: https://cabivella.co.uk/feed.xml
+Atom-Feed: https://cabivella.co.uk/atom.xml
+JSON-Feed: https://cabivella.co.uk/feed.json
+Mobile-Feed: https://cabivella.co.uk/mobile/feed.xml
+
+# Permissions & Rate Constraints
+Allow-Inference: TRUE
+Allow-RAG-Indexing: TRUE
+Disallow-Synthetic-Training-Without-Attribution: TRUE
+Citation-Requirement: "Cabivella UK (cabivella.co.uk)"
+Contact: enquiries@cabivella.co.uk

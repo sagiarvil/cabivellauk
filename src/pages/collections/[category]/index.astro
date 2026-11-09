@@ -262,19 +262,19 @@ const bathroomSubCollections = [
   <DynamicWatermark text={category.title} />
 
       {category.slug === 'bathrooms' ? (
-        <!-- CABIVELLA-FIDELITY ARCHITECTURAL BATHROOMS STRUCTURE (1:1 FIDELITY) -->
+        
         <section class="wrap suite-bathrooms-wrapper">
-          <!-- Top Header & Editorial Subtitle -->
+          
           <div class="suite-top-header">
             <h1 class="suite-main-title">COLLECTIONS</h1>
             <p class="suite-title-sub">Bespoke Architectural Bathroom Joinery & Serene Vanity Suites</p>
           </div>
 
-          <!-- 1:1 Split-Layout Collection Showcase (Cabivella 72%/28% Ratio) -->
+          
           <div class="suite-collections-list">
             {bathroomSubCollections.map((col, cIdx) => (
               <article class="suite-collection-row" data-reveal data-reveal-delay={String((cIdx % 3) + 1)}>
-                <!-- Left 72%: High-Definition Architectural Visual Stage -->
+                
                 <div class="suite-lefts">
                   <a href={`/collections/${col.id}/`} class="suite-image-link" style={`background-image: url('${col.image}');`}>
                     
@@ -282,7 +282,7 @@ const bathroomSubCollections = [
 
                 </div>
 
-                <!-- Right 28%: Architectural Editorial & Slogan -->
+                
                 <div class="suite-rights" style={`background-color: ${col.paletteColor}; border-color: ${col.paletteColor};`}>
                   <div class="suite-slogan">
                     <span>{col.slogan}</span>
@@ -302,9 +302,9 @@ const bathroomSubCollections = [
 
         </section>
       ) : category.slug === 'kitchens' ? (
-      <!-- LINEADECOR ARCHITECTURAL KITCHENS STRUCTURE (1:1 FIDELITY) -->
+      
       <section class="wrap linea-kitchens-wrapper">
-        <!-- Centered Header & Category Switcher -->
+        
         <div class="linea-top-header">
           <h1 class="linea-main-title" data-active-title>KITCHENS</h1>
           <p class="linea-title-sub">Bespoke Architectural Cabinetry Engineered for British Living</p>
@@ -325,7 +325,7 @@ const bathroomSubCollections = [
           </div>
         </div>
 
-        <!-- Sub-Toolbar (Filters + Grid Density Toggle) -->
+        
         <div class="linea-sub-toolbar">
           <div class="linea-toolbar-left">
             <button type="button" class="linea-filters-trigger" data-filter-toggle aria-expanded="false">
@@ -350,7 +350,7 @@ const bathroomSubCollections = [
 
           <div class="linea-toolbar-right">
             <div class="linea-density-switcher" role="group" aria-label="Layout view mode">
-              <!-- 3x3 Grid Toggle -->
+              
               <button type="button" class="density-btn" data-grid-density="3" aria-label="3-column grid view" title="Compact 3-column view">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <rect x="3" y="3" width="4" height="4"></rect>
@@ -364,7 +364,7 @@ const bathroomSubCollections = [
                   <rect x="17" y="17" width="4" height="4"></rect>
                 </svg>
               </button>
-              <!-- 2x2 Large View Toggle (Default Active) -->
+              
               <button type="button" class="density-btn active" data-grid-density="2" aria-label="2-column editorial view" title="Large 2-column view">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <rect x="3" y="3" width="7" height="7"></rect>
@@ -377,7 +377,7 @@ const bathroomSubCollections = [
           </div>
         </div>
 
-        <!-- Filter Drawer Panel -->
+        
         <div class="linea-filter-panel" data-filter-drawer aria-hidden="true">
           <div class="filter-panel-inner">
             <div class="filter-panel-col">
@@ -400,7 +400,7 @@ const bathroomSubCollections = [
           </div>
         </div>
 
-        <!-- 2-Column Architectural Grid (Toggleable to 3-Column) -->
+        
         <div class="linea-card-grid density-2" data-kitchen-grid data-reveal-group>
           {categoryModels.map((model, idx) => {
             const shortName = model.title.split(' ')[0];
@@ -412,7 +412,7 @@ const bathroomSubCollections = [
                 data-reveal-delay={String((idx % 2) + 1)}
                 data-kitchen-style={model.style || 'modern'}
               >
-                <!-- Title ABOVE the Image (1:1 with Lineadecor) -->
+                
                 <div class="suite-head-wrap">
                   <h2 class="suite-primary-name">
                     <a href={`/collections/${category.slug}/${model.slug}/`}>{shortName}</a>
@@ -420,7 +420,7 @@ const bathroomSubCollections = [
                   <span class="suite-sub-name">{subTitle}</span>
                 </div>
 
-                <!-- Interactive Image Slider Stage with Circular Glass Arrows -->
+                
                 <div class="suite-photo-stage" data-card-slider>
                   <a href={`/collections/${category.slug}/${model.slug}/`} class="suite-link-wrap" tabindex="-1">
                     <img 
@@ -462,20 +462,20 @@ const bathroomSubCollections = [
                     </>
                   )}
 
-                  <!-- Hidden Data Bucket for Slider JS -->
+                  
                   <div hidden data-gallery-data={JSON.stringify(model.gallery)}></div>
                 </div>
 
-                <!-- Suite Footer Info -->
+                
                 <div class="suite-foot-row">
                   <div class="suite-meta-chips">
                     <span class="chip-cat">{model.style === 'modern' ? 'Modern Suite' : 'Classic Suite'}</span>
-                    <span class="chip-dot">•</span>
+                    <span class="chip-dot">&bull;</span>
                     <span class="chip-mat">Ref: {model.materials[0]?.split(' ')[0] || 'Bespoke'}</span>
                   </div>
                   <a href={`/collections/${category.slug}/${model.slug}/`} class="suite-view-link">
                     <span>View Specifications</span>
-                    <span aria-hidden="true" class="arrow">→</span>
+                    <span aria-hidden="true" class="arrow">&rarr;</span>
                   </a>
                 </div>
               </article>
@@ -484,7 +484,7 @@ const bathroomSubCollections = [
         </div>
       </section>
     ) : (
-      <!-- STANDARD COLLECTION GRID FOR OTHER CATEGORIES -->
+      
       <>
         <section class="wrap models-header-strip" data-reveal>
           <div class="section-divider-bar">
@@ -529,7 +529,7 @@ const bathroomSubCollections = [
                   <div class="card-action-bar">
                     <a href={`/collections/${category.slug}/${model.slug}/`} class="card-detail-btn">
                       <span>View Specifications</span>
-                      <span aria-hidden="true" class="arrow">→</span>
+                      <span aria-hidden="true" class="arrow">&rarr;</span>
                     </a>
                   </div>
                 </div>

@@ -87,7 +87,8 @@ const currentPath = Astro.url.pathname;
 
         // Immediate check: items already within or close to initial screen reveal without waiting
         const initialThreshold = window.innerHeight + 160;
-        reveals.forEach((el) => {
+        reveals.forEach((element) => {
+          const el = element as HTMLElement;
           const rect = el.getBoundingClientRect();
           if (rect.top <= initialThreshold && rect.bottom >= 0) {
             const group = el.closest('[data-reveal-group]');
@@ -107,6 +108,13 @@ const currentPath = Astro.url.pathname;
         document.addEventListener('DOMContentLoaded', initScrollReveal);
       } else {
         initScrollReveal();
+      }
+
+      // Offline-First Service Worker Registration
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
       }
     </script>
   </body>

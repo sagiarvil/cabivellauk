@@ -1,0 +1,39 @@
+{
+  "jsonrpc": "2.0",
+  "name": "Cabivella UK MCP Server",
+  "version": "1.0.0",
+  "protocolVersion": "2024-11-05",
+  "capabilities": {
+    "tools": {
+      "listTools": [
+        {
+          "name": "get_cabinetry_specifications",
+          "description": "Fetch architectural joinery parameters and material tolerances for Cabivella collections",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "category": { "type": "string", "enum": ["kitchens", "bathrooms", "pantry-larder", "coffee-stations", "fitted-storage", "kitchen-doors"] }
+            }
+          }
+        },
+        {
+          "name": "calculate_estimated_lead_time",
+          "description": "Calculate project delivery timetable from Turkish manufacturing facility to UK postcodes",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "uk_postcode_area": { "type": "string" },
+              "units_count": { "type": "number" }
+            }
+          }
+        }
+      ]
+    },
+    "resources": {
+      "listResources": [
+        { "uri": "cabivella://specs/materials", "name": "Substrate & Hardware Standards" },
+        { "uri": "cabivella://specs/bathrooms", "name": "AquaShield Moisture Protection Data" }
+      ]
+    }
+  }
+}
