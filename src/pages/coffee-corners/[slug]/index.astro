@@ -1,0 +1,918 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import EnquiryForm from '../../../components/EnquiryForm.astro';
+import { coffeeCornersModels, type CoffeeCornerModel } from '../../../data/coffee-corners-models';
+import { getBreadcrumbSchema } from '../../../lib/structured-data';
+
+export async function getStaticPaths() {
+  return coffeeCornersModels.map((model, idx) => {
+    const prevModel = coffeeCornersModels[(idx - 1 + coffeeCornersModels.length) % coffeeCornersModels.length];
+    const nextModel = coffeeCornersModels[(idx + 1) % coffeeCornersModels.length];
+    const siblingModels = coffeeCornersModels
+      .filter((m) => m.slug !== model.slug && (m.size === model.size || m.color === model.color))
+      .slice(0, 3);
+    return {
+      params: { slug: model.slug },
+      props: { model, prevModel, nextModel, siblingModels }
+    };
+  });
+}
+
+export interface Props {
+  model: CoffeeCornerModel;
+  prevModel: CoffeeCornerModel;
+  nextModel: CoffeeCornerModel;
+  siblingModels: CoffeeCornerModel[];
+}
+
+const { model, prevModel, nextModel, siblingModels } = Astro.props;
+
+const breadcrumbItems = [
+  { name: 'Coffee Corners', url: '/coffee-corners/' },
+  { name: `${model.name} (${model.dims})`, url: `/coffee-corners/${model.slug}/` }
+];
+
+const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
+
+const modelFaqs = [
+  {
+    q: `What are the exact external dimensions and carcass specifications of the ${model.name} (${model.code}) coffee corner?`,
+    a: `The ${model.name} (${model.code}) measures ${model.widthCm} cm in overall width, ${model.depthCm} cm in external depth, and ${model.heightCm} cm in total height (${model.dims}). Both the structural carcass and fascia fronts are precision-machined from 18 mm Grade-A full MDF—never low-density particleboard—finished in ${model.finish.toLowerCase()}.`
+  },
+  {
+    q: `Does the ${model.name} include integrated LED lighting and sufficient clearance for British domestic espresso machines?`,
+    a: `Yes. ${model.name} is equipped with integrated warm daylight LED task illumination (${model.note}) and is specifically proportioned to house domestic espresso machines, conical burr grinders, pour-over kettles, and glassware within a dedicated British kitchen or dining alcove.`
+  },
+  {
+    q: `How do I add the ${model.name} to my Quote List and send my requirements via WhatsApp?`,
+    a: `Simply click the "Add ${model.name} to Quote List & Enquire" button on this page or complete the UK Specification & WhatsApp Quote Form below. Your selected model (${model.code} · ${model.name}), required quantity, UK delivery postcode, and project description notes will be transmitted directly to our UK WhatsApp specification desk (+44 7898 262110).`
+  }
+];
+
+const structuredData = [
+  breadcrumbSchema,
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    '@id': `https://cabivella.co.uk/coffee-corners/${model.slug}/#product`,
+    name: `Cabivella UK ${model.name} — ${model.subtitle} (${model.dims})`,
+    sku: model.code.replace('–', '-'),
+    mpn: `CAB-${model.code.replace('–', '-')}`,
+    description: `${model.storyLead} ${model.desc}`,
+    image: model.images.map((img) => `https://cabivella.co.uk${img.src}`),
+    brand: {
+      '@type': 'Brand',
+      name: 'Cabivella UK'
+    },
+    material: '18 mm Grade-A Full MDF & Tempered Glass',
+    color: model.color,
+    width: { '@type': 'QuantitativeValue', value: Number(model.widthCm), unitCode: 'CMT' },
+    depth: { '@type': 'QuantitativeValue', value: Number(model.depthCm), unitCode: 'CMT' },
+    height: { '@type': 'QuantitativeValue', value: Number(model.heightCm), unitCode: 'CMT' },
+    offers: {
+      '@type': 'Offer',
+      url: `https://cabivella.co.uk/coffee-corners/${model.slug}/`,
+      priceCurrency: 'GBP',
+      availability: 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
+      seller: {
+        '@type': 'Organization',
+        name: 'Cabivella UK'
+      }
+    }
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `https://cabivella.co.uk/coffee-corners/${model.slug}/#faq`,
+    mainEntity: modelFaqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a
+      }
+    }))
+  }
+];
+
+const metaTitle = `${model.name} (${model.dims}) Bespoke ${model.color} Coffee Corner | Cabivella UK`;
+const metaDescription = `Explore ${model.name} (${model.code}), a ${model.dims} 18mm full-MDF home coffee corner in ${model.color.toLowerCase()} with LED lighting & UK delivery.`;
+---
+
+<SiteLayout
+  title={metaTitle}
+  description={metaDescription}
+  canonicalPath={`/coffee-corners/${model.slug}/`}
+  image={model.primaryImage}
+  structuredData={structuredData}
+>
+  <Breadcrumbs items={breadcrumbItems} />
+
+  <article class="cc-detail-page" id="cc-detail-root" data-model-id={model.cardId} data-model-code={model.code} data-model-name={model.name} data-model-dims={model.dims} data-model-color={model.color} data-model-finish={model.finish}>
+    <div class="wrap">
+      <!-- Top Navigation Bar -->
+      <div class="cc-top-nav">
+        <a href="/coffee-corners/" class="cc-back-link">← Back to All 32 Coffee Corners</a>
+        <div class="cc-prev-next">
+          <a href={`/coffee-corners/${prevModel.slug}/`} title={prevModel.name}>‹ {prevModel.code} {prevModel.name}</a>
+          <span class="cc-divider">|</span>
+          <a href={`/coffee-corners/${nextModel.slug}/`} title={nextModel.name}>{nextModel.code} {nextModel.name} ›</a>
+        </div>
+      </div>
+
+      <!-- Product Hero Grid: Multi-Angle Gallery + Specification & Quick WhatsApp Quote -->
+      <div class="cc-hero-grid">
+        <!-- Left Column: Interactive High-Resolution Multi-Angle Gallery -->
+        <div class="cc-gallery-col">
+          <div class="cc-main-stage" id="cc-main-stage" data-fit={model.images[0]?.fit || 'cover'}>
+            <img
+              id="cc-active-img"
+              src={model.primaryImage}
+              alt={model.images[0]?.alt || model.name}
+              width={model.images[0]?.width || 1100}
+              height={model.images[0]?.height || 1375}
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+            <button type="button" class="cc-stage-nav cc-prev" id="cc-gallery-prev" aria-label="Previous product photograph">‹</button>
+            <button type="button" class="cc-stage-nav cc-next" id="cc-gallery-next" aria-label="Next product photograph">›</button>
+            <span class="cc-photo-counter" id="cc-photo-counter">1 / {model.photoCount} photographs &amp; diagrams</span>
+          </div>
+
+          <div class="cc-thumb-grid" role="region" aria-label={`${model.name} multi-angle photographs and dimension diagrams`}>
+            {model.images.map((img, i) => (
+              <button
+                type="button"
+                class={`cc-thumb-btn ${i === 0 ? 'is-active' : ''}`}
+                data-cc-idx={i}
+                data-cc-src={img.src}
+                data-cc-fit={img.fit}
+                data-cc-alt={img.alt}
+                aria-label={`View ${model.name} angle ${i + 1}`}
+              >
+                <img src={img.src} alt={img.alt} width={img.width} height={img.height} loading={i < 4 ? 'eager' : 'lazy'} decoding="async" />
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <!-- Right Column: Core Specification Summary & Instant Quote List Actions -->
+        <div class="cc-summary-col">
+          <div class="cc-badge-row">
+            <span class="cc-code-pill">{model.code} · {model.size} Series</span>
+            <span class="cc-material-pill">18 mm Grade-A Full MDF</span>
+          </div>
+
+          <h1 class="cc-title">{model.name} — <span>{model.subtitle}</span></h1>
+          <p class="cc-finish-line">{model.finish}</p>
+
+          <p id="hero-answer-engine" class="cc-lead-summary" data-answer-capsule="true">
+            {model.desc}
+          </p>
+
+          <!-- Dimension Trio Cards -->
+          <div class="cc-dims-grid">
+            <div class="cc-dim-box">
+              <small>Overall Width</small>
+              <strong>{model.widthCm} cm</strong>
+            </div>
+            <div class="cc-dim-box">
+              <small>External Depth</small>
+              <strong>{model.depthCm} cm</strong>
+            </div>
+            <div class="cc-dim-box">
+              <small>Total Height</small>
+              <strong>{model.heightCm} cm</strong>
+            </div>
+          </div>
+
+          <div class="cc-tech-note">
+            <strong>Architectural Configuration Note:</strong> {model.note}
+          </div>
+
+          <ul class="cc-feature-tags">
+            {model.badges.map((badge) => (
+              <li>✓ {badge}</li>
+            ))}
+            <li>✓ Direct UK Mainland Crated Delivery</li>
+            <li>✓ European Soft-Close Motion Hardware</li>
+          </ul>
+
+          <!-- Instant Quote List & WhatsApp Actions -->
+          <div class="cc-action-card">
+            <div class="cc-qty-action-row">
+              <div class="cc-qty-box">
+                <label for="cc-detail-qty">Quantity</label>
+                <input id="cc-detail-qty" type="number" min="1" max="100" value="1" />
+              </div>
+              <button type="button" id="cc-add-to-quote-btn" class="cc-btn-primary">
+                <span>Add {model.name} to Quote List ＋</span>
+              </button>
+            </div>
+
+            <button type="button" id="cc-wa-instant-btn" class="cc-btn-whatsapp">
+              <span>Add to List &amp; Send Quote via WhatsApp (+44 7898 262110) ↗</span>
+            </button>
+
+            <p class="cc-action-feedback" id="cc-action-feedback" aria-live="polite">
+              Adding this model syncs automatically with your site-wide Quote List below.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2,300+ CHARACTER BESPOKE BRITISH ENGLISH ARCHITECTURAL STORY & MONOGRAPH -->
+      <section class="cc-story-section" aria-labelledby="cc-story-heading">
+        <div class="cc-story-header">
+          <span class="cc-eyebrow">BESPOKE ARCHITECTURAL MONOGRAPH · {model.code} · {model.name}</span>
+          <h2 id="cc-story-heading">{model.storyTitle}</h2>
+          <p class="cc-story-lead">{model.storyLead}</p>
+        </div>
+
+        <div class="cc-story-body">
+          <div class="cc-story-prose">
+            {model.storyParagraphs.map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
+
+          <aside class="cc-story-sidebar">
+            <div class="cc-highlights-card">
+              <h3>Key Architectural &amp; Barista Highlights</h3>
+              <ul>
+                {model.seoHighlights.map((hl) => (
+                  <li>{hl}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div class="cc-spec-table-card">
+              <h3>Technical Specification Sheet</h3>
+              <dl class="cc-spec-dl">
+                <div><dt>Model Reference</dt><dd>{model.code} · {model.name}</dd></div>
+                <div><dt>Dimensions (W × D × H)</dt><dd>{model.dims}</dd></div>
+                <div><dt>Width Category</dt><dd>{model.size}</dd></div>
+                <div><dt>Carcass &amp; Fascia</dt><dd>18 mm Grade-A Full MDF (Zero Chipboard)</dd></div>
+                <div><dt>Surface Finish</dt><dd>{model.finish}</dd></div>
+                <div><dt>Layout Architecture</dt><dd>{model.layout}</dd></div>
+                <div><dt>Worktop &amp; Lighting</dt><dd>{model.note}</dd></div>
+                <div><dt>Ironmongery</dt><dd>Soft-Close Hinges &amp; Damped Telescopic Runners</dd></div>
+                <div><dt>UK Logistics</dt><dd>Shock-Absorbing Crated Mainland UK Delivery</dd></div>
+              </dl>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Model-Specific British English FAQs -->
+      <section class="cc-faq-section" aria-labelledby="cc-faq-heading">
+        <h2 id="cc-faq-heading">Frequently Asked Questions — {model.name} ({model.dims})</h2>
+        <div class="cc-faq-list">
+          {modelFaqs.map((item) => (
+            <details class="cc-faq-item" open>
+              <summary>{item.q}</summary>
+              <p>{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <!-- COMPLETE QUOTE LIST & DIRECT WHATSAPP SPECIFICATION FORM -->
+      <section class="cc-quote-form-section" id="cc-quote-form-section" aria-labelledby="cc-form-heading">
+        <div class="cc-form-intro">
+          <span class="cc-eyebrow">DIRECT UK WHATSAPP &amp; SPECIFICATION DESK</span>
+          <h2 id="cc-form-heading">Request Your {model.name} Quotation &amp; Send Quote List via WhatsApp</h2>
+          <p>
+            Your Quote List below automatically includes <strong>{model.name} ({model.code} · {model.dims})</strong> alongside any other Coffee Corner models you have selected. Complete your UK delivery postcode and write your project description or custom requirements in the text area below, then click <strong>Send Quote List &amp; Details via WhatsApp (+44 7898 262110)</strong>.
+          </p>
+        </div>
+        <EnquiryForm defaultCollection="coffee-corners" defaultModel={`${model.name} (${model.code} · ${model.dims})`} />
+      </section>
+
+      <!-- Related Models -->
+      {siblingModels.length > 0 && (
+        <section class="cc-related-section" aria-labelledby="cc-related-heading">
+          <div class="cc-related-head">
+            <h2 id="cc-related-heading">Companion Coffee Corner Models in This Series</h2>
+            <a href="/coffee-corners/">Explore All 32 Models →</a>
+          </div>
+          <div class="cc-related-grid">
+            {siblingModels.map((sib) => (
+              <a href={`/coffee-corners/${sib.slug}/`} class="cc-related-card">
+                <div class="cc-related-img">
+                  <img src={sib.primaryImage} alt={`${sib.name} (${sib.dims})`} width="500" height="625" loading="lazy" />
+                </div>
+                <div class="cc-related-body">
+                  <span>{sib.code} · {sib.dims}</span>
+                  <h3>{sib.name} — {sib.subtitle}</h3>
+                  <p>{sib.finish}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </article>
+</SiteLayout>
+
+<style>
+  .cc-detail-page {
+    padding: 20px 0 72px;
+    background: #f7f6f2;
+    color: #1f2521;
+  }
+  .cc-top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 22px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #dedad0;
+    font-size: 13.5px;
+  }
+  .cc-back-link {
+    font-weight: 700;
+    color: #072d25;
+    text-decoration: none;
+  }
+  .cc-back-link:hover {
+    text-decoration: underline;
+  }
+  .cc-prev-next {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .cc-prev-next a {
+    color: #465048;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .cc-prev-next a:hover {
+    color: #072d25;
+    text-decoration: underline;
+  }
+  .cc-divider {
+    color: #c7c1b4;
+  }
+  .cc-hero-grid {
+    display: grid;
+    grid-template-columns: 1.08fr 0.92fr;
+    gap: 36px;
+    align-items: start;
+    margin-bottom: 48px;
+  }
+  .cc-main-stage {
+    position: relative;
+    aspect-ratio: 4 / 5;
+    background: #ffffff;
+    border: 1px solid #dedad0;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 14px 36px rgba(15, 28, 22, 0.06);
+  }
+  .cc-main-stage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .cc-main-stage[data-fit="contain"] img {
+    object-fit: contain;
+    padding: 16px;
+    background: #ffffff;
+  }
+  .cc-stage-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 42px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    background: rgba(255, 255, 255, 0.92);
+    color: #16221b;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+  }
+  .cc-stage-nav.cc-prev { left: 14px; }
+  .cc-stage-nav.cc-next { right: 14px; }
+  .cc-photo-counter {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    background: rgba(15, 25, 20, 0.82);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 999px;
+  }
+  .cc-thumb-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .cc-thumb-btn {
+    aspect-ratio: 1 / 1;
+    border: 2px solid #dedad0;
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+    background: #ffffff;
+    cursor: pointer;
+    opacity: 0.72;
+    transition: all 0.2s ease;
+  }
+  .cc-thumb-btn.is-active,
+  .cc-thumb-btn:hover {
+    opacity: 1;
+    border-color: #072d25;
+  }
+  .cc-thumb-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .cc-summary-col {
+    background: #ffffff;
+    border: 1px solid #dedad0;
+    border-radius: 14px;
+    padding: clamp(22px, 3vw, 34px);
+    box-shadow: 0 12px 32px rgba(15, 28, 22, 0.04);
+  }
+  .cc-badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  .cc-code-pill {
+    background: #072d25;
+    color: #ebd09e;
+    font-size: 11.5px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 5px 11px;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+  .cc-material-pill {
+    background: #f3EFE6;
+    border: 1px solid #d9d0be;
+    color: #26332a;
+    font-size: 11.5px;
+    font-weight: 700;
+    padding: 5px 11px;
+    border-radius: 6px;
+  }
+  .cc-title {
+    font-size: clamp(26px, 2.8vw, 36px);
+    line-height: 1.15;
+    margin: 0 0 8px;
+    color: #162019;
+  }
+  .cc-title span {
+    font-weight: 400;
+    color: #555e57;
+    font-size: 0.78em;
+    display: block;
+    margin-top: 4px;
+  }
+  .cc-finish-line {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #072d25;
+    margin: 0 0 14px;
+  }
+  .cc-lead-summary {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #414943;
+    margin: 0 0 20px;
+  }
+  .cc-dims-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .cc-dim-box {
+    background: #f7f6f2;
+    border: 1px solid #e1ddd2;
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .cc-dim-box small {
+    display: block;
+    font-size: 11px;
+    color: #636b64;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .cc-dim-box strong {
+    font-size: 18px;
+    color: #162019;
+  }
+  .cc-tech-note {
+    background: #f4f8f5;
+    border-left: 3px solid #072d25;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #24332a;
+    margin-bottom: 18px;
+    border-radius: 0 6px 6px 0;
+  }
+  .cc-feature-tags {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2c362f;
+  }
+  .cc-action-card {
+    background: #f8f6f0;
+    border: 1.5px solid #d5ccb8;
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .cc-qty-action-row {
+    display: grid;
+    grid-template-columns: 88px 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .cc-qty-box label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .cc-qty-box input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #ccc5b7;
+    border-radius: 7px;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .cc-btn-primary {
+    align-self: end;
+    height: 44px;
+    background: #072d25;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .cc-btn-primary:hover {
+    background: #0d463a;
+  }
+  .cc-btn-whatsapp {
+    width: 100%;
+    background: #1f8e49;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 13px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .cc-btn-whatsapp:hover {
+    background: #177038;
+  }
+  .cc-action-feedback {
+    margin: 8px 0 0;
+    font-size: 12px;
+    color: #4d574f;
+    text-align: center;
+  }
+  .cc-story-section {
+    background: #ffffff;
+    border: 1px solid #dedad0;
+    border-radius: 16px;
+    padding: clamp(26px, 4vw, 48px);
+    margin-bottom: 44px;
+    box-shadow: 0 16px 40px rgba(15, 28, 22, 0.04);
+  }
+  .cc-eyebrow {
+    display: block;
+    font-size: 11.5px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9e7a47;
+    margin-bottom: 8px;
+  }
+  .cc-story-header h2 {
+    font-size: clamp(24px, 2.8vw, 36px);
+    line-height: 1.2;
+    margin: 0 0 14px;
+    color: #142018;
+  }
+  .cc-story-lead {
+    font-size: 17.5px;
+    line-height: 1.65;
+    font-weight: 600;
+    color: #233027;
+    margin: 0 0 28px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #e6e1d6;
+  }
+  .cc-story-body {
+    display: grid;
+    grid-template-columns: 1.35fr 0.65fr;
+    gap: 36px;
+    align-items: start;
+  }
+  .cc-story-prose p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333b35;
+    margin: 0 0 20px;
+  }
+  .cc-story-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cc-highlights-card,
+  .cc-spec-table-card {
+    background: #f8f6f0;
+    border: 1px solid #e0d9c8;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .cc-highlights-card h3,
+  .cc-spec-table-card h3 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    color: #072d25;
+  }
+  .cc-highlights-card ul {
+    margin: 0;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #2c352e;
+  }
+  .cc-spec-dl {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .cc-spec-dl div {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #dcd5c5;
+    font-size: 12.8px;
+  }
+  .cc-spec-dl dt {
+    font-weight: 700;
+    color: #4f5851;
+  }
+  .cc-spec-dl dd {
+    margin: 0;
+    text-align: right;
+    font-weight: 600;
+    color: #162019;
+  }
+  .cc-faq-section {
+    margin-bottom: 48px;
+  }
+  .cc-faq-section h2 {
+    font-size: 24px;
+    margin: 0 0 18px;
+  }
+  .cc-faq-list {
+    display: grid;
+    gap: 12px;
+  }
+  .cc-faq-item {
+    background: #ffffff;
+    border: 1px solid #dedad0;
+    border-radius: 10px;
+    padding: 16px 20px;
+  }
+  .cc-faq-item summary {
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    color: #162019;
+  }
+  .cc-faq-item p {
+    margin: 10px 0 0;
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #464f48;
+  }
+  .cc-quote-form-section {
+    margin-bottom: 52px;
+    scroll-margin-top: 90px;
+  }
+  .cc-form-intro {
+    margin-bottom: 20px;
+  }
+  .cc-form-intro h2 {
+    font-size: clamp(22px, 2.5vw, 32px);
+    margin: 0 0 10px;
+  }
+  .cc-form-intro p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #475049;
+    max-width: 78ch;
+  }
+  .cc-related-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .cc-related-head h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+  .cc-related-head a {
+    font-weight: 700;
+    color: #072d25;
+    text-decoration: none;
+  }
+  .cc-related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .cc-related-card {
+    background: #ffffff;
+    border: 1px solid #dedad0;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .cc-related-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(15, 28, 22, 0.08);
+  }
+  .cc-related-img {
+    aspect-ratio: 4 / 4.5;
+    overflow: hidden;
+    background: #f2efe9;
+  }
+  .cc-related-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cc-related-body {
+    padding: 16px;
+  }
+  .cc-related-body span {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #8c6c3b;
+  }
+  .cc-related-body h3 {
+    font-size: 16px;
+    margin: 4px 0 6px;
+    color: #162019;
+  }
+  .cc-related-body p {
+    font-size: 13px;
+    color: #586059;
+    margin: 0;
+  }
+  @media (max-width: 960px) {
+    .cc-hero-grid,
+    .cc-story-body,
+    .cc-related-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script>
+  const root = document.getElementById('cc-detail-root');
+  if (root) {
+    const stage = document.getElementById('cc-main-stage');
+    const activeImg = document.getElementById('cc-active-img') as HTMLImageElement | null;
+    const counter = document.getElementById('cc-photo-counter');
+    const thumbs = Array.from(root.querySelectorAll<HTMLButtonElement>('.cc-thumb-btn'));
+    const prevBtn = document.getElementById('cc-gallery-prev');
+    const nextBtn = document.getElementById('cc-gallery-next');
+    let currentIdx = 0;
+
+    function showPhoto(idx: number) {
+      if (!thumbs.length || !activeImg || !stage) return;
+      currentIdx = (idx + thumbs.length) % thumbs.length;
+      const btn = thumbs[currentIdx];
+      const src = btn.getAttribute('data-cc-src') || '';
+      const fit = btn.getAttribute('data-cc-fit') || 'cover';
+      const alt = btn.getAttribute('data-cc-alt') || '';
+      activeImg.src = src;
+      activeImg.alt = alt;
+      stage.setAttribute('data-fit', fit);
+      thumbs.forEach((t, i) => t.classList.toggle('is-active', i === currentIdx));
+      if (counter) {
+        counter.textContent = `${currentIdx + 1} / ${thumbs.length} photographs & diagrams`;
+      }
+    }
+
+    thumbs.forEach((btn, idx) => {
+      btn.addEventListener('click', () => showPhoto(idx));
+    });
+    prevBtn?.addEventListener('click', () => showPhoto(currentIdx - 1));
+    nextBtn?.addEventListener('click', () => showPhoto(currentIdx + 1));
+
+    // Sync with site-wide Quote List (cabivella_quote_cart_v1)
+    const STORAGE_KEY = 'cabivella_quote_cart_v1';
+    const modelId = root.getAttribute('data-model-id') || '';
+    const modelCode = root.getAttribute('data-model-code') || '';
+    const modelName = root.getAttribute('data-model-name') || '';
+    const modelDims = root.getAttribute('data-model-dims') || '';
+    const modelColor = root.getAttribute('data-model-color') || '';
+    const modelFinish = root.getAttribute('data-model-finish') || '';
+
+    function addCurrentModelToStorage(qtyToAdd: number) {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        const list = raw ? JSON.parse(raw) : [];
+        const items = Array.isArray(list) ? list : [];
+        const existing = items.find((i: any) => i.id === modelId || i.code === modelCode);
+        if (existing) {
+          existing.qty = Math.min(100, (Number(existing.qty) || 1) + qtyToAdd);
+        } else {
+          items.push({
+            id: modelId,
+            code: modelCode,
+            name: modelName,
+            dims: modelDims,
+            color: modelColor,
+            finish: modelFinish,
+            qty: qtyToAdd
+          });
+        }
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+        window.dispatchEvent(new CustomEvent('cabivella:quote-cart-updated'));
+      } catch {
+        // ignore storage errors
+      }
+    }
+
+    const addBtn = document.getElementById('cc-add-to-quote-btn');
+    const waInstantBtn = document.getElementById('cc-wa-instant-btn');
+    const qtyInput = document.getElementById('cc-detail-qty') as HTMLInputElement | null;
+    const feedback = document.getElementById('cc-action-feedback');
+    const formSection = document.getElementById('cc-quote-form-section');
+
+    addBtn?.addEventListener('click', () => {
+      const qty = Math.max(1, Math.min(100, Number(qtyInput?.value) || 1));
+      addCurrentModelToStorage(qty);
+      if (feedback) {
+        feedback.textContent = `✓ Added ${qty} × ${modelName} (${modelCode}) to your Quote List! Complete your details below to send via WhatsApp.`;
+        feedback.style.color = '#135e32';
+        feedback.style.fontWeight = '700';
+      }
+      formSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    waInstantBtn?.addEventListener('click', () => {
+      const qty = Math.max(1, Math.min(100, Number(qtyInput?.value) || 1));
+      addCurrentModelToStorage(qty);
+      formSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const nameInput = document.getElementById('enquiry-name') as HTMLInputElement | null;
+      if (nameInput) {
+        setTimeout(() => nameInput.focus(), 450);
+      }
+    });
+  }
+</script>

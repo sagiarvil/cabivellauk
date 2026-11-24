@@ -687,6 +687,9 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
 
   syncUrlModelIntoCart();
   renderQuoteCart();
+  window.addEventListener('cabivella:quote-cart-updated', () => {
+    renderQuoteCart();
+  });
 
   function generateLeadId() {
     return 'CAB-' + new Date().getFullYear() + '-' + Math.random().toString(36).substring(2, 7).toUpperCase();
@@ -723,7 +726,13 @@ const { defaultCollection = '', defaultModel = '' } = Astro.props;
         lines.push(`   • Finish: ${item.color}`);
       });
     } else {
-      lines.push(`*COLLECTION OF INTEREST:* ${collection}`);
+      const cardEl = document.querySelector('.enquiry-card') as HTMLElement | null;
+      const defaultModelAttr = cardEl?.getAttribute('data-default-model') || '';
+      if (defaultModelAttr) {
+        lines.push(`*SELECTED MODEL:* ${defaultModelAttr} (Qty: 1)`);
+      } else {
+        lines.push(`*COLLECTION OF INTEREST:* ${collection}`);
+      }
     }
 
     lines.push(`------------------------------------------`);

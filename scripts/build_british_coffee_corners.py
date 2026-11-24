@@ -10,7 +10,13 @@ textarea, and 1-click WhatsApp dispatch to +44 7898 262110.
 
 from pathlib import Path
 import re
+import json
 import html as html_lib
+from stories_part1 import STORIES_PART_1
+from stories_part2 import STORIES_PART_2
+
+ALL_STORIES = {**STORIES_PART_1, **STORIES_PART_2}
+assert len(ALL_STORIES) == 32, f"Expected 32 stories, got {len(ALL_STORIES)}"
 
 SRC_HTML = Path("/Users/macair1/projects/kahvekosem/evler-icin-kahve-koseleri/index.html").read_text(encoding="utf-8")
 lines = SRC_HTML.splitlines()
@@ -439,11 +445,18 @@ MODELS_EN = {
 
 translated_cards = []
 quick_add_options = []
+ts_models_list = []
 
 for idx, art in enumerate(raw_articles, 1):
     m = MODELS_EN[idx]
+    st = ALL_STORIES[idx]
+    full_story_text = st["storyTitle"] + " " + st["storyLead"] + " " + " ".join(st["storyParagraphs"])
+    char_count = len(full_story_text)
+    assert char_count >= 2000, f"Model {idx} ({m['name']}) story is only {char_count} chars (< 2000)!"
+
     code = f"EV–{idx:02d}"
     card_id = f"ev-ev-{idx:02d}"
+    detail_url = f"/coffee-corners/{m['slug']}/"
 
     quick_add_options.append(
         f'<option value="{card_id}">{code} · {html_lib.escape(m["name"])} ({html_lib.escape(m["dims"])} — {html_lib.escape(m["color"])})</option>'
@@ -464,6 +477,7 @@ for idx, art in enumerate(raw_articles, 1):
     loading_attr = 'loading="eager" fetchpriority="high"' if idx <= 3 else 'loading="lazy"'
 
     thumbs_html_parts = []
+    images_for_ts = []
     for is_act, t_idx, t_src, t_fit, t_w, t_h in thumb_matches:
         view_num = int(t_idx) + 1
         t_alt = f"{m['name']} ({m['dims']}) {m['finish']} bespoke MDF home coffee corner — view {view_num}"
@@ -473,10 +487,48 @@ for idx, art in enumerate(raw_articles, 1):
             f'data-alt="{html_lib.escape(t_alt, quote=True)}" aria-label="{html_lib.escape(m["name"], quote=True)} image {view_num}">'
             f'<img src="{t_src}" alt="{html_lib.escape(t_alt, quote=True)}" width="{t_w}" height="{t_h}" loading="lazy" decoding="async"/></button>'
         )
+        images_for_ts.append({
+            "src": t_src,
+            "fit": t_fit,
+            "width": int(t_w),
+            "height": int(t_h),
+            "alt": t_alt
+        })
 
     thumbs_html = "".join(thumbs_html_parts)
     badges_html = "".join(f"<li>{html_lib.escape(b)}</li>" for b in m["badges"])
     w_cm, d_cm, h_cm = [x.strip() for x in m["dims"].replace("cm", "").split("×")]
+
+    story_paras_html = "".join(f"<p>{html_lib.escape(p)}</p>" for p in st["storyParagraphs"])
+    story_highlights_html = "".join(f"<li>{html_lib.escape(h)}</li>" for h in st["seoHighlights"])
+
+    ts_models_list.append({
+        "index": idx,
+        "code": code,
+        "cardId": card_id,
+        "slug": m["slug"],
+        "name": m["name"],
+        "subtitle": m["subtitle"],
+        "size": m["size"],
+        "color": m["color"],
+        "layout": m["layout"],
+        "dims": m["dims"],
+        "widthCm": w_cm,
+        "depthCm": d_cm,
+        "heightCm": h_cm,
+        "finish": m["finish"],
+        "desc": m["desc"],
+        "badges": m["badges"],
+        "note": m["note"],
+        "photoCount": photo_count,
+        "primaryImage": first_src,
+        "images": images_for_ts,
+        "storyTitle": st["storyTitle"],
+        "storyLead": st["storyLead"],
+        "storyParagraphs": st["storyParagraphs"],
+        "seoHighlights": st["seoHighlights"],
+        "storyCharCount": char_count
+    })
 
     card_html = (
         f'<article class="ev-card ev-reveal" id="{card_id}" '
@@ -499,9 +551,19 @@ for idx, art in enumerate(raw_articles, 1):
         f'<div class="ev-thumbs" role="region" aria-label="{html_lib.escape(m["name"], quote=True)} all product photographs">{thumbs_html}</div>'
         f'<div class="ev-body">'
         f'<div class="ev-meta"><span>{html_lib.escape(m["color"])} · {html_lib.escape(m["layout"])}</span><span>{code}</span></div>'
-        f'<h3>{html_lib.escape(m["name"])} <span>{html_lib.escape(m["subtitle"])}</span></h3>'
+        f'<h3><a href="{detail_url}" class="ev-card-title-link">{html_lib.escape(m["name"])}</a> <span>{html_lib.escape(m["subtitle"])}</span></h3>'
         f'<p class="ev-finish">{html_lib.escape(m["finish"])}</p>'
         f'<p class="ev-desc">{html_lib.escape(m["desc"])}</p>'
+        f'<details class="ev-story-drawer">'
+        f'<summary>Read Bespoke Architectural Story &amp; Monograph ▾</summary>'
+        f'<div class="ev-story-content">'
+        f'<h4>{html_lib.escape(st["storyTitle"])}</h4>'
+        f'<p class="ev-story-lead">{html_lib.escape(st["storyLead"])}</p>'
+        f'{story_paras_html}'
+        f'<ul class="ev-story-highlights">{story_highlights_html}</ul>'
+        f'<a href="{detail_url}" class="ev-story-page-link">Open Dedicated {html_lib.escape(m["name"])} Product Page →</a>'
+        f'</div>'
+        f'</details>'
         f'<ul class="ev-badges">{badges_html}</ul>'
         f'<div class="ev-dims">'
         f'<div><small>Width</small><b>{w_cm} cm</b></div>'
@@ -509,6 +571,7 @@ for idx, art in enumerate(raw_articles, 1):
         f'<div><small>Height</small><b>{h_cm} cm</b></div>'
         f'</div>'
         f'<p class="ev-counter-note">{html_lib.escape(m["note"])}</p>'
+        f'<a href="{detail_url}" class="ev-detail-page-btn">View Full Product Story &amp; Specifications →</a>'
         f'<div class="ev-actions">'
         f'<div><label for="ev-q-{idx-1}">Qty</label><input id="ev-q-{idx-1}" class="ev-qty" type="number" value="1" min="1" max="100" step="1" inputmode="numeric"/></div>'
         f'<button type="button" class="ev-add">Add to Quote List <span aria-hidden="true">＋</span></button>'
@@ -517,6 +580,48 @@ for idx, art in enumerate(raw_articles, 1):
         f'</div></article>'
     )
     translated_cards.append(card_html)
+
+ts_data_file = Path("/Users/macair1/projects/cabivellaUK/src/data/coffee-corners-models.ts")
+ts_content = (
+    "// Auto-generated 32 Flagship British English Coffee Corner Models with 2,300+ character bespoke stories\n"
+    "export interface CoffeeCornerImage {\n"
+    "  src: string;\n"
+    "  fit: string;\n"
+    "  width: number;\n"
+    "  height: number;\n"
+    "  alt: string;\n"
+    "}\n\n"
+    "export interface CoffeeCornerModel {\n"
+    "  index: number;\n"
+    "  code: string;\n"
+    "  cardId: string;\n"
+    "  slug: string;\n"
+    "  name: string;\n"
+    "  subtitle: string;\n"
+    "  size: string;\n"
+    "  color: string;\n"
+    "  layout: string;\n"
+    "  dims: string;\n"
+    "  widthCm: string;\n"
+    "  depthCm: string;\n"
+    "  heightCm: string;\n"
+    "  finish: string;\n"
+    "  desc: string;\n"
+    "  badges: string[];\n"
+    "  note: string;\n"
+    "  photoCount: number;\n"
+    "  primaryImage: string;\n"
+    "  images: CoffeeCornerImage[];\n"
+    "  storyTitle: string;\n"
+    "  storyLead: string;\n"
+    "  storyParagraphs: string[];\n"
+    "  seoHighlights: string[];\n"
+    "  storyCharCount: number;\n"
+    "}\n\n"
+    f"export const coffeeCornersModels: CoffeeCornerModel[] = {json.dumps(ts_models_list, ensure_ascii=False, indent=2)};\n"
+)
+ts_data_file.write_text(ts_content, encoding="utf-8")
+print("Wrote TS models:", ts_data_file, "min story chars:", min(m["storyCharCount"] for m in ts_models_list))
 
 all_cards_joined = "\n    ".join(translated_cards)
 quick_add_joined = "\n          ".join(quick_add_options)
@@ -732,6 +837,95 @@ extra_styles = """
   #kk-evsel-collection .ev-hero-gradient {
     background: linear-gradient(180deg, rgba(8, 22, 18, 0.88) 0%, rgba(8, 22, 18, 0.72) 65%, rgba(8, 22, 18, 0.92) 100%);
   }
+}
+#kk-evsel-collection .ev-card-title-link {
+  color: var(--ev-ink);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+#kk-evsel-collection .ev-card-title-link:hover {
+  color: #072d25;
+  text-decoration: underline;
+}
+#kk-evsel-collection .ev-story-drawer {
+  background: #f8f6f0;
+  border: 1px solid #dfd9cb;
+  border-radius: 8px;
+  padding: 9px 12px;
+  margin: 4px 0 8px;
+}
+#kk-evsel-collection .ev-story-drawer summary {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #072d25;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#kk-evsel-collection .ev-story-drawer summary::-webkit-details-marker {
+  display: none;
+}
+#kk-evsel-collection .ev-story-content {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e4decb;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+#kk-evsel-collection .ev-story-content h4 {
+  margin: 0;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #16231c;
+  line-height: 1.35;
+}
+#kk-evsel-collection .ev-story-content p {
+  font-size: 12.8px !important;
+  line-height: 1.6 !important;
+  color: #3d453f;
+}
+#kk-evsel-collection .ev-story-content .ev-story-lead {
+  font-weight: 600;
+  color: #1e2a22;
+}
+#kk-evsel-collection .ev-story-highlights {
+  margin: 4px 0 0;
+  padding-left: 16px;
+  font-size: 12px;
+  color: #2b3830;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#kk-evsel-collection .ev-story-page-link {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #072d25;
+  text-decoration: underline;
+}
+#kk-evsel-collection .ev-detail-page-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
+  border: 1.5px solid #072d25;
+  color: #072d25;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 9px 12px;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-bottom: 6px;
+  transition: all 0.2s ease;
+}
+#kk-evsel-collection .ev-detail-page-btn:hover {
+  background: #072d25;
+  color: #ffffff;
 }
 #kk-evsel-collection .ev-card-wa-btn {
   width: 100%;
