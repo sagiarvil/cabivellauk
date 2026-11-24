@@ -526,6 +526,10 @@ style_block = style_block.replace(
     "linear-gradient(90deg,#0d7332 0 33.333%,#ffffff 33.333% 66.666%,#a81212 66.666%)",
     "linear-gradient(90deg,#072d25 0 50%,#b9914a 50% 100%)",
 )
+style_block = style_block.replace(
+    "#kk-evsel-collection h1#ev-col-title{margin:0!important;font-size:clamp(34px,4.3vw,58px)!important;font-weight:700!important;letter-spacing:-.045em!important;line-height:1.06!important;color:var(--ev-ink)!important}",
+    "#kk-evsel-collection h1#ev-col-title,#kk-evsel-collection h2#ev-col-title{margin:0 0 12px!important;font-size:clamp(32px,3.8vw,50px)!important;font-weight:700!important;letter-spacing:-.03em!important;line-height:1.08!important;color:#ffffff!important;text-shadow:0 3px 18px rgba(0,0,0,0.75)!important}",
+)
 
 extra_styles = """
 #kk-evsel-collection {
@@ -565,7 +569,7 @@ extra_styles = """
 #kk-evsel-collection .ev-hero-gradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(8, 22, 18, 0.92) 0%, rgba(8, 22, 18, 0.62) 48%, rgba(8, 22, 18, 0.12) 100%);
+  background: linear-gradient(90deg, rgba(5, 16, 13, 0.94) 0%, rgba(5, 16, 13, 0.80) 46%, rgba(5, 16, 13, 0.18) 100%);
   pointer-events: none;
 }
 #kk-evsel-collection .ev-hero-content {
@@ -581,9 +585,9 @@ extra_styles = """
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(185, 145, 74, 0.2);
-  border: 1px solid rgba(212, 175, 106, 0.55);
-  color: #ebd09e;
+  background: rgba(185, 145, 74, 0.28);
+  border: 1px solid rgba(225, 188, 118, 0.75);
+  color: #f7dfb0;
   padding: 6px 13px;
   border-radius: 999px;
   font-size: 11px;
@@ -593,19 +597,23 @@ extra_styles = """
   width: fit-content;
   margin-bottom: 16px;
 }
+#kk-evsel-collection h1#ev-col-title.ev-hero-title,
+#kk-evsel-collection h2#ev-col-title.ev-hero-title,
 #kk-evsel-collection .ev-hero-title {
   margin: 0 0 12px !important;
-  font-size: clamp(30px, 3.6vw, 48px) !important;
+  font-size: clamp(32px, 3.8vw, 50px) !important;
   font-weight: 700 !important;
   line-height: 1.08 !important;
   letter-spacing: -0.03em !important;
   color: #ffffff !important;
+  text-shadow: 0 3px 18px rgba(0, 0, 0, 0.75) !important;
 }
 #kk-evsel-collection .ev-hero-sub {
   margin: 0 0 20px !important;
-  font-size: 15px !important;
-  line-height: 1.5 !important;
-  color: rgba(244, 241, 234, 0.86) !important;
+  font-size: 15.5px !important;
+  line-height: 1.55 !important;
+  color: #f6f3ec !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
   max-width: 46ch;
 }
 #kk-evsel-collection .ev-hero-chips {
@@ -959,11 +967,11 @@ const {{ showHeadingH1 = true }} = Astro.props;
       <div>
         <div class="ev-hero-badge">CABIVELLA UK · FLAGSHIP COLLECTION</div>
         {{showHeadingH1 ? (
-          <h1 id="ev-col-title" class="ev-hero-title">Bespoke Home Coffee Corners</h1>
+          <h1 id="ev-col-title" class="ev-hero-title" style="color:#ffffff!important;text-shadow:0 3px 18px rgba(0,0,0,0.85)!important">Bespoke Home Coffee Corners</h1>
         ) : (
-          <h2 id="ev-col-title" class="ev-hero-title">Bespoke Home Coffee Corners</h2>
+          <h2 id="ev-col-title" class="ev-hero-title" style="color:#ffffff!important;text-shadow:0 3px 18px rgba(0,0,0,0.85)!important">Bespoke Home Coffee Corners</h2>
         )}}
-        <p class="ev-hero-sub" data-answer-capsule="true">32 architectural 18 mm full-MDF models (90–170 cm) with sensor LED vitrines, soft-close drawers &amp; direct UK delivery.</p>
+        <p class="ev-hero-sub" data-answer-capsule="true" style="color:#f6f3ec!important;text-shadow:0 2px 10px rgba(0,0,0,0.75)!important">32 architectural 18 mm full-MDF models (90–170 cm) with sensor LED vitrines, soft-close drawers &amp; direct UK delivery.</p>
         <div class="ev-hero-chips">
           <span>32 MDF Models</span>
           <span>90 · 130 · 170 cm</span>
