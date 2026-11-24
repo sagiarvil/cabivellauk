@@ -1,7 +1,5 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import DynamicWatermark from '../../components/DynamicWatermark.astro';
 import CoffeeCornersCatalog from '../../components/CoffeeCornersCatalog.astro';
 import { getBreadcrumbSchema } from '../../lib/structured-data';
 
@@ -15,14 +13,9 @@ const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
   title="Bespoke MDF Home Coffee Corners & Barista Stations (32 LED Models) | Cabivella UK"
   description="Explore 32 bespoke 18mm full-MDF home coffee corners (90–170 cm) with sensor LED lighting, smoked glass vitrines, soft-close drawers and UK mainland delivery."
   canonicalPath="/coffee-corners/"
-  image="/assets/kk-evsel/kk-ev-01-riva-90-kum-beji-01.webp"
+  image="/images/coffee-stations/hero-fluted-walnut-barista-station.webp"
   structuredData={breadcrumbSchema}
 >
-  <Breadcrumbs items={breadcrumbItems} />
-
-  <!-- Ghost Watermark Header -->
-  <DynamicWatermark text="COFFEE CORNERS" />
-
-  <!-- Complete 32-Model Interactive Coffee Corners Collection (100% British English) -->
+  <!-- Complete 32-Model Interactive Coffee Corners Flagship Page with Visual Hero (100% British English) -->
   <CoffeeCornersCatalog showHeadingH1={true} />
 </SiteLayout>
