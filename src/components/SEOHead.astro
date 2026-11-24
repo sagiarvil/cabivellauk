@@ -11,10 +11,19 @@ export interface Props extends SEOProps {
 
 const { title, description, canonicalPath, image, type = 'website', noindex = false, structuredData } = Astro.props;
 const currentPath = canonicalPath || Astro.url.pathname;
-const meta = buildMetaTags({ title, description, canonicalPath: currentPath, image, type, noindex });
 
-// Check SSOT registry for full 14KB graph
+// Check SSOT registry for authoritative SERP metadata + full 14KB @graph
 const pageRecord = getPageRecord(currentPath);
+const effectiveTitle = pageRecord ? pageRecord.title : title;
+const effectiveDescription = pageRecord ? pageRecord.metaDescription : description;
+const meta = buildMetaTags({
+  title: effectiveTitle,
+  description: effectiveDescription,
+  canonicalPath: currentPath,
+  image,
+  type,
+  noindex
+});
 let graphJsonLd = '';
 
 if (pageRecord) {

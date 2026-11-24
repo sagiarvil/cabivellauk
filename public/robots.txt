@@ -78,6 +78,9 @@ Disallow: /thank-you/
 
 # Sitemaps & Syndication Indices
 Sitemap: https://cabivella.co.uk/sitemap.xml
+Sitemap: https://cabivella.co.uk/sitemap-core.xml
+Sitemap: https://cabivella.co.uk/sitemap-cabinetry.xml
+Sitemap: https://cabivella.co.uk/sitemap-materials.xml
 Sitemap: https://cabivella.co.uk/sitemap-export.xml
 
 # LLM Discovery & Agent Manifest Endpoints

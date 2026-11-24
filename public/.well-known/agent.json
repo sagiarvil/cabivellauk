@@ -1,25 +1,30 @@
 {
-  "name": "Cabivella UK Architectural Agent",
-  "description": "Programmatic interface and knowledge graph endpoint for Cabivella UK made-to-measure cabinetry specifications.",
-  "version": "1.0.0",
+  "name": "Cabivella UK Architectural & Commercial Supply Agent",
+  "description": "Programmatic interface and knowledge graph endpoint for Cabivella UK bespoke cupboards, fitted wooden storage, Wimbledon Village in-frame kitchens, BS EN 61537 London cable containment, value engineered EI60/EI120 riser doors, and architectural aluminium louvres.",
+  "version": "1.1.0",
   "protocol": "A2A/2026",
   "organization": {
     "name": "Cabivella UK",
     "url": "https://cabivella.co.uk",
-    "email": "enquiries@cabivella.co.uk"
+    "email": "enquiries@cabivella.co.uk",
+    "telephone": "+44 7898 262110"
   },
   "endpoints": {
     "mcp": "https://cabivella.co.uk/mcp",
     "mcp_mobile": "https://cabivella.co.uk/mcp/mobile",
     "llms_index": "https://cabivella.co.uk/llms.txt",
     "llms_core": "https://cabivella.co.uk/llms/core.md",
+    "llms_full": "https://cabivella.co.uk/llms-full.txt",
     "feed_rss": "https://cabivella.co.uk/feed.xml",
     "feed_json": "https://cabivella.co.uk/feed.json"
   },
   "capabilities": [
-    "kitchen_specification_estimation",
-    "bathroom_vanity_sizing",
-    "fitted_storage_material_query",
+    "in_frame_kitchen_specification_wimbledon_sw19",
+    "bespoke_cupboards_and_pantry_sizing",
+    "fitted_wooden_storage_and_alcove_joinery",
+    "cable_containment_london_m_and_e_boq",
+    "value_engineered_riser_doors_ei60_ei120",
+    "architectural_aluminium_louvre_oem_submittals",
     "trade_volume_discount_lookup"
   ]
 }

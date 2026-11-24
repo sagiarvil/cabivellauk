@@ -2,15 +2,15 @@ import type { SeoPageRecord } from './registry.types';
 
 export function buildCompleteJsonLdGraph(page: SeoPageRecord, domain = 'cabivella.co.uk'): string {
   const origin = `https://${domain}`;
-  const pageUrl = `${origin}${page.route === '/' ? '' : page.route}`;
+  const pageUrl = `${origin}${page.route === '/' ? '/' : page.route}`;
 
   const graph: Record<string, any>[] = [
-    // 1. Organization (Wikidata & Google MID consensus)
+    // 1. Organization (Wikidata & Google MID consensus + 3-node sameAs triangulation)
     {
       '@type': 'Organization',
       '@id': `${origin}/#organization`,
       name: 'Cabivella UK',
-      alternateName: ['Cabivella', 'Cabivella Cabinetry UK', 'Cabivella Architectural Joinery'],
+      alternateName: ['Cabivella', 'Cabivella Cabinetry UK', 'Cabivella Architectural Joinery & Materials'],
       url: origin,
       logo: {
         '@type': 'ImageObject',
@@ -20,9 +20,14 @@ export function buildCompleteJsonLdGraph(page: SeoPageRecord, domain = 'cabivell
         height: '512'
       },
       image: `${origin}/assets/img/cabivella-crest-transparent.webp`,
-      description: 'Bespoke architectural cabinetry, precision fitted storage and luxury made-to-measure joinery for British residences.',
+      description: 'Bespoke architectural cabinetry, bespoke cupboards, fitted wooden storage, in-frame kitchens and specification-led MEP and building materials supplied direct to London and the UK.',
       email: 'enquiries@cabivella.co.uk',
       telephone: '+44 7898 262110',
+      areaServed: [
+        { '@type': 'Country', name: 'United Kingdom' },
+        { '@type': 'City', name: 'London' },
+        { '@type': 'Place', name: 'Wimbledon Village, London SW19' }
+      ],
       address: {
         '@type': 'PostalAddress',
         addressCountry: 'GB',
@@ -30,7 +35,8 @@ export function buildCompleteJsonLdGraph(page: SeoPageRecord, domain = 'cabivell
       },
       sameAs: [
         `https://www.wikidata.org/wiki/${page.primaryEntity.wikidataQid || 'Q11589432'}`,
-        'https://wa.me/447898262110'
+        'https://wa.me/447898262110',
+        `${origin}/our-story/`
       ]
     },
     // 2. WebSite + Google Site Names + SearchAction
@@ -58,6 +64,7 @@ export function buildCompleteJsonLdGraph(page: SeoPageRecord, domain = 'cabivell
       url: pageUrl,
       name: page.title,
       description: page.metaDescription,
+      ...(page.keywords && page.keywords.length > 0 ? { keywords: page.keywords.join(', ') } : {}),
       isPartOf: { '@id': `${origin}/#website` },
       about: { '@id': page.primaryEntity.id },
       datePublished: page.publishedAt,
@@ -85,6 +92,36 @@ export function buildCompleteJsonLdGraph(page: SeoPageRecord, domain = 'cabivell
       }))
     }
   ];
+
+  // 5. Primary Product / Service Entity Node (when page is not root Organization)
+  if (page.primaryEntity.type === 'Product' || page.primaryEntity.type === 'Service') {
+    graph.push({
+      '@type': page.primaryEntity.type,
+      '@id': page.primaryEntity.id,
+      name: page.primaryEntity.name,
+      description: page.heroAnswerEngine,
+      url: pageUrl,
+      ...(page.primaryEntity.type === 'Product'
+        ? { brand: { '@type': 'Brand', name: 'Cabivella UK' }, manufacturer: { '@id': `${origin}/#organization` } }
+        : { provider: { '@id': `${origin}/#organization` }, areaServed: 'United Kingdom' })
+    });
+  }
+
+  // 6. FAQPage Node for AEO / Google Rich Snippets / LLM Grounding
+  if (page.faqs && page.faqs.length > 0) {
+    graph.push({
+      '@type': 'FAQPage',
+      '@id': `${pageUrl}#faq`,
+      mainEntity: page.faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer
+        }
+      }))
+    });
+  }
 
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
 }

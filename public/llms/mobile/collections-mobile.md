@@ -1,19 +1,14 @@
-# Cabivella Collections: Architectural Cabinetry Portfolio: Mobile & Edge Knowledge Graph
+# Mobile Graph: Architectural Cabinetry Collections
 
-Canonical: https://cabivella.co.uk/collections/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/collections/
+Role: hub | Locale: en-GB | Primary Action: navigate
 
-## Quick Answer (Hero Engine)
-Cabivella collections span six dedicated architectural cabinetry disciplines: bespoke made-to-measure kitchens, AquaShield moisture-sealed bathroom vanities, concealed pantry and larder suites, dedicated beverage coffee stations, floor-to-ceiling fitted wardrobes, and replacement cabinet front panels. All collections share unified British hardware standards and precision joinery tolerances.
+## Direct Summary
+Cabivella collections span six dedicated architectural joinery disciplines: bespoke in-frame and handleless kitchens, AquaShield moisture-sealed bathroom vanities, bespoke cupboards and concealed pantry larders, integrated coffee stations, floor-to-ceiling fitted wooden storage, and custom replacement cabinet doors. Every collection adheres to BS 6222-2 structural tolerances and Blum hardware standards.
 
-## Mobile Decision Support
-- Q: Can I mix styles across different collections?
-- A: Yes, finishes, veneer grains and lacquer palettes can be unified across kitchen, bathroom and wardrobe specifications for cohesive whole-house joinery.
+## Voice Queries
+- "What bespoke cupboard and fitted storage collections does Cabivella offer?"
+- "Can I view fitted wooden storage and kitchen collections in the UK?"
 
-- Q: What is the minimum order for custom cabinetry?
-- A: Cabivella accepts both individual residential room orders and multi-unit trade development specifications.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

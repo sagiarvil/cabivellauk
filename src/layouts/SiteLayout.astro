@@ -5,6 +5,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import WhatsAppButton from '../components/WhatsAppButton.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import { getPageRecord } from '../seo/registry';
 import type { SEOProps } from '../lib/seo';
 
 export interface Props extends SEOProps {
@@ -13,6 +14,9 @@ export interface Props extends SEOProps {
 
 const { title, description, canonicalPath, image, type, noindex, structuredData } = Astro.props;
 const currentPath = Astro.url.pathname;
+const resolvedPath = canonicalPath || currentPath;
+const pageRecord = getPageRecord(resolvedPath);
+const showSpecBrief = Boolean(pageRecord && pageRecord.role !== 'legal');
 ---
 
 <!DOCTYPE html>
@@ -21,7 +25,7 @@ const currentPath = Astro.url.pathname;
     <SEOHead 
       title={title} 
       description={description} 
-      canonicalPath={canonicalPath || currentPath} 
+      canonicalPath={resolvedPath} 
       image={image} 
       type={type} 
       noindex={noindex} 
@@ -29,12 +33,51 @@ const currentPath = Astro.url.pathname;
     />
   </head>
   <body>
+    <a class="skip" href="#main">Skip to main content</a>
     <!-- Header Navigation -->
     <Header currentPath={currentPath} />
 
     <!-- Main Content Area -->
     <main id="main">
       <slot />
+
+      {showSpecBrief && pageRecord && (
+        <section
+          id="hero-answer-engine"
+          class="hero-answer-engine cb-spec-grounding"
+          aria-labelledby="cb-spec-grounding-heading"
+          data-reveal
+        >
+          <div class="wrap cb-spec-grounding-inner">
+            <div class="cb-spec-grounding-lead">
+              <span class="cb-spec-eyebrow">ARCHITECTURAL SPECIFICATION BRIEF</span>
+              <h2 id="cb-spec-grounding-heading" class="cb-spec-title">{pageRecord.h1}</h2>
+              <p class="cb-spec-summary">{pageRecord.heroAnswerEngine}</p>
+
+              <nav class="cb-spec-links" aria-label="Popular architectural specifications">
+                <a href="/collections/kitchens/wimbledon-village-in-frame-shaker/">In-Frame Kitchens Wimbledon Village</a>
+                <a href="/collections/fitted-storage/">Fitted Storage &amp; Fitted Wooden Storage</a>
+                <a href="/collections/pantry-larder/">Bespoke Cupboards &amp; Larders</a>
+                <a href="/materials-supply/products/cable-tray-and-containment/">Cable Containment London &amp; UK</a>
+                <a href="/materials-supply/products/technical-plant-service-riser-steel-doors/">Value Engineered Riser Doors</a>
+                <a href="/materials-supply/products/decorative-aluminium-louvre/">Architectural Aluminium Louvres</a>
+              </nav>
+            </div>
+
+            {pageRecord.faqs && pageRecord.faqs.length > 0 && (
+              <div class="cb-spec-faqs">
+                <span class="cb-spec-eyebrow">TECHNICAL Q&amp;A</span>
+                {pageRecord.faqs.map((faq) => (
+                  <details class="cb-faq-item">
+                    <summary>{faq.question}</summary>
+                    <p>{faq.answer}</p>
+                  </details>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
     </main>
 
     <!-- Footer -->
@@ -117,5 +160,99 @@ const currentPath = Astro.url.pathname;
         });
       }
     </script>
+
+    <style>
+      .cb-spec-grounding {
+        background: #f6f4ef;
+        border-top: 1px solid rgba(24, 35, 32, 0.1);
+        padding: 56px 0;
+      }
+      .cb-spec-grounding-inner {
+        display: grid;
+        grid-template-columns: 1.25fr 1fr;
+        gap: 44px;
+        align-items: start;
+      }
+      .cb-spec-grounding-inner:not(:has(.cb-spec-faqs)) {
+        grid-template-columns: 1fr;
+      }
+      .cb-spec-eyebrow {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #7c6853;
+        margin-bottom: 10px;
+      }
+      .cb-spec-title {
+        font-size: clamp(22px, 2.2vw, 30px);
+        line-height: 1.2;
+        color: #182320;
+        margin: 0 0 14px;
+      }
+      .cb-spec-summary {
+        font-size: 15px;
+        line-height: 1.7;
+        color: #3a4540;
+        margin: 0 0 22px;
+      }
+      .cb-spec-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 10px;
+      }
+      .cb-spec-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 38px;
+        padding: 7px 13px;
+        background: #ffffff;
+        border: 1px solid rgba(24, 35, 32, 0.14);
+        border-radius: 4px;
+        font-size: 12.5px;
+        font-weight: 500;
+        color: #182320;
+        text-decoration: none;
+        transition: border-color 0.2s ease, background 0.2s ease;
+      }
+      .cb-spec-links a:hover {
+        border-color: #182320;
+        background: #edeae2;
+      }
+      .cb-spec-faqs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .cb-faq-item {
+        background: #ffffff;
+        border: 1px solid rgba(24, 35, 32, 0.11);
+        border-radius: 4px;
+        padding: 14px 18px;
+      }
+      .cb-faq-item summary {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        color: #182320;
+        line-height: 1.45;
+      }
+      .cb-faq-item p {
+        margin: 10px 0 0;
+        font-size: 13.5px;
+        line-height: 1.65;
+        color: #46524c;
+      }
+      @media (max-width: 900px) {
+        .cb-spec-grounding-inner {
+          grid-template-columns: 1fr;
+          gap: 28px;
+        }
+        .cb-spec-links a {
+          min-height: 44px;
+        }
+      }
+    </style>
   </body>
 </html>

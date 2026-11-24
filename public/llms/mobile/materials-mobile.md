@@ -1,19 +1,14 @@
-# Cabinetry Materials, Finishes & Hardware Standards: Mobile & Edge Knowledge Graph
+# Mobile Graph: Cabinetry Materials, Finishes & Hardware Standards
 
-Canonical: https://cabivella.co.uk/materials/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/materials/
+Role: service | Locale: en-GB | Primary Action: navigate
 
-## Quick Answer (Hero Engine)
-Cabivella specifies only certified E1 low-emission moisture-resistant MDF, birch core ply, and sustainably managed European oak and walnut veneers. Surface treatments employ multi-layer polyurethane lacquers tested against household chemical spills and thermal cycles, partnered exclusively with German-engineered Blum motion hardware rated for 200,000 opening cycles.
+## Direct Summary
+Cabivella specifies certified E1 low-emission moisture-resistant MDF, birch core plywood, and sustainably harvested European oak, ash and walnut veneers for bespoke cupboards, in-frame kitchens and fitted wooden storage. Surface treatments use multi-coat polyurethane lacquers tested against household moisture and thermal stress, paired exclusively with Blum hardware rated to 200,000 cycles.
 
-## Mobile Decision Support
-- Q: What finishes are available for bespoke cabinetry?
-- A: Finishes include silk-matt polyurethane lacquer, textured open-pore wood veneer, high-gloss polished enamel, and raw primed MDF.
+## Voice Queries
+- "What wood is used in Cabivella fitted wooden storage and bespoke cupboards?"
+- "Does Cabivella use Blum soft close hinges on all units?"
 
-- Q: What hardware manufacturer does Cabivella use?
-- A: We partner exclusively with Blum Austria for concealed hinges, runner mechanisms, and soft-close lift systems.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

@@ -43,6 +43,11 @@ export interface BreadcrumbItem {
   readonly item: string;
 }
 
+export interface SeoFaqItem {
+  readonly question: string;
+  readonly answer: string;
+}
+
 export interface SeoPageRecord {
   readonly route: `/${string}` | '/';
   readonly locale: string;
@@ -56,6 +61,8 @@ export interface SeoPageRecord {
   readonly primaryEntity: SeoEntityRef;
   readonly semanticTriples: readonly SemanticTriple[];
   readonly heroAnswerEngine: string;
+  readonly keywords?: readonly string[];
+  readonly faqs?: readonly SeoFaqItem[];
   readonly publishedAt: string;
   readonly modifiedAt: string;
   readonly bodyContentHash: string; // SHA-256 for Semantic Delta Check

@@ -33,12 +33,12 @@ const isActive = (href: string) => {
     </a>
 
     <!-- Navigation Links -->
-    <nav class="cb-nav" aria-label="Main navigation">
+    <nav class="cb-nav desktop-nav" aria-label="Main navigation">
+      <a href="/coffee-corners/" class:list={[{ 'is-active': isActive('/coffee-corners/') || isActive('/collections/coffee-stations/') }]}>Coffee Corners</a>
       <a href="/materials-supply/collections/building-materials/" class:list={[{ 'is-active': isActive('/materials-supply/') }]}>Building Materials</a>
       <a href="/collections/kitchens/" class:list={[{ 'is-active': isActive('/collections/kitchens/') }]}>Kitchens</a>
       <a href="/collections/bathrooms/" class:list={[{ 'is-active': isActive('/collections/bathrooms/') }]}>Bathrooms</a>
       <a href="/trade/" class:list={[{ 'is-active': isActive('/trade/') }]}>Trade</a>
-      <a href="/our-story/" class:list={[{ 'is-active': isActive('/our-story/') }]}>Our Story</a>
     </nav>
 
     <!-- Header Actions -->
@@ -86,11 +86,11 @@ const isActive = (href: string) => {
 
   <!-- Mobile Drawer Panel -->
   <nav class="cb-mobile-panel cb-container" id="cb-mobile-panel" aria-label="Mobile navigation" hidden>
-    <a href="/materials-supply/collections/building-materials/"><strong>Building Materials</strong></a>
+    <a href="/coffee-corners/"><strong>Coffee Corners</strong></a>
+    <a href="/materials-supply/collections/building-materials/">Building Materials</a>
     <a href="/collections/kitchens/">Kitchens</a>
     <a href="/collections/bathrooms/">Bathrooms</a>
     <a href="/trade/">Trade &amp; Specification</a>
-    <a href="/our-story/">Our Story</a>
     <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" style="color: #208b51; font-weight: 600;">
       WhatsApp — +44 7898 262110
     </a>
@@ -451,11 +451,11 @@ const isActive = (href: string) => {
 }
 
 @media (max-width: 1170px) {
-  .cb-nav,
+  .cb-header .cb-nav,
   .cb-whatsapp,
   .cb-actions > .cb-cta,
   .cb-top-message {
-    display: none;
+    display: none !important;
   }
   .cb-main-inner {
     min-height: 86px;

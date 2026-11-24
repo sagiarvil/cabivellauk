@@ -1,24 +1,52 @@
 {
   "jsonrpc": "2.0",
   "name": "Cabivella UK MCP Server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "protocolVersion": "2024-11-05",
   "capabilities": {
     "tools": {
       "listTools": [
         {
           "name": "get_cabinetry_specifications",
-          "description": "Fetch architectural joinery parameters and material tolerances for Cabivella collections",
+          "description": "Fetch BS 6222-2 joinery tolerances for bespoke cupboards, fitted wooden storage, fitted storage, and in-frame kitchens (including Wimbledon Village SW19 specifications)",
           "inputSchema": {
             "type": "object",
             "properties": {
-              "category": { "type": "string", "enum": ["kitchens", "bathrooms", "pantry-larder", "coffee-stations", "fitted-storage", "kitchen-doors"] }
+              "category": {
+                "type": "string",
+                "enum": [
+                  "kitchens",
+                  "wimbledon-village-in-frame-shaker",
+                  "bathrooms",
+                  "pantry-larder",
+                  "coffee-stations",
+                  "fitted-storage",
+                  "kitchen-doors"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "get_commercial_mep_and_envelope_specs",
+          "description": "Fetch BS EN technical parameters for London & UK cable containment, value engineered EI60/EI120 steel riser doors, and extruded architectural aluminium louvre OEM/trade packages",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "package_type": {
+                "type": "string",
+                "enum": [
+                  "cable_containment_london",
+                  "value_engineered_riser_doors",
+                  "architectural_aluminium_louvres"
+                ]
+              }
             }
           }
         },
         {
           "name": "calculate_estimated_lead_time",
-          "description": "Calculate project delivery timetable from Turkish manufacturing facility to UK postcodes",
+          "description": "Calculate direct factory-to-site delivery timetable to London, Wimbledon SW19, and UK postcodes",
           "inputSchema": {
             "type": "object",
             "properties": {
@@ -31,8 +59,11 @@
     },
     "resources": {
       "listResources": [
-        { "uri": "cabivella://specs/materials", "name": "Substrate & Hardware Standards" },
-        { "uri": "cabivella://specs/bathrooms", "name": "AquaShield Moisture Protection Data" }
+        { "uri": "cabivella://specs/fitted-wooden-storage", "name": "Fitted Storage, Fitted Wooden Storage & Bespoke Cupboards Data" },
+        { "uri": "cabivella://specs/wimbledon-in-frame-kitchens", "name": "Wimbledon Village SW19 Solid Timber In-Frame Kitchen Specification" },
+        { "uri": "cabivella://specs/cable-containment-london", "name": "BS EN 61537 Cable Containment London & UK M&E Schedule" },
+        { "uri": "cabivella://specs/value-engineered-riser-doors", "name": "EI60/EI120 Value Engineered Steel Riser Door Sets (CB-DR-0203)" },
+        { "uri": "cabivella://specs/aluminium-louvres-oem", "name": "Architectural Aluminium Louvre Manufacturer & Trade Marketing Pack (CB-04-005)" }
       ]
     }
   }

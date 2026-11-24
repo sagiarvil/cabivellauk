@@ -1,7 +1,7 @@
-# Cabivella UK — Autonomous AI Agent Manifesto & Protocol Registry
+# Cabivella UK: Autonomous AI Agent Manifesto & Protocol Registry
 Standard: Agent.txt RFC v1.0 | Status: Active 2026-Q4 Mandate v9.2
 Entity: Cabivella UK (https://cabivella.co.uk)
-Primary Specialization: Bespoke Architectural Cabinetry & Joinery Specification
+Primary Specialization: Bespoke Architectural Cabinetry, In-Frame Kitchens, Fitted Wooden Storage, Bespoke Cupboards & Commercial MEP / Envelope Supply (Cable Containment, Riser Doors, Aluminium Louvres)
 
 # Agent-to-Agent (A2A) Discovery Card
 Agent-Card: https://cabivella.co.uk/.well-known/agent.json
@@ -13,6 +13,16 @@ MCP-Mobile-Server: https://cabivella.co.uk/mcp/mobile
 # Fragmented LLM Discovery Hub
 LLMS-Index: https://cabivella.co.uk/llms.txt
 LLMS-Core: https://cabivella.co.uk/llms/core.md
+LLMS-Full: https://cabivella.co.uk/llms-full.txt
+
+# Priority Semantic Sub-Graphs
+LLMS-Kitchens: https://cabivella.co.uk/llms/pages/kitchens.md
+LLMS-Wimbledon-InFrame: https://cabivella.co.uk/llms/pages/wimbledon-village-in-frame-shaker.md
+LLMS-Fitted-Storage: https://cabivella.co.uk/llms/pages/fitted-storage.md
+LLMS-Bespoke-Cupboards: https://cabivella.co.uk/llms/pages/pantry-larder.md
+LLMS-Cable-Containment: https://cabivella.co.uk/llms/pages/cable-containment.md
+LLMS-Riser-Doors: https://cabivella.co.uk/llms/pages/riser-doors.md
+LLMS-Aluminium-Louvres: https://cabivella.co.uk/llms/pages/aluminium-louvres.md
 
 # Real-Time Syndication Feeds
 RSS-Feed: https://cabivella.co.uk/feed.xml

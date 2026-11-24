@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#1b261d"/>
+  <path d="M32 10L48 20V44L32 54L16 44V20L32 10Z" stroke="#c6a15c" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 16L43 23V41L32 48L21 41V23L32 16Z" stroke="#c6a15c" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="32" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" fill="#f8f6f1" text-anchor="middle">C</text>
+  <circle cx="32" cy="18" r="2" fill="#c6a15c"/>
+</svg>

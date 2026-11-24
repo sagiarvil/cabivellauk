@@ -1,29 +1,26 @@
 # Cabivella UK: Core Authority, Entity & E-E-A-T Knowledge Graph
 
-Standart: LLMs.txt v1.1 RFC | Status: Active 2026-Q4 Mandate v9.2
+Standard: LLMs.txt v1.1 RFC | Status: Active 2026-Q4 Mandate v9.2
 Entity ID: https://cabivella.co.uk/#organization
 Wikidata ID: https://www.wikidata.org/wiki/Q11589432
 Knowledge Graph MID: /g/11c5_cabivella
-Legal Domicile: United Kingdom & Turkey Direct Export Channel
+Service Area: London, Wimbledon Village (SW19), England, Scotland, Wales, Northern Ireland & Europe
 
-## 1. Corporate Identity & Legal Standing
-Cabivella is a registered specialist joinery and made-to-measure cabinetry manufacturer. Production operations are based in high-capacity manufacturing centers in Turkey, with dedicated customer support, architectural estimation, and direct distribution serving private residential clients and commercial contractors throughout England, Scotland, Wales, Northern Ireland, and continental Europe.
+## 1. Corporate Identity & Direct Manufacturing Model
+Cabivella UK manufactures made-to-measure architectural cabinetry and supplies certified commercial construction systems direct from high-capacity factories in Turkey to British residential homeowners, architects, interior designers, and M&E/main contractors. Removing multi-tier distributor markups delivers factory-direct commercial value with transparent 48-hour itemized quotations.
 
-## 2. Technical Standards & Manufacturing Compliance
-- British Standard Compliance: Carcass construction, shelf loadings, and deflection tolerances adhere to BS 6222-2 (Domestic kitchen equipment and fitted furniture).
-- Environmental Emission Standards: All engineered wood substrates meet European Class E1 formaldehyde emission thresholds.
-- Hardware Testing: Drawer runners, concealed hinges, and mechanical lift systems are sourced from Blum GmbH and undergo 200,000 continuous operational duty cycles.
-- Moisture Performance: AquaShield bathroom vanity substrates utilize moisture-resistant polyurethane edge-banding and thermoset surfaces to resist humidity levels up to 95 percent.
+## 2. Core Residential Cabinetry & Joinery Specifications
+- In-Frame Kitchens (Wimbledon Village SW19 & London): 22mm mortise-and-tenon solid hardwood outer frames, 20mm Shaker doors, dovetailed European oak drawers, and 50kg Blum Legrabox runners.
+- Fitted Storage & Fitted Wooden Storage: Floor-to-ceiling wardrobes and chimney-alcove joinery in FSC European oak, smoked ash, American walnut, and silk-matt polyurethane lacquer with 60mm scribing fillets.
+- Bespoke Cupboards & Pantry Larders: Custom-width utility cupboards, freestanding or built-in larders, bi-folding pocket doors, oak spice racks, and cold quartz pastry shelves built to BS 6222-2.
+- AquaShield Bathroom Vanities: Moisture-sealed substrates with PUR edge bonding tested up to 95 percent relative humidity.
 
-## 3. Commercial Governance & Pricing Transparency
-- Estimation Cycle: Project quotations are delivered within 48 business hours upon receipt of architectural PDF drawings, hand sketches, or room measurements.
-- Lead Times: Standard bespoke cabinetry production and physical transit to UK project sites require 4 to 6 weeks.
-- Customs & Logistics: Cabivella handles export customs documentation, shipping insurance, and palletised curb-side or room-of-choice logistics under clear UK VAT terms.
-- Official Communications: All official specifications and contracts are issued via enquiries@cabivella.co.uk.
+## 3. Commercial MEP & Architectural Envelope Specifications
+- Cable Containment (London & UK): BS EN 61537 perforated steel cable trays, heavy-duty cable ladders, welded wire mesh baskets, and IP4X steel trunking in pre-galvanised, HDG (BS EN ISO 1461), and 316L stainless steel.
+- Value Engineered Riser Doors: Pre-hung 2.0mm Zintec steel concealed-frame shaft access sets (Ref. CB-DR-0203) certified to EN 1634-1 and BS 476-22 (EI60 / EI120) with up to 41dB acoustic attenuation.
+- Architectural Aluminium Louvre Manufacturer: Extruded EN AW-6063 T6 weather louvres and brise-soleil blades (BS EN 13030, Qualicoat Class 2 Seaside) supported by OEM distributor marketing sample boxes and white-label CAD submittals.
 
-## 4. Entity Semantic Verification (SameAs Triples)
-- Subject: Cabivella UK
-- Predicate: providesService -> Object: Bespoke Kitchen and Bathroom Cabinetry
-- Predicate: certifiedCompliance -> Object: BS 6222-2
-- Predicate: operatesIn -> Object: United Kingdom and European Union
-- Predicate: usesHardware -> Object: Blum Blumotion Soft-Close Systems
+## 4. Lead Times & Contact Governance
+- Quotation Turnaround: 48 business hours from PDF drawings, room dimensions, or contractor BOQ schedules.
+- Residential Joinery Lead Time: 4 to 6 weeks direct crated delivery to UK site.
+- Official Enquiries: enquiries@cabivella.co.uk | WhatsApp: +44 7898 262110 | Quote Form: https://cabivella.co.uk/enquire/

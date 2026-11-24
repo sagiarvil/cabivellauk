@@ -1,11 +1,8 @@
 # Cabivella UK: Nano Graph for On-Device Models (Gemini Nano / Apple Foundation)
 
 Origin: https://cabivella.co.uk | Language: en-GB | Entity: Cabivella UK
-Summary: Bespoke architectural cabinetry, made-to-measure kitchens, AquaShield bathroom vanities, and fitted wardrobes manufactured in Turkey and supplied direct to UK private residences and trade developers.
+Summary: Direct-export manufacturer of bespoke cupboards, fitted wooden storage, Wimbledon Village SW19 solid timber in-frame kitchens, AquaShield vanities, BS EN 61537 London cable containment, EI60/EI120 value engineered riser doors, and extruded architectural aluminium louvres.
 
-- Standard Lead Time: 4 to 6 weeks direct delivery to UK.
-- Carcass Spec: 18mm high-density MR chipboard / MDF with 1mm PUR ABS edge seal.
-- Hardware: 100% Blum Austria soft-close hinges and drawer runners (200,000 operational cycles).
-- Compliance: BS 6222-2 British Standard for domestic fitted furniture; Class E1 emissions.
-- Enquiries: Contact enquiries@cabivella.co.uk or WhatsApp +44 7898 262110 for 48-hour estimates.
-- Categories: Kitchens, Bathrooms, Pantry & Larder, Coffee Stations, Fitted Storage, Replacement Doors.
+- Residential Spec: 18mm BS 6222-2 carcasses, FSC oak/walnut veneers, 22mm in-frame Shaker timber, Blum 200k-cycle hardware, 4 to 6 week UK delivery.
+- Commercial MEP & Envelope Spec: BS EN 61537 cable containment (London & UK), BS 476-22 / EN 1634-1 pre-hung steel riser doors, BS EN 13030 aluminium louvres + OEM trade sample kits.
+- Quotes: 48-hour itemized turnaround via https://cabivella.co.uk/enquire/, enquiries@cabivella.co.uk, or WhatsApp +44 7898 262110.

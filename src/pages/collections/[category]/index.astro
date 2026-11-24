@@ -6,6 +6,7 @@ import { collectionsData, type CollectionCategory } from '../../../data/collecti
 import { modelsData, type ModelDetail } from '../../../data/models';
 import { getBreadcrumbSchema } from '../../../lib/structured-data';
 import DynamicWatermark from '../../../components/DynamicWatermark.astro';
+import CoffeeCornersCatalog from '../../../components/CoffeeCornersCatalog.astro';
 
 export async function getStaticPaths() {
   return Object.values(collectionsData).map((category) => ({
@@ -537,6 +538,10 @@ const bathroomSubCollections = [
             ))}
           </div>
         </section>
+
+        {category.slug === 'coffee-stations' && (
+          <CoffeeCornersCatalog showHeadingH1={false} />
+        )}
       </>
     )}
 

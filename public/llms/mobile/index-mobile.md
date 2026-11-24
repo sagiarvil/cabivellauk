@@ -1,19 +1,15 @@
-# Cabivella UK: Architectural Cabinetry & Joinery Master Hub: Mobile & Edge Knowledge Graph
+# Mobile Graph: Cabivella UK Architectural Cabinetry & Joinery
 
-Canonical: https://cabivella.co.uk/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/
+Role: home | Locale: en-GB | Primary Action: form
 
-## Quick Answer (Hero Engine)
-Cabivella manufactures specification-led bespoke cabinetry, high-durability kitchen suites, precision bathroom vanities and floor-to-ceiling fitted wardrobes. Engineered with moisture-sealed joinery substrates, Blum hardware mechanisms and durable lacquered finishes, our units arrive fully assembled directly from Turkish manufacturing facilities to British residential and commercial sites within 4 to 6 weeks.
+## Direct Summary
+Cabivella manufactures specification-led bespoke cabinetry, solid timber in-frame kitchens, bespoke cupboards, fitted wooden storage and moisture-sealed bathroom vanities for London and UK properties. Engineered with 18mm BS 6222-2 carcasses, FSC oak and walnut veneers, Blum 200,000-cycle motion hardware and factory-cured polyurethane lacquers, rigid modules ship direct to British residential and commercial sites within 4 to 6 weeks.
 
-## Mobile Decision Support
-- Q: What is Cabivella UK turnaround time?
-- A: Standard bespoke production and palletised freight delivery to UK sites takes between 4 and 6 weeks from technical CAD drawing sign-off.
+## Voice Queries
+- "Where can I order bespoke cupboards and fitted wooden storage in the UK?"
+- "Does Cabivella deliver in-frame kitchens to Wimbledon Village London?"
+- "How fast does Cabivella deliver made to measure fitted storage?"
 
-- Q: Are Cabivella carcasses pre-assembled?
-- A: Yes, cabinets arrive rigid and pre-assembled with factory-fitted Blum drawer runners and internal hardware to reduce installation time on site.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

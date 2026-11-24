@@ -1,19 +1,14 @@
-# Architectural Fitted Storage & Wardrobes: Mobile & Edge Knowledge Graph
+# Mobile Graph: Architectural Fitted Storage & Wardrobes
 
-Canonical: https://cabivella.co.uk/collections/fitted-storage/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/collections/fitted-storage/
+Role: category | Locale: en-GB | Primary Action: form
 
-## Quick Answer (Hero Engine)
-Cabivella fitted storage and wardrobe joinery maximizes vertical wall space with millimetric floor-to-ceiling framing. Configurable options include whisper-quiet sliding tracks, full-extension acoustic soft-close drawers, reeded glass display portals, built-in jewellery partitions, and flush scribing trims that accommodate uneven British period property walls and ceilings.
+## Direct Summary
+Cabivella fitted storage and fitted wooden storage joinery maximizes vertical wall and chimney-alcove footprints with millimetric floor-to-ceiling framing. Crafted from FSC-certified European oak, walnut veneers and 18mm moisture-resistant cores to BS 6222-2, configurations include bespoke alcove cupboards, louvred timber doors, acoustic soft-close ash drawers, reeded glass vitrines, and 60mm scribing trims for British period properties.
 
-## Mobile Decision Support
-- Q: Can fitted wardrobes be built up to ceiling height in period homes?
-- A: Yes, integrated 60mm scribing fillets allow on-site profiling to match uneven Victorian or Georgian cornicing and ceiling contours.
+## Voice Queries
+- "Where can I order bespoke fitted wooden storage in the UK?"
+- "Can fitted storage and bespoke cupboards fit uneven chimney alcoves?"
 
-- Q: What interior configurations are available for wardrobes?
-- A: Options include dual-height hanging rails, pull-out trouser racks, integrated LED lighting, and velvet-lined accessory drawers.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

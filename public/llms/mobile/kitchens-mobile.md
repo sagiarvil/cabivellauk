@@ -1,19 +1,14 @@
-# Bespoke Kitchens: Made-to-Measure Kitchen Cabinetry: Mobile & Edge Knowledge Graph
+# Mobile Graph: Bespoke Made-to-Measure Kitchens
 
-Canonical: https://cabivella.co.uk/collections/kitchens/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/collections/kitchens/
+Role: category | Locale: en-GB | Primary Action: form
 
-## Quick Answer (Hero Engine)
-Cabivella kitchen cabinetry delivers bespoke millimeter-accurate spatial planning across contemporary handleless profiles, tactile fluted facades, and timeless five-piece timber shaker doors. Carcasses use 18mm high-density moisture-resistant melamine-faced chipboard with 1mm impact-absorbing ABS edging, completed with Blum soft-close runner systems and architectural pocket door configurations.
+## Direct Summary
+Cabivella bespoke kitchens unite millimetre-accurate spatial engineering across solid hardwood in-frame Shaker cabinetry, tactile fluted timber islands, and minimalist Gola handleless runs. Tailored for period residences in Wimbledon Village (SW19), Richmond, Kensington and across Britain, our 18mm BS 6222-2 carcasses pair dovetailed oak drawers with Blum soft-close hardware and 4 to 6 week direct delivery.
 
-## Mobile Decision Support
-- Q: What carcass thickness does Cabivella use for kitchens?
-- A: Carcasses are constructed using rigid 18mm high-density moisture-resistant panels with solid 18mm back panels for long-term structural integrity.
+## Voice Queries
+- "Who supplies bespoke in-frame kitchens in Wimbledon Village?"
+- "How much time does a bespoke kitchen from Cabivella take to deliver?"
 
-- Q: Does Cabivella supply kitchen worktops?
-- A: Cabivella specializes in precision cabinetry; we supply cabinetry carcass structures ready for local stone, quartz or solid wood worktop templating.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

@@ -180,15 +180,19 @@ import DynamicWatermark from '../../components/DynamicWatermark.astro';
         <div class="leadership-credentials">
           <div class="credential-item">
             <strong>Company Leadership</strong>
-            <span>Cem Yeşilay &bull; Owner & Managing Director</span>
+            <span>Cem Yeşilay &bull; Owner &amp; Managing Director</span>
           </div>
           <div class="credential-item">
             <strong>Financial Governance</strong>
             <span>Barış Bağırlar &bull; Head of Finance</span>
           </div>
           <div class="credential-item">
+            <strong>Dedicated Client Management</strong>
+            <span>Direct Workshop Specification &amp; UK Project Coordination</span>
+          </div>
+          <div class="credential-item">
             <strong>Direct Export Supply</strong>
-            <span>Bespoke & Wholesale supply direct to UK & European destinations</span>
+            <span>Bespoke &amp; Wholesale supply direct to UK &amp; European destinations</span>
           </div>
         </div>
 
@@ -312,9 +316,14 @@ import DynamicWatermark from '../../components/DynamicWatermark.astro';
   }
 
   .story-hero-header h1 {
-    font-size: clamp(38px, 4.8vw, 68px);
+    font-size: clamp(38px, 4.8vw, 64px);
     margin: 12px 0 20px;
-    line-height: 1.05;
+    line-height: 1.08;
+  }
+
+  .story-hero-header h1 em {
+    font-style: normal;
+    color: var(--gold-dark);
   }
 
   .story-hero-lead {
@@ -522,7 +531,7 @@ import DynamicWatermark from '../../components/DynamicWatermark.astro';
     .story-hero-header h1 {
       font-size: 28px;
     }
-    .giant-panorama-stage {
+    .story-giant-panorama-stage {
       padding: 16px 0 0;
     }
     .giant-panorama-meta {

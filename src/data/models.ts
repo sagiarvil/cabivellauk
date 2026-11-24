@@ -699,6 +699,45 @@ export const modelsData: Record<string, ModelDetail> = {
     ],
     "style": "modern"
   },
+  "wimbledon-village-in-frame-shaker": {
+    "slug": "wimbledon-village-in-frame-shaker",
+    "title": "Wimbledon Village Solid Timber In-Frame Shaker Kitchen",
+    "category": "kitchens",
+    "categoryTitle": "Kitchens",
+    "metaTitle": "In-Frame Kitchens Wimbledon Village & SW19 | Bespoke Shaker | Cabivella",
+    "metaDescription": "Bespoke solid timber in-frame kitchens designed for Wimbledon Village (SW19) period homes. 22mm mortise-and-tenon frames, dovetailed oak and 48h estimates.",
+    "description": "Handcrafted specifically for Edwardian, Victorian and Conservation Area residences in Wimbledon Village (SW19), Richmond and South West London, this authentic in-frame Shaker kitchen seats each 20mm five-piece timber door flush inside a rigid 22mm mortise-and-tenon solid hardwood outer frame. Complete with dovetailed European oak drawer boxes, bespoke chimney-alcove scribing, walk-in larder cupboards and factory-cured polyurethane lacquer.",
+    "image": "/assets/img/models/kitchen_suites/cavendish-classical-shaker_2.webp",
+    "gallery": [
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_2.webp",
+      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_2.webp",
+      "/assets/img/models/kitchen_suites/blenheim-grand-manor_2.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_4.webp",
+      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_4.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_6.webp"
+    ],
+    "dimensionsMm": "Made to measure (typical 4200 mm SW19 period kitchen run × up to 3000 mm ceiling height × 650 mm island/carcass depth)",
+    "materials": [
+      "22mm Solid European Hardwood Mortise-and-Tenon Beaded In-Frame",
+      "Solid Dovetailed European Oak Drawer Boxes & Spice Racks",
+      "18mm BS 6222-2 High-Density Moisture-Resistant Carcass Core",
+      "Solid Brass Heritage Butt Hinges or Concealed Blum Legrabox 50kg Runners"
+    ],
+    "finishOptions": [
+      "Wimbledon Parchment Silk-Matt Lacquer",
+      "Heritage Farrow-Inspired Olive & Sage",
+      "Oxford Midnight Navy Polyurethane",
+      "Natural Oiled European Oak Interior"
+    ],
+    "installationScope": "Delivered direct to Wimbledon Village (SW19) and UK postcodes in rigid pre-assembled crated modules within 4 to 6 weeks, complete with 60mm solid scribing stiles",
+    "keyFeatures": [
+      "True 22mm solid hardwood in-frame construction engineered to resist seasonal movement in SW19 period homes",
+      "Bespoke tall larder cupboards, bi-fold pocket-door breakfast stations and chimney-breast mantle housings",
+      "Dovetailed solid oak cutlery tiers paired with 50kg Blumotion soft-close undermount runners",
+      "48-hour itemized quotation directly from your architect's PDF plans or room survey dimensions"
+    ],
+    "style": "classic"
+  },
   "wimbledon-linear-urban": {
     "slug": "wimbledon-linear-urban",
     "title": "Wimbledon Compact Linear Urban Suite",
@@ -1818,28 +1857,28 @@ export const modelsData: Record<string, ModelDetail> = {
   "tall-larder-cupboards": {
     "slug": "tall-larder-cupboards",
     "category": "pantry-larder",
-    "title": "Tall Larder & Pantry Cupboards",
-    "metaTitle": "Tall Larder & Pantry Cupboards | Made-to-Measure Kitchen Storage | Cabivella UK",
-    "metaDescription": "Double-door and single-door pantry cupboards with solid oak door-mounted spice racks, internal drawers, and cold marble shelf options.",
-    "dimensionsMm": "Widths from 600mm single to 1200mm double armoire; heights up to 2400mm",
+    "title": "Bespoke Tall Larder & Pantry Cupboards",
+    "metaTitle": "Bespoke Tall Larder & Pantry Cupboards | Made-to-Measure Joinery | Cabivella UK",
+    "metaDescription": "Handcrafted bespoke cupboards and double-door pantry larders with solid oak spice racks, dovetailed drawers and cold quartz shelves for UK homes.",
+    "dimensionsMm": "Bespoke widths from 600mm single cupboard to 1200mm–2400mm double armoire; heights up to 2850mm",
     "materials": [
-      "Solid oak internal drawers & door racks",
-      "Moisture-resistant carcass timber",
-      "170-degree wide-angle soft-close hinges"
+      "Solid European oak internal drawers & door spice racks",
+      "18mm BS 6222-2 moisture-resistant structural carcass",
+      "Blum 170-degree wide-angle soft-close hinges"
     ],
     "finishOptions": [
       "Heritage Sage Green",
       "Oxford Navy",
       "Parchment Cream",
-      "Smoked Oak exterior"
+      "Smoked Oak fitted wooden exterior"
     ],
-    "installationScope": "Delivered rigid with adjustable heavy-load levelling feet and top cornice mouldings.",
+    "installationScope": "Delivered rigid across London and the UK with heavy-load levelling feet, top cornice mouldings and 60mm wall scribing trims.",
     "image": "/assets/img/models/tall-larder-cupboards.webp",
     "gallery": [
       "/assets/img/models/tall-larder-cupboards.webp",
       "/assets/img/models/corner-pantry-storage.webp"
     ],
-    "description": "The quintessential culinary larder. Deep dovetail drawers glide forward effortlessly, while door-mounted solid oak racks display spices at eye level.",
+    "description": "Our signature bespoke cupboards and freestanding or built-in culinary larders. Deep dovetailed oak drawers glide forward effortlessly, while door-mounted solid timber racks organise dry provisions at eye level.",
     "keyFeatures": [
       "Solid timber door-mounted spice and jar racks with brass retaining rails",
       "Full-depth lower pantry pull-out drawers with 50kg dynamic load ratings",
@@ -6896,23 +6935,23 @@ export const modelsData: Record<string, ModelDetail> = {
   "wimbledon-6-door-master-wardrobe-15": {
       "slug": "wimbledon-6-door-master-wardrobe-15",
       "category": "fitted-storage",
-      "title": "Wimbledon 6-Door Integrated Wardrobe",
-      "metaTitle": "Wimbledon 6-Door Integrated Wardrobe | Cabivella UK",
-      "metaDescription": "Bespoke 6-door fitted wardrobe with integrated soft-close mechanisms, interior lighting, and tailored British joinery.",
-      "dimensionsMm": "Bespoke width (6-Door), 600mm carcass depth, made-to-measure ceiling height",
+      "title": "Wimbledon 6-Door Fitted Wooden Storage & Wardrobe",
+      "metaTitle": "Wimbledon 6-Door Fitted Wooden Storage & Bespoke Wardrobe | Cabivella UK",
+      "metaDescription": "Made-to-measure 6-door fitted wooden storage and bespoke bedroom cupboards crafted for Wimbledon SW19 and UK homes with solid ash drawers and Blum hinges.",
+      "dimensionsMm": "Bespoke width (6-Door run), 600mm carcass depth, scribed floor-to-ceiling up to 2900mm",
       "materials": [
-          "High-density moisture-resistant MR-MDF core",
-          "Solid European Ash interior drawer components",
-          "Concealed German soft-close hydraulic hinge systems"
+          "18mm BS 6222-2 moisture-resistant core with FSC smoked oak veneer option",
+          "Solid European Ash dovetailed internal drawer boxes",
+          "Concealed Blum 110-degree soft-close hydraulic hinge systems"
       ],
       "finishOptions": [
           "Chalk White Silk",
           "Heritage Pumice",
           "Oxford Midnight Blue",
-          "Natural Smoked Oak",
+          "Natural Smoked Oak Wooden Veneer",
           "Muted Sage Lacquer"
       ],
-      "installationScope": "Delivered fully finished in protective crates; ready for turnkey assembly by your appointed specialist.",
+      "installationScope": "Delivered fully finished in protective crates across Wimbledon, London and the UK; supplied with 60mm scribing stiles for uneven period walls.",
       "image": "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_1.webp",
       "gallery": [
           "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_1.webp",
@@ -6920,7 +6959,7 @@ export const modelsData: Record<string, ModelDetail> = {
           "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_3.webp",
           "/assets/img/models/real_fitted_storage/mondi_22EWA2006MWMW_4.webp"
       ],
-      "description": "Tailored specifically for generous master dressing rooms and elegant British bedrooms, the Wimbledon 6-Door Integrated Wardrobe combines refined architectural proportions with intelligent full-extension interior storage.",
+      "description": "Engineered for master dressing rooms and period alcoves in Wimbledon (SW19) and across Britain, the Wimbledon 6-Door Fitted Wooden Storage suite pairs floor-to-ceiling bespoke cupboards with full-extension solid ash interior drawers.",
       "keyFeatures": [
           "Full-height 6-door configuration with balanced shadow-gap reveals",
           "Concealed Blum/Hettich 110-degree soft-close integrated hinges",
@@ -17407,9 +17446,9 @@ export const modelsData: Record<string, ModelDetail> = {
   "cotswold-classic-shaker-fitted-wardrobe": {
       "slug": "cotswold-classic-shaker-fitted-wardrobe",
       "category": "fitted-storage",
-      "title": "Cotswold Classic In-Frame Shaker Wardrobe",
-      "metaTitle": "Cotswold Classic In-Frame Shaker Fitted Wardrobe | Cabivella UK",
-      "metaDescription": "Timeless British in-frame shaker wardrobe suite with recessed panel joinery, made-to-measure ceiling height, and integrated drawer packs.",
+      "title": "Cotswold Classic In-Frame Fitted Wooden Storage & Wardrobe",
+      "metaTitle": "Cotswold In-Frame Fitted Wooden Storage & Bespoke Cupboards | Cabivella UK",
+      "metaDescription": "Timeless British in-frame shaker fitted wooden storage and bespoke bedroom cupboards with solid oak internal drawers and floor-to-ceiling scribing.",
       "dimensionsMm": "Made-to-measure width (2400mm\u20133600mm), 600mm carcass depth, full ceiling height (up to 2750mm)",
       "materials": [
           "FSC-certified moisture-resistant engineered core",
@@ -18486,13 +18525,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "dimensionsMm": "Custom widths (from 1100mm to 4200mm W x 2750mm H x 600mm D)",
     "id": "fitzrovia-louvred-accent-wardrobe",
     "slug": "fitzrovia-louvred-accent-wardrobe",
-    "title": "Fitzrovia Louvred Accent Fitted Wardrobe",
-    "subtitle": "Natural airflow ventilated louvre timber doors with relaxed contemporary poise",
+    "title": "Fitzrovia Louvred Timber Fitted Wooden Storage",
+    "subtitle": "Ventilated solid timber louvre doors for breathable fitted wooden storage and bespoke cupboards",
     "category": "fitted-storage",
     "style": "classic",
-    "heroEyebrow": "BESPOKE ARCHITECTURAL WARDROBES",
-    "metaTitle": "Fitzrovia Louvred Accent Fitted Wardrobe | Cabivella UK",
-    "metaDescription": "Ventilated louvred wardrobe doors providing continuous fresh air circulation and tactile texture for British bedrooms.",
+    "heroEyebrow": "FITTED WOODEN STORAGE & BESPOKE CUPBOARDS",
+    "metaTitle": "Fitzrovia Louvred Timber Fitted Wooden Storage & Wardrobe | Cabivella UK",
+    "metaDescription": "Ventilated solid timber louvred fitted wooden storage and bespoke cupboards providing continuous airflow and floor-to-ceiling joinery for UK homes.",
     "description": "The Fitzrovia wardrobe combines practical air permeability with distinct architectural texture. Precision angled horizontal timber louvres ensure continuous natural airflow through stored garments, preventing stale moisture accumulation.",
     "image": "/images/fitted-storage/cabivella-sorrento-view-1.webp",
     "gallery": [

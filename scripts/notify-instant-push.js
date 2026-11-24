@@ -111,9 +111,14 @@ if (process.argv[1] === currentFilePath) {
     'https://cabivella.co.uk/',
     'https://cabivella.co.uk/collections/',
     'https://cabivella.co.uk/collections/kitchens/',
-    'https://cabivella.co.uk/collections/bathrooms/',
+    'https://cabivella.co.uk/collections/kitchens/wimbledon-village-in-frame-shaker/',
+    'https://cabivella.co.uk/collections/pantry-larder/',
     'https://cabivella.co.uk/collections/fitted-storage/',
-    'https://cabivella.co.uk/trade/'
+    'https://cabivella.co.uk/materials-supply/products/cable-tray-and-containment/',
+    'https://cabivella.co.uk/materials-supply/products/technical-plant-service-riser-steel-doors/',
+    'https://cabivella.co.uk/materials-supply/products/decorative-aluminium-louvre/',
+    'https://cabivella.co.uk/trade/',
+    'https://cabivella.co.uk/llms.txt'
   ];
   executeTriplePush(sampleUrls).catch(console.error);
 }

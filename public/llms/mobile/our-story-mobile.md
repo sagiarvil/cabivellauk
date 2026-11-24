@@ -1,19 +1,14 @@
-# Our Story & Architectural Manufacturing Approach: Mobile & Edge Knowledge Graph
+# Mobile Graph: Our Story & Architectural Manufacturing Approach
 
-Canonical: https://cabivella.co.uk/our-story/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/our-story/
+Role: article | Locale: en-GB | Primary Action: navigate
 
-## Quick Answer (Hero Engine)
-Cabivella bridges bespoke cabinet-making traditions with state-of-the-art CNC joinery manufacturing. Operating from dedicated production facilities in Turkey with direct distribution across the UK and mainland Europe, we eliminate intermediary markups, providing architectural joinery solutions with transparent lead times, strict quality control, and dedicated English-speaking technical support.
+## Direct Summary
+Cabivella unites traditional cabinet-making craftsmanship with five-axis CNC joinery and architectural building-material export. Operating from high-capacity manufacturing facilities in Turkey with direct logistics into London and across Britain, we remove multi-tier distributor markups on bespoke kitchens, fitted wooden storage, riser doors and commercial façade packages.
 
-## Mobile Decision Support
-- Q: Why does Cabivella manufacture in Turkey for the UK market?
-- A: Turkey offers world-renowned artisanal woodworking expertise and high-efficiency precision CNC infrastructure, delivering superior joinery at direct value.
+## Voice Queries
+- "Where are Cabivella cabinets and architectural materials manufactured?"
+- "How does Cabivella ship joinery direct to the UK?"
 
-- Q: How does Cabivella support UK clients during installation?
-- A: We provide detailed CAD assembly drawings, hardware templates, and direct telephone technical support to installers and carpenters.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

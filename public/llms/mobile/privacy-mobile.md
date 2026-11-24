@@ -1,19 +1,13 @@
-# Privacy Policy & UK GDPR Compliance: Mobile & Edge Knowledge Graph
+# Mobile Graph: Privacy Policy & Data Protection
 
-Canonical: https://cabivella.co.uk/privacy/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/privacy/
+Role: legal | Locale: en-GB | Primary Action: navigate
 
-## Quick Answer (Hero Engine)
+## Direct Summary
 Cabivella processes client project data strictly in compliance with the UK General Data Protection Regulation (UK GDPR) and Data Protection Act 2018. Client architectural plans, contact details, and site addresses are utilized exclusively for estimating, quotation delivery, and physical shipping logistics without third-party data monetization.
 
-## Mobile Decision Support
-- Q: Does Cabivella sell customer project data to third parties?
-- A: No, client data and floor plans are strictly used for quotation, manufacture and delivery purposes without third-party resale.
+## Voice Queries
+- "How does Cabivella handle private project data?"
 
-- Q: How can I request deletion of my project files?
-- A: Contact enquiries@cabivella.co.uk at any time to request complete data removal in accordance with UK GDPR rights.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

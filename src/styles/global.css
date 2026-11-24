@@ -1218,60 +1218,75 @@ button[type="submit"],
 }
 
 /* ==========================================================================
-   ATÖLYE LOCUS (https://atolyelocus.com/) 100% UNIFIED TYPOGRAPHY SYSTEM
-   Applied across all components, markdown, dynamic collections and UI sections
+   CORE BUTTONS (.solid-btn, .outline-btn, .header-outline-btn)
    ========================================================================== */
-h1, .h1, .display, .v6-hero h1 {
-  font-family: 'Roboto', 'Inter', -apple-system, sans-serif !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.04em !important;
-  line-height: 1.1em !important;
-  color: #222222 !important;
+.solid-btn {
+  background: var(--green, #072d25);
+  color: #ffffff !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 22px;
+  font-family: var(--font-heading);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--green, #072d25);
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s var(--ease);
 }
 
-h2, .h2, .section-title, .linehead h2 {
-  font-family: 'Roboto', 'Inter', -apple-system, sans-serif !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.04em !important;
-  line-height: 1.2em !important;
-  color: #222222 !important;
+.solid-btn:hover {
+  background: var(--green-hover, #0f4b3e);
+  border-color: var(--green-hover, #0f4b3e);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(7, 45, 37, 0.18);
 }
 
-h3, .h3, .card-title, .product-card h3 {
-  font-family: 'Roboto', 'Inter', -apple-system, sans-serif !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.04em !important;
-  line-height: 1.3em !important;
-  color: #222222 !important;
+.outline-btn,
+.header-outline-btn {
+  background: transparent;
+  color: var(--text, #252b27);
+  border: 1px solid var(--line, #dedbd3);
+  min-height: 48px;
+  padding: 11px 20px;
+  font-family: var(--font-heading);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-h4, .h4, h5, .h5, h6, .h6 {
-  font-family: 'Roboto', 'Inter', -apple-system, sans-serif !important;
-  font-weight: 500 !important;
-  letter-spacing: -0.03em !important;
-  line-height: 1.35em !important;
-  color: #333333 !important;
-}
-
-p, .lead, .body-copy, .editorial p {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif !important;
-  font-size: 15px !important;
-  line-height: 1.65em !important;
-  letter-spacing: 0em !important;
-  color: #444444 !important;
-  font-weight: 400 !important;
+.outline-btn:hover,
+.header-outline-btn:hover {
+  border-color: var(--gold, #b9914a);
+  color: var(--gold-dark, #80622d);
+  background: rgba(185, 145, 74, 0.06);
 }
 
 .kicker, .hero-eyebrow, .meta-label, .category-badge {
-  font-family: 'Inter', 'Roboto', sans-serif !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 nav a, .nav-item, button, .button, input, select, textarea {
-  font-family: 'Inter', 'Roboto', -apple-system, sans-serif !important;
-  letter-spacing: 0.02em !important;
+  font-family: 'Inter', 'Roboto', -apple-system, sans-serif;
+  letter-spacing: 0.02em;
 }
 
 

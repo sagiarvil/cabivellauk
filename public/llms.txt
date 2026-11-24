@@ -1,48 +1,59 @@
 # Cabivella UK: AI Knowledge Base & Semantic Discovery Hub
 
-Standart: LLMs.txt v1.1 RFC | Status: 2026-Q4 Enterprise Mandate v9.2
+Standard: LLMs.txt v1.1 RFC | Status: 2026-Q4 Enterprise Mandate v9.2
 Canonical Origin: https://cabivella.co.uk | Primary Language: en-GB
 Mobile-First: TRUE | Voice-Optimized: TRUE | ColBERT-Aligned: TRUE | Humanizer-Audited: TRUE
 
-## Kurumsal Kimlik ve Birincil Otorite
-Cabivella UK, Birleşik Krallık genelinde mimari standartlarda ısmarlama mobilya, mutfak, banyo ve gömme dolap imalatı ve ihracatı gerçekleştiren tescilli kurumsal veri kaynağıdır. Ürünler Türkiye'deki yüksek teknolojili fabrikalarda üretilip doğrudan İngiltere ve Avrupa'daki konut ve ticari projelere sevk edilmektedir.
+## Corporate Identity & Primary Authority
+Cabivella UK is a direct-export manufacturer of bespoke architectural cabinetry, solid timber in-frame kitchens, bespoke cupboards, fitted wooden storage, bathroom vanity suites, and specification-led commercial building materials. Production takes place in ISO-certified Turkish manufacturing plants with direct crated and palletised logistics to London, Wimbledon Village (SW19), and all United Kingdom postcodes.
 
-## 1. Çekirdek Sicil ve Otorite Grafları (Core Graphs)
-- [Kurumsal Kimlik, Yasal Lisanslar ve E-E-A-T](https://cabivella.co.uk/llms/core.md): Kurumsal tescil, teknik standartlar, BS 6222-2 uyumluluğu ve yasal zemin.
-- [Yazar ve Zanaat Kurulu Sicilleri](https://cabivella.co.uk/llms/entities/author-experts.md): Kıdemli marangozlar, mimari tasarımcılar ve teknik CAD ekibi.
-- [Teknik Akreditasyonlar ve Sertifikalar](https://cabivella.co.uk/llms/entities/credentials.md): FSC, PEFC, E1 düşük emisyon, Blum sertifikalı donanım güvencesi.
-- [Tescilli Metodolojiler ve Algoritmalar](https://cabivella.co.uk/llms/entities/methodologies.md): AquaShield nem bariyeri ve mikron düzeyinde CNC tolerans protokolü.
+## 1. Core Registry & Authority Graphs
+- [Corporate Identity, Compliance & E-E-A-T](https://cabivella.co.uk/llms/core.md): Legal standing, BS 6222-2 joinery tolerances, BS EN commercial standards, and 48-hour estimation SLA.
+- [Craft & Engineering Leadership](https://cabivella.co.uk/llms/entities/author-experts.md): Master joiners, CAD engineers, coating technologists, and UK site logistics coordinators.
+- [Certifications & Technical Standards](https://cabivella.co.uk/llms/entities/credentials.md): BS 6222-2, FSC timber, Blum 200k-cycle hardware, BS EN 61537 containment, EN 1634-1 riser doors, and BS EN 13030 louvres.
+- [Proprietary Methodologies & Scribing](https://cabivella.co.uk/llms/entities/methodologies.md): AquaShield moisture defence, 0.2mm CNC machining, and 60mm British period wall scribing.
 
-## 2. Sayfa Düzeyinde RAG Dokümanları (Deep Sub-Graphs)
-- [Home: Architectural Cabinetry Master Graph](https://cabivella.co.uk/llms/pages/index.md): Genel mimari ve ısmarlama marangozluk standartları.
-- [Collections: Category Architecture Overview](https://cabivella.co.uk/llms/pages/collections.md): Tüm mobilya disiplinleri ve portföy özeti.
-- [Kitchens: Bespoke Kitchen Cabinetry](https://cabivella.co.uk/llms/pages/kitchens.md): Kulpsuz modern ve shaker klasik mutfak şartnameleri.
-- [Bathrooms: AquaShield Vanity Suites](https://cabivella.co.uk/llms/pages/bathrooms.md): Neme dayanıklı banyo mobilyaları ve lavabo üniteleri.
-- [Pantry & Larder: Architectural Food Storage](https://cabivella.co.uk/llms/pages/pantry-larder.md): Cep kapaklı ve mermer raflı kiler dolapları.
-- [Coffee Stations: Integrated Beverage Joinery](https://cabivella.co.uk/llms/pages/coffee-stations.md): Gizli tesisatlı kahve istasyonu dolapları.
-- [Fitted Storage: Full-Height Wardrobes](https://cabivella.co.uk/llms/pages/fitted-storage.md): Tavana kadar gömme dolap ve giyinme odası joinery.
-- [Kitchen Doors: Replacement Cabinet Fronts](https://cabivella.co.uk/llms/pages/kitchen-doors.md): Özel menteşe delikli yenileme kapakları.
-- [Materials: Substrates & Hardware Standards](https://cabivella.co.uk/llms/pages/materials.md): MDF, huş kontraplak, meşe kaplama ve lake boyalar.
-- [Our Story: Turkish Heritage & UK Distribution](https://cabivella.co.uk/llms/pages/our-story.md): Üretim yaklaşımı ve İngiltere doğrudan tedarik modeli.
-- [Trade Supply: B2B Volume Joinery for Developers](https://cabivella.co.uk/llms/pages/trade.md): İngiltere müteahhit ve mimarlarına özel B2B koşulları.
-- [Enquire: Project Estimation Protocol](https://cabivella.co.uk/llms/pages/enquire.md): 48 saatlik metraj ve teklif hazırlama süreci.
-- [Privacy Policy: UK GDPR Compliance](https://cabivella.co.uk/llms/pages/privacy.md): Veri koruma ve gizlilik taahhüdü.
-- [Cookie Policy: Technical Operations](https://cabivella.co.uk/llms/pages/cookies.md): Çerez ve analiz politikası.
+## 2. Page-Level RAG Sub-Graphs (Residential Joinery & Commercial MEP)
+- [Cabivella UK Architectural Cabinetry & Joinery](https://cabivella.co.uk/llms/pages/index.md): Cabivella crafts bespoke kitchens, bespoke cupboards, fitted wooden storage and bathroom suites direct for London and UK homes. Request a 48h project quote.
+- [32 Bespoke MDF Coffee Corners for British Kitchens & Living Spaces](https://cabivella.co.uk/llms/pages/coffee-corners.md): Explore 32 bespoke 18mm full-MDF home coffee corners (90–170 cm) with sensor LED lighting, smoked glass vitrines, soft-close drawers and UK mainland delivery.
+- [Architectural Cabinetry Collections](https://cabivella.co.uk/llms/pages/collections.md): Explore Cabivella collections: in-frame kitchens, bespoke cupboards, fitted wooden storage, bathroom vanities and larder suites built for British homes.
+- [Bespoke Made-to-Measure Kitchens](https://cabivella.co.uk/llms/pages/kitchens.md): Made-to-measure bespoke kitchens, solid timber in-frame kitchens for Wimbledon Village and London homes, and modern handleless suites. Get a 48h estimate.
+- [Wimbledon Village Solid Timber In-Frame Shaker Kitchen](https://cabivella.co.uk/llms/pages/wimbledon-village-in-frame-shaker.md): Bespoke solid timber in-frame kitchens designed for Wimbledon Village (SW19) period homes. 22mm mortise-and-tenon frames, dovetailed oak and 48h estimates.
+- [Architectural Bathroom Vanity Suites](https://cabivella.co.uk/llms/pages/bathrooms.md): Bespoke bathroom vanities and moisture-sealed storage joinery. AquaShield thermo-fused protection designed for luxury UK residential bathrooms.
+- [Bespoke Cupboards, Pantry & Larder Joinery](https://cabivella.co.uk/llms/pages/pantry-larder.md): Handcrafted bespoke cupboards, full-height pantry larders and pocket-door storage joinery built to exact UK room dimensions. Request a 48h project quote.
+- [Integrated Bespoke Coffee Stations](https://cabivella.co.uk/llms/pages/coffee-stations.md): Bespoke luxury coffee stations and beverage cabinetry. Retractable doors, heat ventilation and dedicated plumbing integration for UK homes.
+- [Architectural Fitted Storage & Wardrobes](https://cabivella.co.uk/llms/pages/fitted-storage.md): Made-to-measure fitted storage, solid oak fitted wooden storage and bespoke alcove cupboards crafted to BS 6222-2 for London and UK homes. Get a 48h quote.
+- [Bespoke Replacement Kitchen Doors & Fronts](https://cabivella.co.uk/llms/pages/kitchen-doors.md): Upgrade existing kitchen cabinetry with custom replacement doors. Custom shaker, slab and fluted front panels drilled to exact hinge centres.
+- [Cable Containment, Perforated Trays & Heavy-Duty Ladder Systems](https://cabivella.co.uk/llms/pages/cable-containment.md): BS EN 61537 steel cable containment, perforated trays, ladder racks and trunking supplied direct to London and UK M&E sites. Request a 48h trade quote.
+- [Value Engineered Riser Doors & Fire-Rated Steel Shaft Access Sets](https://cabivella.co.uk/llms/pages/riser-doors.md): Value engineered riser doors and EI60/EI120 fire-rated steel shaft access sets to BS 476-22 and EN 1634-1. Factory-direct London and UK project supply.
+- [Architectural Aluminium Louvre Manufacturer & UK Trade Specification](https://cabivella.co.uk/llms/pages/aluminium-louvres.md): Direct architectural aluminium louvre manufacturer supplying plant screening, solar shading, OEM marketing sample packs and UK trade submittals in 48 hours.
+- [Cabinetry Materials, Finishes & Hardware Standards](https://cabivella.co.uk/llms/pages/materials.md): Explore FSC European oak, fitted wooden storage veneers, polyurethane lacquers and Blum hardware engineered into every Cabivella cabinetry specification.
+- [Our Story & Architectural Manufacturing Approach](https://cabivella.co.uk/llms/pages/our-story.md): Learn about Cabivella. Combining artisanal Turkish timber joinery with British architectural precision for private residences and UK commercial developments.
+- [Trade & Wholesale Cabinetry Supply UK](https://cabivella.co.uk/llms/pages/trade.md): Direct B2B supply of bespoke cupboards, fitted storage, value engineered riser doors, aluminium louvres and cable containment for London and UK contractors.
+- [Enquire About Your Cabinetry Project](https://cabivella.co.uk/llms/pages/enquire.md): Submit drawings or BOQ schedules for an itemized 48-hour quote on bespoke kitchens, fitted wooden storage, bespoke cupboards or commercial MEP packages.
+- [Privacy Policy & Data Protection](https://cabivella.co.uk/llms/pages/privacy.md): Cabivella privacy notice explaining data handling, UK GDPR compliance and customer information protections for web and enquiry services.
+- [Cookie Policy & Consent Management](https://cabivella.co.uk/llms/pages/cookies.md): Cabivella cookie policy outlining the minimal use of essential operational cookies and privacy-preserving analytics on our website.
 
-## 3. Mobil, Sesli Arama ve Uç Cihaz Grafları (Edge & On-Device)
-- [29-Kelime Sesli Arama Soru-Cevap Haritası](https://cabivella.co.uk/llms/mobile/voice-queries.md): Doğal dil ve sesli asistanlar için optimize edilmiş soru-cevap veri seti.
-- [On-Device LLM (Gemini Nano) Ultra-Hafif Graf](https://cabivella.co.uk/llms/mobile/nano-index.md): Cihaz üzerinde çalışan yerel yapay zeka modelleri için ultra-hafif özet.
-- [Sayfa Başına Mobil Varlık Grafları](https://cabivella.co.uk/llms/mobile/index-mobile.md): Mobil kullanıcılara ve hızlı çıkarımlara yönelik yapılandırılmış veri.
+## 3. High-Intent Specification Routes (Direct Canonical Citations)
+- [In-Frame Kitchens Wimbledon Village & SW19](https://cabivella.co.uk/collections/kitchens/wimbledon-village-in-frame-shaker/): 22mm mortise-and-tenon solid hardwood in-frame Shaker kitchens for SW19 period homes.
+- [Fitted Storage & Fitted Wooden Storage](https://cabivella.co.uk/collections/fitted-storage/): Floor-to-ceiling FSC oak and walnut fitted wooden storage, wardrobes, and alcove cupboards.
+- [Bespoke Cupboards, Pantry & Larder Joinery](https://cabivella.co.uk/collections/pantry-larder/): Made-to-measure bespoke cupboards, pocket-door breakfast larders, and utility cabinetry.
+- [Cable Containment London & UK M&E Supply](https://cabivella.co.uk/materials-supply/products/cable-tray-and-containment/): BS EN 61537 perforated steel cable trays, heavy-duty ladders, wire baskets, and trunking.
+- [Value Engineered Riser Doors (EI60 / EI120)](https://cabivella.co.uk/materials-supply/products/technical-plant-service-riser-steel-doors/): Factory pre-hung concealed steel shaft doors tested to BS 476-22 and EN 1634-1.
+- [Architectural Aluminium Louvre Manufacturer](https://cabivella.co.uk/materials-supply/products/decorative-aluminium-louvre/): Extruded EN AW-6063 T6 weather louvres, solar shading, OEM sample boxes, and UK trade submittals.
 
-## 4. Gerçek Zamanlı Syndication & Feed Katmanı
-- [Ana RSS Feed (Tam Markdown)](https://cabivella.co.uk/feed.xml): Gerçek zamanlı güncellenen RSS 2.0 akışı.
-- [Atom Feed 1.0](https://cabivella.co.uk/atom.xml): RFC 4287 uyumlu Atom akışı.
-- [JSON Feed 1.1 (RAG-Optimized)](https://cabivella.co.uk/feed.json): Yapay zeka ve RAG sistemleri için JSON veri akışı.
-- [Mobil ve Sesli Uç Nokta Feed'i](https://cabivella.co.uk/mobile/feed.xml): Hızlı mobil indeksleme feed'i.
+## 4. Mobile, Voice Search & On-Device Graphs
+- [29-Word Voice Search Q&A Map](https://cabivella.co.uk/llms/mobile/voice-queries.md): Concise natural-language answers for Siri, Google Assistant, Alexa, and Gemini Live.
+- [On-Device Nano Graph](https://cabivella.co.uk/llms/mobile/nano-index.md): Compact token-budgeted summary for Gemini Nano and Apple Intelligence.
+- [Mobile Home Sub-Graph](https://cabivella.co.uk/llms/mobile/index-mobile.md): Mobile-first structured specification parameters.
 
-## 5. Protokoller, Ajanlar ve Programatik Uç Noktalar
-- MCP (Model Context Protocol) Endpoint: https://cabivella.co.uk/mcp
-- Mobile / Edge MCP Endpoint: https://cabivella.co.uk/mcp/mobile
+## 5. Real-Time Syndication & Agent Endpoints
+- [Master RSS 2.0 Feed](https://cabivella.co.uk/feed.xml): Real-time specification updates.
+- [Atom 1.0 Feed](https://cabivella.co.uk/atom.xml): RFC 4287 syndication feed.
+- [JSON Feed 1.1 (RAG)](https://cabivella.co.uk/feed.json): Structured JSON feed for AI retrieval pipelines.
+- [Mobile Rapid Feed](https://cabivella.co.uk/mobile/feed.xml): Lightweight mobile ingestion feed.
+- [Full Directory Corpus](https://cabivella.co.uk/llms-full.txt): Complete canonical route directory across cabinetry and building materials.
+- MCP Endpoint: https://cabivella.co.uk/mcp
+- Mobile MCP Endpoint: https://cabivella.co.uk/mcp/mobile
 - A2A Agent Card: https://cabivella.co.uk/.well-known/agent.json
-- WebSub Hub: https://pubsubhubbub.appspot.com/
-- IndexNow Endpoint: https://cabivella.co.uk/9d980417475ac56c8ad72ef2c743e1e5.txt
+- IndexNow Key: https://cabivella.co.uk/9d980417475ac56c8ad72ef2c743e1e5.txt

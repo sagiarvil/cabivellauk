@@ -1,19 +1,14 @@
-# Trade & Wholesale Cabinetry Supply UK: Mobile & Edge Knowledge Graph
+# Mobile Graph: Trade & Wholesale Cabinetry Supply UK
 
-Canonical: https://cabivella.co.uk/trade/
-Thumb-Zone Action: Bottom-Center CTA
-Voice-Query Density: 29-Word Rapid Response
+URL: https://cabivella.co.uk/trade/
+Role: service | Locale: en-GB | Primary Action: call
 
-## Quick Answer (Hero Engine)
-Cabivella Trade offers commercial specifications for UK developers, interior designers, and general building contractors. Trade partners gain dedicated account coordination, CAD/technical file checking, priority factory production scheduling, and phased palletised deliveries direct to site with complete customs clearance and UK VAT compliance handled transparently.
+## Direct Summary
+Cabivella Trade provides factory-direct commercial procurement for London and UK property developers, M&E contractors, architects and merchant distributors. Trade accounts access volume pricing across multi-plot kitchens and fitted storage, EI60/EI120 value engineered riser doors, BS EN 61537 cable containment, and architectural aluminium louvre systems complete with OEM sample kits, CAD submittals and DDP UK delivery.
 
-## Mobile Decision Support
-- Q: What discounts are available for trade accounts?
-- A: Tiered wholesale discounts are structured based on project scale, recurring annual volume, and multi-unit development specifications.
+## Voice Queries
+- "How do I open a UK trade account with Cabivella?"
+- "Does Cabivella supply value engineered riser doors and cable containment to London contractors?"
 
-- Q: Can Cabivella produce custom joinery according to architect drawings?
-- A: Yes, our engineering team converts architectural CAD and DWG files into verified production-ready schedules with full bill of materials.
-
-## Direct Contact Link
-- WhatsApp Concierge: +44 7898 262110
-- Email Specification Desk: enquiries@cabivella.co.uk
+## Quick Action
+Request a 48-hour itemized specification quote at https://cabivella.co.uk/enquire/ or WhatsApp +44 7898 262110.

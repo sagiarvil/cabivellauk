@@ -16,9 +16,9 @@ test.describe('Lineadecor-Style Architectural Kitchens Verification', () => {
     await expect(page.locator('.linea-filters-trigger')).toBeVisible();
     await expect(page.locator('.linea-density-switcher')).toBeVisible();
 
-    // 4. Grid cards: 26 cards total
+    // 4. Grid cards: 27 cards total (20 modern + 7 classic including Wimbledon Village In-Frame Shaker)
     const cards = page.locator('.linea-suite-card');
-    await expect(cards).toHaveCount(26);
+    await expect(cards).toHaveCount(27);
 
     // 5. Model Title ABOVE image
     const firstTitle = page.locator('.linea-suite-card .suite-primary-name a').first();
@@ -50,7 +50,7 @@ test.describe('Lineadecor-Style Architectural Kitchens Verification', () => {
     await page.waitForTimeout(200);
 
     const visibleClassic = page.locator('.linea-suite-card:visible');
-    await expect(visibleClassic).toHaveCount(6);
+    await expect(visibleClassic).toHaveCount(7);
     await expect(h1).toHaveText('CLASSIC KITCHENS');
 
     // 9. Test Density switch: toggle to 3-column
