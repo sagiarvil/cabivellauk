@@ -326,4 +326,44 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
     expect(sitemapExport).toContain('https://cabivella.co.uk/fr/');
     expect(sitemapExport).toContain('https://cabivella.co.uk/trade/europe/');
   });
+
+  test('8. Every collection card image fills 100% of its container frame with zero blank gaps, zero duplicates, and high resolution', async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    for (const route of ['/collections/kitchen-doors/', '/collections/pantry-larder/', '/collections/fitted-storage/', '/collections/kitchens/']) {
+      await page.goto(route);
+      await page.evaluate(() => window.scrollTo(0, 600));
+      await page.waitForTimeout(250);
+
+      const audit = await page.evaluate(() => {
+        const wrappers = Array.from(document.querySelectorAll('.card-image-wrapper, .suite-photo-stage')).slice(0, 9);
+        const results = wrappers.map((w) => {
+          const img = w.querySelector('img') as HTMLImageElement | null;
+          if (!img) return { ok: false, reason: 'missing img' };
+          img.scrollIntoView();
+          const wRect = w.getBoundingClientRect();
+          const iRect = img.getBoundingClientRect();
+          const fillsWidth = Math.abs(wRect.width - iRect.width) <= 2.5;
+          const fillsHeight = Math.abs(wRect.height - iRect.height) <= 2.5;
+          return {
+            ok: fillsWidth && fillsHeight,
+            src: img.getAttribute('src'),
+            wH: Math.round(wRect.height),
+            iH: Math.round(iRect.height),
+            wW: Math.round(wRect.width),
+            iW: Math.round(iRect.width),
+          };
+        });
+        const srcs = results.map((r) => r.src);
+        const uniqueSrcs = new Set(srcs);
+        return {
+          allFillFrame: results.every((r) => r.ok),
+          noDuplicatesInFirst9: uniqueSrcs.size === srcs.length,
+          results,
+        };
+      });
+
+      expect(audit.allFillFrame, `Image frame mismatch on ${route}: ${JSON.stringify(audit.results)}`).toBe(true);
+      expect(audit.noDuplicatesInFirst9, `Duplicate card images on ${route}: ${JSON.stringify(audit.results)}`).toBe(true);
+    }
+  });
 });

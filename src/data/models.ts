@@ -31,16 +31,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Belgravia Architectural Handleless Suite | Cabivella UK Joinery",
     "metaDescription": "Explore the Belgravia Architectural Handleless Suite. Bespoke British-engineered made-to-measure kitchen cabinetry with Silk-Matt Polyurethane Lacquer & Recessed Shadow Gola.",
     "description": "The Belgravia Architectural Handleless Suite is an architectural modern kitchen suite handcrafted for British private residences. Specified with Silk-Matt Polyurethane Lacquer & Recessed Shadow Gola, precision concealed joinery, and tailored around the cadence of contemporary culinary living.",
-    "image": "/assets/img/models/kitchen_suites/belgravia-handleless_1.webp",
+    "image": "/assets/img/models/kitchen_suites/belgravia-handleless_2.webp",
     "gallery": [
-      "/assets/img/models/kitchen_suites/belgravia-handleless_1.webp",
       "/assets/img/models/kitchen_suites/belgravia-handleless_2.webp",
-      "/assets/img/models/kitchen_suites/belgravia-handleless_3.webp",
       "/assets/img/models/kitchen_suites/belgravia-handleless_4.webp",
       "/assets/img/models/kitchen_suites/belgravia-handleless_5.webp",
-      "/assets/img/models/kitchen_suites/belgravia-handleless_6.webp",
-      "/assets/img/models/kitchen_suites/belgravia-handleless_7.webp",
-      "/assets/img/models/kitchen_suites/belgravia-handleless_8.webp"
+      "/assets/img/models/kitchen_suites/belgravia-handleless_1.webp",
+      "/assets/img/models/kitchen_suites/belgravia-handleless_6.webp"
     ],
     "dimensionsMm": "Made to measure (typical 3600 mm run × 2300 mm height × 650 mm depth)",
     "materials": [
@@ -72,17 +69,12 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Kensington Fluted Oak & Monolith Island | Cabivella UK Joinery",
     "metaDescription": "Explore the Kensington Fluted Oak & Monolith Island. Bespoke British-engineered made-to-measure kitchen cabinetry with Precision Fluted European Timber & Natural Stone.",
     "description": "The Kensington Fluted Oak & Monolith Island is an architectural modern kitchen suite handcrafted for British private residences. Specified with Precision Fluted European Timber & Natural Stone, precision concealed joinery, and tailored around the cadence of contemporary culinary living.",
-    "image": "/assets/img/models/kitchen_suites/kensington-fluted-island_1.webp",
+    "image": "/assets/img/models/kitchen_suites/kensington-fluted-island_2.webp",
     "gallery": [
-      "/assets/img/models/kitchen_suites/kensington-fluted-island_1.webp",
       "/assets/img/models/kitchen_suites/kensington-fluted-island_2.webp",
-      "/assets/img/models/kitchen_suites/kensington-fluted-island_3.webp",
       "/assets/img/models/kitchen_suites/kensington-fluted-island_4.webp",
-      "/assets/img/models/kitchen_suites/kensington-fluted-island_5.webp",
-      "/assets/img/models/kitchen_suites/kensington-fluted-island_6.webp",
-      "/assets/img/models/kitchen_suites/kensington-fluted-island_7.webp",
       "/assets/img/models/kitchen_suites/kensington-fluted-island_8.webp",
-      "/assets/img/models/kitchen_suites/kensington-fluted-island_9.webp"
+      "/assets/img/models/kitchen_suites/kensington-fluted-island_1.webp"
     ],
     "dimensionsMm": "Made to measure (typical 4200 mm run × 2600 mm island × 900 mm depth)",
     "materials": [
@@ -707,14 +699,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "In-Frame Kitchens Wimbledon Village & SW19 | Bespoke Shaker | Cabivella",
     "metaDescription": "Bespoke solid timber in-frame kitchens designed for Wimbledon Village (SW19) period homes. 22mm mortise-and-tenon frames, dovetailed oak and 48h estimates.",
     "description": "Handcrafted specifically for Edwardian, Victorian and Conservation Area residences in Wimbledon Village (SW19), Richmond and South West London, this authentic in-frame Shaker kitchen seats each 20mm five-piece timber door flush inside a rigid 22mm mortise-and-tenon solid hardwood outer frame. Complete with dovetailed European oak drawer boxes, bespoke chimney-alcove scribing, walk-in larder cupboards and factory-cured polyurethane lacquer.",
-    "image": "/assets/img/models/kitchen_suites/cavendish-classical-shaker_2.webp",
+    "image": "/assets/img/models/kitchen_suites/cavendish-classical-shaker_3.webp",
     "gallery": [
-      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_2.webp",
-      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_2.webp",
-      "/assets/img/models/kitchen_suites/blenheim-grand-manor_2.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_3.webp",
       "/assets/img/models/kitchen_suites/cavendish-classical-shaker_4.webp",
-      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_4.webp",
-      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_6.webp"
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_5.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_6.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_2.webp"
     ],
     "dimensionsMm": "Made to measure (typical 4200 mm SW19 period kitchen run × up to 3000 mm ceiling height × 650 mm island/carcass depth)",
     "materials": [
@@ -1873,10 +1864,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Smoked Oak fitted wooden exterior"
     ],
     "installationScope": "Delivered rigid across London and the UK with heavy-load levelling feet, top cornice mouldings and 60mm wall scribing trims.",
-    "image": "/assets/img/models/tall-larder-cupboards.webp",
+    "image": "/assets/img/models/real_pantries/cotswold-doubledoor-utility-larder_1.webp",
     "gallery": [
-      "/assets/img/models/tall-larder-cupboards.webp",
-      "/assets/img/models/corner-pantry-storage.webp"
+      "/assets/img/models/real_pantries/cotswold-doubledoor-utility-larder_1.webp",
+      "/assets/img/models/real_pantries/cotswold-doubledoor-utility-larder_2.webp",
+      "/assets/img/models/real_pantries/cotswold-doubledoor-utility-larder_3.webp"
     ],
     "description": "Our signature bespoke cupboards and freestanding or built-in culinary larders. Deep dovetailed oak drawers glide forward effortlessly, while door-mounted solid timber racks organise dry provisions at eye level.",
     "keyFeatures": [
@@ -1904,10 +1896,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Classic Silver Wire"
     ],
     "installationScope": "Mechanism factory pre-installed and calibrated within carcass prior to delivery.",
-    "image": "/assets/img/models/corner-pantry-storage.webp",
+    "image": "/assets/img/models/real_pantries/kensington-3drawer-165-larder_1.webp",
     "gallery": [
-      "/assets/img/models/corner-pantry-storage.webp",
-      "/assets/img/models/tall-larder-cupboards.webp"
+      "/assets/img/models/real_pantries/kensington-3drawer-165-larder_1.webp",
+      "/assets/img/models/real_pantries/kensington-3drawer-165-larder_2.webp",
+      "/assets/img/models/real_pantries/kensington-3drawer-165-larder_3.webp"
     ],
     "description": "Eliminate dark, inaccessible corner voids. Smooth articulated trays glide completely clear of the cabinet opening, bringing deep cookware forward.",
     "keyFeatures": [
@@ -1935,10 +1928,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Platinum Silver Trays"
     ],
     "installationScope": "Factory calibrated carriage frame for effortless motion.",
-    "image": "/assets/img/models/tall-larder-cupboards.webp",
+    "image": "/assets/img/models/real_pantries/chelsea-multitier-pantry-cupboard_1.webp",
     "gallery": [
-      "/assets/img/models/tall-larder-cupboards.webp",
-      "/assets/img/models/pullout-larder-tower.webp"
+      "/assets/img/models/real_pantries/chelsea-multitier-pantry-cupboard_1.webp",
+      "/assets/img/models/real_pantries/chelsea-multitier-pantry-cupboard_2.webp",
+      "/assets/img/models/real_pantries/chelsea-multitier-pantry-cupboard_3.webp"
     ],
     "description": "Ingenious tandem kinematics. Opening the door smoothly brings back shelves towards you while door shelves swing wide for comprehensive access.",
     "keyFeatures": [
@@ -1967,10 +1961,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Satin Pumice"
     ],
     "installationScope": "Delivered in two modular sections for simple residential access.",
-    "image": "/assets/img/models/chefs-double-larder.webp",
+    "image": "/assets/img/models/real_pantries/hampstead-165wide-pantry-armoire_1.webp",
     "gallery": [
-      "/assets/img/models/chefs-double-larder.webp",
-      "/assets/img/models/tall-larder-cupboards.webp"
+      "/assets/img/models/real_pantries/hampstead-165wide-pantry-armoire_1.webp",
+      "/assets/img/models/real_pantries/hampstead-165wide-pantry-armoire_2.webp",
+      "/assets/img/models/real_pantries/hampstead-165wide-pantry-armoire_3.webp"
     ],
     "description": "The crown jewel of traditional culinary storage. Double doors open 170 degrees to reveal solid oak drawers, bottle racks, and a cold stone work surface.",
     "keyFeatures": [
@@ -1998,10 +1993,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Champagne"
     ],
     "installationScope": "Factory mounted and balanced.",
-    "image": "/assets/img/models/corner-pantry-storage.webp",
+    "image": "/assets/img/models/real_pantries/belgravia-3drawer-softclose-pantry_1.webp",
     "gallery": [
-      "/assets/img/models/corner-pantry-storage.webp",
-      "/assets/img/models/tall-larder-cupboards.webp"
+      "/assets/img/models/real_pantries/belgravia-3drawer-softclose-pantry_1.webp",
+      "/assets/img/models/real_pantries/belgravia-3drawer-softclose-pantry_2.webp",
+      "/assets/img/models/real_pantries/belgravia-3drawer-softclose-pantry_3.webp"
     ],
     "description": "Gracefully curved trays swing completely out into the kitchen room space, bringing pots, pans, and heavy kitchen appliances within effortless reach.",
     "keyFeatures": [
@@ -2028,10 +2024,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Anthracite Wire with Grey Base"
     ],
     "installationScope": "Supplied fully installed inside rigid corner carcass.",
-    "image": "/assets/img/models/corner-pantry-storage.webp",
+    "image": "/assets/img/models/real_pantries/westminster-6drawer-165-larder_1.webp",
     "gallery": [
-      "/assets/img/models/corner-pantry-storage.webp",
-      "/assets/img/models/chefs-double-larder.webp"
+      "/assets/img/models/real_pantries/westminster-6drawer-165-larder_1.webp",
+      "/assets/img/models/real_pantries/westminster-6drawer-165-larder_2.webp",
+      "/assets/img/models/real_pantries/westminster-6drawer-165-larder_3.webp"
     ],
     "description": "Smooth 360-degree rotary action ensures every centimetre of corner volume is accessible in tight L-shaped kitchen designs.",
     "keyFeatures": [
@@ -2059,10 +2056,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Champagne Gold"
     ],
     "installationScope": "Supplied rigid with integrated anti-tip suspension.",
-    "image": "/assets/img/models/pullout-larder-tower.webp",
+    "image": "/assets/img/models/real_pantries/knightsbridge-utility-larder-tower_1.webp",
     "gallery": [
-      "/assets/img/models/pullout-larder-tower.webp",
-      "/assets/img/models/tall-larder-cupboards.webp"
+      "/assets/img/models/real_pantries/knightsbridge-utility-larder-tower_1.webp",
+      "/assets/img/models/real_pantries/knightsbridge-utility-larder-tower_2.webp",
+      "/assets/img/models/real_pantries/knightsbridge-utility-larder-tower_3.webp"
     ],
     "description": "Glides out in a single smooth motion to present bottles, condiments, and preserved provisions from either side with zero blind spots.",
     "keyFeatures": [
@@ -2091,10 +2089,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Parchment"
     ],
     "installationScope": "Modular flat-pack delivery with on-site joinery assembly brackets.",
-    "image": "/assets/img/models/tall-larder-cupboards.webp",
+    "image": "/assets/img/models/real_pantries/mayfair-doubledoor-provision-larder_1.webp",
     "gallery": [
-      "/assets/img/models/tall-larder-cupboards.webp",
-      "/assets/img/models/chefs-double-larder.webp"
+      "/assets/img/models/real_pantries/mayfair-doubledoor-provision-larder_1.webp",
+      "/assets/img/models/real_pantries/mayfair-doubledoor-provision-larder_2.webp",
+      "/assets/img/models/real_pantries/mayfair-doubledoor-provision-larder_3.webp"
     ],
     "description": "Seamlessly integrated behind matching cabinetry frontals, opening up into a dedicated floor-to-ceiling walk-in pantry chamber.",
     "keyFeatures": [
@@ -2533,10 +2532,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Raw Ready-to-Paint"
     ],
     "installationScope": "Supplied pre-drilled for your existing hinge centres (standard 35mm cup) or un-drilled for custom hardware.",
-    "image": "/assets/img/models/shaker-replacement-doors.webp",
+    "image": "/assets/img/models/kitchen_suites/somerset-period-manor_1.webp",
     "gallery": [
-      "/assets/img/models/shaker-replacement-doors.webp",
-      "/assets/img/models/handleless-cabinet-fronts.webp"
+      "/assets/img/models/kitchen_suites/somerset-period-manor_1.webp",
+      "/assets/img/models/kitchen_suites/somerset-period-manor_2.webp",
+      "/assets/img/models/kitchen_suites/somerset-period-manor_3.webp",
+      "/assets/img/models/kitchen_suites/somerset-period-manor_4.webp"
     ],
     "description": "The sustainable, cost-effective kitchen transformation. Replace worn laminate doors with precision-milled solid ash Shaker fronts that fit your existing carcasses.",
     "keyFeatures": [
@@ -2565,10 +2566,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Cashmere Neutral"
     ],
     "installationScope": "Pre-drilled to custom hinge measurements; compatible with standard 18mm British carcass specifications.",
-    "image": "/assets/img/models/handleless-cabinet-fronts.webp",
+    "image": "/assets/img/models/kitchen_suites/westminster-integrated-jpull_1.webp",
     "gallery": [
-      "/assets/img/models/handleless-cabinet-fronts.webp",
-      "/assets/img/models/shaker-replacement-doors.webp"
+      "/assets/img/models/kitchen_suites/westminster-integrated-jpull_1.webp",
+      "/assets/img/models/kitchen_suites/westminster-integrated-jpull_2.webp",
+      "/assets/img/models/kitchen_suites/westminster-integrated-jpull_3.webp",
+      "/assets/img/models/kitchen_suites/westminster-integrated-jpull_4.webp"
     ],
     "description": "Instantly modernize an existing kitchen layout without demolition. Seamless integrated J-pull grooves provide comfortable grip without external hardware.",
     "keyFeatures": [
@@ -2597,10 +2600,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Raw Timber"
     ],
     "installationScope": "Supplied with optional hinge hole boring to client schedule.",
-    "image": "/assets/img/models/shaker-replacement-doors.webp",
+    "image": "/assets/img/models/kitchen_suites/cavendish-classical-shaker_1.webp",
     "gallery": [
-      "/assets/img/models/shaker-replacement-doors.webp",
-      "/assets/img/models/slimline-micro-shaker-fronts.webp"
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_1.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_3.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_4.webp",
+      "/assets/img/models/kitchen_suites/cavendish-classical-shaker_5.webp"
     ],
     "description": "Substantial 80mm solid ash stiles lend grounded permanence to country homes and historic London townhouses upgrading existing kitchen carcasses.",
     "keyFeatures": [
@@ -2629,10 +2634,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Pure White"
     ],
     "installationScope": "Pre-bored for 35mm concealed euro hinges.",
-    "image": "/assets/img/models/shaker-replacement-doors.webp",
+    "image": "/assets/img/models/kitchen_suites/lea_1.webp",
     "gallery": [
-      "/assets/img/models/shaker-replacement-doors.webp",
-      "/assets/img/models/handleless-cabinet-fronts.webp"
+      "/assets/img/models/kitchen_suites/lea_1.webp",
+      "/assets/img/models/kitchen_suites/lea_2.webp",
+      "/assets/img/models/kitchen_suites/lea_3.webp",
+      "/assets/img/models/kitchen_suites/lea_4.webp"
     ],
     "description": "Combines traditional framing with a modern 45-degree inner chamfer, making cleaning effortless while capturing gentle room light.",
     "keyFeatures": [
@@ -2661,10 +2668,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Raw Umber"
     ],
     "installationScope": "Supplied drilled or undrilled per specification.",
-    "image": "/assets/img/models/handleless-cabinet-fronts.webp",
+    "image": "/assets/img/models/kitchen_suites/axis_1.webp",
     "gallery": [
-      "/assets/img/models/handleless-cabinet-fronts.webp",
-      "/assets/img/models/shaker-replacement-doors.webp"
+      "/assets/img/models/kitchen_suites/axis_1.webp",
+      "/assets/img/models/kitchen_suites/axis_2.webp",
+      "/assets/img/models/kitchen_suites/axis_3.webp",
+      "/assets/img/models/kitchen_suites/axis_4.webp"
     ],
     "description": "Designed for kitchens featuring continuous rail systems, providing flush, monolithic door planes with zero visual clutter.",
     "keyFeatures": [
@@ -2693,10 +2702,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Graphite"
     ],
     "installationScope": "Factory pre-bored for quick DIY or trade hinge hanging.",
-    "image": "/assets/img/models/handleless-cabinet-fronts.webp",
+    "image": "/assets/img/models/kitchen_suites/vera_1.webp",
     "gallery": [
-      "/assets/img/models/handleless-cabinet-fronts.webp",
-      "/assets/img/models/fluted-wave-panels.webp"
+      "/assets/img/models/kitchen_suites/vera_1.webp",
+      "/assets/img/models/kitchen_suites/vera_2.webp",
+      "/assets/img/models/kitchen_suites/vera_3.webp",
+      "/assets/img/models/kitchen_suites/vera_4.webp"
     ],
     "description": "Uncomplicated, timeless architectural slabs. Silky soft-touch lacquer creates a tranquil, tactile environment in open-plan spaces.",
     "keyFeatures": [
@@ -2725,10 +2736,11 @@ export const modelsData: Record<string, ModelDetail> = {
       "Oiled Oak"
     ],
     "installationScope": "Supplied ready for hardware installation with precision boreholes.",
-    "image": "/assets/img/models/slimline-micro-shaker-fronts.webp",
+    "image": "/assets/img/models/kitchen_suites/windsor-classical-estate_1.webp",
     "gallery": [
-      "/assets/img/models/slimline-micro-shaker-fronts.webp",
-      "/assets/img/models/shaker-replacement-doors.webp"
+      "/assets/img/models/kitchen_suites/windsor-classical-estate_1.webp",
+      "/assets/img/models/kitchen_suites/windsor-classical-estate_2.webp",
+      "/assets/img/models/kitchen_suites/windsor-classical-estate_3.webp"
     ],
     "description": "Slender 15mm outer borders strike the ideal balance between heritage warmth and Scandinavian minimalism.",
     "keyFeatures": [
@@ -2757,10 +2769,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Chalk White"
     ],
     "installationScope": "Supplied with matched edge-banding and hinge preparation.",
-    "image": "/assets/img/models/fluted-reeded-fronts.webp",
+    "image": "/assets/img/models/kitchen_suites/cotswold-linear-grooved_1.webp",
     "gallery": [
-      "/assets/img/models/fluted-reeded-fronts.webp",
-      "/assets/img/models/handleless-cabinet-fronts.webp"
+      "/assets/img/models/kitchen_suites/cotswold-linear-grooved_1.webp",
+      "/assets/img/models/kitchen_suites/cotswold-linear-grooved_2.webp",
+      "/assets/img/models/kitchen_suites/cotswold-linear-grooved_3.webp",
+      "/assets/img/models/kitchen_suites/cotswold-linear-grooved_4.webp"
     ],
     "description": "Introduces tactile drama to kitchen island backsplashes and feature tall housing runs, breaking up flat surfaces with rhythmic timber waves.",
     "keyFeatures": [
@@ -2786,10 +2800,12 @@ export const modelsData: Record<string, ModelDetail> = {
       "Raw Double-Sanded (Ready for Primer & Topcoat)"
     ],
     "installationScope": "Hinge holes pre-drilled to order. Requires on-site priming and painting.",
-    "image": "/assets/img/models/doors-inspiration.webp",
+    "image": "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_1.webp",
     "gallery": [
-      "/assets/img/models/doors-inspiration.webp",
-      "/assets/img/models/shaker-replacement-doors.webp"
+      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_1.webp",
+      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_2.webp",
+      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_3.webp",
+      "/assets/img/models/kitchen_suites/oxfordshire-heritage-country_4.webp"
     ],
     "description": "For decorators and discerning homeowners desiring bespoke Farrow & Ball, Little Greene, or Paint & Paper Library hand-painted finishes on site.",
     "keyFeatures": [
@@ -17427,9 +17443,10 @@ export const modelsData: Record<string, ModelDetail> = {
         "Architectural Veneer Warm Cashmere with Calacatta quartz-effect counter"
     ],
     "installationScope": "Standalone statement breakfast armoire or integrated flush within kitchen architectural joinery runs.",
-    "image": "/images/coffee-stations/turem_coffee_66.webp",
+    "image": "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
     "gallery": [
-        "/images/coffee-stations/turem_coffee_66.webp"
+      "/assets/img/models/real_coffee_stations/coffee_station_01.webp",
+      "/assets/img/models/real_coffee_stations/coffee_station_02.webp"
     ],
     "description": "The Ascot 160cm Barista-Suite Architectural Veneer Coffee Station is an architectural morning station engineered for discerning UK interiors. Proportioned to exact W 160 cm dimensions (W 1600 mm \u00d7 H 2100 mm \u00d7 D 600 mm), it combines a dedicated barista worktop with ergonomic storage compartments and integrated warm LED illumination.",
     "keyFeatures": [
@@ -17464,13 +17481,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Deep Mulberry"
       ],
       "installationScope": "Factory pre-assembled with heavy-duty structural hanging cleats and scribe moulding for seamless floor-to-ceiling scribing.",
-      "image": "/images/fitted-storage/cabivella_storage_shaker_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_01_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_shaker_1.webp",
-          "/images/fitted-storage/cabivella_storage_shaker_2.webp",
-          "/images/fitted-storage/cabivella_storage_shaker_3.webp",
-          "/images/fitted-storage/cabivella_storage_shaker_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_01_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_01_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_01_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_01_img4.webp"
+    ],
       "description": "Inspired by authentic British country estate architecture, the Cotswold Classic In-Frame Shaker Wardrobe features refined square edging, balanced proportions, and deep full-height storage engineered precisely to your bedroom alcoves.",
       "keyFeatures": [
           "Traditional recessed panel door architecture with architectural shadow gaps",
@@ -17499,13 +17516,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Chalk Silk"
       ],
       "installationScope": "Supplied with bespoke wall anchors, infill panels, and concealed plinth levelling systems.",
-      "image": "/images/fitted-storage/cabivella_storage_sorrento_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_02_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_sorrento_1.webp",
-          "/images/fitted-storage/cabivella_storage_sorrento_2.webp",
-          "/images/fitted-storage/cabivella_storage_sorrento_3.webp",
-          "/images/fitted-storage/cabivella_storage_sorrento_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_02_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_02_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_02_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_02_img4.webp"
+    ],
       "description": "The Belgravia suite presents a sophisticated contemporary evolution of classical panelled cabinetry, introducing gentle bevelled stiles that catch the light and complement refined British townhouses.",
       "keyFeatures": [
           "Subtle bevelled frame profiles adding depth and architectural rhythm",
@@ -17534,13 +17551,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Pure White Silk"
       ],
       "installationScope": "Modular floor-to-ceiling cassette assembly with precision micro-adjustable laser alignment plates.",
-      "image": "/images/fitted-storage/cabivella_storage_manhattan_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_03_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_manhattan_1.webp",
-          "/images/fitted-storage/cabivella_storage_manhattan_2.webp",
-          "/images/fitted-storage/cabivella_storage_manhattan_3.webp",
-          "/images/fitted-storage/cabivella_storage_manhattan_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_03_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_03_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_03_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_03_img4.webp"
+    ],
       "description": "Characterised by uninterrupted vertical lines and clean planar surfaces, the Mayfair Linear suite delivers calming visual minimalism, concealing voluminous bespoke interior storage behind sleek touch-to-open doors.",
       "keyFeatures": [
           "Zero-handle minimalist door aesthetic with integrated touch-release mechanisms",
@@ -17569,13 +17586,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Heritage Cream"
       ],
       "installationScope": "Handcrafted modular sections with matching traditional skirting plinth and cornice moulding.",
-      "image": "/images/fitted-storage/cabivella_storage_sherbourne_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_04_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_sherbourne_1.webp",
-          "/images/fitted-storage/cabivella_storage_sherbourne_2.webp",
-          "/images/fitted-storage/cabivella_storage_sherbourne_3.webp",
-          "/images/fitted-storage/cabivella_storage_sherbourne_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_04_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_04_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_04_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_04_img4.webp"
+    ],
       "description": "A tribute to classical British architectural proportions, the Kensington Heritage suite features deep sculptured mouldings, authentic raised panelling, and substantial cornice detailing fit for historic and period homes.",
       "keyFeatures": [
           "Deep architectural bolection moulding framing each door panel",
@@ -17604,13 +17621,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Chalk White"
       ],
       "installationScope": "Precision factory scribed components engineered for swift, low-disruption on-site fit-out.",
-      "image": "/images/fitted-storage/cabivella_storage_hampton_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_05_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_hampton_1.webp",
-          "/images/fitted-storage/cabivella_storage_hampton_2.webp",
-          "/images/fitted-storage/cabivella_storage_hampton_3.webp",
-          "/images/fitted-storage/cabivella_storage_hampton_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_05_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_05_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_05_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_05_img4.webp"
+    ],
       "description": "With its quad-panel geometry echoing Georgian sash architecture, the Chelsea Four-Panel suite introduces vertical rhythm and stately presence to British bedrooms of generous scale.",
       "keyFeatures": [
           "Proportioned four-panel vertical door construction with tactile eased edges",
@@ -17639,13 +17656,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Oatmeal Matte"
       ],
       "installationScope": "Complete architectural joinery package including concealed scribes and matching side end panels.",
-      "image": "/images/fitted-storage/cabivella_storage_element_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_06_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_element_1.webp",
-          "/images/fitted-storage/cabivella_storage_element_2.webp",
-          "/images/fitted-storage/cabivella_storage_element_3.webp",
-          "/images/fitted-storage/cabivella_storage_element_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_06_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_06_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_06_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_06_img4.webp"
+    ],
       "description": "Marrying Scandinavian organic warmth with British joinery precision, the Richmond Nordic suite celebrates authentic timber grains, tactile fluted accents, and effortless spatial order.",
       "keyFeatures": [
           "Natural grain oak textured surfaces with protective hard-wax matte finish",
@@ -17674,13 +17691,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Midnight & Bleached Oak"
       ],
       "installationScope": "Delivered with custom infills and dual-tone architectural reveal trims.",
-      "image": "/images/fitted-storage/cabivella_storage_harmony_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_07_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_harmony_1.webp",
-          "/images/fitted-storage/cabivella_storage_harmony_2.webp",
-          "/images/fitted-storage/cabivella_storage_harmony_3.webp",
-          "/images/fitted-storage/cabivella_storage_harmony_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_07_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_07_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_07_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_07_img4.webp"
+    ],
       "description": "The Westminster suite creates compelling architectural contrast through a deliberate juxtaposition of rich timber textures and calming matte lacquer panels, achieving grounded sophistication.",
       "keyFeatures": [
           "Curated two-tone exterior and interior contrasting materiality",
@@ -17709,13 +17726,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Pure Ivory"
       ],
       "installationScope": "Engineered for flush alcove or full-wall installations with precision laser-levelled subframes.",
-      "image": "/images/fitted-storage/cabivella_storage_milan_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_08_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_milan_1.webp",
-          "/images/fitted-storage/cabivella_storage_milan_2.webp",
-          "/images/fitted-storage/cabivella_storage_milan_3.webp",
-          "/images/fitted-storage/cabivella_storage_milan_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_08_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_08_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_08_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_08_img4.webp"
+    ],
       "description": "Refined stepped-edge details give the Knightsbridge suite a tailored, tailored architectural relief that interacts delicately with changing bedroom lighting throughout the day.",
       "keyFeatures": [
           "Distinctive stepped-edge perimeter moulding on all cabinet doors",
@@ -17744,13 +17761,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Limed Driftwood"
       ],
       "installationScope": "Supplied with structural wall mounting hardware and matching architectural edge reveals.",
-      "image": "/images/fitted-storage/cabivella_storage_fusion_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_09_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_fusion_1.webp",
-          "/images/fitted-storage/cabivella_storage_fusion_2.webp",
-          "/images/fitted-storage/cabivella_storage_fusion_3.webp",
-          "/images/fitted-storage/cabivella_storage_fusion_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_09_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_09_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_09_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_09_img4.webp"
+    ],
       "description": "Designed for loft conversions and contemporary urban spaces, the Fitzrovia suite brings bold material contrast and confident architectural character to modern British interiors.",
       "keyFeatures": [
           "High-tactility textured panels with natural tactile grain depth",
@@ -17779,13 +17796,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Obsidian Black Gloss"
       ],
       "installationScope": "Factory pre-buffed mirror finish with protective peel film, installed with seamless shadow reveals.",
-      "image": "/images/fitted-storage/cabivella_storage_pure_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_10_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_pure_1.webp",
-          "/images/fitted-storage/cabivella_storage_pure_2.webp",
-          "/images/fitted-storage/cabivella_storage_pure_3.webp",
-          "/images/fitted-storage/cabivella_storage_pure_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_10_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_10_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_10_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_10_img4.webp"
+    ],
       "description": "The St. James suite maximises light transmission in compact or city bedrooms with pristine high-gloss reflective surfaces that visually expand room dimensions while providing extensive concealed storage.",
       "keyFeatures": [
           "Ultra-reflective optical mirror gloss finish resistant to everyday micro-scratches",
@@ -17849,13 +17866,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Pure White & Satin Brass"
       ],
       "installationScope": "Turnkey installation with heavy-duty structural overhead track mount and soft-braking end-stops.",
-      "image": "/images/fitted-storage/cabivella_storage_sliding-doors_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_11_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_sliding-doors_1.webp",
-          "/images/fitted-storage/cabivella_storage_sliding-doors_2.webp",
-          "/images/fitted-storage/cabivella_storage_sliding-doors_3.webp",
-          "/images/fitted-storage/cabivella_storage_sliding-doors_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_11_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_11_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_11_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_11_img4.webp"
+    ],
       "description": "The Hampstead Sliding Suite solves spatial constraints with effortless grace, utilising precision ceiling-hung gliding tracks and tactile material combinations to provide seamless room-width access without door swing intrusion.",
       "keyFeatures": [
           "Space-saving sliding door kinematics with two-way soft-close braking dampers",
@@ -17884,13 +17901,13 @@ export const modelsData: Record<string, ModelDetail> = {
           "Pure White & Antique Bronze"
       ],
       "installationScope": "Turnkey room architecture including central dressing island, perimeter cabinetry, and illuminated cornice.",
-      "image": "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_1.webp",
+      "image": "/assets/img/models/real_fitted_storage/wardrobe_12_img1.webp",
       "gallery": [
-          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_1.webp",
-          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_2.webp",
-          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_3.webp",
-          "/images/fitted-storage/cabivella_storage_walk-in-wardrobes_4.webp"
-      ],
+      "/assets/img/models/real_fitted_storage/wardrobe_12_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_12_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_12_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_12_img4.webp"
+    ],
       "description": "An exquisite architectural sanctuary dedicated to personal attire, the Highgate Walk-In suite unites open display bays, illuminated hanging zones, and glass-topped accessory islands for an unmatched boutique dressing ritual.",
       "keyFeatures": [
           "Floor-to-ceiling modular open joinery tailored to room geometry and ceiling angles",
@@ -17945,13 +17962,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Cotswold Architectural Panelled Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Bespoke recessed panel wardrobe suite featuring full-height floor-to-ceiling carcassing, solid timber construction, and custom interior dressing rails.",
     "description": "Rooted in English heritage joinery, the Cotswold suite unites classic five-piece recessed panel door profiles with intelligent full-height carcass construction. Tailored precisely to chimney alcoves and uneven ceiling angles, it features integrated soft-closing motion hardware, double-tier hanging rails, and solid dovetail drawer cassettes.",
-    "image": "/images/fitted-storage/cabivella-shaker-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_13_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-shaker-view-1.webp",
-      "/images/fitted-storage/cabivella-shaker-view-2.webp",
-      "/images/fitted-storage/cabivella-shaker-view-3.webp",
-      "/images/fitted-storage/cabivella-shaker-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_13_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_13_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_13_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_13_img4.webp"
+    ],
     "materials": [
       "FSC-Certified Moisture-Resistant High-Density Core (18mm)",
       "Bespoke Painted Satin Polyurethane Finish",
@@ -17994,13 +18011,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Mayfair Linear Handleless Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Minimalist handleless fitted wardrobe featuring seamless slab facades, integrated channel grips, and full-height architectural proportioning.",
     "description": "Engineered for contemporary British townhouses, the Mayfair collection presents a completely flush architectural aesthetic. The integrated recessed continuous grip allows seamless tactile operation while preserving serene horizontal shadow lines across the entire bedroom elevation.",
-    "image": "/images/fitted-storage/cabivella-pure-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_14_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-pure-view-1.webp",
-      "/images/fitted-storage/cabivella-pure-view-2.webp",
-      "/images/fitted-storage/cabivella-pure-view-3.webp",
-      "/images/fitted-storage/cabivella-pure-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_14_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_14_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_14_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_14_img4.webp"
+    ],
     "materials": [
       "Ultra-Matte Anti-Fingerprint Architectural Polymer",
       "Moisture-Sealed High-Density Substrate",
@@ -18043,13 +18060,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Belgravia Bevelled Elegance Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Distinctive chamfered framed wardrobe cabinetry offering subtle shadow play and traditional British proportions for master dressing suites.",
     "description": "The Belgravia suite reinterprets Georgian proportion with restrained contemporary sophistication. Delicately chamfered internal profiles cast subtle directional shadows across each door front, whilst the precision-built carcasses maximise wardrobe capacity right into awkward roof eaves.",
-    "image": "/images/fitted-storage/cabivella-sherbourne-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_15_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-sherbourne-view-1.webp",
-      "/images/fitted-storage/cabivella-sherbourne-view-2.webp",
-      "/images/fitted-storage/cabivella-sherbourne-view-3.webp",
-      "/images/fitted-storage/cabivella-sherbourne-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_15_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_15_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_15_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_15_img4.webp"
+    ],
     "materials": [
       "Kiln-Dried European Beech Framing & MR Solid Core",
       "Warm Alabaster Satin Smooth Spray Finish",
@@ -18092,13 +18109,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Kensington Reeded Fluted Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Architectural reeded timber wardrobe suite offering acoustic diffusion, rhythmic vertical lines, and luxury boutique hotel ambiance.",
     "description": "Characterised by precision-milled vertical fluting, the Kensington wardrobe introduces tactile depth and subtle acoustic diffusion to refined bedrooms. Fluted timber infills are framed by understated flat borders, pairing seamlessly with matching low-profile bedside credenzas.",
-    "image": "/images/fitted-storage/cabivella-harmony-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_16_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-harmony-view-1.webp",
-      "/images/fitted-storage/cabivella-harmony-view-2.webp",
-      "/images/fitted-storage/cabivella-harmony-view-3.webp",
-      "/images/fitted-storage/cabivella-harmony-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_16_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_16_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_16_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_16_img4.webp"
+    ],
     "materials": [
       "Solid Stained Walnut / Smoked Oak Reeded Profiles",
       "Structural 18mm Lacquered Marine-Grade Composite Core",
@@ -18141,13 +18158,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Chelsea Statement Monolith Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Pure monolithic architectural wardrobe doors with push-to-open mechanics and clean flush lines for spacious urban interiors.",
     "description": "The Chelsea Monolith suite focuses on purity of plane and volume. Free from projecting hardware, the doors open with a gentle touch, revealing an intricately organised interior finished in rich textured linen or natural wood veneer.",
-    "image": "/images/fitted-storage/cabivella-cosmopolitan-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_17_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-cosmopolitan-view-1.webp",
-      "/images/fitted-storage/cabivella-cosmopolitan-view-2.webp",
-      "/images/fitted-storage/cabivella-cosmopolitan-view-3.webp",
-      "/images/fitted-storage/cabivella-cosmopolitan-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_17_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_17_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_17_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_17_img4.webp"
+    ],
     "materials": [
       "Textured Architectural Melamine & Satin Lacquer",
       "Reinforced Anti-Warp Structural Aluminium Core Channels",
@@ -18190,13 +18207,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Knightsbridge Dual-Tone Architectural Wardrobe | Cabivella UK",
     "metaDescription": "Two-tone bespoke fitted wardrobe combining tactile natural oak grain with matte architectural lacquer for multi-dimensional spaces.",
     "description": "Mastering the interplay of organic wood warmth and cool urban matte finishes, the Knightsbridge collection frames open display niches and central dressing stations within rich perimeter wardrobe joinery.",
-    "image": "/images/fitted-storage/cabivella-fusion-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_18_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-fusion-view-1.webp",
-      "/images/fitted-storage/cabivella-fusion-view-2.webp",
-      "/images/fitted-storage/cabivella-fusion-view-3.webp",
-      "/images/fitted-storage/cabivella-fusion-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_18_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_18_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_18_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_18_img4.webp"
+    ],
     "materials": [
       "Quarter-Cut Natural Oak Veneer",
       "Matte Graphite Polyurethane Spray Finish",
@@ -18239,13 +18256,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Richmond Framed Mirror Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Mirrored wardrobe doors with slender architectural stiles that amplify natural daylight and spatial volume in British bedrooms.",
     "description": "The Richmond suite incorporates full-length antiqued or clear safety-backed mirrors into slender timber stiles. By reflecting ambient daylight throughout the room, it visually doubles bedroom volume while providing an essential daily full-length dressing perspective.",
-    "image": "/images/fitted-storage/cabivella-manhattan-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_19_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-manhattan-view-1.webp",
-      "/images/fitted-storage/cabivella-manhattan-view-2.webp",
-      "/images/fitted-storage/cabivella-manhattan-view-3.webp",
-      "/images/fitted-storage/cabivella-manhattan-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_19_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_19_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_19_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_19_img4.webp"
+    ],
     "materials": [
       "4mm Safety-Backed Toughened Low-Iron / Bronze Mirror",
       "Solid Hardwood Door Frame Stiles",
@@ -18288,13 +18305,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Hampstead Architectural Sliding Door Wardrobe | Cabivella UK",
     "metaDescription": "Floor-to-ceiling smooth glide sliding wardrobe systems designed to maximise bedroom floor circulation in compact and open layouts.",
     "description": "Specifically engineered where hinged door swings would obstruct circulation space, the Hampstead sliding collection glides effortlessly along recessed ceiling and floor tracks. Panels can be tailored with alternating frosted glass, timber veneers, and satin matte lacquers.",
-    "image": "/images/fitted-storage/cabivella-sliding-doors-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_20_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-sliding-doors-view-1.webp",
-      "/images/fitted-storage/cabivella-sliding-doors-view-2.webp",
-      "/images/fitted-storage/cabivella-sliding-doors-view-3.webp",
-      "/images/fitted-storage/cabivella-sliding-doors-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_20_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_20_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_20_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_20_img4.webp"
+    ],
     "materials": [
       "Extruded Architectural Aluminium Glide Tracks",
       "Soft-Close Bi-Directional Hydraulic Dampers",
@@ -18389,10 +18406,8 @@ export const modelsData: Record<string, ModelDetail> = {
     "image": "/images/fitted-storage/cabivella-corner-view-1.webp",
     "gallery": [
       "/images/fitted-storage/cabivella-corner-view-1.webp",
-      "/images/fitted-storage/cabivella-corner-view-2.webp",
-      "/images/fitted-storage/cabivella-corner-view-3.webp",
-      "/images/fitted-storage/cabivella-corner-view-4.webp"
-],
+      "/images/fitted-storage/cabivella-corner-view-2.webp"
+    ],
     "materials": [
       "Precision High-Density Engineered Core (18mm carcass & shelves)",
       "Durable Polyurethane Spray Finish in Warm Taupe / Stone Grey",
@@ -18435,13 +18450,13 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Marylebone Contemporary Slab Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Sleek slab wardrobe cabinetry with precision shadow gaps and soft-touch matte finishes for minimalist bedrooms.",
     "description": "Clean, calm and impeccably resolved, the Marylebone collection showcases refined flat-panel doors detailed with delicate 3mm shadow margins. Ideal for new build renovations and serene contemporary apartments.",
-    "image": "/images/fitted-storage/cabivella-element-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_21_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-element-view-1.webp",
-      "/images/fitted-storage/cabivella-element-view-2.webp",
-      "/images/fitted-storage/cabivella-element-view-3.webp",
-      "/images/fitted-storage/cabivella-element-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_21_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_21_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_21_img3.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_21_img4.webp"
+    ],
     "materials": [
       "Thermal Laminate Soft-Touch Anti-Scratch Exterior",
       "FSC-Certified Solid Core Substrate",
@@ -18484,13 +18499,11 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "St James Beaded Classic Fitted Wardrobe | Cabivella UK",
     "metaDescription": "Handcrafted English cockbead wardrobe doors with traditional in-frame joinery for heritage properties and country homes.",
     "description": "The St James suite pays homage to fine British cabinetmaking traditions. Each door is framed within a solid perimeter surround featuring delicate cockbead moulding, evoking the enduring gravitas of historic country manor bedrooms.",
-    "image": "/images/fitted-storage/cabivella-milan-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_22_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-milan-view-1.webp",
-      "/images/fitted-storage/cabivella-milan-view-2.webp",
-      "/images/fitted-storage/cabivella-milan-view-3.webp",
-      "/images/fitted-storage/cabivella-milan-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_22_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_22_img2.webp"
+    ],
     "materials": [
       "In-Frame Solid Tulipwood Faceframes & Doors",
       "Hand-Painted Eggshell Finish in Heritage Mineral Pigments",
@@ -18533,13 +18546,12 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Fitzrovia Louvred Timber Fitted Wooden Storage & Wardrobe | Cabivella UK",
     "metaDescription": "Ventilated solid timber louvred fitted wooden storage and bespoke cupboards providing continuous airflow and floor-to-ceiling joinery for UK homes.",
     "description": "The Fitzrovia wardrobe combines practical air permeability with distinct architectural texture. Precision angled horizontal timber louvres ensure continuous natural airflow through stored garments, preventing stale moisture accumulation.",
-    "image": "/images/fitted-storage/cabivella-sorrento-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_23_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-sorrento-view-1.webp",
-      "/images/fitted-storage/cabivella-sorrento-view-2.webp",
-      "/images/fitted-storage/cabivella-sorrento-view-3.webp",
-      "/images/fitted-storage/cabivella-sorrento-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_23_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_23_img2.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_23_img3.webp"
+    ],
     "materials": [
       "Solid Radiata Pine & Hardwood Louvre Slatting",
       "Moisture-Resistant 18mm Internal Carcassing",
@@ -18582,13 +18594,11 @@ export const modelsData: Record<string, ModelDetail> = {
     "metaTitle": "Bloomsbury Reeded Glass Vitrine Wardrobe | Cabivella UK",
     "metaDescription": "Bespoke fluted glass wardrobe vitrines with illuminated interiors that veil garments with soft light and architectural elegance.",
     "description": "Offering a seductive play of light and privacy, the Bloomsbury collection encases fluted safety glass within slender anodised bronze frames. Interior LED illumination softly silhouetting garments without revealing interior clutter.",
-    "image": "/images/fitted-storage/cabivella-hampton-view-1.webp",
+    "image": "/assets/img/models/real_fitted_storage/wardrobe_24_img1.webp",
     "gallery": [
-      "/images/fitted-storage/cabivella-hampton-view-1.webp",
-      "/images/fitted-storage/cabivella-hampton-view-2.webp",
-      "/images/fitted-storage/cabivella-hampton-view-3.webp",
-      "/images/fitted-storage/cabivella-hampton-view-4.webp"
-],
+      "/assets/img/models/real_fitted_storage/wardrobe_24_img1.webp",
+      "/assets/img/models/real_fitted_storage/wardrobe_24_img2.webp"
+    ],
     "materials": [
       "Toughened Fluted Reeded Architectural Glass (4mm)",
       "Extruded Anodised Architectural Bronze Frame Profiles",

@@ -1,5 +1,5 @@
 // Cabivella UK Offline-First Service Worker (Mandate v9.2)
-const CACHE_NAME = 'cabivella-v12-editorial';
+const CACHE_NAME = 'cabivella-v13-images';
 const OFFLINE_URL = '/offline.html';
 
 const ASSETS_TO_CACHE = [

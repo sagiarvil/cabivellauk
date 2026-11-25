@@ -556,7 +556,7 @@ export const collectionsData: Record<string, CollectionCategory> = {
     "metaDescription": "High-quality Shaker replacement kitchen doors and handleless fronts. Refresh existing cabinetry carcasses with precision-crafted Turkish timber fronts.",
     "shortCopy": "A curated range of styles, finishes and colours.",
     "description": "Transform existing kitchen layouts sustainably with precision-milled replacement door fronts, bespoke spray-lacquered paint and solid wood veneers.",
-    "image": "/assets/img/models/shaker-replacement-doors.webp",
+    "image": "/assets/img/models/kitchen_suites/lea_1.webp",
     "modelSlugs": [
       "shaker-replacement-doors",
       "handleless-cabinet-fronts",
