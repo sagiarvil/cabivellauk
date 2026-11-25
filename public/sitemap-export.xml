@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cabivella.co.uk/ar/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cabivella.co.uk/ar/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cabivella.co.uk/fr/" />
+  </url>
+  <url>
+    <loc>https://cabivella.co.uk/fr/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cabivella.co.uk/fr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cabivella.co.uk/ar/" />
+  </url>
   <url>
     <loc>https://cabivella.co.uk/trade/europe/</loc>
   </url>

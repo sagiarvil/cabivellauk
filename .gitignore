@@ -6,3 +6,5 @@ dist/
 .DS_Store
 *.log
 .firebase/
+test-results/
+Cabivella_International_V2.html

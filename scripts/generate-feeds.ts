@@ -212,6 +212,8 @@ fs.writeFileSync(path.join(llmsMobileDir, 'nano-index.md'), nanoIndexMd, 'utf-8'
 // 3. Collect All Canonical Routes for Sitemaps & llms-full.txt
 const coreRoutes = [
   '/',
+  '/ar/',
+  '/fr/',
   '/collections/',
   '/materials/',
   '/our-story/',
@@ -266,6 +268,7 @@ fs.writeFileSync(path.join(publicDir, 'sitemap-cabinetry.xml'), buildUrlSetXml(c
 fs.writeFileSync(path.join(publicDir, 'sitemap-materials.xml'), buildUrlSetXml(materialsRoutes), 'utf-8');
 
 const sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>
+<!-- International Sales Hubs: https://cabivella.co.uk/ar/ | https://cabivella.co.uk/fr/ -->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>${ORIGIN}/sitemap-core.xml</loc>

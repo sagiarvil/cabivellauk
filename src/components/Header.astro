@@ -39,6 +39,51 @@ const isActive = (href: string) => {
       <a href="/collections/kitchens/" class:list={[{ 'is-active': isActive('/collections/kitchens/') }]}>Kitchens</a>
       <a href="/collections/bathrooms/" class:list={[{ 'is-active': isActive('/collections/bathrooms/') }]}>Bathrooms</a>
       <a href="/trade/" class:list={[{ 'is-active': isActive('/trade/') }]}>Trade</a>
+      <div class="cb-nav-group cb-intl-group" id="cb-intl-group">
+        <button
+          class:list={['cb-nav-trigger', 'cb-intl-trigger', { 'is-active': isActive('/ar/') || isActive('/fr/') }]}
+          type="button"
+          id="cb-intl-trigger"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-controls="cb-intl-dropdown"
+        >
+          <svg class="cb-intl-globe" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="12" cy="12" r="9.5"/>
+            <path d="M2.5 12h19M12 2.5c2.7 2.6 4.2 5.9 4.2 9.5s-1.5 6.9-4.2 9.5c-2.7-2.6-4.2-5.9-4.2-9.5S9.3 5.1 12 2.5Z"/>
+          </svg>
+          <span class="cb-intl-label">INTERNATIONAL</span>
+        </button>
+        <div class="cb-dropdown cb-intl-dropdown" id="cb-intl-dropdown" role="region" aria-label="International markets">
+          <div class="cb-intl-cards">
+            <a
+              href="/ar/"
+              class="cb-intl-card"
+              data-intl-lang="ar"
+              data-intl-market="MENA"
+              data-intl-source="desktop_header"
+            >
+              <span class="cb-intl-card-eyebrow">Middle East &amp; North Africa</span>
+              <span class="cb-intl-card-lang" lang="ar" dir="rtl">العربية</span>
+              <span class="cb-intl-card-sub">Arabic collections</span>
+            </a>
+            <a
+              href="/fr/"
+              class="cb-intl-card"
+              data-intl-lang="fr"
+              data-intl-market="FRANCOPHONE"
+              data-intl-source="desktop_header"
+            >
+              <span class="cb-intl-card-eyebrow">Francophone Markets</span>
+              <span class="cb-intl-card-lang" lang="fr">Français</span>
+              <span class="cb-intl-card-sub">Maroc · Tunisie · Algérie</span>
+            </a>
+          </div>
+          <div class="cb-intl-foot">
+            Private Clients · Wholesale · Trade
+          </div>
+        </div>
+      </div>
     </nav>
 
     <!-- Header Actions -->
@@ -91,6 +136,42 @@ const isActive = (href: string) => {
     <a href="/collections/kitchens/">Kitchens</a>
     <a href="/collections/bathrooms/">Bathrooms</a>
     <a href="/trade/">Trade &amp; Specification</a>
+
+    <div class="cb-mobile-intl" aria-label="International markets">
+      <div class="cb-mobile-intl-head">
+        <svg class="cb-intl-globe" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <circle cx="12" cy="12" r="9.5"/>
+          <path d="M2.5 12h19M12 2.5c2.7 2.6 4.2 5.9 4.2 9.5s-1.5 6.9-4.2 9.5c-2.7-2.6-4.2-5.9-4.2-9.5S9.3 5.1 12 2.5Z"/>
+        </svg>
+        <span>INTERNATIONAL</span>
+      </div>
+      <div class="cb-mobile-intl-cards">
+        <a
+          href="/ar/"
+          class="cb-mobile-intl-card"
+          data-intl-lang="ar"
+          data-intl-market="MENA"
+          data-intl-source="mobile_header"
+        >
+          <span class="cb-intl-card-eyebrow">Middle East &amp; North Africa</span>
+          <span class="cb-intl-card-lang" lang="ar" dir="rtl">العربية</span>
+          <span class="cb-intl-card-sub">Arabic collections</span>
+        </a>
+        <a
+          href="/fr/"
+          class="cb-mobile-intl-card"
+          data-intl-lang="fr"
+          data-intl-market="FRANCOPHONE"
+          data-intl-source="mobile_header"
+        >
+          <span class="cb-intl-card-eyebrow">Francophone Markets</span>
+          <span class="cb-intl-card-lang" lang="fr">Français</span>
+          <span class="cb-intl-card-sub">Maroc · Tunisie · Algérie</span>
+        </a>
+      </div>
+      <div class="cb-mobile-intl-foot">Private Clients · Wholesale · Trade</div>
+    </div>
+
     <a href="https://wa.me/447898262110" target="_blank" rel="noopener noreferrer" style="color: #208b51; font-weight: 600;">
       WhatsApp — +44 7898 262110
     </a>
@@ -271,40 +352,172 @@ const isActive = (href: string) => {
 
 .cb-nav-trigger:after {
   content: ' ▾';
-  margin-left: 6px;
-  font-size: 11px;
+  margin-left: 5px;
+  font-size: 10px;
+  color: var(--gold);
+}
+
+.cb-intl-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: normal 13.5px/1 Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.09em;
+  color: var(--ink);
+  padding: 9px 12px;
+  border: 1px solid rgba(185, 145, 74, 0.55);
+  background: rgba(252, 250, 246, 0.9);
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.cb-intl-trigger:hover,
+.cb-intl-trigger.is-active,
+.cb-intl-group.is-open .cb-intl-trigger {
+  color: #8a642b;
+  border-color: var(--gold);
+  background: #f8f3e8;
+}
+
+.cb-intl-globe {
+  color: var(--gold);
+  flex-shrink: 0;
 }
 
 .cb-dropdown {
   position: absolute;
   display: none;
-  top: 100%;
+  top: calc(100% + 6px);
   left: -15px;
   min-width: 220px;
   padding: 10px;
+  background: #fcfaf6;
+  box-shadow: 0 18px 42px rgba(23, 48, 40, 0.11);
+  border: 1px solid rgba(185, 145, 74, 0.48);
+  z-index: 1010;
+}
+
+.cb-intl-dropdown {
+  left: auto;
+  right: 0;
+  width: min(440px, calc(100vw - 32px));
+  padding: 18px;
+  background: #fcfaf6;
+  border: 1px solid #d5c19a;
+  box-shadow: 0 18px 42px rgba(23, 48, 40, 0.12);
+  border-radius: 2px;
+}
+
+.cb-intl-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.cb-dropdown a.cb-intl-card,
+.cb-mobile-panel a.cb-mobile-intl-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 15px 16px;
   background: #ffffff;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-  border: 1px solid var(--line);
-  border-radius: 4px;
-}
-
-.cb-dropdown a {
-  display: block;
-  padding: 12px;
-  font-size: 14px;
-  color: var(--ink);
+  border: 1px solid #e2d5bc;
   text-decoration: none;
-  transition: background 0.15s;
+  color: var(--ink);
+  transition: border-color 0.18s, background 0.18s;
 }
 
-.cb-dropdown a:hover {
-  background: #f8f4eb;
+.cb-dropdown a.cb-intl-card:hover,
+.cb-dropdown a.cb-intl-card:focus-visible,
+.cb-mobile-panel a.cb-mobile-intl-card:hover,
+.cb-mobile-panel a.cb-mobile-intl-card:focus-visible {
+  background: #f9f5ec;
+  border-color: var(--gold);
 }
 
-.cb-nav-group:focus-within .cb-dropdown,
-.cb-nav-group:hover .cb-dropdown,
+.cb-intl-card-eyebrow {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7c6336;
+  line-height: 1.35;
+}
+
+.cb-intl-card-lang {
+  display: block;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.25;
+  margin: 2px 0;
+}
+
+.cb-intl-card-lang[lang="ar"] {
+  font-family: Tahoma, Arial, sans-serif;
+  font-weight: 600;
+  text-align: right;
+}
+
+.cb-intl-card-sub {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #54625a;
+  line-height: 1.4;
+}
+
+.cb-intl-foot,
+.cb-mobile-intl-foot {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #e6dcc8;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  color: #6b5839;
+}
+
+.cb-nav-group:not(.is-dismissed):focus-within .cb-dropdown,
+.cb-nav-group:not(.is-dismissed):hover .cb-dropdown,
 .cb-nav-group.is-open .cb-dropdown {
   display: block;
+}
+
+.cb-mobile-intl {
+  margin: 12px 0 8px;
+  padding: 14px;
+  background: #fcfaf6;
+  border: 1px solid #d5c19a;
+}
+
+.cb-mobile-intl-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: normal 13px/1.2 Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.12em;
+  color: var(--ink);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6dcc8;
+}
+
+.cb-mobile-intl-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 420px) {
+  .cb-intl-cards,
+  .cb-mobile-intl-cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 .cb-actions {
@@ -547,8 +760,9 @@ const isActive = (href: string) => {
 
 <script>
   function setupHeader() {
-    const header = document.querySelector('#cabivella-header');
-    if (!header) return;
+    const header = document.querySelector<HTMLElement>('#cabivella-header');
+    if (!header || header.dataset.bound === 'true') return;
+    header.dataset.bound = 'true';
 
     const menuBtn = header.querySelector<HTMLElement>('.cb-mobile-toggle');
     const mobile = header.querySelector<HTMLElement>('#cb-mobile-panel');
@@ -556,6 +770,15 @@ const isActive = (href: string) => {
     const search = header.querySelector<HTMLElement>('#cb-search-panel');
     const ddBtn = header.querySelector<HTMLElement>('.cb-nav-trigger');
     const ddGroup = header.querySelector<HTMLElement>('.cb-nav-group');
+
+    function pushAnalytics(eventName: string, payload: Record<string, string> = {}) {
+      const w = window as unknown as { dataLayer?: Array<Record<string, unknown>>; gtag?: (...args: unknown[]) => void };
+      w.dataLayer = w.dataLayer || [];
+      w.dataLayer.push({ event: eventName, ...payload });
+      if (typeof w.gtag === 'function') {
+        w.gtag('event', eventName, payload);
+      }
+    }
 
     function toggle(btn: HTMLElement | null, panel: HTMLElement | null, open: boolean) {
       if (!btn || !panel) return;
@@ -566,11 +789,21 @@ const isActive = (href: string) => {
       }
     }
 
+    function setDropdown(open: boolean, dismissed = false) {
+      if (!ddBtn || !ddGroup) return;
+      ddBtn.setAttribute('aria-expanded', String(open));
+      ddGroup.classList.toggle('is-open', open);
+      ddGroup.classList.toggle('is-dismissed', dismissed);
+    }
+
     if (menuBtn && mobile) {
       menuBtn.addEventListener('click', () => {
         const open = mobile.hidden;
         toggle(menuBtn, mobile, open);
         if (searchBtn && search) toggle(searchBtn, search, false);
+        if (open) {
+          pushAnalytics('international_menu_click', { source: 'mobile_menu_toggle' });
+        }
       });
     }
 
@@ -589,27 +822,50 @@ const isActive = (href: string) => {
     if (ddBtn && ddGroup) {
       ddBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        const open = ddBtn.getAttribute('aria-expanded') !== 'true';
-        ddBtn.setAttribute('aria-expanded', String(open));
-        ddGroup.classList.toggle('is-open', open);
+        const isCurrentlyOpen = ddGroup.classList.contains('is-open');
+        const nextOpen = !isCurrentlyOpen;
+        setDropdown(nextOpen, !nextOpen);
+        if (nextOpen) {
+          pushAnalytics('international_menu_click', { source: 'desktop_header' });
+        }
+      });
+
+      ddGroup.addEventListener('mouseleave', () => {
+        ddGroup.classList.remove('is-dismissed');
+        if (!ddGroup.classList.contains('is-open')) {
+          ddBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      ddGroup.addEventListener('focusout', (e: FocusEvent) => {
+        const nextTarget = e.relatedTarget as Node | null;
+        if (nextTarget && !ddGroup.contains(nextTarget)) {
+          setDropdown(false, false);
+        }
       });
     }
+
+    header.querySelectorAll<HTMLElement>('[data-intl-lang]').forEach((link) => {
+      link.addEventListener('click', () => {
+        pushAnalytics('language_select', {
+          language: link.dataset.intlLang || '',
+          market: link.dataset.intlMarket || '',
+          source: link.dataset.intlSource || 'header'
+        });
+      });
+    });
 
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         if (menuBtn && mobile) toggle(menuBtn, mobile, false);
         if (searchBtn && search) toggle(searchBtn, search, false);
-        if (ddBtn && ddGroup) {
-          ddBtn.setAttribute('aria-expanded', 'false');
-          ddGroup.classList.remove('is-open');
-        }
+        setDropdown(false, true);
       }
     });
 
     document.addEventListener('click', (e) => {
       if (ddGroup && !ddGroup.contains(e.target as Node)) {
-        if (ddBtn) ddBtn.setAttribute('aria-expanded', 'false');
-        ddGroup.classList.remove('is-open');
+        setDropdown(false, false);
       }
     });
 
