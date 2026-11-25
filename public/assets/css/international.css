@@ -206,8 +206,9 @@ html[lang="ar"] .top-identity {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 18px;
   min-height: 82px;
+  max-width: 1480px;
 }
 
 .brand-group {
@@ -223,6 +224,7 @@ html[lang="ar"] .top-identity {
   gap: 12px;
   direction: ltr;
   color: var(--forest);
+  flex-shrink: 0;
 }
 
 .brand-crest {
@@ -415,6 +417,7 @@ html[lang="ar"] .nav > a {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-shrink: 0;
 }
 
 .head-wa-btn {
@@ -430,6 +433,7 @@ html[lang="ar"] .nav > a {
   font-size: 12px;
   font-weight: 700;
   white-space: nowrap;
+  flex-shrink: 0;
   direction: ltr;
   transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
@@ -466,9 +470,10 @@ html[lang="ar"] .nav > a {
 .lang-pills {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   direction: ltr;
   font-size: 12.5px;
+  flex-shrink: 0;
 }
 
 .lang-pills a {
@@ -476,6 +481,8 @@ html[lang="ar"] .nav > a {
   min-height: 36px;
   display: inline-flex;
   align-items: center;
+  white-space: nowrap;
+  flex-shrink: 0;
   color: var(--muted);
   border-bottom: 2px solid transparent;
 }
@@ -1518,19 +1525,25 @@ html.motion-ready [data-reveal].is-revealed {
 /* --------------------------------------------------------------------------
    Responsive Breakpoints (320px, 390px, 768px, 1024px, 1440px, 1920px)
    -------------------------------------------------------------------------- */
-@media (max-width: 1360px) {
-  .page-badge {
-    display: none;
+@media (max-width: 1240px) {
+  .head-inner {
+    gap: 12px;
+    padding-inline: 18px;
   }
-}
-
-@media (max-width: 1160px) {
+  .nav {
+    gap: 14px;
+    font-size: 13px;
+  }
   .head-wa-btn {
-    display: none;
+    padding: 7px 10px;
+    font-size: 11.5px;
   }
 }
 
 @media (max-width: 1080px) {
+  .head-wa-btn {
+    display: none;
+  }
   .nav,
   .head-right .intl-menu {
     display: none;

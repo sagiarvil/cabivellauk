@@ -631,39 +631,46 @@ const isActive = (href: string) => {
 
 @media (max-width: 1450px) {
   .cb-container {
-    width: min(100% - 72px, 1600px);
+    width: min(100% - 48px, 1600px);
   }
   .cb-main-inner {
-    gap: 16px;
+    gap: 14px;
   }
   .cb-nav {
-    gap: 14px;
+    gap: 12px;
   }
   .cb-nav > a,
   .cb-nav-trigger {
-    font-size: 14px;
+    font-size: 13.5px;
+  }
+  .cb-intl-trigger {
+    font-size: 12px;
+    padding: 8px 10px;
   }
   .cb-whatsapp {
     font-size: 12px;
-    padding: 10px;
+    padding: 9px 11px;
   }
   .cb-cta {
-    padding: 12px;
+    padding: 11px 14px;
     font-size: 13px;
   }
+  .cb-actions {
+    gap: 8px;
+  }
   .cb-brand-name {
-    font-size: 19px;
+    font-size: 18px;
   }
   .cb-crest {
-    width: 48px;
-    height: 44px;
+    width: 46px;
+    height: 42px;
   }
   .cb-brand-sep {
-    height: 30px;
+    height: 28px;
   }
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1240px) {
   .cb-header .cb-nav,
   .cb-whatsapp,
   .cb-actions > .cb-cta,
@@ -869,7 +876,7 @@ const isActive = (href: string) => {
       }
     });
 
-    window.matchMedia('(min-width: 1171px)').addEventListener('change', (e) => {
+    window.matchMedia('(min-width: 1241px)').addEventListener('change', (e) => {
       if (e.matches && menuBtn && mobile) {
         toggle(menuBtn, mobile, false);
       }

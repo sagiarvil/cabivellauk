@@ -366,4 +366,51 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
       expect(audit.noDuplicatesInFirst9, `Duplicate card images on ${route}: ${JSON.stringify(audit.results)}`).toBe(true);
     }
   });
+
+  test('9. Header stays single-line, unclipped, and zero-overflow across all desktop/tablet/mobile viewports on /, /ar/, and /fr/', async ({ page }) => {
+    const headerWidths = [320, 390, 768, 1024, 1180, 1280, 1366, 1440, 1920];
+    for (const route of ['/', '/ar/', '/fr/']) {
+      for (const width of headerWidths) {
+        await page.setViewportSize({ width, height: 900 });
+        await page.goto(route);
+
+        const check = await page.evaluate((vpWidth) => {
+          const docOverflow = document.documentElement.scrollWidth > document.documentElement.clientWidth;
+          const header = document.querySelector('header');
+          if (!header) return { ok: false, reason: 'missing header' };
+          const hRect = header.getBoundingClientRect();
+          const items = Array.from(header.querySelectorAll('a, button')).filter((el) => {
+            const st = getComputedStyle(el);
+            if (st.display === 'none' || st.visibility === 'hidden') return false;
+            const r = el.getBoundingClientRect();
+            return r.width > 0 && r.height > 0 && !el.closest('[hidden]');
+          });
+
+          const badItems: Array<Record<string, unknown>> = [];
+          for (const el of items) {
+            const r = el.getBoundingClientRect();
+            const fitsViewport = r.left >= -0.5 && r.right <= vpWidth + 0.5;
+            const singleLineHeight = r.height <= 64;
+            if (!fitsViewport || !singleLineHeight) {
+              badItems.push({
+                text: (el.textContent || '').trim().slice(0, 40),
+                left: Math.round(r.left),
+                right: Math.round(r.right),
+                height: Math.round(r.height),
+                vpWidth
+              });
+            }
+          }
+          return {
+            ok: !docOverflow && hRect.height <= 125 && badItems.length === 0,
+            docOverflow,
+            headerHeight: Math.round(hRect.height),
+            badItems
+          };
+        }, width);
+
+        expect(check.ok, `Header break/overflow on ${route} at ${width}px: ${JSON.stringify(check)}`).toBe(true);
+      }
+    }
+  });
 });
