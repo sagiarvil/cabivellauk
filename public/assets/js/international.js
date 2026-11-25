@@ -501,7 +501,7 @@
       if (detailsVal) lines.push(cfg.labels.details + ': ' + detailsVal);
 
       var messageText = lines.join('\n');
-      var waUrl = 'https://wa.me/905324261788?text=' + encodeURIComponent(messageText);
+      var waUrl = 'https://wa.me/447898262110?text=' + encodeURIComponent(messageText);
 
       form.dataset.lastWhatsappUrl = waUrl;
       form.dataset.lastWhatsappMessage = messageText;

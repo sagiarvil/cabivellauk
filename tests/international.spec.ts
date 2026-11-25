@@ -207,7 +207,7 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
     await expect(page.locator('#form-error')).toBeHidden();
 
     const frWa = await page.evaluate(() => (window as any).__cabivellaLastWhatsApp);
-    expect(frWa.url).toContain('https://wa.me/905324261788?text=');
+    expect(frWa.url).toContain('https://wa.me/447898262110?text=');
     expect(frWa.message).toContain('Bonjour Cabivella');
     expect(frWa.message).toContain('Particulier');
     expect(frWa.message).toContain('Cameroun');
@@ -216,11 +216,18 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
     expect(frWa.message).toContain('RIVA 170 (EV-04)');
     expect(frWa.message).toContain('170 × 45 × 205 cm');
 
+    // Verify floating WhatsApp button & header WhatsApp button on /fr/
+    await expect(page.locator('#wa-float-btn')).toHaveAttribute('href', 'https://wa.me/447898262110?text=Hello%20Cabivella');
+    await expect(page.locator('.head-wa-btn')).toHaveAttribute('href', 'https://wa.me/447898262110?text=Hello%20Cabivella');
+
     // Switch to Wholesale (trade) flow on /ar/
     await page.goto('/ar/');
     await page.evaluate(() => {
       (window as any).__cabivellaPreventRedirect = true;
     });
+
+    await expect(page.locator('#wa-float-btn')).toHaveAttribute('href', 'https://wa.me/447898262110?text=Hello%20Cabivella');
+    await expect(page.locator('.head-wa-btn')).toHaveAttribute('href', 'https://wa.me/447898262110?text=Hello%20Cabivella');
 
     await page.locator('#trade a[data-type="trade"]').click();
     await expect(page.locator('#company-field')).toBeVisible();
@@ -235,7 +242,7 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
     await page.locator('#quote button[type="submit"]').click();
 
     const arWa = await page.evaluate(() => (window as any).__cabivellaLastWhatsApp);
-    expect(arWa.url).toContain('https://wa.me/905324261788?text=');
+    expect(arWa.url).toContain('https://wa.me/447898262110?text=');
     expect(arWa.message).toContain('مرحباً كابيفيلا');
     expect(arWa.message).toContain('تاجر أو شركة');
     expect(arWa.message).toContain('المملكة العربية السعودية');
@@ -285,7 +292,7 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
         if ((route === '/ar/' || route === '/fr/') && vp.width <= 768) {
           const dock = page.locator('.dock');
           await expect(dock).toBeVisible();
-          await expect(dock.locator('a[href="tel:+905324261788"]')).toBeVisible();
+          await expect(dock.locator('a[href="https://wa.me/447898262110?text=Hello%20Cabivella"]')).toBeVisible();
           await expect(dock.locator('a[href="#devis"]')).toBeVisible();
         }
       }

@@ -146,42 +146,58 @@ const featuredKitchens = [
     </div>
   </section>
 
-  <!-- Core Room Collections (6 Core Disciplines in 3-Column Editorial Grid) -->
-  <section class="core-collections-section" id="collections" aria-labelledby="collections-title">
-    <div class="wrap">
-      <div class="core-collections-head" data-reveal>
-        <div>
-          <span class="section-eyebrow">SIX CORE DISCIPLINES</span>
-          <h2 id="collections-title">Cabinetry designed for real rooms.</h2>
+  <!-- 3 Signature Architectural Kitchen Spotlights (50/50 Editorial Split) -->
+  <section class="locus-split-showcase" aria-label="Featured Bespoke Kitchen Architecture">
+    {featuredKitchens.map((model, idx) => {
+      const isReversed = idx % 2 === 1;
+      return (
+        <div class={`locus-split-row ${isReversed ? 'is-reversed' : ''}`} data-reveal>
+          <div class="locus-content-box">
+            <span class="locus-row-eyebrow">{model.eyebrow}</span>
+            <h2 class="locus-model-title">{model.title}</h2>
+            <p>{model.desc}</p>
+            <div class="locus-spec-line">{model.spec}</div>
+            <div>
+              <a href={model.link} class="locus-btn">VIEW SPECIFICATION</a>
+            </div>
+          </div>
+          <div class="locus-image-box">
+            <img 
+              src={model.image} 
+              alt={`${model.title} - Cabivella Bespoke Kitchen Architecture`} 
+              loading="lazy" 
+              decoding="async"
+              width="960"
+              height="640"
+            />
+          </div>
         </div>
-        <p>Every piece is built to order around your dimensions, finishes, and destination—whether for a single alcove or a multi-unit specification.</p>
-      </div>
+      );
+    })}
+  </section>
 
-      <div class="core-collections-grid" data-reveal-group>
-        {collections.map((cat, idx) => {
-          const href = cat.slug === 'coffee-stations' ? '/coffee-corners/' : `/collections/${cat.slug}/`;
-          const displayTitle = cat.slug === 'coffee-stations' ? 'Coffee Corners' : cat.title;
-          return (
-            <a href={href} class="core-cat-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
-              <div class="core-cat-photo">
-                <img 
-                  src={cat.image} 
-                  alt={`${displayTitle} cabinetry by Cabivella`} 
-                  width="640" 
-                  height="500" 
-                  loading="lazy" 
-                  decoding="async"
-                />
-                <span class="core-cat-num">0{idx + 1}</span>
-              </div>
-              <div class="core-cat-body">
-                <h3>{displayTitle}</h3>
-                <p>{cat.shortCopy}</p>
-                <span class="core-cat-link">Explore {displayTitle} <span aria-hidden="true">→</span></span>
-              </div>
-            </a>
-          );
-        })}
+  <!-- Editorial Craft & Provenance -->
+  <section class="editorial-feature" aria-labelledby="craft-title">
+    <div class="wrap editorial-grid">
+      <div data-reveal>
+        <img 
+          src="/assets/img/concept-kitchen.webp" 
+          alt="Warm neutral kitchen joinery with sage cabinetry" 
+          width="1200" 
+          height="900"
+          loading="lazy" 
+          decoding="async"
+        />
+      </div>
+      <div class="editorial-copy" data-reveal>
+        <span class="section-eyebrow">WORKSHOP CRAFT &amp; MATERIALS</span>
+        <h2 id="craft-title">Built for the life of a room.</h2>
+        <p>We pair kiln-dried European hardwoods and 18 mm moisture-resistant cores with precision Blum soft-close hardware and multi-coat polyurethane lacquers.</p>
+        <p>Every order is fabricated in our dedicated woodworking facilities in Turkey and shipped in reinforced protective crating direct to residential and trade sites.</p>
+        <div class="editorial-links-row">
+          <a href="/materials/" class="text-link">Materials &amp; Finishes ↗</a>
+          <a href="/our-story/" class="text-link">Our Workshop Story ↗</a>
+        </div>
       </div>
     </div>
   </section>
@@ -233,58 +249,42 @@ const featuredKitchens = [
     </div>
   </section>
 
-  <!-- 3 Signature Architectural Kitchen Spotlights (50/50 Editorial Split) -->
-  <section class="locus-split-showcase" aria-label="Featured Bespoke Kitchen Architecture">
-    {featuredKitchens.map((model, idx) => {
-      const isReversed = idx % 2 === 1;
-      return (
-        <div class={`locus-split-row ${isReversed ? 'is-reversed' : ''}`} data-reveal>
-          <div class="locus-content-box">
-            <span class="locus-row-eyebrow">{model.eyebrow}</span>
-            <h3 class="locus-model-title">{model.title}</h3>
-            <p>{model.desc}</p>
-            <div class="locus-spec-line">{model.spec}</div>
-            <div>
-              <a href={model.link} class="locus-btn">VIEW SPECIFICATION</a>
-            </div>
-          </div>
-          <div class="locus-image-box">
-            <img 
-              src={model.image} 
-              alt={`${model.title} - Cabivella Bespoke Kitchen Architecture`} 
-              loading="lazy" 
-              decoding="async"
-              width="960"
-              height="640"
-            />
-          </div>
+  <!-- Core Room Collections (6 Core Disciplines in 3-Column Editorial Grid) -->
+  <section class="core-collections-section" id="collections" aria-labelledby="collections-title">
+    <div class="wrap">
+      <div class="core-collections-head" data-reveal>
+        <div>
+          <span class="section-eyebrow">SIX CORE DISCIPLINES</span>
+          <h2 id="collections-title">Cabinetry designed for real rooms.</h2>
         </div>
-      );
-    })}
-  </section>
-
-  <!-- Editorial Craft & Provenance -->
-  <section class="editorial-feature" aria-labelledby="craft-title">
-    <div class="wrap editorial-grid">
-      <div data-reveal>
-        <img 
-          src="/assets/img/concept-kitchen.webp" 
-          alt="Warm neutral kitchen joinery with sage cabinetry" 
-          width="1200" 
-          height="900"
-          loading="lazy" 
-          decoding="async"
-        />
+        <p>Every piece is built to order around your dimensions, finishes, and destination—whether for a single alcove or a multi-unit specification.</p>
       </div>
-      <div class="editorial-copy" data-reveal>
-        <span class="section-eyebrow">WORKSHOP CRAFT &amp; MATERIALS</span>
-        <h2 id="craft-title">Built for the life of a room.</h2>
-        <p>We pair kiln-dried European hardwoods and 18 mm moisture-resistant cores with precision Blum soft-close hardware and multi-coat polyurethane lacquers.</p>
-        <p>Every order is fabricated in our dedicated woodworking facilities in Turkey and shipped in reinforced protective crating direct to residential and trade sites.</p>
-        <div class="editorial-links-row">
-          <a href="/materials/" class="text-link">Materials &amp; Finishes ↗</a>
-          <a href="/our-story/" class="text-link">Our Workshop Story ↗</a>
-        </div>
+
+      <div class="core-collections-grid" data-reveal-group>
+        {collections.map((cat, idx) => {
+          const href = cat.slug === 'coffee-stations' ? '/coffee-corners/' : `/collections/${cat.slug}/`;
+          const displayTitle = cat.slug === 'coffee-stations' ? 'Coffee Corners' : cat.title;
+          return (
+            <a href={href} class="core-cat-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
+              <div class="core-cat-photo">
+                <img 
+                  src={cat.image} 
+                  alt={`${displayTitle} cabinetry by Cabivella`} 
+                  width="640" 
+                  height="500" 
+                  loading="lazy" 
+                  decoding="async"
+                />
+                <span class="core-cat-num">0{idx + 1}</span>
+              </div>
+              <div class="core-cat-body">
+                <h3>{displayTitle}</h3>
+                <p>{cat.shortCopy}</p>
+                <span class="core-cat-link">Explore {displayTitle} <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </div>
   </section>

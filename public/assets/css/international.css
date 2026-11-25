@@ -258,16 +258,7 @@ html[lang="ar"] .top-identity {
 }
 
 .page-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 5px 10px;
-  border: 1px solid var(--gold-line);
-  background: #f8f4ea;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  color: #6e532b;
-  white-space: nowrap;
+  display: none;
 }
 
 html[lang="ar"] .page-badge {
@@ -423,7 +414,53 @@ html[lang="ar"] .nav > a {
 .head-right {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+}
+
+.head-wa-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 13px;
+  min-height: 40px;
+  border: 1px solid rgba(32, 139, 81, 0.35);
+  background: #f4faf6;
+  color: #196b3e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  direction: ltr;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.head-wa-btn svg {
+  color: #208b51;
+  flex-shrink: 0;
+}
+
+.head-wa-btn:hover {
+  background: #196b3e;
+  border-color: #196b3e;
+  color: #ffffff;
+}
+
+.head-wa-btn:hover svg {
+  color: #ffffff;
+}
+
+.mobile-wa-link {
+  color: #196b3e !important;
+  direction: ltr;
+}
+
+.wa-direct-btn svg {
+  color: #208b51;
+  flex-shrink: 0;
+}
+
+.wa-direct-btn:hover svg {
+  color: #ffffff;
 }
 
 .lang-pills {
@@ -1399,15 +1436,68 @@ html[dir="rtl"] .footer-links {
   box-shadow: 0 -4px 20px rgba(36, 49, 43, 0.09);
   padding: 9px 14px max(9px, env(safe-area-inset-bottom));
   display: none;
-  grid-template-columns: 1fr 1.45fr;
+  grid-template-columns: 1.15fr 1.25fr;
   gap: 10px;
   z-index: 990;
 }
 
 .dock .btn {
   min-height: 48px;
-  padding: 10px 12px;
-  font-size: 14px;
+  padding: 10px 10px;
+  font-size: 13px;
+}
+
+.dock .dock-wa-btn {
+  border-color: #196b3e;
+  color: #196b3e;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Floating WhatsApp Contact Badge */
+.wa-float-btn {
+  position: fixed;
+  bottom: 24px;
+  inset-inline-end: 24px;
+  z-index: 985;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 16px 7px 8px;
+  background: rgba(24, 35, 32, 0.96);
+  border: 1px solid rgba(185, 145, 74, 0.55);
+  border-radius: 999px;
+  color: #ffffff;
+  box-shadow: 0 12px 30px rgba(18, 30, 24, 0.32);
+  direction: ltr;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.wa-float-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--gold-bright);
+  box-shadow: 0 16px 36px rgba(18, 30, 24, 0.42);
+}
+
+.wa-float-ring {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.wa-float-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #f7f3eb;
+  white-space: nowrap;
 }
 
 /* --------------------------------------------------------------------------
@@ -1428,6 +1518,18 @@ html.motion-ready [data-reveal].is-revealed {
 /* --------------------------------------------------------------------------
    Responsive Breakpoints (320px, 390px, 768px, 1024px, 1440px, 1920px)
    -------------------------------------------------------------------------- */
+@media (max-width: 1360px) {
+  .page-badge {
+    display: none;
+  }
+}
+
+@media (max-width: 1160px) {
+  .head-wa-btn {
+    display: none;
+  }
+}
+
 @media (max-width: 1080px) {
   .nav,
   .head-right .intl-menu {
@@ -1502,6 +1604,14 @@ html.motion-ready [data-reveal].is-revealed {
   }
   .dock {
     display: grid;
+  }
+  .wa-float-btn {
+    bottom: 76px;
+    inset-inline-end: 14px;
+    padding: 6px;
+  }
+  .wa-float-text {
+    display: none;
   }
   .footer {
     padding-bottom: 108px;
