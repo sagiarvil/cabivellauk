@@ -255,8 +255,22 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
     expect(dlJson).not.toContain('الرياض');
   });
 
-  test('6. Responsive viewports (320, 390, 768, 1024, 1440, 1920) have zero horizontal overflow and mobile sticky dock works cleanly', async ({ page }) => {
-    for (const route of ['/', '/ar/', '/fr/']) {
+  test('6. Responsive viewports (320, 390, 768, 1024, 1440, 1920) have zero horizontal overflow across all core pages and zero visible AI spec-brief bloat', async ({ page }) => {
+    const coreRoutes = [
+      '/',
+      '/coffee-corners/',
+      '/coffee-corners/riva-90-sand-beige/',
+      '/collections/',
+      '/collections/kitchens/',
+      '/collections/bathrooms/',
+      '/our-story/',
+      '/trade/',
+      '/materials/',
+      '/enquire/',
+      '/ar/',
+      '/fr/'
+    ];
+    for (const route of coreRoutes) {
       for (const vp of VIEWPORTS) {
         await page.setViewportSize(vp);
         await page.goto(route);
@@ -265,7 +279,10 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
         });
         expect(overflow, `Overflow detected on ${route} at ${vp.width}px`).toBe(false);
 
-        if (route !== '/' && vp.width <= 768) {
+        // Verify visible AI specification brief dump (.cb-spec-grounding) is gone
+        await expect(page.locator('.cb-spec-grounding')).toHaveCount(0);
+
+        if ((route === '/ar/' || route === '/fr/') && vp.width <= 768) {
           const dock = page.locator('.dock');
           await expect(dock).toBeVisible();
           await expect(dock.locator('a[href="tel:+905324261788"]')).toBeVisible();

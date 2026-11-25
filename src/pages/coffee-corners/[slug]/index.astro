@@ -224,46 +224,38 @@ const metaDescription = `Explore ${model.name} (${model.code}), a ${model.dims} 
         </div>
       </div>
 
-      <!-- 2,300+ CHARACTER BESPOKE BRITISH ENGLISH ARCHITECTURAL STORY & MONOGRAPH -->
+      <!-- SYMMETRICAL 50/50 ARCHITECTURAL SPECIFICATION & HIGHLIGHTS -->
       <section class="cc-story-section" aria-labelledby="cc-story-heading">
         <div class="cc-story-header">
-          <span class="cc-eyebrow">BESPOKE ARCHITECTURAL MONOGRAPH · {model.code} · {model.name}</span>
-          <h2 id="cc-story-heading">{model.storyTitle}</h2>
-          <p class="cc-story-lead">{model.storyLead}</p>
+          <span class="cc-eyebrow">TECHNICAL SPECIFICATION &amp; OVERVIEW · {model.code} · {model.name}</span>
+          <h2 id="cc-story-heading">{model.name} — {model.subtitle} ({model.dims})</h2>
         </div>
 
         <div class="cc-story-body">
-          <div class="cc-story-prose">
-            {model.storyParagraphs.map((paragraph) => (
-              <p>{paragraph}</p>
-            ))}
+          <div class="cc-highlights-card">
+            <h3>Design &amp; Spatial Highlights</h3>
+            <p class="cc-overview-copy">{model.desc}</p>
+            <ul>
+              {model.seoHighlights.map((hl) => (
+                <li>{hl}</li>
+              ))}
+            </ul>
           </div>
 
-          <aside class="cc-story-sidebar">
-            <div class="cc-highlights-card">
-              <h3>Key Architectural &amp; Barista Highlights</h3>
-              <ul>
-                {model.seoHighlights.map((hl) => (
-                  <li>{hl}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div class="cc-spec-table-card">
-              <h3>Technical Specification Sheet</h3>
-              <dl class="cc-spec-dl">
-                <div><dt>Model Reference</dt><dd>{model.code} · {model.name}</dd></div>
-                <div><dt>Dimensions (W × D × H)</dt><dd>{model.dims}</dd></div>
-                <div><dt>Width Category</dt><dd>{model.size}</dd></div>
-                <div><dt>Carcass &amp; Fascia</dt><dd>18 mm Grade-A Full MDF (Zero Chipboard)</dd></div>
-                <div><dt>Surface Finish</dt><dd>{model.finish}</dd></div>
-                <div><dt>Layout Architecture</dt><dd>{model.layout}</dd></div>
-                <div><dt>Worktop &amp; Lighting</dt><dd>{model.note}</dd></div>
-                <div><dt>Ironmongery</dt><dd>Soft-Close Hinges &amp; Damped Telescopic Runners</dd></div>
-                <div><dt>UK Logistics</dt><dd>Shock-Absorbing Crated Mainland UK Delivery</dd></div>
-              </dl>
-            </div>
-          </aside>
+          <div class="cc-spec-table-card">
+            <h3>Technical Specification Sheet</h3>
+            <dl class="cc-spec-dl">
+              <div><dt>Model Reference</dt><dd>{model.code} · {model.name}</dd></div>
+              <div><dt>Dimensions (W × D × H)</dt><dd>{model.dims}</dd></div>
+              <div><dt>Width Category</dt><dd>{model.size}</dd></div>
+              <div><dt>Carcass &amp; Fascia</dt><dd>18 mm Grade-A Full MDF (Zero Chipboard)</dd></div>
+              <div><dt>Surface Finish</dt><dd>{model.finish}</dd></div>
+              <div><dt>Layout Architecture</dt><dd>{model.layout}</dd></div>
+              <div><dt>Worktop &amp; Lighting</dt><dd>{model.note}</dd></div>
+              <div><dt>Ironmongery</dt><dd>Soft-Close Hinges &amp; Damped Telescopic Runners</dd></div>
+              <div><dt>UK Logistics</dt><dd>Reinforced Export Crating · Direct UK Delivery</dd></div>
+            </dl>
+          </div>
         </div>
       </section>
 
@@ -642,15 +634,17 @@ const metaDescription = `Explore ${model.name} (${model.code}), a ${model.dims} 
   }
   .cc-story-body {
     display: grid;
-    grid-template-columns: 1.35fr 0.65fr;
-    gap: 36px;
-    align-items: start;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    align-items: stretch;
   }
-  .cc-story-prose p {
-    font-size: 16px;
-    line-height: 1.8;
+  .cc-overview-copy {
+    font-size: 14.5px;
+    line-height: 1.65;
     color: #333b35;
-    margin: 0 0 20px;
+    margin: 0 0 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #e2dccb;
   }
   .cc-story-sidebar {
     display: flex;

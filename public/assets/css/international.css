@@ -562,7 +562,7 @@ html[dir="rtl"] .dir-arrow {
   max-width: 1500px;
   margin-inline: auto;
   display: grid;
-  grid-template-columns: 0.86fr 1.14fr;
+  grid-template-columns: 1fr 1fr;
   background: var(--sand);
   min-height: 580px;
   position: relative;
@@ -871,6 +871,7 @@ html[lang="ar"] .product h3 {
   color: var(--muted);
   line-height: 1.55;
   margin-bottom: 10px;
+  flex: 1;
 }
 
 .product-specs-line {
@@ -1051,9 +1052,11 @@ html[lang="ar"] .product h3 {
 }
 
 .swatches {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+  max-width: 440px;
   margin: 6px 0 26px;
 }
 
@@ -1116,7 +1119,7 @@ html[lang="ar"] .product h3 {
   background: var(--sage-soft);
   border: 1px solid #cfd6c6;
   display: grid;
-  grid-template-columns: 0.85fr 1.15fr;
+  grid-template-columns: 1fr 1fr;
   overflow: hidden;
 }
 
@@ -1170,8 +1173,8 @@ html[lang="ar"] .product h3 {
    -------------------------------------------------------------------------- */
 .form-area {
   display: grid;
-  grid-template-columns: 0.82fr 1.18fr;
-  gap: clamp(28px, 5vw, 72px);
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(28px, 5vw, 64px);
   align-items: start;
 }
 
@@ -1576,6 +1579,9 @@ html.motion-ready [data-reveal].is-revealed {
   .grid {
     grid-template-columns: 1fr;
     gap: 28px;
+  }
+  .swatches {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .fields {
     grid-template-columns: 1fr;

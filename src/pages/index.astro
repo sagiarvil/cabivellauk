@@ -2,103 +2,101 @@
 import SiteLayout from '../layouts/SiteLayout.astro';
 import { collectionsData } from '../data/collections';
 import { siteConfig } from '../data/navigation';
-import DynamicWatermark from '../components/DynamicWatermark.astro';
 
-const collections = Object.values(collectionsData).slice(0, 12);
+const coreCollectionSlugs = [
+  'coffee-stations',
+  'kitchens',
+  'bathrooms',
+  'pantry-larder',
+  'fitted-storage',
+  'kitchen-doors'
+];
+
+const collections = coreCollectionSlugs
+  .map((slug) => collectionsData[slug])
+  .filter(Boolean);
 
 const flagshipCoffeeCorners = [
   {
     code: 'EV–01 · 90 × 45 × 205 cm',
-    title: 'RIVA 90 — Arched Alcove Compact Coffee Station',
-    finish: 'Sand Beige Membrane MDF · Contactless Hand-Wave LED',
-    desc: 'Engineered for British kitchen alcoves and dining corners with a vertically grooved arched preparation bay, contactless hand-wave daylight LED illumination, soft-close drawer, and 18 mm full-MDF carcass.',
+    title: 'RIVA 90',
+    subtitle: 'Arched Alcove Compact Station',
+    finish: 'Sand Beige 18 mm Full MDF · Hand-Wave LED',
+    spec: 'Fluted arched preparation deck, damped accessory drawer and twin base cupboard.',
     image: '/assets/kk-evsel/kk-ev-01-riva-90-kum-beji-01.webp',
-    link: '/coffee-corners/#ev-ev-01'
+    link: '/coffee-corners/riva-90-sand-beige/'
   },
   {
     code: 'EV–04 · 170 × 45 × 205 cm',
-    title: 'RIVA 170 — Twin Glazed Vitrine Barista Credenza',
-    finish: 'Sand Beige Membrane MDF · Symmetrical 40 + 90 + 40 cm Suite',
-    desc: 'Flanks an arched central espresso alcove with twin full-height 6 mm tempered glass display towers and contactless daylight LED lighting for open-plan British kitchen-diners.',
+    title: 'RIVA 170',
+    subtitle: 'Twin Glazed Vitrine Credenza',
+    finish: 'Sand Beige 18 mm Full MDF · 40 + 90 + 40 cm',
+    spec: 'Twin full-height 6 mm tempered glass display columns flanking an arched barista bay.',
     image: '/assets/kk-evsel/kk-ev-04-riva-170-kum-beji-01.webp',
-    link: '/coffee-corners/#ev-ev-04'
+    link: '/coffee-corners/riva-170-sand-beige/'
   },
   {
     code: 'EV–11 · 170 × 45 × 205 cm',
-    title: 'CLARO 170 — Twin Full-Height Smoked Glass Bar',
-    finish: 'Matt White Full MDF · Black-Framed Smoked Glass Vitrines',
-    desc: 'Pairs floor-to-ceiling LED-lit smoked glass display columns with a generous 86 cm central barista station and concealed soft-close larder cupboards.',
+    title: 'CLARO 170',
+    subtitle: 'Smoked Glass Barista Suite',
+    finish: 'Silk White 18 mm Full MDF · Smoked Vitrines',
+    spec: 'Floor-to-ceiling LED-lit smoked glass display towers with an 86 cm preparation deck.',
     image: '/assets/kk-evsel/kk-ev-11-claro-170-beyaz-01.webp',
-    link: '/coffee-corners/#ev-ev-11'
+    link: '/coffee-corners/claro-170-white/'
   },
   {
     code: 'EV–19 · 170 × 45 × 205 cm',
-    title: 'TERRA 170 — Sand Beige Twin Full-Height Vitrine',
-    finish: 'Sand Beige Full MDF · 5-Shelf Smoked Glass Display Towers',
-    desc: 'Combines dining room credenza capacity with a dedicated domestic coffee bar, featuring twin five-shelf illuminated smoked glass vitrines and telescopic damped drawers.',
+    title: 'TERRA 170',
+    subtitle: 'Double Vitrine Dining Suite',
+    finish: 'Sand Beige 18 mm Full MDF · 5-Tier Vitrines',
+    spec: 'Five-shelf illuminated smoked glass towers paired with telescopic soft-close storage.',
     image: '/assets/kk-evsel/kk-ev-19-terra-170-kum-beji-01.webp',
-    link: '/coffee-corners/#ev-ev-19'
+    link: '/coffee-corners/terra-170-sand-beige/'
   },
   {
     code: 'EV–23 · 170 × 45 × 205 cm',
-    title: 'NATURA 170 — Natural Oak Grain & Smoked Glass Suite',
-    finish: 'Natural Oak Grain Full MDF · Twin Smoked Glass Towers',
-    desc: 'Brings organic timber warmth to British living spaces with an 18 mm natural oak-grain full-MDF carcass, twin LED-lit smoked glass vitrines, and soft-close storage.',
+    title: 'NATURA 170',
+    subtitle: 'Natural Oak & Smoked Glass',
+    finish: 'Natural Oak Grain 18 mm MDF · Twin Vitrines',
+    spec: 'Warm timber-grain carcass with black-framed smoked glass columns and warm LED lighting.',
     image: '/assets/kk-evsel/kk-ev-23-natura-170-ahsap-01.webp',
-    link: '/coffee-corners/#ev-ev-23'
+    link: '/coffee-corners/natura-170-oak/'
   },
   {
     code: 'EV–26 · 140 × 45 × 208 cm',
-    title: 'TOSCANA 140 — Wide Timber Worktop & Dual Sockets',
-    finish: 'Matt White Membrane MDF · Warm Timber Alcove · 2 Sockets',
-    desc: 'Features an uninterrupted 140 cm preparation worktop with 2 flush-mounted power sockets, touch-sensor LED task lighting, four glazed upper doors, and twin soft-close drawers.',
+    title: 'TOSCANA 140',
+    subtitle: 'Wide Worktop & Dual Sockets',
+    finish: 'Matt White 18 mm MDF · Timber Worktop',
+    spec: 'Uninterrupted 140 cm preparation deck with 2 flush power sockets and 4 glazed upper doors.',
     image: '/assets/kk-evsel/kk-ev-26-toscana-140-01.webp',
-    link: '/coffee-corners/#ev-ev-26'
+    link: '/coffee-corners/toscana-140/'
   }
 ];
 
 const featuredKitchens = [
   {
-    title: 'Iconica',
-    desc1: 'Iconica redefines contemporary British kitchen architecture by eliminating the traditional upper Gola profile for an uninterrupted horizontal plane.',
-    desc2: 'Seamless alignment between worktop and cabinet front creates monolithic visual harmony across natural stone, lacquer, and fine timber veneers.',
+    eyebrow: '01 / CONTEMPORARY ARCHITECTURE',
+    title: 'Belgravia Handleless',
+    desc: 'Silk-matt polyurethane lacquer fronts with recessed shadow-line Gola profiles and 50 kg Blum Legrabox drawers, fabricated to millimetric site dimensions.',
+    spec: '18 mm MR-Core Carcass · Zero-Joint PUR Edging · Custom RAL Palette',
     image: '/assets/img/models/kitchen_suites/belgravia-handleless_1.webp',
-    link: '/collections/kitchens/'
+    link: '/collections/kitchens/belgravia-handleless/'
   },
   {
-    title: 'Lounge',
-    desc1: 'Guided by the principle that form follows function, Lounge interprets everyday family living through refined ergonomic proportions and generous storage volume.',
-    desc2: 'A recessed low-plinth architecture increases internal carcass capacity whilst maintaining a poised, minimalist silhouette.',
-    image: '/assets/img/models/kitchen_suites/cotswold-linear-grooved_1.webp',
-    link: '/collections/kitchens/'
-  },
-  {
-    title: 'Belgravia',
-    desc1: 'Belgravia unites classic British Shaker heritage with contemporary architectural proportions. Its 22 mm solid hardwood framing and micro-bevelled rails lend enduring depth to period and modern homes alike.',
-    desc2: 'Oven-cured multi-coat polyurethane lacquer shields against kitchen steam and daily wear, paired with 40 kg full-extension soft-close runners for silent lifetime comfort.',
-    image: '/assets/img/models/kitchen_suites/blenheim-grand-manor_1.webp',
-    link: '/collections/kitchens/'
-  },
-  {
-    title: 'Mayfair',
-    desc1: 'Mayfair represents the pinnacle of contemporary British interior joinery with super-matt tactile lacquer surfaces, floor-to-ceiling concealed larder armoires, and a sculptural monolithic island.',
-    desc2: 'Laser-welded zero-joint edging and concealed push-to-open mechanics deliver pure handleless geometry tailored to millimetric site dimensions across the UK.',
-    image: '/assets/img/models/kitchen_suites/mayfair-minimalist-metallic_1.webp',
-    link: '/collections/kitchens/'
-  },
-  {
-    title: 'Kensington',
-    desc1: 'Kensington becomes the architectural centrepiece of open-plan living spaces through fluted oak panelling, bronze-framed glass display vitrines, and integrated linear LED illumination.',
-    desc2: 'Crown-cut European timber veneers are individually book-matched by master joiners and paired with natural quartz and marble surfaces for timeless sophistication.',
+    eyebrow: '02 / TIMBER & NATURAL STONE',
+    title: 'Kensington Fluted Oak',
+    desc: 'Book-matched European oak fluted island joinery paired with bronze-framed smoked glass vitrines and integrated linear task illumination.',
+    spec: 'FSC European Oak Veneer · 6 mm Tempered Glass · Soft-Close Hardware',
     image: '/assets/img/models/kitchen_suites/chelsea-architectural-glass_1.webp',
-    link: '/collections/kitchens/'
+    link: '/collections/kitchens/kensington-fluted-island/'
   },
   {
-    title: 'Richmond',
-    desc1: 'Richmond pairs intelligent pantry and barista station organisation with precision pocket-door cabinetry—opening smoothly for daily preparation and concealing cleanly when not in use.',
-    desc2: 'Crafted in our dedicated woodworking facilities and delivered in reinforced protective crating directly to residential and commercial sites across the United Kingdom.',
-    image: '/assets/img/models/kitchen_suites/chiswick-modernist-frame_1.webp',
-    link: '/collections/kitchens/'
+    eyebrow: '03 / BRITISH HERITAGE JOINERY',
+    title: 'Wimbledon In-Frame Shaker',
+    desc: 'Traditional 22 mm solid hardwood outer frames with mortise-and-tenon joints, dovetailed oak drawer boxes, and 60 mm period wall scribing fillets.',
+    spec: '22 mm Kiln-Dried Hardwood · Dovetailed Oak Drawers · Period Proportions',
+    image: '/assets/img/models/kitchen_suites/blenheim-grand-manor_1.webp',
+    link: '/collections/kitchens/wimbledon-village-in-frame-shaker/'
   }
 ];
 ---
@@ -114,7 +112,7 @@ const featuredKitchens = [
     <div class="v6-hero-image-wrap" aria-hidden="true">
       <img 
         src="/assets/img/homepage-hero-approved.webp" 
-        alt="Cabivella bespoke cabinetry and coffee corner joinery in a contemporary British interior" 
+        alt="Cabivella bespoke cabinetry and coffee corner joinery in a contemporary interior" 
         width="1920" 
         height="977"
         loading="eager"
@@ -125,10 +123,14 @@ const featuredKitchens = [
     <div class="v6-hero-gradient" aria-hidden="true"></div>
 
     <div class="v6-hero-content wrap">
+      <span class="v6-hero-kicker" data-reveal>CABIVELLA · BESPOKE JOINERY &amp; CABINETRY</span>
       <h1 data-reveal>More room for living.</h1>
+      <p class="v6-hero-sub" data-reveal>
+        Made-to-measure coffee corners, kitchens, bathroom vanities, and fitted wardrobes—crafted in our woodworking workshops for homes and commercial projects.
+      </p>
       <div class="v6-hero-links" data-reveal>
         <a href="/coffee-corners/" class="v6-hero-primary-btn">
-          <span>Explore Coffee Corners (32 Models)</span>
+          <span>Coffee Corners (32 Models)</span>
           <span aria-hidden="true">→</span>
         </a>
         <a href="/collections/kitchens/" class="v6-hero-link">
@@ -139,8 +141,48 @@ const featuredKitchens = [
     </div>
 
     <div class="v6-hero-bottom wrap">
-      <div>Flagship MDF Coffee Corners &amp; Bespoke Joinery · Made to measure · Direct UK Supply</div>
-      <a href="/coffee-corners/">Discover 32 Home Coffee Corners →</a>
+      <div>18 mm Full-MDF Coffee Corners · Solid Timber &amp; Lacquered Joinery · Direct Export &amp; UK Supply</div>
+      <a href="/coffee-corners/">Explore All 32 Models →</a>
+    </div>
+  </section>
+
+  <!-- Core Room Collections (6 Core Disciplines in 3-Column Editorial Grid) -->
+  <section class="core-collections-section" id="collections" aria-labelledby="collections-title">
+    <div class="wrap">
+      <div class="core-collections-head" data-reveal>
+        <div>
+          <span class="section-eyebrow">SIX CORE DISCIPLINES</span>
+          <h2 id="collections-title">Cabinetry designed for real rooms.</h2>
+        </div>
+        <p>Every piece is built to order around your dimensions, finishes, and destination—whether for a single alcove or a multi-unit specification.</p>
+      </div>
+
+      <div class="core-collections-grid" data-reveal-group>
+        {collections.map((cat, idx) => {
+          const href = cat.slug === 'coffee-stations' ? '/coffee-corners/' : `/collections/${cat.slug}/`;
+          const displayTitle = cat.slug === 'coffee-stations' ? 'Coffee Corners' : cat.title;
+          return (
+            <a href={href} class="core-cat-card" data-reveal data-reveal-delay={String((idx % 3) + 1)}>
+              <div class="core-cat-photo">
+                <img 
+                  src={cat.image} 
+                  alt={`${displayTitle} cabinetry by Cabivella`} 
+                  width="640" 
+                  height="500" 
+                  loading="lazy" 
+                  decoding="async"
+                />
+                <span class="core-cat-num">0{idx + 1}</span>
+              </div>
+              <div class="core-cat-body">
+                <h3>{displayTitle}</h3>
+                <p>{cat.shortCopy}</p>
+                <span class="core-cat-link">Explore {displayTitle} <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
     </div>
   </section>
 
@@ -149,15 +191,15 @@ const featuredKitchens = [
     <div class="wrap">
       <div class="flagship-coffee-header" data-reveal>
         <div>
-          <span class="section-eyebrow">OUR FLAGSHIP COLLECTION &bull; 32 BESPOKE MDF MODELS</span>
-          <h2 id="flagship-coffee-heading">Bespoke Home Coffee Corners &amp; Barista Stations.</h2>
+          <span class="section-eyebrow">FLAGSHIP SERIES &bull; 32 FULL-MDF MODELS</span>
+          <h2 id="flagship-coffee-heading">Bespoke Home Coffee Corners.</h2>
           <p class="flagship-coffee-lead">
-            From 90 cm compact arched alcove units to 130 cm single-vitrine and 170 cm twin-vitrine dining room credenzas—every model is crafted from 18 mm Grade-A full MDF with sensor-activated daylight LED lighting, soft-close drawers, and optional integrated power sockets.
+            Available in 90 cm, 130 cm, 140 cm, and 170 cm widths—fabricated entirely from 18 mm Grade-A full MDF with sensor daylight LED illumination, tempered glass vitrines, and damped drawers.
           </p>
         </div>
         <div class="flagship-coffee-cta-box">
           <a href="/coffee-corners/" class="solid-btn">
-            <span>View All 32 Coffee Corner Models</span>
+            <span>View All 32 Models</span>
             <span aria-hidden="true">→</span>
           </a>
         </div>
@@ -170,7 +212,7 @@ const featuredKitchens = [
               <div class="flagship-coffee-img-wrap">
                 <img
                   src={item.image}
-                  alt={`${item.title} — Cabivella UK bespoke MDF coffee corner`}
+                  alt={`${item.title} ${item.subtitle} — Cabivella bespoke MDF coffee corner`}
                   width="760"
                   height="860"
                   loading="lazy"
@@ -180,9 +222,9 @@ const featuredKitchens = [
               </div>
               <div class="flagship-coffee-body">
                 <span class="flagship-coffee-finish">{item.finish}</span>
-                <h3>{item.title}</h3>
-                <p>{item.desc}</p>
-                <span class="flagship-coffee-more">Inspect Full Gallery &amp; Dimensions →</span>
+                <h3>{item.title} <span>{item.subtitle}</span></h3>
+                <p>{item.spec}</p>
+                <span class="flagship-coffee-more">View Dimensions &amp; Gallery →</span>
               </div>
             </a>
           </article>
@@ -191,18 +233,19 @@ const featuredKitchens = [
     </div>
   </section>
 
-  <!-- 50/50 Alternating Full-Bleed Split Showcase (100% British English) -->
+  <!-- 3 Signature Architectural Kitchen Spotlights (50/50 Editorial Split) -->
   <section class="locus-split-showcase" aria-label="Featured Bespoke Kitchen Architecture">
     {featuredKitchens.map((model, idx) => {
       const isReversed = idx % 2 === 1;
       return (
         <div class={`locus-split-row ${isReversed ? 'is-reversed' : ''}`} data-reveal>
           <div class="locus-content-box">
+            <span class="locus-row-eyebrow">{model.eyebrow}</span>
             <h3 class="locus-model-title">{model.title}</h3>
-            <p>{model.desc1}</p>
-            <p>{model.desc2}</p>
+            <p>{model.desc}</p>
+            <div class="locus-spec-line">{model.spec}</div>
             <div>
-              <a href={model.link} class="locus-btn">EXPLORE COLLECTION</a>
+              <a href={model.link} class="locus-btn">VIEW SPECIFICATION</a>
             </div>
           </div>
           <div class="locus-image-box">
@@ -220,41 +263,7 @@ const featuredKitchens = [
     })}
   </section>
 
-  <!-- Ghost Watermark Dynamic Header -->
-  <DynamicWatermark text="CABIVELLA" />
-
-  <!-- Collections Grid Section -->
-  <section class="v6-category-section" id="collections" aria-labelledby="collections-title">
-    <div class="wrap">
-      <div class="section-header" data-reveal>
-        <span class="section-eyebrow">THE COLLECTIONS</span>
-        <h2 id="collections-title">Cabinetry designed for real rooms.</h2>
-        <p style="color: var(--muted); margin-top: 8px;">Explore our core cabinetry directions, each engineered for practical UK floorplans.</p>
-      </div>
-
-      <div class="v6-category-grid" data-reveal-group>
-        {collections.map((cat, idx) => (
-          <a href={cat.slug === 'coffee-stations' ? '/coffee-corners/' : `/collections/${cat.slug}/`} class="v6-category-card" data-reveal data-reveal-delay={String((idx % 6) + 1)}>
-            <span class="v6-card-photo">
-              <img 
-                src={cat.image} 
-                alt={`${cat.title} cabinetry by Cabivella`} 
-                width="480" 
-                height="378" 
-                loading="lazy" 
-                decoding="async"
-              />
-            </span>
-            <span class="v6-card-heading">{cat.title}</span>
-            <span class="v6-card-copy">{cat.shortCopy}</span>
-            <span class="v6-card-arrow" aria-hidden="true">⟶</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- Editorial Feature -->
+  <!-- Editorial Craft & Provenance -->
   <section class="editorial-feature" aria-labelledby="craft-title">
     <div class="wrap editorial-grid">
       <div data-reveal>
@@ -265,43 +274,17 @@ const featuredKitchens = [
           height="900"
           loading="lazy" 
           decoding="async"
-          style="border-radius: 4px;"
         />
       </div>
       <div class="editorial-copy" data-reveal>
-        <span class="section-eyebrow">A CONSIDERED APPROACH</span>
-        <h2 id="craft-title">Beauty is found in the details.</h2>
-        <p>A cupboard can hold the little things that matter most. We favour quiet proportions, practical storage and finishes chosen for the life of a room.</p>
-        <p>From precision hydraulic soft-close mechanics to kiln-dried hardwood frames, every cabinet is built to endure everyday family life.</p>
-        <a href="/materials/" class="text-link">Explore materials and finishes ↗</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Story Teaser Section -->
-  <section class="wrap" style="padding: 80px var(--edge);" aria-labelledby="story-title">
-    <div class="editorial-grid">
-      <div data-reveal>
-        <span class="section-eyebrow">OUR HERITAGE</span>
-        <h2 id="story-title">Dedicated workshop craft.<br />British sensibility.</h2>
-        <p style="color: #4f5750; font-size: 16px; line-height: 1.7; margin-top: 18px;">
-          Cabivella manufactures and exports bespoke coffee corners, fitted kitchens, and architectural joinery directly to individual homeowners, architects, and trade clients across the United Kingdom and Europe.
-        </p>
-        <p style="color: #4f5750; font-size: 15px; line-height: 1.7;">
-          Connecting specialized master woodworking production with direct international freight logistics, we supply precision-engineered joinery of verified architectural pedigree.
-        </p>
-        <a href="/our-story/" class="text-link">Read our complete story ↗</a>
-      </div>
-      <div data-reveal>
-        <img 
-          src="/assets/img/istanbul-skyline.webp" 
-          alt="Line-art illustration of architectural craftsmanship" 
-          width="800" 
-          height="600"
-          loading="lazy" 
-          decoding="async"
-          style="border-radius: 3px;"
-        />
+        <span class="section-eyebrow">WORKSHOP CRAFT &amp; MATERIALS</span>
+        <h2 id="craft-title">Built for the life of a room.</h2>
+        <p>We pair kiln-dried European hardwoods and 18 mm moisture-resistant cores with precision Blum soft-close hardware and multi-coat polyurethane lacquers.</p>
+        <p>Every order is fabricated in our dedicated woodworking facilities in Turkey and shipped in reinforced protective crating direct to residential and trade sites.</p>
+        <div class="editorial-links-row">
+          <a href="/materials/" class="text-link">Materials &amp; Finishes ↗</a>
+          <a href="/our-story/" class="text-link">Our Workshop Story ↗</a>
+        </div>
       </div>
     </div>
   </section>
@@ -310,9 +293,9 @@ const featuredKitchens = [
   <section class="cta-band" aria-labelledby="cta-heading">
     <div class="wrap">
       <div data-reveal>
-        <span class="section-eyebrow" style="color: #e2c99a;">START A CONVERSATION</span>
-        <h2 id="cta-heading">Tell us what you have in mind.</h2>
-        <p>Whether you are selecting a bespoke coffee corner, planning a complete kitchen, or specifying fitted cabinetry, the best conversations begin with your room and its purpose.</p>
+        <span class="section-eyebrow">DIRECT SPECIFICATION DESK</span>
+        <h2 id="cta-heading">Start with your dimensions.</h2>
+        <p>Share your room measurements, chosen model, or architectural drawings to receive an itemised written quotation.</p>
         
         <div class="cta-band-actions">
           <a href="/coffee-corners/" class="solid-btn" style="background: var(--gold-warm); color: #1a241c !important;">
@@ -320,7 +303,7 @@ const featuredKitchens = [
             <span aria-hidden="true">→</span>
           </a>
           <a href="/enquire/" class="solid-btn" style="background: transparent; border-color: rgba(255,255,255,0.45); color: #ffffff !important;">
-            <span>Make an Enquiry</span>
+            <span>Request a Quotation</span>
             <span aria-hidden="true">↗</span>
           </a>
           <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" class="solid-btn" style="background: #25D366; border-color: #25D366; color: #ffffff !important;">
@@ -334,9 +317,128 @@ const featuredKitchens = [
 </SiteLayout>
 
 <style>
+  .v6-hero-kicker {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: #e5ca93;
+    margin-bottom: 12px;
+  }
+  .v6-hero-sub {
+    font-size: clamp(15px, 1.25vw, 17px) !important;
+    line-height: 1.65 !important;
+    color: #f4f1ea !important;
+    max-width: 520px !important;
+    margin: 0 0 26px !important;
+  }
+
+  /* 6 Core Collections 3-Column Editorial Grid */
+  .core-collections-section {
+    padding: 76px 0 84px;
+    background: #fcfaf6;
+  }
+  .core-collections-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+    margin-bottom: 36px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+  .core-collections-head h2 {
+    font-size: clamp(28px, 3.4vw, 44px);
+    line-height: 1.12;
+    margin: 6px 0 0;
+  }
+  .core-collections-head p {
+    max-width: 440px;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #4f5850;
+    margin: 0;
+  }
+  .core-collections-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px 24px;
+  }
+  .core-cat-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.28s var(--ease), box-shadow 0.28s var(--ease), border-color 0.28s var(--ease);
+  }
+  .core-cat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(20, 30, 24, 0.08);
+    border-color: #c8b288;
+  }
+  .core-cat-photo {
+    position: relative;
+    aspect-ratio: 5 / 4;
+    background: #eae4d7;
+    overflow: hidden;
+    border-bottom: 1px solid var(--line);
+  }
+  .core-cat-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.55s var(--ease);
+  }
+  .core-cat-card:hover .core-cat-photo img {
+    transform: scale(1.03);
+  }
+  .core-cat-num {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(252, 250, 246, 0.94);
+    border: 1px solid rgba(185, 145, 74, 0.35);
+    padding: 4px 9px;
+    font-family: Georgia, serif;
+    font-size: 11.5px;
+    color: #544636;
+  }
+  .core-cat-body {
+    padding: 20px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .core-cat-body h3 {
+    font-size: 21px;
+    margin: 0 0 8px;
+    color: var(--text);
+  }
+  .core-cat-body p {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #525b53;
+    margin: 0 0 16px;
+    flex: 1;
+  }
+  .core-cat-link {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--green);
+    padding-top: 12px;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Flagship Coffee Corners Section */
   .flagship-coffee-section {
     padding: 72px 0 80px;
-    background: #f6f4ee;
+    background: #f4f0e6;
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
   }
@@ -345,39 +447,38 @@ const featuredKitchens = [
     justify-content: space-between;
     align-items: flex-end;
     gap: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
     flex-wrap: wrap;
   }
   .flagship-coffee-header h2 {
-    font-size: clamp(28px, 3.4vw, 46px);
+    font-size: clamp(28px, 3.4vw, 44px);
     line-height: 1.1;
-    margin: 8px 0 14px;
+    margin: 8px 0 12px;
   }
   .flagship-coffee-lead {
-    font-size: 16px;
+    font-size: 15.5px;
     line-height: 1.65;
     color: #454f47;
-    max-width: 780px;
+    max-width: 700px;
     margin: 0;
   }
   .flagship-coffee-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 26px;
+    gap: 24px;
   }
   .flagship-coffee-card {
     background: #ffffff;
     border: 1px solid var(--line);
-    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 8px 26px rgba(20, 30, 24, 0.05);
-    transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+    box-shadow: 0 8px 24px rgba(20, 30, 24, 0.04);
+    transition: transform 0.28s var(--ease), box-shadow 0.28s var(--ease);
     display: flex;
     flex-direction: column;
   }
   .flagship-coffee-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 16px 38px rgba(20, 30, 24, 0.1);
+    box-shadow: 0 16px 36px rgba(20, 30, 24, 0.09);
   }
   .flagship-coffee-link {
     display: flex;
@@ -397,7 +498,7 @@ const featuredKitchens = [
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.6s var(--ease);
+    transition: transform 0.55s var(--ease);
   }
   .flagship-coffee-card:hover .flagship-coffee-img-wrap img {
     transform: scale(1.03);
@@ -406,22 +507,21 @@ const featuredKitchens = [
     position: absolute;
     top: 12px;
     left: 12px;
-    background: rgba(7, 45, 37, 0.9);
+    background: rgba(7, 45, 37, 0.92);
     color: #f6f3eb;
     font-size: 11px;
     font-weight: 700;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     padding: 5px 10px;
-    border-radius: 4px;
   }
   .flagship-coffee-body {
-    padding: 20px 22px 22px;
+    padding: 18px 20px 20px;
     display: flex;
     flex-direction: column;
     flex: 1;
   }
   .flagship-coffee-finish {
-    font-size: 11px;
+    font-size: 10.5px;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -429,16 +529,23 @@ const featuredKitchens = [
     margin-bottom: 6px;
   }
   .flagship-coffee-body h3 {
-    font-size: 18px;
-    line-height: 1.3;
-    margin: 0 0 10px;
+    font-size: 19px;
+    line-height: 1.25;
+    margin: 0 0 8px;
     color: var(--text);
   }
+  .flagship-coffee-body h3 span {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #5a635b;
+    margin-top: 2px;
+  }
   .flagship-coffee-body p {
-    font-size: 13.5px;
-    line-height: 1.6;
+    font-size: 13px;
+    line-height: 1.55;
     color: #4f5750;
-    margin: 0 0 16px;
+    margin: 0 0 14px;
     flex: 1;
   }
   .flagship-coffee-more {
@@ -448,12 +555,37 @@ const featuredKitchens = [
     padding-top: 12px;
     border-top: 1px solid var(--border-subtle);
   }
+
+  .locus-row-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: #7c6643;
+    text-transform: uppercase;
+  }
+  .locus-spec-line {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #2c3830;
+    padding: 7px 12px;
+    background: rgba(255, 255, 255, 0.55);
+    border-left: 2px solid #96764b;
+  }
+  .editorial-links-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 8px;
+  }
+
   @media (max-width: 980px) {
+    .core-collections-grid,
     .flagship-coffee-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   @media (max-width: 640px) {
+    .core-collections-grid,
     .flagship-coffee-grid {
       grid-template-columns: 1fr;
     }

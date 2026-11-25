@@ -463,13 +463,13 @@ import DynamicWatermark from '../../components/DynamicWatermark.astro';
   }
 
   .leadership-credentials {
-    display: flex;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
     margin: 28px 0 32px;
-    padding: 18px 0;
+    padding: 20px 0;
     border-top: 1px solid var(--border-subtle);
     border-bottom: 1px solid var(--border-subtle);
-    flex-wrap: wrap;
   }
 
   .credential-item strong {

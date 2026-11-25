@@ -42,7 +42,11 @@ const breadcrumbItems = [
 const breadcrumbSchema = getBreadcrumbSchema(breadcrumbItems);
 const productSchema = getProductSchema(model, `https://cabivella.co.uk${canonicalPath}`);
 const schemas = [breadcrumbSchema, productSchema];
-import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
+
+const cleanDescription = `${model.title} — fabricated to order with ${model.materials[0] || 'kiln-dried timber and moisture-resistant core substrates'}, ${model.materials[2] || 'soft-close European motion hardware'}, and custom millimetric sizing.`;
+const cleanFeatures = model.keyFeatures.map((f) =>
+  f.replace(/^Authentic British bespoke joinery engineering tailored around\s*/i, 'Precision joinery specification: ')
+);
 ---
 
 <SiteLayout 
@@ -55,11 +59,8 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
 >
   <Breadcrumbs items={breadcrumbItems} />
 
-  <!-- Ghost Watermark Header -->
-  <DynamicWatermark text={model.title} />
-
   <article class="wrap model-article-wrap">
-    <!-- Top Details Grid -->
+    <!-- Top Details Grid (50/50 Symmetrical Split) -->
     <div class="model-details-grid">
       <!-- Left: Visual Gallery -->
       <div data-reveal class="model-gallery-col">
@@ -71,14 +72,14 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
         <span class="section-eyebrow">{category.title.toUpperCase()} SPECIFICATION</span>
         <h1 class="model-heading">{model.title}</h1>
         <p class="model-description">
-          {model.description}
+          {cleanDescription}
         </p>
 
         <!-- Key Features Checklist -->
         <div class="model-highlights-card">
           <h3 class="highlights-heading">Design Highlights</h3>
           <ul class="highlights-list">
-            {model.keyFeatures.map((feat) => (
+            {cleanFeatures.map((feat) => (
               <li>{feat}</li>
             ))}
           </ul>
@@ -138,8 +139,8 @@ import DynamicWatermark from '../../../../components/DynamicWatermark.astro';
 
   .model-details-grid {
     display: grid;
-    grid-template-columns: 1.15fr 1fr;
-    gap: 48px;
+    grid-template-columns: 1fr 1fr;
+    gap: 44px;
     align-items: start;
   }
 

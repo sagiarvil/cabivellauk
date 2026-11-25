@@ -1423,10 +1423,10 @@ img {
   font-weight: 600 !important;
   font-style: normal !important;
   font-size: clamp(32px, 3.8vw, 52px) !important;
-  line-height: 1.15 !important;
+  line-height: 1.12 !important;
   letter-spacing: -0.03em !important;
-  white-space: nowrap !important;
-  margin: 0 0 20px 0 !important;
+  white-space: normal !important;
+  margin: 0 0 16px 0 !important;
   color: #ffffff !important;
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7) !important;
 }

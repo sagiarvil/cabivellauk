@@ -32,8 +32,8 @@ import DynamicWatermark from '../../components/DynamicWatermark.astro';
       </p>
     </div>
 
-    <!-- Trade Pillars Grid -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 60px;" data-reveal-group>
+    <!-- Trade Pillars Grid (Symmetrical 3-Column Grid) -->
+    <div class="trade-pillars-grid" data-reveal-group>
       <div class="v6-category-card" data-reveal data-reveal-delay="1">
         <h3 style="font-size: 18px; margin-bottom: 8px; color: var(--green);">Architectural Tender Support</h3>
         <p style="font-size: 13px; color: var(--muted); line-height: 1.6;">
@@ -79,3 +79,17 @@ import DynamicWatermark from '../../components/DynamicWatermark.astro';
     </div>
   </section>
 </SiteLayout>
+
+<style>
+  .trade-pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin-bottom: 56px;
+  }
+  @media (max-width: 860px) {
+    .trade-pillars-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

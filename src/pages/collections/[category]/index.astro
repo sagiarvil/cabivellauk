@@ -518,7 +518,7 @@ const bathroomSubCollections = [
                   <h3 class="card-title">
                     <a href={`/collections/${category.slug}/${model.slug}/`}>{model.title}</a>
                   </h3>
-                  <p class="card-description">{model.description}</p>
+                  <p class="card-description">{model.materials?.[0] || '18 mm Moisture-Resistant Core & European Motion Hardware'}</p>
 
                   <div class="card-meta-row">
                     <span class="card-price-ref">
