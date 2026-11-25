@@ -143,6 +143,12 @@
           intlTrigger.setAttribute('aria-expanded', 'false');
         }
       });
+
+      intlMenu.addEventListener('focusout', function (e) {
+        if (e.relatedTarget && !intlMenu.contains(e.relatedTarget)) {
+          setIntlOpen(false, false);
+        }
+      });
     }
 
     if (mobileBtn && mobileDrawer) {
@@ -292,12 +298,32 @@
         }
       }
       if (e.target === productEl && productEl.value) {
+        if (modelEl && modelEl.dataset.autoProduct && modelEl.dataset.autoProduct !== productEl.value) {
+          modelEl.value = '';
+          delete modelEl.dataset.autoProduct;
+          if (measureEl && measureEl.dataset.autoFilled === 'true') {
+            measureEl.value = '';
+            delete measureEl.dataset.autoFilled;
+          }
+        }
         trackEvent('product_select', {
           product: productEl.value,
           source: 'form_select'
         });
       }
     });
+
+    if (measureEl) {
+      measureEl.addEventListener('input', function () {
+        delete measureEl.dataset.autoFilled;
+      });
+    }
+
+    if (modelEl) {
+      modelEl.addEventListener('input', function () {
+        delete modelEl.dataset.autoProduct;
+      });
+    }
 
     // Wire all product/model/type triggers across page
     document.querySelectorAll('[data-type], [data-product], [data-model], [data-finish]').forEach(function (trigger) {
@@ -314,15 +340,26 @@
         }
 
         if (tProd && productEl) {
+          var prevProd = productEl.value;
           productEl.value = tProd;
+          if (!tModel && prevProd && prevProd !== tProd && modelEl && modelEl.dataset.autoProduct) {
+            modelEl.value = '';
+            delete modelEl.dataset.autoProduct;
+            if (measureEl && measureEl.dataset.autoFilled === 'true') {
+              measureEl.value = '';
+              delete measureEl.dataset.autoFilled;
+            }
+          }
         }
 
         if (tModel && modelEl) {
           modelEl.value = tModel;
+          modelEl.dataset.autoProduct = tProd || (productEl ? productEl.value : '');
         }
 
-        if (tDims && measureEl && !measureEl.value.trim()) {
+        if (tDims && measureEl && (!measureEl.value.trim() || measureEl.dataset.autoFilled === 'true')) {
           measureEl.value = tDims;
+          measureEl.dataset.autoFilled = 'true';
         }
 
         if (tFinish && finishEl) {
@@ -391,7 +428,7 @@
 
       var rawQty = quantityEl ? quantityEl.value.trim() : '';
       var parsedQty = Number(rawQty);
-      if (!rawQty || isNaN(parsedQty) || parsedQty < 1 || !Number.isInteger(parsedQty)) {
+      if (!rawQty || isNaN(parsedQty) || parsedQty < 1 || parsedQty > 100000 || !Number.isInteger(parsedQty)) {
         showError(cfg.errorQuantity);
         if (quantityEl) {
           quantityEl.focus();

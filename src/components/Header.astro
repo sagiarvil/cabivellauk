@@ -836,6 +836,13 @@ const isActive = (href: string) => {
           ddBtn.setAttribute('aria-expanded', 'false');
         }
       });
+
+      ddGroup.addEventListener('focusout', (e: FocusEvent) => {
+        const nextTarget = e.relatedTarget as Node | null;
+        if (nextTarget && !ddGroup.contains(nextTarget)) {
+          setDropdown(false, false);
+        }
+      });
     }
 
     header.querySelectorAll<HTMLElement>('[data-intl-lang]').forEach((link) => {

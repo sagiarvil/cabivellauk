@@ -71,7 +71,7 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
 
   test('2. Shared header INTERNATIONAL menu is accessible across interior UK pages', async ({ page }) => {
     await page.setViewportSize({ width: 1440, height: 900 });
-    for (const route of ['/coffee-corners/', '/collections/kitchens/', '/collections/bathrooms/', '/trade/']) {
+    for (const route of ['/coffee-corners/', '/materials-supply/collections/building-materials/', '/collections/kitchens/', '/collections/bathrooms/', '/trade/']) {
       await page.goto(route);
       await expect(page.locator('#cb-intl-trigger')).toBeVisible();
     }
@@ -176,9 +176,12 @@ test.describe('Cabivella International V2 — Full Acceptance Suite', () => {
       (window as any).__cabivellaPreventRedirect = true;
     });
 
-    // Click coffee corner model in drawer
+    // Click coffee corner model in drawer: first RIVA 90, then RIVA 170 to verify auto-dims update
     const coffeeDrawer = page.locator('#coffee .models-drawer');
     await coffeeDrawer.locator('summary').click();
+    await coffeeDrawer.locator('[data-model="RIVA 90 (EV-01)"]').click();
+    await expect(page.locator('#measure')).toHaveValue('90 × 45 × 205 cm');
+
     const riva170Btn = coffeeDrawer.locator('[data-model="RIVA 170 (EV-04)"]');
     await riva170Btn.click();
 
