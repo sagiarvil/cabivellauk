@@ -22,7 +22,7 @@ test.describe('Responsive Layout & No Horizontal Overflow Verification', () => {
       expect(hasHorizontalScroll).toBe(false);
 
       // Verify header and footer are attached
-      await expect(page.locator('#site-header')).toBeAttached();
+      await expect(page.locator('#cabivella-header')).toBeAttached();
       await expect(page.locator('footer.site-footer')).toBeAttached();
     });
 
